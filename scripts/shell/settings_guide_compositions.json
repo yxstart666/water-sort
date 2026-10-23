@@ -1,0 +1,6386 @@
+{
+  "home_settings_guide_zh_music_on_sound_on_closed": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_music.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_speaker.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_on",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_zh.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_on",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_zh.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_zh",
+        "asset_id": "modal_language_dropdown_zh",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+        "top_left_px": [
+          471,
+          916
+        ],
+        "native_size_px": [
+          289,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_zh",
+        "asset_id": "modal_text_music_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+        "top_left_px": [
+          315,
+          695
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_zh",
+        "asset_id": "modal_text_sound_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+        "top_left_px": [
+          315,
+          814
+        ],
+        "native_size_px": [
+          93,
+          49
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_zh",
+        "asset_id": "modal_text_language_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+        "top_left_px": [
+          315,
+          931
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "rotation_degrees": 180,
+        "id": "language_caret_down"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "selected_locale",
+        "text": "简体中文",
+        "rect_px": [
+          491,
+          930,
+          215,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "设置",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 72,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "font_family": "Noto Sans CJK JP Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "操作指引",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          471,
+          904,
+          289,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "inactive_under_popover": [],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_zh_music_on_sound_on_expanded": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_music.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_speaker.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_on",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_zh.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_on",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_zh.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_zh",
+        "asset_id": "modal_language_dropdown_zh",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+        "top_left_px": [
+          471,
+          916
+        ],
+        "native_size_px": [
+          289,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_zh",
+        "asset_id": "modal_text_music_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+        "top_left_px": [
+          315,
+          695
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_zh",
+        "asset_id": "modal_text_sound_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+        "top_left_px": [
+          315,
+          814
+        ],
+        "native_size_px": [
+          93,
+          49
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_zh",
+        "asset_id": "modal_text_language_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+        "top_left_px": [
+          315,
+          931
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_zh.png",
+        "top_left_px": [
+          471,
+          1004
+        ],
+        "z": 60,
+        "native_size_px": [
+          289,
+          248
+        ],
+        "id": "guide_layer_11"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "id": "guide_layer_12"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+        "top_left_px": [
+          483,
+          1058
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          28
+        ],
+        "id": "guide_layer_13"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "selected_locale",
+        "text": "简体中文",
+        "rect_px": [
+          491,
+          930,
+          215,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_zh",
+        "text": "简体中文",
+        "rect_px": [
+          512,
+          1022,
+          235,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_en",
+        "text": "English",
+        "rect_px": [
+          512,
+          1140,
+          235,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "设置",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 72,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "font_family": "Noto Sans CJK JP Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "操作指引",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "choose_zh",
+        "rect": [
+          479,
+          1012,
+          273,
+          116
+        ],
+        "action": "select zh; close popover; keep home settings open",
+        "logical_size_at360": [
+          104.44208289054198,
+          44.378320935175346
+        ]
+      },
+      {
+        "id": "choose_en",
+        "rect": [
+          479,
+          1130,
+          273,
+          116
+        ],
+        "action": "select en; close popover; keep home settings open",
+        "logical_size_at360": [
+          104.44208289054198,
+          44.378320935175346
+        ]
+      }
+    ],
+    "inactive_under_popover": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          471,
+          904,
+          289,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_zh_music_on_sound_off_closed": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_music.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_on",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_zh.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_off",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_zh",
+        "asset_id": "modal_language_dropdown_zh",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+        "top_left_px": [
+          471,
+          916
+        ],
+        "native_size_px": [
+          289,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_zh",
+        "asset_id": "modal_text_music_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+        "top_left_px": [
+          315,
+          695
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_zh",
+        "asset_id": "modal_text_sound_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+        "top_left_px": [
+          315,
+          814
+        ],
+        "native_size_px": [
+          93,
+          49
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_zh",
+        "asset_id": "modal_text_language_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+        "top_left_px": [
+          315,
+          931
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "rotation_degrees": 180,
+        "id": "language_caret_down"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "sound_state",
+        "text": "关",
+        "rect_px": [
+          636,
+          809,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_px": 49,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "简体中文",
+        "rect_px": [
+          491,
+          930,
+          215,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "设置",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 72,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "font_family": "Noto Sans CJK JP Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "操作指引",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          471,
+          904,
+          289,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "inactive_under_popover": [],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_zh_music_on_sound_off_expanded": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_music.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_on",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_zh.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_off",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_zh",
+        "asset_id": "modal_language_dropdown_zh",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+        "top_left_px": [
+          471,
+          916
+        ],
+        "native_size_px": [
+          289,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_zh",
+        "asset_id": "modal_text_music_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+        "top_left_px": [
+          315,
+          695
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_zh",
+        "asset_id": "modal_text_sound_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+        "top_left_px": [
+          315,
+          814
+        ],
+        "native_size_px": [
+          93,
+          49
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_zh",
+        "asset_id": "modal_text_language_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+        "top_left_px": [
+          315,
+          931
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_zh.png",
+        "top_left_px": [
+          471,
+          1004
+        ],
+        "z": 60,
+        "native_size_px": [
+          289,
+          248
+        ],
+        "id": "guide_layer_11"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "id": "guide_layer_12"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+        "top_left_px": [
+          483,
+          1058
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          28
+        ],
+        "id": "guide_layer_13"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "sound_state",
+        "text": "关",
+        "rect_px": [
+          636,
+          809,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_px": 49,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "简体中文",
+        "rect_px": [
+          491,
+          930,
+          215,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_zh",
+        "text": "简体中文",
+        "rect_px": [
+          512,
+          1022,
+          235,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_en",
+        "text": "English",
+        "rect_px": [
+          512,
+          1140,
+          235,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "设置",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 72,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "font_family": "Noto Sans CJK JP Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "操作指引",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "choose_zh",
+        "rect": [
+          479,
+          1012,
+          273,
+          116
+        ],
+        "action": "select zh; close popover; keep home settings open",
+        "logical_size_at360": [
+          104.44208289054198,
+          44.378320935175346
+        ]
+      },
+      {
+        "id": "choose_en",
+        "rect": [
+          479,
+          1130,
+          273,
+          116
+        ],
+        "action": "select en; close popover; keep home settings open",
+        "logical_size_at360": [
+          104.44208289054198,
+          44.378320935175346
+        ]
+      }
+    ],
+    "inactive_under_popover": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          471,
+          904,
+          289,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_zh_music_off_sound_on_closed": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_speaker.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_off",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_on",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_zh.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_zh",
+        "asset_id": "modal_language_dropdown_zh",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+        "top_left_px": [
+          471,
+          916
+        ],
+        "native_size_px": [
+          289,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_zh",
+        "asset_id": "modal_text_music_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+        "top_left_px": [
+          315,
+          695
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_zh",
+        "asset_id": "modal_text_sound_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+        "top_left_px": [
+          315,
+          814
+        ],
+        "native_size_px": [
+          93,
+          49
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_zh",
+        "asset_id": "modal_text_language_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+        "top_left_px": [
+          315,
+          931
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "rotation_degrees": 180,
+        "id": "language_caret_down"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "music_state",
+        "text": "关",
+        "rect_px": [
+          636,
+          691,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_px": 49,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "简体中文",
+        "rect_px": [
+          491,
+          930,
+          215,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "设置",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 72,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "font_family": "Noto Sans CJK JP Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "操作指引",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          471,
+          904,
+          289,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "inactive_under_popover": [],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_zh_music_off_sound_on_expanded": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_speaker.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_off",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_on",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_zh.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_zh",
+        "asset_id": "modal_language_dropdown_zh",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+        "top_left_px": [
+          471,
+          916
+        ],
+        "native_size_px": [
+          289,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_zh",
+        "asset_id": "modal_text_music_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+        "top_left_px": [
+          315,
+          695
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_zh",
+        "asset_id": "modal_text_sound_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+        "top_left_px": [
+          315,
+          814
+        ],
+        "native_size_px": [
+          93,
+          49
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_zh",
+        "asset_id": "modal_text_language_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+        "top_left_px": [
+          315,
+          931
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_zh.png",
+        "top_left_px": [
+          471,
+          1004
+        ],
+        "z": 60,
+        "native_size_px": [
+          289,
+          248
+        ],
+        "id": "guide_layer_11"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "id": "guide_layer_12"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+        "top_left_px": [
+          483,
+          1058
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          28
+        ],
+        "id": "guide_layer_13"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "music_state",
+        "text": "关",
+        "rect_px": [
+          636,
+          691,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_px": 49,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "简体中文",
+        "rect_px": [
+          491,
+          930,
+          215,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_zh",
+        "text": "简体中文",
+        "rect_px": [
+          512,
+          1022,
+          235,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_en",
+        "text": "English",
+        "rect_px": [
+          512,
+          1140,
+          235,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "设置",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 72,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "font_family": "Noto Sans CJK JP Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "操作指引",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "choose_zh",
+        "rect": [
+          479,
+          1012,
+          273,
+          116
+        ],
+        "action": "select zh; close popover; keep home settings open",
+        "logical_size_at360": [
+          104.44208289054198,
+          44.378320935175346
+        ]
+      },
+      {
+        "id": "choose_en",
+        "rect": [
+          479,
+          1130,
+          273,
+          116
+        ],
+        "action": "select en; close popover; keep home settings open",
+        "logical_size_at360": [
+          104.44208289054198,
+          44.378320935175346
+        ]
+      }
+    ],
+    "inactive_under_popover": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          471,
+          904,
+          289,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_zh_music_off_sound_off_closed": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_off",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_off",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_zh",
+        "asset_id": "modal_language_dropdown_zh",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+        "top_left_px": [
+          471,
+          916
+        ],
+        "native_size_px": [
+          289,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_zh",
+        "asset_id": "modal_text_music_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+        "top_left_px": [
+          315,
+          695
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_zh",
+        "asset_id": "modal_text_sound_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+        "top_left_px": [
+          315,
+          814
+        ],
+        "native_size_px": [
+          93,
+          49
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_zh",
+        "asset_id": "modal_text_language_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+        "top_left_px": [
+          315,
+          931
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "rotation_degrees": 180,
+        "id": "language_caret_down"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "music_state",
+        "text": "关",
+        "rect_px": [
+          636,
+          691,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_px": 49,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "sound_state",
+        "text": "关",
+        "rect_px": [
+          636,
+          809,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_px": 49,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "简体中文",
+        "rect_px": [
+          491,
+          930,
+          215,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "设置",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 72,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "font_family": "Noto Sans CJK JP Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "操作指引",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          471,
+          904,
+          289,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "inactive_under_popover": [],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_zh_music_off_sound_off_expanded": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_off",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_off",
+        "asset_id": "modal_switch_on_zh",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_zh",
+        "asset_id": "modal_language_dropdown_zh",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+        "top_left_px": [
+          471,
+          916
+        ],
+        "native_size_px": [
+          289,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_zh",
+        "asset_id": "modal_text_music_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+        "top_left_px": [
+          315,
+          695
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_zh",
+        "asset_id": "modal_text_sound_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+        "top_left_px": [
+          315,
+          814
+        ],
+        "native_size_px": [
+          93,
+          49
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_zh",
+        "asset_id": "modal_text_language_zh",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+        "top_left_px": [
+          315,
+          931
+        ],
+        "native_size_px": [
+          93,
+          50
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_zh.png",
+        "top_left_px": [
+          471,
+          1004
+        ],
+        "z": 60,
+        "native_size_px": [
+          289,
+          248
+        ],
+        "id": "guide_layer_11"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "id": "guide_layer_12"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+        "top_left_px": [
+          483,
+          1058
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          28
+        ],
+        "id": "guide_layer_13"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "music_state",
+        "text": "关",
+        "rect_px": [
+          636,
+          691,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_px": 49,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "sound_state",
+        "text": "关",
+        "rect_px": [
+          636,
+          809,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_px": 49,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "简体中文",
+        "rect_px": [
+          491,
+          930,
+          215,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_zh",
+        "text": "简体中文",
+        "rect_px": [
+          512,
+          1022,
+          235,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_en",
+        "text": "English",
+        "rect_px": [
+          512,
+          1140,
+          235,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "设置",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 72,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "font_family": "Noto Sans CJK JP Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "操作指引",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_family": "Noto Sans CJK JP Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "choose_zh",
+        "rect": [
+          479,
+          1012,
+          273,
+          116
+        ],
+        "action": "select zh; close popover; keep home settings open",
+        "logical_size_at360": [
+          104.44208289054198,
+          44.378320935175346
+        ]
+      },
+      {
+        "id": "choose_en",
+        "rect": [
+          479,
+          1130,
+          273,
+          116
+        ],
+        "action": "select en; close popover; keep home settings open",
+        "logical_size_at360": [
+          104.44208289054198,
+          44.378320935175346
+        ]
+      }
+    ],
+    "inactive_under_popover": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          471,
+          904,
+          289,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_en_music_on_sound_on_closed": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_music.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_speaker.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_on",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_en.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_on",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_en.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_en",
+        "asset_id": "modal_language_dropdown_en",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+        "top_left_px": [
+          505,
+          916
+        ],
+        "native_size_px": [
+          255,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_en",
+        "asset_id": "modal_text_music_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+        "top_left_px": [
+          308,
+          699
+        ],
+        "native_size_px": [
+          125,
+          41
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_en",
+        "asset_id": "modal_text_sound_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+        "top_left_px": [
+          308,
+          818
+        ],
+        "native_size_px": [
+          133,
+          40
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_en",
+        "asset_id": "modal_text_language_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+        "top_left_px": [
+          307,
+          937
+        ],
+        "native_size_px": [
+          178,
+          45
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "rotation_degrees": 180,
+        "id": "language_caret_down"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "selected_locale",
+        "text": "English",
+        "rect_px": [
+          525,
+          930,
+          181,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "Settings",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 62,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "font_family": "Noto Sans Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "How to play",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_family": "Noto Sans Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          505,
+          904,
+          255,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "inactive_under_popover": [],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_en_music_on_sound_on_expanded": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_music.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_speaker.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_on",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_en.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_on",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_en.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_en",
+        "asset_id": "modal_language_dropdown_en",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+        "top_left_px": [
+          505,
+          916
+        ],
+        "native_size_px": [
+          255,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_en",
+        "asset_id": "modal_text_music_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+        "top_left_px": [
+          308,
+          699
+        ],
+        "native_size_px": [
+          125,
+          41
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_en",
+        "asset_id": "modal_text_sound_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+        "top_left_px": [
+          308,
+          818
+        ],
+        "native_size_px": [
+          133,
+          40
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_en",
+        "asset_id": "modal_text_language_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+        "top_left_px": [
+          307,
+          937
+        ],
+        "native_size_px": [
+          178,
+          45
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_en.png",
+        "top_left_px": [
+          505,
+          1004
+        ],
+        "z": 60,
+        "native_size_px": [
+          255,
+          248
+        ],
+        "id": "guide_layer_11"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "id": "guide_layer_12"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+        "top_left_px": [
+          517,
+          1176
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          28
+        ],
+        "id": "guide_layer_13"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "selected_locale",
+        "text": "English",
+        "rect_px": [
+          525,
+          930,
+          181,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_zh",
+        "text": "简体中文",
+        "rect_px": [
+          546,
+          1022,
+          201,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_en",
+        "text": "English",
+        "rect_px": [
+          546,
+          1140,
+          201,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "Settings",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 62,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "font_family": "Noto Sans Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "How to play",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_family": "Noto Sans Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "choose_zh",
+        "rect": [
+          513,
+          1012,
+          239,
+          116
+        ],
+        "action": "select zh; close popover; keep home settings open",
+        "logical_size_at360": [
+          91.4346439957492,
+          44.378320935175346
+        ]
+      },
+      {
+        "id": "choose_en",
+        "rect": [
+          513,
+          1130,
+          239,
+          116
+        ],
+        "action": "select en; close popover; keep home settings open",
+        "logical_size_at360": [
+          91.4346439957492,
+          44.378320935175346
+        ]
+      }
+    ],
+    "inactive_under_popover": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          505,
+          904,
+          255,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_en_music_on_sound_off_closed": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_music.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_on",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_en.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_off",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_en",
+        "asset_id": "modal_language_dropdown_en",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+        "top_left_px": [
+          505,
+          916
+        ],
+        "native_size_px": [
+          255,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_en",
+        "asset_id": "modal_text_music_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+        "top_left_px": [
+          308,
+          699
+        ],
+        "native_size_px": [
+          125,
+          41
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_en",
+        "asset_id": "modal_text_sound_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+        "top_left_px": [
+          308,
+          818
+        ],
+        "native_size_px": [
+          133,
+          40
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_en",
+        "asset_id": "modal_text_language_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+        "top_left_px": [
+          307,
+          937
+        ],
+        "native_size_px": [
+          178,
+          45
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "rotation_degrees": 180,
+        "id": "language_caret_down"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "sound_state",
+        "text": "OFF",
+        "rect_px": [
+          636,
+          809,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans Bold",
+        "font_px": 40,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "English",
+        "rect_px": [
+          525,
+          930,
+          181,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "Settings",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 62,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "font_family": "Noto Sans Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "How to play",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_family": "Noto Sans Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          505,
+          904,
+          255,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "inactive_under_popover": [],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_en_music_on_sound_off_expanded": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_music.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_on",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_en.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_off",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_en",
+        "asset_id": "modal_language_dropdown_en",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+        "top_left_px": [
+          505,
+          916
+        ],
+        "native_size_px": [
+          255,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_en",
+        "asset_id": "modal_text_music_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+        "top_left_px": [
+          308,
+          699
+        ],
+        "native_size_px": [
+          125,
+          41
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_en",
+        "asset_id": "modal_text_sound_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+        "top_left_px": [
+          308,
+          818
+        ],
+        "native_size_px": [
+          133,
+          40
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_en",
+        "asset_id": "modal_text_language_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+        "top_left_px": [
+          307,
+          937
+        ],
+        "native_size_px": [
+          178,
+          45
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_en.png",
+        "top_left_px": [
+          505,
+          1004
+        ],
+        "z": 60,
+        "native_size_px": [
+          255,
+          248
+        ],
+        "id": "guide_layer_11"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "id": "guide_layer_12"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+        "top_left_px": [
+          517,
+          1176
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          28
+        ],
+        "id": "guide_layer_13"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "sound_state",
+        "text": "OFF",
+        "rect_px": [
+          636,
+          809,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans Bold",
+        "font_px": 40,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "English",
+        "rect_px": [
+          525,
+          930,
+          181,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_zh",
+        "text": "简体中文",
+        "rect_px": [
+          546,
+          1022,
+          201,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_en",
+        "text": "English",
+        "rect_px": [
+          546,
+          1140,
+          201,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "Settings",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 62,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "font_family": "Noto Sans Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "How to play",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_family": "Noto Sans Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "choose_zh",
+        "rect": [
+          513,
+          1012,
+          239,
+          116
+        ],
+        "action": "select zh; close popover; keep home settings open",
+        "logical_size_at360": [
+          91.4346439957492,
+          44.378320935175346
+        ]
+      },
+      {
+        "id": "choose_en",
+        "rect": [
+          513,
+          1130,
+          239,
+          116
+        ],
+        "action": "select en; close popover; keep home settings open",
+        "logical_size_at360": [
+          91.4346439957492,
+          44.378320935175346
+        ]
+      }
+    ],
+    "inactive_under_popover": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          505,
+          904,
+          255,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_en_music_off_sound_on_closed": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_speaker.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_off",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_on",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_en.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_en",
+        "asset_id": "modal_language_dropdown_en",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+        "top_left_px": [
+          505,
+          916
+        ],
+        "native_size_px": [
+          255,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_en",
+        "asset_id": "modal_text_music_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+        "top_left_px": [
+          308,
+          699
+        ],
+        "native_size_px": [
+          125,
+          41
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_en",
+        "asset_id": "modal_text_sound_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+        "top_left_px": [
+          308,
+          818
+        ],
+        "native_size_px": [
+          133,
+          40
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_en",
+        "asset_id": "modal_text_language_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+        "top_left_px": [
+          307,
+          937
+        ],
+        "native_size_px": [
+          178,
+          45
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "rotation_degrees": 180,
+        "id": "language_caret_down"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "music_state",
+        "text": "OFF",
+        "rect_px": [
+          636,
+          691,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans Bold",
+        "font_px": 40,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "English",
+        "rect_px": [
+          525,
+          930,
+          181,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "Settings",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 62,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "font_family": "Noto Sans Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "How to play",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_family": "Noto Sans Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          505,
+          904,
+          255,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "inactive_under_popover": [],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_en_music_off_sound_on_expanded": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_speaker.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_off",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_on",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_preview_v2/modal_switch_on_en.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_en",
+        "asset_id": "modal_language_dropdown_en",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+        "top_left_px": [
+          505,
+          916
+        ],
+        "native_size_px": [
+          255,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_en",
+        "asset_id": "modal_text_music_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+        "top_left_px": [
+          308,
+          699
+        ],
+        "native_size_px": [
+          125,
+          41
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_en",
+        "asset_id": "modal_text_sound_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+        "top_left_px": [
+          308,
+          818
+        ],
+        "native_size_px": [
+          133,
+          40
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_en",
+        "asset_id": "modal_text_language_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+        "top_left_px": [
+          307,
+          937
+        ],
+        "native_size_px": [
+          178,
+          45
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_en.png",
+        "top_left_px": [
+          505,
+          1004
+        ],
+        "z": 60,
+        "native_size_px": [
+          255,
+          248
+        ],
+        "id": "guide_layer_11"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "id": "guide_layer_12"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+        "top_left_px": [
+          517,
+          1176
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          28
+        ],
+        "id": "guide_layer_13"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "music_state",
+        "text": "OFF",
+        "rect_px": [
+          636,
+          691,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans Bold",
+        "font_px": 40,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "English",
+        "rect_px": [
+          525,
+          930,
+          181,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_zh",
+        "text": "简体中文",
+        "rect_px": [
+          546,
+          1022,
+          201,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_en",
+        "text": "English",
+        "rect_px": [
+          546,
+          1140,
+          201,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "Settings",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 62,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "font_family": "Noto Sans Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "How to play",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_family": "Noto Sans Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "choose_zh",
+        "rect": [
+          513,
+          1012,
+          239,
+          116
+        ],
+        "action": "select zh; close popover; keep home settings open",
+        "logical_size_at360": [
+          91.4346439957492,
+          44.378320935175346
+        ]
+      },
+      {
+        "id": "choose_en",
+        "rect": [
+          513,
+          1130,
+          239,
+          116
+        ],
+        "action": "select en; close popover; keep home settings open",
+        "logical_size_at360": [
+          91.4346439957492,
+          44.378320935175346
+        ]
+      }
+    ],
+    "inactive_under_popover": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          505,
+          904,
+          255,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_en_music_off_sound_off_closed": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_off",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_off",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_en",
+        "asset_id": "modal_language_dropdown_en",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+        "top_left_px": [
+          505,
+          916
+        ],
+        "native_size_px": [
+          255,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_en",
+        "asset_id": "modal_text_music_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+        "top_left_px": [
+          308,
+          699
+        ],
+        "native_size_px": [
+          125,
+          41
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_en",
+        "asset_id": "modal_text_sound_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+        "top_left_px": [
+          308,
+          818
+        ],
+        "native_size_px": [
+          133,
+          40
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_en",
+        "asset_id": "modal_text_language_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+        "top_left_px": [
+          307,
+          937
+        ],
+        "native_size_px": [
+          178,
+          45
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "rotation_degrees": 180,
+        "id": "language_caret_down"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "music_state",
+        "text": "OFF",
+        "rect_px": [
+          636,
+          691,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans Bold",
+        "font_px": 40,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "sound_state",
+        "text": "OFF",
+        "rect_px": [
+          636,
+          809,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans Bold",
+        "font_px": 40,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "English",
+        "rect_px": [
+          525,
+          930,
+          181,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "Settings",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 62,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "font_family": "Noto Sans Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "How to play",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_family": "Noto Sans Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          505,
+          904,
+          255,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "inactive_under_popover": [],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  },
+  "home_settings_guide_en_music_off_sound_off_expanded": {
+    "context": "home",
+    "layers": [
+      {
+        "id": "compact_settings_empty_panel",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+        "top_left_px": [
+          107,
+          556
+        ],
+        "z": 20,
+        "display_size_px": [
+          728,
+          728
+        ],
+        "9patch_margins_px": [
+          64,
+          64,
+          64,
+          64
+        ]
+      },
+      {
+        "id": "modal_close",
+        "asset_id": "modal_close",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_close.png",
+        "top_left_px": [
+          731,
+          570
+        ],
+        "native_size_px": [
+          93,
+          94
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_music",
+        "asset_id": "modal_icon_music",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+        "top_left_px": [
+          198,
+          677
+        ],
+        "native_size_px": [
+          78,
+          83
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_speaker",
+        "asset_id": "modal_icon_speaker",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+        "top_left_px": [
+          193,
+          798
+        ],
+        "native_size_px": [
+          89,
+          77
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_icon_globe",
+        "asset_id": "modal_icon_globe",
+        "file": "res://assets/ui_restore/pause_preview_v1/modal_icon_globe.png",
+        "top_left_px": [
+          193,
+          911
+        ],
+        "native_size_px": [
+          84,
+          85
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "music_off",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          678
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "sound_off",
+        "asset_id": "modal_switch_on_en",
+        "file": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+        "top_left_px": [
+          545,
+          796
+        ],
+        "native_size_px": [
+          205,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+      },
+      {
+        "id": "modal_language_dropdown_en",
+        "asset_id": "modal_language_dropdown_en",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+        "top_left_px": [
+          505,
+          916
+        ],
+        "native_size_px": [
+          255,
+          84
+        ],
+        "z": 30,
+        "blend": "normal_source_over",
+        "state": "normal"
+      },
+      {
+        "id": "modal_text_music_en",
+        "asset_id": "modal_text_music_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+        "top_left_px": [
+          308,
+          699
+        ],
+        "native_size_px": [
+          125,
+          41
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_sound_en",
+        "asset_id": "modal_text_sound_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+        "top_left_px": [
+          308,
+          818
+        ],
+        "native_size_px": [
+          133,
+          40
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "id": "modal_text_language_en",
+        "asset_id": "modal_text_language_en",
+        "file": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+        "top_left_px": [
+          307,
+          937
+        ],
+        "native_size_px": [
+          178,
+          45
+        ],
+        "z": 40,
+        "blend": "normal_source_over",
+        "state": "normal",
+        "background_restriction": "Only fixed cream base at this original position."
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_en.png",
+        "top_left_px": [
+          505,
+          1004
+        ],
+        "z": 60,
+        "native_size_px": [
+          255,
+          248
+        ],
+        "id": "guide_layer_11"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+        "top_left_px": [
+          709,
+          941
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          22
+        ],
+        "id": "guide_layer_12"
+      },
+      {
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+        "top_left_px": [
+          517,
+          1176
+        ],
+        "z": 70,
+        "native_size_px": [
+          28,
+          28
+        ],
+        "id": "guide_layer_13"
+      },
+      {
+        "id": "settings_title_frame_empty",
+        "file": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+        "top_left_px": [
+          234,
+          487
+        ],
+        "z": 30
+      },
+      {
+        "id": "how_to_play_button",
+        "file": "res://assets/art_review/nonrobot_animation_bcde_v1/unpacked/batch_d_ui_feedback/batch_d_ui_feedback/assets/button_primary_610x128.png",
+        "top_left_px": [
+          165,
+          1070
+        ],
+        "z": 35
+      }
+    ],
+    "labels": [
+      {
+        "id": "music_state",
+        "text": "OFF",
+        "rect_px": [
+          636,
+          691,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans Bold",
+        "font_px": 40,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "sound_state",
+        "text": "OFF",
+        "rect_px": [
+          636,
+          809,
+          91,
+          58
+        ],
+        "font_family": "Noto Sans Bold",
+        "font_px": 40,
+        "color": "#FFFFFF",
+        "align": "center",
+        "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "selected_locale",
+        "text": "English",
+        "rect_px": [
+          525,
+          930,
+          181,
+          50
+        ],
+        "font_px": 36,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_zh",
+        "text": "简体中文",
+        "rect_px": [
+          546,
+          1022,
+          201,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans CJK JP Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "locale_en",
+        "text": "English",
+        "rect_px": [
+          546,
+          1140,
+          201,
+          100
+        ],
+        "font_px": 33,
+        "font_family": "Noto Sans Bold",
+        "color": "#123A59",
+        "align": "center",
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_weight": 700
+      },
+      {
+        "id": "settings_title",
+        "text": "Settings",
+        "rect_px": [
+          274,
+          513,
+          394,
+          84
+        ],
+        "font_px": 62,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "font_family": "Noto Sans Bold",
+        "face_index": 0,
+        "font_weight": 700,
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "id": "how_to_play",
+        "text": "How to play",
+        "rect_px": [
+          190,
+          1084,
+          560,
+          91
+        ],
+        "font_px": 48,
+        "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+        "face_index": 0,
+        "font_family": "Noto Sans Bold",
+        "font_weight": 700,
+        "color": "#123A59",
+        "z": 40
+      }
+    ],
+    "reference_canvas_px": [
+      941,
+      1672
+    ],
+    "panel_rect_px": [
+      107,
+      556,
+      728,
+      728
+    ],
+    "active_hit_targets": [
+      {
+        "id": "choose_zh",
+        "rect": [
+          513,
+          1012,
+          239,
+          116
+        ],
+        "action": "select zh; close popover; keep home settings open",
+        "logical_size_at360": [
+          91.4346439957492,
+          44.378320935175346
+        ]
+      },
+      {
+        "id": "choose_en",
+        "rect": [
+          513,
+          1130,
+          239,
+          116
+        ],
+        "action": "select en; close popover; keep home settings open",
+        "logical_size_at360": [
+          91.4346439957492,
+          44.378320935175346
+        ]
+      }
+    ],
+    "inactive_under_popover": [
+      {
+        "id": "close",
+        "rect": [
+          720,
+          548,
+          116,
+          116
+        ]
+      },
+      {
+        "id": "music_toggle",
+        "rect": [
+          184,
+          666,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "sound_toggle",
+        "rect": [
+          184,
+          784,
+          566,
+          116
+        ]
+      },
+      {
+        "id": "language_dropdown",
+        "rect": [
+          505,
+          904,
+          255,
+          116
+        ]
+      },
+      {
+        "id": "how_to_play",
+        "rect": [
+          165,
+          1070,
+          610,
+          128
+        ],
+        "route": "tutorial_read_only_viewer; retain origin and previous modal/pause state"
+      }
+    ],
+    "original_controls_preserved": true,
+    "new_button_only": "how_to_play",
+    "language_popover_rule": "same modal layer; outside click closes only the language list and consumes event; no underlying Help/Resume/Restart action; Esc closes list first",
+    "route": "Open read-only review viewer from tutorial first batch. Preserve Home/Pause origin, current run and pause state. Closing returns to the same settings context without starting/resuming/restarting a game.",
+    "source_note": "Original local screenshot is QA backdrop only. No current3queue positions are inferred from it."
+  }
+}

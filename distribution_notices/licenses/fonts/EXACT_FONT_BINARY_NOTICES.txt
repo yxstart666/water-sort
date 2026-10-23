@@ -1,0 +1,79 @@
+Embedded copyright and license records from the exact shipped font binaries.
+Fonts are copied unchanged; no subsetting or renaming was performed.
+
+NotoSans-Bold.ttf face 0
+nameID 0: Copyright 2015 Google LLC. All Rights Reserved.
+nameID 1: Noto Sans
+nameID 5: Version 2.004; ttfautohint (v1.8.3) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X ""
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 0
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans CJK JP
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 1
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans CJK KR
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 2
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans CJK SC
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 3
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans CJK TC
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 4
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans CJK HK
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 5
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans Mono CJK JP
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 6
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans Mono CJK KR
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 7
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans Mono CJK SC
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 8
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans Mono CJK TC
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL
+
+NotoSansCJK-Bold.ttc face 9
+nameID 0: © 2014-2021 Adobe (http://www.adobe.com/).
+nameID 1: Noto Sans Mono CJK HK
+nameID 5: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
+nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+nameID 14: http://scripts.sil.org/OFL

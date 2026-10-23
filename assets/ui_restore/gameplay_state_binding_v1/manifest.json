@@ -1,0 +1,41 @@
+{
+  "scope": "Existing gameplay state-binding repair only; no new layout or rules",
+  "assets": [
+    {
+      "id": "game_forecast_empty_zh",
+      "file": "assets/game_forecast_empty_zh.png",
+      "sha256": "21d775451d97b17db4e205a72f4ccaaa61c4e816e9c7a1b08882987b97a3ed32",
+      "size": [
+        325,
+        70
+      ],
+      "type": "image"
+    },
+    {
+      "id": "game_forecast_empty_en",
+      "file": "assets/game_forecast_empty_en.png",
+      "sha256": "069fcbf9250370ba07f5383583039297712d7ef4e221941d7650169ed252c245",
+      "size": [
+        325,
+        70
+      ],
+      "type": "image"
+    },
+    {
+      "id": "cjk",
+      "file": "fonts/NotoSansCJK-Bold.ttc",
+      "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+      "bytes": 20050760,
+      "type": "font",
+      "face_index": 0
+    },
+    {
+      "id": "latin",
+      "file": "fonts/NotoSans-Bold.ttf",
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "bytes": 515752,
+      "type": "font",
+      "face_index": 0
+    }
+  ]
+}

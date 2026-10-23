@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "title": "倒瓶子",
+  "capacity": 4,
+  "order": "bottom_to_top",
+  "levels": [
+    {
+      "id": 1,
+      "title": "先腾出一个空瓶",
+      "hint": "点一只瓶，再点空瓶；相邻同色会一起倒出。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "red",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "red"
+        ],
+        []
+      ]
+    },
+    {
+      "id": 2,
+      "title": "先露出下面的颜色",
+      "hint": "空瓶只有一个。先想想倒出顶层后，能接哪一瓶。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "red",
+          "yellow",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        [
+          "blue",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        []
+      ]
+    },
+    {
+      "id": 3,
+      "title": "别只挑最多的一段",
+      "hint": "大段不一定先倒；空位也要留给下面的颜色。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "red",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "blue"
+        ],
+        [
+          "blue",
+          "yellow",
+          "red",
+          "purple"
+        ],
+        []
+      ]
+    },
+    {
+      "id": 4,
+      "title": "五色接力",
+      "hint": "先看同色可以接到哪里，再决定空瓶留给谁。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "red",
+          "green",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "green",
+          "red",
+          "blue"
+        ],
+        [
+          "blue",
+          "yellow",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "purple",
+          "purple"
+        ],
+        []
+      ]
+    },
+    {
+      "id": 5,
+      "title": "留一条整理路径",
+      "hint": "全部层数都可见。走错可以免费撤销，不必硬撑。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "blue",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "green",
+          "purple",
+          "red",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "green",
+          "blue"
+        ],
+        []
+      ]
+    }
+  ]
+}

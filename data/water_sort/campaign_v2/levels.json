@@ -1,0 +1,2487 @@
+{
+  "schema_version": 1,
+  "title": "倒瓶子",
+  "capacity": 4,
+  "order": "bottom_to_top",
+  "levels": [
+    {
+      "id": 1,
+      "title": "试着倒一倒",
+      "hint": "先点有颜色的瓶子，再点空瓶；相邻同色会一起倒出。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "red",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "red",
+          "red"
+        ],
+        []
+      ],
+      "title_en": "Try a pour",
+      "hint_en": "Tap a bottle with liquid, then an empty bottle. Matching top layers pour together."
+    },
+    {
+      "id": 2,
+      "title": "两处露色",
+      "hint": "先看倒出顶层后会露出什么，再给它找接收位置。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "yellow",
+          "blue",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "red"
+        ],
+        []
+      ],
+      "title_en": "Reveal the next color",
+      "hint_en": "Check which color a pour will reveal, then leave it somewhere to go."
+    },
+    {
+      "id": 3,
+      "title": "接到哪一边",
+      "hint": "同色可以往两边合，先看看哪边还需要留空位。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "blue",
+          "red",
+          "purple"
+        ],
+        [
+          "blue",
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "blue",
+          "purple",
+          "red",
+          "yellow"
+        ],
+        [
+          "purple",
+          "blue",
+          "purple",
+          "red"
+        ],
+        []
+      ],
+      "title_en": "Choose a receiving bottle",
+      "hint_en": "A color can combine on either side. Which side still needs room?"
+    },
+    {
+      "id": 4,
+      "title": "腾空再接力",
+      "hint": "先想腾出的空瓶该留给谁，再看两步之后能接哪种颜色。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "purple",
+          "blue",
+          "blue",
+          "red"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "green",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "red",
+          "green"
+        ],
+        []
+      ],
+      "title_en": "Clear a path first",
+      "hint_en": "Decide who needs the empty bottle, then look two pours ahead."
+    },
+    {
+      "id": 5,
+      "title": "分路再接力",
+      "hint": "颜色多了，先整理一条短链，再回来接另一组。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "yellow",
+          "purple"
+        ],
+        [
+          "purple",
+          "green",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green",
+          "yellow",
+          "red",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Split the relay",
+      "hint_en": "Build one short chain, then return to the other colors."
+    },
+    {
+      "id": 6,
+      "title": "两处缓冲",
+      "hint": "多了一个空瓶，仍要先看下一层能接到哪里。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "green",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "green"
+        ],
+        [
+          "red",
+          "purple",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "purple",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Two spaces to work",
+      "hint_en": "An extra empty bottle helps, but the next layer still needs a home."
+    },
+    {
+      "id": 7,
+      "title": "先露后接",
+      "hint": "合并顶层时，也看看这次会露出什么颜色。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "green",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [
+          "yellow",
+          "blue",
+          "purple",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Reveal, then combine",
+      "hint_en": "Combine the top layers while watching the color they will reveal."
+    },
+    {
+      "id": 8,
+      "title": "六色换手",
+      "hint": "两个缓冲位可以轮流使用，不必急着占满。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "green",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "red",
+          "red",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "purple",
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "purple",
+          "red",
+          "orange",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Six-color handoff",
+      "hint_en": "Use the two spare spaces in turn. There is no need to fill both now."
+    },
+    {
+      "id": 9,
+      "title": "留出接续",
+      "hint": "先腾出能接下层的位置，再做大段合并。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "red",
+          "orange"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "blue"
+        ],
+        [
+          "red",
+          "green",
+          "purple",
+          "orange"
+        ],
+        [
+          "yellow",
+          "green",
+          "yellow",
+          "orange"
+        ],
+        [
+          "orange",
+          "red",
+          "blue",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Leave a way through",
+      "hint_en": "Make room for the next layer before combining a large block."
+    },
+    {
+      "id": 10,
+      "title": "七色接力",
+      "hint": "从可见的下层找接力路线；走错可以免费撤销。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "purple",
+          "green",
+          "pink"
+        ],
+        [
+          "purple",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "pink",
+          "pink",
+          "green",
+          "red"
+        ],
+        [
+          "blue",
+          "red",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Seven-color relay",
+      "hint_en": "Look below the top layers for a relay. Undo is free if you need it."
+    },
+    {
+      "id": 11,
+      "title": "五色小歇",
+      "hint": "颜色少一些，先找能连续接上的几瓶。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "green",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "blue",
+          "purple",
+          "purple"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "title_en": "A five-color breather",
+      "hint_en": "Fewer colors this time. Look for a short chain of receiving bottles."
+    },
+    {
+      "id": 12,
+      "title": "分批整理",
+      "hint": "同一颜色可以分几次接，不用每次都挑最大段。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "green",
+          "purple",
+          "orange",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "green",
+          "yellow"
+        ],
+        [
+          "orange",
+          "purple",
+          "red",
+          "orange"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Sort in small steps",
+      "hint_en": "A color can come together in stages. The biggest pour is not always best."
+    },
+    {
+      "id": 13,
+      "title": "换位再合",
+      "hint": "想一想先腾空哪一瓶，能让后面的颜色接得顺。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "pink",
+          "green",
+          "red"
+        ],
+        [
+          "green",
+          "yellow",
+          "purple",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "purple",
+          "pink",
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "purple",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "pink",
+          "red",
+          "blue"
+        ],
+        [
+          "orange",
+          "red",
+          "blue",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Make room to combine",
+      "hint_en": "Which bottle should you empty first to help the colors underneath?"
+    },
+    {
+      "id": 14,
+      "title": "回到六色",
+      "hint": "少一种颜色，继续观察倒完后会露出什么。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "yellow",
+          "red",
+          "orange"
+        ],
+        [
+          "orange",
+          "purple",
+          "purple",
+          "orange"
+        ],
+        [
+          "green",
+          "blue",
+          "purple",
+          "blue"
+        ],
+        [
+          "yellow",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "green",
+          "green"
+        ],
+        [
+          "yellow",
+          "purple",
+          "red",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Back to six colors",
+      "hint_en": "One fewer color. Keep watching what each pour will reveal."
+    },
+    {
+      "id": 15,
+      "title": "短程换手",
+      "hint": "用两处缓冲整理接续，给下层留出出口。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "yellow",
+          "purple"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "green",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "yellow",
+          "purple",
+          "red",
+          "purple"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "A short handoff",
+      "hint_en": "Use both spare spaces to give the lower layers a way out."
+    },
+    {
+      "id": 16,
+      "title": "七色分路",
+      "hint": "先露出需要的颜色，再决定把同色合到哪一瓶。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "yellow",
+          "pink",
+          "orange",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "pink",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "pink"
+        ],
+        [
+          "purple",
+          "orange",
+          "pink",
+          "orange"
+        ],
+        [
+          "purple",
+          "yellow",
+          "blue",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Seven-color branches",
+      "hint_en": "Reveal the color you need before choosing where to combine it."
+    },
+    {
+      "id": 17,
+      "title": "六色转身",
+      "hint": "先整理一条短链，再回来接另一组颜色。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "orange",
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "orange",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "green",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "green",
+          "red",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Turn the relay",
+      "hint_en": "Finish a short chain, then return to the other colors."
+    },
+    {
+      "id": 18,
+      "title": "保留落点",
+      "hint": "每次占用缓冲位前，先看下一种颜色的落点。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "orange",
+          "purple"
+        ],
+        [
+          "green",
+          "pink",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "pink"
+        ],
+        [
+          "orange",
+          "blue",
+          "pink",
+          "orange"
+        ],
+        [
+          "yellow",
+          "orange",
+          "pink",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "purple",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Keep a landing space",
+      "hint_en": "Before using a spare space, find a home for the next color."
+    },
+    {
+      "id": 19,
+      "title": "接力回环",
+      "hint": "需要时先换一组整理，再回来完成眼前这一瓶。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "orange",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "red",
+          "green",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "green",
+          "purple",
+          "red"
+        ],
+        [
+          "red",
+          "green",
+          "blue",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "purple",
+          "blue",
+          "orange"
+        ],
+        [
+          "orange",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Circle back",
+      "hint_en": "Switch to another group if needed, then come back to this bottle."
+    },
+    {
+      "id": 20,
+      "title": "七色收束",
+      "hint": "先看清接续关系；撤销和未完成局重开不额外扣体力。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "yellow",
+          "purple",
+          "red"
+        ],
+        [
+          "yellow",
+          "pink",
+          "purple",
+          "pink"
+        ],
+        [
+          "purple",
+          "blue",
+          "pink",
+          "green"
+        ],
+        [
+          "orange",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "pink",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Bring seven colors home",
+      "hint_en": "Plan the receiving chain. Undo and unfinished restarts cost no extra energy."
+    },
+    {
+      "id": 21,
+      "title": "六色接续",
+      "title_en": "Six-color relay",
+      "hint": "先找倒完后能接住下一层的位置。",
+      "hint_en": "Look for a place to receive the next layer.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [
+          "blue",
+          "orange",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "blue",
+          "red"
+        ],
+        [
+          "purple",
+          "yellow",
+          "orange",
+          "red"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 22,
+      "title": "留一条退路",
+      "title_en": "Keep a spare route",
+      "hint": "不要同时占满两处缓冲，先看下一次接到哪。",
+      "hint_en": "Keep a buffer ready for the next transfer.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "orange",
+          "purple",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "purple",
+          "blue"
+        ],
+        [
+          "red",
+          "green",
+          "orange",
+          "blue"
+        ],
+        [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "purple"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 23,
+      "title": "两端接力",
+      "title_en": "A two-end relay",
+      "hint": "从两组颜色之间找可以轮流接上的顺序。",
+      "hint_en": "Alternate between two groups to open a route.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        [
+          "red",
+          "blue",
+          "pink",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "pink",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "orange",
+          "purple",
+          "pink",
+          "green"
+        ],
+        [
+          "pink",
+          "red",
+          "blue",
+          "orange"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 24,
+      "title": "缓冲抉择",
+      "title_en": "Choose your buffer",
+      "hint": "看清下一层，再决定把同色合到哪一边。",
+      "hint_en": "Check the next layer before choosing a receiver.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "orange",
+          "green",
+          "orange"
+        ],
+        [
+          "pink",
+          "yellow",
+          "pink",
+          "purple"
+        ],
+        [
+          "pink",
+          "blue",
+          "orange",
+          "blue"
+        ],
+        [
+          "red",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "blue",
+          "purple",
+          "red",
+          "yellow"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 25,
+      "title": "五色缓一缓",
+      "title_en": "A five-color break",
+      "hint": "颜色少一些，仍要给下层留下出口。",
+      "hint_en": "Fewer colors, but lower layers still need an exit.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "green",
+          "purple",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [
+          "red",
+          "yellow",
+          "blue",
+          "purple"
+        ],
+        [
+          "purple",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 26,
+      "title": "露色换手",
+      "title_en": "Reveal and switch",
+      "hint": "先露出缺少的颜色，再回来完成这一瓶。",
+      "hint_en": "Reveal the missing color, then return to this bottle.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "red",
+          "purple"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "yellow"
+        ],
+        [
+          "green",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        [
+          "orange",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "purple",
+          "orange"
+        ],
+        [
+          "green",
+          "red",
+          "orange",
+          "blue"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 27,
+      "title": "分路汇合",
+      "title_en": "Split and regroup",
+      "hint": "同色可以分批接，不必一次都挤到同一边。",
+      "hint_en": "Collect a color in stages rather than all at once.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "orange",
+          "red",
+          "pink",
+          "green"
+        ],
+        [
+          "pink",
+          "orange",
+          "green",
+          "yellow"
+        ],
+        [
+          "red",
+          "yellow",
+          "blue",
+          "purple"
+        ],
+        [
+          "yellow",
+          "pink",
+          "blue",
+          "purple"
+        ],
+        [
+          "pink",
+          "orange",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "red",
+          "purple"
+        ],
+        [
+          "red",
+          "orange",
+          "blue",
+          "purple"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 28,
+      "title": "先空哪瓶",
+      "title_en": "Which bottle first?",
+      "hint": "比较腾空不同瓶子后，谁能接住下一层。",
+      "hint_en": "Compare which empty bottle helps the next layer.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "orange",
+          "red",
+          "green",
+          "orange"
+        ],
+        [
+          "purple",
+          "pink",
+          "green",
+          "blue"
+        ],
+        [
+          "pink",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "pink",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "orange",
+          "yellow",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 29,
+      "title": "六色回环",
+      "title_en": "A six-color loop",
+      "hint": "先整理一小组，再回来接另一组。",
+      "hint_en": "Tidy one group, then return to the other.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "purple",
+          "orange"
+        ],
+        [
+          "red",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "orange",
+          "yellow",
+          "blue",
+          "yellow"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "purple"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "blue",
+          "orange"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 30,
+      "title": "接力关口",
+      "title_en": "Relay checkpoint",
+      "hint": "先留接收位置，再连做后面的合并。",
+      "hint_en": "Reserve a receiver before linking your next pours.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "orange",
+          "blue",
+          "yellow"
+        ],
+        [
+          "pink",
+          "yellow",
+          "orange",
+          "purple"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "pink",
+          "red"
+        ],
+        [
+          "pink",
+          "purple",
+          "blue",
+          "red"
+        ],
+        [
+          "pink",
+          "orange",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 31,
+      "title": "短程整理",
+      "title_en": "A short tidy-up",
+      "hint": "先找一条短接力，让两处缓冲轮流空出来。",
+      "hint_en": "Use a short relay to free the buffers in turn.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "yellow",
+          "green",
+          "red"
+        ],
+        [
+          "red",
+          "purple",
+          "blue",
+          "red"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "yellow",
+          "green",
+          "yellow"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 32,
+      "title": "颜色落点",
+      "title_en": "A place for each color",
+      "hint": "每次倒水前，想想新露出的颜色去哪。",
+      "hint_en": "Before pouring, plan where the revealed color goes.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "purple",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "purple",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "red",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "orange",
+          "yellow",
+          "green"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 33,
+      "title": "交替露层",
+      "title_en": "Alternate layers",
+      "hint": "换一组操作，可能比继续倒眼前这组更顺。",
+      "hint_en": "Switching groups may open a better route.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "orange",
+          "green"
+        ],
+        [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        [
+          "blue",
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "purple",
+          "orange"
+        ],
+        [
+          "red",
+          "yellow",
+          "red",
+          "pink"
+        ],
+        [
+          "yellow",
+          "green",
+          "pink",
+          "orange"
+        ],
+        [
+          "pink",
+          "blue",
+          "pink",
+          "blue"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 34,
+      "title": "接收次序",
+      "title_en": "Receiver order",
+      "hint": "先安排接收瓶，再取出下面的颜色。",
+      "hint_en": "Prepare the receivers before exposing lower colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "pink",
+          "orange"
+        ],
+        [
+          "pink",
+          "green",
+          "pink",
+          "purple"
+        ],
+        [
+          "pink",
+          "yellow",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "orange",
+          "green",
+          "blue"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 35,
+      "title": "六色喘息",
+      "title_en": "Six-color breathing room",
+      "hint": "先做一条容易看清的接力，再整理剩下的。",
+      "hint_en": "Start with a clear relay, then sort the rest.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "orange"
+        ],
+        [
+          "yellow",
+          "orange",
+          "red",
+          "orange"
+        ],
+        [
+          "orange",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "red"
+        ],
+        [
+          "purple",
+          "yellow",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "green",
+          "blue",
+          "purple"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 36,
+      "title": "七色穿针",
+      "title_en": "Thread seven colors",
+      "hint": "观察两三次倒水后，哪一瓶能真正腾空。",
+      "hint_en": "Look a few pours ahead for a bottle you can empty.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "yellow",
+          "orange",
+          "pink"
+        ],
+        [
+          "purple",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "pink",
+          "orange",
+          "red",
+          "pink"
+        ],
+        [
+          "purple",
+          "orange",
+          "pink",
+          "green"
+        ],
+        [
+          "red",
+          "purple",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "orange",
+          "blue",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "red"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 37,
+      "title": "空位周转",
+      "title_en": "Recycle the buffers",
+      "hint": "给缓冲里的颜色安排出口，再放下一种。",
+      "hint_en": "Plan an exit from the buffer before filling it again.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "blue",
+          "pink"
+        ],
+        [
+          "purple",
+          "pink",
+          "green",
+          "orange"
+        ],
+        [
+          "purple",
+          "green",
+          "orange",
+          "green"
+        ],
+        [
+          "orange",
+          "pink",
+          "yellow",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "red",
+          "purple"
+        ],
+        [
+          "orange",
+          "yellow",
+          "pink",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 38,
+      "title": "换手收束",
+      "title_en": "Switch and finish",
+      "hint": "需要时换一边整理，不必追着同一色一直倒。",
+      "hint_en": "Switch sides when useful; do not chase one color.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [
+          "purple",
+          "blue",
+          "red",
+          "purple"
+        ],
+        [
+          "orange",
+          "blue",
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "orange"
+        ],
+        [
+          "yellow",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 39,
+      "title": "双线整理",
+      "title_en": "Two sorting routes",
+      "hint": "让两条接力互相腾位置，而不是互相占位置。",
+      "hint_en": "Let the two routes free space for each other.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "pink",
+          "green",
+          "yellow"
+        ],
+        [
+          "orange",
+          "red",
+          "pink",
+          "orange"
+        ],
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "purple"
+        ],
+        [
+          "red",
+          "yellow",
+          "green",
+          "pink"
+        ],
+        [
+          "blue",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "orange",
+          "green",
+          "yellow"
+        ],
+        [
+          "blue",
+          "orange",
+          "pink",
+          "blue"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 40,
+      "title": "七色关口",
+      "title_en": "Seven-color checkpoint",
+      "hint": "先比较接收方向，再决定下一段接力。",
+      "hint_en": "Compare receivers before starting the next relay.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "purple",
+          "green"
+        ],
+        [
+          "blue",
+          "pink",
+          "orange",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [
+          "purple",
+          "orange",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "purple",
+          "pink",
+          "yellow"
+        ],
+        [
+          "green",
+          "pink",
+          "orange",
+          "pink"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 41,
+      "title": "轻装再来",
+      "title_en": "A lighter round",
+      "hint": "颜色回落，练习更短的接续顺序。",
+      "hint_en": "Fewer colors: practise a shorter relay.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "purple",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "green",
+          "yellow",
+          "purple"
+        ],
+        [
+          "purple",
+          "blue",
+          "red",
+          "green"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 42,
+      "title": "保留出口",
+      "title_en": "Keep an exit",
+      "hint": "留意暂存的颜色能不能及时搬离。",
+      "hint_en": "Make sure a buffered color can move out in time.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "orange",
+          "blue",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "yellow",
+          "orange"
+        ],
+        [
+          "green",
+          "blue",
+          "purple",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "orange",
+          "green",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "purple",
+          "green"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 43,
+      "title": "先后有序",
+      "title_en": "Order matters",
+      "hint": "先处理能让下层接得上的颜色。",
+      "hint_en": "Start with the color that opens a route below.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "pink",
+          "green",
+          "yellow"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "pink",
+          "purple",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "green",
+          "pink"
+        ],
+        [
+          "blue",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "red",
+          "pink"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 44,
+      "title": "两空不乱",
+      "title_en": "Two clear buffers",
+      "hint": "两只空瓶有不同用途，先想好再分配。",
+      "hint_en": "Give each empty bottle a purpose before using it.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [
+          "pink",
+          "green",
+          "yellow",
+          "orange"
+        ],
+        [
+          "pink",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "pink",
+          "blue",
+          "orange",
+          "yellow"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "red"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 45,
+      "title": "六色回落",
+      "title_en": "Return to six colors",
+      "hint": "少一色也别急，先看每瓶下面还压着什么。",
+      "hint_en": "With one fewer color, still check the layers below.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [
+          "blue",
+          "orange",
+          "yellow",
+          "orange"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "purple",
+          "green"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 46,
+      "title": "分段接续",
+      "title_en": "Relay in stages",
+      "hint": "大段合并前，先把接收位置整理出来。",
+      "hint_en": "Prepare receiving space before a large merge.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "orange",
+          "green",
+          "yellow"
+        ],
+        [
+          "orange",
+          "pink",
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "pink",
+          "blue"
+        ],
+        [
+          "pink",
+          "red",
+          "pink",
+          "purple"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "blue",
+          "purple"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 47,
+      "title": "回身再合",
+      "title_en": "Turn back and merge",
+      "hint": "先换一组露层，再回头合并原来的颜色。",
+      "hint_en": "Reveal another group, then return to the first color.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "purple",
+          "green",
+          "red"
+        ],
+        [
+          "green",
+          "blue",
+          "orange",
+          "red"
+        ],
+        [
+          "purple",
+          "yellow",
+          "orange",
+          "blue"
+        ],
+        [
+          "red",
+          "yellow",
+          "orange",
+          "purple"
+        ],
+        [
+          "yellow",
+          "red",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 48,
+      "title": "缓冲接力",
+      "title_en": "Buffer relay",
+      "hint": "让暂存颜色尽快归位，再用空位做下一步。",
+      "hint_en": "Move buffered colors home, then reuse their space.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "pink",
+          "red",
+          "orange"
+        ],
+        [
+          "purple",
+          "yellow",
+          "orange",
+          "pink"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "purple",
+          "pink",
+          "blue",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "pink",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "green",
+          "orange"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 49,
+      "title": "六色收整",
+      "title_en": "Six-color tidy-up",
+      "hint": "找好最后几种颜色的接收顺序。",
+      "hint_en": "Plan the receiving order for the remaining colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "red",
+          "orange",
+          "purple"
+        ],
+        [
+          "red",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [
+          "green",
+          "blue",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "red",
+          "green",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "green",
+          "yellow"
+        ],
+        [],
+        []
+      ]
+    },
+    {
+      "id": 50,
+      "title": "五十关挑战",
+      "title_en": "The fiftieth challenge",
+      "hint": "先留落点，再露下层；走错可以免费撤销。",
+      "hint_en": "Leave room before revealing layers. Undo is free.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "orange",
+          "yellow",
+          "purple"
+        ],
+        [
+          "purple",
+          "blue",
+          "red",
+          "green"
+        ],
+        [
+          "pink",
+          "purple",
+          "yellow",
+          "orange"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "red"
+        ],
+        [
+          "pink",
+          "green",
+          "red",
+          "orange"
+        ],
+        [
+          "blue",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "pink",
+          "orange",
+          "green",
+          "blue"
+        ],
+        [],
+        []
+      ]
+    }
+  ],
+  "content_version": "water-sort-campaign-v2-50-playtest-20261022",
+  "activation_status": "active_private_playtest",
+  "save_compatibility": {
+    "progress_namespace": "water_sort_campaign_v2",
+    "unchanged_existing_level_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "appended_level_ids": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "v1_score_import": false,
+    "v2_20_append_compatibility": "Known legacy20 pack digest plus exact ordered prefix identities/boards; lazy atomic metadata upgrade on next successful save."
+  },
+  "runtime_campaign": "water_sort_campaign_v2",
+  "candidate_source_sha256": "2d9288b49bad24437d3ed4b5890b2b8b62cf56eb46e3128af0f80bbdf3e9ee29",
+  "extension_source_sha256": "c77837ef81f97da7d760f8b0d9bff7ad12514992224060e1a404d490e855db7b",
+  "preserved_runtime20_sha256": "f1faa23d6c8de45112d0b7012f972b51a19d3b74479425fe589751af19b86cb9"
+}

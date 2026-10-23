@@ -1,0 +1,19 @@
+.godot/
+.local/
+builds/
+*.tmp
+*.zip
+export_credentials.cfg
+
+# Machine-local editor, test and capture output
+engine_environment/
+__pycache__/
+*.pyc
+*.log
+*.avi
+*.mp4
+*.webm
+.DS_Store
+.env
+.env.*
+!.env.example

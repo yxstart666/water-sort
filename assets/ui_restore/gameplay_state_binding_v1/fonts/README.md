@@ -1,3 +1,1 @@
-# Fonts
-
-This directory contains the Noto Sans CJK bold font used by Water Sort. The corresponding font license is maintained alongside the font.
+Exact Noto font binaries are preserved unchanged. License, copyright and binary provenance: ../../../../distribution_notices/licenses/fonts/.

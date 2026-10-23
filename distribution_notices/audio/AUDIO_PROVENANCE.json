@@ -1,0 +1,45 @@
+{
+  "generator_sha256": "e6ec4b77b0dbd84368013f0c226d992987148eb56d558c88f27c41ac6a5f228b",
+  "generator_source": "project/assets/audio/generate_audio.py",
+  "assets": [
+    {
+      "file": "music_loop.wav",
+      "sha256": "202f6e210013223fd97029a0aa0eb69d2af869d0caaf2f39124d72561e9500bf",
+      "reproduction_identical": true
+    },
+    {
+      "file": "click.wav",
+      "sha256": "c6d239eedb47c8b8469a8f255ac75172d04d9f09fcd004687a82c1f31a3904c9",
+      "reproduction_identical": true
+    },
+    {
+      "file": "pickup.wav",
+      "sha256": "76743b17cd57de14994692fd0bb30dcf08f6d2ffd340ec3f7819652fcde34012",
+      "reproduction_identical": true
+    },
+    {
+      "file": "deposit.wav",
+      "sha256": "93d77cf672808493bcba728bb7eac5902afe801bc92124553b700c1530c8e476",
+      "reproduction_identical": true
+    },
+    {
+      "file": "crate_complete.wav",
+      "sha256": "da0aa9a76aead5dbc030c2c7e0adef9d975a0f741c7521e9e29996dd6b8451ef",
+      "reproduction_identical": true
+    },
+    {
+      "file": "victory.wav",
+      "sha256": "3a96a98f483f047ab1629e167f55e014ddb32785ea352658f4bc6ccd324851d6",
+      "reproduction_identical": true
+    },
+    {
+      "file": "ui_error.wav",
+      "sha256": "8c5044e09922aa30566ea1a90183ed781c2324d97e49086b145ab24ae852dad7",
+      "reproduction_identical": true
+    }
+  ],
+  "external_recordings_observed": false,
+  "sample_rate": 22050,
+  "channels": 1,
+  "pcm_bits": 16
+}
