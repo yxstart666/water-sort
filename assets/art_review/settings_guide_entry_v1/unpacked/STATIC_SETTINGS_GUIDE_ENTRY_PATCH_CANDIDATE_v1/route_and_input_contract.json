@@ -1,0 +1,27 @@
+{
+  "route_id": "open_tutorial_review_from_settings",
+  "entry": [
+    "home_settings.how_to_play",
+    "pause_settings.how_to_play"
+  ],
+  "target_package": "STATIC_TUTORIAL_AND_UI_COMPLETION_CANDIDATE_v1",
+  "target_scene": "review_viewer_1_{locale}",
+  "saved_context": [
+    "origin screen",
+    "origin modal type",
+    "active run ID or null",
+    "previous pause state",
+    "locale",
+    "music preference",
+    "sound preference"
+  ],
+  "home": "No active run is required; review is component-based illustration only; opening never calls StartGame or energy/ads/results logic.",
+  "pause": "Existing run stays paused while review is open; Close/Done returns to Pause settings, not Resume.",
+  "controls_preserved": "All original settings and pause controls retain original art/positions/routes. Level Select remains Level Select, not silently Home.",
+  "language_list": "While expanded, only its 2 options receive relevant selection. A click outside list closes only list and consumes the pointer. It cannot trigger newly exposed Help or underlying Resume/Restart/LevelSelect. Escape closes list before settings.",
+  "review_exit": "Restore exact saved context. If run was externally replaced/destroyed, route through existing screen resolver; do not restart it or debit energy.",
+  "input_debounce": "Disable repeat Open while viewer is opening or already exists; reuse one viewer instance; no duplicate modal stack.",
+  "button_states": "Reuse existing normal/pressed/focus/disabled style specification from STATIC_NIGHT_STATE_SUPPLEMENT_v1. These are no new engine effects.",
+  "pending_state": "If required guide assets are actually unavailable, keep existing settings active and show a short existing service/error label; never open blank fullscreen or remove original controls.",
+  "geometry": "Use scenes_and_labels.json; all closed-mode target boxes pass44 logical px at360 and are pairwise disjoint. Expanded language only activates its option targets."
+}

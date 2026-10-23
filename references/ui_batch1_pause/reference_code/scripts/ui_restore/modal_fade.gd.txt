@@ -1,0 +1,50 @@
+extends RefCounted
+
+# Explicitly chosen preview design values, not recovered reference parameters.
+const PARAMETERS := "res://assets/ui_restore/modal_normal_v3/DESIGN_PARAMETERS_APPENDIX.json"
+var color := Color("071d38")
+var maximum_alpha := 0.58
+var open_seconds := 0.120
+var close_seconds := 0.120
+var phase := "closed"
+var progress := 0.0
+var elapsed := 0.0
+var start_progress := 0.0
+
+func _init() -> void:
+	var appendix: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(PARAMETERS))
+	var values: Dictionary = appendix.scene_dimmer
+	color = Color(values.color_srgb_hex)
+	maximum_alpha = float(values.maximum_alpha)
+	open_seconds = float(values.open_fade_in_duration_ms) / 1000.0
+	close_seconds = float(values.close_fade_out_duration_ms) / 1000.0
+
+func open() -> void:
+	phase = "opening"
+	start_progress = progress
+	elapsed = 0.0
+
+func close() -> void:
+	phase = "closing"
+	start_progress = progress
+	elapsed = 0.0
+
+func reset() -> void:
+	phase = "closed"
+	progress = 0.0
+	elapsed = 0.0
+	start_progress = 0.0
+
+func advance(delta: float) -> void:
+	if phase not in ["opening", "closing"]:
+		return
+	elapsed += maxf(delta, 0.0)
+	var duration := open_seconds if phase == "opening" else close_seconds
+	var t := clampf(elapsed / duration, 0.0, 1.0)
+	# Linear interpolation is an implementation choice; no original easing is known.
+	progress = lerpf(start_progress, 1.0 if phase == "opening" else 0.0, t)
+	if t >= 1.0:
+		phase = "open" if phase == "opening" else "closed"
+
+func tint() -> Color:
+	return Color(color, maximum_alpha * progress)

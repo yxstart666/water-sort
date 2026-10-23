@@ -1,0 +1,80 @@
+{
+  "status": "candidate_priority_OFF_supplement",
+  "reference_canvas_px": [
+    941,
+    1672
+  ],
+  "source_parent_package": "rainbow_cargo_approved_modal_pixels_preview_v3",
+  "assets": [
+    {
+      "id": "pause_switch_off_empty",
+      "file": "assets/pause_switch_off_empty_205x84.png",
+      "native_size_px": [
+        205,
+        84
+      ],
+      "source_file": "rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_switch_on_zh.png",
+      "source_sha256": "2deeb203e3f53e2020b764fb29c36f0ca29ad779308498642b5825cc4b1c821b",
+      "sha256": "bc40ed790ddd1644b37403c82978bef1458aa6d61c6f14479e698fbca3caab7a",
+      "provenance": "Derived from approved visible ON pixels: old glyph area interpolated, entire blank body mirrored so knob is left, blue track explicitly recolored muted blue-grey. Knob cream remains source pixels. NOT an original OFF source sprite.",
+      "alpha": "Source authored alpha mirrored unchanged, not recovered original alpha.",
+      "label": "Separate locale Label. Never mirror text."
+    },
+    {
+      "id": "pause_icon_music_off",
+      "file": "assets/pause_icon_music_off.png",
+      "native_size_px": [
+        78,
+        83
+      ],
+      "source_file": "rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_icon_music.png",
+      "source_sha256": "01ea387d9347d49434efe878344e421525fbf48d7965b2d37a65cb6adeee2c01",
+      "sha256": "a95fd1282b662e69f8f5eb1455a344af341ce9d904cfd0e9b2a635d36a510e55",
+      "provenance": "Existing icon silhouette kept, dark RGB explicitly recolored muted blue-grey. Root-requested diagonal mute slash added as crisp separate visual cue. Not an unseen original state.",
+      "slash_spec": {
+        "start_px": [
+          8,
+          73
+        ],
+        "end_px": [
+          69,
+          10
+        ],
+        "outer_color": "#FFF4E2",
+        "outer_width_px": 11,
+        "inner_color": "#49677F",
+        "inner_width_px": 6
+      }
+    },
+    {
+      "id": "pause_icon_sound_off",
+      "file": "assets/pause_icon_sound_off.png",
+      "native_size_px": [
+        89,
+        77
+      ],
+      "source_file": "rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_icon_speaker.png",
+      "source_sha256": "1081ab2c87bba5f56c3bbcaf9089a5ce443bce4f637ad48ca6fb78103a477dbf",
+      "sha256": "e73759927421a64bbd5f25ca4bb90dacdb1306ed52eb16b69f0fe5622a122d17",
+      "provenance": "Existing icon silhouette kept, dark RGB explicitly recolored muted blue-grey. Root-requested diagonal mute slash added as crisp separate visual cue. Not an unseen original state.",
+      "slash_spec": {
+        "start_px": [
+          8,
+          67
+        ],
+        "end_px": [
+          80,
+          10
+        ],
+        "outer_color": "#FFF4E2",
+        "outer_width_px": 11,
+        "inner_color": "#49677F",
+        "inner_width_px": 6
+      }
+    }
+  ],
+  "same_switch_rect_as_ON": true,
+  "runtime_rule": "Use independent Labels 关/OFF; do not mirror glyphs or infer audio business state from color. Music and sound are independent states.",
+  "visual_approval": "New derived state awaiting review; source ON art had prior approval.",
+  "scope": "Static only; no local project modifications or audio implementation."
+}

@@ -1,0 +1,32 @@
+extends CanvasLayer
+
+# Canvas ordering isolates ALL game z values from ALL modal content.
+# Each modal uses the same internal order: full blocker/dimmer, then content.
+func _init() -> void:
+	layer = 10
+	name = "UnifiedModalCanvas"
+
+func mount(modal: Control, viewport_size: Vector2) -> void:
+	for previous in get_children():
+		if previous is Control:
+			previous.hide() # Keep popup primitive z values from interleaving across dialogs.
+	modal.z_index = 0
+	modal.set_anchors_and_offsets_preset(Control.PRESET_TOP_LEFT)
+	modal.position = Vector2.ZERO
+	modal.mouse_filter = Control.MOUSE_FILTER_STOP
+	modal.size = viewport_size
+	add_child(modal)
+
+func unmount(modal: Control) -> void:
+	if is_instance_valid(modal):
+		if modal.get_parent() == self:
+			remove_child(modal)
+		modal.queue_free()
+	var remaining := get_children()
+	if not remaining.is_empty() and remaining.back() is Control:
+		remaining.back().show()
+
+func fit(viewport_size: Vector2) -> void:
+	for child in get_children():
+		if child is Control:
+			child.size = viewport_size

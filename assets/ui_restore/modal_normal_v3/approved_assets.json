@@ -1,0 +1,486 @@
+{
+  "status": "approved_for_preview_integration",
+  "version": 3,
+  "reject_all_not_listed": true,
+  "production_approved": false,
+  "source_library_file_id": "libfile_55868c3c92b88191a65dcd50c67d5d07",
+  "source_file_id": "file_000000008ab881f5b2d53ac93ba9d55d",
+  "archive_sha256": "B09FFBEC942AECC2D549D12717E48984F2BF77283D1B5AF33FF3D0F55489AE62",
+  "whitelist": [
+    {
+      "id": "modal_title_zh",
+      "file": "modal_title_zh.png",
+      "native_size_px": [
+        447,
+        142
+      ],
+      "top_left_px": [
+        248,
+        312
+      ],
+      "pivot_px": [
+        223.5,
+        71.0
+      ],
+      "sha256": "61ab3e357f1b757da0885bea9344f1bc40577f967069fe9fea70812582b28b01",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_title_en",
+      "file": "modal_title_en.png",
+      "native_size_px": [
+        447,
+        142
+      ],
+      "top_left_px": [
+        248,
+        312
+      ],
+      "pivot_px": [
+        223.5,
+        71.0
+      ],
+      "sha256": "ff297c3be94860db02be99cfacb604d06c25fa7b05606057a7c334608ac32866",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_resume_zh",
+      "file": "modal_resume_zh.png",
+      "native_size_px": [
+        613,
+        152
+      ],
+      "top_left_px": [
+        164,
+        883
+      ],
+      "pivot_px": [
+        306.5,
+        76.0
+      ],
+      "sha256": "ccf7058623efeb9bce1b1e6d58d4a0fc82cc777564f74a1e28b637b8ef41bef0",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_resume_en",
+      "file": "modal_resume_en.png",
+      "native_size_px": [
+        613,
+        152
+      ],
+      "top_left_px": [
+        164,
+        883
+      ],
+      "pivot_px": [
+        306.5,
+        76.0
+      ],
+      "sha256": "acbe968f4c7a5e137accedd4181a96b4b30377aeea38fbfc228e1fd6cefb7f40",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_restart_zh",
+      "file": "modal_restart_zh.png",
+      "native_size_px": [
+        618,
+        116
+      ],
+      "top_left_px": [
+        162,
+        1048
+      ],
+      "pivot_px": [
+        309.0,
+        58.0
+      ],
+      "sha256": "7901a56487c5b5ad911062f5685a58bff2d418f5688789706ab526b25a976ce6",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_restart_en",
+      "file": "modal_restart_en.png",
+      "native_size_px": [
+        618,
+        116
+      ],
+      "top_left_px": [
+        162,
+        1048
+      ],
+      "pivot_px": [
+        309.0,
+        58.0
+      ],
+      "sha256": "ef8200e31aa04001fa3734b9bc377d00bc2e96f5a2fc21b273be6e156f16a69e",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_home_zh",
+      "file": "modal_home_zh.png",
+      "native_size_px": [
+        618,
+        115
+      ],
+      "top_left_px": [
+        162,
+        1170
+      ],
+      "pivot_px": [
+        309.0,
+        57.5
+      ],
+      "sha256": "eae47ed01902bf290d0a0c2db34fb84c47498f4477e2545fc2aa92bd1d8e762e",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_home_en",
+      "file": "modal_home_en.png",
+      "native_size_px": [
+        618,
+        115
+      ],
+      "top_left_px": [
+        162,
+        1170
+      ],
+      "pivot_px": [
+        309.0,
+        57.5
+      ],
+      "sha256": "edc529141a1ebcc5621db5f0315dccd553eccabcd43c9a2664b01f7c813795ed",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_close",
+      "file": "modal_close.png",
+      "native_size_px": [
+        93,
+        94
+      ],
+      "top_left_px": [
+        731,
+        395
+      ],
+      "pivot_px": [
+        46.5,
+        47.0
+      ],
+      "sha256": "5e899d0e6c680602e0610b3c7a115d258259fb9f46fdedba64cbba887013968c",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_icon_music",
+      "file": "modal_icon_music.png",
+      "native_size_px": [
+        78,
+        83
+      ],
+      "top_left_px": [
+        198,
+        502
+      ],
+      "pivot_px": [
+        39.0,
+        41.5
+      ],
+      "sha256": "01ea387d9347d49434efe878344e421525fbf48d7965b2d37a65cb6adeee2c01",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_icon_speaker",
+      "file": "modal_icon_speaker.png",
+      "native_size_px": [
+        89,
+        77
+      ],
+      "top_left_px": [
+        193,
+        623
+      ],
+      "pivot_px": [
+        44.5,
+        38.5
+      ],
+      "sha256": "1081ab2c87bba5f56c3bbcaf9089a5ce443bce4f637ad48ca6fb78103a477dbf",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_icon_globe",
+      "file": "modal_icon_globe.png",
+      "native_size_px": [
+        84,
+        85
+      ],
+      "top_left_px": [
+        193,
+        736
+      ],
+      "pivot_px": [
+        42.0,
+        42.5
+      ],
+      "sha256": "985bb3c0a05aa27294cb4bca35d25cfbf05012b0de17a6006dededfd75a938f2",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_switch_on_zh",
+      "file": "modal_switch_on_zh.png",
+      "native_size_px": [
+        205,
+        84
+      ],
+      "top_left_px": [
+        545,
+        503
+      ],
+      "pivot_px": [
+        102.5,
+        42.0
+      ],
+      "sha256": "2deeb203e3f53e2020b764fb29c36f0ca29ad779308498642b5825cc4b1c821b",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_language_dropdown_zh",
+      "file": "modal_language_dropdown_zh.png",
+      "native_size_px": [
+        289,
+        84
+      ],
+      "top_left_px": [
+        471,
+        741
+      ],
+      "pivot_px": [
+        144.5,
+        42.0
+      ],
+      "sha256": "4d299eeaad6a8536475ff8125cf7fddddbf450f7e6470e5ea7c729aa2ad7194f",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_switch_on_en",
+      "file": "modal_switch_on_en.png",
+      "native_size_px": [
+        205,
+        84
+      ],
+      "top_left_px": [
+        545,
+        503
+      ],
+      "pivot_px": [
+        102.5,
+        42.0
+      ],
+      "sha256": "c4a6e225b14698954519f6ddc65d724d82655fa2c2812e42611328c27aee0ce5",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_language_dropdown_en",
+      "file": "modal_language_dropdown_en.png",
+      "native_size_px": [
+        255,
+        84
+      ],
+      "top_left_px": [
+        505,
+        741
+      ],
+      "pivot_px": [
+        127.5,
+        42.0
+      ],
+      "sha256": "6fd76c0a50be5af3240a32ae2dcaefa7090adda605a5526b16ef491927057b56",
+      "state": "normal",
+      "restriction": "normal visible state only"
+    },
+    {
+      "id": "modal_text_music_zh",
+      "file": "modal_text_music_zh.png",
+      "native_size_px": [
+        93,
+        50
+      ],
+      "top_left_px": [
+        315,
+        520
+      ],
+      "pivot_px": [
+        46.5,
+        25.0
+      ],
+      "sha256": "5b5ca50f1231d6fb07648235a09ba584cc4b50878e8defe823f1ed789fb92947",
+      "state": "normal",
+      "restriction": "Only approved cream modal background at original position; do not move onto grey or arbitrary backgrounds. Baked lettering, no editable font substitution."
+    },
+    {
+      "id": "modal_text_sound_zh",
+      "file": "modal_text_sound_zh.png",
+      "native_size_px": [
+        93,
+        49
+      ],
+      "top_left_px": [
+        315,
+        639
+      ],
+      "pivot_px": [
+        46.5,
+        24.5
+      ],
+      "sha256": "9b332c073d03ae47f8a4dfcb8c5c4fc8c1f3e6bf48f6015f8a0fdf4bd23741f0",
+      "state": "normal",
+      "restriction": "Only approved cream modal background at original position; do not move onto grey or arbitrary backgrounds. Baked lettering, no editable font substitution."
+    },
+    {
+      "id": "modal_text_language_zh",
+      "file": "modal_text_language_zh.png",
+      "native_size_px": [
+        93,
+        50
+      ],
+      "top_left_px": [
+        315,
+        756
+      ],
+      "pivot_px": [
+        46.5,
+        25.0
+      ],
+      "sha256": "7793df0c5eee7fe69ca612990e3be89284dd87924aa3ec5ad187640b52e8fda0",
+      "state": "normal",
+      "restriction": "Only approved cream modal background at original position; do not move onto grey or arbitrary backgrounds. Baked lettering, no editable font substitution."
+    },
+    {
+      "id": "modal_text_footer_zh",
+      "file": "modal_text_footer_zh.png",
+      "native_size_px": [
+        188,
+        31
+      ],
+      "top_left_px": [
+        376,
+        1305
+      ],
+      "pivot_px": [
+        94.0,
+        15.5
+      ],
+      "sha256": "a3e1e6c40b9cf02a2aab7511e2d865cd01abd0038a9ee9175c2d4cbcf583a759",
+      "state": "normal",
+      "restriction": "Only approved cream modal background at original position; do not move onto grey or arbitrary backgrounds. Baked lettering, no editable font substitution."
+    },
+    {
+      "id": "modal_text_music_en",
+      "file": "modal_text_music_en.png",
+      "native_size_px": [
+        125,
+        41
+      ],
+      "top_left_px": [
+        308,
+        524
+      ],
+      "pivot_px": [
+        62.5,
+        20.5
+      ],
+      "sha256": "97718b6a98de8ac4f392d9f7ad07b3b1ac0f10ecb65ef3882cf2a3e7fecff1b3",
+      "state": "normal",
+      "restriction": "Only approved cream modal background at original position; do not move onto grey or arbitrary backgrounds. Baked lettering, no editable font substitution."
+    },
+    {
+      "id": "modal_text_sound_en",
+      "file": "modal_text_sound_en.png",
+      "native_size_px": [
+        133,
+        40
+      ],
+      "top_left_px": [
+        308,
+        643
+      ],
+      "pivot_px": [
+        66.5,
+        20.0
+      ],
+      "sha256": "7e10197a753394c8adb1d7fde924e36fc347e51933239230a636fca998975cd7",
+      "state": "normal",
+      "restriction": "Only approved cream modal background at original position; do not move onto grey or arbitrary backgrounds. Baked lettering, no editable font substitution."
+    },
+    {
+      "id": "modal_text_language_en",
+      "file": "modal_text_language_en.png",
+      "native_size_px": [
+        178,
+        45
+      ],
+      "top_left_px": [
+        307,
+        762
+      ],
+      "pivot_px": [
+        89.0,
+        22.5
+      ],
+      "sha256": "cfc44dad03513f8bad525fb5b93b83cb4cadeca779c4cccd7f4be247442f8a8c",
+      "state": "normal",
+      "restriction": "Only approved cream modal background at original position; do not move onto grey or arbitrary backgrounds. Baked lettering, no editable font substitution."
+    },
+    {
+      "id": "modal_text_footer_en",
+      "file": "modal_text_footer_en.png",
+      "native_size_px": [
+        185,
+        35
+      ],
+      "top_left_px": [
+        378,
+        1304
+      ],
+      "pivot_px": [
+        92.5,
+        17.5
+      ],
+      "sha256": "efca92ff250661f0f5b2b5d5b200bec055e163c79711558c15831b220cbf2871",
+      "state": "normal",
+      "restriction": "Only approved cream modal background at original position; do not move onto grey or arbitrary backgrounds. Baked lettering, no editable font substitution."
+    },
+    {
+      "id": "modal_empty_base_728x985_fixed_art",
+      "file": "modal_empty_base_728x985_fixed_art.png",
+      "native_size_px": [
+        728,
+        985
+      ],
+      "top_left_px": [
+        107,
+        381
+      ],
+      "pivot_px": [
+        364,
+        492.5
+      ],
+      "sha256": "5ff9e402b67361c5b57a66a07fc508c74d0dc6685c6e32e1e3c58a974704be96",
+      "state": "normal",
+      "restriction": "Top-left [107,381] on native 941x1672 reference canvas; entire UI may be uniformly fit, not individually stretched."
+    }
+  ]
+}

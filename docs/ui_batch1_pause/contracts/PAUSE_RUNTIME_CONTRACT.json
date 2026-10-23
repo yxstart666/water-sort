@@ -1,0 +1,86 @@
+{
+  "canvas": [
+    941,
+    1672
+  ],
+  "baseline": "original approved composition, no additional 0.92 shrink by default",
+  "safe_area": "uniform contain within available safe rect",
+  "layer_order": [
+    "full viewport blocker and dimmer",
+    "panel",
+    "title and buttons",
+    "labels",
+    "active hit targets",
+    "language popover"
+  ],
+  "touch_min_dp": 44,
+  "source_rects_941": {
+    "close": [
+      719,
+      384,
+      117,
+      116
+    ],
+    "music_toggle": [
+      505,
+      487,
+      285,
+      116
+    ],
+    "sound_toggle": [
+      505,
+      605,
+      285,
+      116
+    ],
+    "language_zh": [
+      455,
+      725,
+      320,
+      116
+    ],
+    "language_en": [
+      489,
+      725,
+      286,
+      116
+    ],
+    "resume": [
+      164,
+      883,
+      613,
+      152
+    ],
+    "restart": [
+      162,
+      1048,
+      618,
+      116
+    ],
+    "level_select": [
+      162,
+      1170,
+      618,
+      115
+    ]
+  },
+  "touch_rect_policy": "Visual images retain source positions; invisible hit rects only expand. At 360 logical width these rects are >=44dp. Recompute for narrower safe areas; do not permit overlapping targets.",
+  "base_interactions": [
+    "resume",
+    "restart_requested",
+    "level_select_requested",
+    "music_toggle",
+    "sound_toggle",
+    "language_select"
+  ],
+  "not_enabled": [
+    "legacy cargo tutorial route",
+    "new ad purchase flows"
+  ],
+  "states_source": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/interaction_states.json",
+  "notes": [
+    "This is an integration contract, not executable project code.",
+    "Extra horizontal separator/footer rules visible only in generated target are not supplied as new pixels.",
+    "All dynamic labels must bind real values, not reference screenshot values."
+  ]
+}

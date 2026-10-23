@@ -1,0 +1,2770 @@
+[
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_zh_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      930,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "设置",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 72,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "font_family": "Noto Sans CJK JP Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_zh_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      930,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      512,
+      1022,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      512,
+      1140,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "设置",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 72,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "font_family": "Noto Sans CJK JP Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      809,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      930,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "设置",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 72,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "font_family": "Noto Sans CJK JP Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_zh_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_zh_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      809,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      930,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      512,
+      1022,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      512,
+      1140,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "设置",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 72,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "font_family": "Noto Sans CJK JP Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      691,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      930,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "设置",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 72,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "font_family": "Noto Sans CJK JP Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_zh_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_zh_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      691,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      930,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      512,
+      1022,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      512,
+      1140,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "设置",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 72,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "font_family": "Noto Sans CJK JP Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      691,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      809,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      930,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "设置",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 72,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "font_family": "Noto Sans CJK JP Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      691,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      809,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      930,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "设置",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 72,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "font_family": "Noto Sans CJK JP Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      512,
+      1022,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      512,
+      1140,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_zh_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      755,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      755,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      512,
+      847,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      512,
+      965,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_zh_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      634,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      755,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_zh_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      634,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      755,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      512,
+      847,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      512,
+      965,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_zh_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      516,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      755,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_zh_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      516,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      755,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      512,
+      847,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      512,
+      965,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_zh_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      516,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      634,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      755,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "操作指引",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      516,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "关",
+    "rect_px": [
+      636,
+      634,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans CJK JP Bold",
+    "font_px": 49,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "简体中文",
+    "rect_px": [
+      491,
+      755,
+      215,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      512,
+      847,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      512,
+      965,
+      235,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_zh_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_en_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      930,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "Settings",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 62,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "font_family": "Noto Sans Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_en_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      930,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      546,
+      1022,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      546,
+      1140,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "Settings",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 62,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "font_family": "Noto Sans Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      809,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      930,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "Settings",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 62,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "font_family": "Noto Sans Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_en_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_en_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      809,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      930,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      546,
+      1022,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      546,
+      1140,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "Settings",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 62,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "font_family": "Noto Sans Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      691,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      930,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "Settings",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 62,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "font_family": "Noto Sans Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_en_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_en_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      691,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      930,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      546,
+      1022,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      546,
+      1140,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "Settings",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 62,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "font_family": "Noto Sans Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      691,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      809,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      930,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "Settings",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 62,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "font_family": "Noto Sans Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1084,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "home_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      691,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      809,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      930,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "settings_title",
+    "text": "Settings",
+    "rect_px": [
+      274,
+      513,
+      394,
+      84
+    ],
+    "font_px": 62,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "font_family": "Noto Sans Bold",
+    "face_index": 0,
+    "font_weight": 700,
+    "color": "#FFFFFF",
+    "align": "center",
+    "scene": "home_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      546,
+      1022,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      546,
+      1140,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "home_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_en_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      755,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      755,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      546,
+      847,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      546,
+      965,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_en_music_on_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      634,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      755,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_en_music_on_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      634,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      755,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      546,
+      847,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      546,
+      965,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_en_music_on_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      516,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      755,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_en_music_off_sound_on_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      516,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      755,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      546,
+      847,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      546,
+      965,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_en_music_off_sound_on_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      516,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      634,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      755,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_en_music_off_sound_off_closed",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "how_to_play",
+    "text": "How to play",
+    "rect_px": [
+      190,
+      1364,
+      560,
+      91
+    ],
+    "font_px": 48,
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_family": "Noto Sans Bold",
+    "font_weight": 700,
+    "color": "#123A59",
+    "z": 40,
+    "scene": "pause_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "music_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      516,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "sound_state",
+    "text": "OFF",
+    "rect_px": [
+      636,
+      634,
+      91,
+      58
+    ],
+    "font_family": "Noto Sans Bold",
+    "font_px": 40,
+    "color": "#FFFFFF",
+    "align": "center",
+    "source_font_claim": "Explicit derived OFF art specification, not original font identification.",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "selected_locale",
+    "text": "English",
+    "rect_px": [
+      525,
+      755,
+      181,
+      50
+    ],
+    "font_px": 36,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_zh",
+    "text": "简体中文",
+    "rect_px": [
+      546,
+      847,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans CJK JP Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  },
+  {
+    "id": "locale_en",
+    "text": "English",
+    "rect_px": [
+      546,
+      965,
+      201,
+      100
+    ],
+    "font_px": 33,
+    "font_family": "Noto Sans Bold",
+    "color": "#123A59",
+    "align": "center",
+    "font_asset": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "face_index": 0,
+    "font_weight": 700,
+    "scene": "pause_settings_guide_en_music_off_sound_off_expanded",
+    "runtime_independent_label": true
+  }
+]

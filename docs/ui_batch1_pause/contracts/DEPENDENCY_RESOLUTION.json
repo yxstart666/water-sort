@@ -1,0 +1,268 @@
+[
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+    "bytes": 410418,
+    "sha256": "8cb120a36aace7beb03d493ddaadc6003be5ab3fef4a12f8228539866b5dcb80",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_close.png",
+    "bytes": 17773,
+    "sha256": "5e899d0e6c680602e0610b3c7a115d258259fb9f46fdedba64cbba887013968c",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_close.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_icon_music.png",
+    "bytes": 9425,
+    "sha256": "01ea387d9347d49434efe878344e421525fbf48d7965b2d37a65cb6adeee2c01",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_icon_music.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_icon_speaker.png",
+    "bytes": 10970,
+    "sha256": "1081ab2c87bba5f56c3bbcaf9089a5ce443bce4f637ad48ca6fb78103a477dbf",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_icon_speaker.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_icon_globe.png",
+    "bytes": 14638,
+    "sha256": "985bb3c0a05aa27294cb4bca35d25cfbf05012b0de17a6006dededfd75a938f2",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_icon_globe.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_switch_on_zh.png",
+    "bytes": 22054,
+    "sha256": "2deeb203e3f53e2020b764fb29c36f0ca29ad779308498642b5825cc4b1c821b",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_switch_on_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+    "bytes": 13226,
+    "sha256": "d5417a28ea1dfbb022b28fcee3651c3b774b1fa7e2eb715c2cff0a960e295d57",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+    "bytes": 66911,
+    "sha256": "88bf331717e5cdad43c1b0771df8b6097d67a0469dd8006caa8600a8f47e0834",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_primary_610x128.png",
+    "bytes": 35917,
+    "sha256": "5c0743505c13e9bd86fdbb2264e18c3989288b40e09bc12b8d22750cf9ac574f",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_primary_610x128.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_music_zh.png",
+    "bytes": 9527,
+    "sha256": "5b5ca50f1231d6fb07648235a09ba584cc4b50878e8defe823f1ed789fb92947",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_sound_zh.png",
+    "bytes": 10388,
+    "sha256": "9b332c073d03ae47f8a4dfcb8c5c4fc8c1f3e6bf48f6015f8a0fdf4bd23741f0",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_language_zh.png",
+    "bytes": 8968,
+    "sha256": "7793df0c5eee7fe69ca612990e3be89284dd87924aa3ec5ad187640b52e8fda0",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "bytes": 20050760,
+    "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+    "resolved_res_path": "res://assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+    "bytes": 516,
+    "sha256": "9fafb2c4efb9bdb6f9f5b55024f574617321bc3d1317408b1870c636e4390214",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_zh.png",
+    "bytes": 15374,
+    "sha256": "bbb57bd3b7cd395b3e55ed29fb0977e3ca6a86c2a41645422a3bc23b00715b7e",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+    "bytes": 1033,
+    "sha256": "f9138da2baa686a82ec41bac58fb2548c7e86a4cad759871a487d4924be58c2f",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+    "included": true
+  },
+  {
+    "file": "reuse://UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "bytes": 515752,
+    "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+    "resolved_res_path": "res://assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_PAUSE_OFF_PRIORITY_v1/assets/pause_icon_sound_off.png",
+    "bytes": 10492,
+    "sha256": "e73759927421a64bbd5f25ca4bb90dacdb1306ed52eb16b69f0fe5622a122d17",
+    "resolved_res_path": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_PAUSE_OFF_PRIORITY_v1/assets/pause_switch_off_empty_205x84.png",
+    "bytes": 15835,
+    "sha256": "bc40ed790ddd1644b37403c82978bef1458aa6d61c6f14479e698fbca3caab7a",
+    "resolved_res_path": "res://assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_PAUSE_OFF_PRIORITY_v1/assets/pause_icon_music_off.png",
+    "bytes": 8843,
+    "sha256": "a95fd1282b662e69f8f5eb1455a344af341ce9d904cfd0e9b2a635d36a510e55",
+    "resolved_res_path": "res://assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_empty_base_728x985_fixed_art.png",
+    "bytes": 762114,
+    "sha256": "5ff9e402b67361c5b57a66a07fc508c74d0dc6685c6e32e1e3c58a974704be96",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_empty_base_728x985_fixed_art.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_title_zh.png",
+    "bytes": 107170,
+    "sha256": "61ab3e357f1b757da0885bea9344f1bc40577f967069fe9fea70812582b28b01",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_title_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_resume_zh.png",
+    "bytes": 116200,
+    "sha256": "ccf7058623efeb9bce1b1e6d58d4a0fc82cc777564f74a1e28b637b8ef41bef0",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_resume_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_restart_zh.png",
+    "bytes": 80313,
+    "sha256": "7901a56487c5b5ad911062f5685a58bff2d418f5688789706ab526b25a976ce6",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_restart_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_home_zh.png",
+    "bytes": 76530,
+    "sha256": "eae47ed01902bf290d0a0c2db34fb84c47498f4477e2545fc2aa92bd1d8e762e",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_home_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_secondary_296x128.png",
+    "bytes": 12021,
+    "sha256": "c1a28fe7be82aaa8af9c3dd348677e9d970de227a4989d12612a0ab1a8cf85c2",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_secondary_296x128.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_footer_zh.png",
+    "bytes": 13767,
+    "sha256": "a3e1e6c40b9cf02a2aab7511e2d865cd01abd0038a9ee9175c2d4cbcf583a759",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_text_footer_zh.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_switch_on_en.png",
+    "bytes": 22766,
+    "sha256": "c4a6e225b14698954519f6ddc65d724d82655fa2c2812e42611328c27aee0ce5",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_switch_on_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+    "bytes": 12984,
+    "sha256": "b3e78f66a0131f5477924cb42df6fa7990fa1b3891cd06607332fa617398094a",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_music_en.png",
+    "bytes": 10632,
+    "sha256": "97718b6a98de8ac4f392d9f7ad07b3b1ac0f10ecb65ef3882cf2a3e7fecff1b3",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_sound_en.png",
+    "bytes": 10807,
+    "sha256": "7e10197a753394c8adb1d7fde924e36fc347e51933239230a636fca998975cd7",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_language_en.png",
+    "bytes": 15713,
+    "sha256": "cfc44dad03513f8bad525fb5b93b83cb4cadeca779c4cccd7f4be247442f8a8c",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_en.png",
+    "bytes": 15326,
+    "sha256": "c5ba13be33abe2c5289b0125d07a22e3a22584d7bde9b1be68f0f0232fe8eef2",
+    "resolved_res_path": "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_title_en.png",
+    "bytes": 97981,
+    "sha256": "ff297c3be94860db02be99cfacb604d06c25fa7b05606057a7c334608ac32866",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_title_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_resume_en.png",
+    "bytes": 104832,
+    "sha256": "acbe968f4c7a5e137accedd4181a96b4b30377aeea38fbfc228e1fd6cefb7f40",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_resume_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_restart_en.png",
+    "bytes": 84296,
+    "sha256": "ef8200e31aa04001fa3734b9bc377d00bc2e96f5a2fc21b273be6e156f16a69e",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_restart_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_home_en.png",
+    "bytes": 79533,
+    "sha256": "edc529141a1ebcc5621db5f0315dccd553eccabcd43c9a2664b01f7c813795ed",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_home_en.png",
+    "included": true
+  },
+  {
+    "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_footer_en.png",
+    "bytes": 13029,
+    "sha256": "efca92ff250661f0f5b2b5d5b200bec055e163c79711558c15831b220cbf2871",
+    "resolved_res_path": "res://assets/ui_restore/modal_normal_v3/modal_text_footer_en.png",
+    "included": true
+  }
+]

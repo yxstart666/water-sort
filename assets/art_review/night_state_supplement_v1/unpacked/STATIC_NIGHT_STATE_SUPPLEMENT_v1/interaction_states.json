@@ -1,0 +1,41 @@
+{
+  "reference_canvas_px": [
+    941,
+    1672
+  ],
+  "normal": "Use exact specified asset and label rect.",
+  "pressed": {
+    "scope": "enabled buttons only",
+    "rgb_multiplier": 0.92,
+    "label_offset_px": [
+      0,
+      2
+    ],
+    "sprite_offset_px": [
+      0,
+      0
+    ],
+    "scale": 1,
+    "release": "restore immediately on release/cancel",
+    "duration_ms": 0,
+    "note": "Static pressed state specified as rendering parameters, not a new raster. No layout shift or enlarged overlapping hitboxes."
+  },
+  "focus": {
+    "enabled": true,
+    "color": "#123A59",
+    "stroke_px": 3,
+    "gap_px": 4,
+    "shape": "Follow component rectangle with 18px radius, outside sprite canvas; do not obscure labels.",
+    "policy": "Keyboard focus only, not always-on mobile decoration."
+  },
+  "disabled": {
+    "rgb": "100% desaturate then mix28% #FFF9E7; retain alpha",
+    "label_color": "#666C70",
+    "input": false,
+    "press": false,
+    "hover": false,
+    "semantic_reason": "Provide explicit reason label/ad unavailable/not unlocked/loading; color is not only cue."
+  },
+  "toggle": "Music and sound independent, OFF artwork from STATIC_PAUSE_OFF_PRIORITY_v1; ON original remains.",
+  "safety": "This is interaction art/state specification only, not audio, billing, ads or game logic implementation."
+}

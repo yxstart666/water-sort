@@ -1,0 +1,27 @@
+Font license primary sources checked 2026-10-21:
+Noto CJK Sans original upstream license:
+https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE
+Noto Sans original upstream license:
+https://github.com/notofonts/noto-fonts/blob/main/LICENSE
+DejaVu original project license:
+https://dejavu-fonts.github.io/License.html
+Godot4 FontFile supported formats and missing-glyph behavior:
+https://docs.godotengine.org/en/stable/classes/class_fontfile.html
+Godot4 FontVariation face index:
+https://docs.godotengine.org/en/stable/classes/class_fontvariation.html#class-fontvariation-property-variation-face-index
+
+Installed original notices copied unchanged:
+/usr/share/doc/fonts-noto-cjk/copyright
+/usr/share/doc/fonts-noto-core/copyright
+/usr/share/doc/fonts-dejavu-core/copyright
+Binary metadata name IDs0/13/14 are preserved verbatim in font_metadata_and_copyright.json and licenses/FONT_COPYRIGHT_NOTICES.txt.
+
+Actual screenshot renderer references:
+/tmp/cut_menu_assets.py:128-135; /tmp/cut_leaderboard_assets.py inherited renderer
+/tmp/complete_off_controls.py:19,32
+/tmp/complete_night_static.py:25-29
+STATIC_FULL_GAME_LAYOUT_CANDIDATE_v1/render_reference.py:11,25
+qa/success_ranking_v4_audit/build_v4.py:96,113,116,119
+Historical optional QA:
+/tmp/finalize_leaderboard_pack.py:13-14 (mono width only)
+/tmp/build_dynamic_badge_patch.py:21-22,30-31 (condensed QA count rendering)

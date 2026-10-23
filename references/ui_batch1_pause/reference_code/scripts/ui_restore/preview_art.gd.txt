@@ -1,0 +1,76 @@
+extends RefCounted
+
+# Only the explicitly cleared normal-state primitives. No review/source/QA paths
+# are loaded at runtime. Raw RGBA is loaded here for this local preview; export
+# packaging and production texture import remain outside this authorization.
+const MANIFEST := "res://assets/ui_restore/modal_normal_v3/approved_assets.json"
+const DIRECTORY := "res://assets/ui_restore/modal_normal_v3/"
+const EXPECTED_IDS := ["modal_title_zh", "modal_title_en", "modal_resume_zh", "modal_resume_en", "modal_restart_zh", "modal_restart_en", "modal_home_zh", "modal_home_en", "modal_close", "modal_icon_music", "modal_icon_speaker", "modal_icon_globe", "modal_switch_on_zh", "modal_switch_on_en", "modal_language_dropdown_zh", "modal_language_dropdown_en", "modal_text_music_zh", "modal_text_sound_zh", "modal_text_language_zh", "modal_text_footer_zh", "modal_text_music_en", "modal_text_sound_en", "modal_text_language_en", "modal_text_footer_en", "modal_empty_base_728x985_fixed_art"]
+const BAKED_TEXT_IDS := ["title", "resume", "restart", "home", "language_value"]
+const BAKED_ICON_COMPONENTS := ["restart_icon", "home_icon", "play_icon", "chevron"]
+var assets: Dictionary = {}
+var textures: Dictionary = {}
+var errors: Array = []
+var placement: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(DIRECTORY + "scene_placement.json"))
+
+func _init() -> void:
+	var manifest = JSON.parse_string(FileAccess.get_file_as_string(MANIFEST))
+	if not manifest is Dictionary or manifest.get("status", "") != "approved_for_preview_integration" or not manifest.get("reject_all_not_listed", false):
+		errors.append("Missing preview approval manifest")
+		return
+	for item in manifest.get("whitelist", []):
+		if item.id not in EXPECTED_IDS or assets.has(item.id) or item.file != str(item.file).get_file() or item.state not in ["normal", "ON_normal", "closed_normal"]:
+			errors.append("Asset not in permitted normal-state whitelist")
+			continue
+		var path: String = DIRECTORY + item.file
+		if FileAccess.get_sha256(path) != item.sha256:
+			errors.append("Hash mismatch: " + item.id)
+			continue
+		var image := Image.new()
+		var decode_status := image.load_png_from_buffer(FileAccess.get_file_as_bytes(path))
+		if decode_status != OK or image.is_empty() or image.get_size() != Vector2i(item.native_size_px[0], item.native_size_px[1]):
+			errors.append("Size mismatch: " + item.id)
+			continue
+		assets[item.id] = item.duplicate(true)
+		textures[item.id] = ImageTexture.create_from_image(image)
+	if assets.size() != EXPECTED_IDS.size():
+		errors.append("Incomplete preview whitelist")
+	for locale in ["zh", "en"]:
+		for layer in scene_layers(locale):
+			var id: String = layer.get("asset_id", layer.id)
+			if not assets.has(id) or layer.native_size_px != assets[id].native_size_px:
+				errors.append("Composition references missing or resized image: " + id)
+
+func scene_layers(locale: String) -> Array:
+	return placement.locale_layouts[locale].layers.duplicate(true)
+
+func component_layer(component: String, locale: String) -> Dictionary:
+	var id: String = component_id(component, locale)
+	if component == "toggle_sound":
+		id += "_reused_for_sound"
+	for layer in scene_layers(locale):
+		if layer.id == id:
+			return layer
+	return {}
+
+func component_rect(component: String, locale: String) -> Rect2:
+	var layer := component_layer(component, locale)
+	return Rect2(Vector2(layer.top_left_px[0], layer.top_left_px[1]), Vector2(layer.native_size_px[0], layer.native_size_px[1]))
+
+func component_id(component: String, locale: String) -> String:
+	match component:
+		"title_plate": return "modal_title_" + locale
+		"primary_button": return "modal_resume_" + locale
+		"secondary_restart": return "modal_restart_" + locale
+		"secondary_home": return "modal_home_" + locale
+		"close_button": return "modal_close"
+		"icon_music": return "modal_icon_music"
+		"icon_speaker": return "modal_icon_speaker"
+		"icon_globe": return "modal_icon_globe"
+		"toggle_music", "toggle_sound": return "modal_switch_on_" + locale
+		"language_field": return "modal_language_dropdown_" + locale
+	return ""
+
+func reference_rect(id: String) -> Rect2:
+	var item: Dictionary = assets[id]
+	return Rect2(Vector2(item.top_left_px[0], item.top_left_px[1]), Vector2(item.native_size_px[0], item.native_size_px[1]))

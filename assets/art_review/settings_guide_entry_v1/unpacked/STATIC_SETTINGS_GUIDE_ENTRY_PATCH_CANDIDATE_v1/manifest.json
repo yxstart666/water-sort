@@ -1,0 +1,18 @@
+{
+  "status": "root_visual_acceptance_pass_after_secondary_pause_button_revision_not_engine_integrated",
+  "new_runtime_png": 0,
+  "scene_combinations": 32,
+  "font_bindings": 144,
+  "dependencies": 38,
+  "root_approved_design_direction": "How to play in Settings, no replacement of bottom Hint",
+  "panel_changes": {
+    "home": "728x560 ->728x728, top/controls unchanged; Help at165,1070",
+    "pause": "728x985 ->728x1143, top/controls unchanged; Help at165,1350"
+  },
+  "requires_tutorial_package": "STATIC_TUTORIAL_AND_UI_COMPLETION_CANDIDATE_v1",
+  "not_modified": "no original frozen package or local code changed",
+  "button_hierarchy": {
+    "home": "gold primary guide, no Resume here",
+    "pause": "existing light secondary guide; Resume remains the only yellow primary"
+  }
+}

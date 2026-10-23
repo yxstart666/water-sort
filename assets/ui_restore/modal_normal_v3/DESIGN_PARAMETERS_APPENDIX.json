@@ -1,0 +1,21 @@
+{
+  "status": "root_art_design_parameters_for_preview",
+  "not_inferred_from_flattened_reference": true,
+  "pending_combination_QA_tuning": true,
+  "scene_dimmer": {
+    "color_srgb_hex": "#071D38",
+    "rgb_8bit": [
+      7,
+      29,
+      56
+    ],
+    "maximum_alpha": 0.58,
+    "blend_mode": "normal_source_over",
+    "layer": "above scene, below modal base and interactive modal elements",
+    "covers": "full viewport behind modal",
+    "open_fade_in_duration_ms": 120,
+    "close_fade_out_duration_ms": 120,
+    "easing": "not separately specified; do not characterize as recovered from original image"
+  },
+  "scope": "Dimmer color, alpha and fade durations are explicitly chosen by parent art direction, not a claim of pixel-exact reverse engineering. No new button states, font, geometry or panel design authorized."
+}

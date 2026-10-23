@@ -1,0 +1,748 @@
+{
+  "batch": "ui_batch1_pause",
+  "branch": "ui/restore-assets-20261023",
+  "base_commit": "cd4be6cfa78c57e675c62e6f4ab51930dcaf3fbd",
+  "preserve_local": "orders_v3; 61 uncommitted files; never merge/reset/overwrite whole worktree",
+  "files": [
+    {
+      "source_path": "ASSET_MANIFEST.json",
+      "repository_path": "docs/ui_batch1_pause/ASSET_MANIFEST.json",
+      "bytes": 364956,
+      "sha256": "b433877f67f1996f259a66ed468eba52385e9780d45e6271a838a8231e63517a",
+      "git_blob_sha": "48f46067672f6c7e8db089465c4097cf6e145b00",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "HANDOFF_ZH.md",
+      "repository_path": "docs/ui_batch1_pause/HANDOFF_ZH.md",
+      "bytes": 7632,
+      "sha256": "c695e98b60c36b85bb5ad375fe9cb386ab6534ce593e23b58f40f230a6f1dfac",
+      "git_blob_sha": "af1f652a0936deb0f9cdf6d3aa1a245c3e879192",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "PACKAGE_FILES.json",
+      "repository_path": "docs/ui_batch1_pause/PACKAGE_FILES.json",
+      "bytes": 17268,
+      "sha256": "b55de2c43f96b223e7071a26d9ed402303b8243db5b83dd1416387cb2e2a7fb5",
+      "git_blob_sha": "293d65e01484146a9e2446212c48c503bfe49e60",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/SOURCES.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/SOURCES.txt",
+      "bytes": 1381,
+      "sha256": "599f6bf3f2b2ca666e766d34556a650ab14653dfc771180f1f12faf6af0245fe",
+      "git_blob_sha": "56c787138b33b01531182cec8646602d444cbaf7",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/font_metadata_and_copyright.json",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/font_metadata_and_copyright.json",
+      "bytes": 10773,
+      "sha256": "a564793e2e982d31fbb6f5d2bec5c409cae1eed1018000f84b9bedfd2c7c5f6e",
+      "git_blob_sha": "13389e0979262e3080c36399775da2290161ddbf",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+      "bytes": 515752,
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "git_blob_sha": "4d923cbfff4d25827689282c7bd8189b4fce825a",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+      "bytes": 20050760,
+      "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+      "git_blob_sha": "ce48b99a84eb3300774353f1f15ce686e53b6734",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/DejaVuCondensed_EMBEDDED_LICENSE_ORIGINAL.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/DejaVuCondensed_EMBEDDED_LICENSE_ORIGINAL.txt",
+      "bytes": 4765,
+      "sha256": "f1d7e97481cf4ac81f2d3ab8b14a483fb34b0b4824a3f8d2b1c70a6fa86a3b08",
+      "git_blob_sha": "08a854cc50bfd07a08f6b96d3f36061f57da1046",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/DejaVuMono_EMBEDDED_LICENSE_ORIGINAL.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/DejaVuMono_EMBEDDED_LICENSE_ORIGINAL.txt",
+      "bytes": 2451,
+      "sha256": "4b4be197b7c797d2becfbc927ad683143716bf00392c5e68e7edb9ca4d79fff9",
+      "git_blob_sha": "84432bfbd5443709ac0a5113b8f5e8eb834b24f9",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/DejaVu_EMBEDDED_LICENSE_ORIGINAL.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/DejaVu_EMBEDDED_LICENSE_ORIGINAL.txt",
+      "bytes": 2451,
+      "sha256": "4b4be197b7c797d2becfbc927ad683143716bf00392c5e68e7edb9ca4d79fff9",
+      "git_blob_sha": "84432bfbd5443709ac0a5113b8f5e8eb834b24f9",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/FONT_COPYRIGHT_NOTICES.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/FONT_COPYRIGHT_NOTICES.txt",
+      "bytes": 8649,
+      "sha256": "becf8fdfb35cb233ca319bc011edec02190f715299c8f5de47965854e6074e8f",
+      "git_blob_sha": "c7ff5a7056be4fa51dc24fd296497884bffa1c7b",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/OFL-1.1_FULL_TEXT.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/OFL-1.1_FULL_TEXT.txt",
+      "bytes": 194,
+      "sha256": "d8b9d7da0eb4b6264d0f51784c2f09a2a3535d4a0c87ad3fe3215e59caa0108d",
+      "git_blob_sha": "1540728cfe5b54249cc4f76d7a1f0605a2c256fa",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/dejavu_core_installed_copyright_ORIGINAL.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/dejavu_core_installed_copyright_ORIGINAL.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "git_blob_sha": "b3d93a1235a82213fbc451853317c40e62ed9272",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/noto_cjk_installed_copyright_ORIGINAL.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/noto_cjk_installed_copyright_ORIGINAL.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+      "git_blob_sha": "420b42087079f0595edc4809d382e67dc2b31d38",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/noto_core_installed_copyright_ORIGINAL.txt",
+      "repository_path": "assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/licenses/noto_core_installed_copyright_ORIGINAL.txt",
+      "bytes": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "git_blob_sha": "e9dbd010263dc0310e027d02e898786966995c5b",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/IMAGEGEN_PROVENANCE.txt",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/IMAGEGEN_PROVENANCE.txt",
+      "bytes": 1024,
+      "sha256": "fdc38a4880cb5d4e33dbb6dd68397e8021da93000be16c2d5c25901bbd48a496",
+      "git_blob_sha": "513212e3f37b5a20b254ac64797f432398edd84d",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/README_ZH.txt",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/README_ZH.txt",
+      "bytes": 443,
+      "sha256": "6034217f1253de8064535be3bdf003509872ca187bfd46b19ced5ab7f40de11d",
+      "git_blob_sha": "9e1947fc97d2df9a239060e52fd28eab0e4970cd",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_primary_610x128.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_primary_610x128.png",
+      "bytes": 35917,
+      "sha256": "5c0743505c13e9bd86fdbb2264e18c3989288b40e09bc12b8d22750cf9ac574f",
+      "git_blob_sha": "06c36bb780d3d7573104886c17136606e3bf0a79",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_secondary_296x128.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_secondary_296x128.png",
+      "bytes": 12021,
+      "sha256": "c1a28fe7be82aaa8af9c3dd348677e9d970de227a4989d12612a0ab1a8cf85c2",
+      "git_blob_sha": "40438f7bfba8a3e4b63677c6f0a0b54a29a1776c",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/caret_up.png",
+      "bytes": 516,
+      "sha256": "9fafb2c4efb9bdb6f9f5b55024f574617321bc3d1317408b1870c636e4390214",
+      "git_blob_sha": "c4b447b9f112c5e018f6d62e582b4aee8f451c73",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_base_728x560.png",
+      "bytes": 410418,
+      "sha256": "8cb120a36aace7beb03d493ddaadc6003be5ab3fef4a12f8228539866b5dcb80",
+      "git_blob_sha": "ad67e6cf0769fb7ca938921bb4696dc0a6b07136",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/dialog_title_empty.png",
+      "bytes": 66911,
+      "sha256": "88bf331717e5cdad43c1b0771df8b6097d67a0469dd8006caa8600a8f47e0834",
+      "git_blob_sha": "dc2044e08d32654f3c26466ee0ea289c9576f8ce",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_en.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_en.png",
+      "bytes": 15326,
+      "sha256": "c5ba13be33abe2c5289b0125d07a22e3a22584d7bde9b1be68f0f0232fe8eef2",
+      "git_blob_sha": "f1b4bb47b9ca66823c8e0d397ae917399edb4777",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_zh.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_expanded_zh.png",
+      "bytes": 15374,
+      "sha256": "bbb57bd3b7cd395b3e55ed29fb0977e3ca6a86c2a41645422a3bc23b00715b7e",
+      "git_blob_sha": "7240b9d5f64b24c1321b03bc09839244931dcfa5",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_en.png",
+      "bytes": 12984,
+      "sha256": "b3e78f66a0131f5477924cb42df6fa7990fa1b3891cd06607332fa617398094a",
+      "git_blob_sha": "b90e4a07c4e6f589bbf607ba18d8969d6a774f83",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/pause_language_field_empty_zh.png",
+      "bytes": 13226,
+      "sha256": "d5417a28ea1dfbb022b28fcee3651c3b774b1fa7e2eb715c2cff0a960e295d57",
+      "git_blob_sha": "69695a5f582453a78321fe13f7fd901ea3b77dc6",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/selected_check.png",
+      "bytes": 1033,
+      "sha256": "f9138da2baa686a82ec41bac58fb2548c7e86a4cad759871a487d4924be58c2f",
+      "git_blob_sha": "8226448cb0e7488d126cde317fdfb49954d77f44",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/interaction_states.json",
+      "repository_path": "assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/interaction_states.json",
+      "bytes": 1323,
+      "sha256": "3f0a2a736d4df39af8f36bbdb60b84deb209114c6714e380e90e72c49290caf4",
+      "git_blob_sha": "57672b73ed1b6ee90f500a928d4de33a4032980a",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/README_ZH.txt",
+      "repository_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/README_ZH.txt",
+      "bytes": 1506,
+      "sha256": "1fc3e118a6fcfdca4d5918de3e5690a5ee7dd9ce8d2781d65a4af9f85428f9ed",
+      "git_blob_sha": "ce4fa09ea9d528c24c27668b5c7e1024638b0af1",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/SHA256SUMS.txt",
+      "repository_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/SHA256SUMS.txt",
+      "bytes": 2989,
+      "sha256": "a69739c93039f76c30dc6dd87374d8e2f37f2e0dbe9b42cff4ae28a00232251e",
+      "git_blob_sha": "f715187ec881601753950c51d02eb563dd680adc",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/dependency_files.json",
+      "repository_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/dependency_files.json",
+      "bytes": 7784,
+      "sha256": "d17428c4dc93c963e6c25c64a3220813b0209f645fcf31a3e2c3177386ea09b4",
+      "git_blob_sha": "0df71bbd6facb66c6684a2c91060e65e30a28bd4",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/manifest.json",
+      "repository_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/manifest.json",
+      "bytes": 788,
+      "sha256": "1d61a9093304eba87f7935f3878a4840bb91163dfd2d6879b814d5e0978547f1",
+      "git_blob_sha": "0af61ef2b084f73305c279a550ebb0a1ef604292",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/route_and_input_contract.json",
+      "repository_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/route_and_input_contract.json",
+      "bytes": 1973,
+      "sha256": "8a8e943f67057ff233e1352c678a617078289444227fb662eb51166be831e46f",
+      "git_blob_sha": "8db3477211aae7352b36fa7334b8925eb29c0e88",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/scenes_and_labels.json",
+      "repository_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/scenes_and_labels.json",
+      "bytes": 354550,
+      "sha256": "1471e0abf041e792ed21cfb5612a34368495b1ff0a5c4d9b7d1ed1aad0377113",
+      "git_blob_sha": "aee1eb023c0a0908010452b721089d7065e558f0",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/typography_bindings.json",
+      "repository_path": "assets/art_review/settings_guide_entry_v1/unpacked/STATIC_SETTINGS_GUIDE_ENTRY_PATCH_CANDIDATE_v1/typography_bindings.json",
+      "bytes": 69634,
+      "sha256": "7106b6dcc4275ad923e4543e8990fd2b181cae3012ee3e979ab2c5065abad2a6",
+      "git_blob_sha": "2486c7d56616700a8b26b6c85b982bb722ebca78",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/DESIGN_PARAMETERS_APPENDIX.json",
+      "repository_path": "assets/ui_restore/modal_normal_v3/DESIGN_PARAMETERS_APPENDIX.json",
+      "bytes": 830,
+      "sha256": "5598e6752e7f83751cb24a7df3df78006f91f5c3fea4725a43992d01cab76692",
+      "git_blob_sha": "544bacfb419d58adbc7313f8ed136b427404b901",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/approved_assets.json",
+      "repository_path": "assets/ui_restore/modal_normal_v3/approved_assets.json",
+      "bytes": 12443,
+      "sha256": "a1ea337654bb60bc69cf3a1532ba718811a7613af5f840f367383d7bfafdfc75",
+      "git_blob_sha": "2c289e67c9ce4a5198477d2066fc4e03a1491e41",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_close.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_close.png",
+      "bytes": 17773,
+      "sha256": "5e899d0e6c680602e0610b3c7a115d258259fb9f46fdedba64cbba887013968c",
+      "git_blob_sha": "dd588fb09f71b6b592f91abd2c5e024610290e47",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_empty_base_728x985_fixed_art.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_empty_base_728x985_fixed_art.png",
+      "bytes": 762114,
+      "sha256": "5ff9e402b67361c5b57a66a07fc508c74d0dc6685c6e32e1e3c58a974704be96",
+      "git_blob_sha": "d6cce0a3ca73e477369b4c3ab8dce989903811fa",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_home_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_home_en.png",
+      "bytes": 79533,
+      "sha256": "edc529141a1ebcc5621db5f0315dccd553eccabcd43c9a2664b01f7c813795ed",
+      "git_blob_sha": "99cf68306b61d41b91d7b64fba716042058e7f37",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_home_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_home_zh.png",
+      "bytes": 76530,
+      "sha256": "eae47ed01902bf290d0a0c2db34fb84c47498f4477e2545fc2aa92bd1d8e762e",
+      "git_blob_sha": "9bfb613e71d3e7d6b9fe5009ebd43565638731d1",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_icon_globe.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_icon_globe.png",
+      "bytes": 14638,
+      "sha256": "985bb3c0a05aa27294cb4bca35d25cfbf05012b0de17a6006dededfd75a938f2",
+      "git_blob_sha": "0be0d93631cc7f80c05e00fc3cb85c8b6ba1f7f4",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_icon_music.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_icon_music.png",
+      "bytes": 9425,
+      "sha256": "01ea387d9347d49434efe878344e421525fbf48d7965b2d37a65cb6adeee2c01",
+      "git_blob_sha": "c0192cc99fe6b64e9445623d6dc31cac78db55dc",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_icon_speaker.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_icon_speaker.png",
+      "bytes": 10970,
+      "sha256": "1081ab2c87bba5f56c3bbcaf9089a5ce443bce4f637ad48ca6fb78103a477dbf",
+      "git_blob_sha": "dc06ab75b40020d1f76bcde77bcbcd6dcc02374e",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_language_dropdown_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_language_dropdown_en.png",
+      "bytes": 28397,
+      "sha256": "6fd76c0a50be5af3240a32ae2dcaefa7090adda605a5526b16ef491927057b56",
+      "git_blob_sha": "fdc3b283c1a19ca10b09178f28e7731180775119",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_language_dropdown_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_language_dropdown_zh.png",
+      "bytes": 33159,
+      "sha256": "4d299eeaad6a8536475ff8125cf7fddddbf450f7e6470e5ea7c729aa2ad7194f",
+      "git_blob_sha": "58dbe2d78dd13823a092022d88ea06784b3023f2",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_restart_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_restart_en.png",
+      "bytes": 84296,
+      "sha256": "ef8200e31aa04001fa3734b9bc377d00bc2e96f5a2fc21b273be6e156f16a69e",
+      "git_blob_sha": "501ebd40c0eb47ae212a879a1f653ea9616fd4e1",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_restart_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_restart_zh.png",
+      "bytes": 80313,
+      "sha256": "7901a56487c5b5ad911062f5685a58bff2d418f5688789706ab526b25a976ce6",
+      "git_blob_sha": "f91a27f868275e0d8813a90a2dd4936a2df67f97",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_resume_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_resume_en.png",
+      "bytes": 104832,
+      "sha256": "acbe968f4c7a5e137accedd4181a96b4b30377aeea38fbfc228e1fd6cefb7f40",
+      "git_blob_sha": "005d9cf0b5ebce62507f9a5a50ac4fe261688f56",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_resume_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_resume_zh.png",
+      "bytes": 116200,
+      "sha256": "ccf7058623efeb9bce1b1e6d58d4a0fc82cc777564f74a1e28b637b8ef41bef0",
+      "git_blob_sha": "c280b38d5b1c2b45b7023ba4ea81401b7d3837c3",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_switch_on_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_switch_on_en.png",
+      "bytes": 22766,
+      "sha256": "c4a6e225b14698954519f6ddc65d724d82655fa2c2812e42611328c27aee0ce5",
+      "git_blob_sha": "2651b5c8a0dc210106c92370c0a040515f80d22a",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_switch_on_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_switch_on_zh.png",
+      "bytes": 22054,
+      "sha256": "2deeb203e3f53e2020b764fb29c36f0ca29ad779308498642b5825cc4b1c821b",
+      "git_blob_sha": "53ec1f7693f84ccb00ef1b912549275703e4c351",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_text_footer_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_text_footer_en.png",
+      "bytes": 13029,
+      "sha256": "efca92ff250661f0f5b2b5d5b200bec055e163c79711558c15831b220cbf2871",
+      "git_blob_sha": "2c7aee041800de44839415251e3a054a65d0b0b2",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_text_footer_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_text_footer_zh.png",
+      "bytes": 13767,
+      "sha256": "a3e1e6c40b9cf02a2aab7511e2d865cd01abd0038a9ee9175c2d4cbcf583a759",
+      "git_blob_sha": "6580818d025b17da5378852b69c4b7e5cc4d11c1",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_text_language_en.png",
+      "bytes": 15713,
+      "sha256": "cfc44dad03513f8bad525fb5b93b83cb4cadeca779c4cccd7f4be247442f8a8c",
+      "git_blob_sha": "7caf1a5ec875f1d20612a9b76f9ae70fd16fb40a",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_text_language_zh.png",
+      "bytes": 8968,
+      "sha256": "7793df0c5eee7fe69ca612990e3be89284dd87924aa3ec5ad187640b52e8fda0",
+      "git_blob_sha": "8cf6ff5b964cd722619d14b2b59e3255eb273495",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_text_music_en.png",
+      "bytes": 10632,
+      "sha256": "97718b6a98de8ac4f392d9f7ad07b3b1ac0f10ecb65ef3882cf2a3e7fecff1b3",
+      "git_blob_sha": "7a0b009075e200662800542acbf16964eca0dbb5",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_text_music_zh.png",
+      "bytes": 9527,
+      "sha256": "5b5ca50f1231d6fb07648235a09ba584cc4b50878e8defe823f1ed789fb92947",
+      "git_blob_sha": "07d305929e526dbc1fa9339a6fcac43fa0f3da04",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_text_sound_en.png",
+      "bytes": 10807,
+      "sha256": "7e10197a753394c8adb1d7fde924e36fc347e51933239230a636fca998975cd7",
+      "git_blob_sha": "ffac33ed4bf6dc7a5e0a287251329f2d143cfaaf",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_text_sound_zh.png",
+      "bytes": 10388,
+      "sha256": "9b332c073d03ae47f8a4dfcb8c5c4fc8c1f3e6bf48f6015f8a0fdf4bd23741f0",
+      "git_blob_sha": "dbdc084882d87717a2c61546fd89363b864d0586",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_title_en.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_title_en.png",
+      "bytes": 97981,
+      "sha256": "ff297c3be94860db02be99cfacb604d06c25fa7b05606057a7c334608ac32866",
+      "git_blob_sha": "22f56b12f26a1ce12201ad08498bb85f78d8c7f9",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/modal_title_zh.png",
+      "repository_path": "assets/ui_restore/modal_normal_v3/modal_title_zh.png",
+      "bytes": 107170,
+      "sha256": "61ab3e357f1b757da0885bea9344f1bc40577f967069fe9fea70812582b28b01",
+      "git_blob_sha": "9818feb59b10cf00e905910220bafc96007d1fd9",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/modal_normal_v3/scene_placement.json",
+      "repository_path": "assets/ui_restore/modal_normal_v3/scene_placement.json",
+      "bytes": 14219,
+      "sha256": "fcfe9dfa1de71a19c90dd3413c2f1fd81fbb98825a96e0f63cf03658b741017e",
+      "git_blob_sha": "952681416199ff3fa23a438888182d9aa9551d6f",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/pause_off_v1/README_ZH.txt",
+      "repository_path": "assets/ui_restore/pause_off_v1/README_ZH.txt",
+      "bytes": 623,
+      "sha256": "7eabecb5c122d27a5701fe67bf355aa59301b3aa6f50a356911015aef161b635",
+      "git_blob_sha": "85a2779351033d93d3f3da37a1d0aea786b1ded6",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+      "repository_path": "assets/ui_restore/pause_off_v1/assets/pause_icon_music_off.png",
+      "bytes": 8843,
+      "sha256": "a95fd1282b662e69f8f5eb1455a344af341ce9d904cfd0e9b2a635d36a510e55",
+      "git_blob_sha": "f6eef264972ca70cf97d7b7ba716ebbde005a0e6",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+      "repository_path": "assets/ui_restore/pause_off_v1/assets/pause_icon_sound_off.png",
+      "bytes": 10492,
+      "sha256": "e73759927421a64bbd5f25ca4bb90dacdb1306ed52eb16b69f0fe5622a122d17",
+      "git_blob_sha": "38ee52f01615d8748743fecb894d322567720e9a",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+      "repository_path": "assets/ui_restore/pause_off_v1/assets/pause_switch_off_empty_205x84.png",
+      "bytes": 15835,
+      "sha256": "bc40ed790ddd1644b37403c82978bef1458aa6d61c6f14479e698fbca3caab7a",
+      "git_blob_sha": "0eda0e3c8839b8ef384167dd2d90e5062f8767ae",
+      "already_in_main_same_path": true,
+      "blob_already_available_in_repo": true
+    },
+    {
+      "source_path": "assets/ui_restore/pause_off_v1/manifest.json",
+      "repository_path": "assets/ui_restore/pause_off_v1/manifest.json",
+      "bytes": 3222,
+      "sha256": "1b8d764de7f2b0f51b6a130f4fc67a480bfa823c71cfc5f24cde44baeaffddca",
+      "git_blob_sha": "02e475b9eab8a40bd0b090dd1de7fb7aa5452137",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "assets/ui_restore/pause_off_v1/scene_placement_and_labels.json",
+      "repository_path": "assets/ui_restore/pause_off_v1/scene_placement_and_labels.json",
+      "bytes": 16791,
+      "sha256": "637af6048f090cfe75f5bac8f4fe55762badaf97e8d4839efe0c41909635e773",
+      "git_blob_sha": "93fda52b1f31051a730af270f5c534a41047e320",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "contracts/DEPENDENCY_RESOLUTION.json",
+      "repository_path": "docs/ui_batch1_pause/contracts/DEPENDENCY_RESOLUTION.json",
+      "bytes": 12808,
+      "sha256": "8353af063cab3c9b1316f7cf6b45a7256b56b47ad7d0565e74fd6cc5ffe0e362",
+      "git_blob_sha": "0dbf2e4ac5ba9fda958e931794954a0f89142fd7",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "contracts/PAUSE_RUNTIME_CONTRACT.json",
+      "repository_path": "docs/ui_batch1_pause/contracts/PAUSE_RUNTIME_CONTRACT.json",
+      "bytes": 1831,
+      "sha256": "0c9569e14e6ce17a9ecee2440cff32535a0dfeb78ec631653439ca2477f629ea",
+      "git_blob_sha": "b8ff51e072ac2d9dcff340861d62d5348af91ee7",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "contracts/reference_code/scripts/presentation/runtime_animation/settings_guide_patch.gd",
+      "repository_path": "references/ui_batch1_pause/reference_code/scripts/presentation/runtime_animation/settings_guide_patch.gd.txt",
+      "bytes": 5491,
+      "sha256": "19952d39e1b7f3f4272fd0436219f8e83207ccc1e587b7636b8c7d2b0924f9e3",
+      "git_blob_sha": "98021ab1d7d3610d6d7ebb80d993b7ac579b4e14",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "contracts/reference_code/scripts/ui_restore/modal_fade.gd",
+      "repository_path": "references/ui_batch1_pause/reference_code/scripts/ui_restore/modal_fade.gd.txt",
+      "bytes": 1549,
+      "sha256": "ae6be565853e372abc36b2a7b2c499cd9c3ece19f3fd0a753a4dd823db94fef4",
+      "git_blob_sha": "040f7c4c66bb5d0490ac11f01a1fdf595bf8dadc",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "contracts/reference_code/scripts/ui_restore/modal_host.gd",
+      "repository_path": "references/ui_batch1_pause/reference_code/scripts/ui_restore/modal_host.gd.txt",
+      "bytes": 1036,
+      "sha256": "8ab693a345cdba4b81ec357e7c85243c61974c2b43f91cf7283f83f2f72f908b",
+      "git_blob_sha": "09a0e96a6616af63eeb5ae0ab06e28a7b0dc3ca1",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "contracts/reference_code/scripts/ui_restore/pause_state_art.gd",
+      "repository_path": "references/ui_batch1_pause/reference_code/scripts/ui_restore/pause_state_art.gd.txt",
+      "bytes": 3163,
+      "sha256": "9766889b0c38901aa24b46120c426a99dccf341aed76eeec6d9c334f7a41dd0c",
+      "git_blob_sha": "0efde687a3aab8748147d09ebd72a523072a412c",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "contracts/reference_code/scripts/ui_restore/preview_art.gd",
+      "repository_path": "references/ui_batch1_pause/reference_code/scripts/ui_restore/preview_art.gd.txt",
+      "bytes": 4267,
+      "sha256": "6315057f53c293b8417f7c15a6d2de695fd868a0a88e05f0d18ee58d9974bdc1",
+      "git_blob_sha": "6a510931e88e5f43df77d2bcab860fb623abef71",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "references/04_pause_zh_APPROVED.png",
+      "repository_path": "references/ui_batch1_pause/04_pause_zh_APPROVED.png",
+      "bytes": 1715596,
+      "sha256": "faadd3ca2b715d66856ac61b0b9a49a592664d09f5beb983ac06a3c2811e4241",
+      "git_blob_sha": "ccec9db9b93ab135a7b87b26448d7b660f3753ae",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "references/05_pause_en_APPROVED.png",
+      "repository_path": "references/ui_batch1_pause/05_pause_en_APPROVED.png",
+      "bytes": 1711098,
+      "sha256": "6004dfa27ba4bc6c79566d5e62e26c3ef732593eef919cc5588a6cc4c61b68df",
+      "git_blob_sha": "852d8cbc600fee29d9991694c89ef43da551f6c3",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "references/contact_sheet_01.jpg",
+      "repository_path": "references/ui_batch1_pause/contact_sheet_01.jpg",
+      "bytes": 312338,
+      "sha256": "47b68bce02086d558bbbef3ec76dbbbd9078ba32237a2857c60b1953bfcd45b2",
+      "git_blob_sha": "017db91ab49e981d9b6712af86ecbbf0b1ed3e80",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "references/contact_sheet_02.jpg",
+      "repository_path": "references/ui_batch1_pause/contact_sheet_02.jpg",
+      "bytes": 313370,
+      "sha256": "1896bbf94924f7cd4f2b137528ffd206c146a840c1a9b01514ba2d1c42e338b3",
+      "git_blob_sha": "f6f773589bcb8a69190294a2a94dfc5fa645a8b9",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "references/water_gameplay_target.png",
+      "repository_path": "references/ui_batch1_pause/water_gameplay_target.png",
+      "bytes": 1576931,
+      "sha256": "b219038a6784720e1d4fd341e59f5c5c8757e67aa7163295b737136378d0c8f6",
+      "git_blob_sha": "c50a0579a207a5bb5cc42d83abb67461159d8e03",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    },
+    {
+      "source_path": "references/water_pause_target.png",
+      "repository_path": "references/ui_batch1_pause/water_pause_target.png",
+      "bytes": 1547539,
+      "sha256": "19b5f4608d0c63c29fc35b07eaf84955f44cb033654a223feab2d3369e0a7f3c",
+      "git_blob_sha": "d85cda57db78a5329e7a1b1d6d0d3ff4331bf41b",
+      "already_in_main_same_path": false,
+      "blob_already_available_in_repo": false
+    }
+  ],
+  "reference_code_is_text_only": true,
+  "verified_pngs": 38
+}
