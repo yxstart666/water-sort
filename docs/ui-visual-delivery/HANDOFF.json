@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "delivery": "water-sort-visual-delivery-20261023-0648",
+  "scope": "Visual-only incremental asset intake. No game code, scenes, project settings or runtime bindings changed.",
+  "read_first": [
+    "docs/ui-visual-delivery/HANDOFF.json",
+    "docs/ui-visual-delivery/DELIVERY_MANIFEST.json"
+  ],
+  "protect_local_work": {
+    "preserve": [
+      "current orders flow",
+      "energy rules",
+      "save data and save format",
+      "local orders_v3 work",
+      "all uncommitted work",
+      "order_view.gd",
+      "order_hud.gd"
+    ],
+    "method": "Back up or commit local work first. Selectively copy only listed new assets/references/JSON documents; do not merge/reset/restore the whole branch or put temporary Markdown at project root. If any local path already differs, stop and reconcile; never overwrite it automatically."
+  },
+  "logo_policy": "No Logo is delivered in this commit. The local latest Logo takes precedence; do not replace it with the older dark-background source.",
+  "visual_authority": {
+    "current_gameplay_reference": "references/ui-approved/gameplay-20261023.png",
+    "rule": "Preserve the accepted main-page layout and the current working orders flow. Shell v1 PNGs are optional historical visual candidates, not authority to replace the approved cream order cards, background, level title or current button design. Do not restore the removed home button below energy; home remains in pause menu. Desktop Logo feedback must not rescale/recolor the approved game page."
+  },
+  "shell_candidates": {
+    "directory": "assets/water_sort/ui_shell_v1/",
+    "pressed_candidate": "references/ui_batch2_shell/candidates/button_pressed.png",
+    "pressed_policy": "Reference only; do not bind as automatic pressed texture. Reuse the normal artwork with subtle uniform whole-visual scale/tint and keep hitbox, anchors and container dimensions fixed. Normal and candidate outlines differ.",
+    "disabled_orders": "Keep the same anchored container dimensions, aspect treatment and content positions; do not derive layout or hitbox from alpha bounds.",
+    "text_policy": "All titles, localization, numbers, timers, steps, order contents, bottle colors and counts stay dynamic. Preserve supplied artistic backplate bytes; do not redraw/regenerate them as code artwork.",
+    "stretch_policy": "No unvalidated nine-slice stretching; keep transparent safety padding and proportional presentation."
+  },
+  "bottle_layers": {
+    "root": "assets/art_review/ui_batch3_bottle_v1/",
+    "coordinate_manifest": "assets/art_review/ui_batch3_bottle_v1/manifest.json",
+    "canvas_px": [
+      320,
+      896
+    ],
+    "shared_pivot_px": [
+      160,
+      820
+    ],
+    "draw_order": [
+      "bottle_back",
+      "dynamic liquid clipped by mask alpha",
+      "cork when appropriate",
+      "bottle_front",
+      "local sparkle"
+    ],
+    "transform_policy": "All layers share origin, scale, pivot and transform. Never recenter by separate alpha boxes. Do not additionally draw old empty glass; do not display white mask RGB.",
+    "liquid_visual_mapping": {
+      "y_full_px": 250,
+      "y_empty_bottom_px": 800,
+      "surface_center_y_formula": "800 - 550 * fill_fraction",
+      "liquid_x_bounds_px": [
+        57,
+        262
+      ],
+      "surface_ellipse_radius_px": [
+        102.5,
+        9
+      ],
+      "semantics": "Full level is at shoulder and neck stays empty. Use identical full=1 mapping and same cork/layers for order thumbnails. Change only visual mapping, never capacity or rule units. Merge adjacent same-color segments; only highest exposed surface has highlight ellipse."
+    },
+    "tilt_limit": "Only upright empty/half/full composites were verified. Retain existing dynamic liquid/tilt logic; do not rigidly rotate a liquid sticker. Runtime tilt, pour stream, clipping, input, device clarity and interruption tests remain to be done."
+  },
+  "animation_guidance_not_frozen_contract": {
+    "state_semantics": "Full/corked is not delivered. Without a matching order, keep the corked bottle waiting; do not check an order, increment delivery counts or conclude the level. On actual matching-order receipt, check/count exactly once. A newly matching order plays delivery only, not repeated fill/cork effects.",
+    "order_completion": "Preserve current order reservation and delivery logic; prevent double receipt. Win appears only after final receipt. No new half-game save/resume promise.",
+    "cork_trial": {
+      "entry_offset_y_px": -40,
+      "ease_out_seconds": 0.18,
+      "compression_y_scale": 0.94,
+      "compression_seconds": 0.06,
+      "restore_seconds": 0.08,
+      "anchor": "resting cork center (159.5,105); the PNG already includes this position, do not add 105px again"
+    },
+    "sparkle_trial": {
+      "range_seconds": [
+        0.22,
+        0.55
+      ],
+      "display_size_px": [
+        32,
+        42
+      ],
+      "role": "small local feedback, not full-screen or input-blocking"
+    },
+    "timing_status": "Suggestions for local tuning only, not measured engine guarantees. Unrelated legal input must not be blocked by effects; verify pause/undo/restart boundaries separately."
+  },
+  "validation": {
+    "passed": [
+      "source SHA-256 and Git blob SHA checks",
+      "PNG dimensions, modes and genuine alpha checks",
+      "bottle upright static composite reproduction"
+    ],
+    "not_claimed": [
+      "Godot runtime binding",
+      "full animation acceptance",
+      "phone/tablet or physical device acceptance",
+      "complete UI states",
+      "real ads or global leaderboard"
+    ],
+    "reference_policy": "QA sheets and approved gameplay image are non-runtime references. No competitor screenshots, frames, videos or embedded media included."
+  },
+  "omissions": {
+    "old_denied_package_documents": "Earlier batch2 HANDOFF/GITHUB_HANDOFF/SOURCE_MANIFEST/PATH_MAP/PUBLISH_MANIFEST are not copied. This new narrowed visual delivery uses the current JSON docs, not old frozen contracts.",
+    "markdown": "No Markdown or Python packaging script in this delivery.",
+    "other": [
+      "older dark Logo",
+      "competitor images/videos",
+      "new unapproved review boards",
+      "caches",
+      "credentials",
+      "user saves",
+      "ZIP archives"
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "delivery": "water-sort-visual-delivery-20261023-0648",
+  "authority": "Only files listed here plus this manifest itself are delivered; HANDOFF.json defines roles and non-overwrite rules.",
+  "files": [
+    {
+      "path": "assets/water_sort/ui_shell_v1/background.png",
+      "bytes": 1268329,
+      "sha256": "6940a4e3082a648caa3b5790efb3e4915ea3d36aec62344034385e9ccfdb266d",
+      "git_blob_sha": "57bb4879f57b78c0111f7840ba92b6fcef1cb51b",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/button_normal.png",
+      "bytes": 165879,
+      "sha256": "2c679dbff7642c79d06fe2ba6cb9eb27f34e9afc243acfecfd6240d89b1f5fa1",
+      "git_blob_sha": "8293507459d62f9a8941993f9cd2852da1f52ee8",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/icon_home.png",
+      "bytes": 53592,
+      "sha256": "7f03dc4fd3e16755841879278ee93cbf7bd0a9d070b342d6be2116ffaf06a30c",
+      "git_blob_sha": "1ce089e1c0f6fdf6cddcd7abab14bb117459ea95",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/icon_restart.png",
+      "bytes": 49632,
+      "sha256": "b43e37d00aa2d3bc277339386520ce868b0962e8167a976174d6d408afd437fe",
+      "git_blob_sha": "63f1fda2592aed87d7b11d877f164d1f7b166b0c",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/icon_settings.png",
+      "bytes": 55994,
+      "sha256": "1f964727d2365b400a8b2b7003423a71b4c430a559338e7af434633dd6d8171a",
+      "git_blob_sha": "6929fb4a21e719337e427e6d78bff751c2609c0e",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/icon_undo.png",
+      "bytes": 41673,
+      "sha256": "4d3b5bf4d5041867a7f6653c10ce48b6a989a6437b4e69759a17d84c17609beb",
+      "git_blob_sha": "a47fbf3ec70ce90c5b0960761a978f75e090157d",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/icon_video.png",
+      "bytes": 40788,
+      "sha256": "7da6480766711d76557f2c6e51a008c9cece6dbb9308d37838d23d5f2eace1ad",
+      "git_blob_sha": "bf17ae0f6a147aa7e6002337b07a4b7b3ab2dca5",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/level_plate.png",
+      "bytes": 191075,
+      "sha256": "7ed2b24093d9b79725a7dbf779ac1ac42870e0b79c0b94ba71b5b0f729638751",
+      "git_blob_sha": "0634a525d9ea6e69c57664971c4c423d48b49222",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/order_disabled.png",
+      "bytes": 182140,
+      "sha256": "baaa9dc3f963bd82f2d2ed045392e87e78ca70f32e3814fca37f491749b429a1",
+      "git_blob_sha": "fb2d83d5303fe560edfda21435c1009b0dc9bc89",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "assets/water_sort/ui_shell_v1/order_normal.png",
+      "bytes": 186101,
+      "sha256": "662ef522dc460de8266ae103b5046774351cc283672302a58bdb99498143c9f1",
+      "git_blob_sha": "cc39c56650ced64371fdaa704980ae3d87ed5feb",
+      "mode": "100644",
+      "role": "shell_artwork_candidate_not_current_layout_authority"
+    },
+    {
+      "path": "references/ui_batch2_shell/candidates/button_pressed.png",
+      "bytes": 161544,
+      "sha256": "31c1c20f0c2b40d601e92e9517bd1c3109f5a9ca2d4d7957989fc2af11fe63af",
+      "git_blob_sha": "01c064cff8c6ad2b7967c7f4d5324a172effaf94",
+      "mode": "100644",
+      "role": "pressed_reference_only_no_automatic_runtime_switch"
+    },
+    {
+      "path": "references/ui_batch2_shell/qa/contact_light.png",
+      "bytes": 599088,
+      "sha256": "0e99e7da8d85a88f518b0f534472e771b91cf44ba027a015069bf8d014e9c0b1",
+      "git_blob_sha": "a568e914ec5dc860529dfb8e74a5198896569345",
+      "mode": "100644",
+      "role": "qa_reference_only"
+    },
+    {
+      "path": "references/ui_batch2_shell/qa/contact_navy.png",
+      "bytes": 607311,
+      "sha256": "c6c826b30b940478dcdd936aa3b9a1705f74e5cfdbe04071f118757043bc28e1",
+      "git_blob_sha": "43e4d8cabad623b965e78fc2ccbd7b8da57768d1",
+      "mode": "100644",
+      "role": "qa_reference_only"
+    },
+    {
+      "path": "assets/art_review/ui_batch3_bottle_v1/assets/bottle_back.png",
+      "bytes": 127829,
+      "sha256": "c5e2bcb5047f377609bf68826c90d3875c2060c0a5e7c08526a05559e38cdb5c",
+      "git_blob_sha": "8b80fced8715b59b5fef864d64f5c684296db58b",
+      "mode": "100644",
+      "role": "bottle_layer_static_verified_runtime_trial_candidate"
+    },
+    {
+      "path": "assets/art_review/ui_batch3_bottle_v1/assets/bottle_front.png",
+      "bytes": 165241,
+      "sha256": "78ca2a7e878e05359595721bfb0739d064e70be3c2cfcd80269656acd5597cf2",
+      "git_blob_sha": "22fc5960a98ce32f7a8309892672c1f03011c347",
+      "mode": "100644",
+      "role": "bottle_layer_static_verified_runtime_trial_candidate"
+    },
+    {
+      "path": "assets/art_review/ui_batch3_bottle_v1/assets/bottle_liquid_mask.png",
+      "bytes": 4410,
+      "sha256": "8a9f1517683ad9196654c8d1e1dae9b4974ce4c10aa7316b3b76c8329d330b8f",
+      "git_blob_sha": "86017339c8b94e11ed59e8cd5952bac6ee1b81ca",
+      "mode": "100644",
+      "role": "bottle_layer_static_verified_runtime_trial_candidate"
+    },
+    {
+      "path": "assets/art_review/ui_batch3_bottle_v1/assets/complete_sparkle.png",
+      "bytes": 8200,
+      "sha256": "f5d32a871b50f49ddb7be6c5d290460fa0c12e8bfbd37a4a298557006533160e",
+      "git_blob_sha": "4f5ee73b0cca15beeba72438b3aae9130f9ea694",
+      "mode": "100644",
+      "role": "bottle_layer_static_verified_runtime_trial_candidate"
+    },
+    {
+      "path": "assets/art_review/ui_batch3_bottle_v1/assets/cork_seated.png",
+      "bytes": 15041,
+      "sha256": "20ba47c92ec94ad54b3b09a52e05155738701790a49cf2380fd2a339b713db67",
+      "git_blob_sha": "9d879d20cdb23b8687c1fcd78d963916507eada9",
+      "mode": "100644",
+      "role": "bottle_layer_static_verified_runtime_trial_candidate"
+    },
+    {
+      "path": "assets/art_review/ui_batch3_bottle_v1/manifest.json",
+      "bytes": 1732,
+      "sha256": "c12bcc130fbf763b7b872b65e51f71b455b10909c9546f91649c19c7ec17f349",
+      "git_blob_sha": "5ab97caf83b166ef91642f63aedc41b9998f73d7",
+      "mode": "100644",
+      "role": "bottle_coordinates_and_source_asset_hashes"
+    },
+    {
+      "path": "references/ui_batch3_bottle_v1/composite_empty_half_full.png",
+      "bytes": 133297,
+      "sha256": "4289dc9e88815fa938029a8f3133065a77a2a64a6f43669a8eb81562c61fa491",
+      "git_blob_sha": "31d3412f6f8fc123571226850aac2e30d28add44",
+      "mode": "100644",
+      "role": "qa_reference_only"
+    },
+    {
+      "path": "references/ui_batch3_bottle_v1/layers_contact.png",
+      "bytes": 60930,
+      "sha256": "2d5dcfb2a22aa2ef83a4c2c1ce22346d465b433fb30a6d888e452a94eb7ffbd9",
+      "git_blob_sha": "a5efccc535e3b1d93dafa759fdfd75832f8424fc",
+      "mode": "100644",
+      "role": "qa_reference_only"
+    },
+    {
+      "path": "references/ui-approved/gameplay-20261023.png",
+      "bytes": 1539922,
+      "sha256": "6848f945594f695a4f68d6dbcc4263d4ba697f17f95de39408731c2eabbf6a84",
+      "git_blob_sha": "3603e51e00451dcf7f99c016f200be67c1bbb445",
+      "mode": "100644",
+      "role": "approved_static_gameplay_reference_not_runtime_texture"
+    },
+    {
+      "path": "docs/ui-visual-delivery/HANDOFF.json",
+      "bytes": 6284,
+      "sha256": "8c80aaebe8594ffd7da30e591a8e983d4eb2a73825fdea4095841480e704c007",
+      "git_blob_sha": "d3b7537a7c5e75ddc5db05ad1c8a744c34102288",
+      "mode": "100644",
+      "role": "current_visual_intake_guidance_not_code_contract"
+    }
+  ],
+  "manifest_self_excluded": true
+}

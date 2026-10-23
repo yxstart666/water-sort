@@ -1,0 +1,88 @@
+{
+  "canvas": [
+    320,
+    896
+  ],
+  "pivot_normalized": [
+    0.5,
+    0.9151785714285714
+  ],
+  "fill_top_px": 250,
+  "fill_bottom_px": 800,
+  "fill_top_normalized": 0.27901785714285715,
+  "fill_bottom_normalized": 0.8928571428571429,
+  "liquid_left_px": 57,
+  "liquid_right_px": 262,
+  "surface_ellipse_radius_y_px": 9,
+  "cork_rest_center_px": [
+    159.5,
+    105
+  ],
+  "assets": [
+    {
+      "file": "assets/bottle_back.png",
+      "size": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        40
+      ],
+      "sha256": "c5e2bcb5047f377609bf68826c90d3875c2060c0a5e7c08526a05559e38cdb5c"
+    },
+    {
+      "file": "assets/bottle_front.png",
+      "size": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        109
+      ],
+      "sha256": "78ca2a7e878e05359595721bfb0739d064e70be3c2cfcd80269656acd5597cf2"
+    },
+    {
+      "file": "assets/bottle_liquid_mask.png",
+      "size": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "8a9f1517683ad9196654c8d1e1dae9b4974ce4c10aa7316b3b76c8329d330b8f"
+    },
+    {
+      "file": "assets/complete_sparkle.png",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "sha256": "f5d32a871b50f49ddb7be6c5d290460fa0c12e8bfbd37a4a298557006533160e"
+    },
+    {
+      "file": "assets/cork_seated.png",
+      "size": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "sha256": "20ba47c92ec94ad54b3b09a52e05155738701790a49cf2380fd2a339b713db67"
+    }
+  ]
+}
