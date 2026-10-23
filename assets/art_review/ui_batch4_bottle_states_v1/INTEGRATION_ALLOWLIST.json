@@ -1,0 +1,718 @@
+{
+  "frozen": "2026-10-23T07:09:39Z",
+  "package": "ui_batch4_bottle_states_v1",
+  "runtime_png_allowlist": [
+    "assets/bottle_empty.png",
+    "assets/bottle_full_blue.png",
+    "assets/bottle_full_blue_cork.png",
+    "assets/bottle_full_green.png",
+    "assets/bottle_full_green_cork.png",
+    "assets/bottle_full_orange.png",
+    "assets/bottle_full_orange_cork.png",
+    "assets/bottle_full_pink.png",
+    "assets/bottle_full_pink_cork.png",
+    "assets/bottle_full_purple.png",
+    "assets/bottle_full_purple_cork.png",
+    "assets/bottle_full_red.png",
+    "assets/bottle_full_red_cork.png",
+    "assets/bottle_full_yellow.png",
+    "assets/bottle_full_yellow_cork.png",
+    "assets/order_blue_cork.png",
+    "assets/order_green_cork.png",
+    "assets/order_orange_cork.png",
+    "assets/order_pink_cork.png",
+    "assets/order_purple_cork.png",
+    "assets/order_red_cork.png",
+    "assets/order_yellow_cork.png"
+  ],
+  "forbidden": [
+    "qa/* as runtime textures",
+    "batch2 blue order cards on approved main page",
+    "batch2 square blue action buttons on approved main page"
+  ],
+  "requires_runtime_screenshot_acceptance": true,
+  "assets": [
+    {
+      "file": "assets/bottle_empty.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        132
+      ],
+      "alpha_bbox": [
+        43,
+        101,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "d57a5446e69332cc782eb11b1163af231d5c231f64498bd64f60a21a8d21f55d",
+      "usage": "resting_empty_only",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_blue.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        101,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "d0d7a10e77752bfdcefbbb68b3c42657ca6eb8fb313f813c3ca14d69b2014257",
+      "usage": "stationary_full_before_cork",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_blue_cork.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        76,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "76e345804f4d917f7a6073c64d7d60556527f5baa723de27687b02a32676d133",
+      "usage": "sealed_or_flight",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_green.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        101,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "3b72ac3d159c9752e1ed022417a977cfbe94fab310d146062ad4b5496479b9be",
+      "usage": "stationary_full_before_cork",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_green_cork.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        76,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "4b730f88e0805e92a17ed99b751ad059ab9d37adba213b5005fe6d0c57ad0da1",
+      "usage": "sealed_or_flight",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_orange.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        101,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "39cdf6d6212e9da7bfba55f48c2211e44788da95dfe3e4e7da473158d72c2c89",
+      "usage": "stationary_full_before_cork",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_orange_cork.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        76,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "9c8586f79e9269ff89408b3249cf1b3ec589e9368cd08e64d33aecf4ead7a872",
+      "usage": "sealed_or_flight",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_pink.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        101,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "bbad387e029346e5612ee049069bf3cade510e126205120bc4f1d17316ba001b",
+      "usage": "stationary_full_before_cork",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_pink_cork.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        76,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "941762bbc722f2c4a343f9f819cef9e49286d6189b687d57f133ddc99284d799",
+      "usage": "sealed_or_flight",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_purple.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        101,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "caea1e4ecf0bb768e9aba1f3d39c4d093a1207c7bb8c12619abde8bf2181b9e5",
+      "usage": "stationary_full_before_cork",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_purple_cork.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        76,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "e1488a7476bf4634b5607a0d8db612823b5f117ae42512abe4e4f74fe7a02329",
+      "usage": "sealed_or_flight",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_red.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        101,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "3b68ca1769eebff33e1ffaf0a85e5968cab9423b3f1edd5d60931fb2355a1829",
+      "usage": "stationary_full_before_cork",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_red_cork.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        76,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "96d4fd1b443d8a708cdcc44b2a1f72b1f402001266dc7d5a9073b09ebd676eb7",
+      "usage": "sealed_or_flight",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_yellow.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        101,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "858c760720f7f3bd4cd9b653c703a05ee297822f166d0daf651a92fd6b480231",
+      "usage": "stationary_full_before_cork",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/bottle_full_yellow_cork.png",
+      "dimensions": [
+        320,
+        896
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        43,
+        76,
+        277,
+        818
+      ],
+      "pivot_px": [
+        160,
+        820
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "eaa298c436aa068adcdac653c18b6fc8414fdb4246297a81d783f10d6c622af9",
+      "usage": "sealed_or_flight",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/order_blue_cork.png",
+      "dimensions": [
+        160,
+        448
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        20,
+        35,
+        140,
+        411
+      ],
+      "pivot_px": [
+        80,
+        410
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "45d20e341ec92c098477094e7da9eb0baa00186d13860823e4588ec214858e08",
+      "usage": "order_target_sealed",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/order_green_cork.png",
+      "dimensions": [
+        160,
+        448
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        20,
+        35,
+        140,
+        411
+      ],
+      "pivot_px": [
+        80,
+        410
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "6f9ea9c9ca76661e04e4bd196ff9aba3054865f818c04c67f0bfee80f8d90371",
+      "usage": "order_target_sealed",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/order_orange_cork.png",
+      "dimensions": [
+        160,
+        448
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        20,
+        35,
+        140,
+        411
+      ],
+      "pivot_px": [
+        80,
+        410
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "37307db80a9c3047ac01ac8921cca8a0438e72395d5908fb832129d646bee72a",
+      "usage": "order_target_sealed",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/order_pink_cork.png",
+      "dimensions": [
+        160,
+        448
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        20,
+        35,
+        140,
+        411
+      ],
+      "pivot_px": [
+        80,
+        410
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "05de0417dcdd607eb91d06a4119e511f5a98e2931d940c8732d636247178527c",
+      "usage": "order_target_sealed",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/order_purple_cork.png",
+      "dimensions": [
+        160,
+        448
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        20,
+        35,
+        140,
+        411
+      ],
+      "pivot_px": [
+        80,
+        410
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "aca9cddfe488555518fa99e97d90a4b01ed488c52187a9aacd264a6676322256",
+      "usage": "order_target_sealed",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/order_red_cork.png",
+      "dimensions": [
+        160,
+        448
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        20,
+        35,
+        140,
+        411
+      ],
+      "pivot_px": [
+        80,
+        410
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "8ed3e051213a957a51eff578471a75ca90e625e293dd2bb7b32b7f36aa33c241",
+      "usage": "order_target_sealed",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    },
+    {
+      "file": "assets/order_yellow_cork.png",
+      "dimensions": [
+        160,
+        448
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "alpha_bbox": [
+        20,
+        35,
+        140,
+        411
+      ],
+      "pivot_px": [
+        80,
+        410
+      ],
+      "pivot_normalized": [
+        0.5,
+        0.9151785714285714
+      ],
+      "sha256": "03507431a7ae9139b56ea3240e22019a0020594f453efa0d1b4099c23c7fe4a5",
+      "usage": "order_target_sealed",
+      "not_for": "partial fill or pour simulation",
+      "nine_slice": false
+    }
+  ]
+}

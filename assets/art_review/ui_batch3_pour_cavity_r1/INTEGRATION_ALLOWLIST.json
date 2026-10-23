@@ -1,0 +1,13 @@
+{
+  "runtime_assets": [
+    "assets/bottle_pour_cavity_mask.png"
+  ],
+  "integration_contract": "POUR_CAVITY_INTEGRATION.json",
+  "asset_sha256": "bcb2c2ffd45cc1acdedc5b478089b76865fb29ed395fafc30ec01e12231e1b26",
+  "status": "geometry_QA_passed_Godot_pending",
+  "do_not_modify": [
+    "ui_batch3_bottle_v1",
+    "ui_batch4_bottle_states_v1",
+    "ui_batch5_gameplay_controls"
+  ]
+}

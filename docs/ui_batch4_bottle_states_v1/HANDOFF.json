@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "package": "ui_batch4_bottle_states_v1",
+  "scope": "Incremental static artwork only; no code, scenes, project settings, state flow or saves are changed.",
+  "runtime_allowlist": "assets/art_review/ui_batch4_bottle_states_v1/INTEGRATION_ALLOWLIST.json",
+  "coordinate_and_asset_manifest": "assets/art_review/ui_batch4_bottle_states_v1/manifest.json",
+  "files": {
+    "empty": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_empty.png",
+    "full_before_cork": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_{color}.png",
+    "sealed_and_flight": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_{color}_cork.png",
+    "order_target": "assets/art_review/ui_batch4_bottle_states_v1/assets/order_{color}_cork.png"
+  },
+  "artwork_rule": "Use the supplied original PNGs directly. They are composed from the same unchanged batch3 back/front/mask/cork artwork, not a new bottle design. Do not redraw, tint silently, change bottle shape, highlights, cork position, palette or full level.",
+  "palette": {
+    "red": "EB3043",
+    "blue": "148BE8",
+    "yellow": "F2D414",
+    "green": "11B866",
+    "purple": "A651F3",
+    "orange": "F57810",
+    "pink": "ED29B2",
+    "policy": "Derived from the known project DEFAULT_PALETTE. Compare with latest local palette before binding; report conflicts instead of silently changing either palette. Surface highlight is same-source12%white material mixing, not a color ID change."
+  },
+  "geometry": {
+    "bottle_canvas_px": [
+      320,
+      896
+    ],
+    "bottle_pivot_px": [
+      160,
+      820
+    ],
+    "order_canvas_px": [
+      160,
+      448
+    ],
+    "order_pivot_px": [
+      80,
+      410
+    ],
+    "pivot_normalized": [
+      0.5,
+      0.9151785714285714
+    ],
+    "full_surface_y_px": 250,
+    "liquid_bottom_px": 800,
+    "full_surface_normalized": 0.27901785714285715,
+    "policy": "Game complete bottle and order thumbnail use identical normalized full level, shoulder filled and neck empty. Do not crop transparent padding or individually recenter. Only uniform whole scaling with all layers and hit target acceptance. Capacity and rule units remain unchanged. No nine-slice for bottles."
+  },
+  "dynamic_static_switch": {
+    "partial_and_pour": "Keep existing partial fill, mixed colors, tilt, pour stream and liquid-surface behavior using batch3 same-source layers and existing dynamic renderer. Static full PNGs cannot replace dynamic pour simulation.",
+    "empty": "Resting empty may use bottle_empty; restore layered dynamic bottle when receiving liquid.",
+    "cork": "After logic confirms full and same color, use full without cork. Animate the existing separate same-source cork before front layer; only after seated switch to full-cork PNG. Keep origin, scale and pivot identical.",
+    "no_double_layers": "When showing a complete PNG do not overlay additional glass front/cork; avoid doubled highlights and cork ghosting.",
+    "flight": "Move the sealed complete PNG with existing logical bottle ID; do not deform silhouette or create another interactive bottle."
+  },
+  "order_state": "Target corked bottle is a goal icon, not success. Circle/check remains independent: unmatched full/corked bottle waits; actual successful matching-order receipt alone changes check/count once. Preserve current reservation, undo/restart and final-receipt completion semantics.",
+  "supersession": {
+    "forbidden_on_approved_main_page": [
+      "batch2 blue vertical order card artwork",
+      "batch2 square blue action-button artwork"
+    ],
+    "replacement": "Keep current accepted cream-card game page; batch5 cream empty cards/wide buttons and navy icons will arrive separately. Published older files remain historical but must not be newly bound on this page.",
+    "logo": "Local latest white-background Logo takes precedence. No Logo in this package."
+  },
+  "protect_local_work": "Preserve current orders/energy/save format and data, orders_v3, all uncommitted files and current code. Back up/commit first; selectively copy these new paths only, no whole-branch merge/reset/restore. Different local content at any path must be reconciled, never overwritten automatically. No temporary Markdown at project root.",
+  "acceptance": {
+    "passed": [
+      "all22 frozen PNG SHA256, dimensions, RGBA alpha and bbox checks",
+      "frozen manifest SHA256",
+      "producer QA reports14 full states exactly recomposed from unchanged source layers"
+    ],
+    "not_claimed": [
+      "Godot binding or state-switch test",
+      "full animation and undo/pause boundaries",
+      "touch and physical-device clarity",
+      "color-blind accessibility"
+    ],
+    "qa_policy": "QA PNG/JSON are non-runtime references. Need actual Godot screenshots at final scale before calling visual integration accepted."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "max_channel_error_per_full_asset": {
+    "full_red": 0,
+    "full_red_cork": 0,
+    "full_blue": 0,
+    "full_blue_cork": 0,
+    "full_yellow": 0,
+    "full_yellow_cork": 0,
+    "full_green": 0,
+    "full_green_cork": 0,
+    "full_purple": 0,
+    "full_purple_cork": 0,
+    "full_orange": 0,
+    "full_orange_cork": 0,
+    "full_pink": 0,
+    "full_pink_cork": 0
+  },
+  "all_exact": true,
+  "source_layers_unchanged": true,
+  "counts": {
+    "empty": 1,
+    "full": 7,
+    "full_cork": 7,
+    "order_cork": 7,
+    "total": 22
+  }
+}

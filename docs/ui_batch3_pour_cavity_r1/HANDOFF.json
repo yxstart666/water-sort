@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "revision": "pour-cavity-r1",
+  "runtime_asset": "assets/art_review/ui_batch3_pour_cavity_r1/assets/bottle_pour_cavity_mask.png",
+  "integration_contract": "assets/art_review/ui_batch3_pour_cavity_r1/POUR_CAVITY_INTEGRATION.json",
+  "runtime_allowlist": "assets/art_review/ui_batch3_pour_cavity_r1/INTEGRATION_ALLOWLIST.json",
+  "static_mask_repository_path": "assets/art_review/ui_batch3_bottle_v1/assets/bottle_liquid_mask.png",
+  "scope": "Add a separate full dynamic cavity occupancy mask through shoulder/neck/outlet only. Do not change existing glass, static masks, completed bottles, batch4/batch5 freezes, code or saves.",
+  "unchanged": {
+    "canvas_px": [
+      320,
+      896
+    ],
+    "pivot_px": [
+      160,
+      820
+    ],
+    "upright_full_surface_y_px": 250,
+    "liquid_bottom_px": 800,
+    "capacity": "Use current gameplay units, never recompute from new cavity area."
+  },
+  "dynamic_rule": "Clip gravity-oriented liquid using the new full cavity. Preserve existing volume; only emit a stream when liquid actually intersects a wetted outlet. Transform outlet and outward vector by the same bottle transform. Select a wetted gravity-low outlet point rather than always emitting at center.",
+  "outlet": {
+    "center_px": [
+      159.5,
+      108
+    ],
+    "span_px": [
+      [
+        118,
+        108
+      ],
+      [
+        201,
+        108
+      ]
+    ],
+    "neck_path_role": "Connectivity/debug guide only; do not draw a forced stripe along it."
+  },
+  "resting_rule": "Keep old upright visual mapping and shoulder full level; retain static mask for resting rendering or use strict old fill mapping with the new cavity. Never flood-fill the new neck at rest, rotate a fixed liquid sticker or raise upright level to hide a dynamic-flow bug.",
+  "acceptance": {
+    "passed": [
+      "source SHA256, dimensions, RGBA and alpha checks",
+      "independent alpha>128 four-neighbor component count=1",
+      "body/neck/outlet center samples share the component"
+    ],
+    "reference_only": "QA image is static geometry, not liquid physics simulation or Godot capture. Producer0/30/60deg dry-outlet and90deg wetted-outlet samples are illustrative.",
+    "remaining": [
+      "actual Godot tilt continuity",
+      "different-volume critical pour angles",
+      "world-space outlet/stream attachment",
+      "volume decrement",
+      "antialias/mask sampling",
+      "target-scale glass/cavity alignment"
+    ]
+  },
+  "protect_local": "Keep current orders/energy/save rules and data, all uncommitted work and latest white Logo. Selectively intake only these isolated new files, no whole-branch merge/reset/restore. No old dark Logo or temporary Markdown. Reconcile any differing local path instead of overwriting."
+}

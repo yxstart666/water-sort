@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "package": "ui_batch3_pour_cavity_r1",
+  "files": [
+    {
+      "path": "assets/art_review/ui_batch3_pour_cavity_r1/assets/bottle_pour_cavity_mask.png",
+      "bytes": 6216,
+      "sha256": "bcb2c2ffd45cc1acdedc5b478089b76865fb29ed395fafc30ec01e12231e1b26",
+      "git_blob_sha": "0e17deea6dee81bcdfc31af529e45e9053a10516",
+      "mode": "100644",
+      "role": "dynamic_cavity_mask"
+    },
+    {
+      "path": "assets/art_review/ui_batch3_pour_cavity_r1/POUR_CAVITY_INTEGRATION.json",
+      "bytes": 2645,
+      "sha256": "20d635f5185b3e698e5ca21598b450bffd7ff8fb637cbfc3e912178a399b53ff",
+      "git_blob_sha": "070d30175c76d18a7c246105d666df6ae64e7d69",
+      "mode": "100644",
+      "role": "exact_source_integration_json"
+    },
+    {
+      "path": "assets/art_review/ui_batch3_pour_cavity_r1/INTEGRATION_ALLOWLIST.json",
+      "bytes": 383,
+      "sha256": "6d6b302d149944e8d55ce33f558c49e6152ecb92c7da3973856db4eb4459bf23",
+      "git_blob_sha": "9c7ba660cf5975a13aab2d8865aa006c0fc44ab9",
+      "mode": "100644",
+      "role": "exact_source_integration_json"
+    },
+    {
+      "path": "references/ui_batch3_pour_cavity_r1/rotation_and_connectivity.png",
+      "bytes": 108617,
+      "sha256": "9c619bc92c464c1146db6c003d6946c97806d9a19f30df75b6bd2926549f962c",
+      "git_blob_sha": "bde8bf5f1db7c44d68bfcaf295a5cac7acb748a1",
+      "mode": "100644",
+      "role": "static_geometry_qa_reference_not_Godot"
+    },
+    {
+      "path": "docs/ui_batch3_pour_cavity_r1/HANDOFF.json",
+      "bytes": 2768,
+      "sha256": "6f31fa8a74b3ec28348a0b11fe826b367a9afc99dae28a75f6959aed38c9b5dd",
+      "git_blob_sha": "98f189ec303c5e3e7c826ada284be69edb17beb3",
+      "mode": "100644",
+      "role": "formal_dynamic_cavity_intake_guidance"
+    }
+  ],
+  "self_excluded": true,
+  "handoff": "docs/ui_batch3_pour_cavity_r1/HANDOFF.json"
+}

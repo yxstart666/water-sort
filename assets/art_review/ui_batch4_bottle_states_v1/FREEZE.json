@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "original_freeze_sha256_text": "ed2eaf2d6df903132e2791aacc7352e53da14ca41481fc2b050ae95cafe69cc2  manifest.json\n",
+  "source_manifest_path": "manifest.json",
+  "source_manifest_sha256": "ed2eaf2d6df903132e2791aacc7352e53da14ca41481fc2b050ae95cafe69cc2",
+  "verification": "SHA-256 matches exact manifest bytes; original FREEZE.sha256 is retained in local source archive."
+}

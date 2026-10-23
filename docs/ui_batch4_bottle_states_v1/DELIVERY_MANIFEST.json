@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "package": "ui_batch4_bottle_states_v1",
+  "files": [
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_empty.png",
+      "bytes": 156999,
+      "sha256": "d57a5446e69332cc782eb11b1163af231d5c231f64498bd64f60a21a8d21f55d",
+      "git_blob_sha": "4a9145145ec941114046aa1969098de8be9423e9",
+      "mode": "100644",
+      "role": "resting_empty_only"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_blue.png",
+      "bytes": 108461,
+      "sha256": "d0d7a10e77752bfdcefbbb68b3c42657ca6eb8fb313f813c3ca14d69b2014257",
+      "git_blob_sha": "68b2333c4fae9029a890caef2f24827c3d98c37e",
+      "mode": "100644",
+      "role": "stationary_full_before_cork"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_blue_cork.png",
+      "bytes": 116196,
+      "sha256": "76e345804f4d917f7a6073c64d7d60556527f5baa723de27687b02a32676d133",
+      "git_blob_sha": "4d115c6a885061ebbd7947f26086472a995474d4",
+      "mode": "100644",
+      "role": "sealed_or_flight"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_green.png",
+      "bytes": 110908,
+      "sha256": "3b72ac3d159c9752e1ed022417a977cfbe94fab310d146062ad4b5496479b9be",
+      "git_blob_sha": "a5bd454e366256db061de4cab28e28a6bc55c922",
+      "mode": "100644",
+      "role": "stationary_full_before_cork"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_green_cork.png",
+      "bytes": 118353,
+      "sha256": "4b730f88e0805e92a17ed99b751ad059ab9d37adba213b5005fe6d0c57ad0da1",
+      "git_blob_sha": "1ef452bedfb1b661d16bcb3c597e1920abf6fd64",
+      "mode": "100644",
+      "role": "sealed_or_flight"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_orange.png",
+      "bytes": 109667,
+      "sha256": "39cdf6d6212e9da7bfba55f48c2211e44788da95dfe3e4e7da473158d72c2c89",
+      "git_blob_sha": "e77ca2905531e36df21c5e2066c1c4fed49593bd",
+      "mode": "100644",
+      "role": "stationary_full_before_cork"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_orange_cork.png",
+      "bytes": 117417,
+      "sha256": "9c8586f79e9269ff89408b3249cf1b3ec589e9368cd08e64d33aecf4ead7a872",
+      "git_blob_sha": "ba33746e7590b5a23ae66e3f77d0c01b0031e1fa",
+      "mode": "100644",
+      "role": "sealed_or_flight"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_pink.png",
+      "bytes": 109367,
+      "sha256": "bbad387e029346e5612ee049069bf3cade510e126205120bc4f1d17316ba001b",
+      "git_blob_sha": "47f0667150f1808dd89ae55a918258eb09ea0820",
+      "mode": "100644",
+      "role": "stationary_full_before_cork"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_pink_cork.png",
+      "bytes": 117096,
+      "sha256": "941762bbc722f2c4a343f9f819cef9e49286d6189b687d57f133ddc99284d799",
+      "git_blob_sha": "76db32f3c7161f529b4150ad35a71911cf6ba162",
+      "mode": "100644",
+      "role": "sealed_or_flight"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_purple.png",
+      "bytes": 108365,
+      "sha256": "caea1e4ecf0bb768e9aba1f3d39c4d093a1207c7bb8c12619abde8bf2181b9e5",
+      "git_blob_sha": "ac24bbf1e8635fe8227f142ba8dc7e81d0635f8b",
+      "mode": "100644",
+      "role": "stationary_full_before_cork"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_purple_cork.png",
+      "bytes": 116104,
+      "sha256": "e1488a7476bf4634b5607a0d8db612823b5f117ae42512abe4e4f74fe7a02329",
+      "git_blob_sha": "1604565922cb4378f4a127b89fee5b41f73bcd61",
+      "mode": "100644",
+      "role": "sealed_or_flight"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_red.png",
+      "bytes": 108869,
+      "sha256": "3b68ca1769eebff33e1ffaf0a85e5968cab9423b3f1edd5d60931fb2355a1829",
+      "git_blob_sha": "6c55e4817cde56f7b6fd1de194c947d23bce6fee",
+      "mode": "100644",
+      "role": "stationary_full_before_cork"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_red_cork.png",
+      "bytes": 116618,
+      "sha256": "96d4fd1b443d8a708cdcc44b2a1f72b1f402001266dc7d5a9073b09ebd676eb7",
+      "git_blob_sha": "ff463590636b9b1c4b83e1f8d098b37c3d8e98d7",
+      "mode": "100644",
+      "role": "sealed_or_flight"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_yellow.png",
+      "bytes": 109110,
+      "sha256": "858c760720f7f3bd4cd9b653c703a05ee297822f166d0daf651a92fd6b480231",
+      "git_blob_sha": "ef1a0185a2f7259fa84f76a3bdf5701a7f867129",
+      "mode": "100644",
+      "role": "stationary_full_before_cork"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/bottle_full_yellow_cork.png",
+      "bytes": 116887,
+      "sha256": "eaa298c436aa068adcdac653c18b6fc8414fdb4246297a81d783f10d6c622af9",
+      "git_blob_sha": "0c0d61535f43ec15c480970264c864a01ecfece0",
+      "mode": "100644",
+      "role": "sealed_or_flight"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/order_blue_cork.png",
+      "bytes": 36108,
+      "sha256": "45d20e341ec92c098477094e7da9eb0baa00186d13860823e4588ec214858e08",
+      "git_blob_sha": "6b3a73306d8a11fc98f412fc2ca98dd6b58eeb0c",
+      "mode": "100644",
+      "role": "order_target_sealed"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/order_green_cork.png",
+      "bytes": 37032,
+      "sha256": "6f9ea9c9ca76661e04e4bd196ff9aba3054865f818c04c67f0bfee80f8d90371",
+      "git_blob_sha": "e96651db9b6bea42232e7242f7308053784d64c3",
+      "mode": "100644",
+      "role": "order_target_sealed"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/order_orange_cork.png",
+      "bytes": 36668,
+      "sha256": "37307db80a9c3047ac01ac8921cca8a0438e72395d5908fb832129d646bee72a",
+      "git_blob_sha": "6339df62cd1d7dafa8d9ac02b911de9a1050b1f6",
+      "mode": "100644",
+      "role": "order_target_sealed"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/order_pink_cork.png",
+      "bytes": 36356,
+      "sha256": "05de0417dcdd607eb91d06a4119e511f5a98e2931d940c8732d636247178527c",
+      "git_blob_sha": "f540378a4fa72d52a0a39fced606fa6bfc8b6e04",
+      "mode": "100644",
+      "role": "order_target_sealed"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/order_purple_cork.png",
+      "bytes": 35696,
+      "sha256": "aca9cddfe488555518fa99e97d90a4b01ed488c52187a9aacd264a6676322256",
+      "git_blob_sha": "4b7e6337c55a5ad41c27d5d7259347c1ddf80bee",
+      "mode": "100644",
+      "role": "order_target_sealed"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/order_red_cork.png",
+      "bytes": 36238,
+      "sha256": "8ed3e051213a957a51eff578471a75ca90e625e293dd2bb7b32b7f36aa33c241",
+      "git_blob_sha": "db6129f4d940698cef4296d04a042c5bb82014b8",
+      "mode": "100644",
+      "role": "order_target_sealed"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/assets/order_yellow_cork.png",
+      "bytes": 36161,
+      "sha256": "03507431a7ae9139b56ea3240e22019a0020594f453efa0d1b4099c23c7fe4a5",
+      "git_blob_sha": "26f32bce5121d4fc86b8e8873bd02ea79b9849d3",
+      "mode": "100644",
+      "role": "order_target_sealed"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/manifest.json",
+      "bytes": 15508,
+      "sha256": "ed2eaf2d6df903132e2791aacc7352e53da14ca41481fc2b050ae95cafe69cc2",
+      "git_blob_sha": "787b26f1b84362d95064d94eb93bb986f9ccc022",
+      "mode": "100644",
+      "role": "exact_frozen_source_json"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/INTEGRATION_ALLOWLIST.json",
+      "bytes": 15122,
+      "sha256": "de598be3e8f5411a03a4961f3f0db4bcbc2fe141da7444796abddf1f32f9669f",
+      "git_blob_sha": "73a8baf1724b08c8302b793ec55be6f570332392",
+      "mode": "100644",
+      "role": "exact_frozen_source_json"
+    },
+    {
+      "path": "assets/art_review/ui_batch4_bottle_states_v1/FREEZE.json",
+      "bytes": 402,
+      "sha256": "7c97525ca82d15d21dbbf38709a49e7742c1ac156879c1a5e7acd56e48a309b3",
+      "git_blob_sha": "ec921f70bb6fb139e0fc0162c0ff8966d3ecfb0e",
+      "mode": "100644",
+      "role": "frozen_manifest_proof"
+    },
+    {
+      "path": "references/ui_batch4_bottle_states_v1/three_states_preview.png",
+      "bytes": 135729,
+      "sha256": "37e447154f11a51c38fb5f45f898c8283a5f0fdb6e8984a3d2f8656774d711ab",
+      "git_blob_sha": "685506695d0be44249fd4f8bcd3a5abbe303f35d",
+      "mode": "100644",
+      "role": "qa_reference_only_not_runtime"
+    },
+    {
+      "path": "references/ui_batch4_bottle_states_v1/seven_sealed_palette.png",
+      "bytes": 274672,
+      "sha256": "e3ec8db2d28bb2675741bbc6285a4d17fc2bd8893947989d089f6a918cb7add2",
+      "git_blob_sha": "328f0d418c147c6bba849a48e97abc831c8224ab",
+      "mode": "100644",
+      "role": "qa_reference_only_not_runtime"
+    },
+    {
+      "path": "references/ui_batch4_bottle_states_v1/recomposition_test.json",
+      "bytes": 536,
+      "sha256": "f8c288d833105b006686a40b998d01d41a463cdf3a6671c791ce596ed9ebc87a",
+      "git_blob_sha": "969faa3c58df3523ecfe631562c92aa5e35f8b52",
+      "mode": "100644",
+      "role": "qa_reference_only_not_runtime"
+    },
+    {
+      "path": "docs/ui_batch4_bottle_states_v1/HANDOFF.json",
+      "bytes": 4848,
+      "sha256": "ebe431d88d89f0688403504fe9d68da1ff81183aa4bec797d2e242832e5e7215",
+      "git_blob_sha": "e1a5bbf85626997b8a42d89b9449da922e94d059",
+      "mode": "100644",
+      "role": "current_formal_incremental_handoff"
+    }
+  ],
+  "self_excluded": true,
+  "runtime_authority": "assets/art_review/ui_batch4_bottle_states_v1/INTEGRATION_ALLOWLIST.json",
+  "handoff": "docs/ui_batch4_bottle_states_v1/HANDOFF.json"
+}

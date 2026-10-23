@@ -1,0 +1,124 @@
+{
+  "revision": "pour-cavity-r1",
+  "asset": "assets/bottle_pour_cavity_mask.png",
+  "sha256": "bcb2c2ffd45cc1acdedc5b478089b76865fb29ed395fafc30ec01e12231e1b26",
+  "canvas": [
+    320,
+    896
+  ],
+  "pivot_px": [
+    160,
+    820
+  ],
+  "fill_top_px_unchanged": 250,
+  "fill_bottom_px_unchanged": 800,
+  "capacity_unchanged": true,
+  "static_mask_reference": "ui_batch3_bottle_v1/assets/bottle_liquid_mask.png",
+  "role": "dynamic flow occupancy only; never use cavity area to recompute gameplay capacity",
+  "mouth_exit_local_px": [
+    159.5,
+    108
+  ],
+  "mouth_exit_normalized": [
+    0.4984375,
+    0.12053571428571429
+  ],
+  "mouth_exit_span_px": [
+    [
+      118,
+      108
+    ],
+    [
+      201,
+      108
+    ]
+  ],
+  "neck_path_local_px": [
+    [
+      159.5,
+      250
+    ],
+    [
+      159.5,
+      220
+    ],
+    [
+      159.5,
+      190
+    ],
+    [
+      159.5,
+      166
+    ],
+    [
+      159.5,
+      126
+    ],
+    [
+      159.5,
+      108
+    ]
+  ],
+  "neck_path_role": "debug/stream attachment guide, NOT a forced fluid stripe",
+  "outward_direction_upright": [
+    0,
+    -1
+  ],
+  "pour_rule": "only emit if gravity-oriented fluid intersects outlet; transform outlet and vector with bottle",
+  "qa_connected_components_alpha_gt128": 1,
+  "qa_outlet_body_same_component": true,
+  "qa_rotation_samples": [
+    {
+      "angle_degrees_clockwise": 0,
+      "surface_y_1000_canvas": 302,
+      "outlet_world_px": [
+        500.0,
+        160.0
+      ],
+      "outlet_wet": false,
+      "liquid_area_px": 113158.40392156862,
+      "target_area_px": 113122.08627450981
+    },
+    {
+      "angle_degrees_clockwise": 30,
+      "surface_y_1000_canvas": 325,
+      "outlet_world_px": [
+        670.0,
+        205.5513627132908
+      ],
+      "outlet_wet": false,
+      "liquid_area_px": 113047.20392156862,
+      "target_area_px": 113122.08627450981
+    },
+    {
+      "angle_degrees_clockwise": 60,
+      "surface_y_1000_canvas": 382,
+      "outlet_world_px": [
+        794.4486372867091,
+        330.0
+      ],
+      "outlet_wet": false,
+      "liquid_area_px": 113065.26666666666,
+      "target_area_px": 113122.08627450981
+    },
+    {
+      "angle_degrees_clockwise": 90,
+      "surface_y_1000_canvas": 425,
+      "outlet_world_px": [
+        840.0,
+        500.0
+      ],
+      "outlet_wet": true,
+      "liquid_area_px": 113062.29411764705,
+      "target_area_px": 113122.08627450981
+    }
+  ],
+  "runtime_status": "Godot integration and continuity not yet verified",
+  "immutable": [
+    "glass layers",
+    "sealed bottle outputs",
+    "upright fill_top",
+    "gameplay capacity",
+    "batch4 and batch5 freezes"
+  ]
+}
