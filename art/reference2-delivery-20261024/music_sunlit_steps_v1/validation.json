@@ -1,0 +1,37 @@
+{
+  "caiping_sunlit_steps_112bpm.wav": {
+    "frames": 3024000,
+    "sample_rate": 44100,
+    "channels": 2,
+    "seconds": 68.57142857142857,
+    "sample_peak": 0.339996337890625,
+    "dc": [
+      -5.833055607225529e-09,
+      2.6339576357886904e-09
+    ],
+    "loop_seam_max_sample_delta": 6.103515625e-05,
+    "max_internal_sample_delta": 0.038421630859375,
+    "clipped_samples": 0
+  },
+  "decoded_check.wav": {
+    "frames": 3024000,
+    "sample_rate": 44100,
+    "channels": 2,
+    "seconds": 68.57142857142857,
+    "sample_peak": 0.339263916015625,
+    "dc": [
+      3.5350839927713707e-06,
+      3.2409284480665095e-06
+    ],
+    "loop_seam_max_sample_delta": 0.0001220703125,
+    "max_internal_sample_delta": 0.03802490234375,
+    "clipped_samples": 0
+  },
+  "composition": {
+    "unique_melodic_bars": 29,
+    "total_bars": 32,
+    "note_events": 392,
+    "not_short_loop_repetition": true
+  },
+  "listening_verified": false
+}
