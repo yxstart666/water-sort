@@ -1,0 +1,74 @@
+{
+  "captured_at_utc": "2026-10-24",
+  "material_commit": "dc5e9f4f8e505bd715f1656fb31fca99a52e04fe",
+  "recording": "motion-v7",
+  "engine": "Godot 4.7.2 Standard / native OpenGL root viewport via Godot MCP",
+  "resolution": [
+    360,
+    640
+  ],
+  "fps": 30,
+  "input": "Deterministic simulated production inputs, not a human playtest.",
+  "storage": "Injected memory; no real player save, energy or desktop/WeChat footage.",
+  "audio": "No audio track.",
+  "files": [
+    {
+      "local": "normal-pour-seal.mp4",
+      "path": "reports/reference2-refinement/normal-pour-seal.mp4",
+      "bytes": 104896,
+      "sha256": "d0636c6aa99f201279f606d536e8423af2136ffe2139a979cc77924ca267c05f",
+      "git_blob_sha": "15aee255af7cb59a244632dc7dbce7abe979af78"
+    },
+    {
+      "local": "rapid-valid.mp4",
+      "path": "reports/reference2-refinement/rapid-valid.mp4",
+      "bytes": 107343,
+      "sha256": "ef70722f30eb99f3de4ec9568479790b5f0cc7b5f84628227d3794a000d3d4bf",
+      "git_blob_sha": "519d7c72185db01f0d9ae1ddf5fb969e697843c1"
+    },
+    {
+      "local": "graphical-help.mp4",
+      "path": "reports/reference2-refinement/graphical-help.mp4",
+      "bytes": 85576,
+      "sha256": "4d73a0964cd91c3316044a5f4fcc3b05b35590721218634b9773ca770934f85a",
+      "git_blob_sha": "d7a233c9e7af21f49e61e214acbf7186994710db"
+    },
+    {
+      "local": "material-pages/eight-color-live-fixture.png",
+      "path": "reports/reference2-refinement/eight-color-live-fixture.png",
+      "bytes": 218864,
+      "sha256": "d21bb3844ece9778a7caa288d6082e80c06273513ebf0112a31ee4ab0a92fee0",
+      "git_blob_sha": "239448f52d76c0ab10e5e5eca8107d93df8013be"
+    }
+  ],
+  "clips": [
+    {
+      "file": "normal-pour-seal.mp4",
+      "frames": 150,
+      "duration_seconds": 5,
+      "scene": "Unmodified production L1 via AppShell, normal red pour, target recoil, cork and collection."
+    },
+    {
+      "file": "rapid-valid.mp4",
+      "frames": 210,
+      "duration_seconds": 7,
+      "scene": "Unmodified production L2 via AppShell; three accepted legal actions [0,4], [2,8], [3,5]. Intersecting visual routes wait; independent routes remain active."
+    },
+    {
+      "file": "graphical-help.mp4",
+      "frames": 220,
+      "duration_seconds": 7.333333333333333,
+      "scene": "Independent teaching sandbox: one blue unit into three blue units, then real pour completion, cork and collection. Same production BottleVisual/PourAnimator."
+    },
+    {
+      "file": "eight-color-live-fixture.png",
+      "scene": "Isolated eight-color palette fixture using actual production BottleVisual; not a player level."
+    }
+  ],
+  "boundaries": [
+    "No claim of independent QA pass: existing QA approval unresolved.",
+    "No Android/release/real SDK or music-listening acceptance.",
+    "No claim dynamically better than competitor; intended for equal-scale frame comparison.",
+    "This commit publishes evidence only. Production modifications remain local and are not included."
+  ]
+}
