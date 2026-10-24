@@ -1,0 +1,18 @@
+{
+  "canvas_unchanged": true,
+  "size": [
+    157,
+    204
+  ],
+  "blue_interior_pixel_identical": true,
+  "blue_interior_pixels_checked": 19997,
+  "core_rgb_identical": true,
+  "changed_pixels": 2980,
+  "alpha_range": [
+    0,
+    255
+  ],
+  "method": "Imagegen edge repair supplies outer edge RGB. Existing original core preserved via eroded alpha mask. Technical alpha normalization threshold90% / morphology Open Disk1 / blur0.35 removes extraction fringe. Canvas preserved; subpixel perimeter may shift about 1 pixel. No state or panel redesign.",
+  "original_sha256": "94d2ec11990b22c954fe5adb2a8d297c0d6369d11aa6a6fd0c460a1909a83c13",
+  "replacement_sha256": "eb7ba861443af1d82ace243fb350b15adae789e0bcbc297f361d9b726e065577"
+}

@@ -1,0 +1,908 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "elements": [
+    {
+      "kind": "image",
+      "asset": "assets/energy.png",
+      "rect": [
+        50,
+        58,
+        218,
+        75
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/bolt.png",
+      "rect": [
+        57,
+        62,
+        44,
+        64
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "30/30",
+      "rect": [
+        104,
+        72,
+        115,
+        44
+      ],
+      "font_size": 32,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": "energy.current/max"
+    },
+    {
+      "kind": "image",
+      "asset": "../reference2_finish_assets_v1/sprites/plus_gold.png",
+      "rect": [
+        226,
+        77,
+        30,
+        30
+      ],
+      "action": "open_energy"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/secondary.png",
+      "rect": [
+        798,
+        54,
+        94,
+        94
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/back.png",
+      "rect": [
+        808,
+        64,
+        74,
+        74
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "Choose a level",
+      "rect": [
+        120,
+        220,
+        700,
+        84
+      ],
+      "font_size": 54,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "text",
+      "text": "8 levels completed",
+      "rect": [
+        160,
+        319,
+        620,
+        55
+      ],
+      "font_size": 30,
+      "color": "#a3c2e8",
+      "align": "center",
+      "binding": "completed_count"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_done.png",
+      "rect": [
+        92,
+        435,
+        174,
+        174
+      ],
+      "state_binding": "completed_or_available"
+    },
+    {
+      "kind": "text",
+      "text": "1",
+      "rect": [
+        92,
+        449,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff2d5",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        149,
+        538,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_done.png",
+      "rect": [
+        286,
+        435,
+        174,
+        174
+      ],
+      "state_binding": "completed_or_available"
+    },
+    {
+      "kind": "text",
+      "text": "2",
+      "rect": [
+        286,
+        449,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff2d5",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        343,
+        538,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_done.png",
+      "rect": [
+        480,
+        435,
+        174,
+        174
+      ],
+      "state_binding": "completed_or_available"
+    },
+    {
+      "kind": "text",
+      "text": "3",
+      "rect": [
+        480,
+        449,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff2d5",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        537,
+        538,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_done.png",
+      "rect": [
+        674,
+        435,
+        174,
+        174
+      ],
+      "state_binding": "completed_or_available"
+    },
+    {
+      "kind": "text",
+      "text": "4",
+      "rect": [
+        674,
+        449,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff2d5",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        731,
+        538,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_done.png",
+      "rect": [
+        92,
+        627,
+        174,
+        174
+      ],
+      "state_binding": "completed_or_available"
+    },
+    {
+      "kind": "text",
+      "text": "5",
+      "rect": [
+        92,
+        641,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff2d5",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        149,
+        730,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_done.png",
+      "rect": [
+        286,
+        627,
+        174,
+        174
+      ],
+      "state_binding": "completed_or_available"
+    },
+    {
+      "kind": "text",
+      "text": "6",
+      "rect": [
+        286,
+        641,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff2d5",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        343,
+        730,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_done.png",
+      "rect": [
+        480,
+        627,
+        174,
+        174
+      ],
+      "state_binding": "completed_or_available"
+    },
+    {
+      "kind": "text",
+      "text": "7",
+      "rect": [
+        480,
+        641,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff2d5",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        537,
+        730,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_done.png",
+      "rect": [
+        674,
+        627,
+        174,
+        174
+      ],
+      "state_binding": "completed_or_available"
+    },
+    {
+      "kind": "text",
+      "text": "8",
+      "rect": [
+        674,
+        641,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff2d5",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        731,
+        730,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "current_tile",
+      "rect": [
+        92,
+        819,
+        174,
+        174
+      ],
+      "level": 9,
+      "state_binding": "current",
+      "asset": "assets/primary.png",
+      "margins": [
+        45,
+        45,
+        45,
+        45
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "9",
+      "rect": [
+        92,
+        837,
+        174,
+        78
+      ],
+      "font_size": 57,
+      "color": "#ffdc77",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/arrow.png",
+      "rect": [
+        153,
+        928,
+        52,
+        52
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        286,
+        819,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "10",
+      "rect": [
+        286,
+        833,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        343,
+        922,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        480,
+        819,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "11",
+      "rect": [
+        480,
+        833,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        537,
+        922,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        674,
+        819,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "12",
+      "rect": [
+        674,
+        833,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        731,
+        922,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        92,
+        1011,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "13",
+      "rect": [
+        92,
+        1025,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        149,
+        1114,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        286,
+        1011,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "14",
+      "rect": [
+        286,
+        1025,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        343,
+        1114,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        480,
+        1011,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "15",
+      "rect": [
+        480,
+        1025,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        537,
+        1114,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        674,
+        1011,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "16",
+      "rect": [
+        674,
+        1025,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        731,
+        1114,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        92,
+        1203,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "17",
+      "rect": [
+        92,
+        1217,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        149,
+        1306,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        286,
+        1203,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "18",
+      "rect": [
+        286,
+        1217,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        343,
+        1306,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        480,
+        1203,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "19",
+      "rect": [
+        480,
+        1217,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        537,
+        1306,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tile_locked.png",
+      "rect": [
+        674,
+        1203,
+        174,
+        174
+      ],
+      "state_binding": "locked"
+    },
+    {
+      "kind": "text",
+      "text": "20",
+      "rect": [
+        674,
+        1217,
+        174,
+        82
+      ],
+      "font_size": 52,
+      "color": "#718aaf",
+      "align": "center",
+      "binding": "levels[pageIndex*20+slotIndex].number",
+      "sample_only": true
+    },
+    {
+      "kind": "image",
+      "asset": "assets/lock.png",
+      "rect": [
+        731,
+        1306,
+        60,
+        60
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "1 / 3",
+      "rect": [
+        350,
+        1410,
+        240,
+        60
+      ],
+      "font_size": 33,
+      "color": "#bfd6ed",
+      "align": "center",
+      "binding": "page_index/page_count"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/back.png",
+      "rect": [
+        250,
+        1414,
+        54,
+        54
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/arrow.png",
+      "rect": [
+        638,
+        1414,
+        54,
+        54
+      ]
+    },
+    {
+      "kind": "ninepatch",
+      "asset": "assets/primary.png",
+      "rect": [
+        180,
+        1510,
+        580,
+        112
+      ],
+      "margins": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "action": "continue_existing_save"
+    },
+    {
+      "kind": "text",
+      "text": "Continue level 9",
+      "rect": [
+        210,
+        1522,
+        520,
+        88
+      ],
+      "font_size": 43,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": "continue_label(actual_resume_level)",
+      "sample_only": true
+    }
+  ],
+  "bindings": {
+    "page_size": 20,
+    "page_count": "ceil(actual_level_count / 20)",
+    "examples": "8 completed, current9, others locked. Bind all to actual save; never write sample progress.",
+    "states": "completed: check + normal blue tile; current: gold CTA frame + arrow; locked: subdued blue + lock; no stars",
+    "pagination": "last page only actual entries; disable prior/next at boundaries",
+    "return": "actual caller",
+    "tile_hitboxes": "174x174; 20px horizontal and 18px vertical gaps"
+  },
+  "status": "static assembly; no runtime acceptance",
+  "sample_progress_only": true,
+  "font": "Use existing NotoSansCJK-Bold SC face from project; no font replacement",
+  "min_touch_target": "44pt, enlarge invisible hitbox when visual is smaller"
+}

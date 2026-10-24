@@ -1,0 +1,13 @@
+{
+  "layout_asset_references_checked": 162,
+  "missing_references": [],
+  "text_bounds_checked": 94,
+  "text_failures": [],
+  "manual_360_review": [
+    "home_zh",
+    "level_select_zh",
+    "graphical_help_zh",
+    "graphical_help_en"
+  ],
+  "production_runtime_tested": false
+}

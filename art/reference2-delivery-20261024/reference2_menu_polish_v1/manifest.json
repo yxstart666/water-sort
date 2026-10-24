@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "method": "Deterministic code-native component assembly. Existing approved raster assets reused unchanged; UI icons/cards drawn from code. No AI image replacement.",
+  "production_code_changed": false,
+  "screens": [
+    "home",
+    "level_select",
+    "graphical_help"
+  ],
+  "locales": [
+    "zh",
+    "en"
+  ],
+  "canvas": [
+    940,
+    1672
+  ],
+  "qa_size": [
+    360,
+    640
+  ],
+  "dependencies": [
+    "../reference2_finish_assets_v1/sprites/plus_gold.png"
+  ],
+  "assets": [
+    {
+      "file": "assets/arrow.png",
+      "sha256": "0d7f695dd2c6b175dc38cbfe49a2bf8614a7e125ff0e6b0def8f6b93b0ffcaf3",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/arrow.svg",
+      "sha256": "b2f68dd1cd37b9aa1c7d6e3c65386e9eecc6bba749a88b8ee216388347a0301c"
+    },
+    {
+      "file": "assets/back.png",
+      "sha256": "3f7f2665d9123d78e8bd6dd58d670d2255cf45d16a24cdcc384b8f57285a8e65",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/back.svg",
+      "sha256": "de7db9cadd78d40367946fa2b6ffebdc71f4ee4a11a88659b1477104477e2499"
+    },
+    {
+      "file": "assets/background.png",
+      "sha256": "3dfdfa238bf6bcc55114d5981b08325933e1b4873a208f1cdc5587d1c69324cd",
+      "size": [
+        940,
+        1672
+      ],
+      "alpha": false
+    },
+    {
+      "file": "assets/blue.png",
+      "sha256": "bde46b570a0ccd755bc339b202288f2ff2c847b414bbcec3fa9bb88d739e5393",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/blue_low.png",
+      "sha256": "df48a2b2e5f7e8806d171ac656531143997edd3c26c7d429317f9fdcc094765c",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/bolt.png",
+      "sha256": "f16d48004d862201dddee35db00d7774d7aa81589894a2153464f383c8b10410",
+      "size": [
+        48,
+        68
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/cavity.png",
+      "sha256": "d7ab88a46d97bac14f85fa33dca291c2b12a167d909daceae488e06e98c9a780",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/check.png",
+      "sha256": "63a4aad4e0dc29b02e9b9e9cfdb2bc2ad2207af7a4afd4d110450189080c7309",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/check.svg",
+      "sha256": "d29c261098de9558092ee40d06db889f7c9a1c80fc1dfb3031d340266acb468d"
+    },
+    {
+      "file": "assets/cork.png",
+      "sha256": "ee086239a2ff863ab24ae8cba66a0560b20302944551982096713823ea378b55",
+      "size": [
+        75,
+        40
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/empty.png",
+      "sha256": "a3c777afc3036d204459bac6cf5b7aef1e26cfa920a9d0d726f8b77054ad57f0",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/energy.png",
+      "sha256": "44f33c3dc05b2257aa67fd8ffa7716421edb227b3624e5f3fbc508dfd666faab",
+      "size": [
+        186,
+        64
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/glass_back.png",
+      "sha256": "424db6d82f2c75b515c727cb44d12cd538612ca725bfbf6ff2d5e728c1092a94",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/glass_front.png",
+      "sha256": "25ac4f208edd5fd83110e44c9e7fb8d7a490633ff856f7fa4c7ccc1a21889e06",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/grid.png",
+      "sha256": "ab4d433ff08fb0dc7c715eb67ec05033b2e81327e25b6c2af3a26b9733bb4812",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/grid.svg",
+      "sha256": "d76774d96acc01057ee7aab483a8682a69a8ba8a5990fb6d4402cc21c4bb8385"
+    },
+    {
+      "file": "assets/help_card.png",
+      "sha256": "15ef6a4101026dca3ec2b1c56237a1c8fd0b062598fdd313146cd16fc4f796f6",
+      "size": [
+        804,
+        320
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/lock.png",
+      "sha256": "e7b4cccbdb85c1c9db7dfa2c0e08fd34f747161c843e314d599c1a6658458184",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/lock.svg",
+      "sha256": "099fd99ee4ce05dafb80b51496103e04ef58c26a950ea535ed87aa796f8c158a"
+    },
+    {
+      "file": "assets/mixed.png",
+      "sha256": "5ac717c61ab28f94e6c1a6b86ade757c03f95b50152f54f97b3418ed5e1b1c1d",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/order_blue.png",
+      "sha256": "ba4b72211f16f3695c66d2d400445fad5a59da37ad8a9833aacb4e9d571b68f6",
+      "size": [
+        70,
+        137
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/order_frame.png",
+      "sha256": "97c5c4baa0304ac13cd781a0dc49c7b96aa077ed29e580d6eeadd07ba823f4ee",
+      "size": [
+        157,
+        204
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/pour_diagram.png",
+      "sha256": "c253e84e75dab2d2de52f4195a19181cda67683bc1d13c7aa5134287235f2d30",
+      "size": [
+        860,
+        364
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/primary.png",
+      "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+      "size": [
+        173,
+        174
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/records.png",
+      "sha256": "5fbe219ec59f83a5206a7b58b64f964432a0d30b46fce5234c6e2258efd57ca9",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/records.svg",
+      "sha256": "d305ab58bee88b182e833e13c4222cc11aacd2e4278d35cd2b3b0d9113b25bf4"
+    },
+    {
+      "file": "assets/red_low.png",
+      "sha256": "f435f6bb5732c429520fea41282cca6a1cf0fb23a1c5446a3a81e16bf7c2f259",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/secondary.png",
+      "sha256": "fef1205fc6d18904814e906c780aeae715e13304def0d935c7b3ab583e33ae35",
+      "size": [
+        340,
+        120
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/settings.png",
+      "sha256": "75b5b6aa00f862017a821c1463138219af0fcd78445a8cb003d125c87c5103d6",
+      "size": [
+        119,
+        114
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/settings_base.png",
+      "sha256": "bb1437589d5afd9f086c3f3298a1803b4a588e677437a62946cb41c403cf9daf",
+      "size": [
+        119,
+        114
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/tap.png",
+      "sha256": "7d8c5f77b8cd6f0e000054564e453dba4149ed1fe4d2e07276ebc6a55f470f30",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/tap.svg",
+      "sha256": "a1fe16eff6a55c7891d2dbf6cc8c26d3a53a54fb8469f9ac97a1693cb7e0d6c3"
+    },
+    {
+      "file": "assets/tile_done.png",
+      "sha256": "7e9767a3f0f54fbfa451d2bb479907699f11da33a5511b20057cadf7d2d12d25",
+      "size": [
+        174,
+        174
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/tile_locked.png",
+      "sha256": "8f6739ffed996bef63d518b27a68c86fddc20aa286d349c16b181952597a9f82",
+      "size": [
+        174,
+        174
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/warm.png",
+      "sha256": "7fd0e16456a34fa2444d2cea9e0d45d54e16487b8dc094cbec75956a310c6782",
+      "size": [
+        165,
+        410
+      ],
+      "alpha": true
+    }
+  ],
+  "qa_is_runtime_asset": false,
+  "pour_diagram": "Static educational illustration. Rotated original glass layers; horizontal liquid fill independently reconstructed. Not a simulation recording or production animation."
+}

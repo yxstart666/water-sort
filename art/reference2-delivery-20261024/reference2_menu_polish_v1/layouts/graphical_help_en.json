@@ -1,0 +1,410 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "elements": [
+    {
+      "kind": "image",
+      "asset": "assets/energy.png",
+      "rect": [
+        50,
+        58,
+        218,
+        75
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/bolt.png",
+      "rect": [
+        57,
+        62,
+        44,
+        64
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "30/30",
+      "rect": [
+        104,
+        72,
+        115,
+        44
+      ],
+      "font_size": 32,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": "energy.current/max"
+    },
+    {
+      "kind": "image",
+      "asset": "../reference2_finish_assets_v1/sprites/plus_gold.png",
+      "rect": [
+        226,
+        77,
+        30,
+        30
+      ],
+      "action": "open_energy"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/secondary.png",
+      "rect": [
+        798,
+        54,
+        94,
+        94
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/back.png",
+      "rect": [
+        808,
+        64,
+        74,
+        74
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "How to play",
+      "rect": [
+        120,
+        210,
+        700,
+        82
+      ],
+      "font_size": 52,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "text",
+      "text": "Tap, pour, collect",
+      "rect": [
+        120,
+        301,
+        700,
+        55
+      ],
+      "font_size": 29,
+      "color": "#a3c2e8",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "image",
+      "asset": "assets/help_card.png",
+      "rect": [
+        68,
+        395,
+        804,
+        320
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "01",
+      "rect": [
+        98,
+        415,
+        70,
+        54
+      ],
+      "font_size": 31,
+      "color": "#f8cd67",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "text",
+      "text": "Tap a source bottle",
+      "rect": [
+        177,
+        414,
+        665,
+        56
+      ],
+      "font_size": 31,
+      "color": "#fff3d7",
+      "align": "left",
+      "binding": null
+    },
+    {
+      "kind": "image",
+      "asset": "assets/mixed.png",
+      "rect": [
+        315,
+        484,
+        74,
+        184
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/tap.png",
+      "rect": [
+        386,
+        532,
+        77,
+        77
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/empty.png",
+      "rect": [
+        547,
+        498,
+        68,
+        170
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "Choose the color on top",
+      "rect": [
+        110,
+        664,
+        720,
+        42
+      ],
+      "font_size": 23,
+      "color": "#9cbada",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "image",
+      "asset": "assets/help_card.png",
+      "rect": [
+        68,
+        745,
+        804,
+        320
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "02",
+      "rect": [
+        98,
+        765,
+        70,
+        54
+      ],
+      "font_size": 31,
+      "color": "#f8cd67",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "text",
+      "text": "Pour into empty or matching tops",
+      "rect": [
+        177,
+        764,
+        665,
+        56
+      ],
+      "font_size": 31,
+      "color": "#fff3d7",
+      "align": "left",
+      "binding": null
+    },
+    {
+      "kind": "image",
+      "asset": "assets/pour_diagram.png",
+      "rect": [
+        213,
+        829,
+        430,
+        182
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        673,
+        904,
+        52,
+        52
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "The target needs free space",
+      "rect": [
+        110,
+        1014,
+        720,
+        42
+      ],
+      "font_size": 23,
+      "color": "#9cbada",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "image",
+      "asset": "assets/help_card.png",
+      "rect": [
+        68,
+        1095,
+        804,
+        320
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "03",
+      "rect": [
+        98,
+        1115,
+        70,
+        54
+      ],
+      "font_size": 31,
+      "color": "#f8cd67",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "text",
+      "text": "Match a full bottle to an order",
+      "rect": [
+        177,
+        1114,
+        665,
+        56
+      ],
+      "font_size": 31,
+      "color": "#fff3d7",
+      "align": "left",
+      "binding": null
+    },
+    {
+      "kind": "image",
+      "asset": "assets/blue.png",
+      "rect": [
+        268,
+        1186,
+        67,
+        167
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/cork.png",
+      "rect": [
+        283,
+        1180,
+        40,
+        24
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/arrow.png",
+      "rect": [
+        389,
+        1240,
+        62,
+        62
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/order_frame.png",
+      "rect": [
+        513,
+        1189,
+        130,
+        157
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/order_blue.png",
+      "rect": [
+        542,
+        1207,
+        72,
+        120
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/check.png",
+      "rect": [
+        654,
+        1246,
+        54,
+        54
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "Collect every order to finish",
+      "rect": [
+        110,
+        1364,
+        720,
+        42
+      ],
+      "font_size": 23,
+      "color": "#9cbada",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "ninepatch",
+      "asset": "assets/primary.png",
+      "rect": [
+        220,
+        1500,
+        500,
+        112
+      ],
+      "margins": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "action": "return_to_actual_caller"
+    },
+    {
+      "kind": "text",
+      "text": "Got it",
+      "rect": [
+        250,
+        1512,
+        440,
+        88
+      ],
+      "font_size": 43,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": null
+    }
+  ],
+  "bindings": {
+    "back": "actual caller, no forced home",
+    "semantics": "tap source -> target empty or same top color AND has capacity -> monochrome full bottle matching active order is collected",
+    "text": "no developer/test/ad-integration wording",
+    "art": "all bottle/order assets same approved family",
+    "optional_loop": "animate existing illustration components only; no new gameplay; static page is not a runtime recording"
+  },
+  "status": "static assembly; no runtime acceptance",
+  "sample_progress_only": true,
+  "font": "Use existing NotoSansCJK-Bold SC face from project; no font replacement",
+  "min_touch_target": "44pt, enlarge invisible hitbox when visual is smaller"
+}

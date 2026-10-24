@@ -1,0 +1,285 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "zh",
+  "elements": [
+    {
+      "kind": "image",
+      "asset": "assets/energy.png",
+      "rect": [
+        50,
+        58,
+        218,
+        75
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/bolt.png",
+      "rect": [
+        57,
+        62,
+        44,
+        64
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "30/30",
+      "rect": [
+        104,
+        72,
+        115,
+        44
+      ],
+      "font_size": 32,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": "energy.current/max"
+    },
+    {
+      "kind": "image",
+      "asset": "../reference2_finish_assets_v1/sprites/plus_gold.png",
+      "rect": [
+        226,
+        77,
+        30,
+        30
+      ],
+      "action": "open_energy"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/settings_base.png",
+      "rect": [
+        790,
+        50,
+        106,
+        104
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/settings.png",
+      "rect": [
+        790,
+        50,
+        106,
+        104
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "彩瓶时光",
+      "rect": [
+        120,
+        250,
+        700,
+        112
+      ],
+      "font_size": 82,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "text",
+      "text": "Color Pause",
+      "rect": [
+        140,
+        375,
+        660,
+        64
+      ],
+      "font_size": 36,
+      "color": "#c5d6eb",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "image",
+      "asset": "assets/warm.png",
+      "rect": [
+        238,
+        568,
+        145,
+        360
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/blue_low.png",
+      "rect": [
+        562,
+        568,
+        145,
+        360
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/mixed.png",
+      "rect": [
+        374,
+        515,
+        192,
+        477
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "让色彩，慢慢归位",
+      "rect": [
+        130,
+        1000,
+        680,
+        60
+      ],
+      "font_size": 32,
+      "color": "#b7d3ee",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "ninepatch",
+      "asset": "assets/primary.png",
+      "rect": [
+        130,
+        1100,
+        680,
+        136
+      ],
+      "margins": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "action": "continue_existing_save"
+    },
+    {
+      "kind": "text",
+      "text": "继续游戏",
+      "rect": [
+        160,
+        1112,
+        620,
+        112
+      ],
+      "font_size": 43,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "text",
+      "text": "第 9 关",
+      "rect": [
+        300,
+        1250,
+        340,
+        48
+      ],
+      "font_size": 29,
+      "color": "#dfc889",
+      "align": "center",
+      "binding": "resume_level"
+    },
+    {
+      "kind": "image",
+      "asset": "assets/secondary.png",
+      "rect": [
+        130,
+        1340,
+        330,
+        116
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/grid.png",
+      "rect": [
+        153,
+        1370,
+        52,
+        52
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "选择关卡",
+      "rect": [
+        211,
+        1358,
+        224,
+        78
+      ],
+      "font_size": 32,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "image",
+      "asset": "assets/secondary.png",
+      "rect": [
+        480,
+        1340,
+        330,
+        116
+      ]
+    },
+    {
+      "kind": "image",
+      "asset": "assets/records.png",
+      "rect": [
+        502,
+        1370,
+        52,
+        52
+      ]
+    },
+    {
+      "kind": "text",
+      "text": "本机记录",
+      "rect": [
+        562,
+        1358,
+        224,
+        78
+      ],
+      "font_size": 32,
+      "color": "#fff3d7",
+      "align": "center",
+      "binding": null
+    },
+    {
+      "kind": "text",
+      "text": "续玩不扣体力",
+      "rect": [
+        150,
+        1515,
+        640,
+        52
+      ],
+      "font_size": 27,
+      "color": "#8aa9cf",
+      "align": "center",
+      "binding": null
+    }
+  ],
+  "bindings": {
+    "continue": "Use existing resumable state. Otherwise Start / 开始游戏. Hide resume-level and energy-resume note without save.",
+    "settings": "existing settings route, unchanged",
+    "level_select": "existing paginated selector",
+    "records": "existing local records",
+    "hero": "one group of original bottle components; animate components, not flattened page",
+    "app_icon": "unchanged, not shown as a white tile inside scene"
+  },
+  "status": "static assembly; no runtime acceptance",
+  "sample_progress_only": true,
+  "font": "Use existing NotoSansCJK-Bold SC face from project; no font replacement",
+  "min_touch_target": "44pt, enlarge invisible hitbox when visual is smaller"
+}

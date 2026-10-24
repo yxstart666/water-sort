@@ -1,0 +1,6 @@
+{
+  "from": "deliverables/water_sort/reference2_order_feedback_r2/assets/order_card_pending_white.png",
+  "to": "deliverables/water_sort/reference2_order_edge_fix_v1/assets/order_card_pending_white.png",
+  "only_consumers": "pending active order cards in reference2_order_visual_override_v1 runtime_assets.pending",
+  "unchanged": "complete gold card and badge, all bottle contents, state binding and geometry"
+}
