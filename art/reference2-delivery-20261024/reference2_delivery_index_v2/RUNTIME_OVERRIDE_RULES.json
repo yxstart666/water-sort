@@ -1,0 +1,13 @@
+{
+  "font_override": {
+    "old_ttc_suffix": "NotoSansCJK-Bold.ttc",
+    "new_source": "../reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+    "new_face_index": 0,
+    "reason": "Original TTC default face0 JP; standaloneSC avoids incorrect regional glyph selection",
+    "apply_to": "ZH UI text including titles/body/buttons/tab labels, preserve English font mapping",
+    "layout_text": "keep original layout rect/font sizes; check SC bounds with new QA and engine"
+  },
+  "mask_override": "use exact per-texture A vs R sampling per MASK_CHANNEL_ADDENDUM",
+  "touch_override": "48dp effective non-overlapping hit areas over prior44dp",
+  "source_immutability": "Do not rewrite source frozen images. Publisher formal normalized documents can reference these explicit new contracts and verified source hashes."
+}

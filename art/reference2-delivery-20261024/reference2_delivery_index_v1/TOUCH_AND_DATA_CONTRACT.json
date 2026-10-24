@@ -1,0 +1,14 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "touch_target": "minimum48dp effective; at360dp width this is approx126 source-coordinate px. Expand Control hit areas independently of original raster scale. Do not stretch art just to meet touch target.",
+  "collision": "Resolve adjacent hit areas without overlap, including records link/next button and split action buttons. Verify at360dp width.",
+  "disabled": "disable input plus whole-art brightness; labels cannot be only disabled indication",
+  "focus": "keyboard/controller focus same existing gold hue; no new palette",
+  "data": "all QA numbers/examples not runtime defaults. All same-store energy; dynamic page count; same-attempt result pairs or explicitly label separate bests",
+  "modality": "pause game per existing logic; capture underlay input, close/back routes verified; language changes never reset board",
+  "accessibility": "current/completed/locked text supplements colors; saturated palette remains existing values",
+  "engine_status": "contract only, not measured on real Android"
+}

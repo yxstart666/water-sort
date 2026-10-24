@@ -1,0 +1,44 @@
+{
+  "source": "cloud_takeover/water_sort_project/assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSansCJK-Bold.ttc",
+  "source_sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+  "source_face_index": 2,
+  "output": "fonts/NotoSansCJKsc-Bold.otf",
+  "output_sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+  "bytes": 17002224,
+  "family": "Noto Sans CJK SC",
+  "postscript": "NotoSansCJKsc-Bold",
+  "output_face_index": 0,
+  "method": "fontTools TTFont(source,fontNumber=2).save(output), collection face extraction only. No subsetting, glyph editing or family renaming.",
+  "CFF_table_byte_identical": true,
+  "name_table_byte_identical": true,
+  "glyph_count": 65535,
+  "render_tests": [
+    {
+      "size": 24,
+      "sample": "彩瓶时光 选择关卡 暂停 闯关成功 简体中文 本机记录 解锁瓶子 撤销 重玩 体力不足 保存失败",
+      "raster_identical": true,
+      "bbox_identical": true
+    },
+    {
+      "size": 32,
+      "sample": "彩瓶时光 选择关卡 暂停 闯关成功 简体中文 本机记录 解锁瓶子 撤销 重玩 体力不足 保存失败",
+      "raster_identical": true,
+      "bbox_identical": true
+    },
+    {
+      "size": 48,
+      "sample": "彩瓶时光 选择关卡 暂停 闯关成功 简体中文 本机记录 解锁瓶子 撤销 重玩 体力不足 保存失败",
+      "raster_identical": true,
+      "bbox_identical": true
+    },
+    {
+      "size": 64,
+      "sample": "彩瓶时光 选择关卡 暂停 闯关成功 简体中文 本机记录 解锁瓶子 撤销 重玩 体力不足 保存失败",
+      "raster_identical": true,
+      "bbox_identical": true
+    }
+  ],
+  "license": "Carry original copyright/provenance + SIL OFL1.1. Container conversion documented; not sold standalone.",
+  "runtime": "Use this single-face OTF resource for Simplified Chinese, face0. Do not load TTC default JP. Existing English font remains NotoSans-Bold.ttf.",
+  "godot_status": "Not imported/render-tested in Godot yet. Verify correct loaded resource family, SC glyphs, text bounds/fallback and Android export against independent SC QA; not a claim engine accepts any index API."
+}

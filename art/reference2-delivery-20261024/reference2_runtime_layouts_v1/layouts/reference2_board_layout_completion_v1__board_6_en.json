@@ -1,0 +1,1257 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "id": "title",
+      "rect": [
+        327,
+        62,
+        286,
+        83
+      ],
+      "z": 10,
+      "source": "reference2_top_hud_v1/assets/level_title_blank.png",
+      "binding": null
+    },
+    {
+      "id": "title_value",
+      "anchor": "mm",
+      "position": [
+        470,
+        102
+      ],
+      "font_px": 38,
+      "z": 20,
+      "color": "#081D50",
+      "required_text_binding": {
+        "semantic": "current level display number",
+        "fallback": null,
+        "localized_pattern": "Level {value_1}",
+        "inputs": [
+          {
+            "key": "value_1",
+            "type": "integer",
+            "required": true,
+            "data_source": "current level display number"
+          }
+        ]
+      },
+      "required_binding": "level display number",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "energy",
+      "rect": [
+        49,
+        77,
+        233,
+        80
+      ],
+      "z": 10,
+      "source": "reference2_energy_component_v1/assets/energy_pill_base.png",
+      "binding": null
+    },
+    {
+      "id": "energy_icon",
+      "rect": [
+        59,
+        83,
+        48,
+        68
+      ],
+      "z": 10,
+      "source": "reference2_energy_component_v1/assets/energy_bolt.png",
+      "binding": null
+    },
+    {
+      "id": "energy_value",
+      "anchor": "mm",
+      "position": [
+        173,
+        117
+      ],
+      "font_px": 35,
+      "z": 20,
+      "color": "#FFF9EF",
+      "required_text_binding": {
+        "semantic": "shared energy current/max",
+        "fallback": null,
+        "localized_pattern": "{value_1}/{value_2}",
+        "inputs": [
+          {
+            "key": "value_1",
+            "type": "integer",
+            "required": true,
+            "data_source": "shared energy current/max"
+          },
+          {
+            "key": "value_2",
+            "type": "integer",
+            "required": true,
+            "data_source": "shared energy current/max"
+          }
+        ]
+      },
+      "required_binding": "shared energy state",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "energy_add",
+      "anchor": "mm",
+      "position": [
+        252,
+        116
+      ],
+      "font_px": 35,
+      "z": 20,
+      "binding": null,
+      "color": "#FFD12C",
+      "text": "+",
+      "required_action_binding": {
+        "semantic": "open existing energy flow",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "settings",
+      "rect": [
+        775,
+        56,
+        119,
+        114
+      ],
+      "z": 10,
+      "source": "reference2_replay_settings_buttons_v1/assets/settings_button_blank.png",
+      "binding": null,
+      "required_action_binding": {
+        "semantic": "open current pause/settings",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "hit_rect": [
+        771.5,
+        50.0,
+        126,
+        126
+      ],
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "settings_icon",
+      "rect": [
+        775,
+        56,
+        119,
+        114
+      ],
+      "z": 10,
+      "source": "reference2_replay_settings_buttons_v1/assets/settings_icon_original.png",
+      "binding": null
+    },
+    {
+      "id": "step",
+      "rect": [
+        267,
+        144,
+        186,
+        64
+      ],
+      "z": 10,
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "binding": null
+    },
+    {
+      "id": "step_icon",
+      "rect": [
+        267,
+        144,
+        186,
+        64
+      ],
+      "z": 10,
+      "source": "reference2_top_hud_v1/assets/step_pill_icon.png",
+      "binding": null
+    },
+    {
+      "id": "step_value",
+      "anchor": "mm",
+      "position": [
+        390,
+        176
+      ],
+      "font_px": 32,
+      "z": 20,
+      "color": "#FFF9EF",
+      "required_text_binding": {
+        "semantic": "current attempt moves",
+        "fallback": null,
+        "localized_pattern": "{value_1}",
+        "inputs": [
+          {
+            "key": "value_1",
+            "type": "integer",
+            "required": true,
+            "data_source": "current attempt moves"
+          }
+        ]
+      },
+      "required_binding": "move count (icon means steps); elapsed time, dynamic fit size 24–32px",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "time",
+      "rect": [
+        487,
+        144,
+        187,
+        64
+      ],
+      "z": 10,
+      "source": "reference2_top_hud_v1/assets/time_pill_blank.png",
+      "binding": null
+    },
+    {
+      "id": "time_icon",
+      "rect": [
+        487,
+        144,
+        187,
+        64
+      ],
+      "z": 10,
+      "source": "reference2_top_hud_v1/assets/time_pill_icon.png",
+      "binding": null
+    },
+    {
+      "id": "time_value",
+      "anchor": "mm",
+      "position": [
+        610,
+        176
+      ],
+      "font_px": 32,
+      "z": 20,
+      "color": "#FFF9EF",
+      "required_text_binding": {
+        "semantic": "current attempt elapsed time",
+        "fallback": null,
+        "localized_pattern": "{value_1}",
+        "inputs": [
+          {
+            "key": "value_1",
+            "type": "formatted_duration",
+            "required": true,
+            "data_source": "current attempt elapsed time"
+          }
+        ]
+      },
+      "required_binding": "move count (icon means steps); elapsed time, dynamic fit size 24–32px",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "order_0",
+      "rect": [
+        148,
+        216,
+        157,
+        204
+      ],
+      "z": 10,
+      "source": "reference2_order_card_local_repair_v1/assets/order_card_reference2_empty.png",
+      "binding": null
+    },
+    {
+      "id": "order_bottle_0",
+      "rect": [
+        192,
+        257,
+        70,
+        137
+      ],
+      "z": 10,
+      "binding": null,
+      "required_asset_binding": {
+        "semantic": "active order color for slot 0",
+        "allowed_sources": {
+          "red": "reference2_order_bottle_states_v1/assets/order_red_cork.png",
+          "blue": "reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+          "green": "reference2_order_bottle_states_v1/assets/order_green_cork.png",
+          "yellow": "reference2_order_bottle_states_v1/assets/order_yellow_cork.png",
+          "orange": "reference2_order_bottle_states_v1/assets/order_orange_cork.png",
+          "purple": "reference2_order_bottle_states_v1/assets/order_purple_cork.png",
+          "pink": "reference2_order_bottle_states_v1/assets/order_pink_cork.png",
+          "cyan": "reference2_order_bottle_states_v1/assets/order_cyan_cork.png"
+        }
+      }
+    },
+    {
+      "id": "order_ring_0",
+      "rect": [
+        259,
+        240,
+        28,
+        28
+      ],
+      "z": 10,
+      "binding": null,
+      "required_asset_binding": {
+        "semantic": "same order completion state, reset on replacement",
+        "allowed_sources": {
+          "ring": "reference2_order_status_v1/assets/order_status_ring.png",
+          "check": "reference2_order_status_v1/assets/order_status_check.png"
+        }
+      }
+    },
+    {
+      "id": "order_1",
+      "rect": [
+        312,
+        216,
+        157,
+        204
+      ],
+      "z": 10,
+      "source": "reference2_order_card_local_repair_v1/assets/order_card_reference2_empty.png",
+      "binding": null
+    },
+    {
+      "id": "order_bottle_1",
+      "rect": [
+        356,
+        257,
+        70,
+        137
+      ],
+      "z": 10,
+      "binding": null,
+      "required_asset_binding": {
+        "semantic": "active order color for slot 1",
+        "allowed_sources": {
+          "red": "reference2_order_bottle_states_v1/assets/order_red_cork.png",
+          "blue": "reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+          "green": "reference2_order_bottle_states_v1/assets/order_green_cork.png",
+          "yellow": "reference2_order_bottle_states_v1/assets/order_yellow_cork.png",
+          "orange": "reference2_order_bottle_states_v1/assets/order_orange_cork.png",
+          "purple": "reference2_order_bottle_states_v1/assets/order_purple_cork.png",
+          "pink": "reference2_order_bottle_states_v1/assets/order_pink_cork.png",
+          "cyan": "reference2_order_bottle_states_v1/assets/order_cyan_cork.png"
+        }
+      }
+    },
+    {
+      "id": "order_ring_1",
+      "rect": [
+        423,
+        240,
+        28,
+        28
+      ],
+      "z": 10,
+      "binding": null,
+      "required_asset_binding": {
+        "semantic": "same order completion state, reset on replacement",
+        "allowed_sources": {
+          "ring": "reference2_order_status_v1/assets/order_status_ring.png",
+          "check": "reference2_order_status_v1/assets/order_status_check.png"
+        }
+      }
+    },
+    {
+      "id": "order_2",
+      "rect": [
+        476,
+        216,
+        157,
+        204
+      ],
+      "z": 10,
+      "source": "reference2_order_card_local_repair_v1/assets/order_card_reference2_empty.png",
+      "binding": null
+    },
+    {
+      "id": "order_bottle_2",
+      "rect": [
+        520,
+        257,
+        70,
+        137
+      ],
+      "z": 10,
+      "binding": null,
+      "required_asset_binding": {
+        "semantic": "active order color for slot 2",
+        "allowed_sources": {
+          "red": "reference2_order_bottle_states_v1/assets/order_red_cork.png",
+          "blue": "reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+          "green": "reference2_order_bottle_states_v1/assets/order_green_cork.png",
+          "yellow": "reference2_order_bottle_states_v1/assets/order_yellow_cork.png",
+          "orange": "reference2_order_bottle_states_v1/assets/order_orange_cork.png",
+          "purple": "reference2_order_bottle_states_v1/assets/order_purple_cork.png",
+          "pink": "reference2_order_bottle_states_v1/assets/order_pink_cork.png",
+          "cyan": "reference2_order_bottle_states_v1/assets/order_cyan_cork.png"
+        }
+      }
+    },
+    {
+      "id": "order_ring_2",
+      "rect": [
+        587,
+        240,
+        28,
+        28
+      ],
+      "z": 10,
+      "binding": null,
+      "required_asset_binding": {
+        "semantic": "same order completion state, reset on replacement",
+        "allowed_sources": {
+          "ring": "reference2_order_status_v1/assets/order_status_ring.png",
+          "check": "reference2_order_status_v1/assets/order_status_check.png"
+        }
+      }
+    },
+    {
+      "id": "trial",
+      "rect": [
+        636,
+        216,
+        157,
+        204
+      ],
+      "z": 10,
+      "source": "reference2_order_status_v1/assets/order_trial_card_blank.png",
+      "binding": null
+    },
+    {
+      "id": "trial_title",
+      "anchor": "mm",
+      "position": [
+        714,
+        308
+      ],
+      "font_px": 26,
+      "z": 20,
+      "color": "#FFF9EF",
+      "required_binding": "real trial eligibility; no fabricated reward/count",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "text": "Try",
+      "required_visibility_binding": "actual free trial entitlement for this slot; no SDK assumed"
+    },
+    {
+      "id": "trial_caption",
+      "anchor": "mm",
+      "position": [
+        714,
+        342
+      ],
+      "font_px": 20,
+      "z": 20,
+      "binding": null,
+      "color": "#FFF9EF",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "text": "+ Slot",
+      "required_visibility_binding": "actual free trial entitlement for this slot; no SDK assumed"
+    },
+    {
+      "id": "completion",
+      "rect": [
+        178,
+        422,
+        585,
+        63
+      ],
+      "z": 10,
+      "source": "reference2_completion_strip_v1/assets/completion_strip_reference2_empty.png",
+      "binding": null
+    },
+    {
+      "id": "completion_value",
+      "anchor": "mm",
+      "position": [
+        470,
+        452
+      ],
+      "font_px": 27,
+      "z": 20,
+      "color": "#FFF9EF",
+      "required_text_binding": {
+        "semantic": "delivered/required orders",
+        "fallback": null,
+        "localized_pattern": "Done {value_1} / {value_2}",
+        "inputs": [
+          {
+            "key": "value_1",
+            "type": "integer",
+            "required": true,
+            "data_source": "delivered/required orders"
+          },
+          {
+            "key": "value_2",
+            "type": "integer",
+            "required": true,
+            "data_source": "delivered/required orders"
+          }
+        ]
+      },
+      "required_binding": "delivered / total; fit to center text rect [342,430,256,44], min 22px",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "undo",
+      "rect": [
+        271,
+        1422,
+        175,
+        174
+      ],
+      "z": 10,
+      "source": "reference2_undo_button_v1/assets/undo_button_blank.png",
+      "binding": null,
+      "required_action_binding": {
+        "semantic": "undo through actual history if available",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "hit_rect": [
+        271.0,
+        1422.0,
+        175,
+        174
+      ],
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "undo_icon",
+      "rect": [
+        271,
+        1422,
+        175,
+        174
+      ],
+      "z": 10,
+      "source": "reference2_undo_button_v1/assets/undo_arrow_original.png",
+      "binding": null
+    },
+    {
+      "id": "undo_label",
+      "anchor": "mm",
+      "position": [
+        358,
+        1551
+      ],
+      "font_px": 28,
+      "z": 20,
+      "color": "#FFF9EF",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "text": "Undo"
+    },
+    {
+      "id": "replay",
+      "rect": [
+        496,
+        1422,
+        173,
+        174
+      ],
+      "z": 10,
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "binding": null,
+      "required_action_binding": {
+        "semantic": "open existing replay confirmation",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "hit_rect": [
+        496.0,
+        1422.0,
+        173,
+        174
+      ],
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "replay_icon",
+      "rect": [
+        496,
+        1422,
+        173,
+        174
+      ],
+      "z": 10,
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_icon_original.png",
+      "binding": null
+    },
+    {
+      "id": "replay_label",
+      "anchor": "mm",
+      "position": [
+        583,
+        1551
+      ],
+      "font_px": 28,
+      "z": 20,
+      "color": "#FFF9EF",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "text": "Replay"
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [
+    {
+      "element_id": "title_value",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "current level display number",
+          "fallback": null,
+          "localized_pattern": "Level {value_1}",
+          "inputs": [
+            {
+              "key": "value_1",
+              "type": "integer",
+              "required": true,
+              "data_source": "current level display number"
+            }
+          ]
+        },
+        "required_binding": "level display number"
+      }
+    },
+    {
+      "element_id": "energy_value",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "shared energy current/max",
+          "fallback": null,
+          "localized_pattern": "{value_1}/{value_2}",
+          "inputs": [
+            {
+              "key": "value_1",
+              "type": "integer",
+              "required": true,
+              "data_source": "shared energy current/max"
+            },
+            {
+              "key": "value_2",
+              "type": "integer",
+              "required": true,
+              "data_source": "shared energy current/max"
+            }
+          ]
+        },
+        "required_binding": "shared energy state"
+      }
+    },
+    {
+      "element_id": "energy_add",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open existing energy flow",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "settings",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open current pause/settings",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "step_value",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "current attempt moves",
+          "fallback": null,
+          "localized_pattern": "{value_1}",
+          "inputs": [
+            {
+              "key": "value_1",
+              "type": "integer",
+              "required": true,
+              "data_source": "current attempt moves"
+            }
+          ]
+        },
+        "required_binding": "move count (icon means steps); elapsed time, dynamic fit size 24–32px"
+      }
+    },
+    {
+      "element_id": "time_value",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "current attempt elapsed time",
+          "fallback": null,
+          "localized_pattern": "{value_1}",
+          "inputs": [
+            {
+              "key": "value_1",
+              "type": "formatted_duration",
+              "required": true,
+              "data_source": "current attempt elapsed time"
+            }
+          ]
+        },
+        "required_binding": "move count (icon means steps); elapsed time, dynamic fit size 24–32px"
+      }
+    },
+    {
+      "element_id": "order_bottle_0",
+      "requirements": {
+        "required_asset_binding": {
+          "semantic": "active order color for slot 0",
+          "allowed_sources": {
+            "red": "reference2_order_bottle_states_v1/assets/order_red_cork.png",
+            "blue": "reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+            "green": "reference2_order_bottle_states_v1/assets/order_green_cork.png",
+            "yellow": "reference2_order_bottle_states_v1/assets/order_yellow_cork.png",
+            "orange": "reference2_order_bottle_states_v1/assets/order_orange_cork.png",
+            "purple": "reference2_order_bottle_states_v1/assets/order_purple_cork.png",
+            "pink": "reference2_order_bottle_states_v1/assets/order_pink_cork.png",
+            "cyan": "reference2_order_bottle_states_v1/assets/order_cyan_cork.png"
+          }
+        }
+      }
+    },
+    {
+      "element_id": "order_ring_0",
+      "requirements": {
+        "required_asset_binding": {
+          "semantic": "same order completion state, reset on replacement",
+          "allowed_sources": {
+            "ring": "reference2_order_status_v1/assets/order_status_ring.png",
+            "check": "reference2_order_status_v1/assets/order_status_check.png"
+          }
+        }
+      }
+    },
+    {
+      "element_id": "order_bottle_1",
+      "requirements": {
+        "required_asset_binding": {
+          "semantic": "active order color for slot 1",
+          "allowed_sources": {
+            "red": "reference2_order_bottle_states_v1/assets/order_red_cork.png",
+            "blue": "reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+            "green": "reference2_order_bottle_states_v1/assets/order_green_cork.png",
+            "yellow": "reference2_order_bottle_states_v1/assets/order_yellow_cork.png",
+            "orange": "reference2_order_bottle_states_v1/assets/order_orange_cork.png",
+            "purple": "reference2_order_bottle_states_v1/assets/order_purple_cork.png",
+            "pink": "reference2_order_bottle_states_v1/assets/order_pink_cork.png",
+            "cyan": "reference2_order_bottle_states_v1/assets/order_cyan_cork.png"
+          }
+        }
+      }
+    },
+    {
+      "element_id": "order_ring_1",
+      "requirements": {
+        "required_asset_binding": {
+          "semantic": "same order completion state, reset on replacement",
+          "allowed_sources": {
+            "ring": "reference2_order_status_v1/assets/order_status_ring.png",
+            "check": "reference2_order_status_v1/assets/order_status_check.png"
+          }
+        }
+      }
+    },
+    {
+      "element_id": "order_bottle_2",
+      "requirements": {
+        "required_asset_binding": {
+          "semantic": "active order color for slot 2",
+          "allowed_sources": {
+            "red": "reference2_order_bottle_states_v1/assets/order_red_cork.png",
+            "blue": "reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+            "green": "reference2_order_bottle_states_v1/assets/order_green_cork.png",
+            "yellow": "reference2_order_bottle_states_v1/assets/order_yellow_cork.png",
+            "orange": "reference2_order_bottle_states_v1/assets/order_orange_cork.png",
+            "purple": "reference2_order_bottle_states_v1/assets/order_purple_cork.png",
+            "pink": "reference2_order_bottle_states_v1/assets/order_pink_cork.png",
+            "cyan": "reference2_order_bottle_states_v1/assets/order_cyan_cork.png"
+          }
+        }
+      }
+    },
+    {
+      "element_id": "order_ring_2",
+      "requirements": {
+        "required_asset_binding": {
+          "semantic": "same order completion state, reset on replacement",
+          "allowed_sources": {
+            "ring": "reference2_order_status_v1/assets/order_status_ring.png",
+            "check": "reference2_order_status_v1/assets/order_status_check.png"
+          }
+        }
+      }
+    },
+    {
+      "element_id": "trial_title",
+      "requirements": {
+        "required_binding": "real trial eligibility; no fabricated reward/count",
+        "required_visibility_binding": "actual free trial entitlement for this slot; no SDK assumed"
+      }
+    },
+    {
+      "element_id": "trial_caption",
+      "requirements": {
+        "required_visibility_binding": "actual free trial entitlement for this slot; no SDK assumed"
+      }
+    },
+    {
+      "element_id": "completion_value",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "delivered/required orders",
+          "fallback": null,
+          "localized_pattern": "Done {value_1} / {value_2}",
+          "inputs": [
+            {
+              "key": "value_1",
+              "type": "integer",
+              "required": true,
+              "data_source": "delivered/required orders"
+            },
+            {
+              "key": "value_2",
+              "type": "integer",
+              "required": true,
+              "data_source": "delivered/required orders"
+            }
+          ]
+        },
+        "required_binding": "delivered / total; fit to center text rect [342,430,256,44], min 22px"
+      }
+    },
+    {
+      "element_id": "undo",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "undo through actual history if available",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "replay",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open existing replay confirmation",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    }
+  ],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "bottle_count": 6,
+  "row_counts": [
+    3,
+    3
+  ],
+  "bottle_board_bounds": [
+    45,
+    515,
+    850,
+    861
+  ],
+  "min_gaps_design": {
+    "rows": 40,
+    "board_to_completion": 31,
+    "board_to_bottom_controls": 46,
+    "same_row_hitbox": 40
+  },
+  "touch_targets": [
+    {
+      "id": "energy",
+      "rect": [
+        49,
+        46,
+        233,
+        142
+      ],
+      "rect_dp_360x640_safe24": [
+        30.938,
+        40.287,
+        82.498,
+        50.278
+      ]
+    },
+    {
+      "id": "settings",
+      "rect": [
+        763,
+        42,
+        142,
+        142
+      ],
+      "rect_dp_360x640_safe24": [
+        283.742,
+        38.871,
+        50.278,
+        50.278
+      ]
+    },
+    {
+      "id": "trial",
+      "rect": [
+        636,
+        216,
+        157,
+        204
+      ],
+      "rect_dp_360x640_safe24": [
+        238.775,
+        100.478,
+        55.589,
+        72.23
+      ]
+    },
+    {
+      "id": "undo",
+      "rect": [
+        271,
+        1422,
+        175,
+        174
+      ],
+      "rect_dp_360x640_safe24": [
+        109.541,
+        527.483,
+        61.962,
+        61.608
+      ]
+    },
+    {
+      "id": "replay",
+      "rect": [
+        496,
+        1422,
+        173,
+        174
+      ],
+      "rect_dp_360x640_safe24": [
+        189.206,
+        527.483,
+        61.254,
+        61.608
+      ]
+    },
+    {
+      "id": "bottle_0",
+      "rect": [
+        182.0,
+        516,
+        165,
+        410
+      ],
+      "rect_dp_360x640_safe24": [
+        78.029,
+        206.699,
+        58.421,
+        145.167
+      ]
+    },
+    {
+      "id": "bottle_1",
+      "rect": [
+        387.0,
+        516,
+        165,
+        410
+      ],
+      "rect_dp_360x640_safe24": [
+        150.612,
+        206.699,
+        58.421,
+        145.167
+      ]
+    },
+    {
+      "id": "bottle_2",
+      "rect": [
+        592.0,
+        516,
+        165,
+        410
+      ],
+      "rect_dp_360x640_safe24": [
+        223.196,
+        206.699,
+        58.421,
+        145.167
+      ]
+    },
+    {
+      "id": "bottle_3",
+      "rect": [
+        182.0,
+        966,
+        165,
+        410
+      ],
+      "rect_dp_360x640_safe24": [
+        78.029,
+        366.029,
+        58.421,
+        145.167
+      ]
+    },
+    {
+      "id": "bottle_4",
+      "rect": [
+        387.0,
+        966,
+        165,
+        410
+      ],
+      "rect_dp_360x640_safe24": [
+        150.612,
+        366.029,
+        58.421,
+        145.167
+      ]
+    },
+    {
+      "id": "bottle_5",
+      "rect": [
+        592.0,
+        966,
+        165,
+        410
+      ],
+      "rect_dp_360x640_safe24": [
+        223.196,
+        366.029,
+        58.421,
+        145.167
+      ]
+    }
+  ],
+  "bottle_layer_sources": [
+    "reference2_original_bottle_layers_v1/assets/glass_back_shadow.png",
+    "reference2_original_bottle_layers_v1/assets/pour_cavity_mask.png",
+    "reference2_original_bottle_layers_v1/assets/glass_front_reflection.png"
+  ],
+  "bottles": [
+    {
+      "id": "bottle_0",
+      "rect": [
+        182,
+        516,
+        165,
+        410
+      ],
+      "uniform_scale": 1,
+      "pivot": [
+        264.5,
+        916.0
+      ],
+      "z_layers": [
+        30,
+        31,
+        32
+      ],
+      "touch_center": [
+        264.5,
+        721.0
+      ],
+      "touch_size_design": [
+        165,
+        410
+      ],
+      "required_binding": {
+        "semantic": "stable bottle id/state/layers/lock/busy/seal, mapped by host to this visual slot",
+        "api_name": null
+      }
+    },
+    {
+      "id": "bottle_1",
+      "rect": [
+        387,
+        516,
+        165,
+        410
+      ],
+      "uniform_scale": 1,
+      "pivot": [
+        469.5,
+        916.0
+      ],
+      "z_layers": [
+        30,
+        31,
+        32
+      ],
+      "touch_center": [
+        469.5,
+        721.0
+      ],
+      "touch_size_design": [
+        165,
+        410
+      ],
+      "required_binding": {
+        "semantic": "stable bottle id/state/layers/lock/busy/seal, mapped by host to this visual slot",
+        "api_name": null
+      }
+    },
+    {
+      "id": "bottle_2",
+      "rect": [
+        592,
+        516,
+        165,
+        410
+      ],
+      "uniform_scale": 1,
+      "pivot": [
+        674.5,
+        916.0
+      ],
+      "z_layers": [
+        30,
+        31,
+        32
+      ],
+      "touch_center": [
+        674.5,
+        721.0
+      ],
+      "touch_size_design": [
+        165,
+        410
+      ],
+      "required_binding": {
+        "semantic": "stable bottle id/state/layers/lock/busy/seal, mapped by host to this visual slot",
+        "api_name": null
+      }
+    },
+    {
+      "id": "bottle_3",
+      "rect": [
+        182,
+        966,
+        165,
+        410
+      ],
+      "uniform_scale": 1,
+      "pivot": [
+        264.5,
+        1366.0
+      ],
+      "z_layers": [
+        30,
+        31,
+        32
+      ],
+      "touch_center": [
+        264.5,
+        1171.0
+      ],
+      "touch_size_design": [
+        165,
+        410
+      ],
+      "required_binding": {
+        "semantic": "stable bottle id/state/layers/lock/busy/seal, mapped by host to this visual slot",
+        "api_name": null
+      }
+    },
+    {
+      "id": "bottle_4",
+      "rect": [
+        387,
+        966,
+        165,
+        410
+      ],
+      "uniform_scale": 1,
+      "pivot": [
+        469.5,
+        1366.0
+      ],
+      "z_layers": [
+        30,
+        31,
+        32
+      ],
+      "touch_center": [
+        469.5,
+        1171.0
+      ],
+      "touch_size_design": [
+        165,
+        410
+      ],
+      "required_binding": {
+        "semantic": "stable bottle id/state/layers/lock/busy/seal, mapped by host to this visual slot",
+        "api_name": null
+      }
+    },
+    {
+      "id": "bottle_5",
+      "rect": [
+        592,
+        966,
+        165,
+        410
+      ],
+      "uniform_scale": 1,
+      "pivot": [
+        674.5,
+        1366.0
+      ],
+      "z_layers": [
+        30,
+        31,
+        32
+      ],
+      "touch_center": [
+        674.5,
+        1171.0
+      ],
+      "touch_size_design": [
+        165,
+        410
+      ],
+      "required_binding": {
+        "semantic": "stable bottle id/state/layers/lock/busy/seal, mapped by host to this visual slot",
+        "api_name": null
+      }
+    }
+  ],
+  "state_contract": "reference2_runtime_layouts_v1/components/board_states.json",
+  "background_asset": "reference2_background_cleanplate_v1/assets/background_native_940x1672.png"
+}

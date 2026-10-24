@@ -1,0 +1,498 @@
+{
+  "templates": 98,
+  "checks": [
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_result_system_modals_v1__failure_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_result_system_modals_v1__failure_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_result_system_modals_v1__no_moves_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_result_system_modals_v1__no_moves_no_undo_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_result_system_modals_v1__no_moves_no_undo_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_result_system_modals_v1__no_moves_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__home_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__home_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__levels_page1_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__levels_page1_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__levels_page3_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__levels_page3_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__records_data_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__records_data_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__records_empty_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__records_empty_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__records_overall_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_home_levels_records_v1__records_overall_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__level4_bottle_lock_help_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__level4_bottle_lock_help_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__level_locked_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__level_locked_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__loading_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__loading_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__read_error_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__read_error_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__save_error_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__save_error_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_pause_language_candidate_v1__language_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_pause_language_candidate_v1__language_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_pause_language_candidate_v1__settings_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_pause_language_candidate_v1__settings_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_10_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_10_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_13_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_13_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_3_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_3_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_6_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_6_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_8_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_board_layout_completion_v1__board_8_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_failed_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_failed_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_full_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_full_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_insufficient_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_insufficient_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_loading_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_loading_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_offline_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_offline_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_ready_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_ready_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_unavailable_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__energy_unavailable_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__replay_settled_enough_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__replay_settled_enough_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__replay_settled_insufficient_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__replay_settled_insufficient_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__restart_unfinished_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__restart_unfinished_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__result_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__result_final_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__result_final_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__result_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__return_home_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_confirmations_completion_r2__return_home_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_01_select_waiting_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_01_select_waiting_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_02_pour_ready_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_02_pour_ready_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_02_pour_waiting_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_02_pour_waiting_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_03_seal_waiting_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_03_seal_waiting_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_04_deliver_waiting_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_04_deliver_waiting_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_05_finish_ready_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_05_finish_ready_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_05_finish_waiting_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_05_finish_waiting_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_06_lock_waiting_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__guide_06_lock_waiting_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_01_select_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_01_select_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_02_pour_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_02_pour_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_03_seal_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_03_seal_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_04_deliver_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_04_deliver_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_05_finish_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_05_finish_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_06_lock_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__help_06_lock_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__pause_with_help_en.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    },
+    {
+      "layout": "deliverables/water_sort/reference2_runtime_layouts_v1/layouts/reference2_tutorial_completion_v1__pause_with_help_zh.json",
+      "qa_elements_remaining": 0,
+      "raw_sample_text_keys_remaining": false
+    }
+  ],
+  "all_no_qa_elements": true,
+  "all_no_raw_sample_text": true,
+  "missing_assets": []
+}

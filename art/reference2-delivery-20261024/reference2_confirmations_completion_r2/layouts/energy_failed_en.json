@@ -1,0 +1,205 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        110,
+        546,
+        720,
+        644
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        145,
+        581,
+        650,
+        70
+      ],
+      "text": "Energy",
+      "font_px": 46,
+      "color": "#FFF5DE"
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        150,
+        668,
+        640,
+        52
+      ],
+      "text": "Energy: {energy} / {cap}",
+      "font_px": 32,
+      "color": "#DCEBFF",
+      "binding": "same live energy store, no fixture values"
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "rect": [
+        150,
+        725,
+        640,
+        52
+      ],
+      "text": "Reward failed. Please try later.",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "button_0",
+      "kind": "button",
+      "rect": [
+        160,
+        984,
+        298,
+        132
+      ],
+      "text": "Close",
+      "font_px": 32,
+      "action": "close_energy",
+      "enabled": true,
+      "brightness": 1.0,
+      "disabled_brightness": 0.48,
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "hit_rect": [
+        160,
+        984,
+        298,
+        132
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1.0,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "minimum_hit_dp_at_360": 50.5531914893617
+    },
+    {
+      "id": "button_1",
+      "kind": "button",
+      "rect": [
+        482,
+        984,
+        298,
+        132
+      ],
+      "text": "Unavailable",
+      "font_px": 32,
+      "action": "verified_reward_flow_only",
+      "enabled": false,
+      "brightness": 1.07,
+      "disabled_brightness": 0.48,
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "hit_rect": [
+        482,
+        984,
+        298,
+        132
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1.07,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "minimum_hit_dp_at_360": 50.5531914893617
+    },
+    {
+      "id": "next_energy_countdown",
+      "kind": "text",
+      "rect": [
+        150,
+        861,
+        640,
+        50
+      ],
+      "text": "Next energy in {next_tick}",
+      "font_px": 31,
+      "color": "#DCEBFF",
+      "binding": "existing store next_recovery_timestamp minus authoritative current time; localized mm:ss; hidden at cap; floor/ceil follows existing store",
+      "visible_when": "energy < cap"
+    }
+  ],
+  "font": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "input": "modal captures background taps; system back uses existing cancel action",
+  "data": "All example values are QA placeholders; bind current attempt/persistent state at runtime",
+  "art": "same original reference2 blank, NinePatch 48px corners; no old cream panel",
+  "qa_background": "Original Chinese component assembly placeholder, not runtime/localized capture",
+  "extends_read_only": "deliverables/water_sort/reference2_result_system_modals_v1/layouts/energy_failed_en.json",
+  "path_base": "workspace/project package root",
+  "static_only": true,
+  "qa_sample": {
+    "energy": 3,
+    "cap": 30,
+    "next_tick": "01:24"
+  },
+  "countdown_contract": "Display existing remaining recovery time only; do not restart timer on opening/closing or create a second recovery scheduler. At cap hide countdown. When timer expires re-read store and next tick; no direct UI award."
+}

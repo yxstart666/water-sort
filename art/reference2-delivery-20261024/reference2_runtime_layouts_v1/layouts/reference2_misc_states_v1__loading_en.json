@@ -1,0 +1,69 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        110,
+        616,
+        720,
+        360
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        145,
+        651,
+        650,
+        70
+      ],
+      "text": "Loading",
+      "font_px": 46,
+      "color": "#FFF5DE",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        150,
+        738,
+        640,
+        52
+      ],
+      "text": "Preparing your data. Please wait…",
+      "font_px": 32,
+      "color": "#DCEBFF",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "background_binding": "live caller scene, no static gameplay image"
+}

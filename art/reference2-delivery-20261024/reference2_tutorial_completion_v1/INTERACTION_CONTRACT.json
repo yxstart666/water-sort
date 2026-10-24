@@ -1,0 +1,38 @@
+{
+  "scope": "S09 static read-only help plus event-driven guide, S04 help-entry extension; no engine implementation or animation validation",
+  "evidence": [
+    {"source":"docs/flow_reset_v1/FLOW_RESET_V1.json", "sections":["FLOW_AND_ACCEPTANCE","EVIDENCE_AND_GAPS","missing_review_boards"],"grade":"Current summarized flow evidence; not current source/API verification"},
+    {"source":"deliverables/water_sort/reference2_misc_states_v1/manifest.json", "section":"whole_bottle_lock_scope", "grade":"Existing delivered L4 lock contract; engine verification still required"}
+  ],
+  "help": {"entry":"Proposed pause How to play button at [134,1230,672,120] within enlarged [90,386,760,1040] panel; not integrated", "pages":6, "navigation":"Back/Next changes help page only; last Done and Close restore exact opener, pause state, scroll/focus and attempt", "no_side_effects":["No move count", "No energy", "No save overwrite", "No tutorial completion grant", "No new hint power"]},
+  "guide": {
+    "main_steps":5,
+    "conditional_step":"L4 whole-bottle lock guide is a separate contextual hint, not mandatory sixth step in every level",
+    "entry_policy":"Manual guide start or existing approved first-use trigger only. Do not invent auto-launch, persistent completion flags or reset them on locale change. First-use policy remains unresolved.",
+    "events":"Names in layouts are semantic adapter requirements, not verified existing code symbols. Bind authoritative current runtime state/events.",
+    "advance":"Next/Done starts disabled; enable only after matching semantic event commits for the same attempt, bottle and order identity. Ignore unrelated events, animation callbacks and stale IDs. A click on Next before ready is a no-op. No timer auto-advance.",
+    "failure":"Invalid target, full target, locked/busy bottle, empty-area click, canceled pour or rejected action never satisfies gate. Preserve current step and use existing feedback, no fake completion.",
+    "undo":"If the required state is undone before advancing, recompute gate and disable Next. Never undo puzzle state on behalf of tutorial.",
+    "no_suitable_target":"Do not fabricate source/target or reset board. Suspend interactive guide and allow skip/help; resume only with a valid target. For seal/delivery/win explanations, do not require the entire stage be completed merely to dismiss: Skip remains available.",
+    "skip_close":"Dismiss overlay only, restore original control state; no move/energy changes, no fake delivered/unlocked event or tutorial completion claim.",
+    "pause":"Follow current verified game timer/animation pause semantics; never introduce tutorial-specific timer changes. Resume same attempt. Locale changes preserve step and authoritative gate.",
+    "restore":"Re-resolve entity IDs and gates after stable checkpoint restore. Do not serialize intermediate animation frames or carry old callbacks into new orders."
+  },
+  "highlight_and_overlay": {
+    "draw_order":["live game", "dimmer with transparent holes", "highlight outline", "optional click ring", "instruction card", "buttons"],
+    "dimmer_rgba":[0,5,18,195],
+    "holes":"Resolve actual rendered node bounds in overlay-local coordinates, include safe-area/contain transform once. Sample rectangles in layouts and QA punched PNGs are fixtures only. Support multiple holes.",
+    "outline":{"color":"#FFD76B", "width_basis_px":5, "radius_basis_px":24, "gap_basis_px":8},
+    "click_ring":{"asset_required":false, "geometry":"Two simple concentric circular strokes centered at target interaction point; no hand image, no orientation problem", "color":"#FFD76B", "radii_basis_px":[18,30], "stroke_basis_px":4, "contract_only":"Optional static tap indicator, no animation delivered"},
+    "input":"Dimmer intercepts all background input. Hole transparency alone MUST NOT forward touches. Forward only whitelisted intended source/target interactions during select/pour; other guide stages are informational and use actual existing controls as permitted. Never globally unlock locked/busy nodes. Invalid operations remain subject to game validator.",
+    "placement":"Card must not overlap resolved hole or required target. Lower card for upper bottles/order region; upper card for lower bottle. If no safe placement exists, suppress interactive guide and offer read-only help rather than obscure controls.",
+    "focus":"Modal focus cycles through Skip and enabled Next/Done; read-only help includes Back/Close/Next. Escape/system back closes child only; restores opener. Minimum touch region 44 logical px after safe-area scale.",
+    "button_states":"Reuse blue/gold ninepatch, pressed brightness .90, disabled .48; focused outline #FFF5DE 3 basis px outside bounds. Visual feedback only, no new texture style.",
+    "overlay_assets":"No fixed-hole runtime PNG needed; renderer uses contract. qa/overlay_*_REFERENCE_ONLY.png cannot be shipped as level masks."
+  },
+  "pause_navigation_candidates": [
+    {"label_zh":"回到主页","label_en":"Home","action":"save stable attempt and navigate actual home","status":"Retained original proposed layout; no silent routing change"},
+    {"label_zh":"选择关卡","label_en":"Levels","action":"save stable attempt and navigate actual level selection","status":"Conditional alternative only if this route is explicitly confirmed. Current summary's direct selection could be an existing defect, not new standard."}
+  ],
+  "limits":["No full current 32-state inventory JSON/source was available", "No engine integration or current event API confirmed", "Delayed matching delivery is supported by flow summary but awaits engine validation", "No generated hand or new artwork", "No gameplay code changed; no upload or local desktop session", "Illustrative background is not a legal-state replay", "Static composition does not prove animation, tutorial entry, pointer routing or accessibility behavior"]
+}

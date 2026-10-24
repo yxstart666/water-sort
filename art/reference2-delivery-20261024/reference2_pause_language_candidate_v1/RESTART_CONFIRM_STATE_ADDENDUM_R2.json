@@ -1,0 +1,43 @@
+{
+  "revision": 2,
+  "base_layouts": [
+    "../reference2_short_modal_candidate_v1/layouts/confirm_zh.json",
+    "../reference2_short_modal_candidate_v1/layouts/confirm_en.json"
+  ],
+  "scope": "Add explicit state/copy constraints only; no change to prior frozen art or gameplay.",
+  "button_visual": {
+    "cancel": "normal source RGB",
+    "restart": "normal source; focus/hover may use brightness1.06 without hue/saturation change; no new primary color",
+    "pressed": "existing input policy; no repeated action"
+  },
+  "states": {
+    "unfinished_same_attempt": {
+      "cost": 0,
+      "note_zh": "本局未结束，重玩不再扣体力。",
+      "note_en": "No extra energy for an unfinished game.",
+      "confirm": "restart current unfinished attempt once; do not create a new debit"
+    },
+    "settled_replay_energy_sufficient": {
+      "cost": 5,
+      "min_energy": 5,
+      "note_zh": "重玩将消耗5点体力。",
+      "note_en": "Replaying costs 5 energy.",
+      "confirm": "use existing new-attempt flow, verify current energy and debit exactly once"
+    },
+    "settled_replay_energy_insufficient": {
+      "cost": 5,
+      "condition": "actual energy < 5",
+      "note_zh": "体力不足，重玩需要5点体力。",
+      "note_en": "Not enough energy. Replaying requires 5 energy.",
+      "confirm": "do not reset the board, do not debit, do not launch an attempt; route to existing insufficient-energy flow",
+      "cancel": "close unchanged"
+    }
+  },
+  "guards": [
+    "Choose note from actual attempt status and fresh energy state, never show free-restart note after settlement.",
+    "Recheck energy atomically in existing business flow; static UI does not implement transactions.",
+    "Cancel is always zero side effects.",
+    "This supplemental contract is not permission to rewrite existing game logic."
+  ],
+  "runtime_verified": false
+}

@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "path": "deliverables/water_sort/reference2_undo_button_v1/assets/undo_arrow_original.png",
+      "bytes": 6393,
+      "sha256": "e097256de09ad374abcf16af6e94ba9ae8e0b8638e21858b73f9aef0d7ee54fe"
+    },
+    {
+      "path": "deliverables/water_sort/reference2_undo_button_v1/assets/undo_button_blank.png",
+      "bytes": 29136,
+      "sha256": "14052a155dd6b29f9c169fb8e4466115c9d5c17a0582196352edeef193411f9c"
+    },
+    {
+      "path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "bytes": 28767,
+      "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661"
+    },
+    {
+      "path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_icon_original.png",
+      "bytes": 7569,
+      "sha256": "e3b6296fddab071905c51d63555458bbe9c4265eb56ed9d4e81d7600a4514dbd"
+    },
+    {
+      "path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_button_blank.png",
+      "bytes": 17416,
+      "sha256": "bb1437589d5afd9f086c3f3298a1803b4a588e677437a62946cb41c403cf9daf"
+    },
+    {
+      "path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_icon_original.png",
+      "bytes": 5881,
+      "sha256": "75b5b6aa00f862017a821c1463138219af0fcd78445a8cb003d125c87c5103d6"
+    }
+  ],
+  "png_count": 6,
+  "total_bytes": 95162,
+  "status": "static candidates; runtime verification pending"
+}

@@ -1,0 +1,171 @@
+{
+  "status": "Independent isolated Godot demonstration and offline preview; not production gameplay or UI runtime dependency",
+  "files": [
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/test_preview.gd",
+      "sha256": "e445b85051195a34064130b46fceb717b29f87b07736e3af496f04f572ea1d57",
+      "bytes": 692
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/preview.gd",
+      "sha256": "629bf060c7c782fa1e1f8ba0853270a30055823b96829b36ce308e13e961eabb",
+      "bytes": 3980
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/cork_placement.json",
+      "sha256": "5c7af6e33ce9c2f425571d27b92e572d4e2a4bed25165d1042376d97bd0641e6",
+      "bytes": 56
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/ANIMATION_CONTRACT.json",
+      "sha256": "c756e9363288d7bd9b0b0e2a75d2089e78ab48968c9f6af534713caaf21dd866",
+      "bytes": 1510
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/preview.tscn",
+      "sha256": "28d9d09983f169c9d2963109d6498e536c14c5558cb2ba9eb01753fb8adc9c4b",
+      "bytes": 173
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/timeline_samples.json",
+      "sha256": "f6a586700597917c3afa693d0325c0a914bb2caf4bbcb32131d9b4f3156636cd",
+      "bytes": 33843
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/HANDOFF.md",
+      "sha256": "35b9f697501ad79d384ea285d77a3e71f7f0c4dd0c9c3e3fa08cc478c0bd5b9d",
+      "bytes": 4839
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/project.godot",
+      "sha256": "6fa75e80cbcdaacf874a4dfa227d71277cc54abd3906647dbd702d02f4c68d3a",
+      "bytes": 285
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/FREEZE.sha256",
+      "sha256": "7035a49da4573b7511022c399dd33457bcebf3e6ee3b3d2d35a04b718e8d58f7",
+      "bytes": 3286
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/make_preview.py",
+      "sha256": "f2af4c1a862abc1c105303e680691e64e1e298b782b9b924f55ebb8392420a21",
+      "bytes": 5529
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/pour_cavity_mask.png",
+      "sha256": "d7ab88a46d97bac14f85fa33dca291c2b12a167d909daceae488e06e98c9a780",
+      "bytes": 3301
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/order_blue_cork.png",
+      "sha256": "ba4b72211f16f3695c66d2d400445fad5a59da37ad8a9833aacb4e9d571b68f6",
+      "bytes": 12262
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/glass_back_shadow.png",
+      "sha256": "424db6d82f2c75b515c727cb44d12cd538612ca725bfbf6ff2d5e728c1092a94",
+      "bytes": 1910
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/background.png",
+      "sha256": "3dfdfa238bf6bcc55114d5981b08325933e1b4873a208f1cdc5587d1c69324cd",
+      "bytes": 1086488
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/order_status_ring.png",
+      "sha256": "bbcc21ee22b4831552763159ea6be4b1d6636eee39d41e2f059c54353274d6c1",
+      "bytes": 1755
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/order_card.png",
+      "sha256": "97c5c4baa0304ac13cd781a0dc49c7b96aa077ed29e580d6eeadd07ba823f4ee",
+      "bytes": 32315
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/cork.png",
+      "sha256": "ee086239a2ff863ab24ae8cba66a0560b20302944551982096713823ea378b55",
+      "bytes": 5100
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/sparkle_gold.png",
+      "sha256": "f5d32a871b50f49ddb7be6c5d290460fa0c12e8bfbd37a4a298557006533160e",
+      "bytes": 8200
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/glass_front_reflection.png",
+      "sha256": "25ac4f208edd5fd83110e44c9e7fb8d7a490633ff856f7fa4c7ccc1a21889e06",
+      "bytes": 92854
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/assets/order_status_check.png",
+      "sha256": "676c0472950cd794edd9d4e132f7f563637bb32ac42921737a0da59743a94de9",
+      "bytes": 1197
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_055.png",
+      "sha256": "3c917ec33f3d9062468ea7a0d214ba2aee1c3e86795bbecbeac178451a27ffbe",
+      "bytes": 652061
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/timeline_checks.json",
+      "sha256": "3a7144e8f5d00ca133e17f866ef930d566250593414a9b3fc90503a7c0a352cb",
+      "bytes": 93
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/video_probe.json",
+      "sha256": "09333ce203363cb04a9f4720b9566e3853edda3763e7302ec48d255004ee84b5",
+      "bytes": 280
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_095.png",
+      "sha256": "16089e9be87f3d9b9aedd0d3c43c8ac69e0b2f87d58c7ddf06cfc2ebb14fe711",
+      "bytes": 633921
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_041.png",
+      "sha256": "5adca69939c6f31fa41fb58090ef3eaa2c40cdebd22ff7bc2f12317eede6e010",
+      "bytes": 647722
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_000.png",
+      "sha256": "491b724c36ccf1bc30c2d94ee698054dc1d8a264cb05096e6a573aba12d88dee",
+      "bytes": 646596
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_032.png",
+      "sha256": "a120a6e23fa3142acd4787de76d9edd54019c2bf13c424273863afcb0b3cab7a",
+      "bytes": 643671
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_046.png",
+      "sha256": "03101180972835b43cac1bc9446e78e360f95c0b038d435ef97e75c522db47b9",
+      "bytes": 654923
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_065.png",
+      "sha256": "16089e9be87f3d9b9aedd0d3c43c8ac69e0b2f87d58c7ddf06cfc2ebb14fe711",
+      "bytes": 633921
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_023.png",
+      "sha256": "8e5e0fd634648a32833d82aa4f245dd4f42dc80a1219246d29e4cefcf639e4b0",
+      "bytes": 646861
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_015.png",
+      "sha256": "8a3fe076545146fdecf21fb3b9db9ed0856572d37a3566baff4c10ff7c1ea5b2",
+      "bytes": 642402
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/qa/key_038.png",
+      "sha256": "e308f21eca5ad94396011c1bc8e0ac072ec5f7218f738fc2c74437ca40dc8c2f",
+      "bytes": 645523
+    },
+    {
+      "path": "deliverables/water_sort/reference2_completion_animation_v1/preview/completion_branches.mp4",
+      "sha256": "80ac592a54855778eb74ddfc5fc8111ad51ec55ea1e2c06d1f96b69c41d5430d",
+      "bytes": 183024
+    }
+  ],
+  "production_integration_verified": false
+}

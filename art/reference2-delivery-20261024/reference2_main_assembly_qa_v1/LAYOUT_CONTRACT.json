@@ -1,0 +1,130 @@
+{
+  "basis": [
+    940,
+    1672
+  ],
+  "scale_policy": "uniform contain for gameplay UI with safe-area offsets shared by every page; never stretch bottles independently",
+  "title": {
+    "rect": [
+      327,
+      62,
+      286,
+      83
+    ],
+    "binding": "level display number"
+  },
+  "energy": {
+    "rect": [
+      49,
+      77,
+      233,
+      80
+    ],
+    "binding": "persistent energy store shared by every page"
+  },
+  "settings": {
+    "rect": [
+      775,
+      56,
+      119,
+      114
+    ],
+    "action": "open existing pause/settings flow"
+  },
+  "steps": {
+    "rect": [
+      267,
+      144,
+      186,
+      64
+    ],
+    "binding": "current attempt move count"
+  },
+  "time": {
+    "rect": [
+      487,
+      144,
+      187,
+      64
+    ],
+    "binding": "current attempt elapsed time"
+  },
+  "order_region": {
+    "example_slot_anchors": [
+      [
+        148,
+        216
+      ],
+      [
+        312,
+        216
+      ],
+      [
+        476,
+        216
+      ],
+      [
+        636,
+        216
+      ]
+    ],
+    "card_size": [
+      157,
+      204
+    ],
+    "binding": "active order model; slots/current trial availability not hardcoded from QA"
+  },
+  "completion": {
+    "rect": [
+      178,
+      422,
+      585,
+      63
+    ],
+    "binding": "real delivered/required count"
+  },
+  "bottle_region": {
+    "example_row_y": [
+      515,
+      966
+    ],
+    "example_column_x": [
+      80,
+      285,
+      490,
+      695
+    ],
+    "canvas": [
+      165,
+      410
+    ],
+    "binding": "level bottle model + layout solver, examples are not fixed bottle count or fixed liquids"
+  },
+  "undo": {
+    "rect": [
+      271,
+      1422,
+      175,
+      174
+    ],
+    "binding": "undo availability/history"
+  },
+  "replay": {
+    "rect": [
+      496,
+      1422,
+      173,
+      174
+    ],
+    "action": "existing replay confirmation"
+  },
+  "qa_only_values": {
+    "level": 3,
+    "energy": "25/30",
+    "moves": 12,
+    "time": "00:38",
+    "completion": "2/6",
+    "bottles": 8,
+    "warning": "This assembled illustrative state is not asserted legal or playable. Never initialize game data from it."
+  }
+}

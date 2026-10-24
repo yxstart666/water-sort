@@ -1,0 +1,16 @@
+{
+  "gameplay_pour_cavity_mask": {
+    "source": "reference2_original_bottle_layers_v1/assets/pour_cavity_mask.png",
+    "mode": "RGBA",
+    "sample_channel": "A, not RGB (RGB is white255)",
+    "visual": "continuous alpha coverage",
+    "geometric_validation_threshold": "alpha>127 yields one connected body-mouth component",
+    "noise": "alpha>0 includes42 components;342 extra tiny pixels alpha<=4. Do not assert strict all-nonzero connectivity."
+  },
+  "order_masks": {
+    "liquid_mask": "L sample R/luminance as coverage",
+    "diffuse_map": "L sample R/luminance as brightness multiplier",
+    "do_not": "Do not use default alpha on L maps or RGB on whiteRGBA mask."
+  },
+  "source_freeze": "unchanged; explicit channel/threshold contract only"
+}

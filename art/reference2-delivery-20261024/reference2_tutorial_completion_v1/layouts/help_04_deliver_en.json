@@ -1,0 +1,210 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "screen": "S09",
+  "status": "static reconstruction candidate; not integrated",
+  "font": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "panel",
+      "rect": [
+        60,
+        350,
+        820,
+        980
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "id": "heading",
+      "kind": "text",
+      "text": "How to play",
+      "rect": [
+        100,
+        405,
+        740,
+        75
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "align": "center"
+    },
+    {
+      "id": "page",
+      "kind": "text",
+      "text": "4 / 6",
+      "rect": [
+        100,
+        490,
+        740,
+        55
+      ],
+      "font_px": 32,
+      "color": "#D8B85D",
+      "align": "center"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "text": "Match and deliver",
+      "rect": [
+        100,
+        590,
+        740,
+        75
+      ],
+      "font_px": 46,
+      "color": "#FFF5DE",
+      "align": "center"
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "text": "Matching bottles are delivered.",
+      "rect": [
+        105,
+        710,
+        730,
+        72
+      ],
+      "font_px": 38,
+      "color": "#DCEBFF",
+      "align": "center"
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "text": "The next order uses the same slot.",
+      "rect": [
+        105,
+        795,
+        730,
+        72
+      ],
+      "font_px": 38,
+      "color": "#DCEBFF",
+      "align": "center"
+    },
+    {
+      "id": "body_2",
+      "kind": "text",
+      "text": "No new order follows the final one.",
+      "rect": [
+        105,
+        880,
+        730,
+        72
+      ],
+      "font_px": 38,
+      "color": "#DCEBFF",
+      "align": "center"
+    },
+    {
+      "id": "previous",
+      "kind": "button",
+      "text": "Back",
+      "rect": [
+        105,
+        1140,
+        220,
+        120
+      ],
+      "hit_rect": [
+        105,
+        1140,
+        220,
+        120
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "action": "previous_help_page"
+    },
+    {
+      "id": "close",
+      "kind": "button",
+      "text": "Close",
+      "rect": [
+        360,
+        1140,
+        220,
+        120
+      ],
+      "hit_rect": [
+        360,
+        1140,
+        220,
+        120
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "action": "return_to_exact_opener"
+    },
+    {
+      "id": "next",
+      "kind": "button",
+      "text": "Next",
+      "rect": [
+        615,
+        1140,
+        220,
+        120
+      ],
+      "hit_rect": [
+        615,
+        1140,
+        220,
+        120
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "action": "next_help_page"
+    }
+  ],
+  "highlight_holes_sample": [],
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    195
+  ],
+  "scale_policy": "Uniform contain in actual safe area; at 360x640 scale=0.382775; interactive hit dimensions at least 116 basis px = 44.4px",
+  "qa_background": "Localized reference2 components; illustrative data, not guaranteed legal board",
+  "mode": "read_only_help",
+  "page_index": 3,
+  "page_count": 6,
+  "progression": "Paging allowed; changes no gameplay state. Preserve pause/opening source."
+}

@@ -1,0 +1,122 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "zh",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        110,
+        546,
+        720,
+        580
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        145,
+        581,
+        650,
+        70
+      ],
+      "text": "保存失败",
+      "font_px": 46,
+      "color": "#FFF5DE"
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        150,
+        668,
+        640,
+        52
+      ],
+      "text": "进度尚未保存，请重试。",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "rect": [
+        150,
+        725,
+        640,
+        52
+      ],
+      "text": "退出前请确认保存成功。",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "button_0",
+      "kind": "button",
+      "rect": [
+        160,
+        984,
+        298,
+        106
+      ],
+      "text": "稍后",
+      "font_px": 32,
+      "action": "dismiss_keep_unsaved_state",
+      "enabled": true,
+      "brightness": 1.0,
+      "disabled_brightness": 0.48,
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png"
+    },
+    {
+      "id": "button_1",
+      "kind": "button",
+      "rect": [
+        482,
+        984,
+        298,
+        106
+      ],
+      "text": "重试",
+      "font_px": 32,
+      "action": "existing_write_retry",
+      "enabled": true,
+      "brightness": 1.07,
+      "disabled_brightness": 0.48,
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png"
+    }
+  ],
+  "font": "cloud_takeover/water_sort_project/assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSansCJK-Bold.ttc",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "input": "modal captures background taps; system back uses existing cancel action",
+  "data": "All example values are QA placeholders; bind current attempt/persistent state at runtime",
+  "art": "same original reference2 blank, NinePatch 48px corners; no old cream panel",
+  "qa_background": "Chinese static assembly placeholder; not localized engine capture"
+}

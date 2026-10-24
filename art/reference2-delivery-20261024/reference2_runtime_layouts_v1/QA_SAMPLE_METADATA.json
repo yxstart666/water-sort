@@ -1,0 +1,2028 @@
+{
+  "reference2_result_system_modals_v1__failure_en": {},
+  "reference2_result_system_modals_v1__failure_zh": {},
+  "reference2_result_system_modals_v1__no_moves_en": {},
+  "reference2_result_system_modals_v1__no_moves_no_undo_en": {},
+  "reference2_result_system_modals_v1__no_moves_no_undo_zh": {},
+  "reference2_result_system_modals_v1__no_moves_zh": {},
+  "reference2_home_levels_records_v1__home_en": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_7/old_hero_fallback": "deliverables/water_sort/reference2_home_levels_records_v1/assets/home_bottle_pair.png",
+    "element_9/text_example": "Continue",
+    "element_9/text": "Continue",
+    "element_11/text_example": "Choose level",
+    "element_13/text_example": "Local records"
+  },
+  "reference2_home_levels_records_v1__home_zh": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_7/old_hero_fallback": "deliverables/water_sort/reference2_home_levels_records_v1/assets/home_bottle_pair.png",
+    "element_9/text_example": "继续游戏",
+    "element_9/text": "继续游戏",
+    "element_11/text_example": "选择关卡",
+    "element_13/text_example": "本机记录"
+  },
+  "reference2_home_levels_records_v1__levels_page1_en": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "Choose level",
+    "element_7/example_level": 1,
+    "element_7/enabled_example": true,
+    "element_8/text_example": "1",
+    "element_8/text": "1",
+    "element_9/text_example": "Done",
+    "element_9/text": "Done",
+    "element_10/example_level": 2,
+    "element_10/enabled_example": true,
+    "element_11/text_example": "2",
+    "element_11/text": "2",
+    "element_12/text_example": "Done",
+    "element_12/text": "Done",
+    "element_13/example_level": 3,
+    "element_13/enabled_example": true,
+    "element_14/text_example": "3",
+    "element_14/text": "3",
+    "element_15/text_example": "Done",
+    "element_15/text": "Done",
+    "element_16/example_level": 4,
+    "element_16/enabled_example": true,
+    "element_17/text_example": "4",
+    "element_17/text": "4",
+    "element_18/text_example": "Done",
+    "element_18/text": "Done",
+    "element_19/example_level": 5,
+    "element_19/enabled_example": true,
+    "element_20/text_example": "5",
+    "element_20/text": "5",
+    "element_21/text_example": "Done",
+    "element_21/text": "Done",
+    "element_22/example_level": 6,
+    "element_22/enabled_example": true,
+    "element_23/text_example": "6",
+    "element_23/text": "6",
+    "element_24/text_example": "Done",
+    "element_24/text": "Done",
+    "element_25/example_level": 7,
+    "element_25/enabled_example": true,
+    "element_26/text_example": "7",
+    "element_26/text": "7",
+    "element_27/text_example": "Current",
+    "element_27/text": "Current",
+    "element_28/example_level": 8,
+    "element_28/enabled_example": false,
+    "element_29/text_example": "8",
+    "element_29/text": "8",
+    "element_30/text_example": "Locked",
+    "element_30/text": "Locked",
+    "element_31/example_level": 9,
+    "element_31/enabled_example": false,
+    "element_32/text_example": "9",
+    "element_32/text": "9",
+    "element_33/text_example": "Locked",
+    "element_33/text": "Locked",
+    "element_34/example_level": 10,
+    "element_34/enabled_example": false,
+    "element_35/text_example": "10",
+    "element_35/text": "10",
+    "element_36/text_example": "Locked",
+    "element_36/text": "Locked",
+    "element_37/example_level": 11,
+    "element_37/enabled_example": false,
+    "element_38/text_example": "11",
+    "element_38/text": "11",
+    "element_39/text_example": "Locked",
+    "element_39/text": "Locked",
+    "element_40/example_level": 12,
+    "element_40/enabled_example": false,
+    "element_41/text_example": "12",
+    "element_41/text": "12",
+    "element_42/text_example": "Locked",
+    "element_42/text": "Locked",
+    "element_43/example_level": 13,
+    "element_43/enabled_example": false,
+    "element_44/text_example": "13",
+    "element_44/text": "13",
+    "element_45/text_example": "Locked",
+    "element_45/text": "Locked",
+    "element_46/example_level": 14,
+    "element_46/enabled_example": false,
+    "element_47/text_example": "14",
+    "element_47/text": "14",
+    "element_48/text_example": "Locked",
+    "element_48/text": "Locked",
+    "element_49/example_level": 15,
+    "element_49/enabled_example": false,
+    "element_50/text_example": "15",
+    "element_50/text": "15",
+    "element_51/text_example": "Locked",
+    "element_51/text": "Locked",
+    "element_52/example_level": 16,
+    "element_52/enabled_example": false,
+    "element_53/text_example": "16",
+    "element_53/text": "16",
+    "element_54/text_example": "Locked",
+    "element_54/text": "Locked",
+    "element_55/example_level": 17,
+    "element_55/enabled_example": false,
+    "element_56/text_example": "17",
+    "element_56/text": "17",
+    "element_57/text_example": "Locked",
+    "element_57/text": "Locked",
+    "element_58/example_level": 18,
+    "element_58/enabled_example": false,
+    "element_59/text_example": "18",
+    "element_59/text": "18",
+    "element_60/text_example": "Locked",
+    "element_60/text": "Locked",
+    "element_61/example_level": 19,
+    "element_61/enabled_example": false,
+    "element_62/text_example": "19",
+    "element_62/text": "19",
+    "element_63/text_example": "Locked",
+    "element_63/text": "Locked",
+    "element_64/example_level": 20,
+    "element_64/enabled_example": false,
+    "element_65/text_example": "20",
+    "element_65/text": "20",
+    "element_66/text_example": "Locked",
+    "element_66/text": "Locked",
+    "element_68/text_example": "Previous",
+    "element_69/text_example": "1 / 3",
+    "element_69/text": "1 / 3",
+    "element_71/text_example": "Next",
+    "element_73/text_example": "Home"
+  },
+  "reference2_home_levels_records_v1__levels_page1_zh": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "选择关卡",
+    "element_7/example_level": 1,
+    "element_7/enabled_example": true,
+    "element_8/text_example": "1",
+    "element_8/text": "1",
+    "element_9/text_example": "已过",
+    "element_9/text": "已过",
+    "element_10/example_level": 2,
+    "element_10/enabled_example": true,
+    "element_11/text_example": "2",
+    "element_11/text": "2",
+    "element_12/text_example": "已过",
+    "element_12/text": "已过",
+    "element_13/example_level": 3,
+    "element_13/enabled_example": true,
+    "element_14/text_example": "3",
+    "element_14/text": "3",
+    "element_15/text_example": "已过",
+    "element_15/text": "已过",
+    "element_16/example_level": 4,
+    "element_16/enabled_example": true,
+    "element_17/text_example": "4",
+    "element_17/text": "4",
+    "element_18/text_example": "已过",
+    "element_18/text": "已过",
+    "element_19/example_level": 5,
+    "element_19/enabled_example": true,
+    "element_20/text_example": "5",
+    "element_20/text": "5",
+    "element_21/text_example": "已过",
+    "element_21/text": "已过",
+    "element_22/example_level": 6,
+    "element_22/enabled_example": true,
+    "element_23/text_example": "6",
+    "element_23/text": "6",
+    "element_24/text_example": "已过",
+    "element_24/text": "已过",
+    "element_25/example_level": 7,
+    "element_25/enabled_example": true,
+    "element_26/text_example": "7",
+    "element_26/text": "7",
+    "element_27/text_example": "当前",
+    "element_27/text": "当前",
+    "element_28/example_level": 8,
+    "element_28/enabled_example": false,
+    "element_29/text_example": "8",
+    "element_29/text": "8",
+    "element_30/text_example": "锁定",
+    "element_30/text": "锁定",
+    "element_31/example_level": 9,
+    "element_31/enabled_example": false,
+    "element_32/text_example": "9",
+    "element_32/text": "9",
+    "element_33/text_example": "锁定",
+    "element_33/text": "锁定",
+    "element_34/example_level": 10,
+    "element_34/enabled_example": false,
+    "element_35/text_example": "10",
+    "element_35/text": "10",
+    "element_36/text_example": "锁定",
+    "element_36/text": "锁定",
+    "element_37/example_level": 11,
+    "element_37/enabled_example": false,
+    "element_38/text_example": "11",
+    "element_38/text": "11",
+    "element_39/text_example": "锁定",
+    "element_39/text": "锁定",
+    "element_40/example_level": 12,
+    "element_40/enabled_example": false,
+    "element_41/text_example": "12",
+    "element_41/text": "12",
+    "element_42/text_example": "锁定",
+    "element_42/text": "锁定",
+    "element_43/example_level": 13,
+    "element_43/enabled_example": false,
+    "element_44/text_example": "13",
+    "element_44/text": "13",
+    "element_45/text_example": "锁定",
+    "element_45/text": "锁定",
+    "element_46/example_level": 14,
+    "element_46/enabled_example": false,
+    "element_47/text_example": "14",
+    "element_47/text": "14",
+    "element_48/text_example": "锁定",
+    "element_48/text": "锁定",
+    "element_49/example_level": 15,
+    "element_49/enabled_example": false,
+    "element_50/text_example": "15",
+    "element_50/text": "15",
+    "element_51/text_example": "锁定",
+    "element_51/text": "锁定",
+    "element_52/example_level": 16,
+    "element_52/enabled_example": false,
+    "element_53/text_example": "16",
+    "element_53/text": "16",
+    "element_54/text_example": "锁定",
+    "element_54/text": "锁定",
+    "element_55/example_level": 17,
+    "element_55/enabled_example": false,
+    "element_56/text_example": "17",
+    "element_56/text": "17",
+    "element_57/text_example": "锁定",
+    "element_57/text": "锁定",
+    "element_58/example_level": 18,
+    "element_58/enabled_example": false,
+    "element_59/text_example": "18",
+    "element_59/text": "18",
+    "element_60/text_example": "锁定",
+    "element_60/text": "锁定",
+    "element_61/example_level": 19,
+    "element_61/enabled_example": false,
+    "element_62/text_example": "19",
+    "element_62/text": "19",
+    "element_63/text_example": "锁定",
+    "element_63/text": "锁定",
+    "element_64/example_level": 20,
+    "element_64/enabled_example": false,
+    "element_65/text_example": "20",
+    "element_65/text": "20",
+    "element_66/text_example": "锁定",
+    "element_66/text": "锁定",
+    "element_68/text_example": "上一页",
+    "element_69/text_example": "1 / 3",
+    "element_69/text": "1 / 3",
+    "element_71/text_example": "下一页",
+    "element_73/text_example": "返回主页"
+  },
+  "reference2_home_levels_records_v1__levels_page3_en": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "Choose level",
+    "element_7/example_level": 41,
+    "element_7/enabled_example": false,
+    "element_8/text_example": "41",
+    "element_8/text": "41",
+    "element_9/text_example": "Locked",
+    "element_9/text": "Locked",
+    "element_10/example_level": 42,
+    "element_10/enabled_example": false,
+    "element_11/text_example": "42",
+    "element_11/text": "42",
+    "element_12/text_example": "Locked",
+    "element_12/text": "Locked",
+    "element_13/example_level": 43,
+    "element_13/enabled_example": false,
+    "element_14/text_example": "43",
+    "element_14/text": "43",
+    "element_15/text_example": "Locked",
+    "element_15/text": "Locked",
+    "element_16/example_level": 44,
+    "element_16/enabled_example": false,
+    "element_17/text_example": "44",
+    "element_17/text": "44",
+    "element_18/text_example": "Locked",
+    "element_18/text": "Locked",
+    "element_19/example_level": 45,
+    "element_19/enabled_example": false,
+    "element_20/text_example": "45",
+    "element_20/text": "45",
+    "element_21/text_example": "Locked",
+    "element_21/text": "Locked",
+    "element_22/example_level": 46,
+    "element_22/enabled_example": false,
+    "element_23/text_example": "46",
+    "element_23/text": "46",
+    "element_24/text_example": "Locked",
+    "element_24/text": "Locked",
+    "element_25/example_level": 47,
+    "element_25/enabled_example": false,
+    "element_26/text_example": "47",
+    "element_26/text": "47",
+    "element_27/text_example": "Locked",
+    "element_27/text": "Locked",
+    "element_28/example_level": 48,
+    "element_28/enabled_example": false,
+    "element_29/text_example": "48",
+    "element_29/text": "48",
+    "element_30/text_example": "Locked",
+    "element_30/text": "Locked",
+    "element_31/example_level": 49,
+    "element_31/enabled_example": false,
+    "element_32/text_example": "49",
+    "element_32/text": "49",
+    "element_33/text_example": "Locked",
+    "element_33/text": "Locked",
+    "element_34/example_level": 50,
+    "element_34/enabled_example": false,
+    "element_35/text_example": "50",
+    "element_35/text": "50",
+    "element_36/text_example": "Locked",
+    "element_36/text": "Locked",
+    "element_38/text_example": "Previous",
+    "element_39/text_example": "3 / 3",
+    "element_39/text": "3 / 3",
+    "element_41/text_example": "Next",
+    "element_43/text_example": "Home"
+  },
+  "reference2_home_levels_records_v1__levels_page3_zh": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "选择关卡",
+    "element_7/example_level": 41,
+    "element_7/enabled_example": false,
+    "element_8/text_example": "41",
+    "element_8/text": "41",
+    "element_9/text_example": "锁定",
+    "element_9/text": "锁定",
+    "element_10/example_level": 42,
+    "element_10/enabled_example": false,
+    "element_11/text_example": "42",
+    "element_11/text": "42",
+    "element_12/text_example": "锁定",
+    "element_12/text": "锁定",
+    "element_13/example_level": 43,
+    "element_13/enabled_example": false,
+    "element_14/text_example": "43",
+    "element_14/text": "43",
+    "element_15/text_example": "锁定",
+    "element_15/text": "锁定",
+    "element_16/example_level": 44,
+    "element_16/enabled_example": false,
+    "element_17/text_example": "44",
+    "element_17/text": "44",
+    "element_18/text_example": "锁定",
+    "element_18/text": "锁定",
+    "element_19/example_level": 45,
+    "element_19/enabled_example": false,
+    "element_20/text_example": "45",
+    "element_20/text": "45",
+    "element_21/text_example": "锁定",
+    "element_21/text": "锁定",
+    "element_22/example_level": 46,
+    "element_22/enabled_example": false,
+    "element_23/text_example": "46",
+    "element_23/text": "46",
+    "element_24/text_example": "锁定",
+    "element_24/text": "锁定",
+    "element_25/example_level": 47,
+    "element_25/enabled_example": false,
+    "element_26/text_example": "47",
+    "element_26/text": "47",
+    "element_27/text_example": "锁定",
+    "element_27/text": "锁定",
+    "element_28/example_level": 48,
+    "element_28/enabled_example": false,
+    "element_29/text_example": "48",
+    "element_29/text": "48",
+    "element_30/text_example": "锁定",
+    "element_30/text": "锁定",
+    "element_31/example_level": 49,
+    "element_31/enabled_example": false,
+    "element_32/text_example": "49",
+    "element_32/text": "49",
+    "element_33/text_example": "锁定",
+    "element_33/text": "锁定",
+    "element_34/example_level": 50,
+    "element_34/enabled_example": false,
+    "element_35/text_example": "50",
+    "element_35/text": "50",
+    "element_36/text_example": "锁定",
+    "element_36/text": "锁定",
+    "element_38/text_example": "上一页",
+    "element_39/text_example": "3 / 3",
+    "element_39/text": "3 / 3",
+    "element_41/text_example": "下一页",
+    "element_43/text_example": "返回主页"
+  },
+  "reference2_home_levels_records_v1__records_data_en": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "Local records",
+    "element_8/text_example": "This level",
+    "element_10/text_example": "Overview",
+    "element_12/text_example": "Level 3",
+    "element_12/text": "Level 3",
+    "element_13/text_example": "Moves",
+    "element_14/text_example": "Time",
+    "element_15/text_example": "18",
+    "element_15/text": "18",
+    "element_16/text_example": "01:24",
+    "element_16/text": "01:24",
+    "element_17/text_example": "From one completed attempt",
+    "element_19/text_example": "Back"
+  },
+  "reference2_home_levels_records_v1__records_data_zh": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "本机记录",
+    "element_8/text_example": "本关",
+    "element_10/text_example": "汇总",
+    "element_12/text_example": "第 3 关",
+    "element_12/text": "第 3 关",
+    "element_13/text_example": "使用步数",
+    "element_14/text_example": "用时",
+    "element_15/text_example": "18",
+    "element_15/text": "18",
+    "element_16/text_example": "01:24",
+    "element_16/text": "01:24",
+    "element_17/text_example": "来自同一次通关",
+    "element_19/text_example": "返回"
+  },
+  "reference2_home_levels_records_v1__records_empty_en": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "Local records",
+    "element_8/text_example": "This level",
+    "element_10/text_example": "Overview",
+    "element_12/text_example": "No completed levels yet",
+    "element_13/text_example": "Finish a level to see your record.",
+    "element_15/text_example": "Back"
+  },
+  "reference2_home_levels_records_v1__records_empty_zh": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "本机记录",
+    "element_8/text_example": "本关",
+    "element_10/text_example": "汇总",
+    "element_12/text_example": "还没有通关记录",
+    "element_13/text_example": "完成一关后，记录会显示在这里。",
+    "element_15/text_example": "返回"
+  },
+  "reference2_home_levels_records_v1__records_overall_en": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "Local records",
+    "element_8/text_example": "This level",
+    "element_10/text_example": "Overview",
+    "element_12/text_example": "Levels completed",
+    "element_13/text_example": "6",
+    "element_13/text": "6",
+    "element_14/text_example": "Total time",
+    "element_15/text_example": "08:32",
+    "element_15/text": "08:32",
+    "element_17/text_example": "Back"
+  },
+  "reference2_home_levels_records_v1__records_overall_zh": {
+    "element_4/text_example": "25/30",
+    "element_4/text": "25/30",
+    "element_5/text_example": "+",
+    "element_6/text_example": "本机记录",
+    "element_8/text_example": "本关",
+    "element_10/text_example": "汇总",
+    "element_12/text_example": "已通关数",
+    "element_13/text_example": "6",
+    "element_13/text": "6",
+    "element_14/text_example": "累计用时",
+    "element_15/text_example": "08:32",
+    "element_15/text": "08:32",
+    "element_17/text_example": "返回"
+  },
+  "reference2_misc_states_v1__level4_bottle_lock_help_en": {},
+  "reference2_misc_states_v1__level4_bottle_lock_help_zh": {},
+  "reference2_misc_states_v1__level_locked_en": {},
+  "reference2_misc_states_v1__level_locked_zh": {},
+  "reference2_misc_states_v1__loading_en": {},
+  "reference2_misc_states_v1__loading_zh": {},
+  "reference2_misc_states_v1__read_error_en": {},
+  "reference2_misc_states_v1__read_error_zh": {},
+  "reference2_misc_states_v1__save_error_en": {},
+  "reference2_misc_states_v1__save_error_zh": {},
+  "reference2_pause_language_candidate_v1__language_en": {},
+  "reference2_pause_language_candidate_v1__language_zh": {},
+  "reference2_pause_language_candidate_v1__settings_en": {
+    "music_state/text": "ON",
+    "sound_state/text": "OFF",
+    "language_current/text": "English"
+  },
+  "reference2_pause_language_candidate_v1__settings_zh": {
+    "music_state/text": "开",
+    "sound_state/text": "关",
+    "language_current/text": "简体中文"
+  },
+  "reference2_board_layout_completion_v1__board_10_en": {
+    "title_value/actual_ink_bbox": [
+      405,
+      88,
+      535,
+      117
+    ],
+    "title_value/text_qa_only": "Level 3",
+    "title_value/text": "Level 3",
+    "energy_value/actual_ink_bbox": [
+      126,
+      105,
+      221,
+      131
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      109,
+      262,
+      130
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      372,
+      166,
+      409,
+      189
+    ],
+    "step_value/text_qa_only": "12",
+    "step_value/text": "12",
+    "time_value/actual_ink_bbox": [
+      569,
+      166,
+      651,
+      189
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      694,
+      299,
+      735,
+      324
+    ],
+    "trial_title/text_qa_only": "Try",
+    "trial_title/text": "Try",
+    "trial_caption/actual_ink_bbox": [
+      687,
+      335,
+      742,
+      350
+    ],
+    "trial_caption/text_qa_only": "+ Slot",
+    "completion_value/actual_ink_bbox": [
+      403,
+      444,
+      536,
+      463
+    ],
+    "completion_value/text_qa_only": "Done 2 / 6",
+    "completion_value/text": "Done 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      321,
+      1540,
+      396,
+      1562
+    ],
+    "undo_label/text_qa_only": "Undo",
+    "undo_label/text": "Undo",
+    "replay_label/actual_ink_bbox": [
+      536,
+      1540,
+      630,
+      1569
+    ],
+    "replay_label/text_qa_only": "Replay",
+    "replay_label/text": "Replay",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_3/liquids": [],
+    "bottle_4/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ],
+    "bottle_5/liquids": [
+      "orange",
+      "purple",
+      "yellow"
+    ],
+    "bottle_6/liquids": [
+      "blue",
+      "red",
+      "green"
+    ],
+    "bottle_7/liquids": [
+      "red",
+      "yellow",
+      "purple"
+    ],
+    "bottle_8/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_9/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_10_zh": {
+    "title_value/actual_ink_bbox": [
+      412,
+      86,
+      528,
+      124
+    ],
+    "title_value/text_qa_only": "第 3 关",
+    "title_value/text": "第 3 关",
+    "energy_value/actual_ink_bbox": [
+      125,
+      104,
+      221,
+      139
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      108,
+      263,
+      131
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      355,
+      162,
+      425,
+      194
+    ],
+    "step_value/text_qa_only": "12步",
+    "step_value/text": "12步",
+    "time_value/actual_ink_bbox": [
+      567,
+      166,
+      653,
+      190
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      688,
+      297,
+      740,
+      324
+    ],
+    "trial_title/text_qa_only": "试用",
+    "trial_title/text": "试用",
+    "trial_caption/actual_ink_bbox": [
+      674,
+      332,
+      754,
+      353
+    ],
+    "trial_caption/text_qa_only": "增加槽位",
+    "completion_value/actual_ink_bbox": [
+      399,
+      440,
+      541,
+      469
+    ],
+    "completion_value/text_qa_only": "已完成 2 / 6",
+    "completion_value/text": "已完成 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      330,
+      1538,
+      386,
+      1566
+    ],
+    "undo_label/text_qa_only": "撤销",
+    "undo_label/text": "撤销",
+    "replay_label/actual_ink_bbox": [
+      555,
+      1538,
+      611,
+      1566
+    ],
+    "replay_label/text_qa_only": "重玩",
+    "replay_label/text": "重玩",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_3/liquids": [],
+    "bottle_4/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ],
+    "bottle_5/liquids": [
+      "orange",
+      "purple",
+      "yellow"
+    ],
+    "bottle_6/liquids": [
+      "blue",
+      "red",
+      "green"
+    ],
+    "bottle_7/liquids": [
+      "red",
+      "yellow",
+      "purple"
+    ],
+    "bottle_8/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_9/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_13_en": {
+    "title_value/actual_ink_bbox": [
+      405,
+      88,
+      535,
+      117
+    ],
+    "title_value/text_qa_only": "Level 3",
+    "title_value/text": "Level 3",
+    "energy_value/actual_ink_bbox": [
+      126,
+      105,
+      221,
+      131
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      109,
+      262,
+      130
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      372,
+      166,
+      409,
+      189
+    ],
+    "step_value/text_qa_only": "12",
+    "step_value/text": "12",
+    "time_value/actual_ink_bbox": [
+      569,
+      166,
+      651,
+      189
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      694,
+      299,
+      735,
+      324
+    ],
+    "trial_title/text_qa_only": "Try",
+    "trial_title/text": "Try",
+    "trial_caption/actual_ink_bbox": [
+      687,
+      335,
+      742,
+      350
+    ],
+    "trial_caption/text_qa_only": "+ Slot",
+    "completion_value/actual_ink_bbox": [
+      403,
+      444,
+      536,
+      463
+    ],
+    "completion_value/text_qa_only": "Done 2 / 6",
+    "completion_value/text": "Done 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      321,
+      1540,
+      396,
+      1562
+    ],
+    "undo_label/text_qa_only": "Undo",
+    "undo_label/text": "Undo",
+    "replay_label/actual_ink_bbox": [
+      536,
+      1540,
+      630,
+      1569
+    ],
+    "replay_label/text_qa_only": "Replay",
+    "replay_label/text": "Replay",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_3/liquids": [],
+    "bottle_4/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ],
+    "bottle_5/liquids": [
+      "orange",
+      "purple",
+      "yellow"
+    ],
+    "bottle_6/liquids": [
+      "blue",
+      "red",
+      "green"
+    ],
+    "bottle_7/liquids": [
+      "red",
+      "yellow",
+      "purple"
+    ],
+    "bottle_8/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_9/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_10/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_11/liquids": [],
+    "bottle_12/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_13_zh": {
+    "title_value/actual_ink_bbox": [
+      412,
+      86,
+      528,
+      124
+    ],
+    "title_value/text_qa_only": "第 3 关",
+    "title_value/text": "第 3 关",
+    "energy_value/actual_ink_bbox": [
+      125,
+      104,
+      221,
+      139
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      108,
+      263,
+      131
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      355,
+      162,
+      425,
+      194
+    ],
+    "step_value/text_qa_only": "12步",
+    "step_value/text": "12步",
+    "time_value/actual_ink_bbox": [
+      567,
+      166,
+      653,
+      190
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      688,
+      297,
+      740,
+      324
+    ],
+    "trial_title/text_qa_only": "试用",
+    "trial_title/text": "试用",
+    "trial_caption/actual_ink_bbox": [
+      674,
+      332,
+      754,
+      353
+    ],
+    "trial_caption/text_qa_only": "增加槽位",
+    "completion_value/actual_ink_bbox": [
+      399,
+      440,
+      541,
+      469
+    ],
+    "completion_value/text_qa_only": "已完成 2 / 6",
+    "completion_value/text": "已完成 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      330,
+      1538,
+      386,
+      1566
+    ],
+    "undo_label/text_qa_only": "撤销",
+    "undo_label/text": "撤销",
+    "replay_label/actual_ink_bbox": [
+      555,
+      1538,
+      611,
+      1566
+    ],
+    "replay_label/text_qa_only": "重玩",
+    "replay_label/text": "重玩",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_3/liquids": [],
+    "bottle_4/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ],
+    "bottle_5/liquids": [
+      "orange",
+      "purple",
+      "yellow"
+    ],
+    "bottle_6/liquids": [
+      "blue",
+      "red",
+      "green"
+    ],
+    "bottle_7/liquids": [
+      "red",
+      "yellow",
+      "purple"
+    ],
+    "bottle_8/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_9/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_10/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_11/liquids": [],
+    "bottle_12/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_3_en": {
+    "title_value/actual_ink_bbox": [
+      405,
+      88,
+      535,
+      117
+    ],
+    "title_value/text_qa_only": "Level 3",
+    "title_value/text": "Level 3",
+    "energy_value/actual_ink_bbox": [
+      126,
+      105,
+      221,
+      131
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      109,
+      262,
+      130
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      372,
+      166,
+      409,
+      189
+    ],
+    "step_value/text_qa_only": "12",
+    "step_value/text": "12",
+    "time_value/actual_ink_bbox": [
+      569,
+      166,
+      651,
+      189
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      694,
+      299,
+      735,
+      324
+    ],
+    "trial_title/text_qa_only": "Try",
+    "trial_title/text": "Try",
+    "trial_caption/actual_ink_bbox": [
+      687,
+      335,
+      742,
+      350
+    ],
+    "trial_caption/text_qa_only": "+ Slot",
+    "completion_value/actual_ink_bbox": [
+      403,
+      444,
+      536,
+      463
+    ],
+    "completion_value/text_qa_only": "Done 2 / 6",
+    "completion_value/text": "Done 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      321,
+      1540,
+      396,
+      1562
+    ],
+    "undo_label/text_qa_only": "Undo",
+    "undo_label/text": "Undo",
+    "replay_label/actual_ink_bbox": [
+      536,
+      1540,
+      630,
+      1569
+    ],
+    "replay_label/text_qa_only": "Replay",
+    "replay_label/text": "Replay",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_3_zh": {
+    "title_value/actual_ink_bbox": [
+      412,
+      86,
+      528,
+      124
+    ],
+    "title_value/text_qa_only": "第 3 关",
+    "title_value/text": "第 3 关",
+    "energy_value/actual_ink_bbox": [
+      125,
+      104,
+      221,
+      139
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      108,
+      263,
+      131
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      355,
+      162,
+      425,
+      194
+    ],
+    "step_value/text_qa_only": "12步",
+    "step_value/text": "12步",
+    "time_value/actual_ink_bbox": [
+      567,
+      166,
+      653,
+      190
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      688,
+      297,
+      740,
+      324
+    ],
+    "trial_title/text_qa_only": "试用",
+    "trial_title/text": "试用",
+    "trial_caption/actual_ink_bbox": [
+      674,
+      332,
+      754,
+      353
+    ],
+    "trial_caption/text_qa_only": "增加槽位",
+    "completion_value/actual_ink_bbox": [
+      399,
+      440,
+      541,
+      469
+    ],
+    "completion_value/text_qa_only": "已完成 2 / 6",
+    "completion_value/text": "已完成 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      330,
+      1538,
+      386,
+      1566
+    ],
+    "undo_label/text_qa_only": "撤销",
+    "undo_label/text": "撤销",
+    "replay_label/actual_ink_bbox": [
+      555,
+      1538,
+      611,
+      1566
+    ],
+    "replay_label/text_qa_only": "重玩",
+    "replay_label/text": "重玩",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_6_en": {
+    "title_value/actual_ink_bbox": [
+      405,
+      88,
+      535,
+      117
+    ],
+    "title_value/text_qa_only": "Level 3",
+    "title_value/text": "Level 3",
+    "energy_value/actual_ink_bbox": [
+      126,
+      105,
+      221,
+      131
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      109,
+      262,
+      130
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      372,
+      166,
+      409,
+      189
+    ],
+    "step_value/text_qa_only": "12",
+    "step_value/text": "12",
+    "time_value/actual_ink_bbox": [
+      569,
+      166,
+      651,
+      189
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      694,
+      299,
+      735,
+      324
+    ],
+    "trial_title/text_qa_only": "Try",
+    "trial_title/text": "Try",
+    "trial_caption/actual_ink_bbox": [
+      687,
+      335,
+      742,
+      350
+    ],
+    "trial_caption/text_qa_only": "+ Slot",
+    "completion_value/actual_ink_bbox": [
+      403,
+      444,
+      536,
+      463
+    ],
+    "completion_value/text_qa_only": "Done 2 / 6",
+    "completion_value/text": "Done 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      321,
+      1540,
+      396,
+      1562
+    ],
+    "undo_label/text_qa_only": "Undo",
+    "undo_label/text": "Undo",
+    "replay_label/actual_ink_bbox": [
+      536,
+      1540,
+      630,
+      1569
+    ],
+    "replay_label/text_qa_only": "Replay",
+    "replay_label/text": "Replay",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_3/liquids": [],
+    "bottle_4/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ],
+    "bottle_5/liquids": [
+      "orange",
+      "purple",
+      "yellow"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_6_zh": {
+    "title_value/actual_ink_bbox": [
+      412,
+      86,
+      528,
+      124
+    ],
+    "title_value/text_qa_only": "第 3 关",
+    "title_value/text": "第 3 关",
+    "energy_value/actual_ink_bbox": [
+      125,
+      104,
+      221,
+      139
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      108,
+      263,
+      131
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      355,
+      162,
+      425,
+      194
+    ],
+    "step_value/text_qa_only": "12步",
+    "step_value/text": "12步",
+    "time_value/actual_ink_bbox": [
+      567,
+      166,
+      653,
+      190
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      688,
+      297,
+      740,
+      324
+    ],
+    "trial_title/text_qa_only": "试用",
+    "trial_title/text": "试用",
+    "trial_caption/actual_ink_bbox": [
+      674,
+      332,
+      754,
+      353
+    ],
+    "trial_caption/text_qa_only": "增加槽位",
+    "completion_value/actual_ink_bbox": [
+      399,
+      440,
+      541,
+      469
+    ],
+    "completion_value/text_qa_only": "已完成 2 / 6",
+    "completion_value/text": "已完成 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      330,
+      1538,
+      386,
+      1566
+    ],
+    "undo_label/text_qa_only": "撤销",
+    "undo_label/text": "撤销",
+    "replay_label/actual_ink_bbox": [
+      555,
+      1538,
+      611,
+      1566
+    ],
+    "replay_label/text_qa_only": "重玩",
+    "replay_label/text": "重玩",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_3/liquids": [],
+    "bottle_4/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ],
+    "bottle_5/liquids": [
+      "orange",
+      "purple",
+      "yellow"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_8_en": {
+    "title_value/actual_ink_bbox": [
+      405,
+      88,
+      535,
+      117
+    ],
+    "title_value/text_qa_only": "Level 3",
+    "title_value/text": "Level 3",
+    "energy_value/actual_ink_bbox": [
+      126,
+      105,
+      221,
+      131
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      109,
+      262,
+      130
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      372,
+      166,
+      409,
+      189
+    ],
+    "step_value/text_qa_only": "12",
+    "step_value/text": "12",
+    "time_value/actual_ink_bbox": [
+      569,
+      166,
+      651,
+      189
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      694,
+      299,
+      735,
+      324
+    ],
+    "trial_title/text_qa_only": "Try",
+    "trial_title/text": "Try",
+    "trial_caption/actual_ink_bbox": [
+      687,
+      335,
+      742,
+      350
+    ],
+    "trial_caption/text_qa_only": "+ Slot",
+    "completion_value/actual_ink_bbox": [
+      403,
+      444,
+      536,
+      463
+    ],
+    "completion_value/text_qa_only": "Done 2 / 6",
+    "completion_value/text": "Done 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      321,
+      1540,
+      396,
+      1562
+    ],
+    "undo_label/text_qa_only": "Undo",
+    "undo_label/text": "Undo",
+    "replay_label/actual_ink_bbox": [
+      536,
+      1540,
+      630,
+      1569
+    ],
+    "replay_label/text_qa_only": "Replay",
+    "replay_label/text": "Replay",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_3/liquids": [],
+    "bottle_4/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ],
+    "bottle_5/liquids": [
+      "orange",
+      "purple",
+      "yellow"
+    ],
+    "bottle_6/liquids": [
+      "blue",
+      "red",
+      "green"
+    ],
+    "bottle_7/liquids": [
+      "red",
+      "yellow",
+      "purple"
+    ]
+  },
+  "reference2_board_layout_completion_v1__board_8_zh": {
+    "title_value/actual_ink_bbox": [
+      412,
+      86,
+      528,
+      124
+    ],
+    "title_value/text_qa_only": "第 3 关",
+    "title_value/text": "第 3 关",
+    "energy_value/actual_ink_bbox": [
+      125,
+      104,
+      221,
+      139
+    ],
+    "energy_value/text_qa_only": "25/30",
+    "energy_value/text": "25/30",
+    "energy_add/actual_ink_bbox": [
+      242,
+      108,
+      263,
+      131
+    ],
+    "energy_add/text_qa_only": "+",
+    "step_value/actual_ink_bbox": [
+      355,
+      162,
+      425,
+      194
+    ],
+    "step_value/text_qa_only": "12步",
+    "step_value/text": "12步",
+    "time_value/actual_ink_bbox": [
+      567,
+      166,
+      653,
+      190
+    ],
+    "time_value/text_qa_only": "00:38",
+    "time_value/text": "00:38",
+    "order_bottle_0/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+    "order_bottle_1/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+    "order_bottle_2/source": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+    "trial_title/actual_ink_bbox": [
+      688,
+      297,
+      740,
+      324
+    ],
+    "trial_title/text_qa_only": "试用",
+    "trial_title/text": "试用",
+    "trial_caption/actual_ink_bbox": [
+      674,
+      332,
+      754,
+      353
+    ],
+    "trial_caption/text_qa_only": "增加槽位",
+    "completion_value/actual_ink_bbox": [
+      399,
+      440,
+      541,
+      469
+    ],
+    "completion_value/text_qa_only": "已完成 2 / 6",
+    "completion_value/text": "已完成 2 / 6",
+    "undo_label/actual_ink_bbox": [
+      330,
+      1538,
+      386,
+      1566
+    ],
+    "undo_label/text_qa_only": "撤销",
+    "undo_label/text": "撤销",
+    "replay_label/actual_ink_bbox": [
+      555,
+      1538,
+      611,
+      1566
+    ],
+    "replay_label/text_qa_only": "重玩",
+    "replay_label/text": "重玩",
+    "bottle_0/liquids": [
+      "blue",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "bottle_1/liquids": [
+      "orange",
+      "blue",
+      "yellow"
+    ],
+    "bottle_2/liquids": [
+      "purple",
+      "green",
+      "red"
+    ],
+    "bottle_3/liquids": [],
+    "bottle_4/liquids": [
+      "blue",
+      "blue",
+      "blue",
+      "blue"
+    ],
+    "bottle_5/liquids": [
+      "orange",
+      "purple",
+      "yellow"
+    ],
+    "bottle_6/liquids": [
+      "blue",
+      "red",
+      "green"
+    ],
+    "bottle_7/liquids": [
+      "red",
+      "yellow",
+      "purple"
+    ]
+  },
+  "reference2_confirmations_completion_r2__energy_failed_en": {
+    "body_0/text": "Energy: {energy} / {cap}",
+    "next_energy_countdown/text": "Next energy in {next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_failed_zh": {
+    "body_0/text": "当前体力 {energy} / {cap}",
+    "next_energy_countdown/text": "下一点体力：{next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_full_en": {
+    "body_0/text": "Energy: {energy} / {cap}"
+  },
+  "reference2_confirmations_completion_r2__energy_full_zh": {
+    "body_0/text": "当前体力 {energy} / {cap}"
+  },
+  "reference2_confirmations_completion_r2__energy_insufficient_en": {
+    "body_0/text": "Energy: {energy} / {cap}",
+    "next_energy_countdown/text": "Next energy in {next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_insufficient_zh": {
+    "body_0/text": "当前体力 {energy} / {cap}",
+    "next_energy_countdown/text": "下一点体力：{next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_loading_en": {
+    "body_0/text": "Energy: {energy} / {cap}",
+    "next_energy_countdown/text": "Next energy in {next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_loading_zh": {
+    "body_0/text": "当前体力 {energy} / {cap}",
+    "next_energy_countdown/text": "下一点体力：{next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_offline_en": {
+    "body_0/text": "Energy: {energy} / {cap}",
+    "next_energy_countdown/text": "Next energy in {next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_offline_zh": {
+    "body_0/text": "当前体力 {energy} / {cap}",
+    "next_energy_countdown/text": "下一点体力：{next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_ready_en": {
+    "body_0/text": "Energy: {energy} / {cap}",
+    "next_energy_countdown/text": "Next energy in {next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_ready_zh": {
+    "body_0/text": "当前体力 {energy} / {cap}",
+    "next_energy_countdown/text": "下一点体力：{next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_unavailable_en": {
+    "body_0/text": "Energy: {energy} / {cap}",
+    "next_energy_countdown/text": "Next energy in {next_tick}"
+  },
+  "reference2_confirmations_completion_r2__energy_unavailable_zh": {
+    "body_0/text": "当前体力 {energy} / {cap}",
+    "next_energy_countdown/text": "下一点体力：{next_tick}"
+  },
+  "reference2_confirmations_completion_r2__replay_settled_enough_en": {
+    "body_1/text": "Energy: {energy} / {cap}"
+  },
+  "reference2_confirmations_completion_r2__replay_settled_enough_zh": {
+    "body_1/text": "当前体力 {energy} / {cap}"
+  },
+  "reference2_confirmations_completion_r2__replay_settled_insufficient_en": {
+    "body_1/text": "Energy: {energy} / {cap}"
+  },
+  "reference2_confirmations_completion_r2__replay_settled_insufficient_zh": {
+    "body_1/text": "当前体力 {energy} / {cap}"
+  },
+  "reference2_confirmations_completion_r2__restart_unfinished_en": {},
+  "reference2_confirmations_completion_r2__restart_unfinished_zh": {},
+  "reference2_confirmations_completion_r2__result_en": {
+    "moves_value/text": "18",
+    "time_value/text": "01:24",
+    "level_subtitle/text": "Level {level}"
+  },
+  "reference2_confirmations_completion_r2__result_final_en": {
+    "moves_value/text": "18",
+    "time_value/text": "01:24",
+    "level_subtitle/text": "Level {level}"
+  },
+  "reference2_confirmations_completion_r2__result_final_zh": {
+    "moves_value/text": "18",
+    "time_value/text": "01:24",
+    "level_subtitle/text": "第 {level} 关"
+  },
+  "reference2_confirmations_completion_r2__result_zh": {
+    "moves_value/text": "18",
+    "time_value/text": "01:24",
+    "level_subtitle/text": "第 {level} 关"
+  },
+  "reference2_confirmations_completion_r2__return_home_en": {},
+  "reference2_confirmations_completion_r2__return_home_zh": {},
+  "reference2_tutorial_completion_v1__guide_01_select_waiting_en": {
+    "highlight_holes_sample": [
+      [
+        80,
+        515,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_01_select_waiting_zh": {
+    "highlight_holes_sample": [
+      [
+        80,
+        515,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_02_pour_ready_en": {
+    "highlight_holes_sample": [
+      [
+        695,
+        515,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_02_pour_ready_zh": {
+    "highlight_holes_sample": [
+      [
+        695,
+        515,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_02_pour_waiting_en": {
+    "highlight_holes_sample": [
+      [
+        695,
+        515,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_02_pour_waiting_zh": {
+    "highlight_holes_sample": [
+      [
+        695,
+        515,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_03_seal_waiting_en": {
+    "highlight_holes_sample": [
+      [
+        80,
+        966,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_03_seal_waiting_zh": {
+    "highlight_holes_sample": [
+      [
+        80,
+        966,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_04_deliver_waiting_en": {
+    "highlight_holes_sample": [
+      [
+        312,
+        216,
+        157,
+        204
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_04_deliver_waiting_zh": {
+    "highlight_holes_sample": [
+      [
+        312,
+        216,
+        157,
+        204
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_05_finish_ready_en": {
+    "highlight_holes_sample": [
+      [
+        178,
+        422,
+        585,
+        63
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_05_finish_ready_zh": {
+    "highlight_holes_sample": [
+      [
+        178,
+        422,
+        585,
+        63
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_05_finish_waiting_en": {
+    "highlight_holes_sample": [
+      [
+        178,
+        422,
+        585,
+        63
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_05_finish_waiting_zh": {
+    "highlight_holes_sample": [
+      [
+        178,
+        422,
+        585,
+        63
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_06_lock_waiting_en": {
+    "highlight_holes_sample": [
+      [
+        285,
+        966,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__guide_06_lock_waiting_zh": {
+    "highlight_holes_sample": [
+      [
+        285,
+        966,
+        165,
+        410
+      ]
+    ]
+  },
+  "reference2_tutorial_completion_v1__help_01_select_en": {},
+  "reference2_tutorial_completion_v1__help_01_select_zh": {},
+  "reference2_tutorial_completion_v1__help_02_pour_en": {},
+  "reference2_tutorial_completion_v1__help_02_pour_zh": {},
+  "reference2_tutorial_completion_v1__help_03_seal_en": {},
+  "reference2_tutorial_completion_v1__help_03_seal_zh": {},
+  "reference2_tutorial_completion_v1__help_04_deliver_en": {},
+  "reference2_tutorial_completion_v1__help_04_deliver_zh": {},
+  "reference2_tutorial_completion_v1__help_05_finish_en": {},
+  "reference2_tutorial_completion_v1__help_05_finish_zh": {},
+  "reference2_tutorial_completion_v1__help_06_lock_en": {},
+  "reference2_tutorial_completion_v1__help_06_lock_zh": {},
+  "reference2_tutorial_completion_v1__pause_with_help_en": {
+    "music_state/text": "ON",
+    "sound_state/text": "OFF",
+    "language_current/text": "English"
+  },
+  "reference2_tutorial_completion_v1__pause_with_help_zh": {
+    "music_state/text": "开",
+    "sound_state/text": "关",
+    "language_current/text": "简体中文"
+  }
+}

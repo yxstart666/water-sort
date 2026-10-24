@@ -1,0 +1,231 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        100,
+        500,
+        740,
+        718
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        132,
+        546,
+        676,
+        80
+      ],
+      "text": "Restart level?",
+      "font_px": 44,
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        136,
+        682,
+        668,
+        62
+      ],
+      "text": "Your current moves will be reset.",
+      "font_px": 33,
+      "binding": null,
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "rect": [
+        136,
+        760,
+        668,
+        62
+      ],
+      "text": "No extra energy for this attempt.",
+      "font_px": 33,
+      "binding": null,
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "cancel",
+      "kind": "button",
+      "rect": [
+        144,
+        1010,
+        300,
+        132
+      ],
+      "hit_rect": [
+        144.0,
+        1010.0,
+        300,
+        132
+      ],
+      "text": "Cancel",
+      "font_px": 36,
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "state": "normal",
+      "required_action_binding": {
+        "semantic": "close_confirmation_to_exact_origin_without_side_effects",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "confirm",
+      "kind": "button",
+      "rect": [
+        496,
+        1010,
+        300,
+        132
+      ],
+      "hit_rect": [
+        496.0,
+        1010.0,
+        300,
+        132
+      ],
+      "text": "Restart",
+      "font_px": 36,
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "state": "normal",
+      "required_action_binding": {
+        "semantic": "restart_same_unfinished_attempt_once",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [
+    {
+      "element_id": "cancel",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "close_confirmation_to_exact_origin_without_side_effects",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "confirm",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "restart_same_unfinished_attempt_once",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    }
+  ],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "safe_area": "Uniform root contain inside safe area. At 360 logical dp width scale=360/940, buttons are 114.89x50.55 dp; do not scale below 48dp hit height. For narrower viewports reflow with min 48dp hit targets.",
+  "integration_contract": {
+    "rules": [
+      "Re-read actual attempt and live energy immediately before action; route to applicable branch if changed.",
+      "Cancel never resets, debits, saves, or changes progress.",
+      "Home persistence/autosave/resume behavior is unverified: call existing route; do not invent progress loss, saving, or restoration.",
+      "After settlement, only existing new-attempt transaction may debit exactly 5 once. Never debit from UI then again from start handler.",
+      "Insufficient energy opens existing energy flow without board reset/debit/new attempt. Returning from energy flow must re-read store, not auto-start.",
+      "Never imply unfinished restart clears saved campaign progress."
+    ]
+  },
+  "background_binding": "live caller scene, no static gameplay image"
+}

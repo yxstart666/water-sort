@@ -1,0 +1,114 @@
+{
+  "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_back_shadow.png": {
+    "sha256": "424db6d82f2c75b515c727cb44d12cd538612ca725bfbf6ff2d5e728c1092a94",
+    "bytes": 1910
+  },
+  "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_front_reflection.png": {
+    "sha256": "25ac4f208edd5fd83110e44c9e7fb8d7a490633ff856f7fa4c7ccc1a21889e06",
+    "bytes": 92854
+  },
+  "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/pour_cavity_mask.png": {
+    "sha256": "d7ab88a46d97bac14f85fa33dca291c2b12a167d909daceae488e06e98c9a780",
+    "bytes": 3301
+  },
+  "deliverables/water_sort/reference2_top_hud_v1/assets/level_title_blank.png": {
+    "sha256": "c528abbf461214d5c6de5775665a182b3078c7618466e9c0da6261a92d8f2ffe",
+    "bytes": 28731
+  },
+  "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf": {
+    "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+    "bytes": 17002224
+  },
+  "deliverables/water_sort/reference2_energy_component_v1/assets/energy_pill_base.png": {
+    "sha256": "44f33c3dc05b2257aa67fd8ffa7716421edb227b3624e5f3fbc508dfd666faab",
+    "bytes": 12510
+  },
+  "deliverables/water_sort/reference2_energy_component_v1/assets/energy_bolt.png": {
+    "sha256": "f16d48004d862201dddee35db00d7774d7aa81589894a2153464f383c8b10410",
+    "bytes": 4433
+  },
+  "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_button_blank.png": {
+    "sha256": "bb1437589d5afd9f086c3f3298a1803b4a588e677437a62946cb41c403cf9daf",
+    "bytes": 17416
+  },
+  "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_icon_original.png": {
+    "sha256": "75b5b6aa00f862017a821c1463138219af0fcd78445a8cb003d125c87c5103d6",
+    "bytes": 5881
+  },
+  "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_blank.png": {
+    "sha256": "44f33c3dc05b2257aa67fd8ffa7716421edb227b3624e5f3fbc508dfd666faab",
+    "bytes": 12510
+  },
+  "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_icon.png": {
+    "sha256": "76f7d1f12c3f3eab7f1dbd228afed34c4f6f2067ff1118b3d10bb24d1cf2b083",
+    "bytes": 18603
+  },
+  "deliverables/water_sort/reference2_top_hud_v1/assets/time_pill_blank.png": {
+    "sha256": "72e29b33515197d909b2117128a7b1e35fef0dbaf7c0a342c3e06973285bd434",
+    "bytes": 12364
+  },
+  "deliverables/water_sort/reference2_top_hud_v1/assets/time_pill_icon.png": {
+    "sha256": "2602621b62a013b290e582d89b09bbf125e5b05692665fba489cc3c5e6150fc0",
+    "bytes": 21000
+  },
+  "deliverables/water_sort/reference2_order_card_local_repair_v1/assets/order_card_reference2_empty.png": {
+    "sha256": "97c5c4baa0304ac13cd781a0dc49c7b96aa077ed29e580d6eeadd07ba823f4ee",
+    "bytes": 32315
+  },
+  "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png": {
+    "sha256": "d658621a49b1340e65432b541881224a9e2c49869bc8ca5773601a17f62338e0",
+    "bytes": 12134
+  },
+  "deliverables/water_sort/reference2_order_status_v1/assets/order_status_ring.png": {
+    "sha256": "bbcc21ee22b4831552763159ea6be4b1d6636eee39d41e2f059c54353274d6c1",
+    "bytes": 1755
+  },
+  "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png": {
+    "sha256": "ba4b72211f16f3695c66d2d400445fad5a59da37ad8a9833aacb4e9d571b68f6",
+    "bytes": 12262
+  },
+  "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png": {
+    "sha256": "92fdcd2556329112fa31a9f80efcb1739f8b9729e5d97196b78b15fb70a20a7b",
+    "bytes": 12214
+  },
+  "deliverables/water_sort/reference2_order_status_v1/assets/order_trial_card_blank.png": {
+    "sha256": "d356b2cbc031e6d0e23e34c61cb087ce38d981a59d7cbaa25cacfa2de78a3510",
+    "bytes": 21492
+  },
+  "deliverables/water_sort/reference2_completion_strip_v1/assets/completion_strip_reference2_empty.png": {
+    "sha256": "0298a8ecc90bc944457fc5c17c3f35ae95a93556f16184c180bb6699cb9e8dfd",
+    "bytes": 15561
+  },
+  "deliverables/water_sort/reference2_undo_button_v1/assets/undo_button_blank.png": {
+    "sha256": "14052a155dd6b29f9c169fb8e4466115c9d5c17a0582196352edeef193411f9c",
+    "bytes": 29136
+  },
+  "deliverables/water_sort/reference2_undo_button_v1/assets/undo_arrow_original.png": {
+    "sha256": "e097256de09ad374abcf16af6e94ba9ae8e0b8638e21858b73f9aef0d7ee54fe",
+    "bytes": 6393
+  },
+  "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png": {
+    "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+    "bytes": 28767
+  },
+  "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_icon_original.png": {
+    "sha256": "e3b6296fddab071905c51d63555458bbe9c4265eb56ed9d4e81d7600a4514dbd",
+    "bytes": 7569
+  },
+  "deliverables/water_sort/reference2_background_cleanplate_v1/assets/background_native_940x1672.png": {
+    "sha256": "3dfdfa238bf6bcc55114d5981b08325933e1b4873a208f1cdc5587d1c69324cd",
+    "bytes": 1086488
+  },
+  "deliverables/water_sort/reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf": {
+    "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+    "bytes": 515752
+  },
+  "deliverables/water_sort/reference2_main_cork_completion_v1/assets/main_bottle_cork.png": {
+    "sha256": "ee086239a2ff863ab24ae8cba66a0560b20302944551982096713823ea378b55",
+    "bytes": 5100
+  },
+  "deliverables/water_sort/reference2_misc_states_v1/assets/whole_bottle_lock_gold.png": {
+    "sha256": "e29c1285507dc2b7b02d14de3b09f9bdb22506a3967f0f203e9035558083c61d",
+    "bytes": 11234
+  }
+}

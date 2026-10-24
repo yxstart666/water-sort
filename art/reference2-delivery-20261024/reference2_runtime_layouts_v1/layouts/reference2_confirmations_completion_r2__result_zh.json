@@ -1,0 +1,481 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "zh",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        110,
+        386,
+        720,
+        802
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        145,
+        421,
+        650,
+        70
+      ],
+      "text": "闯关成功",
+      "font_px": 40,
+      "color": "#FFF5DE",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "moves_label",
+      "kind": "text",
+      "rect": [
+        160,
+        535,
+        280,
+        50
+      ],
+      "text": "使用步数",
+      "font_px": 32,
+      "color": "#DCEBFF",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "time_label",
+      "kind": "text",
+      "rect": [
+        500,
+        535,
+        280,
+        50
+      ],
+      "text": "用时",
+      "font_px": 32,
+      "color": "#DCEBFF",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "moves_value",
+      "kind": "text",
+      "rect": [
+        160,
+        590,
+        280,
+        92
+      ],
+      "font_px": 64,
+      "color": "#FFD235",
+      "required_text_binding": {
+        "semantic": "attempt.moves",
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "localized_pattern": "{value_1}",
+        "inputs": [
+          {
+            "key": "value_1",
+            "type": "integer",
+            "required": true,
+            "data_source": "attempt.moves"
+          }
+        ]
+      },
+      "required_binding": "attempt.moves",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "time_value",
+      "kind": "text",
+      "rect": [
+        500,
+        590,
+        280,
+        92
+      ],
+      "font_px": 64,
+      "color": "#FFD235",
+      "required_text_binding": {
+        "semantic": "attempt.elapsed",
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "localized_pattern": "{value_1}",
+        "inputs": [
+          {
+            "key": "value_1",
+            "type": "formatted_duration",
+            "required": true,
+            "data_source": "attempt.elapsed"
+          }
+        ]
+      },
+      "required_binding": "attempt.elapsed",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "records",
+      "kind": "text",
+      "rect": [
+        190,
+        696,
+        560,
+        126
+      ],
+      "text": "查看本机记录 ›",
+      "font_px": 32,
+      "color": "#DCEBFF",
+      "hit_rect": [
+        190.0,
+        696.0,
+        560,
+        126
+      ],
+      "required_action_binding": {
+        "semantic": "open_existing_local_records",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "next",
+      "kind": "button",
+      "rect": [
+        160,
+        834,
+        620,
+        132
+      ],
+      "text": "下一关",
+      "font_px": 36,
+      "enabled": true,
+      "brightness": 1.07,
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "hit_rect": [
+        160.0,
+        834.0,
+        620,
+        132
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1.07,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "minimum_hit_dp_at_360": 50.5531914893617,
+      "required_action_binding": {
+        "semantic": "start_next_existing_rules",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "button_0",
+      "kind": "button",
+      "rect": [
+        160,
+        982,
+        298,
+        132
+      ],
+      "text": "重玩本关",
+      "font_px": 32,
+      "enabled": true,
+      "brightness": 1.0,
+      "disabled_brightness": 0.48,
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "hit_rect": [
+        160.0,
+        982.0,
+        298,
+        132
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1.0,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "minimum_hit_dp_at_360": 50.5531914893617,
+      "required_action_binding": {
+        "semantic": "open_restart_confirm",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "button_1",
+      "kind": "button",
+      "rect": [
+        482,
+        982,
+        298,
+        132
+      ],
+      "text": "回到主页",
+      "font_px": 32,
+      "enabled": true,
+      "brightness": 1.0,
+      "disabled_brightness": 0.48,
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "hit_rect": [
+        482.0,
+        982.0,
+        298,
+        132
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1.0,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "minimum_hit_dp_at_360": 50.5531914893617,
+      "required_action_binding": {
+        "semantic": "return_home",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "level_subtitle",
+      "kind": "text",
+      "rect": [
+        180,
+        493,
+        580,
+        38
+      ],
+      "font_px": 27,
+      "color": "#DCEBFF",
+      "required_text_binding": {
+        "semantic": "completed_attempt.level_id; same attempt as displayed statistics",
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "inputs": [
+          {
+            "key": "localized_text",
+            "type": "string",
+            "required": true,
+            "data_source": "completed_attempt.level_id; same attempt as displayed statistics"
+          }
+        ]
+      },
+      "required_binding": "completed_attempt.level_id; same attempt as displayed statistics",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [
+    {
+      "element_id": "moves_value",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "attempt.moves",
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "localized_pattern": "{value_1}",
+          "inputs": [
+            {
+              "key": "value_1",
+              "type": "integer",
+              "required": true,
+              "data_source": "attempt.moves"
+            }
+          ]
+        },
+        "required_binding": "attempt.moves"
+      }
+    },
+    {
+      "element_id": "time_value",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "attempt.elapsed",
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "localized_pattern": "{value_1}",
+          "inputs": [
+            {
+              "key": "value_1",
+              "type": "formatted_duration",
+              "required": true,
+              "data_source": "attempt.elapsed"
+            }
+          ]
+        },
+        "required_binding": "attempt.elapsed"
+      }
+    },
+    {
+      "element_id": "records",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open_existing_local_records",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "next",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "start_next_existing_rules",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "button_0",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open_restart_confirm",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "button_1",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "return_home",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "level_subtitle",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "completed_attempt.level_id; same attempt as displayed statistics",
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "inputs": [
+            {
+              "key": "localized_text",
+              "type": "string",
+              "required": true,
+              "data_source": "completed_attempt.level_id; same attempt as displayed statistics"
+            }
+          ]
+        },
+        "required_binding": "completed_attempt.level_id; same attempt as displayed statistics"
+      }
+    }
+  ],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "background_binding": "live caller scene, no static gameplay image"
+}

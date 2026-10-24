@@ -1,0 +1,707 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        90,
+        386,
+        760,
+        1040
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        380.0,
+        450.0
+      ]
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "text": "Paused",
+      "rect": [
+        134,
+        426,
+        450,
+        80
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "align": "center",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "close_button",
+      "kind": "ninepatch",
+      "rect": [
+        648,
+        426,
+        158,
+        64
+      ],
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        79.0,
+        32.0
+      ],
+      "hit_rect": [
+        648,
+        400,
+        158,
+        116
+      ]
+    },
+    {
+      "id": "close_text",
+      "kind": "text",
+      "text": "Close",
+      "rect": [
+        648,
+        426,
+        158,
+        64
+      ],
+      "font_px": 32,
+      "color": "#FFF5DE",
+      "align": "center",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "music_row",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        540,
+        672,
+        112
+      ],
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        336.0,
+        56.0
+      ]
+    },
+    {
+      "id": "music_icon",
+      "kind": "image",
+      "rect": [
+        158,
+        560,
+        72,
+        72
+      ],
+      "source": "reference2_pause_language_candidate_v1/assets/music_on.png",
+      "required_binding": {
+        "flag": "music_enabled",
+        "true_asset": "reference2_pause_language_candidate_v1/assets/music_on.png",
+        "false_asset": "reference2_pause_language_candidate_v1/assets/music_off.png"
+      }
+    },
+    {
+      "id": "music_label",
+      "kind": "text",
+      "text": "Music",
+      "rect": [
+        244,
+        558,
+        324,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "left",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "music_toggle",
+      "kind": "ninepatch",
+      "rect": [
+        616,
+        560,
+        164,
+        72
+      ],
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        82.0,
+        36.0
+      ],
+      "hit_rect": [
+        606,
+        538,
+        180,
+        116
+      ]
+    },
+    {
+      "id": "music_state",
+      "kind": "text",
+      "rect": [
+        616,
+        560,
+        164,
+        72
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "required_text_binding": {
+        "semantic": {
+          "flag": "music_enabled",
+          "true_text": "ON",
+          "false_text": "OFF"
+        },
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "inputs": [
+          {
+            "key": "localized_text",
+            "type": "string",
+            "required": true,
+            "data_source": {
+              "flag": "music_enabled",
+              "true_text": "ON",
+              "false_text": "OFF"
+            }
+          }
+        ]
+      },
+      "required_binding": {
+        "flag": "music_enabled",
+        "true_text": "ON",
+        "false_text": "OFF"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "sound_row",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        674,
+        672,
+        112
+      ],
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        336.0,
+        56.0
+      ]
+    },
+    {
+      "id": "sound_icon",
+      "kind": "image",
+      "rect": [
+        158,
+        694,
+        72,
+        72
+      ],
+      "source": "reference2_pause_language_candidate_v1/assets/sound_off.png",
+      "required_binding": {
+        "flag": "sfx_enabled",
+        "true_asset": "reference2_pause_language_candidate_v1/assets/sound_on.png",
+        "false_asset": "reference2_pause_language_candidate_v1/assets/sound_off.png"
+      }
+    },
+    {
+      "id": "sound_label",
+      "kind": "text",
+      "text": "Sound",
+      "rect": [
+        244,
+        692,
+        324,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "left",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "sound_toggle",
+      "kind": "ninepatch",
+      "rect": [
+        616,
+        694,
+        164,
+        72
+      ],
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        82.0,
+        36.0
+      ],
+      "hit_rect": [
+        606,
+        672,
+        180,
+        116
+      ]
+    },
+    {
+      "id": "sound_state",
+      "kind": "text",
+      "rect": [
+        616,
+        694,
+        164,
+        72
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "required_text_binding": {
+        "semantic": {
+          "flag": "sfx_enabled",
+          "true_text": "ON",
+          "false_text": "OFF"
+        },
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "inputs": [
+          {
+            "key": "localized_text",
+            "type": "string",
+            "required": true,
+            "data_source": {
+              "flag": "sfx_enabled",
+              "true_text": "ON",
+              "false_text": "OFF"
+            }
+          }
+        ]
+      },
+      "required_binding": {
+        "flag": "sfx_enabled",
+        "true_text": "ON",
+        "false_text": "OFF"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "language_row",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        808,
+        672,
+        112
+      ],
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        336.0,
+        56.0
+      ],
+      "hit_rect": [
+        134,
+        806,
+        672,
+        116
+      ]
+    },
+    {
+      "id": "language_label",
+      "kind": "text",
+      "text": "Language",
+      "rect": [
+        164,
+        826,
+        270,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "left",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "language_current",
+      "kind": "text",
+      "rect": [
+        456,
+        826,
+        320,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "required_text_binding": {
+        "semantic": "actual_locale_name",
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "inputs": [
+          {
+            "key": "localized_text",
+            "type": "string",
+            "required": true,
+            "data_source": "actual_locale_name"
+          }
+        ]
+      },
+      "required_binding": "actual_locale_name",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "resume_button",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        950,
+        672,
+        112
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        336.0,
+        56.0
+      ],
+      "hit_rect": [
+        134,
+        948,
+        672,
+        116
+      ]
+    },
+    {
+      "id": "resume",
+      "kind": "text",
+      "text": "Resume",
+      "rect": [
+        158,
+        968,
+        624,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "restart_button",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        1084,
+        318,
+        112
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        159.0,
+        56.0
+      ],
+      "hit_rect": [
+        134,
+        1082,
+        318,
+        116
+      ]
+    },
+    {
+      "id": "restart",
+      "kind": "text",
+      "text": "Restart Level",
+      "rect": [
+        148,
+        1102,
+        290,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "home_button",
+      "kind": "ninepatch",
+      "rect": [
+        488,
+        1084,
+        318,
+        112
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        159.0,
+        56.0
+      ],
+      "hit_rect": [
+        488,
+        1082,
+        318,
+        116
+      ]
+    },
+    {
+      "id": "home",
+      "kind": "text",
+      "text": "Home",
+      "rect": [
+        502,
+        1102,
+        290,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "help_entry",
+      "kind": "button",
+      "text": "How to play",
+      "rect": [
+        134,
+        1230,
+        672,
+        120
+      ],
+      "hit_rect": [
+        134.0,
+        1227.0,
+        672,
+        126
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "required_action_binding": {
+        "semantic": "open_help_page_1_keep_pause_origin",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [
+    {
+      "element_id": "music_icon",
+      "requirements": {
+        "required_binding": {
+          "flag": "music_enabled",
+          "true_asset": "reference2_pause_language_candidate_v1/assets/music_on.png",
+          "false_asset": "reference2_pause_language_candidate_v1/assets/music_off.png"
+        }
+      }
+    },
+    {
+      "element_id": "music_state",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": {
+            "flag": "music_enabled",
+            "true_text": "ON",
+            "false_text": "OFF"
+          },
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "inputs": [
+            {
+              "key": "localized_text",
+              "type": "string",
+              "required": true,
+              "data_source": {
+                "flag": "music_enabled",
+                "true_text": "ON",
+                "false_text": "OFF"
+              }
+            }
+          ]
+        },
+        "required_binding": {
+          "flag": "music_enabled",
+          "true_text": "ON",
+          "false_text": "OFF"
+        }
+      }
+    },
+    {
+      "element_id": "sound_icon",
+      "requirements": {
+        "required_binding": {
+          "flag": "sfx_enabled",
+          "true_asset": "reference2_pause_language_candidate_v1/assets/sound_on.png",
+          "false_asset": "reference2_pause_language_candidate_v1/assets/sound_off.png"
+        }
+      }
+    },
+    {
+      "element_id": "sound_state",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": {
+            "flag": "sfx_enabled",
+            "true_text": "ON",
+            "false_text": "OFF"
+          },
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "inputs": [
+            {
+              "key": "localized_text",
+              "type": "string",
+              "required": true,
+              "data_source": {
+                "flag": "sfx_enabled",
+                "true_text": "ON",
+                "false_text": "OFF"
+              }
+            }
+          ]
+        },
+        "required_binding": {
+          "flag": "sfx_enabled",
+          "true_text": "ON",
+          "false_text": "OFF"
+        }
+      }
+    },
+    {
+      "element_id": "language_current",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "actual_locale_name",
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "inputs": [
+            {
+              "key": "localized_text",
+              "type": "string",
+              "required": true,
+              "data_source": "actual_locale_name"
+            }
+          ]
+        },
+        "required_binding": "actual_locale_name"
+      }
+    },
+    {
+      "element_id": "help_entry",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open_help_page_1_keep_pause_origin",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    }
+  ],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    195
+  ],
+  "mode": "pause_entry_proposal",
+  "integration_contract": {
+    "actions": {
+      "close_button": "close settings; resume only when opened from an active pause",
+      "music_toggle": "toggle music_enabled and persist existing preference; bind matching music icon",
+      "sound_toggle": "toggle existing sfx_enabled and persist existing preference; bind matching sound icon",
+      "language_row": "open language child; close returns to same source overlay",
+      "resume_button": "resume same attempt and stable board",
+      "restart_button": "open existing restart confirmation; follow RESTART_CONFIRM_STATE_ADDENDUM_R2.json",
+      "home_button": "retain existing original Home proposal; route unresolved, do not mutate business behavior from this static layout",
+      "help_entry": "open_help_page_1_keep_pause_origin"
+    }
+  },
+  "background_binding": "live caller scene, no static gameplay image"
+}

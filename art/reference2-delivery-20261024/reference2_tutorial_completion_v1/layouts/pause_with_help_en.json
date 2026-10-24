@@ -1,0 +1,511 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "screen": "S09",
+  "status": "static reconstruction candidate; not integrated",
+  "font": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        90,
+        386,
+        760,
+        1040
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        380.0,
+        450.0
+      ]
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "text": "Paused",
+      "rect": [
+        134,
+        426,
+        450,
+        80
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "align": "center"
+    },
+    {
+      "id": "close_button",
+      "kind": "ninepatch",
+      "rect": [
+        648,
+        426,
+        158,
+        64
+      ],
+      "source": "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        79.0,
+        32.0
+      ],
+      "hit_rect": [
+        648,
+        400,
+        158,
+        116
+      ]
+    },
+    {
+      "id": "close_text",
+      "kind": "text",
+      "text": "Close",
+      "rect": [
+        648,
+        426,
+        158,
+        64
+      ],
+      "font_px": 32,
+      "color": "#FFF5DE",
+      "align": "center"
+    },
+    {
+      "id": "music_row",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        540,
+        672,
+        112
+      ],
+      "source": "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        336.0,
+        56.0
+      ]
+    },
+    {
+      "id": "music_icon",
+      "kind": "image",
+      "rect": [
+        158,
+        560,
+        72,
+        72
+      ],
+      "source": "deliverables/water_sort/reference2_pause_language_candidate_v1/assets/music_on.png",
+      "binding": {
+        "flag": "music_enabled",
+        "true_asset": "deliverables/water_sort/reference2_pause_language_candidate_v1/assets/music_on.png",
+        "false_asset": "deliverables/water_sort/reference2_pause_language_candidate_v1/assets/music_off.png"
+      }
+    },
+    {
+      "id": "music_label",
+      "kind": "text",
+      "text": "Music",
+      "rect": [
+        244,
+        558,
+        324,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "left"
+    },
+    {
+      "id": "music_toggle",
+      "kind": "ninepatch",
+      "rect": [
+        616,
+        560,
+        164,
+        72
+      ],
+      "source": "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        82.0,
+        36.0
+      ],
+      "hit_rect": [
+        606,
+        538,
+        180,
+        116
+      ]
+    },
+    {
+      "id": "music_state",
+      "kind": "text",
+      "text": "ON",
+      "rect": [
+        616,
+        560,
+        164,
+        72
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "binding": {
+        "flag": "music_enabled",
+        "true_text": "ON",
+        "false_text": "OFF"
+      }
+    },
+    {
+      "id": "sound_row",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        674,
+        672,
+        112
+      ],
+      "source": "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        336.0,
+        56.0
+      ]
+    },
+    {
+      "id": "sound_icon",
+      "kind": "image",
+      "rect": [
+        158,
+        694,
+        72,
+        72
+      ],
+      "source": "deliverables/water_sort/reference2_pause_language_candidate_v1/assets/sound_off.png",
+      "binding": {
+        "flag": "sfx_enabled",
+        "true_asset": "deliverables/water_sort/reference2_pause_language_candidate_v1/assets/sound_on.png",
+        "false_asset": "deliverables/water_sort/reference2_pause_language_candidate_v1/assets/sound_off.png"
+      }
+    },
+    {
+      "id": "sound_label",
+      "kind": "text",
+      "text": "Sound",
+      "rect": [
+        244,
+        692,
+        324,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "left"
+    },
+    {
+      "id": "sound_toggle",
+      "kind": "ninepatch",
+      "rect": [
+        616,
+        694,
+        164,
+        72
+      ],
+      "source": "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        82.0,
+        36.0
+      ],
+      "hit_rect": [
+        606,
+        672,
+        180,
+        116
+      ]
+    },
+    {
+      "id": "sound_state",
+      "kind": "text",
+      "text": "OFF",
+      "rect": [
+        616,
+        694,
+        164,
+        72
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "binding": {
+        "flag": "sfx_enabled",
+        "true_text": "ON",
+        "false_text": "OFF"
+      }
+    },
+    {
+      "id": "language_row",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        808,
+        672,
+        112
+      ],
+      "source": "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        336.0,
+        56.0
+      ],
+      "hit_rect": [
+        134,
+        806,
+        672,
+        116
+      ]
+    },
+    {
+      "id": "language_label",
+      "kind": "text",
+      "text": "Language",
+      "rect": [
+        164,
+        826,
+        270,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "left"
+    },
+    {
+      "id": "language_current",
+      "kind": "text",
+      "text": "English",
+      "rect": [
+        456,
+        826,
+        320,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center",
+      "binding": "actual_locale_name"
+    },
+    {
+      "id": "resume_button",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        950,
+        672,
+        112
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        336.0,
+        56.0
+      ],
+      "hit_rect": [
+        134,
+        948,
+        672,
+        116
+      ]
+    },
+    {
+      "id": "resume",
+      "kind": "text",
+      "text": "Resume",
+      "rect": [
+        158,
+        968,
+        624,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center"
+    },
+    {
+      "id": "restart_button",
+      "kind": "ninepatch",
+      "rect": [
+        134,
+        1084,
+        318,
+        112
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        159.0,
+        56.0
+      ],
+      "hit_rect": [
+        134,
+        1082,
+        318,
+        116
+      ]
+    },
+    {
+      "id": "restart",
+      "kind": "text",
+      "text": "Restart Level",
+      "rect": [
+        148,
+        1102,
+        290,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center"
+    },
+    {
+      "id": "home_button",
+      "kind": "ninepatch",
+      "rect": [
+        488,
+        1084,
+        318,
+        112
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        159.0,
+        56.0
+      ],
+      "hit_rect": [
+        488,
+        1082,
+        318,
+        116
+      ]
+    },
+    {
+      "id": "home",
+      "kind": "text",
+      "text": "Home",
+      "rect": [
+        502,
+        1102,
+        290,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "center"
+    },
+    {
+      "id": "help_entry",
+      "kind": "button",
+      "text": "How to play",
+      "rect": [
+        134,
+        1230,
+        672,
+        120
+      ],
+      "hit_rect": [
+        134,
+        1230,
+        672,
+        120
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "action": "open_help_page_1_keep_pause_origin"
+    }
+  ],
+  "highlight_holes_sample": [],
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    195
+  ],
+  "scale_policy": "Uniform contain in actual safe area; at 360x640 scale=0.382775; interactive hit dimensions at least 116 basis px = 44.4px",
+  "qa_background": "Localized reference2 components; illustrative data, not guaranteed legal board",
+  "screen_override": "S04",
+  "mode": "pause_entry_proposal",
+  "actions": {
+    "close_button": "close settings; resume only when opened from an active pause",
+    "music_toggle": "toggle music_enabled and persist existing preference; bind matching music icon",
+    "sound_toggle": "toggle existing sfx_enabled and persist existing preference; bind matching sound icon",
+    "language_row": "open language child; close returns to same source overlay",
+    "resume_button": "resume same attempt and stable board",
+    "restart_button": "open existing restart confirmation; follow RESTART_CONFIRM_STATE_ADDENDUM_R2.json",
+    "home_button": "retain existing original Home proposal; route unresolved, do not mutate business behavior from this static layout",
+    "help_entry": "open_help_page_1_keep_pause_origin"
+  },
+  "limits": "Not integrated. Home navigation retains original proposal; route conflict unresolved. Alternative Levels label allowed only with explicitly confirmed direct level-selection route."
+}

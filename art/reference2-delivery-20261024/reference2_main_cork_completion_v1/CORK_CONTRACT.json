@@ -1,0 +1,53 @@
+{
+  "asset": "assets/main_bottle_cork.png",
+  "canvas_px": [
+    75,
+    40
+  ],
+  "bottle_canvas_px": [
+    165,
+    410
+  ],
+  "placement_top_left_in_bottle_px": [
+    45,
+    -8
+  ],
+  "cork_pivot_px": [
+    37.5,
+    26
+  ],
+  "pivot_in_bottle_px": [
+    82.5,
+    18
+  ],
+  "bottle_mouth_span_px": [
+    [
+      47,
+      18
+    ],
+    [
+      119,
+      18
+    ]
+  ],
+  "visible_cork_top_width_px": 67,
+  "top_width_to_inner_mouth_span": 0.9305555555555556,
+  "visible_cork_height_px": 31,
+  "scale_rule": "Uniform bottle scale applies to cork and placement. Never stretch independently.",
+  "layer_order": [
+    "glass_back_shadow",
+    "liquid",
+    "glass_front_reflection",
+    "main_bottle_cork"
+  ],
+  "source_reference_placement_px": [
+    125,
+    958
+  ],
+  "runtime_anchor_note": "Bottle top-left at [80,966] in reference second row. Cork padded top-left at [125,958]. Cork occludes rear mouth ellipse. Draw cork last; its bottom ends above the front lip lower edge.",
+  "status": "Art asset complete; static QA only, runtime integration not performed",
+  "limitations": [
+    "Imagegen extraction closely matches original source but is not pixel-identical alpha recovery.",
+    "No animation code, liquid physics, or game state semantics implemented."
+  ]
+}

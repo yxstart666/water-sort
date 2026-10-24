@@ -1,0 +1,307 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        110,
+        546,
+        720,
+        644
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        145,
+        581,
+        650,
+        70
+      ],
+      "text": "Energy",
+      "font_px": 46,
+      "color": "#FFF5DE",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        150,
+        668,
+        640,
+        52
+      ],
+      "font_px": 32,
+      "color": "#DCEBFF",
+      "required_text_binding": {
+        "semantic": "same live energy store, no fixture values",
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "inputs": [
+          {
+            "key": "localized_text",
+            "type": "string",
+            "required": true,
+            "data_source": "same live energy store, no fixture values"
+          }
+        ]
+      },
+      "required_binding": "same live energy store, no fixture values",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "rect": [
+        150,
+        725,
+        640,
+        52
+      ],
+      "text": "Reward failed. Please try later.",
+      "font_px": 32,
+      "color": "#DCEBFF",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "button_0",
+      "kind": "button",
+      "rect": [
+        160,
+        984,
+        298,
+        132
+      ],
+      "text": "Close",
+      "font_px": 32,
+      "enabled": true,
+      "brightness": 1.0,
+      "disabled_brightness": 0.48,
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "hit_rect": [
+        160.0,
+        984.0,
+        298,
+        132
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1.0,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "minimum_hit_dp_at_360": 50.5531914893617,
+      "required_action_binding": {
+        "semantic": "close_energy",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "button_1",
+      "kind": "button",
+      "rect": [
+        482,
+        984,
+        298,
+        132
+      ],
+      "text": "Unavailable",
+      "font_px": 32,
+      "enabled": false,
+      "brightness": 1.07,
+      "disabled_brightness": 0.48,
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "hit_rect": [
+        482.0,
+        984.0,
+        298,
+        132
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1.07,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "minimum_hit_dp_at_360": 50.5531914893617,
+      "required_action_binding": {
+        "semantic": "verified_reward_flow_only",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "next_energy_countdown",
+      "kind": "text",
+      "rect": [
+        150,
+        861,
+        640,
+        50
+      ],
+      "font_px": 31,
+      "color": "#DCEBFF",
+      "visible_when": "energy < cap",
+      "required_text_binding": {
+        "semantic": "existing store next_recovery_timestamp minus authoritative current time; localized mm:ss; hidden at cap; floor/ceil follows existing store",
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "inputs": [
+          {
+            "key": "localized_text",
+            "type": "string",
+            "required": true,
+            "data_source": "existing store next_recovery_timestamp minus authoritative current time; localized mm:ss; hidden at cap; floor/ceil follows existing store"
+          }
+        ]
+      },
+      "required_binding": "existing store next_recovery_timestamp minus authoritative current time; localized mm:ss; hidden at cap; floor/ceil follows existing store",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [
+    {
+      "element_id": "body_0",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "same live energy store, no fixture values",
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "inputs": [
+            {
+              "key": "localized_text",
+              "type": "string",
+              "required": true,
+              "data_source": "same live energy store, no fixture values"
+            }
+          ]
+        },
+        "required_binding": "same live energy store, no fixture values"
+      }
+    },
+    {
+      "element_id": "button_0",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "close_energy",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "button_1",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "verified_reward_flow_only",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "next_energy_countdown",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "existing store next_recovery_timestamp minus authoritative current time; localized mm:ss; hidden at cap; floor/ceil follows existing store",
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "inputs": [
+            {
+              "key": "localized_text",
+              "type": "string",
+              "required": true,
+              "data_source": "existing store next_recovery_timestamp minus authoritative current time; localized mm:ss; hidden at cap; floor/ceil follows existing store"
+            }
+          ]
+        },
+        "required_binding": "existing store next_recovery_timestamp minus authoritative current time; localized mm:ss; hidden at cap; floor/ceil follows existing store"
+      }
+    }
+  ],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "background_binding": "live caller scene, no static gameplay image"
+}

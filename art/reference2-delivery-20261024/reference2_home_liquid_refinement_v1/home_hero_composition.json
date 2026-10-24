@@ -1,0 +1,139 @@
+{
+  "status": "static component-layout candidate; not runtime acceptance",
+  "source_contract": "deliverables/water_sort/reference2_original_bottle_layers_v1/BOTTLE_CONTRACT.json",
+  "hero_local_canvas": [
+    410,
+    430
+  ],
+  "page_rect": [
+    265,
+    570,
+    410,
+    430
+  ],
+  "page_canvas": [
+    940,
+    1672
+  ],
+  "assets": {
+    "glass_back_shadow": "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_back_shadow.png",
+    "glass_front_reflection": "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_front_reflection.png",
+    "pour_cavity_mask": "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/pour_cavity_mask.png"
+  },
+  "asset_sha256": {
+    "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_back_shadow.png": "424db6d82f2c75b515c727cb44d12cd538612ca725bfbf6ff2d5e728c1092a94",
+    "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_front_reflection.png": "25ac4f208edd5fd83110e44c9e7fb8d7a490633ff856f7fa4c7ccc1a21889e06",
+    "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/pour_cavity_mask.png": "d7ab88a46d97bac14f85fa33dca291c2b12a167d909daceae488e06e98c9a780"
+  },
+  "palette": {
+    "red": "EB3043",
+    "blue": "148BE8",
+    "yellow": "F2D414",
+    "green": "11B866",
+    "purple": "A651F3",
+    "orange": "F57810",
+    "pink": "ED29B2",
+    "cyan": "13CBD7"
+  },
+  "bottles": [
+    {
+      "id": "left",
+      "local_rect": [
+        20,
+        10,
+        165,
+        410
+      ],
+      "page_rect": [
+        285,
+        580,
+        165,
+        410
+      ],
+      "scale": 1,
+      "colors_bottom_to_top": [
+        "blue",
+        "green",
+        "yellow",
+        "red"
+      ],
+      "fill_bottom_px": 382,
+      "slot_height_px": 68.25,
+      "free_surface": {
+        "center_y": 109.0,
+        "center_x": 81.5,
+        "radius_x": 62.5,
+        "radius_y": 3,
+        "count": 1,
+        "white_mix": 0.08,
+        "outline": false
+      },
+      "mask_sample": {
+        "channel": "A",
+        "row": 109,
+        "span_inclusive": [
+          19,
+          144
+        ],
+        "alpha_range": [
+          238,
+          255
+        ]
+      }
+    },
+    {
+      "id": "right",
+      "local_rect": [
+        225,
+        10,
+        165,
+        410
+      ],
+      "page_rect": [
+        490,
+        580,
+        165,
+        410
+      ],
+      "scale": 1,
+      "colors_bottom_to_top": [
+        "orange",
+        "purple",
+        "yellow"
+      ],
+      "fill_bottom_px": 382,
+      "slot_height_px": 68.25,
+      "free_surface": {
+        "center_y": 177.25,
+        "center_x": 81.5,
+        "radius_x": 62.5,
+        "radius_y": 3,
+        "count": 1,
+        "white_mix": 0.08,
+        "outline": false
+      },
+      "mask_sample": {
+        "channel": "A",
+        "row": 177,
+        "span_inclusive": [
+          19,
+          144
+        ],
+        "alpha_range": [
+          238,
+          255
+        ]
+      }
+    }
+  ],
+  "layer_order": [
+    "glass_back_shadow",
+    "runtime_liquid_clipped_to_pour_cavity_mask",
+    "glass_front_reflection"
+  ],
+  "liquid_shading": "0.86 + 0.14*sin(clamp((x-16)/133,0,1)*pi), inherited unchanged",
+  "interfaces": "flat horizontal, touching; no internal ellipses, rings, gaps, shadows",
+  "transparency": "preserve source mask alpha and approved front/back layers; no new alpha manipulation",
+  "qa_only_png": true,
+  "production_replacement": "replace baked hero image node with two existing bottle components, not QA PNG"
+}

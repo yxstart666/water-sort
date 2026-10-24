@@ -1,0 +1,27 @@
+{
+  "mode": "built-in imagegen",
+  "on_prompts": [
+    {
+      "name": "music_on",
+      "prompt": "Use case: stylized-concept. Asset type: ONE independent transparent game settings icon, no panel. The attached small original clock is a MATERIAL AND STYLE reference only. Match its simple thick glossy golden-yellow beveled shape, warm orange-gold side shading, warm ivory small highlights and clean rounded contours; it belongs to a dark navy-blue and gold game UI. Do not copy the clock itself. Tight centered composition with modest empty padding, readable at 44 pixels high. Real transparent alpha background. No text, no letters, no ON/OFF text, no container, no gold frame, no star, no decorative droplets, no external shadows outside the icon. Subject: a single connected eighth-note MUSIC symbol with a curved flag, explicitly MUSIC ON. A compact, friendly golden solid musical eighth note, not a flat vector.",
+      "output_hint": "Generated images are saved to /workspace/scratch/abf455579c09/generated_images as /workspace/scratch/abf455579c09/generated_images/exec-1c424619-8a97-46b6-817f-cb19af14dc85.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "name": "sound_on",
+      "prompt": "Use case: stylized-concept. Asset type: ONE independent transparent game settings icon, no panel. The attached small original clock is a MATERIAL AND STYLE reference only. Match its simple thick glossy golden-yellow beveled shape, warm orange-gold side shading, warm ivory small highlights and clean rounded contours; it belongs to a dark navy-blue and gold game UI. Do not copy the clock itself. Tight centered composition with modest empty padding, readable at 44 pixels high. Real transparent alpha background. No text, no letters, no ON/OFF text, no container, no gold frame, no star, no decorative droplets, no external shadows outside the icon. Subject: a golden speaker cone with TWO short rounded curved sound-wave arcs to its right, explicitly SOUND ON. Compact thick glossy three-dimensional gold symbol, not flat vector.",
+      "output_hint": "Generated images are saved to /workspace/scratch/abf455579c09/generated_images as /workspace/scratch/abf455579c09/generated_images/exec-4534a1e4-73d6-41f6-8e78-97e5b2df0b7d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "off_prompts": [
+    {
+      "name": "music_off",
+      "reference": "/workspace/scratch/abf455579c09/generated_images/exec-1c424619-8a97-46b6-817f-cb19af14dc85.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied golden musical-note icon to make its corresponding MUSIC OFF state. Preserve exactly the note silhouette, its placement, warm yellow-gold glossy bevel, ivory highlights and orange depth. Add ONE clearly visible thick rounded diagonal slash across the note from upper right to lower left, made from the same glossy light-gold material, with a very narrow dark-navy separation shadow where it overlaps the note so the slash is readable at 44 pixels. No circle, no panel, no text, no extra symbols, do not redraw or rotate the underlying note. Preserve genuine transparent alpha everywhere outside the icon. Same square canvas."
+    },
+    {
+      "name": "sound_off",
+      "reference": "/workspace/scratch/abf455579c09/generated_images/exec-4534a1e4-73d6-41f6-8e78-97e5b2df0b7d.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied golden speaker icon to make its corresponding SOUND OFF state. Preserve the speaker body silhouette, position, size, warm yellow-gold glossy bevel, ivory highlights and orange depth. Remove only the two sound-wave arcs. Add ONE clearly visible thick rounded diagonal slash crossing the speaker from upper right to lower left, made from the same glossy light-gold material, with a very narrow dark-navy separation shadow where it overlaps the speaker so the slash reads at 44 pixels. Do not add a circle, panel, text, other decorations, or new icon style. Preserve genuine transparent alpha everywhere outside the icon. Same square canvas."
+    }
+  ]
+}

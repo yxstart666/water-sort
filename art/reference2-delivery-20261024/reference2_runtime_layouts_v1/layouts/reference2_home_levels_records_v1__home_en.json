@@ -1,0 +1,403 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "kind": "image",
+      "path": "reference2_energy_component_v1/assets/energy_pill_base.png",
+      "rect": [
+        49,
+        77,
+        233,
+        80
+      ],
+      "id": "element_0"
+    },
+    {
+      "kind": "image",
+      "path": "reference2_energy_component_v1/assets/energy_bolt.png",
+      "rect": [
+        59,
+        83,
+        48,
+        68
+      ],
+      "id": "element_1"
+    },
+    {
+      "kind": "image",
+      "path": "reference2_replay_settings_buttons_v1/assets/settings_button_blank.png",
+      "rect": [
+        775,
+        56,
+        119,
+        114
+      ],
+      "id": "element_2"
+    },
+    {
+      "kind": "image",
+      "path": "reference2_replay_settings_buttons_v1/assets/settings_icon_original.png",
+      "rect": [
+        775,
+        56,
+        119,
+        114
+      ],
+      "id": "element_3"
+    },
+    {
+      "kind": "text",
+      "rect": [
+        110,
+        94,
+        125,
+        46
+      ],
+      "font_px": 35,
+      "color": "#FFF5DE",
+      "action": null,
+      "id": "element_4",
+      "required_text_binding": {
+        "semantic": "shared_energy.current/max",
+        "fallback": null,
+        "missing_policy": "do not display fabricated data",
+        "localized_pattern": "{value_1}/{value_2}",
+        "inputs": [
+          {
+            "key": "value_1",
+            "type": "integer",
+            "required": true,
+            "data_source": "shared_energy.current/max"
+          },
+          {
+            "key": "value_2",
+            "type": "integer",
+            "required": true,
+            "data_source": "shared_energy.current/max"
+          }
+        ]
+      },
+      "required_binding": "shared_energy.current/max",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "kind": "text",
+      "rect": [
+        239,
+        94,
+        28,
+        46
+      ],
+      "font_px": 35,
+      "color": "#FFD235",
+      "binding": null,
+      "id": "element_5",
+      "text": "+",
+      "required_action_binding": {
+        "semantic": "open_energy",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0,
+      "hit_rect": [
+        190.0,
+        54.0,
+        126,
+        126
+      ],
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "kind": "image",
+      "path": "ui_batch8_home_levels_records_v1/assets/logo_en.png",
+      "rect": [
+        169,
+        245,
+        602,
+        300
+      ],
+      "id": "element_6"
+    },
+    {
+      "kind": "component",
+      "rect": [
+        265,
+        570,
+        410,
+        430
+      ],
+      "id": "element_7",
+      "component": "reference2_runtime_layouts_v1/components/home_hero_composition.json"
+    },
+    {
+      "kind": "button",
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        180,
+        1050,
+        580,
+        114
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "brightness": 1.07,
+      "id": "element_8",
+      "required_action_binding": {
+        "semantic": "continue_existing_save",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "hit_rect": [
+        180.0,
+        1044.0,
+        580,
+        126
+      ],
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "kind": "text",
+      "rect": [
+        190,
+        1060,
+        560,
+        94
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null,
+      "id": "element_9",
+      "required_text_binding": {
+        "semantic": "current page model value or localized state label for element_9",
+        "fallback": null,
+        "missing_policy": "hide until host binds",
+        "inputs": [
+          {
+            "key": "localized_text",
+            "type": "string",
+            "required": true,
+            "data_source": "current page model value or localized state label for element_9"
+          }
+        ]
+      },
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "kind": "button",
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        180,
+        1194,
+        580,
+        114
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "brightness": 1,
+      "id": "element_10",
+      "required_action_binding": {
+        "semantic": "open_level_selection",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "hit_rect": [
+        180.0,
+        1188.0,
+        580,
+        126
+      ],
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "kind": "text",
+      "rect": [
+        190,
+        1204,
+        560,
+        94
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null,
+      "id": "element_11",
+      "text": "Choose level",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "kind": "button",
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        180,
+        1338,
+        580,
+        114
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "brightness": 1,
+      "id": "element_12",
+      "required_action_binding": {
+        "semantic": "open_local_records",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "hit_rect": [
+        180.0,
+        1332.0,
+        580,
+        126
+      ],
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "kind": "text",
+      "rect": [
+        190,
+        1348,
+        560,
+        94
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null,
+      "id": "element_13",
+      "text": "Local records",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [
+    {
+      "element_id": "element_4",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "shared_energy.current/max",
+          "fallback": null,
+          "missing_policy": "do not display fabricated data",
+          "localized_pattern": "{value_1}/{value_2}",
+          "inputs": [
+            {
+              "key": "value_1",
+              "type": "integer",
+              "required": true,
+              "data_source": "shared_energy.current/max"
+            },
+            {
+              "key": "value_2",
+              "type": "integer",
+              "required": true,
+              "data_source": "shared_energy.current/max"
+            }
+          ]
+        },
+        "required_binding": "shared_energy.current/max"
+      }
+    },
+    {
+      "element_id": "element_5",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open_energy",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "element_8",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "continue_existing_save",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "element_9",
+      "requirements": {
+        "required_text_binding": {
+          "semantic": "current page model value or localized state label for element_9",
+          "fallback": null,
+          "missing_policy": "hide until host binds",
+          "inputs": [
+            {
+              "key": "localized_text",
+              "type": "string",
+              "required": true,
+              "data_source": "current page model value or localized state label for element_9"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "element_id": "element_10",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open_level_selection",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "element_12",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "open_local_records",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    }
+  ],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "safe_area": "same uniform contain/inset transform and energy anchor as gameplay",
+  "integration_contract": {
+    "runtime": {
+      "continue": "show Continue if resumable save, otherwise Start; never imply existing save",
+      "settings": "home mode hides in-attempt restart/resume",
+      "logo": "Existing official gold-blue logo reused only; no old cream panels or old hero reused"
+    }
+  },
+  "background_asset": "reference2_background_cleanplate_v1/assets/background_native_940x1672.png"
+}

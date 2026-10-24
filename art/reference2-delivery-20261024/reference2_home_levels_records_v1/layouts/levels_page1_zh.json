@@ -1,0 +1,1152 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "zh",
+  "font": "cloud_takeover/water_sort_project/assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSansCJK-Bold.ttc",
+  "elements": [
+    {
+      "kind": "image",
+      "path": "deliverables/water_sort/reference2_energy_component_v1/assets/energy_pill_base.png",
+      "rect": [
+        49,
+        77,
+        233,
+        80
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "deliverables/water_sort/reference2_energy_component_v1/assets/energy_bolt.png",
+      "rect": [
+        59,
+        83,
+        48,
+        68
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_button_blank.png",
+      "rect": [
+        775,
+        56,
+        119,
+        114
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_icon_original.png",
+      "rect": [
+        775,
+        56,
+        119,
+        114
+      ]
+    },
+    {
+      "kind": "text",
+      "text_example": "25/30",
+      "rect": [
+        110,
+        94,
+        125,
+        46
+      ],
+      "font_px": 35,
+      "color": "#FFF5DE",
+      "binding": "shared_energy.current/max",
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "+",
+      "rect": [
+        239,
+        94,
+        28,
+        46
+      ],
+      "font_px": 35,
+      "color": "#FFD235",
+      "binding": null,
+      "action": "open_energy"
+    },
+    {
+      "kind": "text",
+      "text_example": "选择关卡",
+      "rect": [
+        200,
+        220,
+        540,
+        80
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        100,
+        365,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 1,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": true
+    },
+    {
+      "kind": "text",
+      "text_example": "1",
+      "rect": [
+        100,
+        385,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "已过",
+      "rect": [
+        100,
+        465,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        290,
+        365,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 2,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": true
+    },
+    {
+      "kind": "text",
+      "text_example": "2",
+      "rect": [
+        290,
+        385,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "已过",
+      "rect": [
+        290,
+        465,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        480,
+        365,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 3,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": true
+    },
+    {
+      "kind": "text",
+      "text_example": "3",
+      "rect": [
+        480,
+        385,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "已过",
+      "rect": [
+        480,
+        465,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        670,
+        365,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 4,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": true
+    },
+    {
+      "kind": "text",
+      "text_example": "4",
+      "rect": [
+        670,
+        385,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "已过",
+      "rect": [
+        670,
+        465,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        100,
+        550,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 5,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": true
+    },
+    {
+      "kind": "text",
+      "text_example": "5",
+      "rect": [
+        100,
+        570,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "已过",
+      "rect": [
+        100,
+        650,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        290,
+        550,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 6,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": true
+    },
+    {
+      "kind": "text",
+      "text_example": "6",
+      "rect": [
+        290,
+        570,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "已过",
+      "rect": [
+        290,
+        650,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        480,
+        550,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 7,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": true
+    },
+    {
+      "kind": "text",
+      "text_example": "7",
+      "rect": [
+        480,
+        570,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFD235",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "当前",
+      "rect": [
+        480,
+        650,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        670,
+        550,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 8,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "8",
+      "rect": [
+        670,
+        570,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        670,
+        650,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        100,
+        735,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 9,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "9",
+      "rect": [
+        100,
+        755,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        100,
+        835,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        290,
+        735,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 10,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "10",
+      "rect": [
+        290,
+        755,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        290,
+        835,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        480,
+        735,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 11,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "11",
+      "rect": [
+        480,
+        755,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        480,
+        835,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        670,
+        735,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 12,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "12",
+      "rect": [
+        670,
+        755,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        670,
+        835,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        100,
+        920,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 13,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "13",
+      "rect": [
+        100,
+        940,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        100,
+        1020,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        290,
+        920,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 14,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "14",
+      "rect": [
+        290,
+        940,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        290,
+        1020,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        480,
+        920,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 15,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "15",
+      "rect": [
+        480,
+        940,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        480,
+        1020,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        670,
+        920,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 16,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "16",
+      "rect": [
+        670,
+        940,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        670,
+        1020,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        100,
+        1105,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 17,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "17",
+      "rect": [
+        100,
+        1125,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        100,
+        1205,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        290,
+        1105,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 18,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "18",
+      "rect": [
+        290,
+        1125,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        290,
+        1205,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        480,
+        1105,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 19,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "19",
+      "rect": [
+        480,
+        1125,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        480,
+        1205,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "level_tile",
+      "rect": [
+        670,
+        1105,
+        166,
+        156
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "example_level": 20,
+      "dynamic_state": "completed/current/locked from save",
+      "enabled_example": false
+    },
+    {
+      "kind": "text",
+      "text_example": "20",
+      "rect": [
+        670,
+        1125,
+        166,
+        65
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "锁定",
+      "rect": [
+        670,
+        1205,
+        166,
+        42
+      ],
+      "font_px": 24,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "button",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        110,
+        1360,
+        280,
+        108
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "action": "page_previous",
+      "enabled": false,
+      "brightness": 0.45
+    },
+    {
+      "kind": "text",
+      "text_example": "上一页",
+      "rect": [
+        120,
+        1370,
+        260,
+        88
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "1 / 3",
+      "rect": [
+        392,
+        1380,
+        156,
+        65
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "button",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        550,
+        1360,
+        280,
+        108
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "action": "page_next",
+      "enabled": true,
+      "brightness": 1
+    },
+    {
+      "kind": "text",
+      "text_example": "下一页",
+      "rect": [
+        560,
+        1370,
+        260,
+        88
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "button",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        250,
+        1510,
+        440,
+        105
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "action": "return_home",
+      "enabled": true,
+      "brightness": 1
+    },
+    {
+      "kind": "text",
+      "text_example": "返回主页",
+      "rect": [
+        260,
+        1520,
+        420,
+        85
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    }
+  ],
+  "runtime": {
+    "pagination": "20 per page; current configured 50: pages1..3, last41..50 only. Bind actual max level; no fake filler buttons.",
+    "tile": "state + number + text, not color alone; locked taps show existing hint only",
+    "sample_progress": "level7 example not forced save"
+  },
+  "safe_area": "same uniform contain/inset transform and energy anchor as gameplay",
+  "qa": "example values only; not live game"
+}

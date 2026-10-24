@@ -1,0 +1,195 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "coordinate_space": "All asset paths resolve from workspace/project package root, not JSON directory.",
+  "locale": "zh",
+  "screen": "restart_unfinished",
+  "font_path": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "font_sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        100,
+        500,
+        740,
+        718
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        132,
+        546,
+        676,
+        80
+      ],
+      "text": "重玩本关？",
+      "font_px": 44
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        136,
+        682,
+        668,
+        62
+      ],
+      "text": "当前操作将重置。",
+      "font_px": 33,
+      "binding": null
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "rect": [
+        136,
+        760,
+        668,
+        62
+      ],
+      "text": "本局未结束，重玩不再扣体力。",
+      "font_px": 33,
+      "binding": null
+    },
+    {
+      "id": "cancel",
+      "kind": "button",
+      "rect": [
+        144,
+        1010,
+        300,
+        132
+      ],
+      "hit_rect": [
+        144,
+        1010,
+        300,
+        132
+      ],
+      "text": "取消",
+      "font_px": 36,
+      "action": "close_confirmation_to_exact_origin_without_side_effects",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "state": "normal"
+    },
+    {
+      "id": "confirm",
+      "kind": "button",
+      "rect": [
+        496,
+        1010,
+        300,
+        132
+      ],
+      "hit_rect": [
+        496,
+        1010,
+        300,
+        132
+      ],
+      "text": "重玩",
+      "font_px": 36,
+      "action": "restart_same_unfinished_attempt_once",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "state": "normal"
+    }
+  ],
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "safe_area": "Uniform root contain inside safe area. At 360 logical dp width scale=360/940, buttons are 114.89x50.55 dp; do not scale below 48dp hit height. For narrower viewports reflow with min 48dp hit targets.",
+  "input_contract": {
+    "outside_tap": "consume; no action",
+    "system_back": "same as cancel",
+    "close": "cancel is the explicit close control; no extra overlapping X",
+    "focus_order": [
+      "cancel",
+      "confirm"
+    ],
+    "in_flight": "disable both buttons until existing operation completes; one-shot guard prevents duplicate commits; underlying gameplay receives no input"
+  },
+  "visibility": "attempt is unfinished, independent of available energy",
+  "rules": [
+    "Re-read actual attempt and live energy immediately before action; route to applicable branch if changed.",
+    "Cancel never resets, debits, saves, or changes progress.",
+    "Home persistence/autosave/resume behavior is unverified: call existing route; do not invent progress loss, saving, or restoration.",
+    "After settlement, only existing new-attempt transaction may debit exactly 5 once. Never debit from UI then again from start handler.",
+    "Insufficient energy opens existing energy flow without board reset/debit/new attempt. Returning from energy flow must re-read store, not auto-start.",
+    "Never imply unfinished restart clears saved campaign progress."
+  ],
+  "qa_sample": null,
+  "qa_background": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+  "status": "static reconstruction contract; not engine integration or runtime verification"
+}

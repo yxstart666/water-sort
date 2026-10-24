@@ -1,0 +1,63 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        110,
+        616,
+        720,
+        360
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        145,
+        651,
+        650,
+        70
+      ],
+      "text": "Loading",
+      "font_px": 46,
+      "color": "#FFF5DE"
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        150,
+        738,
+        640,
+        52
+      ],
+      "text": "Preparing your data. Please wait…",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    }
+  ],
+  "font": "cloud_takeover/water_sort_project/assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSans-Bold.ttf",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "input": "modal captures background taps; system back uses existing cancel action",
+  "data": "All example values are QA placeholders; bind current attempt/persistent state at runtime",
+  "art": "same original reference2 blank, NinePatch 48px corners; no old cream panel",
+  "qa_background": "Chinese static assembly placeholder; not localized engine capture"
+}

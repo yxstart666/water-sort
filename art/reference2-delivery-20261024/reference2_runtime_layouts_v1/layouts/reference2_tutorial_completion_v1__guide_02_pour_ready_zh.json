@@ -1,0 +1,240 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "zh",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "id": "tap_ring",
+      "kind": "tap_ring",
+      "rect": [
+        743,
+        686,
+        68,
+        68
+      ],
+      "required_binding": "actual target interaction point; static ring only"
+    },
+    {
+      "id": "panel",
+      "kind": "panel",
+      "rect": [
+        60,
+        1010,
+        820,
+        550
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "id": "step",
+      "kind": "text",
+      "text": "2 / 5",
+      "rect": [
+        100,
+        1035,
+        740,
+        50
+      ],
+      "font_px": 30,
+      "color": "#D8B85D",
+      "align": "center",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "text": "完成一次倒水",
+      "rect": [
+        100,
+        1095,
+        740,
+        70
+      ],
+      "font_px": 46,
+      "color": "#FFF5DE",
+      "align": "center",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "text": "倒入空瓶，或顶层同色的瓶子。",
+      "rect": [
+        100,
+        1180,
+        740,
+        54
+      ],
+      "font_px": 38,
+      "color": "#DCEBFF",
+      "align": "center",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "text": "目标瓶必须还有空间。",
+      "rect": [
+        100,
+        1238,
+        740,
+        54
+      ],
+      "font_px": 38,
+      "color": "#DCEBFF",
+      "align": "center",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "body_2",
+      "kind": "text",
+      "text": "无效点击不会改变棋盘。",
+      "rect": [
+        100,
+        1296,
+        740,
+        54
+      ],
+      "font_px": 38,
+      "color": "#DCEBFF",
+      "align": "center",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "skip",
+      "kind": "button",
+      "text": "跳过",
+      "rect": [
+        110,
+        1395,
+        300,
+        120
+      ],
+      "hit_rect": [
+        110.0,
+        1392.0,
+        300,
+        126
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "required_action_binding": {
+        "semantic": "dismiss_guide_no_gameplay_mutation",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    },
+    {
+      "id": "next",
+      "kind": "button",
+      "text": "下一步",
+      "rect": [
+        530,
+        1395,
+        300,
+        120
+      ],
+      "hit_rect": [
+        530.0,
+        1392.0,
+        300,
+        126
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "required_action_binding": {
+        "semantic": "advance_only_after_verified_event",
+        "api_name": null,
+        "unbound_behavior": "disabled"
+      },
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0,
+      "minimum_touch_dp": 48,
+      "touch_recompute_for_actual_safe_area": true,
+      "input_enabled_when": "host action bound AND authoritative action availability; never infer enabled from sample"
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [
+    {
+      "element_id": "tap_ring",
+      "requirements": {
+        "required_binding": "actual target interaction point; static ring only"
+      }
+    },
+    {
+      "element_id": "skip",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "dismiss_guide_no_gameplay_mutation",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    },
+    {
+      "element_id": "next",
+      "requirements": {
+        "required_action_binding": {
+          "semantic": "advance_only_after_verified_event",
+          "api_name": null,
+          "unbound_behavior": "disabled"
+        }
+      }
+    }
+  ],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    195
+  ],
+  "mode": "event_driven_guide",
+  "integration_contract": {
+    "required_event": "legal_pour_committed"
+  },
+  "required_highlight_binding": {
+    "semantic": null,
+    "sample_holes_not_usable": true
+  },
+  "required_target_point_binding": "actual intended entity center for tap_ring",
+  "background_binding": "live caller scene, no static gameplay image"
+}

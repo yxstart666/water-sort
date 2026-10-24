@@ -1,0 +1,79 @@
+{
+  "priority": "This explicit addendum resolves metadata ambiguities; old frozen images stay byte-identical.",
+  "fonts": {
+    "zh": {
+      "file": "fonts/NotoSansCJK-Bold.ttc",
+      "face_index": 2,
+      "family": "Noto Sans CJK SC",
+      "qa_note": "Earlier static QA used Pillow default face0 (JP), so may show regional glyph variants. Runtime Chinese should use SC face2; visual bounds should be rechecked in engine. Do not claim prior QA used face2."
+    },
+    "en": {
+      "file": "fonts/NotoSans-Bold.ttf",
+      "face_index": 0
+    },
+    "publication": "If repository already has exact hash binaries+notices, publisher may reuse verified paths instead of duplicate20MB. Always include license dependency mapping.",
+    "license": "Copied unchanged existing provenance and SIL OFL1.1 notices; no subsetting or renaming."
+  },
+  "mask_format_correction": {
+    "reference2_order_bottle_states_v1/assets/order_liquid_mask.png": {
+      "mode": "L",
+      "has_alpha_channel": false,
+      "meaning": "grayscale coverage 0..255, read luminance; do not read opaque default alpha"
+    },
+    "reference2_order_bottle_states_v1/assets/order_liquid_diffuse_map.png": {
+      "mode": "L",
+      "has_alpha_channel": false,
+      "meaning": "grayscale diffuse multiplier 0..255, not transparency"
+    },
+    "original_manifest_alpha_extrema": "For these two L maps this field was mislabeled coverage extrema. Override schema interpretation with this entry; images unchanged."
+  },
+  "touch_override": {
+    "minimum_effective_dp": 48,
+    "supersedes": "pause-language44dp minimum text; use48dp everywhere",
+    "at360dp_width_source940": "min126sourcepx effective hit area, independently of raster size",
+    "no_overlaps": "Expanded button/link hit rectangles cannot overlap; integrate and verify focus/touch"
+  },
+  "publication_status": "cloud-prepared only; publisher approval required",
+  "files": [
+    {
+      "file": "fonts/NotoSans-Bold.ttf",
+      "bytes": 515752,
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5"
+    },
+    {
+      "file": "fonts/NotoSansCJK-Bold.ttc",
+      "bytes": 20050760,
+      "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+    },
+    {
+      "file": "licenses/EXACT_FONT_BINARY_NOTICES.txt",
+      "bytes": 6275,
+      "sha256": "ea7a1c75112ca886265ba7a56c03efe00f4948429bb09c3d0f55f63b0f868a6d"
+    },
+    {
+      "file": "licenses/FONT_BINARY_PROVENANCE.json",
+      "bytes": 7330,
+      "sha256": "2537d840dabf3c5c6c8d056b0bdb2cbbbb95720227d67f566b88d0f76494190e"
+    },
+    {
+      "file": "licenses/NotoSans-OFL-1.1-UPSTREAM.txt",
+      "bytes": 4377,
+      "sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb"
+    },
+    {
+      "file": "licenses/NotoSansCJK-OFL-1.1-UPSTREAM.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "file": "licenses/noto_cjk_installed_copyright_ORIGINAL.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "file": "licenses/noto_core_installed_copyright_ORIGINAL.txt",
+      "bytes": 5208,
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125"
+    }
+  ]
+}

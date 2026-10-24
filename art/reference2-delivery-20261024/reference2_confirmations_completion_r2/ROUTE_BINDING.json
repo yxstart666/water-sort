@@ -1,0 +1,8 @@
+{
+  "pause.home": "Preserve existing route. Use return_home candidate ONLY if an existing confirmation already exists; never add a blocking step.",
+  "result.home": "Preserve existing route. Use return_home candidate ONLY if an existing confirmation already exists; never add a blocking step.",
+  "pause.restart": "branch on live attempt status and energy",
+  "result.replay": "replay_settled_enough if energy >=5 else replay_settled_insufficient",
+  "energy.close": "actual source overlay; no automatic start",
+  "confirmation.cancel": "actual source overlay; no side effects"
+}

@@ -1,0 +1,11 @@
+{
+  "condition": "Host reports an existing save error; never infer it or execute persistence here",
+  "overlay_templates": {
+    "zh": "reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__save_error_zh.json",
+    "en": "reference2_runtime_layouts_v1/layouts/reference2_misc_states_v1__save_error_en.json"
+  },
+  "retry": "required existing safe-save retry callback; unbound remains disabled",
+  "result_context": "retain current attempt result in caller; do not display saved success unless host confirms",
+  "pending_sync": "No backend or pending-sync transaction invented; host must establish whether this state exists",
+  "new_page_required": false
+}

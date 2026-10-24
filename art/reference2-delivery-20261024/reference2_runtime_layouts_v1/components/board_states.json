@@ -1,0 +1,159 @@
+{
+  "layer_order": [
+    "back z30",
+    "liquid z31",
+    "front z32",
+    "cork z33",
+    "state overlays z34",
+    "lock z35"
+  ],
+  "states": {
+    "normal": {
+      "relative_visual_lift_design_px": 0,
+      "bottle_group_alpha": 1,
+      "bottle_uniform_scale": "same as board slot",
+      "touch": "original slot target, never enlarged beyond collision-tested area; disable input for locked/busy",
+      "overlay": null,
+      "data_source": "authoritative runtime state, not this QA example",
+      "cork": null,
+      "lock": null
+    },
+    "selected": {
+      "relative_visual_lift_design_px": 16,
+      "bottle_group_alpha": 1,
+      "bottle_uniform_scale": "same as board slot",
+      "touch": "original slot target, never enlarged beyond collision-tested area; disable input for locked/busy",
+      "overlay": {
+        "shape": "rounded rect",
+        "local_xywh": [
+          -8,
+          -8,
+          181,
+          426
+        ],
+        "stroke_design_px": 5,
+        "radius_design_px": 22,
+        "color": "#FFD56A",
+        "additional_noncolor_cue": "↑",
+        "no_new_texture": true
+      },
+      "data_source": "authoritative runtime state, not this QA example",
+      "cork": null,
+      "lock": null
+    },
+    "valid_target": {
+      "relative_visual_lift_design_px": 0,
+      "bottle_group_alpha": 1,
+      "bottle_uniform_scale": "same as board slot",
+      "touch": "original slot target, never enlarged beyond collision-tested area; disable input for locked/busy",
+      "overlay": {
+        "shape": "rounded rect",
+        "local_xywh": [
+          -8,
+          -8,
+          181,
+          426
+        ],
+        "stroke_design_px": 5,
+        "radius_design_px": 22,
+        "color": "#71E3B2",
+        "additional_noncolor_cue": "+",
+        "no_new_texture": true
+      },
+      "data_source": "authoritative runtime state, not this QA example",
+      "cork": null,
+      "lock": null
+    },
+    "invalid_target": {
+      "relative_visual_lift_design_px": 0,
+      "bottle_group_alpha": 1,
+      "bottle_uniform_scale": "same as board slot",
+      "touch": "original slot target, never enlarged beyond collision-tested area; disable input for locked/busy",
+      "overlay": {
+        "shape": "rounded rect",
+        "local_xywh": [
+          -8,
+          -8,
+          181,
+          426
+        ],
+        "stroke_design_px": 5,
+        "radius_design_px": 22,
+        "color": "#FF7D8F",
+        "additional_noncolor_cue": "×",
+        "no_new_texture": true
+      },
+      "data_source": "authoritative runtime state, not this QA example",
+      "cork": null,
+      "lock": null
+    },
+    "locked": {
+      "relative_visual_lift_design_px": 0,
+      "bottle_group_alpha": 0.55,
+      "bottle_uniform_scale": "same as board slot",
+      "touch": "original slot target, never enlarged beyond collision-tested area; disable input for locked/busy",
+      "overlay": null,
+      "data_source": "authoritative runtime state, not this QA example",
+      "cork": null,
+      "lock": {
+        "source": "reference2_misc_states_v1/assets/whole_bottle_lock_gold.png",
+        "relative_rect": [
+          47,
+          160,
+          72,
+          90
+        ],
+        "confirmed_scope": "level4 only, unlock after one blue order; index from runtime"
+      }
+    },
+    "busy": {
+      "relative_visual_lift_design_px": 0,
+      "bottle_group_alpha": 0.55,
+      "bottle_uniform_scale": "same as board slot",
+      "touch": "original slot target, never enlarged beyond collision-tested area; disable input for locked/busy",
+      "overlay": null,
+      "data_source": "authoritative runtime state, not this QA example",
+      "cork": null,
+      "lock": null
+    },
+    "auxiliary": {
+      "relative_visual_lift_design_px": 0,
+      "bottle_group_alpha": 1,
+      "bottle_uniform_scale": "same as board slot",
+      "touch": "original slot target, never enlarged beyond collision-tested area; disable input for locked/busy",
+      "overlay": null,
+      "data_source": "authoritative runtime state, not this QA example",
+      "cork": null,
+      "lock": null
+    },
+    "sealed_wait": {
+      "relative_visual_lift_design_px": 0,
+      "bottle_group_alpha": 1,
+      "bottle_uniform_scale": "same as board slot",
+      "touch": "original slot target, never enlarged beyond collision-tested area; disable input for locked/busy",
+      "overlay": null,
+      "data_source": "authoritative runtime state, not this QA example",
+      "cork": {
+        "source": "reference2_main_cork_completion_v1/assets/main_bottle_cork.png",
+        "relative_rect": [
+          45,
+          -8,
+          75,
+          40
+        ],
+        "pivot": [
+          37.5,
+          26
+        ],
+        "z": 33
+      },
+      "lock": null
+    }
+  },
+  "precedence": "locked > busy > sealed_wait > selected/target > normal. Disabled states block taps without generating moves. Do not infer gameplay eligibility from colors or overlays.",
+  "unknowns": [
+    "Auxiliary entitlement/count/max total not confirmed; uses same empty bottle, no invented new special bottle art.",
+    "Tutorial sequence and hidden-color mechanics not confirmed.",
+    "No real animation, pour stream or level solvability validated."
+  ]
+}

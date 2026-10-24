@@ -1,0 +1,175 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "zh",
+  "screen": "S09",
+  "status": "static reconstruction candidate; not integrated",
+  "font": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "elements": [
+    {
+      "id": "tap_ring",
+      "kind": "tap_ring",
+      "rect": [
+        128,
+        686,
+        68,
+        68
+      ],
+      "binding": "actual target interaction point; static ring only"
+    },
+    {
+      "id": "panel",
+      "kind": "panel",
+      "rect": [
+        60,
+        1010,
+        820,
+        550
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "id": "step",
+      "kind": "text",
+      "text": "1 / 5",
+      "rect": [
+        100,
+        1035,
+        740,
+        50
+      ],
+      "font_px": 30,
+      "color": "#D8B85D",
+      "align": "center"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "text": "选择瓶子",
+      "rect": [
+        100,
+        1095,
+        740,
+        70
+      ],
+      "font_px": 46,
+      "color": "#FFF5DE",
+      "align": "center"
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "text": "先点选一只可以操作的源瓶。",
+      "rect": [
+        100,
+        1180,
+        740,
+        54
+      ],
+      "font_px": 38,
+      "color": "#DCEBFF",
+      "align": "center"
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "text": "锁定或忙碌的瓶子不能操作。",
+      "rect": [
+        100,
+        1238,
+        740,
+        54
+      ],
+      "font_px": 38,
+      "color": "#DCEBFF",
+      "align": "center"
+    },
+    {
+      "id": "skip",
+      "kind": "button",
+      "text": "跳过",
+      "rect": [
+        110,
+        1395,
+        300,
+        120
+      ],
+      "hit_rect": [
+        110,
+        1395,
+        300,
+        120
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": true,
+      "action": "dismiss_guide_no_gameplay_mutation"
+    },
+    {
+      "id": "next",
+      "kind": "button",
+      "text": "下一步",
+      "rect": [
+        530,
+        1395,
+        300,
+        120
+      ],
+      "hit_rect": [
+        530,
+        1395,
+        300,
+        120
+      ],
+      "font_px": 38,
+      "color": "#FFF5DE",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "enabled": false,
+      "action": "advance_only_after_verified_event"
+    }
+  ],
+  "highlight_holes_sample": [
+    [
+      80,
+      515,
+      165,
+      410
+    ]
+  ],
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    195
+  ],
+  "scale_policy": "Uniform contain in actual safe area; at 360x640 scale=0.382775; interactive hit dimensions at least 116 basis px = 44.4px",
+  "qa_background": "Localized reference2 components; illustrative data, not guaranteed legal board",
+  "mode": "event_driven_guide",
+  "required_event": "source_selected_committed",
+  "event_name_is": "semantic contract, not a verified existing API name",
+  "next_enabled_when": "required event observed for same attempt and intended entity; never timeout",
+  "highlight_binding": "selected_source_bottle",
+  "conditional": false,
+  "qa_hole_warning": "Sample rects only; seal and lock highlights do not prove real state in illustrative board. Resolve actual nodes at runtime."
+}

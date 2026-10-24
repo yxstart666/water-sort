@@ -1,0 +1,158 @@
+{
+  "basis": [
+    940,
+    1672
+  ],
+  "status": "Static art plus timing recommendation only. No animation runtime code or completed animation claim.",
+  "assets": [
+    {
+      "file": "assets/confetti_neutral.png",
+      "size": [
+        96,
+        128
+      ],
+      "bytes": 8330,
+      "sha256": "2db0a1620a0db76500daa537226b8417477a476c3a5baec311ab595bbd6b9c40",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "assets/energy_bolt.png",
+      "size": [
+        48,
+        68
+      ],
+      "bytes": 4433,
+      "sha256": "f16d48004d862201dddee35db00d7774d7aa81589894a2153464f383c8b10410",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "assets/sparkle_gold.png",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 8200,
+      "sha256": "f5d32a871b50f49ddb7be6c5d290460fa0c12e8bfbd37a4a298557006533160e",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "provenance": {
+    "confetti": "New imagegen neutral paper strip, crop/clean disconnected alpha; generated_images/exec-58ace12f-d4d9-49bd-a44e-d56439293ad2.png",
+    "sparkle": "Exact reuse ui_batch3_bottle_v1/assets/complete_sparkle.png; original generated_images/exec-59f4c63f-b20f-4f36-bed5-cce7369e6df9.png documented in original recipe",
+    "energy": "Exact reuse reference2_energy_component_v1/assets/energy_bolt.png"
+  },
+  "victory": {
+    "trigger": "confirmed successful settlement once, not on predicted last move",
+    "duration_ms": 850,
+    "input": "result buttons active immediately when safe; never wait for particles to expire",
+    "confetti_count_recommendation": 18,
+    "low_fx_count": 6,
+    "spawn": "result panel upper corners, not on numerical stats",
+    "display_height_px_source": [
+      20,
+      40
+    ],
+    "tint": "runtime existing palette optional; neutral white base",
+    "motion": "downward curved drift, small rotational variation, no full-screen opaque flash",
+    "alpha_keyframes": [
+      [
+        0,
+        0
+      ],
+      [
+        0.08,
+        1
+      ],
+      [
+        0.65,
+        0.9
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "scale_keyframes": [
+      [
+        0,
+        0.7
+      ],
+      [
+        0.12,
+        1
+      ],
+      [
+        1,
+        0.85
+      ]
+    ],
+    "sparkle_count": 6,
+    "sparkle_lifetime_ms": 420,
+    "overdraw": "cap count, stop offscreen, no unbounded emission"
+  },
+  "energy_return": {
+    "trigger": "only after authoritative settlement commits actual clamped energy delta",
+    "logical_delta": "min(5,30-old_energy) under existing reward rules; visual must not award or write a second time",
+    "if_delta_zero": "skip flight, remain30/30",
+    "duration_ms": 550,
+    "stagger_ms": 35,
+    "visual_count": "min(actual_delta,5); no link between particle arrivals and awarding",
+    "source": "result panel upper-center anchor, not fixed screen sample position",
+    "destination": "shared live energy icon center, same HUD on every page",
+    "position_curve": "quadratic Bezier, start -> upward midpoint -> live HUD anchor",
+    "easing": "cubic ease-out, sampled t keyframes [0,.2,.45,.7,1]",
+    "scale_keyframes": [
+      [
+        0,
+        1
+      ],
+      [
+        0.25,
+        1.1
+      ],
+      [
+        1,
+        0.55
+      ]
+    ],
+    "alpha_keyframes": [
+      [
+        0,
+        0
+      ],
+      [
+        0.08,
+        1
+      ],
+      [
+        0.85,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "counter": "render authoritative state, optional visual count-up without data mutation",
+    "navigation": "cancel visuals safely if page changes; never lose committed reward"
+  },
+  "reduced_motion": {
+    "disable_travel": true,
+    "replace": "brief local icon opacity pulse max200ms, no camera shake"
+  },
+  "pending": [
+    "Actual Godot rendering/blend tests",
+    "Frame-rate measurements",
+    "Final choice of counts/timing after playtest",
+    "No new sound supplied"
+  ]
+}

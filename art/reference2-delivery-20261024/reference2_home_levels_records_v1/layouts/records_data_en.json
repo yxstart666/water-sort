@@ -1,0 +1,300 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "en",
+  "font": "cloud_takeover/water_sort_project/assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSans-Bold.ttf",
+  "elements": [
+    {
+      "kind": "image",
+      "path": "deliverables/water_sort/reference2_energy_component_v1/assets/energy_pill_base.png",
+      "rect": [
+        49,
+        77,
+        233,
+        80
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "deliverables/water_sort/reference2_energy_component_v1/assets/energy_bolt.png",
+      "rect": [
+        59,
+        83,
+        48,
+        68
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_button_blank.png",
+      "rect": [
+        775,
+        56,
+        119,
+        114
+      ]
+    },
+    {
+      "kind": "image",
+      "path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_icon_original.png",
+      "rect": [
+        775,
+        56,
+        119,
+        114
+      ]
+    },
+    {
+      "kind": "text",
+      "text_example": "25/30",
+      "rect": [
+        110,
+        94,
+        125,
+        46
+      ],
+      "font_px": 35,
+      "color": "#FFF5DE",
+      "binding": "shared_energy.current/max",
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "+",
+      "rect": [
+        239,
+        94,
+        28,
+        46
+      ],
+      "font_px": 35,
+      "color": "#FFD235",
+      "binding": null,
+      "action": "open_energy"
+    },
+    {
+      "kind": "text",
+      "text_example": "Local records",
+      "rect": [
+        180,
+        230,
+        580,
+        80
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "button",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        140,
+        350,
+        310,
+        108
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "action": "show_level_records",
+      "enabled": true,
+      "brightness": 1.07
+    },
+    {
+      "kind": "text",
+      "text_example": "This level",
+      "rect": [
+        150,
+        360,
+        290,
+        88
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "button",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        490,
+        350,
+        310,
+        108
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "action": "show_overall_records",
+      "enabled": true,
+      "brightness": 1
+    },
+    {
+      "kind": "text",
+      "text_example": "Overview",
+      "rect": [
+        500,
+        360,
+        290,
+        88
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "ninepatch",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        110,
+        510,
+        720,
+        700
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "kind": "text",
+      "text_example": "Level 3",
+      "rect": [
+        150,
+        580,
+        640,
+        70
+      ],
+      "font_px": 40,
+      "color": "#FFF5DE",
+      "binding": "selected_level",
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "Moves",
+      "rect": [
+        180,
+        740,
+        260,
+        60
+      ],
+      "font_px": 32,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "Time",
+      "rect": [
+        500,
+        740,
+        260,
+        60
+      ],
+      "font_px": 32,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "18",
+      "rect": [
+        180,
+        810,
+        260,
+        90
+      ],
+      "font_px": 64,
+      "color": "#FFD235",
+      "binding": "same_record.moves",
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "01:24",
+      "rect": [
+        500,
+        810,
+        260,
+        90
+      ],
+      "font_px": 64,
+      "color": "#FFD235",
+      "binding": "same_record.elapsed",
+      "action": null
+    },
+    {
+      "kind": "text",
+      "text_example": "From one completed attempt",
+      "rect": [
+        160,
+        1020,
+        620,
+        60
+      ],
+      "font_px": 29,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    },
+    {
+      "kind": "button",
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "rect": [
+        220,
+        1320,
+        500,
+        112
+      ],
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "action": "return_to_actual_caller",
+      "enabled": true,
+      "brightness": 1
+    },
+    {
+      "kind": "text",
+      "text_example": "Back",
+      "rect": [
+        230,
+        1330,
+        480,
+        92
+      ],
+      "font_px": 34,
+      "color": "#FFF5DE",
+      "binding": null,
+      "action": null
+    }
+  ],
+  "runtime": {
+    "local_only": true,
+    "no_fake_global_rank": true,
+    "record_pair": "Do not merge best moves from one run with time from another. If existing store uses separate minima, label separate bests and do not claim same attempt.",
+    "aggregate": "Respect actual implemented definition; no save migration here",
+    "back": "return actual source home/result/board, never fixed home"
+  },
+  "safe_area": "same uniform contain/inset transform and energy anchor as gameplay",
+  "qa": "example values only; not live game"
+}

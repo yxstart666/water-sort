@@ -1,0 +1,275 @@
+{
+  "schema": "water_sort.runtime_layout_template.v1",
+  "resource_root": "delivery_root (the contents of deliverables/water_sort)",
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "zh",
+  "font_face_index": 0,
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        120,
+        566,
+        700,
+        540
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        350.0,
+        270.0
+      ]
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "text": "语言",
+      "rect": [
+        158,
+        606,
+        624,
+        74
+      ],
+      "font_px": 48,
+      "color": "#FFF5DE",
+      "align": "center",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "zh_option",
+      "kind": "ninepatch",
+      "rect": [
+        164,
+        716,
+        612,
+        112
+      ],
+      "source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "pivot": [
+        306.0,
+        56.0
+      ],
+      "selected_when": "locale == zh",
+      "selected_source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "unselected_source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "selected_margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "unselected_margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "hit_rect": [
+        164,
+        714,
+        612,
+        116
+      ]
+    },
+    {
+      "id": "zh_label",
+      "kind": "text",
+      "text": "简体中文",
+      "rect": [
+        194,
+        734,
+        350,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "left",
+      "font_locale": "zh",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "zh_selected",
+      "kind": "text",
+      "text": "当前",
+      "rect": [
+        556,
+        734,
+        190,
+        76
+      ],
+      "font_px": 30,
+      "color": "#FFF5DE",
+      "align": "center",
+      "visible_when": "locale == zh",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "en_option",
+      "kind": "ninepatch",
+      "rect": [
+        164,
+        858,
+        612,
+        112
+      ],
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        306.0,
+        56.0
+      ],
+      "selected_when": "locale == en",
+      "selected_source": "reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "unselected_source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "selected_margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "unselected_margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "hit_rect": [
+        164,
+        856,
+        612,
+        116
+      ]
+    },
+    {
+      "id": "en_label",
+      "kind": "text",
+      "text": "English",
+      "rect": [
+        194,
+        876,
+        350,
+        76
+      ],
+      "font_px": 36,
+      "color": "#FFF5DE",
+      "align": "left",
+      "font_locale": "en",
+      "font": "reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+      "font_face_index": 0
+    },
+    {
+      "id": "en_selected",
+      "kind": "text",
+      "text": "",
+      "rect": [
+        556,
+        876,
+        190,
+        76
+      ],
+      "font_px": 30,
+      "color": "#FFF5DE",
+      "align": "center",
+      "visible_when": "locale == en",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    },
+    {
+      "id": "back_button",
+      "kind": "ninepatch",
+      "rect": [
+        364,
+        1002,
+        212,
+        72
+      ],
+      "source": "reference2_top_hud_v1/assets/step_pill_blank.png",
+      "margins_ltrb": [
+        32,
+        24,
+        32,
+        24
+      ],
+      "pivot": [
+        106.0,
+        36.0
+      ],
+      "hit_rect": [
+        354,
+        982,
+        232,
+        116
+      ]
+    },
+    {
+      "id": "back",
+      "kind": "text",
+      "text": "返回",
+      "rect": [
+        364,
+        1002,
+        212,
+        72
+      ],
+      "font_px": 32,
+      "color": "#FFF5DE",
+      "align": "center",
+      "font": "reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+      "font_face_index": 0
+    }
+  ],
+  "actions_are_semantic_not_executable": true,
+  "required_bindings": [],
+  "coordinate_policy": "940x1672 uniform safe-area contain; recompute 48dp hit areas with actual scale",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    170
+  ],
+  "panel_pivot": [
+    350.0,
+    270.0
+  ],
+  "safe_area": "uniform root contain within safe area; no independent asset rescale",
+  "integration_contract": {
+    "actions": {
+      "zh_option": "apply zh immediately through existing localization; preserve attempt/board/energy",
+      "en_option": "apply en immediately through existing localization; preserve attempt/board/energy",
+      "back_button": "close language child only; return to caller pause/settings"
+    },
+    "rules": [
+      "Both audio flags are independent; sample on/off states are not defaults.",
+      "Music OFF uses music_off.png; Sound OFF uses sound_off.png, not just text color.",
+      "No image has baked language labels, numbers or ON/OFF text.",
+      "Language selected option uses existing gold frame, non-selected option existing blue pill; do not change colors.",
+      "Home-origin Settings contains no Resume/Restart/Home actions.",
+      "No settings change resets board, changes attempt, or debits energy.",
+      "Modal input blocker and timer pause behavior must reuse existing runtime."
+    ]
+  },
+  "background_binding": "live caller scene, no static gameplay image"
+}
