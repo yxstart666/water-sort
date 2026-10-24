@@ -1,0 +1,28 @@
+{
+  "bottle_canvas": [
+    165,
+    410
+  ],
+  "cloth_rect": [
+    0,
+    0,
+    165,
+    324
+  ],
+  "liquid_bottom_slot_y": [
+    313.75,
+    382
+  ],
+  "cloth_dynamic_number_rect": [
+    38,
+    145,
+    89,
+    70
+  ],
+  "cloth_dynamic_number_color": "#233C56",
+  "cloth_rule": "Overlay above glass front. Only bottom liquid layer visible. Backend hidden content and whole-bottle lock are independent; sprite never controls disabled logic. Number remains dynamic, no baked text. Upper hidden liquids must not leak at soft alpha edges.",
+  "video_rule": "Use identical icon_video_ad.png in extra-empty-bottle and fourth-order slot. No additional plus or text. Preserve existing ad availability/loading/error state machine. Suggested icon width 70-82px on 940px reference canvas; never use glyph as full hit target.",
+  "plus_rule": "Reuse approved plus_button_base.png. Put plus_gold.png centered at 55% of visual button size. Suggested 40px visual button on native 186x64 energy pill. Align energy pill and level plate center Y; independent 48dp invisible hit target must not enlarge visual.",
+  "pause_rule": "Do not redraw popup. Restore supplied pause layout visual rectangles; small pill source reference2_top_hud_v1/assets/step_pill_blank.png. Close 158x64, toggles 164x72 on 940px reference. 48dp invisible hit rectangles are separate from visual rectangles. Verify parent container minimum-size/stretch does not enlarge visual.",
+  "qa_rule": "qa images are STATIC comparison using approved reference2 main-game baseline, not latest runtime screenshot. Never load QA as game background. Number 1 and 30/30 in QA are sample dynamic overlays only. No engine integration or runtime verification claimed."
+}

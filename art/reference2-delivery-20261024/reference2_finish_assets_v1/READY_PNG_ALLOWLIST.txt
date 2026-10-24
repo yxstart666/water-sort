@@ -1,0 +1,4 @@
+sprites/cloth_wrapper_silver.png
+sprites/icon_video_ad.png
+sprites/plus_button_base.png
+sprites/plus_gold.png

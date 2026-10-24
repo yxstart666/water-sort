@@ -1,0 +1,66 @@
+[
+  {
+    "file": "sprites/cloth_wrapper_silver.png",
+    "size": [
+      165,
+      324
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixels": 7266,
+    "opaque_pixels": 85,
+    "partial_alpha_pixels": 46109,
+    "sha256": "1b412c8eb032a9661bdb2ffcf9c3edbf11f44cfb290aa41f4964b9534813cd2e"
+  },
+  {
+    "file": "sprites/icon_video_ad.png",
+    "size": [
+      160,
+      112
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixels": 3973,
+    "opaque_pixels": 195,
+    "partial_alpha_pixels": 13752,
+    "sha256": "76163c7ea6da3da7a0d1aca834737ca5c1c05ec8b1b473f3b2476e8ef8380e95"
+  },
+  {
+    "file": "sprites/plus_button_base.png",
+    "size": [
+      384,
+      384
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixels": 17464,
+    "opaque_pixels": 950,
+    "partial_alpha_pixels": 129042,
+    "sha256": "2c679dbff7642c79d06fe2ba6cb9eb27f34e9afc243acfecfd6240d89b1f5fa1"
+  },
+  {
+    "file": "sprites/plus_gold.png",
+    "size": [
+      96,
+      96
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "transparent_pixels": 4584,
+    "opaque_pixels": 92,
+    "partial_alpha_pixels": 4540,
+    "sha256": "d2c67b10c12257eac12ab99ad229f2959f8f947b66695c5a05e16fad6fa9f4ce"
+  }
+]
