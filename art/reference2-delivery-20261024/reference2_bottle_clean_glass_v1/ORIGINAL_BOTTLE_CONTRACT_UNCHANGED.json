@@ -1,0 +1,88 @@
+{
+  "source": "user_attachment_review/image(20261023-115241).png",
+  "source_crop_xyxy": [
+    695,
+    515,
+    860,
+    925
+  ],
+  "canvas": [
+    165,
+    410
+  ],
+  "source_scale": "native, do not stretch; no generated replacement bottle",
+  "pivot_px": [
+    82.5,
+    400
+  ],
+  "fill_top_px": 109,
+  "fill_bottom_px": 382,
+  "capacity": 4,
+  "slot_height_px": 68.25,
+  "mouth_exit_px": [
+    82.5,
+    18
+  ],
+  "mouth_span_px": [
+    [
+      47,
+      18
+    ],
+    [
+      119,
+      18
+    ]
+  ],
+  "neck_path_px": [
+    [
+      82.5,
+      18
+    ],
+    [
+      82.5,
+      40
+    ],
+    [
+      82.5,
+      56
+    ],
+    [
+      82.5,
+      70
+    ],
+    [
+      82.5,
+      109
+    ]
+  ],
+  "palette": {
+    "red": "EB3043",
+    "blue": "148BE8",
+    "yellow": "F2D414",
+    "green": "11B866",
+    "purple": "A651F3",
+    "orange": "F57810",
+    "pink": "ED29B2",
+    "cyan": "13CBD7"
+  },
+  "layer_order": [
+    "glass_back_shadow",
+    "runtime_liquid_clipped_to_pour_cavity_mask",
+    "glass_front_reflection"
+  ],
+  "free_surface": "one top free surface only; ellipse half-height about3px native, no internal layer ellipses or bright rims",
+  "tilt": "gravity-horizontal layers with volume conservation. Only full cavity mask; shoulder fill_top remains unchanged upright. Stream requires liquid touching mouth. QA static rotations are illustration, not engine physics validation.",
+  "front_method": "positive reflection matte technically extracted from original flat source with local scene estimate; no new glass art",
+  "back_method": "3.5% uniform neutral transmission estimate, not true recovered shadow alpha; avoids source-background negative residual artifacts",
+  "limits": [
+    "Original flat image alpha255, unique optical separation impossible",
+    "Front alpha and backside transmission are estimates, not original PSD layers",
+    "Native165x410 may require filtering checks at enlarged display",
+    "Original dark-backdrop appearance close but not pixel identical after matte",
+    "Four-color QA uses existing project palette, not screenshot sampled neon colors",
+    "No runtime or real pouring integration verified"
+  ],
+  "mask_connected": true,
+  "mouth_body_same_component": true,
+  "source_recomposite_mean_abs_channel_error_inside": 0.6997734115529068
+}

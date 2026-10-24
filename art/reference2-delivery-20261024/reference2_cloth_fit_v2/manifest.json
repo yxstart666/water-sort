@@ -1,0 +1,18 @@
+[
+  {
+    "file": "assets/cloth_wrapper_silver.png",
+    "size": [
+      165,
+      324
+    ],
+    "sha256": "934f328d2ddcc235ecbf640b27c3e0344281fb64a270b6385a23dc014c17af9f"
+  },
+  {
+    "file": "assets/wrapped_bottle_visible_mask.png",
+    "size": [
+      165,
+      410
+    ],
+    "sha256": "47ed40837bbacef186eecc32a6f67ec4e552059d9df1070a4a944efec2582a90"
+  }
+]

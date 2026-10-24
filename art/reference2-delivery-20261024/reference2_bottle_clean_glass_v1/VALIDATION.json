@@ -1,0 +1,33 @@
+{
+  "canvas": [
+    165,
+    410
+  ],
+  "mask_bytes_identical": true,
+  "back_bytes_identical": true,
+  "contract_bytes_identical": true,
+  "removal_checks": {
+    "left_body_strip": {
+      "new_max_alpha": 0,
+      "old_max_alpha": 172
+    },
+    "right_body_strip": {
+      "new_max_alpha": 0,
+      "old_max_alpha": 191
+    },
+    "left_shoulder_patch": {
+      "new_max_alpha": 0,
+      "old_max_alpha": 255
+    },
+    "right_shoulder_patch": {
+      "new_max_alpha": 0,
+      "old_max_alpha": 255
+    },
+    "inner_bottom_ring": {
+      "new_max_alpha": 0,
+      "old_max_alpha": 255
+    }
+  },
+  "runtime_verified": false,
+  "method": "Imagegen subtractive edit followed by exact original-silhouette normalization. About3px soft blue-gray outline; original geometry preserved. Body white strips/shoulder patches/inner bottom ellipse alpha0. Mouth original geometry with coordinated lower saturation and intensity. No global alpha reduction."
+}

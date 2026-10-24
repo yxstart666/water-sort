@@ -1,0 +1,25 @@
+{
+  "replace": [
+    {
+      "old": "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_front_reflection.png",
+      "new": "deliverables/water_sort/reference2_bottle_clean_glass_v1/assets/glass_front_reflection.png",
+      "old_sha256": "25ac4f208edd5fd83110e44c9e7fb8d7a490633ff856f7fa4c7ccc1a21889e06",
+      "new_sha256": "0ccf47f7314d88b65c0fc7e06958fa0ed33f1759a6d5f75e491211b4f5a3a31f"
+    }
+  ],
+  "unchanged": [
+    "glass_back_shadow.png",
+    "pour_cavity_mask.png",
+    "165x410 canvas",
+    "pivot82.5/400",
+    "fill109..382",
+    "capacity4"
+  ],
+  "scope": [
+    "Main gameplay BottleVisual all states",
+    "Home hero BottleVisual",
+    "Help/tutorial must reuse actual BottleVisual",
+    "OrderTarget same BottleVisual uniformly scaled to137px high"
+  ],
+  "do_not_replace": "70x137 precomposed order_bottle_states_v1 assets are not current production source; do not generate or wire those back in. No QA image is a runtime asset."
+}

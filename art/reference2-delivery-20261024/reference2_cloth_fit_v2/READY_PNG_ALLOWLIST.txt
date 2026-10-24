@@ -1,0 +1,2 @@
+assets/cloth_wrapper_silver.png
+assets/wrapped_bottle_visible_mask.png

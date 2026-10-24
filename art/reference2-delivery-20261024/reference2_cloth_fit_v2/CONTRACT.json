@@ -1,0 +1,36 @@
+{
+  "cloth_rect": [
+    0,
+    0,
+    165,
+    324
+  ],
+  "wrapper_mask_canvas": [
+    165,
+    410
+  ],
+  "mask_alpha_zero_rows": [
+    0,
+    313
+  ],
+  "mask_alpha_255_rows": [
+    314,
+    409
+  ],
+  "number_rect": [
+    38,
+    145,
+    89,
+    70
+  ],
+  "composition_order": [
+    "Render full bottle group into isolated layer: back, liquid, front, cork if present",
+    "Only while hidden, multiply entire bottle group alpha by wrapped_bottle_visible_mask.png. This is visual occlusion only, not cavity mask or liquid volume modification.",
+    "Draw cloth_wrapper_silver.png on top at original bottle origin",
+    "Draw dynamic number above cloth"
+  ],
+  "release": "Remove wrapper visibility mask and cloth together on reveal; retain backend hidden/wholelock independence. Do not merely overlay cloth on an unmasked lip.",
+  "old_cloth": "reference2_finish_assets_v1/sprites/cloth_wrapper_silver.png",
+  "new_cloth": "reference2_cloth_fit_v2/assets/cloth_wrapper_silver.png",
+  "runtime_verified": false
+}
