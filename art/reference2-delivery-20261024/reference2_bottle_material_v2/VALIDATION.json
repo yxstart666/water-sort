@@ -1,0 +1,16 @@
+{
+  "canvas": [
+    165,
+    410
+  ],
+  "mask_bytes_identical": true,
+  "back_bytes_identical": true,
+  "contract_bytes_identical": true,
+  "nonzero_front_outside_original_silhouette": 0,
+  "central_body_alpha_max": 0,
+  "inner_bottom_center_alpha_max": 6,
+  "front_method": "Built-in imagegen material edit and focused clear-interior correction. Native registration resize179x410 and center crop165x410, clipped to original outer silhouette. Full generated material kept; not reduced to thin edge/wireframe.",
+  "runtime_verified": false,
+  "root_approved": true,
+  "approval_scope": "Material static visual approved after native five states and actual-background360 review. Not runtime validation."
+}

@@ -1,0 +1,3 @@
+assets/glass_back_shadow.png
+assets/glass_front_reflection.png
+assets/pour_cavity_mask.png

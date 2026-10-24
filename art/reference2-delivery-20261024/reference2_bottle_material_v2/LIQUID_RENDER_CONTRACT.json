@@ -1,0 +1,42 @@
+{
+  "status": "CURRENT IMPLEMENTATION CONTRACT: root-approved static ratio revision. Runtime validation required.",
+  "reference_units": "native165x410 coordinates, scale uniformly with BottleVisual",
+  "unchanged": [
+    "glass_front_reflection.png",
+    "glass_back_shadow.png",
+    "pour_cavity_mask.png",
+    "8 color ids and palette",
+    "liquid volumes/capacity/level rules",
+    "previously approved five_states_native.png and main_lineframe_vs_material_360.png"
+  ],
+  "free_surface": {
+    "center": "Use current physical solver free-surface plane h, never stored y from a sprite. Upright full109, half246 are QA examples only.",
+    "radius_x": "half visible cavity chord at h (about63px upright body)",
+    "radius_y_native": 14,
+    "test_range_native": [
+      12,
+      16
+    ],
+    "thickness_ratio_at_126px_chord": 0.2222222222222222,
+    "color": "base mixed with14% white in sRGB; no white rim stroke. Optional within-face luminance variation ±3%, not extra opacity.",
+    "clip": "Ellipse/meniscus only on topmost occupied surface, clipped to same transformed cavity and active liquid region. No full ellipses on internal boundaries.",
+    "chord_rule": "ry=0.1111*visible_chord_width, native body126 gives14. Max16 at original165px canvas; scale uniformly. Full/half surface center remains solver h, not upper rim."
+  },
+  "internal_interfaces": {
+    "plane": "Each boundary uses same cumulative-volume h_i solved by liquid shader. Never independent hand-authored layer y.",
+    "front_arc_native": 10,
+    "algorithm": "Visible front arc only: apparent boundary d=10*sqrt(max(0,1-u*u)), u=tangent-distance/radius_x. Adjacent colors share exact same curve and use base body shading, no extra highlights. No independent plane offset.",
+    "top_surface_relation": "internal_depth=0.0794*visible_chord_width, native126 gives10; about0.7143*free_surface_ry. No closed highlit internal ellipse.",
+    "color": "Only adjacency of two palette colors; no white highlights, outline, duplicated dark rim, alpha gaps or extra ring. AA transition0.6-1.0native pixel."
+  },
+  "tilt_integration": {
+    "basis": "Reuse solver gravity normal g and perpendicular tangent t. d=dot(p,g)-h_i and q=dot(p,t)-center_t. Top ellipse q²/rx²+d²/ry²<=1; internal front arc is evaluated in that same basis.",
+    "chord": "Compute visible chord/rx from same transformed cavity at solver h_i. Free ry=0.1111*chord and internal depth0.0794*chord, clamp free max16 native and smoothly shrink near neck. Apply same screen projection and transformed cavity clipping as solver.",
+    "no_second_simulation": "Use physical conserved volumes and current h_i for both body classification and surface decoration. No independently tweened ellipse, fixed bottle-local ellipse or decorative surface drifting off liquid during tilt.",
+    "no_painting": "All effects are runtime liquid geometry/shading. No fixed colored liquid is baked into glass assets."
+  },
+  "qa_notes": "Current approved QA: liquid_depth_ratio_pair_native.png and liquid_depth_ratio_main_compare_360.png. Preserve original frozen previews as historical material review; their ry4 liquid is superseded.",
+  "volume_contract": "fill_top109 and cumulative boundary planes remain volume-solver centers. Ellipse visual extends±14 around h; at full bottle cap reaches y95, not neck/mouth. No extra volume created, no different fullness threshold, no changed capacity4 or color-slot assignments. Optical front-arc projection must not feed back into volume integration.",
+  "reference_measurement": "Parent-supplied research: competitor free thickness/width0.28–0.32 and inner depth/width0.12–0.18; our original trial0.222 and0.079 start conservatively within requested range, no copied textures.",
+  "precedence": "This is the only implementation source for liquid rendering. LIQUID_DEPTH_REFINEMENT.json, LIQUID_DEPTH_RATIO_REVISION.json and their trial previews are review history, not alternative implementations."
+}

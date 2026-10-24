@@ -1,0 +1,23 @@
+{
+  "replace": [
+    {
+      "old": "deliverables/water_sort/reference2_bottle_clean_glass_v1/assets/glass_front_reflection.png",
+      "new": "deliverables/water_sort/reference2_bottle_material_v2/assets/glass_front_reflection.png",
+      "old_sha256": "0ccf47f7314d88b65c0fc7e06958fa0ed33f1759a6d5f75e491211b4f5a3a31f",
+      "new_sha256": "f18c7f8d9519bcba4a10c3f6b999247add763745554cff67f1d3955272649ca5"
+    },
+    {
+      "old_if_still_used": "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_front_reflection.png",
+      "new": "deliverables/water_sort/reference2_bottle_material_v2/assets/glass_front_reflection.png"
+    }
+  ],
+  "back_mask_contract": "No change; identical copies supplied for hash verification only",
+  "component_scope": [
+    "gameplay BottleVisual all states",
+    "home hero",
+    "real-component help tutorial",
+    "OrderTarget same component scaled137px high"
+  ],
+  "cloth": "Keep reference2_cloth_fit_v2 rendering-occlusion mask contract; do not use as cavity/volume/color-rule mask. Remove cloth/mask on reveal; dynamic number stays independent.",
+  "palette": "Optional proposed palette fromPALETTE_SUGGESTION.json. Root approval required; do not change ids or rules."
+}

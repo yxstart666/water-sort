@@ -1,0 +1,20 @@
+{
+  "status": "CURRENT eight-color visual mapping. Root-approved static review; preserve all ids and rules, runtime validation required.",
+  "ids_unchanged": true,
+  "base_srgb": {
+    "red": "#F33B36",
+    "orange": "#FF8C19",
+    "yellow": "#FFE226",
+    "green": "#6CCB13",
+    "blue": "#159CFF",
+    "purple": "#A246F2",
+    "pink": "#ED3BA7",
+    "cyan": "#19D4CF"
+  },
+  "liquid_body": "Use LIQUID_RENDER_CONTRACT.json; horizontal shading0.84+0.16*sin(pi*t), opaque body.",
+  "top_surface": "Use LIQUID_RENDER_CONTRACT.json ONLY: free-surface center from solver, native rx63/ry14 at126px chord; internal front arc depth10, no internal white ring.",
+  "red_vs_pink": "red warm vermilion; pink cool saturated rose-magenta; purple violet. Do not remap ids or progression.",
+  "accessibility": "Distinct hues and brightness are not a guarantee for color-vision deficiency. Validate on devices and consider optional symbols/patterns as a separate feature; no blanket accessibility claim.",
+  "pour": "Reuse physics-controlled liquid shape and stream. This package does not implement timing, stream breakup, splash or rebound.",
+  "blue_vs_cyan": "blue159CFF is azure; cyan19D4CF is green-cyan. Verify under actual display filters."
+}

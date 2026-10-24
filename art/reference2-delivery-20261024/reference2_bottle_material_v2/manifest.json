@@ -1,0 +1,38 @@
+[
+  {
+    "file": "assets/glass_back_shadow.png",
+    "size": [
+      165,
+      410
+    ],
+    "alpha_range": [
+      0,
+      8
+    ],
+    "sha256": "424db6d82f2c75b515c727cb44d12cd538612ca725bfbf6ff2d5e728c1092a94"
+  },
+  {
+    "file": "assets/glass_front_reflection.png",
+    "size": [
+      165,
+      410
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "f18c7f8d9519bcba4a10c3f6b999247add763745554cff67f1d3955272649ca5"
+  },
+  {
+    "file": "assets/pour_cavity_mask.png",
+    "size": [
+      165,
+      410
+    ],
+    "alpha_range": [
+      0,
+      255
+    ],
+    "sha256": "d7ab88a46d97bac14f85fa33dca291c2b12a167d909daceae488e06e98c9a780"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "status": "CURRENT single entrypoint",
+  "glass": "assets/glass_front_reflection.png",
+  "unchanged_copy_only": [
+    "assets/glass_back_shadow.png",
+    "assets/pour_cavity_mask.png",
+    "ORIGINAL_BOTTLE_CONTRACT_UNCHANGED.json"
+  ],
+  "palette": "PALETTE_SUGGESTION.json",
+  "liquid_rendering": "LIQUID_RENDER_CONTRACT.json",
+  "replacement_mapping": "REPLACEMENT_MAP.json",
+  "current_liquid_qa": [
+    "qa/liquid_depth_ratio_pair_native.png",
+    "qa/liquid_depth_ratio_closeup_2x.png",
+    "qa/liquid_depth_ratio_main_compare_360.png"
+  ],
+  "superseded_for_liquid_only": {
+    "ry4": "original five_states_native.png, main_material_360.png and baseline material preview liquid. Keep files unchanged as historical glass review.",
+    "ry7": "LIQUID_DEPTH_REFINEMENT.json and liquid_depth_refinement* trials. DO NOT IMPLEMENT.",
+    "ratio_draft": "LIQUID_DEPTH_RATIO_REVISION.json is review history. Implement LIQUID_RENDER_CONTRACT.json instead."
+  },
+  "do_not_change": [
+    "glass style",
+    "8 color ids",
+    "level/order rules",
+    "cavity/volume",
+    "cloth rendering occlusion contract"
+  ]
+}
