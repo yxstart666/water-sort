@@ -1,0 +1,52 @@
+{
+  "package": "reference2_order_feedback_r2",
+  "candidate": true,
+  "runtime_integrated": false,
+  "baked_text": false,
+  "assets": [
+    {
+      "file": "assets/order_card_complete_gold.png",
+      "size": [
+        157,
+        204
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 32315,
+      "sha256": "97c5c4baa0304ac13cd781a0dc49c7b96aa077ed29e580d6eeadd07ba823f4ee"
+    },
+    {
+      "file": "assets/order_card_pending_white.png",
+      "size": [
+        157,
+        204
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 32300,
+      "sha256": "94d2ec11990b22c954fe5adb2a8d297c0d6369d11aa6a6fd0c460a1909a83c13"
+    },
+    {
+      "file": "assets/order_complete_badge_52.png",
+      "size": [
+        52,
+        52
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 6539,
+      "sha256": "c163750e3018ce8c61a67ff2d08cc773072cc574a8edfe55276af020c63dd3e2"
+    }
+  ],
+  "generation": "Built-in imagegen; geometry normalization and static layout assembly only",
+  "dependency": "reference2_order_bottle_states_v1 (unchanged eight target bottles)"
+}

@@ -1,0 +1,199 @@
+{
+  "layout_count": 2,
+  "qa_count": 12,
+  "request_variants_per_locale": 3,
+  "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+  "font": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "source_sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+  "font_sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+  "checks": [
+    {
+      "locale": "zh",
+      "request_type": "bonus_bottle",
+      "id": "title",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_bottle",
+      "id": "notice",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_bottle",
+      "id": "request_type",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_bottle",
+      "id": "cancel",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_bottle",
+      "id": "complete",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_slot",
+      "id": "title",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_slot",
+      "id": "notice",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_slot",
+      "id": "request_type",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_slot",
+      "id": "cancel",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "bonus_slot",
+      "id": "complete",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "energy_refill",
+      "id": "title",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "energy_refill",
+      "id": "notice",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "energy_refill",
+      "id": "request_type",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "energy_refill",
+      "id": "cancel",
+      "fits": true
+    },
+    {
+      "locale": "zh",
+      "request_type": "energy_refill",
+      "id": "complete",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_bottle",
+      "id": "title",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_bottle",
+      "id": "notice",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_bottle",
+      "id": "request_type",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_bottle",
+      "id": "cancel",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_bottle",
+      "id": "complete",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_slot",
+      "id": "title",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_slot",
+      "id": "notice",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_slot",
+      "id": "request_type",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_slot",
+      "id": "cancel",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "bonus_slot",
+      "id": "complete",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "energy_refill",
+      "id": "title",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "energy_refill",
+      "id": "notice",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "energy_refill",
+      "id": "request_type",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "energy_refill",
+      "id": "cancel",
+      "fits": true
+    },
+    {
+      "locale": "en",
+      "request_type": "energy_refill",
+      "id": "complete",
+      "fits": true
+    }
+  ],
+  "all_text_fits": true,
+  "button_min_dp_at_360": 50.5531914893617,
+  "button_gap_px": 52,
+  "bottom_outer_clearance_px": 76,
+  "bottom_clearance_after48px_band": 28,
+  "new_runtime_png_count": 0,
+  "static_only": true,
+  "runtime_acceptance": null
+}

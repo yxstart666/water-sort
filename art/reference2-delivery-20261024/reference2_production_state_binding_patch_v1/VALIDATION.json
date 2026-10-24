@@ -1,0 +1,110 @@
+{
+  "layouts": 6,
+  "missing_asset_paths": [],
+  "source_freeze_checks": [
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/HANDOFF_ZH.md",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/REWARD_TERMINAL_STATE_BINDING.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/RUNTIME_SOURCE_ALLOWLIST.txt",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/bonus_bottle_en.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/bonus_bottle_zh.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/bonus_slot_en.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/bonus_slot_zh.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/mask_intro_en.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/mask_intro_zh.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/manifest.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_bottle_en_360.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_bottle_en_940.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_bottle_zh_360.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_bottle_zh_940.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_slot_en_360.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_slot_en_940.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_slot_zh_360.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_slot_zh_940.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/build_static.py",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/contact_sheet.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/geometry_validation.json",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/mask_intro_en_360.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/mask_intro_en_940.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/mask_intro_zh_360.png",
+      "matches": true
+    },
+    {
+      "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/mask_intro_zh_940.png",
+      "matches": true
+    }
+  ],
+  "all_source_freeze_pass": true,
+  "new_business_entry_count": 0,
+  "runtime_qa_asset_inclusion": false,
+  "visual_review": "All6 contact plus 3 full-size inspected; no obvious clipping; Chinese backdrop is QA only"
+}

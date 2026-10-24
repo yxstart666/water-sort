@@ -1,0 +1,19 @@
+# 第二批 UI 素材与生产绑定补丁
+
+先读 reference2_production_state_binding_v1/BLOCKERS_AND_ADAPTER_ZH.md 与 STATE_BINDING_MAP.json，再选择接入。首批固定提交为 db7f66dd24533b51b12a7b493156a3e83bd63fa9；源文件中的 fixed_commit=null 是冻结时状态，首批98模板精确绑定到此SHA，由本补丁 RELEASE_BINDING.json 更正发布元数据，不改原freeze。
+
+## 订单视觉正式替换
+reference2_order_feedback_r2/assets/order_card_pending_white.png 用于真实未完成订单；order_card_complete_gold.png 与 order_complete_badge_52.png 用于真实收单成功的完成反馈。旧 reference2_order_card_local_repair_v1/assets/order_card_reference2_empty.png、reference2_order_status_v1/assets/order_status_ring.png 和 order_status_check.png 不再作为正式订单状态表现。不得同时叠旧圈/小勾。瓶子素材保留原色/不灰化。
+
+按 STATE_CONTRACT.json 的157×204卡局部坐标与52px勾位，不直接把940整屏坐标粘到1080生产画布。先将整个设计容器统一等比适配，再计算实际48dp触区。订单完成必须来自既有成功交付/收单回执；不由点瓶、倒水开始、封口或视觉徽章触发。计数只读取rules.delivered，不由PNG或动画累加。完成勾仅跟随宿主现有完成瞬态；下个目标替换必须恢复白框并移除勾。已耗尽槽按生产既有空槽/终态处理，不伪造新订单或延长旧卡。试用槽不改成未完成白框，维持原试用语义。
+
+## 已有状态补齐与开发测试弹窗
+reference2_existing_state_supplement_v1提供L3隐藏下层色说明、增加空瓶、增加订单位各中英，共6份源模板，必须结合production_state_binding_patch_v1。它们不属于首批98归一化模板；其资源字段可能带deliverables/water_sort/前缀，接入解析器应去掉这一已知源前缀后从本目录解析，不从layouts目录解析。隐藏色遮罩画法沿用生产实现，不拿整瓶锁代替。
+
+reference2_debug_ad_dialog_v1只为用户要求的测试广告弹窗提供中英UI与ROUTE_CONTRACT，不是真实广告SDK。必须debug构建且显式开关；release隐藏且mock不得发奖。弹窗Cancel/Completed仅携带原request id返回既有handler；取消、重复、失败、过期不发奖，不新增失败页。三奖励入口保持各自上下文。
+
+## 不覆盖
+保留生产白底 approved_white_red_blue Logo；不新增退出确认、游戏内帮助、登录/支付/云存档/全局榜及其他未实现服务，不更改本地业务代码、存档/能量/订单规则。QA、source、build_static等复现脚本与所有截图均非runtime素材。先前旧说明中“订单下一批”以本补丁为准；生产适配与实机验收门禁仍有效。
+
+## 订单真实生命周期精确覆盖（最终优先）
+必须采用 reference2_order_visual_override_v1/ORDER_VISUAL_OVERRIDE.json：只在active-order域替换旧card/ring/check，不全局替换源文件。check瞬态保留真实目标直到宿主清理；replace以真实队列换新后白框无勾复位；exhausted按既有终态金框大勾持久，仅真实空槽隐藏目标。不得写rules.delivered或发奖/解锁。该独立映射优先于候选STATE_CONTRACT对持久complete的泛化描述。

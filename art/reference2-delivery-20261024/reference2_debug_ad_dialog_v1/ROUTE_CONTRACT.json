@@ -1,0 +1,40 @@
+{
+  "purpose": "Explicitly authorized debug mock-ad outcomes; not real ad playback",
+  "gate": {
+    "all_required": ["debug build", "explicit mock-ad test switch enabled"],
+    "release": "Hide all entry controls and reject open/completion. A forged or late mock completed callback must never reach reward success in release.",
+    "switch_disabled": "No mock dialog entry and no mock success; do not silently convert to local_trial success."
+  },
+  "request_context": {
+    "capture_on_open": ["request_id", "request_type", "attempt identity when applicable", "source handler identity"],
+    "request_types": ["bonus_bottle", "bonus_slot", "energy_refill"],
+    "display": "Only localized request-type label. Never render internal request id or technical context.",
+    "adapter": "Map these semantic request types to real existing identifiers; do not manufacture a second reward ledger."
+  },
+  "outcomes": {
+    "cancel_button": {"status": "cancelled", "request_id": "captured original request id"},
+    "completed_button": {"status": "completed", "request_id": "captured original request id"},
+    "close_escape_system_back": {"status": "cancelled", "request_id": "captured original request id"}
+  },
+  "resolution": [
+    "Resolve at most once; atomically lock both actions before dispatch.",
+    "Send result only to the captured existing business handler, keeping request type/context associated with original id.",
+    "Dialog never directly adds a bottle/slot/energy, plays an ad, or persists a reward.",
+    "Handler revalidates debug gate, request and attempt freshness, eligibility and not-already-consumed state.",
+    "Cancelled never grants reward. Completed is simulated test completion, not proof of real ad playback.",
+    "Duplicate or stale completion does not grant; late callback after cancel cannot resurrect the request.",
+    "Bonus bottle and bonus slot keep independent per-attempt eligibility; energy uses existing store and cap.",
+    "No invented success/failure screen or retry button. Preserve existing return route and status handling."
+  ],
+  "validation_matrix": [
+    "debug+switch: cancel, no reward",
+    "debug+switch: completed, eligible existing handler processes at most once",
+    "close/Escape: same cancelled result",
+    "double completed: at most one accepted result",
+    "cancel then completed: no reward",
+    "stale id/attempt: no reward",
+    "debug switch off: no open or mock success",
+    "release: no entry and no mock success even for injected completed result"
+  ],
+  "implementation_status": "Static contract only, not runtime tested"
+}

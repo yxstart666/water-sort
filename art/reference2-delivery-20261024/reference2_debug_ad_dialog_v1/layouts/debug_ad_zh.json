@@ -1,0 +1,187 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "locale": "zh",
+  "font_path": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "path_base": "workspace/package root",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        100,
+        500,
+        740,
+        718
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        136,
+        550,
+        668,
+        76
+      ],
+      "text": "测试广告",
+      "font_px": 44
+    },
+    {
+      "id": "notice",
+      "kind": "text",
+      "rect": [
+        136,
+        680,
+        668,
+        62
+      ],
+      "text": "仅用于开发测试",
+      "font_px": 33
+    },
+    {
+      "id": "request_type",
+      "kind": "text",
+      "rect": [
+        136,
+        766,
+        668,
+        62
+      ],
+      "text": "{request_label}",
+      "font_px": 33,
+      "binding": "localized display label from request type; request id never displayed"
+    },
+    {
+      "id": "cancel",
+      "kind": "button",
+      "rect": [
+        144,
+        1010,
+        300,
+        132
+      ],
+      "hit_rect": [
+        144,
+        1010,
+        300,
+        132
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "text": "不看，退出",
+      "font_px": 35,
+      "action": "resolve_debug_ad_request",
+      "result": "cancelled",
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "resolved": {
+          "brightness": 0.48,
+          "input": false
+        }
+      }
+    },
+    {
+      "id": "complete",
+      "kind": "button",
+      "rect": [
+        496,
+        1010,
+        300,
+        132
+      ],
+      "hit_rect": [
+        496,
+        1010,
+        300,
+        132
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "text": "已看完",
+      "font_px": 35,
+      "action": "resolve_debug_ad_request",
+      "result": "completed",
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "resolved": {
+          "brightness": 0.48,
+          "input": false
+        }
+      }
+    }
+  ],
+  "request_labels": {
+    "bonus_bottle": "额外空瓶",
+    "bonus_slot": "订单位",
+    "energy_refill": "恢复体力"
+  },
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "qa_sample_request_type": "bonus_bottle",
+  "gate": "debug build AND explicitly enabled mock-ad switch; release hidden, cannot open and cannot emit successful mock result",
+  "route_contract": "ROUTE_CONTRACT.json",
+  "input_contract": {
+    "close": "cancelled",
+    "escape_or_system_back": "cancelled",
+    "outside_tap": "consume without action",
+    "double_tap": "one-shot resolution disables both actions immediately"
+  },
+  "no_reward": "Dialog emits status and captured request_id only to existing authorized business handler; never grant reward in dialog",
+  "test_identity": "Test Ad and Development testing only always visible. No claim of a real ad having played; Completed is a simulated test outcome.",
+  "safe_area": "Uniform safe-area adapter; 940 candidate to actual production1080 coordinate system requires owner integration. At360 button50.55dp; never shrink hit area under48dp.",
+  "qa_background": "Chinese assembly placeholder, not localized/runtime/ad playback evidence"
+}

@@ -1,0 +1,261 @@
+{
+  "layout_count": 6,
+  "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+  "font": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "source_sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+  "font_sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+  "text_checks": [
+    {
+      "layout": "mask_intro_zh",
+      "id": "title",
+      "fits": true,
+      "width": 176.0,
+      "available": 660
+    },
+    {
+      "layout": "mask_intro_zh",
+      "id": "body_0",
+      "fits": true,
+      "width": 352.0,
+      "available": 652
+    },
+    {
+      "layout": "mask_intro_zh",
+      "id": "body_1",
+      "fits": true,
+      "width": 384.0,
+      "available": 652
+    },
+    {
+      "layout": "mask_intro_zh",
+      "id": "body_2",
+      "fits": true,
+      "width": 384.0,
+      "available": 652
+    },
+    {
+      "layout": "mask_intro_zh",
+      "id": "start",
+      "fits": true,
+      "width": 70.0,
+      "available": 304
+    },
+    {
+      "layout": "bonus_bottle_zh",
+      "id": "title",
+      "fits": true,
+      "width": 176.0,
+      "available": 660
+    },
+    {
+      "layout": "bonus_bottle_zh",
+      "id": "body_0",
+      "fits": true,
+      "width": 448.0,
+      "available": 652
+    },
+    {
+      "layout": "bonus_bottle_zh",
+      "id": "body_1",
+      "fits": true,
+      "width": 320.0,
+      "available": 652
+    },
+    {
+      "layout": "bonus_bottle_zh",
+      "id": "body_2",
+      "fits": true,
+      "width": 448.0,
+      "available": 652
+    },
+    {
+      "layout": "bonus_bottle_zh",
+      "id": "cancel",
+      "fits": true,
+      "width": 70.0,
+      "available": 284
+    },
+    {
+      "layout": "bonus_bottle_zh",
+      "id": "confirm",
+      "fits": true,
+      "width": 140.0,
+      "available": 284
+    },
+    {
+      "layout": "bonus_slot_zh",
+      "id": "title",
+      "fits": true,
+      "width": 220.0,
+      "available": 660
+    },
+    {
+      "layout": "bonus_slot_zh",
+      "id": "body_0",
+      "fits": true,
+      "width": 480.0,
+      "available": 652
+    },
+    {
+      "layout": "bonus_slot_zh",
+      "id": "body_1",
+      "fits": true,
+      "width": 384.0,
+      "available": 652
+    },
+    {
+      "layout": "bonus_slot_zh",
+      "id": "body_2",
+      "fits": true,
+      "width": 416.0,
+      "available": 652
+    },
+    {
+      "layout": "bonus_slot_zh",
+      "id": "cancel",
+      "fits": true,
+      "width": 70.0,
+      "available": 284
+    },
+    {
+      "layout": "bonus_slot_zh",
+      "id": "confirm",
+      "fits": true,
+      "width": 175.0,
+      "available": 284
+    },
+    {
+      "layout": "mask_intro_en",
+      "id": "title",
+      "fits": true,
+      "width": 298.5625,
+      "available": 660
+    },
+    {
+      "layout": "mask_intro_en",
+      "id": "body_0",
+      "fits": true,
+      "width": 475.875,
+      "available": 652
+    },
+    {
+      "layout": "mask_intro_en",
+      "id": "body_1",
+      "fits": true,
+      "width": 457.265625,
+      "available": 652
+    },
+    {
+      "layout": "mask_intro_en",
+      "id": "body_2",
+      "fits": true,
+      "width": 472.375,
+      "available": 652
+    },
+    {
+      "layout": "mask_intro_en",
+      "id": "body_3",
+      "fits": true,
+      "width": 537.46875,
+      "available": 652
+    },
+    {
+      "layout": "mask_intro_en",
+      "id": "start",
+      "fits": true,
+      "width": 85.375,
+      "available": 304
+    },
+    {
+      "layout": "bonus_bottle_en",
+      "id": "title",
+      "fits": true,
+      "width": 373.859375,
+      "available": 660
+    },
+    {
+      "layout": "bonus_bottle_en",
+      "id": "body_0",
+      "fits": true,
+      "width": 586.71875,
+      "available": 652
+    },
+    {
+      "layout": "bonus_bottle_en",
+      "id": "body_1",
+      "fits": true,
+      "width": 335.46875,
+      "available": 652
+    },
+    {
+      "layout": "bonus_bottle_en",
+      "id": "body_2",
+      "fits": true,
+      "width": 541.421875,
+      "available": 652
+    },
+    {
+      "layout": "bonus_bottle_en",
+      "id": "cancel",
+      "fits": true,
+      "width": 114.828125,
+      "available": 284
+    },
+    {
+      "layout": "bonus_bottle_en",
+      "id": "confirm",
+      "fits": true,
+      "width": 178.953125,
+      "available": 284
+    },
+    {
+      "layout": "bonus_slot_en",
+      "id": "title",
+      "fits": true,
+      "width": 304.640625,
+      "available": 660
+    },
+    {
+      "layout": "bonus_slot_en",
+      "id": "body_0",
+      "fits": true,
+      "width": 516.65625,
+      "available": 652
+    },
+    {
+      "layout": "bonus_slot_en",
+      "id": "body_1",
+      "fits": true,
+      "width": 568.21875,
+      "available": 652
+    },
+    {
+      "layout": "bonus_slot_en",
+      "id": "body_2",
+      "fits": true,
+      "width": 592.015625,
+      "available": 652
+    },
+    {
+      "layout": "bonus_slot_en",
+      "id": "cancel",
+      "fits": true,
+      "width": 114.828125,
+      "available": 284
+    },
+    {
+      "layout": "bonus_slot_en",
+      "id": "confirm",
+      "fits": true,
+      "width": 242.3125,
+      "available": 284
+    }
+  ],
+  "all_text_fits": true,
+  "new_runtime_png_count": 0,
+  "button_min_dp_at360": 50.5531914893617,
+  "bottom_outer_clearance_px": 82,
+  "bottom_clearance_after48px_band": 34,
+  "not_new_features": true,
+  "real_engine_acceptance": null
+}

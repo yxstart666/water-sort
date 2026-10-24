@@ -1,0 +1,29 @@
+{
+  "native_card": [
+    157,
+    204
+  ],
+  "original_alpha_identical": true,
+  "blue_interior_pixels_identical": true,
+  "original_gold_file_sha256": "97c5c4baa0304ac13cd781a0dc49c7b96aa077ed29e580d6eeadd07ba823f4ee",
+  "badge_checks": {
+    "52": {
+      "position": [
+        102,
+        8
+      ],
+      "alpha_overlap_pixels_gt_8": 0,
+      "rect_inside_card": true
+    },
+    "56": {
+      "position": [
+        100,
+        6
+      ],
+      "alpha_overlap_pixels_gt_8": 0,
+      "rect_inside_card": true
+    }
+  },
+  "runtime_integrated": false,
+  "text_baked_in_runtime_assets": false
+}

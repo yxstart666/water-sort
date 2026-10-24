@@ -1,0 +1,129 @@
+以下为两份 JSON 的核心正文，已排除存档内容和个人数据。状态来自当前源码核对，**不代表本轮 GUI 或视觉验收通过**。
+
+当前默认入口为 `scenes/water_sort/orders_v3.tscn`，入口脚本 `scripts/water_sort/app_shell.gd`，campaign 为 `water_sort_orders_v3`。原 owner `01a1661d-20ed-7eb2-8d43-64056043204c` 独占生产集成。新素材固定 SHA 尚未收到，未拉取、未绑定；云端 98 份布局仍待逐项映射，不能算成本地 98 个页面。
+
+为方便核对资源覆盖，下面使用这些资源组：
+
+| 资源组 | 当前挂点／需要的内容 |
+|---|---|
+| A：主页、选关 | `scripts/shell/compositions.json`、中英 composition；保留 `assets/branding/approved_white_red_blue` 白底 Logo |
+| B：主游戏 | `order_gameplay_layout.SLOTS`、`order_gameplay_assets.UI_SLOTS`；背景、关卡牌、统计牌、交付计数、设置、订单卡、订单瓶、撤销、重玩、试用瓶、锁瓶 |
+| C：教学 | Guide/Status 动态文字、`OrderHud.tutorial_pointer_center`；第三关说明目前仍有旧 Panel 回退 |
+| D：暂停、设置 | `assets/ui_restore/modal_normal_v3/`、`pause_off_v1/`、`PAUSE_RUNTIME_CONTRACT.json`、`settings_guide_compositions.json` |
+| E：结果、确认 | `OrderActionDialog.PANEL/PRIMARY/SECONDARY`、`order_disabled.gdshader`；动态中英标题、正文、按钮 |
+| F：体力、提示 | compositions 的 `energy_full_zh/en`、`energy_ad_unavailable_zh/en`、`ad_unavailable_zh/en`；动态容量、恢复时间、错误正文 |
+| G：本机记录 | `ranking_total_not_connected_zh/en`、单关／总记录选中 tab、动态本机成绩字段 |
+| H：瓶体与收件 | 前后玻璃、直立／倾倒 mask、液体程序层、瓶塞、成品瓶、订单小瓶、锁层、完成标记、环绕星星；目前旧细瓶仍是占位 |
+
+**原 32 项逐项映射：**
+
+| ID／状态 | 入口 → 退出 | 当前行为与资源需求 |
+|---|---|---|
+| `home` 主页：已实现 | 启动／`App.show_home` → 开始、继续、选关、记录、设置、体力 | A。白底 Logo；继续有效局不重复扣费，现有美术混用，未完成新蓝金还原 |
+| `levels` 选关：已实现 | 主页选关／暂停“主页选关” → 已解锁关卡或返回主页 | A。50 关，每页 20 格；首尾翻页禁用态，关号与成绩动态显示 |
+| `selector_states` 关卡格：已实现 | 选关绘制 → 已解锁格可进入 | A。completed/current/locked 三态；现有 `current_empty` PNG **仍烘焙中文“当前”**，completed 图仍烘焙绿勾，不能当成完全拆层空底 |
+| `game` 订单游戏：已实现 | `_menu_start/_start_level` → 暂停、结果、无步、辅助或离开 | B、H。逻辑画布 1080×1920，按瓶数一／两排；当前视觉仍占位 |
+| `first_guide` 首关指引：已实现 | 第 1 关、moves=0 → 完成首倒后普通操作 | C。先选零基瓶 3，再选 4；指引手按玻璃实际边界定位 |
+| `game_rules` 游戏内说明：不可达 | 仅 `show_instructions` API；默认游戏按钮隐藏 | C。API 打开后 Start 恢复；不能因有图新增默认入口 |
+| `mask_intro` 第三关说明：已实现 | 本实例首次 `load_level(2)` → Start 恢复 | C。解释下层隐藏色；`mask_intro_seen` 非持久标记，不是整瓶锁教学 |
+| `pause` 暂停：已实现 | 设置／Escape／playing 时失焦 → 继续、重玩确认、主页选关 | D。冻结玩法计时及表现；不会把未完成动画直接结算 |
+| `pause_language` 暂停语言：已实现 | 暂停语言行 → 选择 zh/en，或外侧／Escape 收起 | D。下拉阻挡穿透；先关闭下拉，暂停事务保留 |
+| `audio` 音乐音效：已实现 | 主页设置／暂停开关 → 留在设置 | D。两个开关独立持久化并绑定真实本地音频；保存失败保留旧值并提示 |
+| `home_settings` 主页设置：已实现 | 主页齿轮 → 关闭回主页；说明后回设置 | D。当前实际路径为 `HomeMenu._draw_settings` 创建 `PauseDialog(home_settings=true)` |
+| `home_rules` 主页说明：已实现 | 主页设置“玩法说明” → 关闭回设置 | F。复用现有 notice 底板和按钮，动态订单玩法正文 |
+| `energy_full` 体力满：已实现 | 各页面体力入口且 30/30 → 关闭回来源 | F。游戏来源会暂停并禁用游戏处理 |
+| `energy_low` 体力补充／不足：已实现 | 新局不足 5，或非满体力加号 → 关闭／稍后 | F。真实容量及倒计时；非满但≥5 时是补给标题。**没有广告领取按钮绑定** |
+| `bonus_bottle` 辅助瓶：已实现 | 第 2 关起未领取辅助瓶／无步救援 → 确认或取消 | B、H；确认弹窗仍旧 Panel。每局一次本地免费试用，表现忙时禁止打开，无广告 SDK |
+| `bonus_slot` 第四订单位：已实现 | 第 2 关起第四槽“+” → 确认扩槽或取消 | B、H；旧确认 Panel。独立于辅助瓶领取状态，扩槽可触发等待成品收件 |
+| `undo` 撤销：已实现 | 底部撤销／无步撤销 → playing | B。恢复盘面、步数、订单和遮罩；不倒退思考时间，保留已领取辅助；忙时／完成后受限 |
+| `hint` 自动提示：未实现 | 无默认按钮、无服务 | 无资源绑定。`solutions.json` 仅供测试，不因有美术新增解题服务 |
+| `restart` 重玩确认：已实现 | 底部重玩／暂停重玩 → 确认同关或取消 | E。取消恢复原状态；未完成的同 attempt 重开不重复扣费 |
+| `leave` 返回：已实现 | 暂停“主页选关”／结果 Home → levels／home | D、E。`prepare_to_leave` 对齐已提交状态并 checkpoint；**直接离开，无退出确认** |
+| `leave_confirmation` 退出确认：未实现 | 无入口 | 不把重玩确认当退出确认；标题栏关闭仅尝试 checkpoint |
+| `stuck` 无步：已实现 | 全部事务结束且 `_has_legal_move=false` → 撤销、重玩、主页、可用救援 | E。只检测当前无合法倒法，不检测循环死局 |
+| `win` 普通通关：已实现 | 全订单交付且表现结束 → 下一关、重玩、主页 | E。真实步数／用时；成绩和体力按 attempt 幂等结算，动画不能直接发奖 |
+| `final_win` 最终通关：已实现 | 第 50 关完成 → ReplayAll、重玩末关、主页 | E。显示完成全部 50 关，不出现越界 Next；本轮未实际玩到末关 |
+| `ranking_level` 本机单关：已实现 | 主页本机记录，默认 level tab → total／主页 | G。使用进入时 continue_index，显示同次最佳通关步数及用时，无任意关选择器 |
+| `ranking_total` 本机总记录：已实现 | 本机记录 total tab → level／主页 | G。本机完成数与各关 best 用时汇总，不是全球名次 |
+| `ranking_other_origins` 游戏／选关直达排行：不可达 | 有 `show_ranking(origin)` API，默认无按钮 | G。`App` 未绑定 `ranking_return_to_game`，不能算默认流程已接入 |
+| `save_error` 本地错误提示：已实现 | 读取、写入、设置、结算失败 → 关闭／后续操作重试 | F。按真实失败显示动态文字；不等于网络重试页 |
+| `ad_unavailable` 广告不可用：占位 | 非满体力说明／notice API → 关闭、稍后 | F。`is_ad_available=false`；begin/complete 均返回不可用，无播放或认证成功路径 |
+| `network` 网络重试：未实现 | 无网络请求／重试入口 | 不把广告不可用稿当成断网恢复 |
+| `other_services` 联网服务：未实现 | 无登录、云存档、支付、分享、全球榜入口 | 本次范围外；旧货运模块和云端候选图不计入实现 |
+| `classic_modes` 经典兼容：已实现 | 显式运行 `campaign_v2.tscn`／旧 `water_sort_v1.tscn` | A。各自原流程和独立存档；默认主页没有模式切换，本轮不改 |
+
+**另外 24 条实际状态／缺项：**
+
+| ID | 触发 → 结束 | API 语义／资源要求 |
+|---|---|---|
+| `home_language_expanded` | 主页设置语言行 → 选择或外侧／Escape 收起 | D。复用 PauseDialog，但保留主页来源 |
+| `locale_audio_matrix` | 主页／暂停设置 → 关闭回来源 | D。每来源中英×音乐开关×音效开关×语言展开，共 16 组合；两来源共 32 组合，**不是 32 个业务页** |
+| `energy_recovery` | 未满体力 → 满 30 或关闭 | F。每 120 秒恢复 1，App 每秒取 snapshot 更新 |
+| `energy_unreadable` | snapshot 不可用 → 关闭／等待后续读写 | F。显示 `--/30`、Energy Unavailable，无虚构远端修复按钮 |
+| `selected_source` | 点可用有液体瓶 → 自身取消／换源／合法倒水 | H。选中上移 22；忙瓶、已交付瓶不可选 |
+| `whole_bottle_locked` | 第 4 关瓶 1，交付不足 1 → 首单实际收件 | H。`can_pour` 两端禁止；点击不抬瓶并提示，独立于隐藏色 |
+| `whole_lock_receipt_gate` | rules 已交付、display 尚未交付 → 飞入完成 | H。表现只能延迟开放，不能单独伪造解锁 |
+| `whole_bottle_unlocked` | 首单到达卡片 → 正常操作 | H。撤销到阈值前恢复锁；保留第 4 关 15 步规则 |
+| `hidden_color_covered` | masks 门槛未到 → 达标揭开 | H。顶部仍可倒，不可把全部 masks 改成整瓶锁 |
+| `hidden_color_revealed` | display_delivered 达标 → 继续／撤销 | H。HUD 按表现交付数揭开；撤销可恢复遮罩 |
+| `pour_transaction` | 合法倒水原子提交 → 普通结束／满瓶回稳 | H。仅源目标忙，无关瓶可继续；事务不能重复占瓶 |
+| `full_settle` | 倒完且同色满 → 落塞 | H。`settle_strength/settle_clock`；不等于订单完成 |
+| `full_seal` | 回稳结束 → 等待／收件 | H。`sample_seal` 驱动塞；当前 `full_ready` 是旧弧线／点／sparkle，**不是环绕小星 r2** |
+| `sealed_waiting_order` | 同色满但不匹配当前槽 → 新订单／扩槽后收件 | H。点瓶仅提示等待，不能倒出，未交付不解锁 |
+| `receipt_queued` | `queue_events` 入队 → 本槽前件与瓶事务结束 | B、H。每槽 FIFO，多槽独立；排队不提前换卡 |
+| `receipt_flight` | `start_ready_receipts` → 到达进入 check | B、H。同瓶视觉飞入，使用 receiving_anchor/scale；到达才增加 display_delivered |
+| `receipt_complete_mark` | flight 完成 → check 结束 | B。当前仍小圆圈＋小勾；新白框→金框大勾待绑定，不能自行改时序 |
+| `receipt_replace` | check 后仍有新订单 → replace 结束 | B。依据真实队列补位，不重新随机造订单 |
+| `order_slot_exhausted` | check 后无后续订单 → 保持完成空槽 | B。区别于短暂 check；新金框契约需说明是否两种状态都覆盖 |
+| `win_celebration` | is_solved 且事务／收件结束 → 结果窗 | E、H。现有 LevelCompleteEffect；不是瓶身环绕星；完成 checkpoint 不重复结算 |
+| `resume_paid_attempt` | 有效已付费局“继续” → 原盘面或完成结果 | A。校验 board_digest、归一化 JSON 索引，同 attempt 不再扣费 |
+| `reward_cancel_failed_stale` | 辅助请求取消／失败／重复／过期 → 不发奖 | 旧辅助 Panel。默认 UI 只有 local_trial/cancel，不存在广告播放页 |
+| `stuck_without_undo` | 无合法倒法且无历史 → 重玩／主页／可用救援 | E。BlockedUndo 禁用，显示无可撤销步骤 |
+| `cycle_deadlock` | 仍可循环移动但无法完成 | 未实现。当前只枚举合法倒法；本次仅测试识别风险，不新增求解提示或改规则 |
+
+**`resource-contracts.json` 的六组接入契约：**
+
+| 接口组 | 当前 API／语义 | 云端交付必须明确 |
+|---|---|---|
+| 主游戏布局 | `two_rows(total)`、`bottle_slot(total,index)`、`order_card(slot,count)`、`order_anchor`、`bonus_button`、`place_art` | 固定 SHA、逐文件 hash；1080 逻辑坐标、原尺寸、透明边距、文字安全区、图层、允许缩放／九宫格、normal/pressed/disabled 等态 |
+| 订单卡 | HUD：`slot_state(slot,stage,progress)`、`receiving_anchor`、`receiving_scale`、卡片前景；Presentation：`queue_events/start_ready_receipts/finish_receipt` | 未完成白框、完成金框＋大勾、locked/add-slot 分层；飞入接收区、前景遮挡、pivot/scale；check 瞬态与任务耗尽态定义、补位重置规则 |
+| 瓶体／液体／塞／星星 | `set_layers`、`set_visual_bands`、`sample_seal/sample_unseal`、`mouth_world`、`flow_angle/flow_lip/flow_cavity`、`sync_cork` | 同母版前后玻璃、直立 mask、连通倾倒 mask、塞、8 色成品；canvas/pivot/mouth/outlet/full_top/empty_bottom；星星帧序列、时长、轨迹、前后遮挡、混合模式、取消和暂停约定 |
+| 暂停／主页设置 | `configure(values)`、现有 preferences 信号、`open_language/close_language/cancel` | 现暂停契约为 941×1672 坐标；normal/off/expanded 层与 hit rect；中英、双开关、语言展开全部组合；文字安全区、勾与箭头位置 |
+| 结果／重玩／无步 | `OrderActionDialog.add_action(id,caption,action)`，保持一次分发锁；结果由 App 结算 | panel/title/body 和主次按钮安全区；Next、ReplayAll、BlockedUndo、ResultRestart、ConfirmRestart、CancelRestart、RescueBottle 等槽；中英长文案和禁用态 |
+| 主页／选关／记录／体力 | `show_page/show_ranking/update_energy/show_notice`；App `_menu_start/_checkpoint/_level_completed/_settle_pending` | composition key 映射；关卡三态、分页边界；本机记录空／有态；体力满、非满、不足、不可读、恢复时间区域；不画成伪全球名次或可用广告 |
+
+补充约束：
+
+- `UI_SLOTS` **只是可替换资源登记点，不是自动通用皮肤加载器**。空路径后续必须按小批真实绑定。
+- 订单显示不得修改 `rules.delivered`；动画不得直接解锁、重复交付或发奖。
+- 已有落塞及 `full_ready` 接点，**暂无专用 orbit-stars API**。环绕 r2 必须按新契约接，不能套旧瓶口闪星坐标。
+- 新瓶契约必须完整覆盖八色，现动态色值如下：
+
+| 色 ID | RGB Hex |
+|---|---|
+| red | `#EB3043` |
+| blue | `#148BE8` |
+| yellow | `#F2D414` |
+| green | `#11B866` |
+| purple | `#A651F3` |
+| orange | `#F57810` |
+| pink | `#ED29B2` |
+| cyan | `#13CBD7` |
+
+旧静态套件只有前七色；cyan 的满瓶、带塞、订单图缺失，目前使用动态回退，不能近色替代。
+
+云端 98 布局的每条映射需包含：
+
+```text
+cloud_layout_id
+fixed_commit
+original_local_state_ids / additional_state_ids
+entry / exit
+locale / variant
+asset paths + sha256
+source runtime handler
+new_business_entry flag
+acceptance screenshot pair
+```
+
+本次上线检查应覆盖**既有入口和功能**的可用性、存档／体力一致性、真实错误提示、点击安全及实际美术对照；清单中“已实现”不等于已验收。登录、云存档、支付、分享、联网榜不纳入本次开发；自动提示、退出确认、网络重试也不自动新增。循环死局仅由独立测试报告风险和复现，不改玩法。原 owner 继续等待已验证素材 SHA，独立测试按隔离目录、headless 边界继续。

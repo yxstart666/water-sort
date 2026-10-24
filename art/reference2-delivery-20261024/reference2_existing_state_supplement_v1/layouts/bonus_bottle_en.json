@@ -1,0 +1,199 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "production_coordinate_adapter": "orders_v3 is 1080x1920; transform root uniformly and reconcile actual safe area and existing control slots. This 940x1672 candidate is not a production scene.",
+  "locale": "en",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        100,
+        470,
+        740,
+        778
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        132,
+        520,
+        676,
+        76
+      ],
+      "text": "Add empty bottle",
+      "font_px": 44,
+      "color": "#FFF5DE"
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        136,
+        650,
+        668,
+        60
+      ],
+      "text": "Try one extra empty bottle this game.",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "rect": [
+        136,
+        720,
+        668,
+        60
+      ],
+      "text": "This local trial is free.",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "body_2",
+      "kind": "text",
+      "rect": [
+        136,
+        790,
+        668,
+        60
+      ],
+      "text": "Separate from the extra order slot.",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "cancel",
+      "kind": "button",
+      "rect": [
+        144,
+        1034,
+        300,
+        132
+      ],
+      "hit_rect": [
+        144,
+        1034,
+        300,
+        132
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "text": "Cancel",
+      "font_px": 35,
+      "color": "#FFF5DE",
+      "action": "existing_local_trial_cancel_no_reward",
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "state": "normal"
+    },
+    {
+      "id": "confirm",
+      "kind": "button",
+      "rect": [
+        496,
+        1034,
+        300,
+        132
+      ],
+      "hit_rect": [
+        496,
+        1034,
+        300,
+        132
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "text": "Add bottle",
+      "font_px": 35,
+      "color": "#FFF5DE",
+      "action": "existing_bonus_bottle_local_trial_confirm",
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "state": "normal"
+    }
+  ],
+  "font_path": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "path_base": "workspace/package root",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "status": "existing production state static supplement, not engine acceptance",
+  "source_evidence": "deliverables/water_sort/reference2_production_state_binding_v1/LOCAL_SOURCE_EVIDENCE.txt",
+  "underlay": "block pointer input; do not mutate board or clocks merely for display",
+  "qa_background": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+  "qa_note": "Chinese component assembly placeholder, not a production screenshot of this level or a localized runtime capture",
+  "entry": "Level 2 onward, eligible current attempt, own trial not yet claimed, presentation not busy; bonus bottle may also enter through existing stuck rescue",
+  "exit": "Existing local_trial confirm or cancel only; no video, ad SDK, reward page, energy debit or new account flow",
+  "eligibility": "Revalidate own type, attempt/request identity, not busy and not already claimed before committing. Never share bottle and slot claimed flags.",
+  "commit": "Existing bottle trial adds empty helper bottle once; retain on undo per existing model.",
+  "reward_provider": "local_trial only; unavailable ad flow has no entry",
+  "cancel_failed_stale": "No reward on cancellation, failure, duplicate or stale request. Preserve existing dismissal/status behavior; no invented error modal or retry/reward button.",
+  "double_tap": "Use existing one-shot guard; while committing both buttons processing/disabled. Never treat visual state as entitlement."
+}

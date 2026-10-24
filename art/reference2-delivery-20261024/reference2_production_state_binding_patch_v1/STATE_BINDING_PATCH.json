@@ -1,0 +1,477 @@
+{
+  "patch_type": "additive source binding only; no first batch mutation",
+  "base_mapping": "deliverables/water_sort/reference2_production_state_binding_v1/STATE_BINDING_MAP.json",
+  "evidence_thread": "01a16664-826e-7440-9e3d-5c5169540037",
+  "evidence_turn": "01a16b6b-3f9f-77f6-8a1a-017f3d15a14c",
+  "rows": [
+    {
+      "cloud_layout_id": "bonus_bottle_en",
+      "source_template": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/bonus_bottle_en.json",
+      "source_sha256": "32e7f0694f558a42248c75ed1b6d8ed89756c73d7ce4ccdbbccff203c346a888",
+      "fixed_commit": null,
+      "fixed_commit_status": "second batch unpublished/publisher commit not verified",
+      "original_local_state_ids": [
+        "bonus_bottle"
+      ],
+      "additional_state_ids": [
+        "reward_cancel_failed_stale"
+      ],
+      "locale": "en",
+      "entry": "Level 2 onward, eligible current attempt, own trial not yet claimed, presentation not busy; bonus bottle may also enter through existing stuck rescue",
+      "exit": "Existing local_trial confirm or cancel only; no video, ad SDK, reward page, energy debit or new account flow",
+      "new_business_entry": false,
+      "default_actions": [
+        "local_trial",
+        "cancel"
+      ],
+      "source_runtime_handler": [
+        "existing bonus-bottle local_trial request/cancel"
+      ],
+      "handler_names_status": "Only load_level and mask_intro_seen literal names evidenced; button action strings are semantic requirements, not newly verified API names",
+      "asset_paths_sha256": [
+        {
+          "pointer": "/elements/0/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/5/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/6/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/font_path",
+          "source": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+          "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/qa_background",
+          "source": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+          "sha256": "f7613449eb1db9b86147c4991ed7661239f34730207d034d4fd48d8f2930cafa",
+          "runtime_allowed": false
+        }
+      ],
+      "binding_constraints": {
+        "eligibility": "Revalidate own type, attempt/request identity, not busy and not already claimed before committing. Never share bottle and slot claimed flags.",
+        "commit": "Existing bottle trial adds empty helper bottle once; retain on undo per existing model.",
+        "reward_provider": "local_trial only; unavailable ad flow has no entry",
+        "double_tap": "Use existing one-shot guard; while committing both buttons processing/disabled. Never treat visual state as entitlement."
+      },
+      "adapter_requirements": [
+        "Source940x1672 -> production1080x1920 with existing safe-area/slot reconciliation; no gameplay change",
+        "Use live paused caller underlay; NEVER qa_background PNG",
+        "Exclude qa metadata and footer; all action callbacks must resolve existing handler, otherwise disabled",
+        "Fixed-root resource normalization needed for these six new source templates; do not mutate first-batch98 templates"
+      ],
+      "acceptance_screenshot_pair": {
+        "candidate_940": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_bottle_en_940.png",
+        "candidate_360": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_bottle_en_360.png",
+        "production_runtime": null,
+        "status": "candidate visually inspected; no production GUI acceptance"
+      }
+    },
+    {
+      "cloud_layout_id": "bonus_bottle_zh",
+      "source_template": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/bonus_bottle_zh.json",
+      "source_sha256": "09d5f85bcde8d5fef96057a3715f5a0da8afa95131b5f79972a209820421767b",
+      "fixed_commit": null,
+      "fixed_commit_status": "second batch unpublished/publisher commit not verified",
+      "original_local_state_ids": [
+        "bonus_bottle"
+      ],
+      "additional_state_ids": [
+        "reward_cancel_failed_stale"
+      ],
+      "locale": "zh",
+      "entry": "Level 2 onward, eligible current attempt, own trial not yet claimed, presentation not busy; bonus bottle may also enter through existing stuck rescue",
+      "exit": "Existing local_trial confirm or cancel only; no video, ad SDK, reward page, energy debit or new account flow",
+      "new_business_entry": false,
+      "default_actions": [
+        "local_trial",
+        "cancel"
+      ],
+      "source_runtime_handler": [
+        "existing bonus-bottle local_trial request/cancel"
+      ],
+      "handler_names_status": "Only load_level and mask_intro_seen literal names evidenced; button action strings are semantic requirements, not newly verified API names",
+      "asset_paths_sha256": [
+        {
+          "pointer": "/elements/0/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/5/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/6/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/font_path",
+          "source": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+          "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/qa_background",
+          "source": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+          "sha256": "f7613449eb1db9b86147c4991ed7661239f34730207d034d4fd48d8f2930cafa",
+          "runtime_allowed": false
+        }
+      ],
+      "binding_constraints": {
+        "eligibility": "Revalidate own type, attempt/request identity, not busy and not already claimed before committing. Never share bottle and slot claimed flags.",
+        "commit": "Existing bottle trial adds empty helper bottle once; retain on undo per existing model.",
+        "reward_provider": "local_trial only; unavailable ad flow has no entry",
+        "double_tap": "Use existing one-shot guard; while committing both buttons processing/disabled. Never treat visual state as entitlement."
+      },
+      "adapter_requirements": [
+        "Source940x1672 -> production1080x1920 with existing safe-area/slot reconciliation; no gameplay change",
+        "Use live paused caller underlay; NEVER qa_background PNG",
+        "Exclude qa metadata and footer; all action callbacks must resolve existing handler, otherwise disabled",
+        "Fixed-root resource normalization needed for these six new source templates; do not mutate first-batch98 templates"
+      ],
+      "acceptance_screenshot_pair": {
+        "candidate_940": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_bottle_zh_940.png",
+        "candidate_360": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_bottle_zh_360.png",
+        "production_runtime": null,
+        "status": "candidate visually inspected; no production GUI acceptance"
+      }
+    },
+    {
+      "cloud_layout_id": "bonus_slot_en",
+      "source_template": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/bonus_slot_en.json",
+      "source_sha256": "50d5a014bebf6311dab4ac01016a1e15d8f786160efbd50ad6b8f075c7483750",
+      "fixed_commit": null,
+      "fixed_commit_status": "second batch unpublished/publisher commit not verified",
+      "original_local_state_ids": [
+        "bonus_slot"
+      ],
+      "additional_state_ids": [
+        "reward_cancel_failed_stale"
+      ],
+      "locale": "en",
+      "entry": "Level 2 onward, fourth-order-slot plus entry, own slot trial not yet claimed, presentation not busy",
+      "exit": "Existing local_trial confirm or cancel only; no video, ad SDK, reward page, energy debit or new account flow",
+      "new_business_entry": false,
+      "default_actions": [
+        "local_trial",
+        "cancel"
+      ],
+      "source_runtime_handler": [
+        "existing bonus-slot local_trial request/cancel"
+      ],
+      "handler_names_status": "Only load_level and mask_intro_seen literal names evidenced; button action strings are semantic requirements, not newly verified API names",
+      "asset_paths_sha256": [
+        {
+          "pointer": "/elements/0/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/5/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/6/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/font_path",
+          "source": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+          "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/qa_background",
+          "source": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+          "sha256": "f7613449eb1db9b86147c4991ed7661239f34730207d034d4fd48d8f2930cafa",
+          "runtime_allowed": false
+        }
+      ],
+      "binding_constraints": {
+        "eligibility": "Revalidate own type, attempt/request identity, not busy and not already claimed before committing. Never share bottle and slot claimed flags.",
+        "commit": "Existing slot trial enables fourth order slot once; may trigger existing waiting finished bottle receipt queue, never synthesize duplicate completion.",
+        "reward_provider": "local_trial only; unavailable ad flow has no entry",
+        "double_tap": "Use existing one-shot guard; while committing both buttons processing/disabled. Never treat visual state as entitlement."
+      },
+      "adapter_requirements": [
+        "Source940x1672 -> production1080x1920 with existing safe-area/slot reconciliation; no gameplay change",
+        "Use live paused caller underlay; NEVER qa_background PNG",
+        "Exclude qa metadata and footer; all action callbacks must resolve existing handler, otherwise disabled",
+        "Fixed-root resource normalization needed for these six new source templates; do not mutate first-batch98 templates"
+      ],
+      "acceptance_screenshot_pair": {
+        "candidate_940": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_slot_en_940.png",
+        "candidate_360": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_slot_en_360.png",
+        "production_runtime": null,
+        "status": "candidate visually inspected; no production GUI acceptance"
+      }
+    },
+    {
+      "cloud_layout_id": "bonus_slot_zh",
+      "source_template": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/bonus_slot_zh.json",
+      "source_sha256": "8e588fe2d205b756852a2489b187ad00a79401aac5ee25703ce1aebcd3999f0c",
+      "fixed_commit": null,
+      "fixed_commit_status": "second batch unpublished/publisher commit not verified",
+      "original_local_state_ids": [
+        "bonus_slot"
+      ],
+      "additional_state_ids": [
+        "reward_cancel_failed_stale"
+      ],
+      "locale": "zh",
+      "entry": "Level 2 onward, fourth-order-slot plus entry, own slot trial not yet claimed, presentation not busy",
+      "exit": "Existing local_trial confirm or cancel only; no video, ad SDK, reward page, energy debit or new account flow",
+      "new_business_entry": false,
+      "default_actions": [
+        "local_trial",
+        "cancel"
+      ],
+      "source_runtime_handler": [
+        "existing bonus-slot local_trial request/cancel"
+      ],
+      "handler_names_status": "Only load_level and mask_intro_seen literal names evidenced; button action strings are semantic requirements, not newly verified API names",
+      "asset_paths_sha256": [
+        {
+          "pointer": "/elements/0/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/5/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/6/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/font_path",
+          "source": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+          "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/qa_background",
+          "source": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+          "sha256": "f7613449eb1db9b86147c4991ed7661239f34730207d034d4fd48d8f2930cafa",
+          "runtime_allowed": false
+        }
+      ],
+      "binding_constraints": {
+        "eligibility": "Revalidate own type, attempt/request identity, not busy and not already claimed before committing. Never share bottle and slot claimed flags.",
+        "commit": "Existing slot trial enables fourth order slot once; may trigger existing waiting finished bottle receipt queue, never synthesize duplicate completion.",
+        "reward_provider": "local_trial only; unavailable ad flow has no entry",
+        "double_tap": "Use existing one-shot guard; while committing both buttons processing/disabled. Never treat visual state as entitlement."
+      },
+      "adapter_requirements": [
+        "Source940x1672 -> production1080x1920 with existing safe-area/slot reconciliation; no gameplay change",
+        "Use live paused caller underlay; NEVER qa_background PNG",
+        "Exclude qa metadata and footer; all action callbacks must resolve existing handler, otherwise disabled",
+        "Fixed-root resource normalization needed for these six new source templates; do not mutate first-batch98 templates"
+      ],
+      "acceptance_screenshot_pair": {
+        "candidate_940": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_slot_zh_940.png",
+        "candidate_360": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/bonus_slot_zh_360.png",
+        "production_runtime": null,
+        "status": "candidate visually inspected; no production GUI acceptance"
+      }
+    },
+    {
+      "cloud_layout_id": "mask_intro_en",
+      "source_template": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/mask_intro_en.json",
+      "source_sha256": "576edc1cf97aa3533a1b32ad01cf791def267254cf179aecbf772d7fc8db8b64",
+      "fixed_commit": null,
+      "fixed_commit_status": "second batch unpublished/publisher commit not verified",
+      "original_local_state_ids": [
+        "mask_intro"
+      ],
+      "additional_state_ids": [
+        "hidden_color_covered",
+        "hidden_color_revealed"
+      ],
+      "locale": "en",
+      "entry": "Only first load_level(2) in this instance when mask_intro_seen false; not persistent tutorial preference",
+      "exit": "Existing Start handler resumes; retain existing input and pause semantics, do not add Cancel/Home or an auto tutorial chain",
+      "new_business_entry": false,
+      "default_actions": [
+        "Start"
+      ],
+      "source_runtime_handler": [
+        "load_level(2)",
+        "mask_intro_seen",
+        "show_instructions Start resume"
+      ],
+      "handler_names_status": "Only load_level and mask_intro_seen literal names evidenced; button action strings are semantic requirements, not newly verified API names",
+      "asset_paths_sha256": [
+        {
+          "pointer": "/elements/0/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/6/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/font_path",
+          "source": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+          "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/qa_background",
+          "source": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+          "sha256": "f7613449eb1db9b86147c4991ed7661239f34730207d034d4fd48d8f2930cafa",
+          "runtime_allowed": false
+        }
+      ],
+      "binding_constraints": {
+        "target": "actual lower concealed liquid layers only",
+        "source": "existing mask/visibility model and configured hidden threshold",
+        "threshold": "read actual configuration; no invented number, extra rule, fixed layer count or whole-bottle overlay",
+        "top": "respect existing visible/pourable top; mask is not a lock",
+        "restore": "follow actual reveal/undo model"
+      },
+      "adapter_requirements": [
+        "Source940x1672 -> production1080x1920 with existing safe-area/slot reconciliation; no gameplay change",
+        "Use live paused caller underlay; NEVER qa_background PNG",
+        "Exclude qa metadata and footer; all action callbacks must resolve existing handler, otherwise disabled",
+        "Fixed-root resource normalization needed for these six new source templates; do not mutate first-batch98 templates"
+      ],
+      "acceptance_screenshot_pair": {
+        "candidate_940": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/mask_intro_en_940.png",
+        "candidate_360": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/mask_intro_en_360.png",
+        "production_runtime": null,
+        "status": "candidate visually inspected; no production GUI acceptance"
+      }
+    },
+    {
+      "cloud_layout_id": "mask_intro_zh",
+      "source_template": "deliverables/water_sort/reference2_existing_state_supplement_v1/layouts/mask_intro_zh.json",
+      "source_sha256": "d5932289a45e9b4df0e8e72c9d88968466dc85fe6afe1fd8d438ebc95c4da13d",
+      "fixed_commit": null,
+      "fixed_commit_status": "second batch unpublished/publisher commit not verified",
+      "original_local_state_ids": [
+        "mask_intro"
+      ],
+      "additional_state_ids": [
+        "hidden_color_covered",
+        "hidden_color_revealed"
+      ],
+      "locale": "zh",
+      "entry": "Only first load_level(2) in this instance when mask_intro_seen false; not persistent tutorial preference",
+      "exit": "Existing Start handler resumes; retain existing input and pause semantics, do not add Cancel/Home or an auto tutorial chain",
+      "new_business_entry": false,
+      "default_actions": [
+        "Start"
+      ],
+      "source_runtime_handler": [
+        "load_level(2)",
+        "mask_intro_seen",
+        "show_instructions Start resume"
+      ],
+      "handler_names_status": "Only load_level and mask_intro_seen literal names evidenced; button action strings are semantic requirements, not newly verified API names",
+      "asset_paths_sha256": [
+        {
+          "pointer": "/elements/0/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/elements/5/source",
+          "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+          "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/font_path",
+          "source": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+          "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+          "runtime_allowed": true
+        },
+        {
+          "pointer": "/qa_background",
+          "source": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+          "sha256": "f7613449eb1db9b86147c4991ed7661239f34730207d034d4fd48d8f2930cafa",
+          "runtime_allowed": false
+        }
+      ],
+      "binding_constraints": {
+        "target": "actual lower concealed liquid layers only",
+        "source": "existing mask/visibility model and configured hidden threshold",
+        "threshold": "read actual configuration; no invented number, extra rule, fixed layer count or whole-bottle overlay",
+        "top": "respect existing visible/pourable top; mask is not a lock",
+        "restore": "follow actual reveal/undo model"
+      },
+      "adapter_requirements": [
+        "Source940x1672 -> production1080x1920 with existing safe-area/slot reconciliation; no gameplay change",
+        "Use live paused caller underlay; NEVER qa_background PNG",
+        "Exclude qa metadata and footer; all action callbacks must resolve existing handler, otherwise disabled",
+        "Fixed-root resource normalization needed for these six new source templates; do not mutate first-batch98 templates"
+      ],
+      "acceptance_screenshot_pair": {
+        "candidate_940": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/mask_intro_zh_940.png",
+        "candidate_360": "deliverables/water_sort/reference2_existing_state_supplement_v1/qa/mask_intro_zh_360.png",
+        "production_runtime": null,
+        "status": "candidate visually inspected; no production GUI acceptance"
+      }
+    }
+  ],
+  "terminal_state_contract": {
+    "path": "deliverables/water_sort/reference2_existing_state_supplement_v1/REWARD_TERMINAL_STATE_BINDING.json",
+    "sha256": "12e37669c2069a05b56c8b107de332012fdfc13b3ad37571bdaf8bea2df46ab6",
+    "state": "reward_cancel_failed_stale",
+    "standalone_page": false,
+    "permitted_outcomes": [
+      "cancel",
+      "failed",
+      "duplicate",
+      "stale"
+    ],
+    "reward_delta": 0,
+    "binding": "preserve existing request and attempt guards, dismissal/status; do not create ad/retry/reward controls"
+  },
+  "resolved_mapping_gaps": [
+    "mask_intro explanation layout",
+    "bonus_bottle independent confirmation",
+    "bonus_slot independent confirmation",
+    "reward_cancel_failed_stale semantic mapping"
+  ],
+  "not_resolved": [
+    "actual concealed-liquid mask rendering in production uses existing model; this package adds no mask art",
+    "production coordinates/actions/first-load trigger have not been GUI validated",
+    "other blocker differences in original production binding report still apply"
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "layout": "debug_ad_en.json",
+    "all_paths_resolve": true,
+    "min48dp": true,
+    "nonoverlap": true,
+    "bottom_inner_clearance": 28
+  },
+  {
+    "layout": "debug_ad_zh.json",
+    "all_paths_resolve": true,
+    "min48dp": true,
+    "nonoverlap": true,
+    "bottom_inner_clearance": 28
+  }
+]

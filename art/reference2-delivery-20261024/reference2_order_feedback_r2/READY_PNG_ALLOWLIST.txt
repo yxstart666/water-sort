@@ -1,0 +1,3 @@
+assets/order_card_pending_white.png
+assets/order_card_complete_gold.png
+assets/order_complete_badge_52.png

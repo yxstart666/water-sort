@@ -1,0 +1,60 @@
+{
+  "production_state": "reward_cancel_failed_stale",
+  "ui_surface": "Existing bonus_bottle or bonus_slot confirmation only. No standalone ad or failure screen.",
+  "default_actions": [
+    "local_trial",
+    "cancel"
+  ],
+  "source_evidence": "deliverables/water_sort/reference2_production_state_binding_v1/LOCAL_SOURCE_EVIDENCE.txt",
+  "variants": {
+    "cancel": {
+      "reward_delta": 0,
+      "board_mutation": "none from this rejected callback",
+      "attempt_request_guard": "must match live request and attempt; accepted local_trial can grant once only",
+      "ui": "cancel uses existing dismiss; other cases preserve existing status/dismissal, do not introduce ad/retry controls",
+      "layout_reference": [
+        "layouts/bonus_bottle_zh.json",
+        "layouts/bonus_bottle_en.json",
+        "layouts/bonus_slot_zh.json",
+        "layouts/bonus_slot_en.json"
+      ]
+    },
+    "failed": {
+      "reward_delta": 0,
+      "board_mutation": "none from this rejected callback",
+      "attempt_request_guard": "must match live request and attempt; accepted local_trial can grant once only",
+      "ui": "cancel uses existing dismiss; other cases preserve existing status/dismissal, do not introduce ad/retry controls",
+      "layout_reference": [
+        "layouts/bonus_bottle_zh.json",
+        "layouts/bonus_bottle_en.json",
+        "layouts/bonus_slot_zh.json",
+        "layouts/bonus_slot_en.json"
+      ]
+    },
+    "duplicate": {
+      "reward_delta": 0,
+      "board_mutation": "none from this rejected callback",
+      "attempt_request_guard": "must match live request and attempt; accepted local_trial can grant once only",
+      "ui": "cancel uses existing dismiss; other cases preserve existing status/dismissal, do not introduce ad/retry controls",
+      "layout_reference": [
+        "layouts/bonus_bottle_zh.json",
+        "layouts/bonus_bottle_en.json",
+        "layouts/bonus_slot_zh.json",
+        "layouts/bonus_slot_en.json"
+      ]
+    },
+    "stale": {
+      "reward_delta": 0,
+      "board_mutation": "none from this rejected callback",
+      "attempt_request_guard": "must match live request and attempt; accepted local_trial can grant once only",
+      "ui": "cancel uses existing dismiss; other cases preserve existing status/dismissal, do not introduce ad/retry controls",
+      "layout_reference": [
+        "layouts/bonus_bottle_zh.json",
+        "layouts/bonus_bottle_en.json",
+        "layouts/bonus_slot_zh.json",
+        "layouts/bonus_slot_en.json"
+      ]
+    }
+  },
+  "unknowns": "Retain exact existing terminal dismissal/notice behavior; source summary does not establish a dedicated failed/stale visual screen. Do not manufacture one."
+}

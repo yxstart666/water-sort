@@ -1,0 +1,44 @@
+[
+  {
+    "layout": "bonus_bottle_zh.json",
+    "paths_resolve": true,
+    "min_48dp": true,
+    "nonoverlap": true,
+    "bottom_clearance_after_48px_band": 34
+  },
+  {
+    "layout": "mask_intro_zh.json",
+    "paths_resolve": true,
+    "min_48dp": true,
+    "nonoverlap": true,
+    "bottom_clearance_after_48px_band": 34
+  },
+  {
+    "layout": "bonus_bottle_en.json",
+    "paths_resolve": true,
+    "min_48dp": true,
+    "nonoverlap": true,
+    "bottom_clearance_after_48px_band": 34
+  },
+  {
+    "layout": "mask_intro_en.json",
+    "paths_resolve": true,
+    "min_48dp": true,
+    "nonoverlap": true,
+    "bottom_clearance_after_48px_band": 34
+  },
+  {
+    "layout": "bonus_slot_en.json",
+    "paths_resolve": true,
+    "min_48dp": true,
+    "nonoverlap": true,
+    "bottom_clearance_after_48px_band": 34
+  },
+  {
+    "layout": "bonus_slot_zh.json",
+    "paths_resolve": true,
+    "min_48dp": true,
+    "nonoverlap": true,
+    "bottom_clearance_after_48px_band": 34
+  }
+]

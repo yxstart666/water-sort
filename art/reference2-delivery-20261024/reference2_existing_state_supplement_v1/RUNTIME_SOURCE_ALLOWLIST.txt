@@ -1,0 +1,2 @@
+deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png
+deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf

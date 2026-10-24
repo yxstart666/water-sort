@@ -1,0 +1,47 @@
+[
+  {
+    "state_id": "mask_intro",
+    "classification": "existing_state_missing_mapping",
+    "required_action": "Provide separate L3 hidden-lower-color notice and mask visual binding; do not reuse lock"
+  },
+  {
+    "state_id": "bonus_bottle",
+    "classification": "existing_state_missing_mapping",
+    "required_action": "Map existing local_trial bottle confirmation/cancel and eligibility to common blue-gold panel"
+  },
+  {
+    "state_id": "bonus_slot",
+    "classification": "existing_state_missing_mapping",
+    "required_action": "Map separate existing local_trial slot confirmation/cancel and eligibility"
+  },
+  {
+    "state_id": "hint",
+    "classification": "out_of_default_scope_do_not_add",
+    "required_action": "Do not create default entry or gameplay; preserve classic explicit scenes where applicable"
+  },
+  {
+    "state_id": "network",
+    "classification": "out_of_default_scope_do_not_add",
+    "required_action": "Do not create default entry or gameplay; preserve classic explicit scenes where applicable"
+  },
+  {
+    "state_id": "other_services",
+    "classification": "out_of_default_scope_do_not_add",
+    "required_action": "Do not create default entry or gameplay; preserve classic explicit scenes where applicable"
+  },
+  {
+    "state_id": "classic_modes",
+    "classification": "out_of_default_scope_do_not_add",
+    "required_action": "Do not create default entry or gameplay; preserve classic explicit scenes where applicable"
+  },
+  {
+    "state_id": "reward_cancel_failed_stale",
+    "classification": "existing_state_missing_mapping",
+    "required_action": "Existing trial cancel/stale guard; no ad success UI"
+  },
+  {
+    "state_id": "cycle_deadlock",
+    "classification": "out_of_default_scope_do_not_add",
+    "required_action": "Do not create default entry or gameplay; preserve classic explicit scenes where applicable"
+  }
+]

@@ -1,0 +1,11 @@
+# 第二批既有状态映射补丁
+
+只新增本目录，不改首批98模板、旧映射或freeze。补丁对应reference2_existing_state_supplement_v1的6个中英源模板。已实际看六页联系图及三张940整页，未见明显文字溢出；全部源freeze复核通过，引用缺失0。
+
+映射补齐：mask_intro → 本实例首次load_level(2)且mask_intro_seen=false，只Start恢复；bonus_bottle → 第2关起自身资格或已有无步救援，local_trial/cancel；bonus_slot → 第2关起独立第四槽资格，local_trial/cancel。new_business_entry全false。reward_cancel_failed_stale通过已有两确认的终止语义映射，不新增失败/广告/重试页面。
+
+边界：此补包是说明与确认UI，不提供下层隐藏色mask美术，也不证明L3真实遮罩显示正确。必须复用真实mask/visibility模型；绝不把L4锁图当L3遮罩。两trial保留不同claimed标志、真实request/attempt去重及忙态守卫，拒绝/过期/重复不发奖。
+
+坐标仍是940候选，生产1080及暂停941适配门禁不变。源action字符串只是需映射的语义，不是查证存在的同名函数。QA中文棋盘和页脚不运行。六源模板尚非首批已归一化98模板的一部分；publisher可第二批独立交付，owner据固定hash做明确适配，不修改首批冻结。
+
+STATE_BINDING_PATCH.json给每页source SHA、资产SHA、精确entry/exit、截图对与既有state ID。local runtime截图仍null；fixed_commit暂null等待publisher确认第二批真实commit。本地源码已实现不等于本轮GUI验收。

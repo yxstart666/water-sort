@@ -1,0 +1,152 @@
+{
+  "canvas": [
+    940,
+    1672
+  ],
+  "production_coordinate_adapter": "orders_v3 is 1080x1920; transform root uniformly and reconcile actual safe area and existing control slots. This 940x1672 candidate is not a production scene.",
+  "locale": "zh",
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "ninepatch",
+      "rect": [
+        100,
+        470,
+        740,
+        778
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ]
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "rect": [
+        132,
+        520,
+        676,
+        76
+      ],
+      "text": "隐藏颜色",
+      "font_px": 44,
+      "color": "#FFF5DE"
+    },
+    {
+      "id": "body_0",
+      "kind": "text",
+      "rect": [
+        136,
+        650,
+        668,
+        60
+      ],
+      "text": "下层部分颜色暂时隐藏。",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "body_1",
+      "kind": "text",
+      "rect": [
+        136,
+        720,
+        668,
+        60
+      ],
+      "text": "顶部颜色仍可按规则倾倒。",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "body_2",
+      "kind": "text",
+      "rect": [
+        136,
+        790,
+        668,
+        60
+      ],
+      "text": "隐藏颜色不等于整瓶锁定。",
+      "font_px": 32,
+      "color": "#DCEBFF"
+    },
+    {
+      "id": "start",
+      "kind": "button",
+      "rect": [
+        310,
+        1034,
+        320,
+        132
+      ],
+      "hit_rect": [
+        310,
+        1034,
+        320,
+        132
+      ],
+      "source": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "margins_ltrb": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "text": "开始",
+      "font_px": 35,
+      "color": "#FFF5DE",
+      "action": "existing_mask_intro_Start_resume",
+      "states": {
+        "normal": {
+          "brightness": 1,
+          "input": true
+        },
+        "focus": {
+          "brightness": 1.06,
+          "input": true
+        },
+        "pressed": {
+          "brightness": 0.88,
+          "input": true
+        },
+        "disabled": {
+          "brightness": 0.48,
+          "input": false
+        },
+        "processing": {
+          "brightness": 0.48,
+          "input": false
+        }
+      },
+      "state": "normal"
+    }
+  ],
+  "font_path": "deliverables/water_sort/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "path_base": "workspace/package root",
+  "overlay_rgba": [
+    0,
+    5,
+    18,
+    180
+  ],
+  "status": "existing production state static supplement, not engine acceptance",
+  "source_evidence": "deliverables/water_sort/reference2_production_state_binding_v1/LOCAL_SOURCE_EVIDENCE.txt",
+  "underlay": "block pointer input; do not mutate board or clocks merely for display",
+  "qa_background": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_940x1672.png",
+  "qa_note": "Chinese component assembly placeholder, not a production screenshot of this level or a localized runtime capture",
+  "entry": "Only first load_level(2) in this instance when mask_intro_seen false; not persistent tutorial preference",
+  "exit": "Existing Start handler resumes; retain existing input and pause semantics, do not add Cancel/Home or an auto tutorial chain",
+  "mask_visual_binding": {
+    "target": "actual lower concealed liquid layers only",
+    "source": "existing mask/visibility model and configured hidden threshold",
+    "threshold": "read actual configuration; no invented number, extra rule, fixed layer count or whole-bottle overlay",
+    "top": "respect existing visible/pourable top; mask is not a lock",
+    "restore": "follow actual reveal/undo model"
+  },
+  "unverified": "Lower-layer mask visual texture is not provided or invented here; layout explains actual existing mask. Use production concealment rendering and verified visibility model."
+}

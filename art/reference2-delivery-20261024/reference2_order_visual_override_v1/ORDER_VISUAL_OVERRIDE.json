@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "status": "additive visual-binding contract, not production runtime acceptance",
+  "base_commit": "db7f66dd24533b51b12a7b493156a3e83bd63fa9",
+  "base_commit_scope": "verified first delivery only; does not assert this patch already published",
+  "repository_delivery_root": "art/reference2-delivery-20261024/",
+  "patch_commit": null,
+  "source_contract": {
+    "delivery_relative_path": "reference2_order_feedback_r2/STATE_CONTRACT.json",
+    "source_path": "deliverables/water_sort/reference2_order_feedback_r2/STATE_CONTRACT.json",
+    "sha256": "cb6e13166bb06048df5142165db74955d927a67d0c40030328c66a15430bf8bd",
+    "bytes": 3500
+  },
+  "production_evidence": {
+    "thread": "01a16664-826e-7440-9e3d-5c5169540037",
+    "turn": "01a16b6b-3f9f-77f6-8a1a-017f3d15a14c",
+    "state_ids": [
+      "receipt_queued",
+      "receipt_flight",
+      "receipt_complete_mark",
+      "receipt_replace",
+      "order_slot_exhausted"
+    ]
+  },
+  "runtime_assets": {
+    "pending": {
+      "delivery_relative_path": "reference2_order_feedback_r2/assets/order_card_pending_white.png",
+      "source_path": "deliverables/water_sort/reference2_order_feedback_r2/assets/order_card_pending_white.png",
+      "sha256": "94d2ec11990b22c954fe5adb2a8d297c0d6369d11aa6a6fd0c460a1909a83c13",
+      "bytes": 32300
+    },
+    "complete": {
+      "delivery_relative_path": "reference2_order_feedback_r2/assets/order_card_complete_gold.png",
+      "source_path": "deliverables/water_sort/reference2_order_feedback_r2/assets/order_card_complete_gold.png",
+      "sha256": "97c5c4baa0304ac13cd781a0dc49c7b96aa077ed29e580d6eeadd07ba823f4ee",
+      "bytes": 32315
+    },
+    "badge": {
+      "delivery_relative_path": "reference2_order_feedback_r2/assets/order_complete_badge_52.png",
+      "source_path": "deliverables/water_sort/reference2_order_feedback_r2/assets/order_complete_badge_52.png",
+      "sha256": "c163750e3018ce8c61a67ff2d08cc773072cc574a8edfe55276af020c63dd3e2",
+      "bytes": 6539
+    }
+  },
+  "replacement_rules": [
+    {
+      "old": {
+        "delivery_relative_path": "reference2_order_card_local_repair_v1/assets/order_card_reference2_empty.png",
+        "source_path": "deliverables/water_sort/reference2_order_card_local_repair_v1/assets/order_card_reference2_empty.png",
+        "sha256": "97c5c4baa0304ac13cd781a0dc49c7b96aa077ed29e580d6eeadd07ba823f4ee",
+        "bytes": 32315
+      },
+      "replace_in": "active order card only",
+      "with": "pending for uncompleted/queued/flying; complete for receipt check and exhausted"
+    },
+    {
+      "old": {
+        "delivery_relative_path": "reference2_order_status_v1/assets/order_status_ring.png",
+        "source_path": "deliverables/water_sort/reference2_order_status_v1/assets/order_status_ring.png",
+        "sha256": "bbcc21ee22b4831552763159ea6be4b1d6636eee39d41e2f059c54353274d6c1",
+        "bytes": 1755
+      },
+      "replace_in": "active order status indicator only",
+      "with": "no standalone ring; pending white frame conveys uncompleted"
+    },
+    {
+      "old": {
+        "delivery_relative_path": "reference2_order_status_v1/assets/order_status_check.png",
+        "source_path": "deliverables/water_sort/reference2_order_status_v1/assets/order_status_check.png",
+        "sha256": "676c0472950cd794edd9d4e132f7f563637bb32ac42921737a0da59743a94de9",
+        "bytes": 1197
+      },
+      "replace_in": "active order completion status only",
+      "with": "52px badge; never draw old28px check underneath"
+    }
+  ],
+  "scope_exclusions": [
+    "Do not globally replace old blank card file: other consumers remain unchanged",
+    "Keep order_trial_card_blank and add-slot/locked layers and entitlement unchanged",
+    "Do not alter any target bottle texture or color; retain all eight exact colors",
+    "No QA/source imagegen/keyframe screenshot is a runtime asset"
+  ],
+  "geometry": {
+    "source_canvas": [
+      940,
+      1672
+    ],
+    "production_canvas": [
+      1080,
+      1920
+    ],
+    "card_size": [
+      157,
+      204
+    ],
+    "card_pivot": [
+      78.5,
+      102
+    ],
+    "target_local_rect": [
+      44,
+      41,
+      70,
+      137
+    ],
+    "badge_rest_rect": [
+      102,
+      8,
+      52,
+      52
+    ],
+    "badge_pop_max_rect": [
+      100,
+      6,
+      56,
+      56
+    ],
+    "adapter": "Place through actual order_card/order_anchor/receiving_anchor/receiving_scale in production1080; transform all local layers together, never independently stretch target or badge. Source anchors are not authoritative production slots."
+  },
+  "state_mapping": {
+    "active_pending": {
+      "when": "existing slot has an active uncompleted order, including queued or receipt flight not yet arrived",
+      "frame": "pending",
+      "badge_visible": false,
+      "target": "actual current order bottle, alpha1, exact color",
+      "side_effects": null
+    },
+    "receipt_complete_mark": {
+      "when": "existing flight completion enters actual check stage",
+      "frame": "complete",
+      "badge_visible": true,
+      "target": "preserve current actual order target until existing clear/replace stage changes it; alpha1",
+      "animation": "optional one-shot frame crossfade/badge pop within existing check duration; do not prolong check or delay queue",
+      "side_effects": null
+    },
+    "receipt_replace": {
+      "when": "existing check ends and real queue provides next order",
+      "frame": "pending for newly bound next order",
+      "badge_visible": false,
+      "target": "next actual queue order only; no random or invented target",
+      "reset": [
+        "cancel prior badge tween",
+        "reset badge size52/alpha and gold_mix0",
+        "clear completed visual identity before drawing new order"
+      ],
+      "side_effects": null
+    },
+    "order_slot_exhausted": {
+      "when": "existing check ends, no next order, actual slot enters persistent completed empty state",
+      "frame": "complete",
+      "badge_visible": true,
+      "target": "hide target only when authoritative existing slot is empty; never retain invented prior order or create a new order",
+      "animation": "static completed state; no repeat badge pop on every redraw/resume",
+      "meaning": "persistent completed empty slot, distinct from transient receipt_complete_mark",
+      "side_effects": null
+    },
+    "restored_or_reduced_motion": {
+      "when": "existing snapshot already specifies check/exhausted/pending",
+      "render": "derive frame/badge directly from actual stage; do not replay historical completion",
+      "side_effects": null
+    },
+    "undo_or_state_rollback": {
+      "when": "authoritative model/display returns to earlier stage",
+      "render": "cancel obsolete visual tween and rederive pending/check/exhausted and actual target from restored state",
+      "side_effects": null
+    }
+  },
+  "event_ownership": {
+    "read_handlers": [
+      "HUD.slot_state(slot,stage,progress)",
+      "HUD.receiving_anchor",
+      "HUD.receiving_scale"
+    ],
+    "presentation_owner": [
+      "queue_events",
+      "start_ready_receipts",
+      "finish_receipt"
+    ],
+    "write_forbidden": [
+      "rules.delivered",
+      "ledger/energy/reward",
+      "unlock state",
+      "order queue contents",
+      "attempt lifecycle"
+    ],
+    "count": "Completion counter reads actual completed/required; visible badge cannot increment or infer it",
+    "receipt_timing": "Existing flight arrival owns display_delivered update; visual adapter never performs the update",
+    "slot_fifo": "Keep existing per-slot FIFO and independent slots; no early replacement"
+  },
+  "animation_guard": {
+    "key": "host actual receipt/order identity plus stage transition; no guessed API required",
+    "source_keyframes_ms": [
+      0,
+      90,
+      180,
+      260
+    ],
+    "timing_authority": "These are art suggestions only. Fit/clamp/skip within existing check phase; never replace production transaction times",
+    "pause": "freeze/resume through existing presentation pause",
+    "cancel": "cancel on slot replacement, undo, restart, exit, or stale receipt; no state mutation",
+    "card_and_target_scale": 1,
+    "badge_max_size": [
+      56,
+      56
+    ]
+  },
+  "required_acceptance": [
+    "Pending white frame vs gold/check recognizable at360",
+    "No old ring/oldcheck double drawing",
+    "All8 order colors unchanged",
+    "Transient check then next order returns white and no badge",
+    "No-next-order remains gold+badge empty slot without fake target",
+    "Restore/reduced-motion/undo do not retrigger delivery/count/reward",
+    "Production1080 anchors and receiving foreground clipping verified"
+  ],
+  "new_business_entry": false
+}

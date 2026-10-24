@@ -1,0 +1,37 @@
+{
+  "version": "reference2_order_feedback_r2",
+  "status": "STATIC_CANDIDATE_NOT_INTEGRATED",
+  "coordinate_space": "940x1672 logical canvas, top-left origin, uniform viewport scale",
+  "card_size": [157,204],
+  "card_pivot": [78.5,102],
+  "existing_order_top_left": [[148,216],[312,216],[476,216]],
+  "trial_top_left": [636,216],
+  "pending_texture": "assets/order_card_pending_white.png",
+  "completed_texture": "assets/order_card_complete_gold.png",
+  "completion_badge_texture": "assets/order_complete_badge_52.png",
+  "target_bottle_local_rect": [44,41,70,137],
+  "target_bottle_source": "../reference2_order_bottle_states_v1/assets/order_{red|blue|green|yellow|purple|orange|pink|cyan}_cork.png",
+  "target_identity": "Unchanged bottle asset, unchanged color, alpha=1 in every state. Never gray the pending order or change the color to communicate completion.",
+  "badge_rest_rect": [102,8,52,52],
+  "badge_anchor_center": [128,34],
+  "badge_pop_max_rect": [100,6,56,56],
+  "badge_clip": "No overflow beyond 157x204 card. Existing adjacent slot positions must remain unchanged.",
+  "states": {
+    "pending": {"frame":"white","badge_visible":false,"bottle_alpha":1,"frame_alpha":1,"label_key":"order.pending"},
+    "completing": {"trigger":"Verified order completion event only, not bottle selection or pour start","transition":"frame crossfade then badge pop","label_key":"order.complete"},
+    "complete": {"frame":"original_gold","badge_visible":true,"badge_size":[52,52],"bottle_alpha":1,"frame_alpha":1,"label_key":"order.complete"},
+    "trial": {"action":"Keep existing trial slot art and logic. Not a pending order. This patch does not alter it."}
+  },
+  "static_keyframe_timeline_ms": [
+    {"t":0,"gold_mix":0,"badge_size":0,"qa_file":"qa/keyframe_000_pending.png"},
+    {"t":90,"gold_mix":0.55,"badge_size":0,"qa_file":"qa/keyframe_090_frame_to_gold.png"},
+    {"t":180,"gold_mix":1,"badge_size":56,"qa_file":"qa/keyframe_180_badge_pop.png"},
+    {"t":260,"gold_mix":1,"badge_size":52,"qa_file":"qa/keyframe_260_complete.png"}
+  ],
+  "animation_limits": "Proposed timing only, not observed competitor timing. Do not pulse or scale card/bottle. Badge never exceeds 56x56. Set completed state directly for restored saves/reduced motion.",
+  "completion_count": "Bind existing completed/total game data; update once per completion. Do not derive count from visible badge or QA sample.",
+  "accessibility_localization": {"order.pending":{"zh-CN":"未完成","en":"Pending"},"order.complete":{"zh-CN":"已完成","en":"Complete"},"order.progress":{"zh-CN":"已完成 {completed} / {total}","en":"Completed {completed} / {total}"}},
+  "text_policy": "All runtime PNGs have no text and no bottles. Localized UI/accessibility text must be supplied by engine, not baked. QA labels are not runtime.",
+  "supersedes": "Only the pending/complete card presentation and 28px status ring/check from reference2_order_status_v1. Keep trial behavior and all unrelated UI unchanged.",
+  "runtime_acceptance": ["At 360px width, pending white and completed gold are distinct without relying only on check.","Check remains readable and does not overlap bottle, clip, or hit adjacent card.","All eight bottle colors remain unchanged.","No repeated completion feedback on redraw/resume; count updates exactly once.","Existing order clearing/replacement timing is owned by game logic and not overridden by this art patch.","Test 360 and 940 widths in engine; this package only validates static assembly."]
+}
