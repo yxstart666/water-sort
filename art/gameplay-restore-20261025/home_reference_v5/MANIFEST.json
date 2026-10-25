@@ -1,0 +1,167 @@
+{
+  "scope": "Home hero V5 and bottle-size reference supplement only; no production code, project configuration, popup chrome, demo flags or haptic settings.",
+  "intended_repository_folder": "art/gameplay-restore-20261025/home_reference_v5/",
+  "published": false,
+  "images_unchanged": true,
+  "files": [
+    {
+      "file": "home_natural_connected_droplet_v5.png",
+      "role": "runtime_home_hero_only",
+      "original_workspace_relative_path": "deliverables/shared_game_ui_refined_runtime_v5/template_project/assets/brand/caiping/home_natural_connected_droplet_v5.png",
+      "bytes": 142474,
+      "sha256": "a3b35e6b744bf269ac88e0094e0f426358898324af3648e5c069064221693d84",
+      "mode": "RGBA",
+      "size": [
+        768,
+        576
+      ],
+      "alpha_bbox": [
+        66,
+        24,
+        703,
+        555
+      ]
+    },
+    {
+      "file": "home_zh_360.png",
+      "role": "reference_only_NOT_runtime_fullpage",
+      "original_workspace_relative_path": "deliverables/shared_game_ui_refined_runtime_v5/home_droplet_revision/previews/home_zh_360.png",
+      "bytes": 261406,
+      "sha256": "f59163f55237a75ce3116cdf13bb0543bfbc88d56f6f7d2bec94ffd974f7de97",
+      "mode": "RGBA",
+      "size": [
+        360,
+        640
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        360,
+        640
+      ]
+    },
+    {
+      "file": "home_en_360.png",
+      "role": "reference_only_NOT_runtime_fullpage",
+      "original_workspace_relative_path": "deliverables/shared_game_ui_refined_runtime_v5/home_droplet_revision/previews/home_en_360.png",
+      "bytes": 257470,
+      "sha256": "acfbc6f622f8766f36f61228d5655d3aafe06c5c42860ccf58da3d4a79ad6981",
+      "mode": "RGBA",
+      "size": [
+        360,
+        640
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        360,
+        640
+      ]
+    },
+    {
+      "file": "actual_vs_competitor_two_panel_zh.png",
+      "role": "reference_only_NOT_game_asset",
+      "original_workspace_relative_path": "user_attachment_review/bottle_scale_20261025/readonly_analysis/actual_vs_competitor_two_panel_zh.png",
+      "bytes": 456706,
+      "sha256": "848719e522899e437df6988d63736a5d00c85f5f8c4c6a598c1bad019beaa359",
+      "mode": "RGB",
+      "size": [
+        780,
+        1018
+      ],
+      "alpha_bbox": null
+    }
+  ],
+  "home_binding": {
+    "runtime_asset": "home_natural_connected_droplet_v5.png",
+    "base_viewport": [
+      360,
+      640
+    ],
+    "hero_rect_xywh": [
+      52,
+      199,
+      256,
+      192
+    ],
+    "fit": "contain; preserve aspect ratio and alpha; never stretch, crop or bake an opaque background",
+    "source_rgba_size": [
+      768,
+      576
+    ],
+    "source_alpha_bbox": [
+      66,
+      24,
+      703,
+      555
+    ],
+    "fills_left_center_right": [
+      0.25,
+      0.75,
+      0.5
+    ],
+    "effect": "Static small center drop joined by a very thin lower neck to the raised surface ripple; no animation loop.",
+    "other_UI": "Do not restyle other UI or copy full-page reference images as runtime textures. Preserve current routing, settings, gameplay and business rules."
+  },
+  "bottle_size_reference": {
+    "measurement_method": "Actual screenshots normalized to 360 px game width; window border excluded; native aspect ratios preserved. Approximate visible bounds, +/- 1–2 px. Not the same level/slot configuration.",
+    "current": {
+      "viewport": [
+        360,
+        640
+      ],
+      "visible_bottle_px": [
+        24.69,
+        75.38
+      ],
+      "rows": [
+        5,
+        4
+      ],
+      "visible_bottles": 9
+    },
+    "competitor": {
+      "viewport": [
+        360,
+        771.43
+      ],
+      "visible_bottle_px": [
+        49.02,
+        146.25
+      ],
+      "rows": [
+        6,
+        3
+      ],
+      "visible_bottles": 9,
+      "original_slots": 12,
+      "frame_seconds": 68.8
+    },
+    "proposed_check_NOT_accepted_runtime": {
+      "viewport": [
+        360,
+        640
+      ],
+      "bottles": 9,
+      "rows": [
+        5,
+        4
+      ],
+      "visible_bottle_px": [
+        42,
+        126
+      ],
+      "acceptable_check_range_width": [
+        40,
+        44
+      ],
+      "acceptable_check_range_height": [
+        120,
+        132
+      ],
+      "rule": "Measure visible silhouette, not Control/PNG canvas. Scale bottle, liquid, cloth, cork and pivots together. Test pour clearance and touch targets; do not blindly copy competitor height from taller screen."
+    }
+  },
+  "tutorial_boundary": "Accepted V4 illustrations/content remain usable. The user now requires an interactive actual-click guide; do not freeze or reinstate old autoplay logic. No tutorial logic included in this supplement.",
+  "validation": "Copied-image SHA-256 and PNG decoding only; no full runtime checks, desktop operations or publication."
+}
