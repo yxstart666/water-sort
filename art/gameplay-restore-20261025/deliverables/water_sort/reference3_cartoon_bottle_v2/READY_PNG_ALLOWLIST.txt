@@ -1,0 +1,7 @@
+assets/cloth_wrapper_silver.png
+assets/cork_seated.png
+assets/glass_back_transmission.png
+assets/glass_front_material.png
+assets/pour_cavity_mask.png
+assets/visual_collision_mask.png
+assets/wrapped_visible_mask.png

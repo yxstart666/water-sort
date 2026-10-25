@@ -1,0 +1,57 @@
+{
+  "all_declared_dependencies_exist": true,
+  "files": [
+    {
+      "path": "../reference3_cartoon_bottle_v2/BOTTLE_CONTRACT.json",
+      "sha256": "b7a68a6ad52084a0f7f122398147c11473259813cf6e756816bd7f62b7ee4a00"
+    },
+    {
+      "path": "../reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png",
+      "sha256": "553fa4f47202a33395e9acd9258476ecaa79c333ce05313ff39c7cf6647891ab"
+    },
+    {
+      "path": "../reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+      "sha256": "dd559d76fc14a5b70fbc667833cb103272b05d6760e3c2e7f58a0257689d1208"
+    },
+    {
+      "path": "../reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+      "sha256": "4c1ad16d3a7dbb39713bcb72c0c13ade75dd6a0866a4b610c7c0b846110f50e3"
+    },
+    {
+      "path": "qa/full_two_bottle_pour.mp4",
+      "sha256": "b25e018cb97499dc45be7e85648a05ab6c63a43a43a60c3af6cff7134c36eb2e"
+    },
+    {
+      "path": "assets/home_peak_static.png",
+      "sha256": "0479e0832637611739ae10e5d1be67ddc4a8f87c406de5dd5bee66a351dde65f"
+    },
+    {
+      "path": "source/full_pour_player.js",
+      "sha256": "330aa521582bcbc23996a56891b9af3a3fde1d3dfcfa51a3a8672090a5f3b60a"
+    },
+    {
+      "path": "source/transfer_timing_v3.js",
+      "sha256": "278dbb87b16a65a2f2a2f0b81435c0225c716f581d8879556d036342ff9a7fa1"
+    },
+    {
+      "path": "source/neck_film.js",
+      "sha256": "0ff2dbb741f1cdfc3185349ddafe0cdb0c0c9d6e0e3570b5deaffcc47b3ed639"
+    },
+    {
+      "path": "../reference3_pour_frame_atlas_v3/assets/flow_head_atlas.png",
+      "sha256": "b51e8253e776ae170e85b66c611ac5ebf9902ea49ad749a56e4f99fa4f216b63"
+    },
+    {
+      "path": "../reference3_pour_frame_atlas_v3/assets/open_stream_core.png",
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f"
+    },
+    {
+      "path": "../reference3_pour_frame_atlas_v3/assets/transport_drop.png",
+      "sha256": "6bf059b9614e6593cccd21a3c113907bb7c2efd54a21add318e53c78ca888db6"
+    },
+    {
+      "path": "../reference3_pour_frame_atlas_v3/assets/impact_tail_atlas.png",
+      "sha256": "6ea9451088155d6d8d99b2f9aa5257d8d4e8988cf7cb7b4a1e8abcc9d4b655aa"
+    }
+  ]
+}

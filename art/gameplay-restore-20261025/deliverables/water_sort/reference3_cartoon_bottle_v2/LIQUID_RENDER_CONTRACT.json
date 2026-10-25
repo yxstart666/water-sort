@@ -1,0 +1,41 @@
+{
+  "palette_srgb": {
+    "blue": "#2422D0",
+    "green": "#83B718",
+    "yellow": "#FFC313",
+    "purple": "#702CC1",
+    "red": "#E31C16",
+    "pink": "#D82A95",
+    "orange": "#F47718",
+    "cyan": "#12BFD1"
+  },
+  "ids_and_rules_unchanged": true,
+  "body": "Opaque base, optional gentle0.96+0.04*sin(pi*t) horizontal multiplier. Never multiply glass transmission over body again. No white shine stripe.",
+  "surface_geometry": {
+    "plane": "All surface centers from NEW volume solver. Fullcenter86, not110. Oldv1 liquid heights invalid. Full top cap projects to about69, below neck; no liquid raised to mouth.",
+    "upright_body_chord": 111,
+    "free_top_rx": 55.5,
+    "free_top_ry": 17,
+    "free_top_total_thickness_ratio": 0.3063063063063063,
+    "internal_front_arc_depth": 16,
+    "internal_depth_ratio": 0.14414414414414414,
+    "top_color": "Use explicit top_srgb table once, with same color id. No additional whitening on top of those values. One visible free top only; no white outline.",
+    "internal_color": "Same two adjacent body colors separated by shared front arc d=depth*sqrt(1-u\u00b2); no added highlight ellipse/rim.",
+    "tilt": "Screen/world gravity defines every plane, not bottle axis. Compute visible chord using same transformed cavity and h. rx=half chord; ry=min(17,17*chord/111), depth=min(16,16*chord/111), then uniform root scale. Do not grow cap thickness with long tilted chord. Clip to transformed cavity. Optical projection never enters volume integrator.",
+    "render_bounds": "Top cap can project above h by17; do not change full threshold or draw through neck walls. All surfaces and body use same solver basis and antialiasing."
+  },
+  "accessibility": "Hues distinct in ordinary vision, not guaranteed for every color-vision deficiency/device. Validate actual screens; optional symbols are a separate feature.",
+  "static_qa_not_dynamic_acceptance": true,
+  "top_srgb": {
+    "blue": "#4142DB",
+    "green": "#9DCB3F",
+    "yellow": "#FFD54D",
+    "purple": "#8E50D4",
+    "red": "#EB504A",
+    "pink": "#E358AE",
+    "orange": "#F89748",
+    "cyan": "#43CDD9"
+  },
+  "revision": "reference3_cartoon_bottle_v2",
+  "geometry_source": "BOTTLE_CONTRACT.json from this v2 bundle only. Fullarea32283.14117647059, unitarea8070.785294117648. Original4unit rules unchanged."
+}

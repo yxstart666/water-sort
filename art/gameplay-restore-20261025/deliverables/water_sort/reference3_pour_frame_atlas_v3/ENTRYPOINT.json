@@ -1,0 +1,8 @@
+{
+  "status": "USER_APPROVED_VISUAL_SAMPLE_PENDING_GAME_INTEGRATION",
+  "canonical_final_entry": "../reference3_full_pour_demo_v3/ENTRYPOINT.json",
+  "asset_manifest": "ATLAS_MANIFEST.json",
+  "runtime_allowlist": "READY_PNG_ALLOWLIST.txt",
+  "dependency_resolution": "../reference3_full_pour_demo_v3/FINAL_ASSET_DEPENDENCIES.json",
+  "not_a_second_timing_contract": true
+}

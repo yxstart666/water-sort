@@ -1,0 +1,104 @@
+{
+  "canonical_entry": "deliverables/water_sort/reference3_full_pour_demo_v3/ENTRYPOINT.json",
+  "final_dependency_resolution": "deliverables/water_sort/reference3_full_pour_demo_v3/FINAL_ASSET_DEPENDENCIES.json",
+  "runtime_assets": [
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png",
+      "sha256": "553fa4f47202a33395e9acd9258476ecaa79c333ce05313ff39c7cf6647891ab",
+      "bytes": 2469,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/visual_collision_mask.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/visual_collision_mask.png",
+      "sha256": "2fc982a03a1cb4f42b25a285e3aa98caf690824c54c14ab058225ca4d240775b",
+      "bytes": 1675,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/cork_seated.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/cork_seated.png",
+      "sha256": "2a3d121bb52102f1824c441fe23e7985fea23e9b48703c52be2d4c196cd3f2dd",
+      "bytes": 4430,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/wrapped_visible_mask.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/wrapped_visible_mask.png",
+      "sha256": "047403f4cb90398b2d527e68c4ee323b75f01487281073952e98dc44e5df6ff1",
+      "bytes": 340,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+      "sha256": "dd559d76fc14a5b70fbc667833cb103272b05d6760e3c2e7f58a0257689d1208",
+      "bytes": 28627,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+      "sha256": "4c1ad16d3a7dbb39713bcb72c0c13ade75dd6a0866a4b610c7c0b846110f50e3",
+      "bytes": 56385,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png",
+      "sha256": "72aaf29b2e80dd840ebb1d83cf00ab810b09e89681fbb2608d9b13dbe94f18cb",
+      "bytes": 61478,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/energy_plus_standalone.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/energy_plus_standalone.png",
+      "sha256": "d2c67b10c12257eac12ab99ad229f2959f8f947b66695c5a05e16fad6fa9f4ce",
+      "bytes": 8549,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/neutral_order_card.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/neutral_order_card.png",
+      "sha256": "eebcfa9721206276b2a542d84c0daa73917e787016053f8e11c1f0951e3b7898",
+      "bytes": 31488,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_head_atlas.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_head_atlas.png",
+      "sha256": "b51e8253e776ae170e85b66c611ac5ebf9902ea49ad749a56e4f99fa4f216b63",
+      "bytes": 7548,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/open_stream_core.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/open_stream_core.png",
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "bytes": 3418,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/transport_drop.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/transport_drop.png",
+      "sha256": "6bf059b9614e6593cccd21a3c113907bb7c2efd54a21add318e53c78ca888db6",
+      "bytes": 895,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_tail_atlas.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_tail_atlas.png",
+      "sha256": "6ea9451088155d6d8d99b2f9aa5257d8d4e8988cf7cb7b4a1e8abcc9d4b655aa",
+      "bytes": 16608,
+      "role": "runtime_asset"
+    }
+  ],
+  "superseded_original_path_aliases": {
+    "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/glass_front_material.png": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+    "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/glass_back_transmission.png": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+    "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/cloth_wrapper_silver.png": "deliverables/water_sort/reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png"
+  },
+  "rule": "Resolve these aliases atomically. Old base glass/cloth PNGs are intentionally absent. Per-package historical allowlists are superseded by final dependency resolution. Do not repurpose replay frames as runtime textures.",
+  "sample_only_home_peak": "The original v3 home peak is retained solely for faithful source replay and historical byte validation. Do not use it to replace the latest separate home design."
+}

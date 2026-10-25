@@ -1,0 +1,31 @@
+{
+  "atomic": true,
+  "from_package": "reference3_cartoon_bottle_v1",
+  "to_package": "reference3_cartoon_bottle_v2",
+  "replace_same_relative_paths": [
+    "assets/glass_front_material.png",
+    "assets/glass_back_transmission.png",
+    "assets/pour_cavity_mask.png",
+    "assets/cloth_wrapper_silver.png",
+    "assets/wrapped_visible_mask.png",
+    "BOTTLE_CONTRACT.json",
+    "LIQUID_RENDER_CONTRACT.json"
+  ],
+  "byte_identical_assets": [
+    "assets/cork_seated.png",
+    "assets/visual_collision_mask.png"
+  ],
+  "all_consumers": [
+    "board empty/partial/layered/full/corked/wrapped",
+    "home",
+    "OrderTargetmini",
+    "real-component help/tutorial"
+  ],
+  "ui_hint": "Neutral order icon+dynamic count/standaloneplus draft is unchanged; bind to thisv2 bottle render mask and placement. Decrement only actual received order, not corking.",
+  "prohibited": [
+    "Mix v1 cavity with v2 front/back",
+    "Reuse v1 unit area or full110/base390",
+    "Create fifthunit or change ids/rules",
+    "Publish or dispatch before explicit user authorization"
+  ]
+}

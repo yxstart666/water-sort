@@ -1,0 +1,258 @@
+{
+  "scope": "Only accepted tutorial content, illustrations and gesture cues. No dialog skin, layout shell, game rules or routes are supplied.",
+  "source_config_path": "deliverables/shared_game_ui_refined_runtime_v4/template_project/config/projects/caiping.json",
+  "source_config_sha256": "e80863f6e953ff1be7fbcdcd77e7ec86e318eba5ef9a2be42563d3a3fdd36f10",
+  "source_scenario_path": "deliverables/shared_game_ui_refined_runtime_v4/art_revision_v4/STATIC_V4_VALIDATION.json",
+  "source_scenario_sha256": "411eb3e58349a86b9ff8f651a5544cd7bbf500723c4c231fecbb7929fbc4ab3c",
+  "reference_canvas": [
+    360,
+    640
+  ],
+  "adaptation": "image_rect and overlay rects are the accepted reference projection, not authority to adopt the rejected surrounding modal. Preserve relative cue-to-image placement when adapting to original modal. Step 2 points to LEFT bottle BODY, not neck. Step 1 points to RIGHT source.",
+  "asset_paths": {
+    "tutorial_step_1": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_1_valid_scene_v4.png",
+    "tutorial_step_2": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_2_valid_scene_v4.png",
+    "tutorial_step_3": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_3_valid_scene_v4.png",
+    "tutorial_hand": "accepted_tutorial_v4/assets/skins/blue_gold_refined/images/tutorial_hand.png",
+    "icon_complete": "accepted_tutorial_v4/assets/skins/blue_gold_refined/images/icon_complete.png"
+  },
+  "tutorial_steps_EXACT_CONFIG_EXTRACT": [
+    {
+      "title": {
+        "zh": "先选右侧源瓶",
+        "en": "Choose the right bottle"
+      },
+      "body": {
+        "zh": "右瓶上层绿色，倒入左侧绿色瓶。",
+        "en": "Pour the top green layer into the left bottle."
+      },
+      "asset_id": "tutorial_step_1",
+      "image_rect": [
+        54,
+        225,
+        252,
+        245
+      ],
+      "overlays": [
+        {
+          "asset_id": "tutorial_hand",
+          "rect": [
+            241,
+            317,
+            38,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "只倒上层绿色",
+        "en": "Pour only the top green"
+      },
+      "body": {
+        "zh": "只倒绿色，底部红色留在源瓶。",
+        "en": "Only green pours; red stays in the source."
+      },
+      "asset_id": "tutorial_step_2",
+      "image_rect": [
+        54,
+        225,
+        252,
+        245
+      ],
+      "overlays": [
+        {
+          "asset_id": "tutorial_hand",
+          "rect": [
+            138,
+            371,
+            38,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "绿色满瓶完成",
+        "en": "Complete the green bottle"
+      },
+      "body": {
+        "zh": "左侧绿色满瓶，右侧保留半瓶红色。",
+        "en": "Green fills the left bottle; red stays on the right."
+      },
+      "asset_id": "tutorial_step_3",
+      "image_rect": [
+        54,
+        225,
+        252,
+        245
+      ],
+      "overlays": [
+        {
+          "asset_id": "icon_complete",
+          "rect": [
+            150,
+            303,
+            26,
+            26
+          ]
+        }
+      ]
+    }
+  ],
+  "scenario_EXACT_EXTRACT": {
+    "capacity": 4,
+    "transfer_color": "green",
+    "transfer_units": 2,
+    "source_initial_bottom_to_top": [
+      "red",
+      "red",
+      "green",
+      "green"
+    ],
+    "target_initial": [
+      "green",
+      "green"
+    ],
+    "source_final": [
+      "red",
+      "red"
+    ],
+    "target_final": [
+      "green",
+      "green",
+      "green",
+      "green"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "source": [
+          {
+            "color": "red",
+            "units": 2
+          },
+          {
+            "color": "green",
+            "units": 2
+          }
+        ],
+        "target": [
+          {
+            "color": "green",
+            "units": 2
+          }
+        ],
+        "inflight": {
+          "green": 0,
+          "red": 0
+        },
+        "source_total": 4,
+        "target_total": 2,
+        "color_totals": {
+          "green": 4,
+          "red": 2
+        },
+        "source_angle_degrees": 0,
+        "source_plane": -313.9999999999894,
+        "target_plane": -168.77767791056442,
+        "red_units_transferred": 0,
+        "red_surface_plane": null,
+        "red_below_outlet_by": null,
+        "solver_area_error": 1.412203687323199e-13
+      },
+      {
+        "step": 2,
+        "source": [
+          {
+            "color": "red",
+            "units": 2
+          },
+          {
+            "color": "green",
+            "units": 1
+          }
+        ],
+        "target": [
+          {
+            "color": "green",
+            "units": 2.9
+          }
+        ],
+        "inflight": {
+          "green": 0.1,
+          "red": 0
+        },
+        "source_total": 3,
+        "target_total": 2.9,
+        "color_totals": {
+          "green": 4,
+          "red": 2
+        },
+        "source_angle_degrees": -75.71329417165363,
+        "source_plane": -65.43330411804473,
+        "target_plane": -234.06424606109942,
+        "red_units_transferred": 0,
+        "red_surface_plane": -41.020902767896374,
+        "red_below_outlet_by": 24.412401350169077,
+        "solver_area_error": 6.989964163039986e-13
+      },
+      {
+        "step": 3,
+        "source": [
+          {
+            "color": "red",
+            "units": 2
+          }
+        ],
+        "target": [
+          {
+            "color": "green",
+            "units": 4
+          }
+        ],
+        "inflight": {
+          "green": 0,
+          "red": 0
+        },
+        "source_total": 2,
+        "target_total": 4,
+        "color_totals": {
+          "green": 4,
+          "red": 2
+        },
+        "source_angle_degrees": 0,
+        "source_plane": -168.77767791056442,
+        "target_plane": -313.9999999999894,
+        "red_units_transferred": 0,
+        "red_surface_plane": null,
+        "red_below_outlet_by": null,
+        "solver_area_error": 3.015365734881925e-13
+      }
+    ]
+  },
+  "completion_meaning": "One green bottle completed, not whole-game victory. Four green plus two red units remain conserved.",
+  "hand_ref_geometry": {
+    "step1_rect": [
+      241,
+      317,
+      38,
+      40
+    ],
+    "step2_rect": [
+      138,
+      371,
+      38,
+      40
+    ],
+    "shared_image_rect": [
+      54,
+      225,
+      252,
+      245
+    ]
+  },
+  "home": "Excluded. Home 1/4,3/4,1/2 and its current droplet correction are separate scope."
+}

@@ -1,0 +1,259 @@
+{
+  "version": "reference3_cartoon_bottle_v2",
+  "atomic_bundle": true,
+  "canvas": [
+    165,
+    410
+  ],
+  "pivot_px": [
+    82.5,
+    400
+  ],
+  "visible_body_x": [
+    19,
+    146
+  ],
+  "mouth_outer_x": [
+    46,
+    119
+  ],
+  "mouth_body_ratio": 0.578125,
+  "mouth_exit_px": [
+    82.5,
+    19
+  ],
+  "mouth_span_px": [
+    [
+      53,
+      19
+    ],
+    [
+      112,
+      19
+    ]
+  ],
+  "liquid_axis": {
+    "upright_max_fill_plane_y": 86,
+    "cavity_bottom_y": 378,
+    "capacity_units": 4,
+    "unit_area_px2": 8070.785294117648,
+    "full_area_px2": 32283.14117647059,
+    "upright_surface_center_y_for_1_2_3_4_units": [
+      303.7629533678756,
+      231.22232208945732,
+      158.6816908110402,
+      86.00000000000173
+    ],
+    "definition": "4units equals alpha-weighted cavity area at y>=86 with NEW curved inner base center378. Rotated volume integration uses entire connected cavity. Top ellipses/curved fronts are optical projection only, never additional liquid volume.",
+    "state_mapping": "Keep existing logical units/color ids/rules unchanged. Render unit-count or normalized volume using NEW8070.785294117648px2/unit, never oldv1 pixel areas and never a fifth layer."
+  },
+  "cork": {
+    "asset": "assets/cork_seated.png",
+    "canvas": [
+      64,
+      34
+    ],
+    "top_left_in_bottle": [
+      50.5,
+      -3
+    ],
+    "pivot_local": [
+      32,
+      22
+    ],
+    "pivot_world": [
+      82.5,
+      19
+    ],
+    "draw_last": true,
+    "allow_top_overflow_px": 3
+  },
+  "visual_collision": {
+    "mask": "assets/visual_collision_mask.png",
+    "channel": "luminance",
+    "polygon_px": [
+      [
+        77,
+        10
+      ],
+      [
+        57,
+        12
+      ],
+      [
+        50,
+        14
+      ],
+      [
+        46,
+        18
+      ],
+      [
+        46,
+        26
+      ],
+      [
+        49,
+        34
+      ],
+      [
+        51,
+        38
+      ],
+      [
+        51,
+        47
+      ],
+      [
+        47,
+        53
+      ],
+      [
+        37,
+        60
+      ],
+      [
+        29,
+        68
+      ],
+      [
+        22,
+        78
+      ],
+      [
+        19,
+        90
+      ],
+      [
+        19,
+        100
+      ],
+      [
+        18,
+        350
+      ],
+      [
+        19,
+        370
+      ],
+      [
+        23,
+        380
+      ],
+      [
+        30,
+        387
+      ],
+      [
+        46,
+        394
+      ],
+      [
+        119,
+        394
+      ],
+      [
+        135,
+        387
+      ],
+      [
+        142,
+        380
+      ],
+      [
+        146,
+        370
+      ],
+      [
+        147,
+        350
+      ],
+      [
+        147,
+        100
+      ],
+      [
+        146,
+        90
+      ],
+      [
+        143,
+        78
+      ],
+      [
+        137,
+        68
+      ],
+      [
+        128,
+        60
+      ],
+      [
+        118,
+        53
+      ],
+      [
+        115,
+        47
+      ],
+      [
+        115,
+        38
+      ],
+      [
+        117,
+        34
+      ],
+      [
+        119,
+        26
+      ],
+      [
+        119,
+        18
+      ],
+      [
+        115,
+        14
+      ],
+      [
+        108,
+        12
+      ],
+      [
+        88,
+        10
+      ]
+    ],
+    "purpose": "Visual hit/bounds envelope only; NEVER use as liquid cavity or transfer solver mask."
+  },
+  "layer_order": [
+    "glass_back_transmission",
+    "runtime_liquid",
+    "glass_front_material",
+    "cork_if_state_requires"
+  ],
+  "compositing": "Back first, opaque liquid second, front last. Rear/front partition recalibrated into shoulder for raised surface. Empty recomposite preserves approved master within8bit rounding. Very soft partial right-shoulder reflection only over liquid; no hard y100 material cut.",
+  "cloth": {
+    "asset": "assets/cloth_wrapper_silver.png",
+    "rect": [
+      13,
+      0,
+      139,
+      327
+    ],
+    "render_visibility_mask": "assets/wrapped_visible_mask.png",
+    "hidden_mask_zero_y": [
+      0,
+      320
+    ],
+    "hidden_mask_visible_y": [
+      321,
+      409
+    ],
+    "apply_to": "Whole bottle render group before cloth/icon/count. Render occlusion ONLY, not volume/cavity/color-rule mask. Reveal removes render mask and cloth; count remains separate runtime state.",
+    "optical_occlusion_note": "Bottom-unit plane303.76295 plus16px internal front-arc depth reaches319.76295. Visibility starts321 and cloth hem~323..327; uppercolor cannot leak. No change to logical liquid units."
+  },
+  "compatibility": "Replace all same-component uses together: board,home,help,OrderTarget scaled mini. Oldv2 front/back/cavity/cork/cloth geometry must not mix with this bundle. Capacity4 and all color ids/rules unchanged.",
+  "glass_base": "Physical liquid cavity ends on curved inner floor center378, side junction~362. Outer glass bottom unchanged~396\u2013400. Revealed18\u201322px is existing dark translucent glass and thin outer arc, not a black strip or bright covering ring."
+}

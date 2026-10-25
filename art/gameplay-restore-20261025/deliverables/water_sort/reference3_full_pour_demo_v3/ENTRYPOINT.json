@@ -1,0 +1,94 @@
+{
+  "status": "USER_APPROVED_VISUAL_SAMPLE_PENDING_GAME_INTEGRATION",
+  "video": "qa/full_two_bottle_pour.mp4",
+  "video_sha256": "b25e018cb97499dc45be7e85648a05ab6c63a43a43a60c3af6cff7134c36eb2e",
+  "video_spec": {
+    "size": [
+      360,
+      640
+    ],
+    "fps": 30,
+    "frames": 70,
+    "duration_s": 2.3333333333333335
+  },
+  "atlas_entry": "../reference3_pour_frame_atlas_v3/ATLAS_MANIFEST.json",
+  "ready_png_list": "../reference3_pour_frame_atlas_v3/READY_PNG_ALLOWLIST.txt",
+  "source_entry": "source/full_pour_player.js",
+  "conserved_timing": "source/transfer_timing_v3.js",
+  "source_mass_renderer": "source/neck_film.js",
+  "home_static": {
+    "path": "assets/home_peak_static.png",
+    "same_render_frame": "qa/receiver_frames/frame_042.png",
+    "frame": 42,
+    "time": 1.4,
+    "reason": "actual v3 single-body refill peak after final transfer; exact receiver frame042, no independent beautification",
+    "size": [
+      165,
+      410
+    ],
+    "pivot": [
+      82.5,
+      400
+    ],
+    "animation": false,
+    "independent_beautification": false,
+    "sha256": "0479e0832637611739ae10e5d1be67ddc4a8f87c406de5dd5bee66a351dde65f"
+  },
+  "dependencies": [
+    "../reference3_cartoon_bottle_v2/BOTTLE_CONTRACT.json",
+    "../reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png",
+    "../reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+    "../reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png"
+  ],
+  "unchanged_ui_dependencies": [
+    "../reference3_cloth_drape_v1",
+    "../reference3_plus_order_hint_draft_v1"
+  ],
+  "validation": "qa/VALIDATION.json",
+  "ledger": "qa/CONSERVATION_LEDGER.json",
+  "comparison": [
+    "../full_pour_v3_audit/paired_1.png",
+    "../full_pour_v3_audit/paired_2.png"
+  ],
+  "old_versions_preserved": [
+    "../reference3_full_pour_demo_v1",
+    "../reference3_full_pour_demo_v2",
+    "../reference3_full_pour_demo_v2_1"
+  ],
+  "limitations": [
+    "simpler and more regular than reference; a shallow contact edge remains",
+    "source timing compromise: empties1.305s, earlier thanv2.1 but later thanv1",
+    "final arrival1.379s, first strong sampled refill remains042 at1.400s; not exact reference timing",
+    "actual game integration, fast taps, other amounts/directions/colors and device performance unverified"
+  ],
+  "production_integration_authorized": false,
+  "upload_or_local_dispatch": false,
+  "review_scope": "User-approved v3 visual sample at2026-10-24 13:37 UTC; game integration and actual runtime acceptance remain pending.",
+  "timing_summary": {
+    "source_empty": 1.305,
+    "last_arrival": 1.379,
+    "controller_refill_allowed_after": 1.382,
+    "first_strong_rendered_refill_frame": 42,
+    "first_strong_rendered_refill_time": 1.4,
+    "late_drop_visible_frames": [
+      40,
+      41
+    ],
+    "contact_response_frame": 42
+  },
+  "approval": "USER_VISUAL_APPROVAL.json",
+  "integration_guide": "GAME_INTEGRATION_CONTRACT.md",
+  "final_dependency_resolution": "FINAL_ASSET_DEPENDENCIES.json",
+  "legacy_contract_overrides": [
+    {
+      "path": "../reference3_plus_order_hint_draft_v1/IMPLEMENTATION_ENTRYPOINT.json#/compatibility",
+      "old_text_status": "SUPERSEDED_HISTORICAL_TEXT_DO_NOT_FOLLOW",
+      "replacement": "Unchanged plus/order-icon PNGs are used with reference3_cartoon_bottle_v2 geometry/render mask + highlight_fix glass + cloth_drape. Never load the v1 cavity or v1 cloth mask."
+    },
+    {
+      "path": "../reference3_plus_order_hint_draft_v1/IMPLEMENTATION_ENTRYPOINT.json#/energy_plus/hit_target",
+      "old_text_status": "CLARIFIED_NO_HIT_TARGET_REDUCTION",
+      "replacement": "透明触区不得小于既有实现；44dp是历史最小参考，48dp同样合规，实际手机适配验收。独立16–20dp实心黄色/金色plus视觉，无底板或外框。"
+    }
+  ]
+}

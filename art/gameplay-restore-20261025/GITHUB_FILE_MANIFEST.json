@@ -1,0 +1,670 @@
+{
+  "repository": "yxstart666/water-sort",
+  "branch": "ui/restore-assets-20261023",
+  "directory": "art/gameplay-restore-20261025",
+  "archive_file_count": 109,
+  "original_file_count": 103,
+  "archive_sha256": "c14c29b217931e4d8ad7f4893eec69fee8620289980c2e6f4b1a0cf655350997",
+  "files": [
+    {
+      "path": "ARCHIVE_FILES.sha256",
+      "bytes": 15638,
+      "sha256": "b636676ace3a3f999ea92556bdaa30eaa3a7d203774ca70641a98de6f12b35c3",
+      "git_sha": "6b9e283f88f13eebd919828f10195c50318434a0"
+    },
+    {
+      "path": "DEPENDENCY_CLOSURE.json",
+      "bytes": 8299,
+      "sha256": "215f8d290516c1a65404accf747631d7c798c21ca1a8bfa969b7fba866f2ea0f",
+      "git_sha": "cdd110919da3bce1f49450f9cb5623c9df65890d"
+    },
+    {
+      "path": "RESOLVED_RUNTIME_ASSETS.json",
+      "bytes": 6367,
+      "sha256": "ac53255cdf314c67542caae7e90924f65483c68e0cb9ff9cc77a9e036b13c278",
+      "git_sha": "9cccc9fb02e17e32255474f0ad60f314b0096a37"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 41934,
+      "sha256": "ef0f91fd5b3ab04e6f3bea374f0dec0c4791c83b5a17fecb74e679aedc11b7d7",
+      "git_sha": "5cb5b446a7096f034787186b47c5147f6e5594d5"
+    },
+    {
+      "path": "START_HERE_ZH.md",
+      "bytes": 4912,
+      "sha256": "98ddacff2deeb42e264d1f58082719a70f06f9357ccad8ba44cedfe1e0a507d2",
+      "git_sha": "ab7615eef12d9a8e845b849f38af4a97c3f4c125"
+    },
+    {
+      "path": "accepted_tutorial_v4/CONTENT_AND_GESTURE_MAPPING.json",
+      "bytes": 6548,
+      "sha256": "a37b9fb7735ce49b1531af675b680dba6e000db93b3d8983611d7fbf231721e8",
+      "git_sha": "98ce99e3b4b847d6a2a31ac150e14816a006d922"
+    },
+    {
+      "path": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_1_valid_scene_v4.png",
+      "bytes": 109107,
+      "sha256": "6aed73f7c0ae789334629c8cb15ba54cd15789cf238b0631e30fa3357cc877fd",
+      "git_sha": "1be43b7779c8c2b1c447aa1ad1b070823f136823"
+    },
+    {
+      "path": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_2_valid_scene_v4.png",
+      "bytes": 123020,
+      "sha256": "b2e0d63adfa9c96f794563b69ee46c3a6ca9093488e3965a035e4c10c70df060",
+      "git_sha": "72a6c7ce006a1058bb83f53992fab90d0bfc1952"
+    },
+    {
+      "path": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_3_valid_scene_v4.png",
+      "bytes": 108621,
+      "sha256": "d8ddf5ed452ecbe4c144259a27286b425e3aa979503f22e2d219fb4c913518c9",
+      "git_sha": "b304b9bed472d4882efea4b4422aa53b3292f9b8"
+    },
+    {
+      "path": "accepted_tutorial_v4/assets/skins/blue_gold_refined/images/icon_complete.png",
+      "bytes": 16849,
+      "sha256": "ad322b30248d67d4aa7e96f4a85ab0b7fe569005f46bb51757c09328f3a98ffa",
+      "git_sha": "4c88f4cc5e4b7225b4dd4f0187977cc01650547a"
+    },
+    {
+      "path": "accepted_tutorial_v4/assets/skins/blue_gold_refined/images/tutorial_hand.png",
+      "bytes": 806098,
+      "sha256": "b1162b0ceb04bccfba9a498eed69a81fe54a097fcd617397b19dde30f40c37e1",
+      "git_sha": "45b25a293f3d7f95ab6c857ee1857c18af00937c"
+    },
+    {
+      "path": "deliverables/water_sort/reference2_background_cleanplate_v1/assets/background_native_940x1672.png",
+      "bytes": 1086488,
+      "sha256": "3dfdfa238bf6bcc55114d5981b08325933e1b4873a208f1cdc5587d1c69324cd",
+      "git_sha": "48e2d91b85e07eadd2dd74cc29e422453a32e1aa"
+    },
+    {
+      "path": "deliverables/water_sort/reference2_main_assembly_qa_v1/COMPONENT_SOURCE_MAP.json",
+      "bytes": 13573,
+      "sha256": "f837dbdfff8f1f67a702d7e58788fae78d0e5d2d255fb053c1c6f922ed82e638",
+      "git_sha": "d7d161062c3f22793bfc71ee8029f3a2f08a11e9"
+    },
+    {
+      "path": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_360x640.png",
+      "bytes": 291785,
+      "sha256": "b4ed0a6626dabe3e3fa958ac7e617234c01b9ba91b7da61f0273f19a699cb36b",
+      "git_sha": "8a40460f72f0d9d38c4b84600fd0952f3382d086"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/BOTTLE_CONTRACT.json",
+      "bytes": 4924,
+      "sha256": "b7a68a6ad52084a0f7f122398147c11473259813cf6e756816bd7f62b7ee4a00",
+      "git_sha": "1c166bbe3603e95dcfa44e88681c301180f91042"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/HANDOFF.md",
+      "bytes": 2098,
+      "sha256": "ed749058f08c2d0343d9cfc137227f6a3c295e12230230a385d7e0bb030c00d9",
+      "git_sha": "c00177b7f41c4294be335c3fdb24c27173ccdd68"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/IMPLEMENTATION_ENTRYPOINT.json",
+      "bytes": 879,
+      "sha256": "3577c129295a351d2185671002c4a882db29c9326c953558026958a4bd77078b",
+      "git_sha": "4bc8c4e5db8231a626002717020daa74043907a0"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/LIQUID_RENDER_CONTRACT.json",
+      "bytes": 2320,
+      "sha256": "7ce05d157d45dacec37a0a17988102b7af3b692182bc6baa23fb339ce227a104",
+      "git_sha": "55293ce818d92029848d162dbff5313cd28f994c"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/READY_PNG_ALLOWLIST.txt",
+      "bytes": 215,
+      "sha256": "6efd77deebb23c8b7e0545a5f6fb1cb6d900b87add59ebfaf611d469f85d8aa5",
+      "git_sha": "8e7c234d403653691d6a1b0adec270adeefa64a0"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/REPLACEMENT_MAP.json",
+      "bytes": 1065,
+      "sha256": "c3c3fcef8d2e0112538ccbd3a9bc5a404f8abebfc6214b0ed5ea7fe7571bb988",
+      "git_sha": "94fdbb03e43018e36ffb648b5a692363378fd982"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/cork_seated.png",
+      "bytes": 4430,
+      "sha256": "2a3d121bb52102f1824c441fe23e7985fea23e9b48703c52be2d4c196cd3f2dd",
+      "git_sha": "35b59b5a1e93ad6f8b0d1ec26cd8b72dc2890abe"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png",
+      "bytes": 2469,
+      "sha256": "553fa4f47202a33395e9acd9258476ecaa79c333ce05313ff39c7cf6647891ab",
+      "git_sha": "f3ddd5a5093576e5c8ac42bde7cd172d65c7b7dd"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/visual_collision_mask.png",
+      "bytes": 1675,
+      "sha256": "2fc982a03a1cb4f42b25a285e3aa98caf690824c54c14ab058225ca4d240775b",
+      "git_sha": "635569ff0e8683bd15594c95471e37f947c8e65f"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/wrapped_visible_mask.png",
+      "bytes": 340,
+      "sha256": "047403f4cb90398b2d527e68c4ee323b75f01487281073952e98dc44e5df6ff1",
+      "git_sha": "11fc891aa6bb6fb009da0ff41e084f537f3d51fa"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/HANDOFF.md",
+      "bytes": 973,
+      "sha256": "be9dd430e8bbd81bc7542f8c84d379f5f8cf3d7405d6a53fd922c8c8922a062e",
+      "git_sha": "12b0e524148ff92168dc3496ab5534b29e722887"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/IMPLEMENTATION_ENTRYPOINT.json",
+      "bytes": 1618,
+      "sha256": "84adae3982b46da5cd4c92004e705b7245d63f0729722daaf614fe6e95aed654",
+      "git_sha": "87bdfdde1e647a6d9063c774e6eaf3541a49bd53"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/READY_PNG_ALLOWLIST.txt",
+      "bytes": 67,
+      "sha256": "d25b4e73ff2149ee8628a7f9199ca793a71cf310317ae8f7b7359e00458758f9",
+      "git_sha": "0eaee46d84a8ad5831e38cb3273676bb63bb03d5"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/REPLACEMENT_MAP.json",
+      "bytes": 210,
+      "sha256": "cc0d42eb1de2552f546dc96d0ae62b9355e19e4487c8cd8c2ce350e60f8b6d2c",
+      "git_sha": "719e72c812d5e46ad51d0726fcd699c0ae56cbae"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+      "bytes": 56385,
+      "sha256": "4c1ad16d3a7dbb39713bcb72c0c13ade75dd6a0866a4b610c7c0b846110f50e3",
+      "git_sha": "434f346d3e99bf34f2a30ef5a323b4e5269c8be2"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+      "bytes": 28627,
+      "sha256": "dd559d76fc14a5b70fbc667833cb103272b05d6760e3c2e7f58a0257689d1208",
+      "git_sha": "1ccdf34da2a11c9f6457add5ca88898da8aedb68"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cloth_drape_v1/FINAL_DEPENDENCY_ORDER.json",
+      "bytes": 3455,
+      "sha256": "b401098408a0a7bbeb51f577447c5636ecacb11caca1805f404f1839fa004230",
+      "git_sha": "bd46e6cd2666a522fed5a413d82182fa8099c05b"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cloth_drape_v1/HANDOFF.md",
+      "bytes": 699,
+      "sha256": "27f5d6878b2c964b3827511b85defc17ab0963c6300ea3443a75034a6dfcbd47",
+      "git_sha": "7228ec872a9b13fdad8fdfa4679dd266d64dc32c"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cloth_drape_v1/IMPLEMENTATION_ENTRYPOINT.json",
+      "bytes": 1262,
+      "sha256": "3293f0a5134caa3b7b3d70a21a401f872ff77c60de2a825aeea3be7253715973",
+      "git_sha": "2170eda627b947dba7ced81a84a5178fe7af0a52"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cloth_drape_v1/READY_PNG_ALLOWLIST.txt",
+      "bytes": 32,
+      "sha256": "f62d64e2b3fb6e65e230efcc3b59656f9d4ec2fb83275524eb2ca3324775f12d",
+      "git_sha": "2ed9e167418dd54fd501c3a2d4d9f0101176b315"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cloth_drape_v1/REPLACEMENT_MAP.json",
+      "bytes": 103,
+      "sha256": "f122189fa9bdddd3a92fd75eaac34e061e02f5d33df368e6e43f3b59b78d6acb",
+      "git_sha": "9381bdc12ebd2644c5cafceb13249a5b74abed48"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png",
+      "bytes": 61478,
+      "sha256": "72aaf29b2e80dd840ebb1d83cf00ab810b09e89681fbb2608d9b13dbe94f18cb",
+      "git_sha": "732f66ce97c1471d49a2b5e1eac58c84e2d8f66c"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/ENTRYPOINT.json",
+      "bytes": 3850,
+      "sha256": "ce4071715996a7471ba98591bbb7af86d8f717b0f84723bbc447eb7569055df7",
+      "git_sha": "9006d658d7b42d1150618a57fdda290782489aba"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/FINAL_ASSET_DEPENDENCIES.json",
+      "bytes": 4955,
+      "sha256": "2b5a2486dbc8f739d71213a445c8be801e8791aeda3554af7d39d729db925842",
+      "git_sha": "b4138aec2d72189b4cbbcd7db060b464d573bb0e"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/GAME_INTEGRATION_CONTRACT.md",
+      "bytes": 4074,
+      "sha256": "16a7dab40768a03b7a65cfe7523ab18d24b0683e3749e4fb38b671579c27776d",
+      "git_sha": "367f73867e504f9bc43fbde0180581d3bbc93f26"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/HANDOFF.md",
+      "bytes": 2540,
+      "sha256": "7577828ebd4f9d9194091a2c7c0c6bac490d04e1be5593c305b1e88ecffff7d0",
+      "git_sha": "506e917d74f22ecf73c29107ffe81a4e925093bc"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/PACKAGE_CONTENTS.json",
+      "bytes": 2181,
+      "sha256": "cd58c14604ad68252e653e7b6726c0410562f934465f102963ff9ef08bdf7aaf",
+      "git_sha": "419e09a832b2b48cc4252282d806e8255cf96f57"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/USER_VISUAL_APPROVAL.json",
+      "bytes": 489,
+      "sha256": "eb0ed9b542f214985d20f08d85c47d682ea60efcd5da727fae5c613e2a8a7ab5",
+      "git_sha": "cbdeb9fe8a27232918fdc2b6ca89c85de23eff9e"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/assets/home_peak_static.png",
+      "bytes": 40165,
+      "sha256": "0479e0832637611739ae10e5d1be67ddc4a8f87c406de5dd5bee66a351dde65f",
+      "git_sha": "583a06a3c961f61eaefb4fa35fcff6d6f9b25316"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/CONSERVATION_LEDGER.json",
+      "bytes": 52467,
+      "sha256": "d46ab2b0166c193d7669400b0bd7fdc60b61afff0b93da600c06e78da590d9e4",
+      "git_sha": "e018117d6e845ec07dc84b13d1edf2ae79ae2573"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/VALIDATION.json",
+      "bytes": 3111,
+      "sha256": "f6d3fb713d7f24b406a3d9ea4bac8bca4147b6a86af4ca9ed592db430e6c37df",
+      "git_sha": "c2c7ccf501b4d2a3d32d5932da95fada79e0b304"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/full_two_bottle_pour.mp4",
+      "bytes": 111888,
+      "sha256": "b25e018cb97499dc45be7e85648a05ab6c63a43a43a60c3af6cff7134c36eb2e",
+      "git_sha": "ce1643234297d3aab43d2b3932291df47a1eddfc"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/cavity_volume.js",
+      "bytes": 13039,
+      "sha256": "93476de3afc2fa8b4c45d9f398b5c6a29edb341a9c0c1b52da1e6ec844bd57c2",
+      "git_sha": "c14adc0428e43b6d634da77373ad96d5886d5bb6"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/full_pour_player.js",
+      "bytes": 9286,
+      "sha256": "330aa521582bcbc23996a56891b9af3a3fde1d3dfcfa51a3a8672090a5f3b60a",
+      "git_sha": "8dba11b50b2fa20ea136dbebab4ae780b9322206"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/neck_film.js",
+      "bytes": 7586,
+      "sha256": "0ff2dbb741f1cdfc3185349ddafe0cdb0c0c9d6e0e3570b5deaffcc47b3ed639",
+      "git_sha": "cafdb5369f73a4ff548a6fd9a9a7eab93a150efc"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/render_preview.sh",
+      "bytes": 270,
+      "sha256": "2328e781feac17876b9ac7d5a23a651bfd424d0edc83958935a23f59cc10b3f4",
+      "git_sha": "8e02a01c35b0d6979daf5b70c6c31e988c0a0b1f"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/transfer_timing_v3.js",
+      "bytes": 6163,
+      "sha256": "278dbb87b16a65a2f2a2f0b81435c0225c716f581d8879556d036342ff9a7fa1",
+      "git_sha": "73ad6eb1bedb150f965e3f706be195342909d50a"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/HANDOFF.md",
+      "bytes": 911,
+      "sha256": "adf37d1becd212ce23e0c129df21a7f491eb20f44a2a8a0115a7912980b19ed8",
+      "git_sha": "62b412019bce775f3147cdb3a0c6493461bda85e"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/IMPLEMENTATION_ENTRYPOINT.json",
+      "bytes": 2578,
+      "sha256": "875d521b01d532ad356680ef69284726f30eab954a2a0a4511faaa6b69a6fde7",
+      "git_sha": "8acf2eb9c40b9d890d8caab62506d1ba705c58ea"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/READY_PNG_ALLOWLIST.txt",
+      "bytes": 64,
+      "sha256": "dc73ac2b00312599ac54abd27452e868d3b31426cc257c287400325b0b79cec0",
+      "git_sha": "1d891a855e4137ecef3715eeaa32956df3484bc7"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/energy_plus_standalone.png",
+      "bytes": 8549,
+      "sha256": "d2c67b10c12257eac12ab99ad229f2959f8f947b66695c5a05e16fad6fa9f4ce",
+      "git_sha": "2bbb60e9524e054d3ae2fd83e4133a4fc08a9192"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/neutral_order_card.png",
+      "bytes": 31488,
+      "sha256": "eebcfa9721206276b2a542d84c0daa73917e787016053f8e11c1f0951e3b7898",
+      "git_sha": "44bc4e6df680c1f59ac6edcc6f97fbbf79620f20"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/ATLAS_MANIFEST.json",
+      "bytes": 2616,
+      "sha256": "2499d878256dcc282d3ba1e35558a2d1efce87c0bf3b9c1f58a05bd94fe7c11e",
+      "git_sha": "8ff28f53c2d74ba8284d84f5d0347ed44c127f01"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/ENTRYPOINT.json",
+      "bytes": 373,
+      "sha256": "a4395504b22310b27a6f790f2d7b9d98ae7ddca8112bc8785d81dcf5f3f20f14",
+      "git_sha": "e9b782ffbbbb0be3427ed693ccee142b79df5084"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/READY_PNG_ALLOWLIST.txt",
+      "bytes": 110,
+      "sha256": "135fce8d207bb3b3f59c91e9bab1bb17d41112855c609299adc620f4316348b3",
+      "git_sha": "470dac50f75be284e96d4cea138e4712fbd9d4c8"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/USE_CONTRACT.md",
+      "bytes": 1008,
+      "sha256": "1be8ff19d25a996f390746b5925fd31ccf76e3240ee7b5eb4a14fc2a6df23e7c",
+      "git_sha": "9353da494dec5e35a44869a2fc96039e840bb06f"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/00.png",
+      "bytes": 1098,
+      "sha256": "1ac5d85add69c8f47c3455af9875f5d621c12ad3cd86c7ea39efef8985c83072",
+      "git_sha": "0a9fca601fa86c5950c27c255501d3ed6c00a583"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/01.png",
+      "bytes": 1838,
+      "sha256": "0d48169f9df75479d754ad1e06c02b6bd5bdce592b4f5d03437974d765d731e4",
+      "git_sha": "a2e6006f513f52b135046181bfd61d656e88f27e"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/02.png",
+      "bytes": 2400,
+      "sha256": "f849de075669139eb3303b15fe3936f43b14880202e751c00bac9bcc46202815",
+      "git_sha": "8da6320da3c5319df54be0ff77dc17f5c1250136"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/03.png",
+      "bytes": 3113,
+      "sha256": "3321924c35c1be3d6cb737a457c11bfe54b7060ab929e0917e56c8ab3428a191",
+      "git_sha": "70198ae084f4b08bafc3de2e8129e0dcf19268ee"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/04.png",
+      "bytes": 3418,
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "git_sha": "8ca29b150f58013fa35c13136747c12cb2a26761"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/05.png",
+      "bytes": 3418,
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "git_sha": "8ca29b150f58013fa35c13136747c12cb2a26761"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/06.png",
+      "bytes": 3418,
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "git_sha": "8ca29b150f58013fa35c13136747c12cb2a26761"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/07.png",
+      "bytes": 3418,
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "git_sha": "8ca29b150f58013fa35c13136747c12cb2a26761"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/08.png",
+      "bytes": 3418,
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "git_sha": "8ca29b150f58013fa35c13136747c12cb2a26761"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/09.png",
+      "bytes": 2892,
+      "sha256": "57c09976ea92eac49b6dadcfcdccf6bba95d1721389cfb473fbd4d58479b87ec",
+      "git_sha": "b863e0bd5fb7d08516c1f2d75e5e1d047541125c"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/10.png",
+      "bytes": 2311,
+      "sha256": "a206d2c8333220d4a156f3b86183e963fdcda22321ba099a9a1300061fcf36a7",
+      "git_sha": "acc55fd8197c109c84b6a5eea884544769c4be19"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/11.png",
+      "bytes": 728,
+      "sha256": "a6b4f7dda9c64a59992dc15330c7d8cc0fb4c6dac2855a3b25b27f0cc863903b",
+      "git_sha": "ea8796d38f9e61836df61b0c0546a66f5b0f4db1"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/12.png",
+      "bytes": 551,
+      "sha256": "9dbfbc43f5fca2438685ddf0be437a8f160f69e7bb694e8e7d5dba6c56895f94",
+      "git_sha": "5d6658c8e48ebd55f433e0334b2a96d1f2b33451"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/13.png",
+      "bytes": 427,
+      "sha256": "4c9e95f3e39c7873daed8a3f76b49d50e526cb63e9bc9d5dffddc4934184ebf0",
+      "git_sha": "7ac14836be517d3c05507ca7e95192d79d8094f2"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/14.png",
+      "bytes": 316,
+      "sha256": "13e8a4d7e28cd77fc7d5c78f6aa6ab3a81355db5a9ea5edbcb6251b4e998a9ad",
+      "git_sha": "216ebc224c6e2280f458d438a82ff5d47a8592db"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_head_atlas.png",
+      "bytes": 7548,
+      "sha256": "b51e8253e776ae170e85b66c611ac5ebf9902ea49ad749a56e4f99fa4f216b63",
+      "git_sha": "9f7b527443f0e1c3cdca44cf0f4b18b91a7bdecd"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/00.png",
+      "bytes": 772,
+      "sha256": "f81b6e1fe4c0a40c524243a49428bbfbb60665cba03a12e43f9a24c426651309",
+      "git_sha": "6e6383ace3459cb69935e42c18d4cca576fd923d"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/01.png",
+      "bytes": 1076,
+      "sha256": "a2407170927970ad44132a0268b2f4b52ecff75f6bb3b20f87b3113a2c8c55df",
+      "git_sha": "2b7d4db271346d3b2b03a814a3298c065db7d58f"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/02.png",
+      "bytes": 1405,
+      "sha256": "017f602122cae49c94a45e8599a6c77c9ea5e48e49ff6ce48c3d7c1eca6d9e9c",
+      "git_sha": "83b51dd73f030ee9087058c0f68d465f1466190f"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/03.png",
+      "bytes": 1739,
+      "sha256": "4a55e69d19789d9bdef0e91a8159701fb9145663313d1782402e9a72052d128b",
+      "git_sha": "8ce79edc98a4615caa52c69313a117ba5ffec907"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/04.png",
+      "bytes": 1857,
+      "sha256": "ad7fefd91b1be5db14aba90fe1006d33be5db59d3b0488aa596ef5016fe3aa87",
+      "git_sha": "d88ba93e5ae9c62541fb559c404ce441c34ebbbc"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/05.png",
+      "bytes": 1971,
+      "sha256": "03f9e08459b1dc45a3ae49b3d7397bec5e9f0c5b60128e31dbd69c6f114bd304",
+      "git_sha": "15e97c534b3be9a6e0f7f760bf6fb2e590335da9"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/06.png",
+      "bytes": 2022,
+      "sha256": "85453f332a27e289d367aa9d7490287524fd6ec74edf2ed8bc606024f77a7199",
+      "git_sha": "23dbee968fa0d0a273cd25747b02e1968dd4b6ed"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/07.png",
+      "bytes": 2022,
+      "sha256": "e1a60485b3cf07eaaf02800f204438d1d951e64811fcbb6c28ff864787618292",
+      "git_sha": "dfa6fafabda96e7cabdd3d0f6cb97e5d1dc312f8"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/08.png",
+      "bytes": 2022,
+      "sha256": "e1a60485b3cf07eaaf02800f204438d1d951e64811fcbb6c28ff864787618292",
+      "git_sha": "dfa6fafabda96e7cabdd3d0f6cb97e5d1dc312f8"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/09.png",
+      "bytes": 1517,
+      "sha256": "3246aca8e7bd3e508378e73dc7990b795c4f1dcedc00b714fe2f3b9ac52c4346",
+      "git_sha": "672f42c54ec820d63abf169599e9c2d591185250"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/10.png",
+      "bytes": 2565,
+      "sha256": "b7d231e678bf007af6167155a2a33a3da9e0007bb16574f3642905880f3bc94e",
+      "git_sha": "7b2c8ea7b3421d14acd58896b6dd7aa245785c6a"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/11.png",
+      "bytes": 1715,
+      "sha256": "323dc99dc3537a64f3007d8f63f5b22687281af2fcab119c11614176bbccb224",
+      "git_sha": "7a4c18ec29e88b22f7e9a3510d5a25b663e2972c"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/12.png",
+      "bytes": 890,
+      "sha256": "373ef604001a6a3675abcef45ef0c12515312101e283506f95198c42b18cad2c",
+      "git_sha": "99b1b0f435d6c8f98e8f3866b9f98523674e8603"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/13.png",
+      "bytes": 776,
+      "sha256": "e5e4a39f9169bab39f022c6a69a7392116b617da540c50bf925f4890b51ea9f5",
+      "git_sha": "925a6fd4a3cf4d4f7b95e5dc14deccf5ebc69781"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/14.png",
+      "bytes": 700,
+      "sha256": "274a3497ef43a8079e1ee35eb7e8fd0188d6c5962fda60f97fff91038c0a445f",
+      "git_sha": "2ae9d3f079273bf1c6d5cceb0948a1de8684de6b"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/15.png",
+      "bytes": 633,
+      "sha256": "f049ed6a6ff54550205ac43de492ad04092d80558e16540a8799e1b7167311a6",
+      "git_sha": "81edafe39a4e580f4be795664d73bf95fa98b74b"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/16.png",
+      "bytes": 561,
+      "sha256": "1f25bae0fa52ef54da27da9893a6c52954f6f3f375269501768fbc3206e20a56",
+      "git_sha": "1c6c977b0e5535e68331e1dd4f89dc0d64de1266"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/17.png",
+      "bytes": 562,
+      "sha256": "c630fd21f4b88f85739acc0cc6022948e7a968b31be3869e3ec80b5fe911163d",
+      "git_sha": "45cc73ba2db3333b1a840dae699d5336c6466eb4"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/18.png",
+      "bytes": 569,
+      "sha256": "f34f34f53e1fd663dc0f9bf1bdb0c348ebdeada43b9e4d824989035a4c73944c",
+      "git_sha": "b30fe49f6d6f04befa4a0247975ba5ec864e90dd"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/19.png",
+      "bytes": 564,
+      "sha256": "ca73e6a4c55dfa70e03ea5599f602986007c6a2da95173c02ee5d1dd75bf6fa1",
+      "git_sha": "829288b805b0424125911410e3de9a577037ecde"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/20.png",
+      "bytes": 568,
+      "sha256": "cbaca883cfc8011c257e42e1e2528d64859d173f79ca1f97985267db3fb252fc",
+      "git_sha": "8dd9c15df93b8c876e358d16dfd458d84d2bafed"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/21.png",
+      "bytes": 506,
+      "sha256": "b8f26a416abea8ecba9cce78c77c665ca5778b9c60badbe18b8647c63e8d77ee",
+      "git_sha": "73c814bb13aa3a2d3f4b861e49de4cdbc333a70d"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/22.png",
+      "bytes": 495,
+      "sha256": "95c3c2e38d3f17fb23ebfe5ed20da311b23d49893fc9a4047490768a0c91400e",
+      "git_sha": "a67868cd3c45bab3bc9ecb5a2055fa9949f70f7f"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/23.png",
+      "bytes": 394,
+      "sha256": "a239a14abc6b04fc14dc2131dd9989244f6b8850574a859d492cbf4807871da3",
+      "git_sha": "79f1be2b2bef9e54fe012fa413d0963244a0a864"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/24.png",
+      "bytes": 323,
+      "sha256": "c70c6e40083d72dd8ee393fa21a8abce94d8eae99e4fdd8260b15ec7e4314f58",
+      "git_sha": "0a65876d924bd8340de4315d4a66334f6956e9b9"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_tail_atlas.png",
+      "bytes": 16608,
+      "sha256": "6ea9451088155d6d8d99b2f9aa5257d8d4e8988cf7cb7b4a1e8abcc9d4b655aa",
+      "git_sha": "344dd51f5c0a40eed2e415202d47f7ed1dcf5de8"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/open_stream_core.png",
+      "bytes": 3418,
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "git_sha": "8ca29b150f58013fa35c13136747c12cb2a26761"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/transport_drop.png",
+      "bytes": 895,
+      "sha256": "6bf059b9614e6593cccd21a3c113907bb7c2efd54a21add318e53c78ca888db6",
+      "git_sha": "14fe8717cb9752b0635eedfccf81e37a65f0febd"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/qa/BODY_REGISTRATION.json",
+      "bytes": 722,
+      "sha256": "01fd8e70f973aec9e01a4145c11b3a0cba5cb5ad7070009d82e5dc961f584c9e",
+      "git_sha": "a3e322f209b972c0d346ed359812a50e79b68568"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/art/key_shapes_edge_refined.png",
+      "bytes": 393791,
+      "sha256": "e76d58acb40c668b360cb06d2d7b972f9149a6213b7bd8906b16e7a91d591465",
+      "git_sha": "3fe652f69b172f78d0c89989139e13a97dd3cef8"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/art/key_shapes_original.png",
+      "bytes": 366076,
+      "sha256": "aa0493e6e76d271dc5825e5e2b36873a8e943c534f9f15e403fc81959374373d",
+      "git_sha": "959db4295d36c032d5c4ed47ef0e1df25ab2b195"
+    },
+    {
+      "path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/register_body_frames.py",
+      "bytes": 1769,
+      "sha256": "131bc726eeaea95e8b89218b9c687fa1c0cf415ac38c098e2439694a3c4c072b",
+      "git_sha": "5dda703ca62ed24e1acfd63efbec17d5e119162d"
+    },
+    {
+      "path": "user_attachment_review/image(20261023-115241).png",
+      "bytes": 1843994,
+      "sha256": "355cbe9bded8a282b6b514adc97d4ef36394522589784078cc4263763f1a6008",
+      "git_sha": "4e19fc3f1e38b5ecd3cfe78bf2ddf7d36f360dd4"
+    },
+    {
+      "path": "README_GITHUB.md",
+      "bytes": 2421,
+      "sha256": "0231fc36d9fbadeed0fcba65ca7c13dc8ab6a9567cbffdb06bfc1e350e08dd78",
+      "git_sha": "9bc437e73399356ddda2d83fd876fcb470a3f38c"
+    }
+  ]
+}

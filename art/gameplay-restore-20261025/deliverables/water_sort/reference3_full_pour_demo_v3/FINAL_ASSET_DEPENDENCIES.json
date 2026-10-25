@@ -1,0 +1,103 @@
+{
+  "status": "USER_APPROVED_VISUAL_SAMPLE_PENDING_GAME_INTEGRATION",
+  "approval_scope": "v3 bottle/pour visual approved; unchanged UI assets retain prior static-review status; this file resolves stale compatibility text only, not new implementation permission",
+  "precedence": "This final resolution overrides conflicting old compatibility strings; it never authorizes mixing old geometry/masks. Original files/images remain untouched.",
+  "dependency_order": [
+    "reference3_cartoon_bottle_v2",
+    "reference3_cartoon_bottle_v2_highlight_fix",
+    "reference3_cloth_drape_v1",
+    "reference3_plus_order_hint_draft_v1",
+    "reference3_pour_frame_atlas_v3",
+    "reference3_full_pour_demo_v3"
+  ],
+  "slots": {
+    "geometry_capacity_cavity_collision_cork_wrapped_visible_mask": "reference3_cartoon_bottle_v2",
+    "glass_front_back_atomic_pair": "reference3_cartoon_bottle_v2_highlight_fix",
+    "cloth_sprite": "reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png",
+    "plus_sprite": "reference3_plus_order_hint_draft_v1/assets/energy_plus_standalone.png",
+    "order_hint_sprite": "reference3_plus_order_hint_draft_v1/assets/neutral_order_card.png",
+    "pour_effects": "reference3_pour_frame_atlas_v3/ATLAS_MANIFEST.json",
+    "home_static": "reference3_full_pour_demo_v3/assets/home_peak_static.png"
+  },
+  "cloth_binding": {
+    "canvas": [
+      165,
+      410
+    ],
+    "sprite_size": [
+      139,
+      327
+    ],
+    "position": [
+      13,
+      0
+    ],
+    "visible_rows": [
+      321,
+      409
+    ],
+    "mask_is_render_occlusion_only": true,
+    "restore_whole_component_on_unlock": true
+  },
+  "plus_binding": {
+    "visual_dp": [
+      16,
+      20
+    ],
+    "hit_dp": "Do not reduce existing invisible hit area; 44dp historical minimum reference, 48dp acceptable; verify actual mobile adaptation",
+    "hit_invisible": true,
+    "no_border_or_backplate": true
+  },
+  "order_hint_binding": {
+    "icon_visual_dp": [
+      20,
+      26
+    ],
+    "icon_width_range": [
+      18,
+      22
+    ],
+    "count_font_dp": [
+      12,
+      14
+    ],
+    "layout": "vertical icon then authoritative dynamic count; no baked number",
+    "event": "decrement once on actual accepted matching order only, not corking/unmatched full bottle",
+    "neutral_color": true,
+    "not_ad_unlock": true
+  },
+  "forbidden_mix": [
+    "reference3_cartoon_bottle_v1 cavity/render mask",
+    "old full110 or bottom390 geometry",
+    "original v2 glass after highlight patch",
+    "cinched cloth",
+    "plus square backplate",
+    "baked sample counts",
+    "old home045 hero"
+  ],
+  "historical_plus_contract_overrides": [
+    {
+      "path": "../reference3_plus_order_hint_draft_v1/IMPLEMENTATION_ENTRYPOINT.json#/compatibility",
+      "old_text_status": "SUPERSEDED_HISTORICAL_TEXT_DO_NOT_FOLLOW",
+      "replacement": "Unchanged plus/order-icon PNGs are used with reference3_cartoon_bottle_v2 geometry/render mask + highlight_fix glass + cloth_drape. Never load the v1 cavity or v1 cloth mask."
+    },
+    {
+      "path": "../reference3_plus_order_hint_draft_v1/IMPLEMENTATION_ENTRYPOINT.json#/energy_plus/hit_target",
+      "old_text_status": "CLARIFIED_NO_HIT_TARGET_REDUCTION",
+      "replacement": "透明触区不得小于既有实现；44dp是历史最小参考，48dp同样合规，实际手机适配验收。独立16–20dp实心黄色/金色plus视觉，无底板或外框。"
+    }
+  ],
+  "resolved_asset_hashes": {
+    "reference3_cartoon_bottle_v2/BOTTLE_CONTRACT.json": "b7a68a6ad52084a0f7f122398147c11473259813cf6e756816bd7f62b7ee4a00",
+    "reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png": "553fa4f47202a33395e9acd9258476ecaa79c333ce05313ff39c7cf6647891ab",
+    "reference3_cartoon_bottle_v2/assets/visual_collision_mask.png": "2fc982a03a1cb4f42b25a285e3aa98caf690824c54c14ab058225ca4d240775b",
+    "reference3_cartoon_bottle_v2/assets/cork_seated.png": "2a3d121bb52102f1824c441fe23e7985fea23e9b48703c52be2d4c196cd3f2dd",
+    "reference3_cartoon_bottle_v2/assets/wrapped_visible_mask.png": "047403f4cb90398b2d527e68c4ee323b75f01487281073952e98dc44e5df6ff1",
+    "reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png": "dd559d76fc14a5b70fbc667833cb103272b05d6760e3c2e7f58a0257689d1208",
+    "reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png": "4c1ad16d3a7dbb39713bcb72c0c13ade75dd6a0866a4b610c7c0b846110f50e3",
+    "reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png": "72aaf29b2e80dd840ebb1d83cf00ab810b09e89681fbb2608d9b13dbe94f18cb",
+    "reference3_plus_order_hint_draft_v1/assets/energy_plus_standalone.png": "d2c67b10c12257eac12ab99ad229f2959f8f947b66695c5a05e16fad6fa9f4ce",
+    "reference3_plus_order_hint_draft_v1/assets/neutral_order_card.png": "eebcfa9721206276b2a542d84c0daa73917e787016053f8e11c1f0951e3b7898",
+    "reference3_full_pour_demo_v3/assets/home_peak_static.png": "0479e0832637611739ae10e5d1be67ddc4a8f87c406de5dd5bee66a351dde65f"
+  }
+}

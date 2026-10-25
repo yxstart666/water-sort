@@ -1,0 +1,51 @@
+{
+  "status": "Root static art approved. Cloud-only draft; NOT integrated or runtime verified. No publication or technical dispatch authorized.",
+  "runtime_asset_candidates": [
+    "assets/energy_plus_standalone.png",
+    "assets/neutral_order_card.png"
+  ],
+  "qa_only": [
+    "qa/compact_zh_360.png",
+    "qa/compact_en_360.png",
+    "qa/local_preview_zh_en_360.png"
+  ],
+  "energy_plus": {
+    "visual_dp": [
+      16,
+      16
+    ],
+    "style": "Standalone solid rounded goldplus only. No external blue/gold square base. Reuse existing energy pill unchanged.",
+    "hit_target": "Existing48dp invisible hit target may remain; it must not enlarge/draw a visual frame."
+  },
+  "cloth_order_hint": {
+    "arrangement": "Vertical: neutral white-frame/navy ordercard containing gray-white sealed bottle, then dynamic remaining number. No specific color target, video icon or adlock.",
+    "bottle_display_canvas_in_360_qa": [
+      41,
+      102
+    ],
+    "cloth_display_width_approx": 35,
+    "card_visual_dp": [
+      20,
+      26
+    ],
+    "card_allowed_width_dp": [
+      18,
+      22
+    ],
+    "number_font_dp": 14,
+    "number_allowed_font_dp": [
+      12,
+      14
+    ],
+    "card_anchor": "Centered horizontally on cloth; about25dp below bottle top in current41x102 QA. Count centered beneath with2–4dp gap. Do not enlarge whole bottle to fit hint.",
+    "short_zh": "完成订单解锁",
+    "short_en": "Complete orders",
+    "short_text_rule": "Show only if allocated cell width fits at>=11dp font without overlaps. Otherwise icon+number only, with first-use hint. Never shrink text to unreadable size.",
+    "first_hint_zh": "完成任意订单后揭开遮布",
+    "first_hint_en": "Complete any order to reveal this bottle.",
+    "remaining_binding": "Read authoritative existing remaining-order count, not baked sample1. Forplural firsthint use actual remaining count where needed.",
+    "decrement_rule": "Only an actual accepted/received matching order completion in the existing order logic decrements the remaining count, exactly once. A full same-color bottle being corked but not matched/received is NOT order completion. Do not decrement on corking, transient flight start, refresh, locale change or duplicate callbacks.",
+    "unlock_rule": "Existing authoritative hidden/unlock state decides reveal. This art changes no rules, color ids, thresholds, timers or ad entitlements."
+  },
+  "compatibility": "Use with reference3_cartoon_bottle_v1 cloth/render-mask binding. All overlays/counts separate from cloth image. No production code included."
+}

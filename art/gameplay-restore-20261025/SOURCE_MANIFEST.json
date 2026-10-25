@@ -1,0 +1,736 @@
+{
+  "created_utc": "2026-10-25",
+  "scope": "Accepted reference3 gameplay source/assets and accepted V4 tutorial content only",
+  "original_files_byte_identical": true,
+  "files": [
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/BOTTLE_CONTRACT.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/BOTTLE_CONTRACT.json",
+      "sha256": "b7a68a6ad52084a0f7f122398147c11473259813cf6e756816bd7f62b7ee4a00",
+      "bytes": 4924,
+      "role": "runtime_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/LIQUID_RENDER_CONTRACT.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/LIQUID_RENDER_CONTRACT.json",
+      "sha256": "7ce05d157d45dacec37a0a17988102b7af3b692182bc6baa23fb339ce227a104",
+      "bytes": 2320,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/IMPLEMENTATION_ENTRYPOINT.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/IMPLEMENTATION_ENTRYPOINT.json",
+      "sha256": "3577c129295a351d2185671002c4a882db29c9326c953558026958a4bd77078b",
+      "bytes": 879,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/REPLACEMENT_MAP.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/REPLACEMENT_MAP.json",
+      "sha256": "c3c3fcef8d2e0112538ccbd3a9bc5a404f8abebfc6214b0ed5ea7fe7571bb988",
+      "bytes": 1065,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/READY_PNG_ALLOWLIST.txt",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/READY_PNG_ALLOWLIST.txt",
+      "sha256": "6efd77deebb23c8b7e0545a5f6fb1cb6d900b87add59ebfaf611d469f85d8aa5",
+      "bytes": 215,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/HANDOFF.md",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/HANDOFF.md",
+      "sha256": "ed749058f08c2d0343d9cfc137227f6a3c295e12230230a385d7e0bb030c00d9",
+      "bytes": 2098,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/IMPLEMENTATION_ENTRYPOINT.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/IMPLEMENTATION_ENTRYPOINT.json",
+      "sha256": "84adae3982b46da5cd4c92004e705b7245d63f0729722daaf614fe6e95aed654",
+      "bytes": 1618,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/REPLACEMENT_MAP.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/REPLACEMENT_MAP.json",
+      "sha256": "cc0d42eb1de2552f546dc96d0ae62b9355e19e4487c8cd8c2ce350e60f8b6d2c",
+      "bytes": 210,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/READY_PNG_ALLOWLIST.txt",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/READY_PNG_ALLOWLIST.txt",
+      "sha256": "d25b4e73ff2149ee8628a7f9199ca793a71cf310317ae8f7b7359e00458758f9",
+      "bytes": 67,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/HANDOFF.md",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/HANDOFF.md",
+      "sha256": "be9dd430e8bbd81bc7542f8c84d379f5f8cf3d7405d6a53fd922c8c8922a062e",
+      "bytes": 973,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cloth_drape_v1/FINAL_DEPENDENCY_ORDER.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cloth_drape_v1/FINAL_DEPENDENCY_ORDER.json",
+      "sha256": "b401098408a0a7bbeb51f577447c5636ecacb11caca1805f404f1839fa004230",
+      "bytes": 3455,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cloth_drape_v1/IMPLEMENTATION_ENTRYPOINT.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cloth_drape_v1/IMPLEMENTATION_ENTRYPOINT.json",
+      "sha256": "3293f0a5134caa3b7b3d70a21a401f872ff77c60de2a825aeea3be7253715973",
+      "bytes": 1262,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cloth_drape_v1/REPLACEMENT_MAP.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cloth_drape_v1/REPLACEMENT_MAP.json",
+      "sha256": "f122189fa9bdddd3a92fd75eaac34e061e02f5d33df368e6e43f3b59b78d6acb",
+      "bytes": 103,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cloth_drape_v1/READY_PNG_ALLOWLIST.txt",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cloth_drape_v1/READY_PNG_ALLOWLIST.txt",
+      "sha256": "f62d64e2b3fb6e65e230efcc3b59656f9d4ec2fb83275524eb2ca3324775f12d",
+      "bytes": 32,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cloth_drape_v1/HANDOFF.md",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cloth_drape_v1/HANDOFF.md",
+      "sha256": "27f5d6878b2c964b3827511b85defc17ab0963c6300ea3443a75034a6dfcbd47",
+      "bytes": 699,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/IMPLEMENTATION_ENTRYPOINT.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/IMPLEMENTATION_ENTRYPOINT.json",
+      "sha256": "875d521b01d532ad356680ef69284726f30eab954a2a0a4511faaa6b69a6fde7",
+      "bytes": 2578,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/READY_PNG_ALLOWLIST.txt",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/READY_PNG_ALLOWLIST.txt",
+      "sha256": "dc73ac2b00312599ac54abd27452e868d3b31426cc257c287400325b0b79cec0",
+      "bytes": 64,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/HANDOFF.md",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/HANDOFF.md",
+      "sha256": "adf37d1becd212ce23e0c129df21a7f491eb20f44a2a8a0115a7912980b19ed8",
+      "bytes": 911,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/ENTRYPOINT.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/ENTRYPOINT.json",
+      "sha256": "a4395504b22310b27a6f790f2d7b9d98ae7ddca8112bc8785d81dcf5f3f20f14",
+      "bytes": 373,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/ATLAS_MANIFEST.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/ATLAS_MANIFEST.json",
+      "sha256": "2499d878256dcc282d3ba1e35558a2d1efce87c0bf3b9c1f58a05bd94fe7c11e",
+      "bytes": 2616,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/READY_PNG_ALLOWLIST.txt",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/READY_PNG_ALLOWLIST.txt",
+      "sha256": "135fce8d207bb3b3f59c91e9bab1bb17d41112855c609299adc620f4316348b3",
+      "bytes": 110,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/USE_CONTRACT.md",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/USE_CONTRACT.md",
+      "sha256": "1be8ff19d25a996f390746b5925fd31ccf76e3240ee7b5eb4a14fc2a6df23e7c",
+      "bytes": 1008,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/ENTRYPOINT.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/ENTRYPOINT.json",
+      "sha256": "ce4071715996a7471ba98591bbb7af86d8f717b0f84723bbc447eb7569055df7",
+      "bytes": 3850,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/FINAL_ASSET_DEPENDENCIES.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/FINAL_ASSET_DEPENDENCIES.json",
+      "sha256": "2b5a2486dbc8f739d71213a445c8be801e8791aeda3554af7d39d729db925842",
+      "bytes": 4955,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/GAME_INTEGRATION_CONTRACT.md",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/GAME_INTEGRATION_CONTRACT.md",
+      "sha256": "16a7dab40768a03b7a65cfe7523ab18d24b0683e3749e4fb38b671579c27776d",
+      "bytes": 4074,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/USER_VISUAL_APPROVAL.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/USER_VISUAL_APPROVAL.json",
+      "sha256": "eb0ed9b542f214985d20f08d85c47d682ea60efcd5da727fae5c613e2a8a7ab5",
+      "bytes": 489,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/HANDOFF.md",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/HANDOFF.md",
+      "sha256": "7577828ebd4f9d9194091a2c7c0c6bac490d04e1be5593c305b1e88ecffff7d0",
+      "bytes": 2540,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/PACKAGE_CONTENTS.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/PACKAGE_CONTENTS.json",
+      "sha256": "cd58c14604ad68252e653e7b6726c0410562f934465f102963ff9ef08bdf7aaf",
+      "bytes": 2181,
+      "role": "unchanged_source_contract"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png",
+      "sha256": "553fa4f47202a33395e9acd9258476ecaa79c333ce05313ff39c7cf6647891ab",
+      "bytes": 2469,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/visual_collision_mask.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/visual_collision_mask.png",
+      "sha256": "2fc982a03a1cb4f42b25a285e3aa98caf690824c54c14ab058225ca4d240775b",
+      "bytes": 1675,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/cork_seated.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/cork_seated.png",
+      "sha256": "2a3d121bb52102f1824c441fe23e7985fea23e9b48703c52be2d4c196cd3f2dd",
+      "bytes": 4430,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/wrapped_visible_mask.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/wrapped_visible_mask.png",
+      "sha256": "047403f4cb90398b2d527e68c4ee323b75f01487281073952e98dc44e5df6ff1",
+      "bytes": 340,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+      "sha256": "dd559d76fc14a5b70fbc667833cb103272b05d6760e3c2e7f58a0257689d1208",
+      "bytes": 28627,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+      "sha256": "4c1ad16d3a7dbb39713bcb72c0c13ade75dd6a0866a4b610c7c0b846110f50e3",
+      "bytes": 56385,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png",
+      "sha256": "72aaf29b2e80dd840ebb1d83cf00ab810b09e89681fbb2608d9b13dbe94f18cb",
+      "bytes": 61478,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/energy_plus_standalone.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/energy_plus_standalone.png",
+      "sha256": "d2c67b10c12257eac12ab99ad229f2959f8f947b66695c5a05e16fad6fa9f4ce",
+      "bytes": 8549,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/neutral_order_card.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_plus_order_hint_draft_v1/assets/neutral_order_card.png",
+      "sha256": "eebcfa9721206276b2a542d84c0daa73917e787016053f8e11c1f0951e3b7898",
+      "bytes": 31488,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/assets/home_peak_static.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/assets/home_peak_static.png",
+      "sha256": "0479e0832637611739ae10e5d1be67ddc4a8f87c406de5dd5bee66a351dde65f",
+      "bytes": 40165,
+      "role": "accepted_sample_historical_home_input"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_head_atlas.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_head_atlas.png",
+      "sha256": "b51e8253e776ae170e85b66c611ac5ebf9902ea49ad749a56e4f99fa4f216b63",
+      "bytes": 7548,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/open_stream_core.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/open_stream_core.png",
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "bytes": 3418,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/transport_drop.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/transport_drop.png",
+      "sha256": "6bf059b9614e6593cccd21a3c113907bb7c2efd54a21add318e53c78ca888db6",
+      "bytes": 895,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_tail_atlas.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_tail_atlas.png",
+      "sha256": "6ea9451088155d6d8d99b2f9aa5257d8d4e8988cf7cb7b4a1e8abcc9d4b655aa",
+      "bytes": 16608,
+      "role": "runtime_asset"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/00.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/00.png",
+      "sha256": "1ac5d85add69c8f47c3455af9875f5d621c12ad3cd86c7ea39efef8985c83072",
+      "bytes": 1098,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/01.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/01.png",
+      "sha256": "0d48169f9df75479d754ad1e06c02b6bd5bdce592b4f5d03437974d765d731e4",
+      "bytes": 1838,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/02.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/02.png",
+      "sha256": "f849de075669139eb3303b15fe3936f43b14880202e751c00bac9bcc46202815",
+      "bytes": 2400,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/03.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/03.png",
+      "sha256": "3321924c35c1be3d6cb737a457c11bfe54b7060ab929e0917e56c8ab3428a191",
+      "bytes": 3113,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/04.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/04.png",
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "bytes": 3418,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/05.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/05.png",
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "bytes": 3418,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/06.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/06.png",
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "bytes": 3418,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/07.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/07.png",
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "bytes": 3418,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/08.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/08.png",
+      "sha256": "a920296362a8535ffc0bd7fe51d3f5834f6e83e891a60f321e823b4bc60f498f",
+      "bytes": 3418,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/09.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/09.png",
+      "sha256": "57c09976ea92eac49b6dadcfcdccf6bba95d1721389cfb473fbd4d58479b87ec",
+      "bytes": 2892,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/10.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/10.png",
+      "sha256": "a206d2c8333220d4a156f3b86183e963fdcda22321ba099a9a1300061fcf36a7",
+      "bytes": 2311,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/11.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/11.png",
+      "sha256": "a6b4f7dda9c64a59992dc15330c7d8cc0fb4c6dac2855a3b25b27f0cc863903b",
+      "bytes": 728,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/12.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/12.png",
+      "sha256": "9dbfbc43f5fca2438685ddf0be437a8f160f69e7bb694e8e7d5dba6c56895f94",
+      "bytes": 551,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/13.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/13.png",
+      "sha256": "4c9e95f3e39c7873daed8a3f76b49d50e526cb63e9bc9d5dffddc4934184ebf0",
+      "bytes": 427,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/14.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/14.png",
+      "sha256": "13e8a4d7e28cd77fc7d5c78f6aa6ab3a81355db5a9ea5edbcb6251b4e998a9ad",
+      "bytes": 316,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/00.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/00.png",
+      "sha256": "f81b6e1fe4c0a40c524243a49428bbfbb60665cba03a12e43f9a24c426651309",
+      "bytes": 772,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/01.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/01.png",
+      "sha256": "a2407170927970ad44132a0268b2f4b52ecff75f6bb3b20f87b3113a2c8c55df",
+      "bytes": 1076,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/02.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/02.png",
+      "sha256": "017f602122cae49c94a45e8599a6c77c9ea5e48e49ff6ce48c3d7c1eca6d9e9c",
+      "bytes": 1405,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/03.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/03.png",
+      "sha256": "4a55e69d19789d9bdef0e91a8159701fb9145663313d1782402e9a72052d128b",
+      "bytes": 1739,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/04.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/04.png",
+      "sha256": "ad7fefd91b1be5db14aba90fe1006d33be5db59d3b0488aa596ef5016fe3aa87",
+      "bytes": 1857,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/05.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/05.png",
+      "sha256": "03f9e08459b1dc45a3ae49b3d7397bec5e9f0c5b60128e31dbd69c6f114bd304",
+      "bytes": 1971,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/06.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/06.png",
+      "sha256": "85453f332a27e289d367aa9d7490287524fd6ec74edf2ed8bc606024f77a7199",
+      "bytes": 2022,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/07.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/07.png",
+      "sha256": "e1a60485b3cf07eaaf02800f204438d1d951e64811fcbb6c28ff864787618292",
+      "bytes": 2022,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/08.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/08.png",
+      "sha256": "e1a60485b3cf07eaaf02800f204438d1d951e64811fcbb6c28ff864787618292",
+      "bytes": 2022,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/09.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/09.png",
+      "sha256": "3246aca8e7bd3e508378e73dc7990b795c4f1dcedc00b714fe2f3b9ac52c4346",
+      "bytes": 1517,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/10.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/10.png",
+      "sha256": "b7d231e678bf007af6167155a2a33a3da9e0007bb16574f3642905880f3bc94e",
+      "bytes": 2565,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/11.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/11.png",
+      "sha256": "323dc99dc3537a64f3007d8f63f5b22687281af2fcab119c11614176bbccb224",
+      "bytes": 1715,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/12.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/12.png",
+      "sha256": "373ef604001a6a3675abcef45ef0c12515312101e283506f95198c42b18cad2c",
+      "bytes": 890,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/13.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/13.png",
+      "sha256": "e5e4a39f9169bab39f022c6a69a7392116b617da540c50bf925f4890b51ea9f5",
+      "bytes": 776,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/14.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/14.png",
+      "sha256": "274a3497ef43a8079e1ee35eb7e8fd0188d6c5962fda60f97fff91038c0a445f",
+      "bytes": 700,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/15.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/15.png",
+      "sha256": "f049ed6a6ff54550205ac43de492ad04092d80558e16540a8799e1b7167311a6",
+      "bytes": 633,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/16.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/16.png",
+      "sha256": "1f25bae0fa52ef54da27da9893a6c52954f6f3f375269501768fbc3206e20a56",
+      "bytes": 561,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/17.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/17.png",
+      "sha256": "c630fd21f4b88f85739acc0cc6022948e7a968b31be3869e3ec80b5fe911163d",
+      "bytes": 562,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/18.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/18.png",
+      "sha256": "f34f34f53e1fd663dc0f9bf1bdb0c348ebdeada43b9e4d824989035a4c73944c",
+      "bytes": 569,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/19.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/19.png",
+      "sha256": "ca73e6a4c55dfa70e03ea5599f602986007c6a2da95173c02ee5d1dd75bf6fa1",
+      "bytes": 564,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/20.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/20.png",
+      "sha256": "cbaca883cfc8011c257e42e1e2528d64859d173f79ca1f97985267db3fb252fc",
+      "bytes": 568,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/21.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/21.png",
+      "sha256": "b8f26a416abea8ecba9cce78c77c665ca5778b9c60badbe18b8647c63e8d77ee",
+      "bytes": 506,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/22.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/22.png",
+      "sha256": "95c3c2e38d3f17fb23ebfe5ed20da311b23d49893fc9a4047490768a0c91400e",
+      "bytes": 495,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/23.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/23.png",
+      "sha256": "a239a14abc6b04fc14dc2131dd9989244f6b8850574a859d492cbf4807871da3",
+      "bytes": 394,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/24.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/24.png",
+      "sha256": "c70c6e40083d72dd8ee393fa21a8abce94d8eae99e4fdd8260b15ec7e4314f58",
+      "bytes": 323,
+      "role": "sample_reproduction_input_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/cavity_volume.js",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/cavity_volume.js",
+      "sha256": "93476de3afc2fa8b4c45d9f398b5c6a29edb341a9c0c1b52da1e6ec844bd57c2",
+      "bytes": 13039,
+      "role": "unchanged_sample_reproduction_source_not_game_code"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/full_pour_player.js",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/full_pour_player.js",
+      "sha256": "330aa521582bcbc23996a56891b9af3a3fde1d3dfcfa51a3a8672090a5f3b60a",
+      "bytes": 9286,
+      "role": "unchanged_sample_reproduction_source_not_game_code"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/neck_film.js",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/neck_film.js",
+      "sha256": "0ff2dbb741f1cdfc3185349ddafe0cdb0c0c9d6e0e3570b5deaffcc47b3ed639",
+      "bytes": 7586,
+      "role": "unchanged_sample_reproduction_source_not_game_code"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/transfer_timing_v3.js",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/transfer_timing_v3.js",
+      "sha256": "278dbb87b16a65a2f2a2f0b81435c0225c716f581d8879556d036342ff9a7fa1",
+      "bytes": 6163,
+      "role": "unchanged_sample_reproduction_source_not_game_code"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/render_preview.sh",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/source/render_preview.sh",
+      "sha256": "2328e781feac17876b9ac7d5a23a651bfd424d0edc83958935a23f59cc10b3f4",
+      "bytes": 270,
+      "role": "unchanged_sample_reproduction_source_not_game_code"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/register_body_frames.py",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/register_body_frames.py",
+      "sha256": "131bc726eeaea95e8b89218b9c687fa1c0cf415ac38c098e2439694a3c4c072b",
+      "bytes": 1769,
+      "role": "unchanged_atlas_provenance_or_regeneration_source_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/art/key_shapes_original.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/art/key_shapes_original.png",
+      "sha256": "aa0493e6e76d271dc5825e5e2b36873a8e943c534f9f15e403fc81959374373d",
+      "bytes": 366076,
+      "role": "unchanged_atlas_provenance_or_regeneration_source_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/art/key_shapes_edge_refined.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/source/art/key_shapes_edge_refined.png",
+      "sha256": "e76d58acb40c668b360cb06d2d7b972f9149a6213b7bd8906b16e7a91d591465",
+      "bytes": 393791,
+      "role": "unchanged_atlas_provenance_or_regeneration_source_not_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference2_background_cleanplate_v1/assets/background_native_940x1672.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference2_background_cleanplate_v1/assets/background_native_940x1672.png",
+      "sha256": "3dfdfa238bf6bcc55114d5981b08325933e1b4873a208f1cdc5587d1c69324cd",
+      "bytes": 1086488,
+      "role": "sample_reproduction_background_not_new_main_UI"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/full_two_bottle_pour.mp4",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/full_two_bottle_pour.mp4",
+      "sha256": "b25e018cb97499dc45be7e85648a05ab6c63a43a43a60c3af6cff7134c36eb2e",
+      "bytes": 111888,
+      "role": "accepted_video_reference"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/CONSERVATION_LEDGER.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/CONSERVATION_LEDGER.json",
+      "sha256": "d46ab2b0166c193d7669400b0bd7fdc60b61afff0b93da600c06e78da590d9e4",
+      "bytes": 52467,
+      "role": "existing_sample_validation_not_production_acceptance"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/VALIDATION.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_full_pour_demo_v3/qa/VALIDATION.json",
+      "sha256": "f6d3fb713d7f24b406a3d9ea4bac8bca4147b6a86af4ca9ed592db430e6c37df",
+      "bytes": 3111,
+      "role": "existing_sample_validation_not_production_acceptance"
+    },
+    {
+      "archive_path": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_1_valid_scene_v4.png",
+      "original_workspace_relative_path": "deliverables/shared_game_ui_refined_runtime_v4/template_project/assets/brand/caiping/tutorial/tutorial_step_1_valid_scene_v4.png",
+      "sha256": "6aed73f7c0ae789334629c8cb15ba54cd15789cf238b0631e30fa3357cc877fd",
+      "bytes": 109107,
+      "role": "accepted_tutorial_illustration"
+    },
+    {
+      "archive_path": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_2_valid_scene_v4.png",
+      "original_workspace_relative_path": "deliverables/shared_game_ui_refined_runtime_v4/template_project/assets/brand/caiping/tutorial/tutorial_step_2_valid_scene_v4.png",
+      "sha256": "b2e0d63adfa9c96f794563b69ee46c3a6ca9093488e3965a035e4c10c70df060",
+      "bytes": 123020,
+      "role": "accepted_tutorial_illustration"
+    },
+    {
+      "archive_path": "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_3_valid_scene_v4.png",
+      "original_workspace_relative_path": "deliverables/shared_game_ui_refined_runtime_v4/template_project/assets/brand/caiping/tutorial/tutorial_step_3_valid_scene_v4.png",
+      "sha256": "d8ddf5ed452ecbe4c144259a27286b425e3aa979503f22e2d219fb4c913518c9",
+      "bytes": 108621,
+      "role": "accepted_tutorial_illustration"
+    },
+    {
+      "archive_path": "accepted_tutorial_v4/assets/skins/blue_gold_refined/images/tutorial_hand.png",
+      "original_workspace_relative_path": "deliverables/shared_game_ui_refined_runtime_v4/template_project/assets/skins/blue_gold_refined/images/tutorial_hand.png",
+      "sha256": "b1162b0ceb04bccfba9a498eed69a81fe54a097fcd617397b19dde30f40c37e1",
+      "bytes": 806098,
+      "role": "accepted_tutorial_cue_only_not_dialog_chrome"
+    },
+    {
+      "archive_path": "accepted_tutorial_v4/assets/skins/blue_gold_refined/images/icon_complete.png",
+      "original_workspace_relative_path": "deliverables/shared_game_ui_refined_runtime_v4/template_project/assets/skins/blue_gold_refined/images/icon_complete.png",
+      "sha256": "ad322b30248d67d4aa7e96f4a85ab0b7fe569005f46bb51757c09328f3a98ffa",
+      "bytes": 16849,
+      "role": "accepted_tutorial_cue_only_not_dialog_chrome"
+    },
+    {
+      "archive_path": "user_attachment_review/image(20261023-115241).png",
+      "original_workspace_relative_path": "user_attachment_review/image(20261023-115241).png",
+      "sha256": "355cbe9bded8a282b6b514adc97d4ef36394522589784078cc4263763f1a6008",
+      "bytes": 1843994,
+      "role": "original_reference2_style_master_NOT_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference2_main_assembly_qa_v1/COMPONENT_SOURCE_MAP.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference2_main_assembly_qa_v1/COMPONENT_SOURCE_MAP.json",
+      "sha256": "f837dbdfff8f1f67a702d7e58788fae78d0e5d2d255fb053c1c6f922ed82e638",
+      "bytes": 13573,
+      "role": "reference2_component_source_map_existing_remote_dependencies"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_360x640.png",
+      "original_workspace_relative_path": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_360x640.png",
+      "sha256": "b4ed0a6626dabe3e3fa958ac7e617234c01b9ba91b7da61f0273f19a699cb36b",
+      "bytes": 291785,
+      "role": "reference2_static_assembly_QA_NOT_runtime"
+    },
+    {
+      "archive_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/qa/BODY_REGISTRATION.json",
+      "original_workspace_relative_path": "deliverables/water_sort/reference3_pour_frame_atlas_v3/qa/BODY_REGISTRATION.json",
+      "sha256": "01fd8e70f973aec9e01a4145c11b3a0cba5cb5ad7070009d82e5dc961f584c9e",
+      "bytes": 722,
+      "role": "existing_atlas_registration_metadata_and_required_output_directory"
+    }
+  ],
+  "generated_handoff_files": [
+    "START_HERE_ZH.md",
+    "RESOLVED_RUNTIME_ASSETS.json",
+    "DEPENDENCY_CLOSURE.json",
+    "accepted_tutorial_v4/CONTENT_AND_GESTURE_MAPPING.json"
+  ],
+  "accepted_video_sha256": "b25e018cb97499dc45be7e85648a05ab6c63a43a43a60c3af6cff7134c36eb2e",
+  "production_runtime_tested": false
+}

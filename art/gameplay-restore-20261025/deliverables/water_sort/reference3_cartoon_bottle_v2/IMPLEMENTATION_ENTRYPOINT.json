@@ -1,0 +1,16 @@
+{
+  "package": "reference3_cartoon_bottle_v2",
+  "status": "Root static fulllevel/base review passed. Cloud-only art revision, NOT integrated/runtime-tested, no publication or technical dispatch authorized.",
+  "install_policy": "ATOMIC replacement of v1 front/back/cavity/cloth/clothmask plus contracts. Same bottle outline,pivot,mouth,cork,collision and palette. Never use old110/390 planes or v1 perunit area.",
+  "bottle_geometry": "BOTTLE_CONTRACT.json",
+  "liquid_rendering": "LIQUID_RENDER_CONTRACT.json",
+  "assets": "READY_PNG_ALLOWLIST.txt",
+  "mapping": "REPLACEMENT_MAP.json",
+  "final_preview": "qa/five_states_final.png",
+  "additional_qa": [
+    "qa/six_states_validation.png",
+    "qa/fullness_base_comparison.png",
+    "qa/full_shoulder_400.png"
+  ],
+  "qa_restriction": "QA only. Reference crop is research-only, not a runtime asset. Oldv1 remains unchanged."
+}

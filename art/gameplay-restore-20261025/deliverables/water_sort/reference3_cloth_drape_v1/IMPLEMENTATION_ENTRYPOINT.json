@@ -1,0 +1,31 @@
+{
+  "package": "reference3_cloth_drape_v1",
+  "status": "Root static review passed. Frozen cloud-only patch. Not integrated/runtime-tested/uploaded/dispatched.",
+  "base_package": "reference3_cartoon_bottle_v2",
+  "compatible_glass_patch": "reference3_cartoon_bottle_v2_highlight_fix",
+  "replacements": {
+    "reference3_cartoon_bottle_v2/assets/cloth_wrapper_silver.png": "assets/cloth_wrapper_silver.png"
+  },
+  "sprite_size": [
+    139,
+    327
+  ],
+  "sprite_position_on_165x410": [
+    13,
+    0
+  ],
+  "unchanged_render_mask": "../reference3_cartoon_bottle_v2/assets/wrapped_visible_mask.png",
+  "render_mask_sha256": "047403f4cb90398b2d527e68c4ee323b75f01487281073952e98dc44e5df6ff1",
+  "mask_purpose": "Render occlusion only, not liquid capacity/rules. Hide bottle rows0..320; reveal321..409. Restore complete bottle on unlock.",
+  "liquid_geometry_unchanged": {
+    "full_y": 86,
+    "inner_bottom_y": 378,
+    "units": 4
+  },
+  "overlay": "Reuse reference3_plus_order_hint_draft_v1 neutral order card + separate dynamic count; do not bake count into cloth. Actual accepted order completion only decrements, corked unmatched bottle does not.",
+  "previews": [
+    "qa/old_new_native.png",
+    "qa/old_new_actual_360.png"
+  ],
+  "qa_not_runtime": true
+}

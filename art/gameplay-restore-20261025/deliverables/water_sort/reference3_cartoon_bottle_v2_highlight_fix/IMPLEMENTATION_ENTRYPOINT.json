@@ -1,0 +1,29 @@
+{
+  "package": "reference3_cartoon_bottle_v2_highlight_fix",
+  "status": "Root static review passed; frozen cloud-only two-layer atomic patch. Not integrated/runtime-tested/uploaded/dispatched.",
+  "base_package": "reference3_cartoon_bottle_v2",
+  "patch_policy": "Replace the two glass layers as one pair. All cavity, collision, cork, cloth, render masks and geometry/liquid contracts remain byte-identical in the required base package. Never combine a new front with an old back.",
+  "replacements": {
+    "reference3_cartoon_bottle_v2/assets/glass_front_material.png": "assets/glass_front_material.png",
+    "reference3_cartoon_bottle_v2/assets/glass_back_transmission.png": "assets/glass_back_transmission.png"
+  },
+  "geometry_contract": "../reference3_cartoon_bottle_v2/BOTTLE_CONTRACT.json",
+  "liquid_contract": "../reference3_cartoon_bottle_v2/LIQUID_RENDER_CONTRACT.json",
+  "geometry_contract_sha256": "b7a68a6ad52084a0f7f122398147c11473259813cf6e756816bd7f62b7ee4a00",
+  "cavity_sha256": "553fa4f47202a33395e9acd9258476ecaa79c333ce05313ff39c7cf6647891ab",
+  "full_plane_y": 86,
+  "inner_floor_y": 378,
+  "capacity_units": 4,
+  "render_order": [
+    "patched glass_back_transmission",
+    "existing dynamic liquid",
+    "patched glass_front_material",
+    "existing cork or cloth/quantity overlay"
+  ],
+  "qa": [
+    "qa/five_states_review.png",
+    "qa/full_before_after.png",
+    "qa/highlight_crossing_three_planes.png"
+  ],
+  "qa_warning": "Plane65 is deliberately beyond legal full86, only a shoulder-reflection stress test. Do not adopt as capacity or level. All QA static, not engine verification."
+}

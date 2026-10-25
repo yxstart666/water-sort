@@ -1,0 +1,71 @@
+{
+  "status": "All listed assets static-approved and cloud-only. No implementation/publication/technical-dispatch authorization inferred.",
+  "dependency_order": [
+    "reference3_cartoon_bottle_v2",
+    "reference3_cartoon_bottle_v2_highlight_fix",
+    "reference3_cloth_drape_v1",
+    "reference3_plus_order_hint_draft_v1"
+  ],
+  "entries": {
+    "reference3_cartoon_bottle_v2": {
+      "path": "../reference3_cartoon_bottle_v2/IMPLEMENTATION_ENTRYPOINT.json",
+      "sha256": "3577c129295a351d2185671002c4a882db29c9326c953558026958a4bd77078b"
+    },
+    "reference3_cartoon_bottle_v2_highlight_fix": {
+      "path": "../reference3_cartoon_bottle_v2_highlight_fix/IMPLEMENTATION_ENTRYPOINT.json",
+      "sha256": "84adae3982b46da5cd4c92004e705b7245d63f0729722daaf614fe6e95aed654"
+    },
+    "reference3_cloth_drape_v1": {
+      "path": "../reference3_cloth_drape_v1/IMPLEMENTATION_ENTRYPOINT.json",
+      "sha256": "3293f0a5134caa3b7b3d70a21a401f872ff77c60de2a825aeea3be7253715973"
+    },
+    "reference3_plus_order_hint_draft_v1": {
+      "path": "../reference3_plus_order_hint_draft_v1/IMPLEMENTATION_ENTRYPOINT.json",
+      "sha256": "875d521b01d532ad356680ef69284726f30eab954a2a0a4511faaa6b69a6fde7"
+    }
+  },
+  "runtime_resolution": {
+    "geometry_cavity_collision_cork_wrapped_visible_mask": "reference3_cartoon_bottle_v2",
+    "front_back_as_atomic_pair": "reference3_cartoon_bottle_v2_highlight_fix",
+    "cloth_sprite": "reference3_cloth_drape_v1",
+    "energy_plus_and_neutral_order_icon": "reference3_plus_order_hint_draft_v1",
+    "count": "Separate existing authoritative dynamic remaining-order counter. Decrement only once per actual order received/accepted event; not corking/unmatched completion."
+  },
+  "forbidden_mix": [
+    "No v1 cavity or old full110/base390.",
+    "No original v2 front/back after applying highlight fix.",
+    "No old cinched cloth after applying drape.",
+    "No original plus blue-square backing.",
+    "Do not ship QA screenshots or baked sample counts."
+  ],
+  "cloth_mask_binding": {
+    "canvas": [
+      165,
+      410
+    ],
+    "cloth_size": [
+      139,
+      327
+    ],
+    "cloth_position": [
+      13,
+      0
+    ],
+    "visible_rows": [
+      321,
+      409
+    ],
+    "render_mask_only": true,
+    "restore_full_component_when_unlocked": true
+  },
+  "current_key_hashes": {
+    "reference3_cartoon_bottle_v2/BOTTLE_CONTRACT.json": "b7a68a6ad52084a0f7f122398147c11473259813cf6e756816bd7f62b7ee4a00",
+    "reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png": "553fa4f47202a33395e9acd9258476ecaa79c333ce05313ff39c7cf6647891ab",
+    "reference3_cartoon_bottle_v2/assets/wrapped_visible_mask.png": "047403f4cb90398b2d527e68c4ee323b75f01487281073952e98dc44e5df6ff1",
+    "reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png": "dd559d76fc14a5b70fbc667833cb103272b05d6760e3c2e7f58a0257689d1208",
+    "reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png": "4c1ad16d3a7dbb39713bcb72c0c13ade75dd6a0866a4b610c7c0b846110f50e3",
+    "reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png": "72aaf29b2e80dd840ebb1d83cf00ab810b09e89681fbb2608d9b13dbe94f18cb",
+    "reference3_plus_order_hint_draft_v1/assets/energy_plus_standalone.png": "d2c67b10c12257eac12ab99ad229f2959f8f947b66695c5a05e16fad6fa9f4ce",
+    "reference3_plus_order_hint_draft_v1/assets/neutral_order_card.png": "eebcfa9721206276b2a542d84c0daa73917e787016053f8e11c1f0951e3b7898"
+  }
+}

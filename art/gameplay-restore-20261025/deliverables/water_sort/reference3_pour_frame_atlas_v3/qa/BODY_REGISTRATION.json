@@ -1,0 +1,59 @@
+{
+  "source": "generated_images/exec-1be37d02-f9d9-4362-a297-f70a7ac5c5a5.png",
+  "original_components": [
+    [
+      44,
+      358,
+      645,
+      147
+    ],
+    [
+      784,
+      315,
+      601,
+      191
+    ],
+    [
+      1484,
+      343,
+      608,
+      165
+    ]
+  ],
+  "widths": [
+    30,
+    43,
+    55,
+    63,
+    65,
+    67,
+    68,
+    68,
+    68,
+    64,
+    68,
+    56,
+    38
+  ],
+  "heights": [
+    8,
+    12,
+    16,
+    20,
+    22,
+    23,
+    24,
+    24,
+    24,
+    16,
+    40,
+    24,
+    10
+  ],
+  "surface_anchor": [
+    64,
+    88
+  ],
+  "stage_source": "0..9 low joined sheet,10 single primary bulge,11..12 collapsing sheet;13..24 existing measured droplets",
+  "no_competitor_pixels": true
+}

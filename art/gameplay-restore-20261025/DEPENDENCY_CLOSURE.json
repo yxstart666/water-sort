@@ -1,0 +1,117 @@
+{
+  "status": "PASS_STATIC_RUNTIME_AND_SAMPLE_INPUT_FILE_CLOSURE",
+  "canonical_runtime_file_count": 13,
+  "final_dependency_declared_hashes_checked": 11,
+  "source_player_input_paths": [
+    "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+    "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+    "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/pour_cavity_mask.png",
+    "deliverables/water_sort/reference2_background_cleanplate_v1/assets/background_native_940x1672.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/00.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/01.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/02.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/03.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/04.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/05.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/06.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/07.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/08.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/09.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/10.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/11.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/12.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/13.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/flow_frames/14.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/00.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/01.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/02.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/03.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/04.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/05.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/06.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/07.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/08.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/09.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/10.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/11.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/12.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/13.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/14.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/15.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/16.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/17.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/18.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/19.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/20.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/21.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/22.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/23.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/impact_frames/24.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/open_stream_core.png",
+    "deliverables/water_sort/reference3_pour_frame_atlas_v3/assets/transport_drop.png",
+    "deliverables/water_sort/reference3_full_pour_demo_v3/source/cavity_volume.js",
+    "deliverables/water_sort/reference3_full_pour_demo_v3/source/neck_film.js",
+    "deliverables/water_sort/reference3_full_pour_demo_v3/source/transfer_timing_v3.js"
+  ],
+  "source_player_missing_paths": [],
+  "dynamic_frame_loading_verified": {
+    "flow_frames": 15,
+    "impact_frames": 25
+  },
+  "superseded_asset_aliases": {
+    "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/glass_front_material.png": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+    "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/glass_back_transmission.png": "deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_back_transmission.png",
+    "deliverables/water_sort/reference3_cartoon_bottle_v2/assets/cloth_wrapper_silver.png": "deliverables/water_sort/reference3_cloth_drape_v1/assets/cloth_wrapper_silver.png"
+  },
+  "external_runtime_tools": [
+    "Node.js",
+    "@napi-rs/canvas 0.1.100 verified locally; consumer must provide dependency",
+    "FFmpeg; Bash for optional render_preview.sh"
+  ],
+  "optional_atlas_regeneration_tools": [
+    "Python 3",
+    "Pillow",
+    "SciPy",
+    "NumPy",
+    "ImageMagick magick"
+  ],
+  "omitted_references_are_nonruntime": [
+    "original entrypoint QA and comparison images, generated preview outputs",
+    "original full-package freeze inventory not used for compact package validation",
+    "source provenance path generated_images/exec-a5d8bd06-4a90-4650-9779-83f7688e5895.png; committed open_stream_core is the required asset",
+    "source/transfer_timing_v3_qa.js excluded because historical numerical QA reads reference3_pour_frame_atlas_v2_1; not called by replay",
+    "old base glass/cloth paths resolved by explicit atomic aliases"
+  ],
+  "tutorial_asset_closure": [
+    "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_1_valid_scene_v4.png",
+    "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_2_valid_scene_v4.png",
+    "accepted_tutorial_v4/assets/brand/caiping/tutorial/tutorial_step_3_valid_scene_v4.png",
+    "accepted_tutorial_v4/assets/skins/blue_gold_refined/images/tutorial_hand.png",
+    "accepted_tutorial_v4/assets/skins/blue_gold_refined/images/icon_complete.png"
+  ],
+  "production_runtime_verified": false,
+  "validation": {
+    "all_png_decode_count": 64,
+    "png_decode_pass": true,
+    "source_JS_syntax_files": 4,
+    "source_JS_syntax_pass": true,
+    "sample_full_replay": {
+      "status": "NOT_COMPLETED",
+      "isolated_copy": "/tmp/colorpause_restore_reproduction_20261025",
+      "exit_code": 137,
+      "reason": "Process ended externally before completion; cause not diagnosed. No source/original changed. This is not a production runtime pass.",
+      "generated_frame_count_at_stop": 45
+    },
+    "closure_basis": "Inspected unmodified source load paths, enumerated 15+25 dynamic frame inputs, resolved final runtime hash table, decoded all archived PNGs. Full sample replay not needed to assert file presence; not claimed successful."
+  },
+  "reference2_baseline_map": {
+    "original_master": "user_attachment_review/image(20261023-115241).png",
+    "static_components": "deliverables/water_sort/reference2_main_assembly_qa_v1/actual_components_360x640.png",
+    "historical_component_map": "deliverables/water_sort/reference2_main_assembly_qa_v1/COMPONENT_SOURCE_MAP.json",
+    "source_prefix": "deliverables/water_sort/",
+    "verified_remote_prefix": "art/reference2-delivery-20261024/",
+    "remote_branch": "ui/restore-assets-20261023",
+    "remote_head": "dc5e9f4f8e505bd715f1656fb31fca99a52e04fe",
+    "note": "Only the 3 requested reference2 reference files plus source replay background are copied here. The historical component map is not this compact package file inventory; use existing published assets and current reference3 overrides."
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "continuousSamples": 20001,
+  "maxTotalError": 4.440892098500626e-16,
+  "maxPacketAccountingError": 2.220446049250313e-16,
+  "minimumInFlight": 0,
+  "minimumPositiveTransit": 0.07400000000000007,
+  "sourceEmptyTime": 1.305,
+  "arrivalEndTime": 1.379,
+  "cohorts": [
+    {
+      "id": "main",
+      "kind": "stream",
+      "q0": 0,
+      "q1": 0.9090909090909091,
+      "units": 0.9090909090909091,
+      "emitStart": 0.9333333333333333,
+      "emitEnd": 1.2,
+      "arrivalStart": 1.0666666666666667,
+      "arrivalEnd": 1.3333333333333333
+    },
+    {
+      "id": "tail-film",
+      "kind": "detached-film",
+      "q0": 0.9090909090909091,
+      "q1": 0.96,
+      "units": 0.050909090909090904,
+      "emitStart": 1.2,
+      "emitEnd": 1.27,
+      "arrivalStart": 1.3333333333333333,
+      "arrivalEnd": 1.345
+    },
+    {
+      "id": "tail-drop",
+      "kind": "compact-drop",
+      "q0": 0.96,
+      "q1": 1,
+      "units": 0.040000000000000036,
+      "emitStart": 1.28,
+      "emitEnd": 1.305,
+      "arrivalStart": 1.369,
+      "arrivalEnd": 1.379
+    }
+  ],
+  "sourcePixelProof": [
+    {
+      "frame": 36,
+      "time": 1.2,
+      "sourceUnits": 0.09090909090909083,
+      "poolUnits": 0.05975452769619512,
+      "filmUnits": 0.031154563212895725,
+      "pixelAlphaArea": 733.705882352941,
+      "pixelUnits": 0.09090885900380709,
+      "pixelUnitError": -2.3190528374017472e-07
+    },
+    {
+      "frame": 37,
+      "time": 1.2333333333333334,
+      "sourceUnits": 0.06666666666666687,
+      "poolUnits": 0.04999999999998591,
+      "filmUnits": 0.016666666666681103,
+      "pixelAlphaArea": 538.0509803921569,
+      "pixelUnits": 0.06666649660279189,
+      "pixelUnitError": -1.7006387498241793e-07
+    },
+    {
+      "frame": 38,
+      "time": 1.2666666666666666,
+      "sourceUnits": 0.042424242424242475,
+      "poolUnits": 0.03181818181817169,
+      "filmUnits": 0.010606060606070736,
+      "pixelAlphaArea": 342.3960784313726,
+      "pixelUnits": 0.04242413420177666,
+      "pixelUnitError": -1.082224658152664e-07
+    },
+    {
+      "frame": 39,
+      "time": 1.3,
+      "sourceUnits": 0.008000000000000007,
+      "poolUnits": 0.006000000000016175,
+      "filmUnits": 0.0019999999999838745,
+      "pixelAlphaArea": 64.56470588235294,
+      "pixelUnits": 0.007999804669492398,
+      "pixelUnitError": -1.953305076088374e-07
+    },
+    {
+      "frame": 40,
+      "time": 1.3333333333333333,
+      "sourceUnits": 0,
+      "poolUnits": 0,
+      "filmUnits": 0,
+      "pixelAlphaArea": 0,
+      "pixelUnits": 0,
+      "pixelUnitError": 0
+    },
+    {
+      "frame": 41,
+      "time": 1.3666666666666667,
+      "sourceUnits": 0,
+      "poolUnits": 0,
+      "filmUnits": 0,
+      "pixelAlphaArea": 0,
+      "pixelUnits": 0,
+      "pixelUnitError": 0
+    }
+  ],
+  "video_sha256": "b25e018cb97499dc45be7e85648a05ab6c63a43a43a60c3af6cff7134c36eb2e",
+  "home_exact_frame": 42,
+  "home_time": 1.4,
+  "home_sha256": "0479e0832637611739ae10e5d1be67ddc4a8f87c406de5dd5bee66a351dde65f",
+  "home_byte_identical": true,
+  "independent_review": "../full_pour_v3_audit/REVIEW.md",
+  "not_runtime_verified": true
+}

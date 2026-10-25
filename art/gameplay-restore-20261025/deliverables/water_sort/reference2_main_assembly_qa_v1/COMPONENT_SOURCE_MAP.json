@@ -1,0 +1,264 @@
+{
+  "components": [
+    {
+      "source_path": "deliverables/water_sort/reference2_background_cleanplate_v1/assets/background_compat_941x1672.png",
+      "component_pack": "reference2_background_cleanplate_v1",
+      "sha256": "32945a74fafe8268f07b0f5bca76852ca598d3dae810304eda5ba86ce2f5ddc0",
+      "bytes": 1087247,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_background_cleanplate_v1/assets/background_native_940x1672.png",
+      "component_pack": "reference2_background_cleanplate_v1",
+      "sha256": "3dfdfa238bf6bcc55114d5981b08325933e1b4873a208f1cdc5587d1c69324cd",
+      "bytes": 1086488,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_back_shadow.png",
+      "component_pack": "reference2_original_bottle_layers_v1",
+      "sha256": "424db6d82f2c75b515c727cb44d12cd538612ca725bfbf6ff2d5e728c1092a94",
+      "bytes": 1910,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/glass_front_reflection.png",
+      "component_pack": "reference2_original_bottle_layers_v1",
+      "sha256": "25ac4f208edd5fd83110e44c9e7fb8d7a490633ff856f7fa4c7ccc1a21889e06",
+      "bytes": 92854,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_original_bottle_layers_v1/assets/pour_cavity_mask.png",
+      "component_pack": "reference2_original_bottle_layers_v1",
+      "sha256": "d7ab88a46d97bac14f85fa33dca291c2b12a167d909daceae488e06e98c9a780",
+      "bytes": 3301,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_card_local_repair_v1/assets/order_card_reference2_empty.png",
+      "component_pack": "reference2_order_card_local_repair_v1",
+      "sha256": "97c5c4baa0304ac13cd781a0dc49c7b96aa077ed29e580d6eeadd07ba823f4ee",
+      "bytes": 32315,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_undo_button_v1/assets/undo_arrow_original.png",
+      "component_pack": "reference2_undo_button_v1",
+      "sha256": "e097256de09ad374abcf16af6e94ba9ae8e0b8638e21858b73f9aef0d7ee54fe",
+      "bytes": 6393,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_undo_button_v1/assets/undo_button_blank.png",
+      "component_pack": "reference2_undo_button_v1",
+      "sha256": "14052a155dd6b29f9c169fb8e4466115c9d5c17a0582196352edeef193411f9c",
+      "bytes": 29136,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_button_blank.png",
+      "component_pack": "reference2_replay_settings_buttons_v1",
+      "sha256": "4afaf77eeb2b3454fcf448fafe2a331321b406be0ecf0ac9fe8a4e9a3e2e4661",
+      "bytes": 28767,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/replay_icon_original.png",
+      "component_pack": "reference2_replay_settings_buttons_v1",
+      "sha256": "e3b6296fddab071905c51d63555458bbe9c4265eb56ed9d4e81d7600a4514dbd",
+      "bytes": 7569,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_button_blank.png",
+      "component_pack": "reference2_replay_settings_buttons_v1",
+      "sha256": "bb1437589d5afd9f086c3f3298a1803b4a588e677437a62946cb41c403cf9daf",
+      "bytes": 17416,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_replay_settings_buttons_v1/assets/settings_icon_original.png",
+      "component_pack": "reference2_replay_settings_buttons_v1",
+      "sha256": "75b5b6aa00f862017a821c1463138219af0fcd78445a8cb003d125c87c5103d6",
+      "bytes": 5881,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_top_hud_v1/assets/level_title_blank.png",
+      "component_pack": "reference2_top_hud_v1",
+      "sha256": "c528abbf461214d5c6de5775665a182b3078c7618466e9c0da6261a92d8f2ffe",
+      "bytes": 28731,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_blank.png",
+      "component_pack": "reference2_top_hud_v1",
+      "sha256": "44f33c3dc05b2257aa67fd8ffa7716421edb227b3624e5f3fbc508dfd666faab",
+      "bytes": 12510,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_top_hud_v1/assets/step_pill_icon.png",
+      "component_pack": "reference2_top_hud_v1",
+      "sha256": "76f7d1f12c3f3eab7f1dbd228afed34c4f6f2067ff1118b3d10bb24d1cf2b083",
+      "bytes": 18603,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_top_hud_v1/assets/time_pill_blank.png",
+      "component_pack": "reference2_top_hud_v1",
+      "sha256": "72e29b33515197d909b2117128a7b1e35fef0dbaf7c0a342c3e06973285bd434",
+      "bytes": 12364,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_top_hud_v1/assets/time_pill_icon.png",
+      "component_pack": "reference2_top_hud_v1",
+      "sha256": "2602621b62a013b290e582d89b09bbf125e5b05692665fba489cc3c5e6150fc0",
+      "bytes": 21000,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_completion_strip_v1/assets/completion_strip_reference2_empty.png",
+      "component_pack": "reference2_completion_strip_v1",
+      "sha256": "0298a8ecc90bc944457fc5c17c3f35ae95a93556f16184c180bb6699cb9e8dfd",
+      "bytes": 15561,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_energy_component_v1/assets/energy_bolt.png",
+      "component_pack": "reference2_energy_component_v1",
+      "sha256": "f16d48004d862201dddee35db00d7774d7aa81589894a2153464f383c8b10410",
+      "bytes": 4433,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_energy_component_v1/assets/energy_pill_base.png",
+      "component_pack": "reference2_energy_component_v1",
+      "sha256": "44f33c3dc05b2257aa67fd8ffa7716421edb227b3624e5f3fbc508dfd666faab",
+      "bytes": 12510,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_blue_cork.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "ba4b72211f16f3695c66d2d400445fad5a59da37ad8a9833aacb4e9d571b68f6",
+      "bytes": 12262,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_cork_original.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "d5584d8c663331f7c48979b7e64f8c8897a64caeb6f5215b834b3ebf044b754f",
+      "bytes": 1975,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_cyan_cork.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "6ab9d9a78d973d1bd07d17c613ed685b8f40a33c425bc6bd853fd639338d835d",
+      "bytes": 12053,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_empty_interior.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "95737b52b78ba922135a20012e7f0973ed4e5a3384e4ec8292636880e757660e",
+      "bytes": 11881,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_glass_front.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "5a5546d729a3c1933785e617e9783aa0e641ab25fcc87ee8b41b83b7267b8a9d",
+      "bytes": 12662,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_green_cork.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "92fdcd2556329112fa31a9f80efcb1739f8b9729e5d97196b78b15fb70a20a7b",
+      "bytes": 12214,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_liquid_diffuse_map.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "300378d000eec7953c546a9d80a04051664de57f1a793103821a1e41c3a9de0d",
+      "bytes": 2321,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_liquid_highlight.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "ab7f83af47c7dcbc996ec96abe1943da19da9119167944b1648a9027d7a93149",
+      "bytes": 3017,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_liquid_mask.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "58c8fa64dbfd5833208afae9da37668c73e69b9def7bc8c891d6b34fe754e6e8",
+      "bytes": 230,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_orange_cork.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "efc2dbd968dbb94e7d9cf8957fb4265057afc09f77b273bd25ea0c8ed2cf3593",
+      "bytes": 12236,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_pink_cork.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "e5d043a09db82ffb842ae2c917d973289141490f0e999e33eda02917315d6559",
+      "bytes": 12219,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_purple_cork.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "92fcf33b79c40e4d6ecbe4c5b5fcc7c0c67be86a18e5bca8e8f96eac66a75eb6",
+      "bytes": 12141,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_red_cork.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "d658621a49b1340e65432b541881224a9e2c49869bc8ca5773601a17f62338e0",
+      "bytes": 12134,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_bottle_states_v1/assets/order_yellow_cork.png",
+      "component_pack": "reference2_order_bottle_states_v1",
+      "sha256": "779d2a0076a248762652a86c6f4e8db5e5e751a55d47e7fab5e9cd89b6d68280",
+      "bytes": 12108,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_status_v1/assets/order_status_check.png",
+      "component_pack": "reference2_order_status_v1",
+      "sha256": "676c0472950cd794edd9d4e132f7f563637bb32ac42921737a0da59743a94de9",
+      "bytes": 1197,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_status_v1/assets/order_status_ring.png",
+      "component_pack": "reference2_order_status_v1",
+      "sha256": "bbcc21ee22b4831552763159ea6be4b1d6636eee39d41e2f059c54353274d6c1",
+      "bytes": 1755,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    },
+    {
+      "source_path": "deliverables/water_sort/reference2_order_status_v1/assets/order_trial_card_blank.png",
+      "component_pack": "reference2_order_status_v1",
+      "sha256": "d356b2cbc031e6d0e23e34c61cb087ce38d981a59d7cbaa25cacfa2de78a3510",
+      "bytes": 21492,
+      "published_path": "publisher_resolve_from_verified_release_mapping"
+    }
+  ],
+  "publication": "No upload done by this producer. Publisher verifies/remaps existing released paths; do not duplicate or change hashes."
+}
