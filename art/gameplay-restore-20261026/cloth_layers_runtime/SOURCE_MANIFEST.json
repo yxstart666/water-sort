@@ -1,0 +1,30 @@
+[
+  {
+    "path": "layers/cloth_overlay_source.png",
+    "source": "/workspace/scratch/abf455579c09/generated_images/exec-b76503ff-9f14-4804-a0a3-1c53ba6efc87.png",
+    "bytes": 2128416,
+    "sha256": "d16ba55894d8545d2dd9f1aa1e3fb7cf2c053007c687c62144840d124b92d365",
+    "copy_verified": true
+  },
+  {
+    "path": "layers/order_frame_existing.png",
+    "source": "/workspace/scratch/abf455579c09/deliverables/water_sort/reference3_completion_adapter_v1/assets/order_card_pending_white.png",
+    "bytes": 32300,
+    "sha256": "94d2ec11990b22c954fe5adb2a8d297c0d6369d11aa6a6fd0c460a1909a83c13",
+    "copy_verified": true
+  },
+  {
+    "path": "reference_only/original_glass_front_material.png",
+    "source": "/workspace/scratch/abf455579c09/deliverables/water_sort/reference3_cartoon_bottle_v2_highlight_fix/assets/glass_front_material.png",
+    "bytes": 28627,
+    "sha256": "dd559d76fc14a5b70fbc667833cb103272b05d6760e3c2e7f58a0257689d1208",
+    "copy_verified": true
+  },
+  {
+    "path": "reference_only/accepted_cloth_badge_reference.png",
+    "source": "/workspace/scratch/abf455579c09/deliverables/colorpause_cloth_unlock_art_20261025/盖布瓶_新玩法插画_透明底_v1.png",
+    "bytes": 2025249,
+    "sha256": "04fa33d79fd13646d0f0910250c7b0a865962c1e8121b79fdcf14cec6b76b25c",
+    "copy_verified": true
+  }
+]
