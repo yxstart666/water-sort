@@ -1,11 +1,9 @@
-当前默认 runner 只跑干净导入、主页绑定112、真实体力35、设置体力247；`--full-regression` 才运行保留的全量历史范围。用户本轮已要求停止新增关卡验收，本次没有重跑关卡矩阵。
+# Reproduce focused checks
 
-# 可重复后台回归
+Run `python tools/run_current_checks.py --godot /path/to/Godot4.7.2`.
 
-需要 Godot4.7.2 Standard 和 Python3。使用 `python tools/run_current_checks.py --godot /path/to/godot`。
+The runner verifies the source manifest, makes a fresh isolated copy, imports it, and runs result/reward dependency checks, home routing, the real-energy entry and live-energy settings checks. Outputs and test profiles stay in that copy. ERROR logs fail the run even when assertions pass. It never reads real player saves or launches a visible window.
 
-脚本先在系统临时目录复制当前白名单项目，导入后运行真实宿主 UI 路由、C3全50证书回放、原并发/FIFO、体力保存/取消/重试及 native adapter 异常测试。测试只使用该临时副本和注入存储，不接触运行中的桌面目录或真实用户存档。`--real-clock` 额外执行真实系统时钟123秒恢复检查，不能用模拟时钟结果冒充实际等待。
+`--output /path/to/new-output` selects a fresh output directory. `--real-clock` additionally waits for the existing actual-clock recovery test. `--full-regression` opts into retained baseline tests; it is not the default and was not run in this scope-reduced closeout. Current evidence is in PLAYTEST_VALIDATION.json; baseline evidence is separately in VALIDATION.json.
 
-完整方向检查可在隔离副本执行 `--script res://tests/water_sort_orders/direction_contract_review.gd`，或 L2/L6 镜像脚本。输出目录需先建立；并发脚本传 `--out=res://direction_review/parallel`，数字脚本传输出文件参数。仓库提供的 runner 会建立必需目录。
-
-所有检查默认 headless；原生视觉、帧节奏、手机触控和真实SDK另验。原历史失败保存在本机固定证据，不将其源/日志作为有效代码混入仓库。当前失败或限制在 STATUS.md 明示，不通过删除断言凑通过。
+The victory/reward test mounts the actual orders_v3 host for ScreenLayout, checks all loaded texture instances and mipmaps, exact corrected PNG identity/dimensions, real numeric values and one-shot action dispatch. It does not synthesize native user input or certify pixel appearance. Native visuals, phone SDK/UMP and signed export remain separate gates.

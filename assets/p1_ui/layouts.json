@@ -1,0 +1,2443 @@
+{
+  "pages": [
+    {
+      "page": "refresh_colors",
+      "actionID": "color_shuffle",
+      "viewport": [
+        320,
+        603
+      ],
+      "sourceManifest": "manifests/refresh_colors.json",
+      "sourceSHA": "d91afed1852302f1a79100dca43109b26059a910abdc018491f2855603797eef",
+      "layers": [
+        {
+          "type": "sharedChrome",
+          "component": "panel",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            54,
+            63,
+            1258,
+            1339
+          ],
+          "sourceNineSliceLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "cornerUniformScale": 0.23466635649221776,
+          "desiredVisibleRectDp": [
+            18.905908096280086,
+            81.57549234135666,
+            282.53829321663017,
+            451.99124726477027
+          ],
+          "textureRectDp": [
+            6.233924845700328,
+            66.79151188234695,
+            308,
+            483
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            6.233924845700328,
+            66.79151188234695,
+            308,
+            483
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "header",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            11,
+            20,
+            1583,
+            488
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.1256803007350053,
+          "desiredVisibleRectDp": [
+            62.669584245076585,
+            52.86652078774617,
+            194.66083150984684,
+            58.81838074398249
+          ],
+          "textureRectDp": [
+            61.28710093699153,
+            50.35291477304606,
+            198,
+            66
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            61.28710093699153,
+            50.35291477304606,
+            198,
+            66
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "cyan",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            39,
+            15,
+            1561,
+            496
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.1433920033482397,
+          "desiredVisibleRectDp": [
+            46.2144420131291,
+            445.68927789934355,
+            227.57111597374183,
+            68.97155361050329
+          ],
+          "textureRectDp": [
+            40.62215388254775,
+            443.53839784912,
+            239,
+            82
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            40.62215388254775,
+            443.53839784912,
+            239,
+            82
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "hero_refresh_card",
+          "source": "runtime/high_quality_refresh/hero_refresh_card.png",
+          "locale": null,
+          "sourceCrop": [
+            104,
+            358,
+            811,
+            1129
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            36,
+            125,
+            248,
+            270
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            36.411378555798684,
+            125.33916849015317,
+            247.52735229759298,
+            269.9343544857768
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            707,
+            771
+          ],
+          "inkRectPx": [
+            0,
+            0,
+            707,
+            771
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "title_refresh_zh-CN",
+          "source": "runtime/high_quality_refresh/title_refresh_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            260,
+            175,
+            663,
+            293
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            91,
+            61,
+            141,
+            41
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            91.02844638949671,
+            61.2691466083151,
+            141.0940919037199,
+            41.3129102844639
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            403,
+            118
+          ],
+          "inkRectPx": [
+            2,
+            5,
+            400,
+            113
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "label_watch_video_zh-CN",
+          "source": "runtime/high_quality_refresh/label_watch_video_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            360,
+            1315,
+            697,
+            1422
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            126,
+            460,
+            118,
+            37
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            126.03938730853392,
+            460.3938730853391,
+            117.98687089715536,
+            37.4617067833698
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            337,
+            107
+          ],
+          "inkRectPx": [
+            6,
+            3,
+            328,
+            97
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "icon_play",
+          "source": "runtime/high_quality_refresh/icon_play.png",
+          "locale": null,
+          "sourceCrop": [
+            225,
+            1304,
+            331,
+            1425
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            79,
+            457,
+            37,
+            42
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            78.77461706783369,
+            456.54266958424506,
+            37.11159737417943,
+            42.36323851203501
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            106,
+            121
+          ],
+          "inkRectPx": [
+            8,
+            5,
+            97,
+            115
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "description_zh-CN",
+          "source": "runtime/high_quality_refresh/description_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            128,
+            1167,
+            795,
+            1242
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            45,
+            409,
+            234,
+            26
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            44.81400437636761,
+            408.5776805251641,
+            233.52297592997812,
+            26.258205689277897
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            667,
+            75
+          ],
+          "inkRectPx": [
+            31,
+            5,
+            627,
+            65
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "close",
+          "source": "runtime/sprites/close_normal_clean.png",
+          "sourceVisibleBody": [
+            51,
+            8,
+            938,
+            888
+          ],
+          "sourceNineSliceLTRB": null,
+          "cornerUniformScale": 0.05012840469805775,
+          "desiredVisibleRectDp": [
+            262.93216630196935,
+            75.62363238512035,
+            44.463894967177225,
+            44.46389496717724
+          ],
+          "textureRectDp": [
+            260.3756176623684,
+            75.22260514753589,
+            49,
+            49
+          ],
+          "method": "uniform",
+          "runtimeRectDp": [
+            260.3756176623684,
+            75.22260514753589,
+            49.42660703228494,
+            48.875194580606305
+          ]
+        }
+      ],
+      "hitTargets": [
+        {
+          "action": "close",
+          "visibleRectDp": [
+            262.93216630196935,
+            75.62363238512035,
+            44.46389496717724,
+            44.46389496717724
+          ],
+          "hitboxDp": [
+            44.46389496717724,
+            44.46389496717724
+          ],
+          "policy": "component-local input; no repeat while busy"
+        },
+        {
+          "action": "watchRewardedVideo",
+          "visibleRectDp": [
+            46.2144420131291,
+            445.68927789934355,
+            227.5711159737418,
+            68.97155361050328
+          ],
+          "hitboxDp": [
+            227.5711159737418,
+            68.97155361050328
+          ],
+          "policy": "component-local input; no repeat while busy"
+        }
+      ],
+      "background": "plain QA field #1D416A; not production background",
+      "english": "pending equal-quality source assets; not approximated",
+      "productionIntegration": false,
+      "engine_status": "NOT_RUN",
+      "integration_status": "authorized handoff; not completed implementation",
+      "uniform_layout_rule": "rectDp is legacy raster-preview rounding only. At runtime use runtimeRectDp and a single uniform scalar; do not fit images nonuniformly to rounded pixel dimensions.",
+      "runtime_dependencies": [
+        "runtime/high_quality_refresh/description_zh-CN.png",
+        "runtime/high_quality_refresh/hero_refresh_card.png",
+        "runtime/high_quality_refresh/icon_play.png",
+        "runtime/high_quality_refresh/label_watch_video_zh-CN.png",
+        "runtime/high_quality_refresh/title_refresh_zh-CN.png",
+        "runtime/sprites/close_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png"
+      ],
+      "play_icon_count": 1,
+      "hero_embedded_play_badge": false,
+      "CTA_chrome_exactly_matches_add_bottle": true,
+      "runtime_background_policy": "Use application backdrop; plain preview blue is not a texture dependency."
+    },
+    {
+      "page": "refresh_colors",
+      "actionID": "color_shuffle",
+      "viewport": [
+        390,
+        734
+      ],
+      "sourceManifest": "manifests/refresh_colors.json",
+      "sourceSHA": "d91afed1852302f1a79100dca43109b26059a910abdc018491f2855603797eef",
+      "layers": [
+        {
+          "type": "sharedChrome",
+          "component": "panel",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            54,
+            63,
+            1258,
+            1339
+          ],
+          "sourceNineSliceLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "cornerUniformScale": 0.28599962197489043,
+          "desiredVisibleRectDp": [
+            23.041575492341355,
+            99.42013129102844,
+            344.34354485776805,
+            550.8643326039387
+          ],
+          "textureRectDp": [
+            7.597595905697272,
+            81.40215510661034,
+            375,
+            589
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            7.597595905697272,
+            81.40215510661034,
+            375,
+            589
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "header",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            11,
+            20,
+            1583,
+            488
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.15317286652078774,
+          "desiredVisibleRectDp": [
+            76.37855579868709,
+            64.43107221006565,
+            237.2428884026258,
+            71.68490153172866
+          ],
+          "textureRectDp": [
+            74.69365426695842,
+            61.36761487964989,
+            241,
+            81
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            74.69365426695842,
+            61.36761487964989,
+            241,
+            81
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "cyan",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            39,
+            15,
+            1561,
+            496
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.17475900408066708,
+          "desiredVisibleRectDp": [
+            56.32385120350109,
+            543.1838074398249,
+            277.35229759299784,
+            84.05908096280086
+          ],
+          "textureRectDp": [
+            49.50825004435508,
+            540.5624223786149,
+            291,
+            100
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            49.50825004435508,
+            540.5624223786149,
+            291,
+            100
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "hero_refresh_card",
+          "source": "runtime/high_quality_refresh/hero_refresh_card.png",
+          "locale": null,
+          "sourceCrop": [
+            104,
+            358,
+            811,
+            1129
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            44,
+            153,
+            302,
+            329
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            44.37636761487965,
+            152.75711159737418,
+            301.6739606126915,
+            328.9824945295405
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            707,
+            771
+          ],
+          "inkRectPx": [
+            0,
+            0,
+            707,
+            771
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "title_refresh_zh-CN",
+          "source": "runtime/high_quality_refresh/title_refresh_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            260,
+            175,
+            663,
+            293
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            111,
+            75,
+            172,
+            50
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            110.94091903719912,
+            74.67177242888403,
+            171.95842450765863,
+            50.350109409190374
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            403,
+            118
+          ],
+          "inkRectPx": [
+            2,
+            5,
+            400,
+            113
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "label_watch_video_zh-CN",
+          "source": "runtime/high_quality_refresh/label_watch_video_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            360,
+            1315,
+            697,
+            1422
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            154,
+            561,
+            144,
+            46
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            153.61050328227572,
+            561.1050328227572,
+            143.7964989059081,
+            45.65645514223195
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            337,
+            107
+          ],
+          "inkRectPx": [
+            6,
+            3,
+            328,
+            97
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "icon_play",
+          "source": "runtime/high_quality_refresh/icon_play.png",
+          "locale": null,
+          "sourceCrop": [
+            225,
+            1304,
+            331,
+            1425
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            96,
+            556,
+            45,
+            52
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            96.00656455142231,
+            556.4113785557987,
+            45.22975929978118,
+            51.63019693654267
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            106,
+            121
+          ],
+          "inkRectPx": [
+            8,
+            5,
+            97,
+            115
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "description_zh-CN",
+          "source": "runtime/high_quality_refresh/description_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            128,
+            1167,
+            795,
+            1242
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            55,
+            498,
+            285,
+            32
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            54.61706783369803,
+            497.95404814004377,
+            284.6061269146608,
+            32.00218818380744
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            667,
+            75
+          ],
+          "inkRectPx": [
+            31,
+            5,
+            627,
+            65
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "close",
+          "source": "runtime/sprites/close_normal_clean.png",
+          "sourceVisibleBody": [
+            51,
+            8,
+            938,
+            888
+          ],
+          "sourceNineSliceLTRB": null,
+          "cornerUniformScale": 0.06109399322575792,
+          "desiredVisibleRectDp": [
+            320.44857768052515,
+            92.16630196936542,
+            54.190371991247275,
+            54.19037199124726
+          ],
+          "textureRectDp": [
+            317.3327840260115,
+            91.67755002355936,
+            60,
+            60
+          ],
+          "method": "uniform",
+          "runtimeRectDp": [
+            317.3327840260115,
+            91.67755002355936,
+            60.238677320597304,
+            59.56664339511397
+          ]
+        }
+      ],
+      "hitTargets": [
+        {
+          "action": "close",
+          "visibleRectDp": [
+            320.44857768052515,
+            92.16630196936542,
+            54.19037199124726,
+            54.19037199124726
+          ],
+          "hitboxDp": [
+            54.19037199124726,
+            54.19037199124726
+          ],
+          "policy": "component-local input; no repeat while busy"
+        },
+        {
+          "action": "watchRewardedVideo",
+          "visibleRectDp": [
+            56.32385120350109,
+            543.1838074398249,
+            277.3522975929978,
+            84.05908096280088
+          ],
+          "hitboxDp": [
+            277.3522975929978,
+            84.05908096280088
+          ],
+          "policy": "component-local input; no repeat while busy"
+        }
+      ],
+      "background": "plain QA field #1D416A; not production background",
+      "english": "pending equal-quality source assets; not approximated",
+      "productionIntegration": false,
+      "engine_status": "NOT_RUN",
+      "integration_status": "authorized handoff; not completed implementation",
+      "uniform_layout_rule": "rectDp is legacy raster-preview rounding only. At runtime use runtimeRectDp and a single uniform scalar; do not fit images nonuniformly to rounded pixel dimensions.",
+      "runtime_dependencies": [
+        "runtime/high_quality_refresh/description_zh-CN.png",
+        "runtime/high_quality_refresh/hero_refresh_card.png",
+        "runtime/high_quality_refresh/icon_play.png",
+        "runtime/high_quality_refresh/label_watch_video_zh-CN.png",
+        "runtime/high_quality_refresh/title_refresh_zh-CN.png",
+        "runtime/sprites/close_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png"
+      ],
+      "play_icon_count": 1,
+      "hero_embedded_play_badge": false,
+      "CTA_chrome_exactly_matches_add_bottle": true,
+      "runtime_background_policy": "Use application backdrop; plain preview blue is not a texture dependency."
+    },
+    {
+      "page": "refresh_colors",
+      "actionID": "color_shuffle",
+      "viewport": [
+        430,
+        810
+      ],
+      "sourceManifest": "manifests/refresh_colors.json",
+      "sourceSHA": "d91afed1852302f1a79100dca43109b26059a910abdc018491f2855603797eef",
+      "layers": [
+        {
+          "type": "sharedChrome",
+          "component": "panel",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            54,
+            63,
+            1258,
+            1339
+          ],
+          "sourceNineSliceLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "cornerUniformScale": 0.31533291653641765,
+          "desiredVisibleRectDp": [
+            25.40481400437637,
+            109.61706783369803,
+            379.66083150984684,
+            607.3632385120351
+          ],
+          "textureRectDp": [
+            8.376836511409817,
+            89.75109409190372,
+            414,
+            649
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            8.376836511409817,
+            89.75109409190372,
+            414,
+            649
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "header",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            11,
+            20,
+            1583,
+            488
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.1688829041126634,
+          "desiredVisibleRectDp": [
+            84.21225382932167,
+            71.03938730853392,
+            261.5754923413567,
+            79.03719912472647
+          ],
+          "textureRectDp": [
+            82.35454188408237,
+            67.66172922628066,
+            266,
+            89
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            82.35454188408237,
+            67.66172922628066,
+            266,
+            89
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "cyan",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            39,
+            15,
+            1561,
+            496
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.19268300449919723,
+          "desiredVisibleRectDp": [
+            62.10065645514223,
+            598.8949671772428,
+            305.7986870897155,
+            92.68052516411387
+          ],
+          "textureRectDp": [
+            54.586019279673536,
+            596.0047221097549,
+            321,
+            110
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            54.586019279673536,
+            596.0047221097549,
+            321,
+            110
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "hero_refresh_card",
+          "source": "runtime/high_quality_refresh/hero_refresh_card.png",
+          "locale": null,
+          "sourceCrop": [
+            104,
+            358,
+            811,
+            1129
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            49,
+            168,
+            333,
+            363
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            48.927789934354486,
+            168.42450765864334,
+            332.6148796498906,
+            362.7242888402626
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            707,
+            771
+          ],
+          "inkRectPx": [
+            0,
+            0,
+            707,
+            771
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "title_refresh_zh-CN",
+          "source": "runtime/high_quality_refresh/title_refresh_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            260,
+            175,
+            663,
+            293
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            122,
+            82,
+            190,
+            56
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            122.31947483588621,
+            82.33041575492341,
+            189.59518599562364,
+            55.51422319474836
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            403,
+            118
+          ],
+          "inkRectPx": [
+            2,
+            5,
+            400,
+            113
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "label_watch_video_zh-CN",
+          "source": "runtime/high_quality_refresh/label_watch_video_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            360,
+            1315,
+            697,
+            1422
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            169,
+            619,
+            159,
+            50
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            169.36542669584244,
+            618.6542669584245,
+            158.5448577680525,
+            50.33916849015317
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            337,
+            107
+          ],
+          "inkRectPx": [
+            6,
+            3,
+            328,
+            97
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "icon_play",
+          "source": "runtime/high_quality_refresh/icon_play.png",
+          "locale": null,
+          "sourceCrop": [
+            225,
+            1304,
+            331,
+            1425
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            106,
+            613,
+            50,
+            57
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            105.85339168490154,
+            613.4792122538294,
+            49.86870897155361,
+            56.925601750547045
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            106,
+            121
+          ],
+          "inkRectPx": [
+            8,
+            5,
+            97,
+            115
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "description_zh-CN",
+          "source": "runtime/high_quality_refresh/description_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            128,
+            1167,
+            795,
+            1242
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            60,
+            549,
+            314,
+            35
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            60.21881838074398,
+            549.0262582056893,
+            313.7964989059081,
+            35.284463894967175
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            667,
+            75
+          ],
+          "inkRectPx": [
+            31,
+            5,
+            627,
+            65
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "close",
+          "source": "runtime/sprites/close_normal_clean.png",
+          "sourceVisibleBody": [
+            51,
+            8,
+            938,
+            888
+          ],
+          "sourceNineSliceLTRB": null,
+          "cornerUniformScale": 0.06736004381301512,
+          "desiredVisibleRectDp": [
+            353.31509846827134,
+            101.61925601750548,
+            59.748358862144414,
+            59.748358862144414
+          ],
+          "textureRectDp": [
+            349.8797362338076,
+            101.08037566700136,
+            66,
+            66
+          ],
+          "method": "uniform",
+          "runtimeRectDp": [
+            349.8797362338076,
+            101.08037566700136,
+            66.41700319963292,
+            65.67604271768974
+          ]
+        }
+      ],
+      "hitTargets": [
+        {
+          "action": "close",
+          "visibleRectDp": [
+            353.31509846827134,
+            101.61925601750548,
+            59.74835886214442,
+            59.74835886214442
+          ],
+          "hitboxDp": [
+            59.74835886214442,
+            59.74835886214442
+          ],
+          "policy": "component-local input; no repeat while busy"
+        },
+        {
+          "action": "watchRewardedVideo",
+          "visibleRectDp": [
+            62.10065645514223,
+            598.8949671772428,
+            305.79868708971554,
+            92.68052516411379
+          ],
+          "hitboxDp": [
+            305.79868708971554,
+            92.68052516411379
+          ],
+          "policy": "component-local input; no repeat while busy"
+        }
+      ],
+      "background": "plain QA field #1D416A; not production background",
+      "english": "pending equal-quality source assets; not approximated",
+      "productionIntegration": false,
+      "engine_status": "NOT_RUN",
+      "integration_status": "authorized handoff; not completed implementation",
+      "uniform_layout_rule": "rectDp is legacy raster-preview rounding only. At runtime use runtimeRectDp and a single uniform scalar; do not fit images nonuniformly to rounded pixel dimensions.",
+      "runtime_dependencies": [
+        "runtime/high_quality_refresh/description_zh-CN.png",
+        "runtime/high_quality_refresh/hero_refresh_card.png",
+        "runtime/high_quality_refresh/icon_play.png",
+        "runtime/high_quality_refresh/label_watch_video_zh-CN.png",
+        "runtime/high_quality_refresh/title_refresh_zh-CN.png",
+        "runtime/sprites/close_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png"
+      ],
+      "play_icon_count": 1,
+      "hero_embedded_play_badge": false,
+      "CTA_chrome_exactly_matches_add_bottle": true,
+      "runtime_background_policy": "Use application backdrop; plain preview blue is not a texture dependency."
+    },
+    {
+      "page": "undo",
+      "actionID": "undo",
+      "viewport": [
+        320,
+        603
+      ],
+      "sourceManifest": "manifests/undo.json",
+      "sourceSHA": "9d9e275b4412fde6a6ddb2c06145bb8b2a8786c477ca11511d467007e20b308d",
+      "layers": [
+        {
+          "type": "sharedChrome",
+          "component": "panel",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            54,
+            63,
+            1258,
+            1339
+          ],
+          "sourceNineSliceLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "cornerUniformScale": 0.23466635649221776,
+          "desiredVisibleRectDp": [
+            18.905908096280086,
+            81.57549234135666,
+            282.53829321663017,
+            451.99124726477027
+          ],
+          "textureRectDp": [
+            6.233924845700328,
+            66.79151188234695,
+            308,
+            483
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            6.233924845700328,
+            66.79151188234695,
+            308,
+            483
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "header",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            11,
+            20,
+            1583,
+            488
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.1256803007350053,
+          "desiredVisibleRectDp": [
+            62.669584245076585,
+            52.86652078774617,
+            194.66083150984684,
+            58.81838074398249
+          ],
+          "textureRectDp": [
+            61.28710093699153,
+            50.35291477304606,
+            198,
+            66
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            61.28710093699153,
+            50.35291477304606,
+            198,
+            66
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "cyan",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            39,
+            15,
+            1561,
+            496
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.1433920033482397,
+          "desiredVisibleRectDp": [
+            46.2144420131291,
+            445.68927789934355,
+            227.57111597374183,
+            68.97155361050329
+          ],
+          "textureRectDp": [
+            40.62215388254775,
+            443.53839784912,
+            239,
+            82
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            40.62215388254775,
+            443.53839784912,
+            239,
+            82
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "hero_undo_card",
+          "source": "runtime/high_quality_undo/hero_undo_card.png",
+          "locale": null,
+          "sourceCrop": [
+            104,
+            358,
+            811,
+            1129
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            36,
+            125,
+            248,
+            270
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            36.411378555798684,
+            125.33916849015317,
+            247.52735229759298,
+            269.9343544857768
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            707,
+            771
+          ],
+          "inkRectPx": [
+            0,
+            0,
+            707,
+            771
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "title_undo_zh-CN",
+          "source": "runtime/high_quality_undo/title_undo_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            260,
+            175,
+            663,
+            293
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            91,
+            61,
+            141,
+            41
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            91.02844638949671,
+            61.2691466083151,
+            141.0940919037199,
+            41.3129102844639
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            403,
+            118
+          ],
+          "inkRectPx": [
+            9,
+            4,
+            396,
+            113
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "label_watch_video_zh-CN",
+          "source": "runtime/high_quality_undo/label_watch_video_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            360,
+            1315,
+            697,
+            1422
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            126,
+            460,
+            118,
+            37
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            126.03938730853392,
+            460.3938730853391,
+            117.98687089715536,
+            37.4617067833698
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            337,
+            107
+          ],
+          "inkRectPx": [
+            6,
+            3,
+            329,
+            98
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "icon_play",
+          "source": "runtime/high_quality_undo/icon_play.png",
+          "locale": null,
+          "sourceCrop": [
+            225,
+            1304,
+            331,
+            1425
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            79,
+            457,
+            37,
+            42
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            78.77461706783369,
+            456.54266958424506,
+            37.11159737417943,
+            42.36323851203501
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            106,
+            121
+          ],
+          "inkRectPx": [
+            8,
+            5,
+            97,
+            116
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "description_zh-CN",
+          "source": "runtime/high_quality_undo/description_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            128,
+            1167,
+            795,
+            1242
+          ],
+          "sourceUniformScale": 0.350109409190372,
+          "rectDp": [
+            45,
+            409,
+            234,
+            26
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            44.81400437636761,
+            408.5776805251641,
+            233.52297592997812,
+            26.258205689277897
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            667,
+            75
+          ],
+          "inkRectPx": [
+            8,
+            6,
+            659,
+            69
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "close",
+          "source": "runtime/sprites/close_normal_clean.png",
+          "sourceVisibleBody": [
+            51,
+            8,
+            938,
+            888
+          ],
+          "sourceNineSliceLTRB": null,
+          "cornerUniformScale": 0.05012840469805775,
+          "desiredVisibleRectDp": [
+            262.93216630196935,
+            75.62363238512035,
+            44.463894967177225,
+            44.46389496717724
+          ],
+          "textureRectDp": [
+            260.3756176623684,
+            75.22260514753589,
+            49,
+            49
+          ],
+          "method": "uniform",
+          "runtimeRectDp": [
+            260.3756176623684,
+            75.22260514753589,
+            49.42660703228494,
+            48.875194580606305
+          ]
+        }
+      ],
+      "hitTargets": [
+        {
+          "action": "close",
+          "visibleRectDp": [
+            262.93216630196935,
+            75.62363238512035,
+            44.46389496717724,
+            44.46389496717724
+          ],
+          "hitboxDp": [
+            44.46389496717724,
+            44.46389496717724
+          ],
+          "policy": "component-local input; no repeat while busy"
+        },
+        {
+          "action": "watchRewardedVideo",
+          "visibleRectDp": [
+            46.2144420131291,
+            445.68927789934355,
+            227.5711159737418,
+            68.97155361050328
+          ],
+          "hitboxDp": [
+            227.5711159737418,
+            68.97155361050328
+          ],
+          "policy": "component-local input; no repeat while busy"
+        }
+      ],
+      "background": "plain QA field #1D416A; not production background",
+      "english": "pending equal-quality source assets; not approximated",
+      "productionIntegration": false,
+      "engine_status": "NOT_RUN",
+      "integration_status": "authorized handoff; not completed implementation",
+      "uniform_layout_rule": "rectDp is legacy raster-preview rounding only. At runtime use runtimeRectDp and a single uniform scalar; do not fit images nonuniformly to rounded pixel dimensions.",
+      "runtime_dependencies": [
+        "runtime/high_quality_undo/description_zh-CN.png",
+        "runtime/high_quality_undo/hero_undo_card.png",
+        "runtime/high_quality_undo/icon_play.png",
+        "runtime/high_quality_undo/label_watch_video_zh-CN.png",
+        "runtime/high_quality_undo/title_undo_zh-CN.png",
+        "runtime/sprites/close_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png"
+      ],
+      "play_icon_count": 1,
+      "hero_embedded_play_badge": false,
+      "CTA_chrome_exactly_matches_add_bottle": true,
+      "runtime_background_policy": "Use application backdrop; plain preview blue is not a texture dependency."
+    },
+    {
+      "page": "undo",
+      "actionID": "undo",
+      "viewport": [
+        390,
+        734
+      ],
+      "sourceManifest": "manifests/undo.json",
+      "sourceSHA": "9d9e275b4412fde6a6ddb2c06145bb8b2a8786c477ca11511d467007e20b308d",
+      "layers": [
+        {
+          "type": "sharedChrome",
+          "component": "panel",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            54,
+            63,
+            1258,
+            1339
+          ],
+          "sourceNineSliceLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "cornerUniformScale": 0.28599962197489043,
+          "desiredVisibleRectDp": [
+            23.041575492341355,
+            99.42013129102844,
+            344.34354485776805,
+            550.8643326039387
+          ],
+          "textureRectDp": [
+            7.597595905697272,
+            81.40215510661034,
+            375,
+            589
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            7.597595905697272,
+            81.40215510661034,
+            375,
+            589
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "header",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            11,
+            20,
+            1583,
+            488
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.15317286652078774,
+          "desiredVisibleRectDp": [
+            76.37855579868709,
+            64.43107221006565,
+            237.2428884026258,
+            71.68490153172866
+          ],
+          "textureRectDp": [
+            74.69365426695842,
+            61.36761487964989,
+            241,
+            81
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            74.69365426695842,
+            61.36761487964989,
+            241,
+            81
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "cyan",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            39,
+            15,
+            1561,
+            496
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.17475900408066708,
+          "desiredVisibleRectDp": [
+            56.32385120350109,
+            543.1838074398249,
+            277.35229759299784,
+            84.05908096280086
+          ],
+          "textureRectDp": [
+            49.50825004435508,
+            540.5624223786149,
+            291,
+            100
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            49.50825004435508,
+            540.5624223786149,
+            291,
+            100
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "hero_undo_card",
+          "source": "runtime/high_quality_undo/hero_undo_card.png",
+          "locale": null,
+          "sourceCrop": [
+            104,
+            358,
+            811,
+            1129
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            44,
+            153,
+            302,
+            329
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            44.37636761487965,
+            152.75711159737418,
+            301.6739606126915,
+            328.9824945295405
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            707,
+            771
+          ],
+          "inkRectPx": [
+            0,
+            0,
+            707,
+            771
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "title_undo_zh-CN",
+          "source": "runtime/high_quality_undo/title_undo_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            260,
+            175,
+            663,
+            293
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            111,
+            75,
+            172,
+            50
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            110.94091903719912,
+            74.67177242888403,
+            171.95842450765863,
+            50.350109409190374
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            403,
+            118
+          ],
+          "inkRectPx": [
+            9,
+            4,
+            396,
+            113
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "label_watch_video_zh-CN",
+          "source": "runtime/high_quality_undo/label_watch_video_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            360,
+            1315,
+            697,
+            1422
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            154,
+            561,
+            144,
+            46
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            153.61050328227572,
+            561.1050328227572,
+            143.7964989059081,
+            45.65645514223195
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            337,
+            107
+          ],
+          "inkRectPx": [
+            6,
+            3,
+            329,
+            98
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "icon_play",
+          "source": "runtime/high_quality_undo/icon_play.png",
+          "locale": null,
+          "sourceCrop": [
+            225,
+            1304,
+            331,
+            1425
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            96,
+            556,
+            45,
+            52
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            96.00656455142231,
+            556.4113785557987,
+            45.22975929978118,
+            51.63019693654267
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            106,
+            121
+          ],
+          "inkRectPx": [
+            8,
+            5,
+            97,
+            116
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "description_zh-CN",
+          "source": "runtime/high_quality_undo/description_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            128,
+            1167,
+            795,
+            1242
+          ],
+          "sourceUniformScale": 0.42669584245076586,
+          "rectDp": [
+            55,
+            498,
+            285,
+            32
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            54.61706783369803,
+            497.95404814004377,
+            284.6061269146608,
+            32.00218818380744
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            667,
+            75
+          ],
+          "inkRectPx": [
+            8,
+            6,
+            659,
+            69
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "close",
+          "source": "runtime/sprites/close_normal_clean.png",
+          "sourceVisibleBody": [
+            51,
+            8,
+            938,
+            888
+          ],
+          "sourceNineSliceLTRB": null,
+          "cornerUniformScale": 0.06109399322575792,
+          "desiredVisibleRectDp": [
+            320.44857768052515,
+            92.16630196936542,
+            54.190371991247275,
+            54.19037199124726
+          ],
+          "textureRectDp": [
+            317.3327840260115,
+            91.67755002355936,
+            60,
+            60
+          ],
+          "method": "uniform",
+          "runtimeRectDp": [
+            317.3327840260115,
+            91.67755002355936,
+            60.238677320597304,
+            59.56664339511397
+          ]
+        }
+      ],
+      "hitTargets": [
+        {
+          "action": "close",
+          "visibleRectDp": [
+            320.44857768052515,
+            92.16630196936542,
+            54.19037199124726,
+            54.19037199124726
+          ],
+          "hitboxDp": [
+            54.19037199124726,
+            54.19037199124726
+          ],
+          "policy": "component-local input; no repeat while busy"
+        },
+        {
+          "action": "watchRewardedVideo",
+          "visibleRectDp": [
+            56.32385120350109,
+            543.1838074398249,
+            277.3522975929978,
+            84.05908096280088
+          ],
+          "hitboxDp": [
+            277.3522975929978,
+            84.05908096280088
+          ],
+          "policy": "component-local input; no repeat while busy"
+        }
+      ],
+      "background": "plain QA field #1D416A; not production background",
+      "english": "pending equal-quality source assets; not approximated",
+      "productionIntegration": false,
+      "engine_status": "NOT_RUN",
+      "integration_status": "authorized handoff; not completed implementation",
+      "uniform_layout_rule": "rectDp is legacy raster-preview rounding only. At runtime use runtimeRectDp and a single uniform scalar; do not fit images nonuniformly to rounded pixel dimensions.",
+      "runtime_dependencies": [
+        "runtime/high_quality_undo/description_zh-CN.png",
+        "runtime/high_quality_undo/hero_undo_card.png",
+        "runtime/high_quality_undo/icon_play.png",
+        "runtime/high_quality_undo/label_watch_video_zh-CN.png",
+        "runtime/high_quality_undo/title_undo_zh-CN.png",
+        "runtime/sprites/close_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png"
+      ],
+      "play_icon_count": 1,
+      "hero_embedded_play_badge": false,
+      "CTA_chrome_exactly_matches_add_bottle": true,
+      "runtime_background_policy": "Use application backdrop; plain preview blue is not a texture dependency."
+    },
+    {
+      "page": "undo",
+      "actionID": "undo",
+      "viewport": [
+        430,
+        810
+      ],
+      "sourceManifest": "manifests/undo.json",
+      "sourceSHA": "9d9e275b4412fde6a6ddb2c06145bb8b2a8786c477ca11511d467007e20b308d",
+      "layers": [
+        {
+          "type": "sharedChrome",
+          "component": "panel",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            54,
+            63,
+            1258,
+            1339
+          ],
+          "sourceNineSliceLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "cornerUniformScale": 0.31533291653641765,
+          "desiredVisibleRectDp": [
+            25.40481400437637,
+            109.61706783369803,
+            379.66083150984684,
+            607.3632385120351
+          ],
+          "textureRectDp": [
+            8.376836511409817,
+            89.75109409190372,
+            414,
+            649
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            8.376836511409817,
+            89.75109409190372,
+            414,
+            649
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "header",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            11,
+            20,
+            1583,
+            488
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.1688829041126634,
+          "desiredVisibleRectDp": [
+            84.21225382932167,
+            71.03938730853392,
+            261.5754923413567,
+            79.03719912472647
+          ],
+          "textureRectDp": [
+            82.35454188408237,
+            67.66172922628066,
+            266,
+            89
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            82.35454188408237,
+            67.66172922628066,
+            266,
+            89
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "cyan",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "sourceVisibleBody": [
+            39,
+            15,
+            1561,
+            496
+          ],
+          "sourceNineSliceLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "cornerUniformScale": 0.19268300449919723,
+          "desiredVisibleRectDp": [
+            62.10065645514223,
+            598.8949671772428,
+            305.7986870897155,
+            92.68052516411387
+          ],
+          "textureRectDp": [
+            54.586019279673536,
+            596.0047221097549,
+            321,
+            110
+          ],
+          "method": "9slice",
+          "runtimeRectDp": [
+            54.586019279673536,
+            596.0047221097549,
+            321,
+            110
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "hero_undo_card",
+          "source": "runtime/high_quality_undo/hero_undo_card.png",
+          "locale": null,
+          "sourceCrop": [
+            104,
+            358,
+            811,
+            1129
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            49,
+            168,
+            333,
+            363
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            48.927789934354486,
+            168.42450765864334,
+            332.6148796498906,
+            362.7242888402626
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            707,
+            771
+          ],
+          "inkRectPx": [
+            0,
+            0,
+            707,
+            771
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "title_undo_zh-CN",
+          "source": "runtime/high_quality_undo/title_undo_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            260,
+            175,
+            663,
+            293
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            122,
+            82,
+            190,
+            56
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            122.31947483588621,
+            82.33041575492341,
+            189.59518599562364,
+            55.51422319474836
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            403,
+            118
+          ],
+          "inkRectPx": [
+            9,
+            4,
+            396,
+            113
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "label_watch_video_zh-CN",
+          "source": "runtime/high_quality_undo/label_watch_video_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            360,
+            1315,
+            697,
+            1422
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            169,
+            619,
+            159,
+            50
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            169.36542669584244,
+            618.6542669584245,
+            158.5448577680525,
+            50.33916849015317
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            337,
+            107
+          ],
+          "inkRectPx": [
+            6,
+            3,
+            329,
+            98
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "icon_play",
+          "source": "runtime/high_quality_undo/icon_play.png",
+          "locale": null,
+          "sourceCrop": [
+            225,
+            1304,
+            331,
+            1425
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            106,
+            613,
+            50,
+            57
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": false,
+          "runtimeRectDp": [
+            105.85339168490154,
+            613.4792122538294,
+            49.86870897155361,
+            56.925601750547045
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            106,
+            121
+          ],
+          "inkRectPx": [
+            8,
+            5,
+            97,
+            116
+          ]
+        },
+        {
+          "type": "sourceContent",
+          "key": "description_zh-CN",
+          "source": "runtime/high_quality_undo/description_zh-CN.png",
+          "locale": "zh-CN",
+          "sourceCrop": [
+            128,
+            1167,
+            795,
+            1242
+          ],
+          "sourceUniformScale": 0.47045951859956237,
+          "rectDp": [
+            60,
+            549,
+            314,
+            35
+          ],
+          "nineSlice": false,
+          "sourceRGBPreservedBeforeDisplayResampling": true,
+          "independentLocaleLayer": true,
+          "runtimeRectDp": [
+            60.21881838074398,
+            549.0262582056893,
+            313.7964989059081,
+            35.284463894967175
+          ],
+          "contentRectPx": [
+            0,
+            0,
+            667,
+            75
+          ],
+          "inkRectPx": [
+            8,
+            6,
+            659,
+            69
+          ]
+        },
+        {
+          "type": "sharedChrome",
+          "component": "close",
+          "source": "runtime/sprites/close_normal_clean.png",
+          "sourceVisibleBody": [
+            51,
+            8,
+            938,
+            888
+          ],
+          "sourceNineSliceLTRB": null,
+          "cornerUniformScale": 0.06736004381301512,
+          "desiredVisibleRectDp": [
+            353.31509846827134,
+            101.61925601750548,
+            59.748358862144414,
+            59.748358862144414
+          ],
+          "textureRectDp": [
+            349.8797362338076,
+            101.08037566700136,
+            66,
+            66
+          ],
+          "method": "uniform",
+          "runtimeRectDp": [
+            349.8797362338076,
+            101.08037566700136,
+            66.41700319963292,
+            65.67604271768974
+          ]
+        }
+      ],
+      "hitTargets": [
+        {
+          "action": "close",
+          "visibleRectDp": [
+            353.31509846827134,
+            101.61925601750548,
+            59.74835886214442,
+            59.74835886214442
+          ],
+          "hitboxDp": [
+            59.74835886214442,
+            59.74835886214442
+          ],
+          "policy": "component-local input; no repeat while busy"
+        },
+        {
+          "action": "watchRewardedVideo",
+          "visibleRectDp": [
+            62.10065645514223,
+            598.8949671772428,
+            305.79868708971554,
+            92.68052516411379
+          ],
+          "hitboxDp": [
+            305.79868708971554,
+            92.68052516411379
+          ],
+          "policy": "component-local input; no repeat while busy"
+        }
+      ],
+      "background": "plain QA field #1D416A; not production background",
+      "english": "pending equal-quality source assets; not approximated",
+      "productionIntegration": false,
+      "engine_status": "NOT_RUN",
+      "integration_status": "authorized handoff; not completed implementation",
+      "uniform_layout_rule": "rectDp is legacy raster-preview rounding only. At runtime use runtimeRectDp and a single uniform scalar; do not fit images nonuniformly to rounded pixel dimensions.",
+      "runtime_dependencies": [
+        "runtime/high_quality_undo/description_zh-CN.png",
+        "runtime/high_quality_undo/hero_undo_card.png",
+        "runtime/high_quality_undo/icon_play.png",
+        "runtime/high_quality_undo/label_watch_video_zh-CN.png",
+        "runtime/high_quality_undo/title_undo_zh-CN.png",
+        "runtime/sprites/close_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png"
+      ],
+      "play_icon_count": 1,
+      "hero_embedded_play_badge": false,
+      "CTA_chrome_exactly_matches_add_bottle": true,
+      "runtime_background_policy": "Use application backdrop; plain preview blue is not a texture dependency."
+    }
+  ],
+  "runtime_path_root": "package root",
+  "preview_raster_rounding": "Subpixel natural aspect runtime rectangles supplied separately; reference images use rounded per-axis raster dimensions, not a license for nonuniform stretching.",
+  "engine_tests": "NOT_RUN"
+}

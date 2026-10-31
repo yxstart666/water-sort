@@ -15,12 +15,14 @@
     "scripts/ui_restore/home_hero_round_clip.gdshader",
     "scripts/ui_restore/home_hero_round_clip.gdshader.uid"
   ],
-  "victory_alpha_v3": "NOT_FOUND locally; no transfer retry",
+  "victory_alpha_v3": "Integrated exact three PNG; source RGB and dimensions unchanged, alpha only. See VICTORY_ALPHA_V3.json.",
   "profile": "res://.current-energy-profile-v1",
   "default_entry": "scenes/playtest/current_test.tscn",
   "energy": "Real EnergyService; 30 cap / new attempt 5 / recovery 1 per120s; unfinished restart free",
   "deployed_directories_unchanged": true,
   "related_validation": "PLAYTEST_VALIDATION.json",
   "accepted": false,
-  "status": "ready_for_review_except_missing_victory_alpha"
+  "status": "ready_for_review",
+  "restored_runtime_dependencies": "RESTORED_RUNTIME_DEPENDENCIES.json",
+  "supersedes_withdrawn_candidate": "55dcb25c731a962330e34c6c3388b85d9c2b8e09464e051bc56eceab689377d2"
 }

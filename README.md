@@ -1,25 +1,23 @@
-# 彩瓶时光 / Color Pause
+# Color Pause / 彩瓶时光
 
-Godot 4.7.2 Standard。当前为独立测试版：主页使用批准融合图，默认启用真实体力；保留现有 C3 50 关数据和全关选取，未伪造通关成绩。不是正式上架版。
+Godot 4.7.2 Standard desktop playtest. The current version includes the approved fused home image, real energy, direction-locked pouring, settings/Pause fixes, restart-title alpha and the three corrected victory labels. Start breathing remains OFF as a safety fallback, not a claim that its animation has been smoothed.
 
-## 启动
+## Run
 
-首次导入：`godot --headless --editor --path . --import --quit`
+First import: `godot --headless --editor --path . --import --quit`
 
-启动：`godot --path . -- --dev-test-ads`
+Play: `godot --path . -- --dev-test-ads`
 
-默认入口 `scenes/playtest/current_test.tscn`，独立存档 `.current-energy-profile-v1/`。真实体力上限30、新局扣5、每120秒恢复1；同一未完成局重玩免费，通关返还最多5。`--dev-test-ads` 为明确开发模拟，不能当真实SDK广告。
+Default scene: `scenes/playtest/current_test.tscn`. All 50 existing C3 levels are selectable without fabricated completion scores. The independent `.current-energy-profile-v1/` uses real EnergyService: cap 30, new attempt costs 5, recovery 1 per 120 seconds, unfinished same-attempt restart free, win returns up to 5. Existing player/test saves are not read or migrated. `--dev-test-ads` explicitly enables development mock ads; it does not prove device SDK operation.
 
-开始按钮呼吸保持关闭，避免已反馈不适；不能据此声称动画已调顺。倒向锁和英文Pause/设置体力刷新修复保留。重玩标题alpha已替换；通关steps/time/next alpha-v3尚缺本地源，当前仍旧资源。新主页原生最终视觉待用户测试。
+The optional `difficulty_test.tscn` remains an isolated free-energy diagnostic, not the default entry. No new theme, drinks, 10-color expansion, 46-level reduction or rejected reduced-angle experiment is included.
 
-主测试版不读写已有玩家档或旧桌面测试档。原免体力入口 `scenes/playtest/difficulty_test.tscn` 仅供独立难度排查，当前默认不使用它。
+- [Current architecture and gameplay](docs/current/DEVELOPMENT.md)
+- [Current changes](docs/current/PLAYTEST_UPDATE.json)
+- [Related validation](docs/current/PLAYTEST_VALIDATION.json)
+- [Remaining limits](docs/current/STATUS.md)
+- [Reproduce focused checks](docs/current/TESTING.md)
+- [File identity manifest](docs/current/SYNC_MANIFEST.json)
+- [Third-party notices](distribution_notices/THIRD_PARTY_NOTICES.txt)
 
-- [当前架构与玩法](docs/current/DEVELOPMENT.md)
-- [最新变更及缺件](docs/current/PLAYTEST_UPDATE.json)
-- [本次相关验证](docs/current/PLAYTEST_VALIDATION.json)
-- [剩余边界](docs/current/STATUS.md)
-- [可复现测试](docs/current/TESTING.md)
-- [逐文件清单](docs/current/SYNC_MANIFEST.json)
-- [许可与来源](distribution_notices/THIRD_PARTY_NOTICES.txt)
-
-仅保留当前运行依赖、必要兼容基类、测试和有效文档。旧失败源、历史快照、缓存、真实存档、构建包和密钥不入仓库。部分运行路径保留历史命名以避免破坏现有资源绑定，不代表引入已作废功能。
+The prior 55dcb curated package omitted result/reward runtime dependencies and must not be deployed. This version restores them and directly tests the affected views. Native visual acceptance and phone/real-ad/signing checks remain unverified. This is a source sync and desktop test candidate, not a store release.

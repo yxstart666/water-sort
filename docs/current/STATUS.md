@@ -1,15 +1,15 @@
-# 当前状态（2026-10-31）
+# Current status — 2026-10-31
 
-运行基底：`8e989ad569d403c63bd835afe07b73a592f454c63aa6912dae7035f763e76c69`。本仓库同步树去除了非运行历史材料，并加入独立体力测试 composition；Git commit 和同步清单是本树身份，不冒充逐字节原快照。
+Ready for review as a desktop test candidate; accepted=false. Desktop 8e989 and the separate energy-test folder remain frozen until explicit rollout approval.
 
-已验证：50/50 宿主通关815次倒水；L2/L6正常及镜像四尺寸；180方向例；27并发/FIFO例；输入、缓存和队列生命周期；关闭呼吸/英文Pause横排及动态数字的后台检查。体力真实系统时钟实等约124秒，25→26、弹窗动态显示、落盘重读、关闭后恢复游戏通过。广告取消/失败/超时/保存重试及旧回调测试使用模拟 native adapter，不是 live SDK。
+Included: approved fused home art; default real-energy isolated profile; Start breathing OFF; existing source-to-target direction lock; d333 settings energy-tick lifecycle and English Pause layout; approved restart-title alpha; victory steps/time/next alpha-v3. C3 50-level bytes remain unchanged. No new levels or theme were integrated.
 
-未关闭项：呼吸 OFF 是安全回退，不是启用动画已调顺；英文 Pause 窄屏原生可读性、各斜向外部水流观感仍待视觉。胜利标签 alpha、重玩标签 alpha、融合主页批准源仍未全部本地接入。历史六项时序失败的原始来源未全部追溯，不能用新探针通过代替解释。
+Current validation: clean Godot 4.7.2 import, result/reward runtime dependencies 2564 assertions, home 112, real-energy entry 35, settings 247. All pass headless with no ERROR/SCRIPT ERROR logs. Runtime dependency textures are present, loaded, mipmapped and explicitly filtered. Dynamic result fields, immediate Next during star celebration, disposal, reward confirmation/cancellation and one-shot callbacks are covered. Signal dispatch tests do not prove native pointer hit behavior or pixel quality.
 
-倒水参数准确边界：80/128/192为外部水流长度上限，不是流宽或dock距离；新派生dock绝对值最多128。192由abs(dock)>36触发，没有edge判定，peer原有±48/±96非边缘候选也适用。碰撞回归通过不代表全部水形美观通过。
+Packaging correction: 55dcb was withdrawn before desktop deployment because P2 result textures and P0/P1 reward layout JSON were omitted by curation. Forty-four original files were restored from complete 8e, then three labels received the exact approved alpha update. Before/after identity is documented. The first isolated-view fixture omitted host screen_layout metadata; its errors and failed overall result are preserved locally. The corrected fixture uses the real host, not a suppressed-error stub.
 
-发布未验：手机、真实UMP/广告投放、签名、最终AAB/APK与商店配置。本分支只做有效源码同步，不触发发布、签名或自动合并。
+Remaining: native rendering of the new home/alpha/Pause, diagonal external-stream appearance, actual device UMP/ad SDK, signing and final APK/AAB resource/notices checks are NOT_RUN for this candidate. Breathing remains a safe disabled fallback. Earlier six timing-test failures retain unresolved historical provenance; current scoped results do not erase them. Prior baseline level/parallel results in VALIDATION.json are historical, not newly rerun acceptance.
 
-新增有效修复 d333e84b：真实体力 tick 更新设置页 HUD，保留 modal、焦点、按压及淡入淡出；英文 Pause 值栏调整。当前分支单独提交，未热更新已部署桌面。原生清晰度/动画流畅度仍 NOT_RUN。见 SETTINGS_ENERGY_FIX.json。
+Pouring boundary: 80/128/192 are external stream-length limits, not stream width or dock distance. New derived dock offset is at most128; the192 condition is abs(dock)>36, not an edge-only predicate. Old peer offsets48/96 can also use it. Collision checks do not prove every water shape looks natural.
 
-2026-10-31 用户缩范围后的当前增量：主页融合图、重玩alpha已取得并核原包/内部SHA；真实体力默认开启、独立新档。仅跑启动与主页/体力/设置相关检查112+35+247通过，不新增关卡验收。较早段落的主页/重玩待源状态由本条覆盖；通关三张alpha-v3仍缺源，新画面原生未验。桌面仍为8e989，等待根放行切换。
+Earlier isolated wall-clock evidence waited about124 seconds for25→26 energy recovery and persistence; this iteration uses controlled-clock/service tests and does not claim a new native120-second observation. Real player saves remain untouched. Mock/native-adapter tests are not real ad delivery.

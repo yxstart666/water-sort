@@ -1,0 +1,182 @@
+{
+  "reason": "55dcb curated tree omitted runtime-relative result textures and reward-layout JSON. Restored exact existing dependencies from complete 8e snapshot; no new art or behavior.",
+  "source_snapshot": "8e989ad569d403c63bd835afe07b73a592f454c63aa6912dae7035f763e76c69",
+  "added": [
+    {
+      "path": "assets/p0_ui/layouts.json",
+      "sha256": "b82cf1bad348981407fc2879883501817886305dff8fb494137211a4e79fda02"
+    },
+    {
+      "path": "assets/p1_ui/layouts.json",
+      "sha256": "574802dbf32cf97e7dc048f9f5ddf50401fe4a1c5e3dc5a364325aebf3eea6fb"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/panel_normal_9slice_candidate.png",
+      "sha256": "199980fb284df2f433af447bf40a477aa6ba6794f253b968f5c3b42bf343589c"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/panel_normal_9slice_candidate.png.import",
+      "sha256": "acb86a68b323a4819679f2886350a262334ae4a58aa19f99a6df8421fbc877dd"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/title_normal_9slice_candidate.png",
+      "sha256": "fcb3655f8dd0e1fc0c84ffa8ef80ff7a42af65703585678de1036048514b72fc"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/title_normal_9slice_candidate.png.import",
+      "sha256": "2367137ea2856a8cc814aa3e260491e7abd54f03b17103a274f4784dfeafe73b"
+    },
+    {
+      "path": "assets/p2_ui/runtime/controls/row_blank_source_derived.png",
+      "sha256": "694853d5b08be0cc7f8c29a78b9a344f1db7fa695f802befe5a09214dbd4517b"
+    },
+    {
+      "path": "assets/p2_ui/runtime/controls/row_blank_source_derived.png.import",
+      "sha256": "e300a434996a8090077173ebe9287aef16edb38a4922d88467ba758fad78b3ba"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/cyan_normal_9slice_candidate.png",
+      "sha256": "1130d1e7c2ca0b2a932d59963ce86cae546d20dcda4764f567fcb041685a3425"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/cyan_normal_9slice_candidate.png.import",
+      "sha256": "c60cd574cd5861bdd3e42a394b6edca246c0043ca266b5ac97c6f783e8f830d8"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/yellow_square_normal_clean.png",
+      "sha256": "0669a47b1d38b9c9c1d650a77d1c7d7d41489166cfc899b4c50b86183a37f1eb"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/yellow_square_normal_clean.png.import",
+      "sha256": "90b130d399eebd6a2878b1b2855b92880ebb3b2abc635c2843ed9956b92f524f"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/blue_square_normal_clean.png",
+      "sha256": "925d0cbe3fd23f878069a617f09f4ded26b8bb587393f3c59488038754039cd6"
+    },
+    {
+      "path": "assets/p2_ui/runtime/sprites/blue_square_normal_clean.png.import",
+      "sha256": "cf2512d790efb6446ee1d4bcaabc24dceeb4fc967514b5695a80abbba470bf04"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_left_glow_rebuilt.png",
+      "sha256": "87de8cf2afc017e7cf57b93b4dc0d632cf8d1ddd721c618a4b857f71d3e37550"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_left_glow_rebuilt.png.import",
+      "sha256": "1c52c18971661084af88b59b758081b7e92554858acaaaa60432f00373bea8e1"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_left_lit.png",
+      "sha256": "c0f4d5edce6f2273e82eeb4b8dbdc6564ae061592746de226b2aa84401e18b59"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_left_lit.png.import",
+      "sha256": "8def104bd85351b1ccfa3bdd7826d01b1342eabd46bcfb743ae588c54848b9f0"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_left_unlit.png",
+      "sha256": "90ba474dacdfc95bdd08d22f02c2f9c2eb628abc2e9991c9e3dfa13a1ceac72e"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_left_unlit.png.import",
+      "sha256": "5222688d8388b2af1843340c001d99c567fedd1f17d06cb1aca2b5549765cb63"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_center_glow_rebuilt.png",
+      "sha256": "d3ba2d8297f0b8e1dc0fab359a47177e4a56ff4fc138de0688c09acc85bfb724"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_center_glow_rebuilt.png.import",
+      "sha256": "a21a84bac7a1b1d21ba7cf61202d7fde669c2f8d93515c0ff5728a21a05a1727"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_center_lit.png",
+      "sha256": "2486e187092f1c56ee7bb1343d3809b587efcd38bfec5dea311837d813f73e49"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_center_lit.png.import",
+      "sha256": "c5edbfc3e5c373b8892fea22f43c90b5e38ed2a6fabf3eca8a8e5def12f67de5"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_center_unlit.png",
+      "sha256": "d70be0e8ddbf9219e69837ad13e318195be032f66c99892082370e2130ec8017"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_center_unlit.png.import",
+      "sha256": "b6f47cc64bca227633a2ccbd1b17359bbe0e9ee56efdc24c52fdcc4b3f076cea"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_right_glow_rebuilt.png",
+      "sha256": "f40698f70e115cae83cb92f914760d165cc47815c9119b7b21db7acfaa2a38b4"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_right_glow_rebuilt.png.import",
+      "sha256": "4bf3b87727f890be6ccfec9039b3630058d6b4ee3cf14fd136ccfb4bc4fd5e5c"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_right_lit.png",
+      "sha256": "cdfc40c75354eb6641c086622991662da175b67904ad6f80e8bd2ddade3c9ebb"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_right_lit.png.import",
+      "sha256": "bb49e2194f6c9ed27711f291683be129a422db886e24775865b827cd2151699a"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_right_unlit.png",
+      "sha256": "c2e337f16b3492874833ecf9c000f3018e863f9dc38d3983ad202565870a9361"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_stars/star_right_unlit.png.import",
+      "sha256": "f897545bab814c791bda323957649a6b41ae99b0d40764f40866d327cf147beb"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/title_success_zh-CN.png",
+      "sha256": "855b157e181353ed79ee6291678878ee0e5628914e8224012f50bbd2be924e35"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/title_success_zh-CN.png.import",
+      "sha256": "d8281638db24cd5bf04ca5cc2b7a07647cbc1dc5c49ce78da0eb32925a061bba"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_next_zh-CN.png",
+      "sha256": "81359b7b83679e472de11443d87904d5ca545669efd2a20778d3d41a7a8d36dd"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_next_zh-CN.png.import",
+      "sha256": "c334078a639c3cbe60d27ae818d98f81e7e6d3f23692e469738dca79656f6b05"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_steps_zh-CN.png",
+      "sha256": "31860e6c18039479a7eda071f05f2c30eb403b3a21a2b5c59ae3f0d8b7f5c648"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_steps_zh-CN.png.import",
+      "sha256": "a8bce895ead5726a157beff4e4946398ee1bce02944d26893b6d5739df41a038"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_time_zh-CN.png",
+      "sha256": "49a6ababfbe7324d0bfa1d830f9088d05f151461fb5f252beb544d70b469b25b"
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_time_zh-CN.png.import",
+      "sha256": "7e71873486852ec157ce604c7845a464b3071502ea6ab9780f507fedc6df5f60"
+    },
+    {
+      "path": "assets/p2_ui/runtime/controls/icon_home.png",
+      "sha256": "a9ee899d47c7fb73f245852ffce6a99e2956047e73365adac8b87b40a5bd9e54"
+    },
+    {
+      "path": "assets/p2_ui/runtime/controls/icon_home.png.import",
+      "sha256": "13f23276bcd4b27b1ad2813811b8233c77dfdffc929c77207751063b96def241"
+    },
+    {
+      "path": "assets/p2_ui/runtime/controls/icon_replay.png",
+      "sha256": "df8a574708e1c00282a0577632312afcc18927d2f1c86cb62219779f462a9644"
+    },
+    {
+      "path": "assets/p2_ui/runtime/controls/icon_replay.png.import",
+      "sha256": "1bd3b88397bb5593f143fd541dee24b86b62391fc604197419f6807aa0760046"
+    }
+  ]
+}
