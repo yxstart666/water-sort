@@ -127,7 +127,7 @@ func _make_overlay(title: String, body: String) -> void:
 	# Supply compact copy before the inherited Label is created, avoiding its
 	# no-wrap minimum width briefly expanding the authored modal rectangle.
 	if title==t("倒瓶子 · 玩法说明","How to play"):
-		body=t("先点有颜色的瓶子，再点目标瓶。\n目标需为空瓶，或顶部同色且未满。\n顶端连续同色会一起倒入。\n每种颜色装满一瓶，即可过关。\n\n撤销免费；未完成局重开不额外扣体力。\n暂停和查看说明不计时。","Tap a bottle, then a target.\nUse an empty or matching bottle.\nThe top color pours together.\nFill one bottle with each color.\n\nUndo is free. An unfinished\nrestart costs no extra energy.\nPause and rules stop the clock.")
+		body=t("先点有颜色的瓶子，再点目标瓶。\n目标需为空瓶，或顶部同色且未满。\n顶端连续同色会一起倒入。\n每种颜色装满一瓶，即可过关。\n\n撤回免费；未完成局重开不额外扣体力。\n暂停和查看说明不计时。","Tap a bottle, then a target.\nUse an empty or matching bottle.\nThe top color pours together.\nFill one bottle with each color.\n\nUndo is free. An unfinished\nrestart costs no extra energy.\nPause and rules stop the clock.")
 	elif body=="The clock is paused. Your puzzle is unchanged.":
 		body="The clock is paused.\nYour puzzle is unchanged."
 	elif body=="Bottles, moves and time will reset.":

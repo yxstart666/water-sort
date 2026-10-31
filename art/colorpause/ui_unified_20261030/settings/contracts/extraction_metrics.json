@@ -1,0 +1,156 @@
+{
+  "settings_frame_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 7072
+  },
+  "title_original_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1422,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "close_normal": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 619,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "title_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1422
+  },
+  "title_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1823,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "sound_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1075,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "music_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1080,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "vibration_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1688,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "language_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1255,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "guide_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2357,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "sound_row_original": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1799,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "sound_row_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1799
+  },
+  "music_row_original": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2741,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "music_row_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2741
+  },
+  "vibration_row_original": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2379,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "vibration_row_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2379
+  },
+  "language_row_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2287
+  },
+  "guide_row_original": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1782,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "guide_row_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1782
+  },
+  "sound_icon": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 4803,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "music_icon": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 5422,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "vibration_icon": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 4160,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "language_icon": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 3908,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "guide_question_icon": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 3750,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "guide_arrow": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1455,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "sound_toggle_on": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 934,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "music_toggle_on": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 978,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "vibration_toggle_on": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 906,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "language_button_blank_normal": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 773
+  },
+  "language_arrow": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 906,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "title_shadow": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 109283
+  },
+  "close_shadow": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 18327
+  },
+  "language_shadow": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 46597
+  }
+}

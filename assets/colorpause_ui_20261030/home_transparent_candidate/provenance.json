@@ -1,0 +1,10 @@
+{
+  "method": "Built-in image_gen background-extraction edits of approved source slices; uniform downsample to source crop canvas using Lanczos; no morphologic cleanup",
+  "shell_original": "generated_images/exec-0ffb0725-45cc-4072-9a79-40161fc77975.png",
+  "shell_sha256": "3abe5ba4ce8f6d0c78edbf54b3185fe3c84332abed35926351e60512d0fcb69f",
+  "reference": "deliverables/approved_25d_ui_20261029/home_preview/ColorPause_home_quality_candidate.png",
+  "title_generated": "generated_images/exec-e08b413a-40a1-4ca6-a796-712ab423067c.png",
+  "frame_generated": "generated_images/exec-6847ba93-5240-43d2-b17a-e3fe01daee2d.png",
+  "font": "AI bitmap artwork; not identified as LXGW/OFL font; no font-license or commercial-rights clearance implied",
+  "approval": "Root reviewed 320/390/430 light/dark QA: no obvious rectangular backing or edge artifacts at target size; allowed host integration candidate. Not user new visual approval, not pixel-identical guarantee, not legal/font acceptance."
+}

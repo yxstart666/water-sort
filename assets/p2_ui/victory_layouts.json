@@ -1,0 +1,1221 @@
+{
+  "pages": [
+    {
+      "viewport": [
+        320,
+        603
+      ],
+      "layers": [
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "rectDp": [
+            6.249627427175643,
+            67.15994096992519,
+            307.5007451456487,
+            458.3054297491222
+          ],
+          "sourceInsetsLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "uniformCornerScale": 0.2343755679463786
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "rectDp": [
+            61.28710093699152,
+            50.35291477304606,
+            197.67715872748695,
+            66.48487908881782
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.12568030073500533
+        },
+        {
+          "type": "nineSlice",
+          "id": "starField",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            34.66083150984682,
+            126.38949671772428,
+            251.0284463894967,
+            151.2472647702407
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.26258205689277897,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "id": "stepsCard",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            36.411378555798684,
+            284.288840262582,
+            120.78774617067833,
+            71.0722100656455
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.1925601750547046,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "id": "timeCard",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            163.15098468271333,
+            284.288840262582,
+            120.78774617067833,
+            71.0722100656455
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.1925601750547046,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "rectDp": [
+            40.9060263764859,
+            360.67164959943955,
+            238.460173689933,
+            77.85676267076704
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.13611322145238994
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/yellow_square_normal_clean.png",
+          "rectDp": [
+            78.77461706783369,
+            432.3851203501094,
+            73.52297592997812,
+            68.72365202521073
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/blue_square_normal_clean.png",
+          "rectDp": [
+            169.45295404814004,
+            432.3851203501094,
+            73.52297592997812,
+            67.23831372381109
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_left_glow_rebuilt.png",
+          "rectDp": [
+            17.505470459518598,
+            152.29759299781182,
+            122.5382932166302,
+            120.78774617067833
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "left"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_left_lit.png",
+          "rectDp": [
+            36.76148796498906,
+            171.55361050328227,
+            84.02625820568927,
+            82.27571115973741
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_left_unlit.png",
+          "litTexture": "runtime/victory_stars/star_left_lit.png",
+          "starID": "left"
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_center_glow_rebuilt.png",
+          "rectDp": [
+            93.47921225382932,
+            133.04157549234137,
+            133.39168490153173,
+            133.7417943107221
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "center"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_center_lit.png",
+          "rectDp": [
+            112.73522975929977,
+            152.29759299781182,
+            94.87964989059081,
+            95.22975929978118
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_center_unlit.png",
+          "litTexture": "runtime/victory_stars/star_center_lit.png",
+          "starID": "center"
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_right_glow_rebuilt.png",
+          "rectDp": [
+            180.30634573304158,
+            152.29759299781182,
+            121.48796498905908,
+            120.78774617067833
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "right"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_right_lit.png",
+          "rectDp": [
+            199.56236323851203,
+            171.55361050328227,
+            82.97592997811816,
+            82.27571115973741
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_right_unlit.png",
+          "litTexture": "runtime/victory_stars/star_right_lit.png",
+          "starID": "right"
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/title_success_zh-CN.png",
+          "rectDp": [
+            91.02844638949671,
+            60.21881838074398,
+            138.99343544857769,
+            42.713347921225385
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_next_zh-CN.png",
+          "rectDp": [
+            106.78336980306345,
+            372.5164113785558,
+            107.13347921225383,
+            42.01312910284464
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_steps_zh-CN.png",
+          "rectDp": [
+            74.9234135667396,
+            290.24070021881835,
+            45.514223194748354,
+            25.908096280087527
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_time_zh-CN.png",
+          "rectDp": [
+            201.66301969365426,
+            290.24070021881835,
+            44.11378555798687,
+            25.908096280087527
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_home_zh-CN.png",
+          "rectDp": [
+            97.33041575492341,
+            470.8971553610503,
+            36.76148796498906,
+            21.356673960612692
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_levels_zh-CN.png",
+          "rectDp": [
+            187.308533916849,
+            470.8971553610503,
+            35.711159737417944,
+            21.356673960612692
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_home.png",
+          "rectDp": [
+            99.43107221006564,
+            440.08752735229757,
+            31.50984682713348,
+            31.26173779699857
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/icon_levels_list_clean.png",
+          "rectDp": [
+            189.75929978118162,
+            441.1378555798687,
+            31.50984682713348,
+            27.266871628072707
+          ],
+          "uniformScale": true
+        }
+      ],
+      "numeric_containers": [
+        {
+          "key": "steps",
+          "rectDp": [
+            74.57330415754923,
+            318.24945295404814,
+            46.2144420131291,
+            29.759299781181618
+          ],
+          "valueSource": "actual_completed_level_move_count",
+          "align": "center",
+          "fake_sample_value": false
+        },
+        {
+          "key": "elapsed",
+          "rectDp": [
+            179.25601750547045,
+            318.24945295404814,
+            88.22757111597375,
+            29.759299781181618
+          ],
+          "valueSource": "actual_completed_level_elapsed_time",
+          "format": "mm:ss (long-duration policy from existing game)",
+          "align": "center",
+          "fake_sample_value": false
+        }
+      ],
+      "numeric_rendering": "Existing live numeric renderer; licensed LXGW975YuanSC-700W/material candidate permitted by integrator, final visual inspection required; no font or fake data bundled.",
+      "actions": [
+        {
+          "id": "next_level",
+          "rectDp": [
+            46.2144420131291,
+            362.71334792122536,
+            227.5711159737418,
+            65.47045951859955
+          ],
+          "clickableFromSeconds": 0,
+          "cancelStarsOnClick": true
+        },
+        {
+          "id": "home",
+          "rectDp": [
+            78.77461706783369,
+            432.3851203501094,
+            73.52297592997812,
+            66.52078774617068
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            169.45295404814004,
+            432.3851203501094,
+            73.52297592997812,
+            66.52078774617068
+          ]
+        }
+      ],
+      "rules": {
+        "success_lights_all_three": true,
+        "score_rating": false,
+        "time_or_steps_penalty": false,
+        "new_currency": false,
+        "gameplay_gate": false,
+        "next_level_clickable_immediately": true,
+        "next_level_cancels_animation": true
+      },
+      "engine_test": "NOT_RUN",
+      "minimum_hitbox_dp": 44,
+      "all_texture_dependencies": [
+        "runtime/controls/icon_home.png",
+        "runtime/controls/row_blank_source_derived.png",
+        "runtime/sprites/blue_square_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/icon_levels_list_clean.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png",
+        "runtime/sprites/yellow_square_normal_clean.png",
+        "runtime/victory_stars/star_center_glow_rebuilt.png",
+        "runtime/victory_stars/star_center_lit.png",
+        "runtime/victory_stars/star_center_unlit.png",
+        "runtime/victory_stars/star_left_glow_rebuilt.png",
+        "runtime/victory_stars/star_left_lit.png",
+        "runtime/victory_stars/star_left_unlit.png",
+        "runtime/victory_stars/star_right_glow_rebuilt.png",
+        "runtime/victory_stars/star_right_lit.png",
+        "runtime/victory_stars/star_right_unlit.png",
+        "runtime/victory_window/label_home_zh-CN.png",
+        "runtime/victory_window/label_levels_zh-CN.png",
+        "runtime/victory_window/label_next_zh-CN.png",
+        "runtime/victory_window/label_steps_zh-CN.png",
+        "runtime/victory_window/label_time_zh-CN.png",
+        "runtime/victory_window/title_success_zh-CN.png"
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        734
+      ],
+      "layers": [
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "rectDp": [
+            7.616733426870315,
+            81.85117805709632,
+            374.7665331462594,
+            558.5597425067427
+          ],
+          "sourceInsetsLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "uniformCornerScale": 0.28564522343464893
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "rectDp": [
+            74.69365426695842,
+            61.36761487964989,
+            240.91903719912474,
+            81.02844638949672
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.15317286652078774
+        },
+        {
+          "type": "nineSlice",
+          "id": "starField",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            42.24288840262582,
+            154.03719912472647,
+            305.94091903719914,
+            184.33260393873084
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.3200218818380744,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "id": "stepsCard",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            44.37636761487965,
+            346.47702407002186,
+            147.21006564551422,
+            86.61925601750546
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.23468271334792123,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "id": "timeCard",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            198.84026258205688,
+            346.47702407002186,
+            147.21006564551422,
+            86.61925601750546
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.23468271334792123,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "rectDp": [
+            49.85421964634219,
+            439.56857294931694,
+            290.6233366846058,
+            94.88792950499735
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.16588798864510024
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/yellow_square_normal_clean.png",
+          "rectDp": [
+            96.00656455142231,
+            526.9693654266958,
+            89.60612691466083,
+            83.75695090572559
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/blue_square_normal_clean.png",
+          "rectDp": [
+            206.52078774617067,
+            526.9693654266958,
+            89.60612691466083,
+            81.94669485089477
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_left_glow_rebuilt.png",
+          "rectDp": [
+            21.334792122538293,
+            185.61269146608316,
+            149.34354485776805,
+            147.21006564551422
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "left"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_left_lit.png",
+          "rectDp": [
+            44.80306345733042,
+            209.08096280087528,
+            102.40700218818381,
+            100.27352297592998
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_left_unlit.png",
+          "litTexture": "runtime/victory_stars/star_left_lit.png",
+          "starID": "left"
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_center_glow_rebuilt.png",
+          "rectDp": [
+            113.92778993435448,
+            162.144420131291,
+            162.5711159737418,
+            162.99781181619255
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "center"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_center_lit.png",
+          "rectDp": [
+            137.3960612691466,
+            185.61269146608316,
+            115.63457330415754,
+            116.06126914660831
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_center_unlit.png",
+          "litTexture": "runtime/victory_stars/star_center_lit.png",
+          "starID": "center"
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_right_glow_rebuilt.png",
+          "rectDp": [
+            219.7483588621444,
+            185.61269146608316,
+            148.06345733041576,
+            147.21006564551422
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "right"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_right_lit.png",
+          "rectDp": [
+            243.21663019693653,
+            209.08096280087528,
+            101.1269146608315,
+            100.27352297592998
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_right_unlit.png",
+          "litTexture": "runtime/victory_stars/star_right_lit.png",
+          "starID": "right"
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/title_success_zh-CN.png",
+          "rectDp": [
+            110.94091903719912,
+            73.39168490153173,
+            169.39824945295405,
+            52.056892778993436
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_next_zh-CN.png",
+          "rectDp": [
+            130.1422319474836,
+            454.0043763676149,
+            130.56892778993435,
+            51.203501094091905
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_steps_zh-CN.png",
+          "rectDp": [
+            91.3129102844639,
+            353.7308533916849,
+            55.47045951859956,
+            31.575492341356675
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_time_zh-CN.png",
+          "rectDp": [
+            245.77680525164112,
+            353.7308533916849,
+            53.7636761487965,
+            31.575492341356675
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_home_zh-CN.png",
+          "rectDp": [
+            118.62144420131291,
+            573.9059080962801,
+            44.80306345733042,
+            26.028446389496718
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_levels_zh-CN.png",
+          "rectDp": [
+            228.28227571115974,
+            573.9059080962801,
+            43.52297592997812,
+            26.028446389496718
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_home.png",
+          "rectDp": [
+            121.1816192560175,
+            536.3566739606127,
+            38.40262582056893,
+            38.10024294009201
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/icon_levels_list_clean.png",
+          "rectDp": [
+            231.26914660831508,
+            537.636761487965,
+            38.40262582056893,
+            33.231499796713614
+          ],
+          "uniformScale": true
+        }
+      ],
+      "numeric_containers": [
+        {
+          "key": "steps",
+          "rectDp": [
+            90.88621444201313,
+            387.86652078774614,
+            56.32385120350109,
+            36.2691466083151
+          ],
+          "valueSource": "actual_completed_level_move_count",
+          "align": "center",
+          "fake_sample_value": false
+        },
+        {
+          "key": "elapsed",
+          "rectDp": [
+            218.46827133479212,
+            387.86652078774614,
+            107.527352297593,
+            36.2691466083151
+          ],
+          "valueSource": "actual_completed_level_elapsed_time",
+          "format": "mm:ss (long-duration policy from existing game)",
+          "align": "center",
+          "fake_sample_value": false
+        }
+      ],
+      "numeric_rendering": "Existing live numeric renderer; licensed LXGW975YuanSC-700W/material candidate permitted by integrator, final visual inspection required; no font or fake data bundled.",
+      "actions": [
+        {
+          "id": "next_level",
+          "rectDp": [
+            56.32385120350109,
+            442.0568927789934,
+            277.3522975929978,
+            79.79212253829321
+          ],
+          "clickableFromSeconds": 0,
+          "cancelStarsOnClick": true
+        },
+        {
+          "id": "home",
+          "rectDp": [
+            96.00656455142231,
+            526.9693654266958,
+            89.60612691466083,
+            81.0722100656455
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            206.52078774617067,
+            526.9693654266958,
+            89.60612691466083,
+            81.0722100656455
+          ]
+        }
+      ],
+      "rules": {
+        "success_lights_all_three": true,
+        "score_rating": false,
+        "time_or_steps_penalty": false,
+        "new_currency": false,
+        "gameplay_gate": false,
+        "next_level_clickable_immediately": true,
+        "next_level_cancels_animation": true
+      },
+      "engine_test": "NOT_RUN",
+      "minimum_hitbox_dp": 44,
+      "all_texture_dependencies": [
+        "runtime/controls/icon_home.png",
+        "runtime/controls/row_blank_source_derived.png",
+        "runtime/sprites/blue_square_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/icon_levels_list_clean.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png",
+        "runtime/sprites/yellow_square_normal_clean.png",
+        "runtime/victory_stars/star_center_glow_rebuilt.png",
+        "runtime/victory_stars/star_center_lit.png",
+        "runtime/victory_stars/star_center_unlit.png",
+        "runtime/victory_stars/star_left_glow_rebuilt.png",
+        "runtime/victory_stars/star_left_lit.png",
+        "runtime/victory_stars/star_left_unlit.png",
+        "runtime/victory_stars/star_right_glow_rebuilt.png",
+        "runtime/victory_stars/star_right_lit.png",
+        "runtime/victory_stars/star_right_unlit.png",
+        "runtime/victory_window/label_home_zh-CN.png",
+        "runtime/victory_window/label_levels_zh-CN.png",
+        "runtime/victory_window/label_next_zh-CN.png",
+        "runtime/victory_window/label_steps_zh-CN.png",
+        "runtime/victory_window/label_time_zh-CN.png",
+        "runtime/victory_window/title_success_zh-CN.png"
+      ]
+    },
+    {
+      "viewport": [
+        430,
+        810
+      ],
+      "layers": [
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.png",
+          "rectDp": [
+            8.39793685526727,
+            90.24617067833697,
+            413.2041262894655,
+            615.847921225383
+          ],
+          "sourceInsetsLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "uniformCornerScale": 0.31494216942794623
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/title_normal_9slice_candidate.png",
+          "rectDp": [
+            82.35454188408237,
+            67.66172922628064,
+            265.6286820400606,
+            89.33905627559895
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.1688829041126634
+        },
+        {
+          "type": "nineSlice",
+          "id": "starField",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            46.57549234135667,
+            169.835886214442,
+            337.31947483588624,
+            203.23851203501096
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.3528446389496718,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "id": "stepsCard",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            48.927789934354486,
+            382.01312910284463,
+            162.30853391684903,
+            95.50328227571116
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.25875273522975933,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "id": "timeCard",
+          "source": "runtime/controls/row_blank_source_derived.png",
+          "rectDp": [
+            219.23413566739606,
+            382.01312910284463,
+            162.30853391684903,
+            95.50328227571116
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.25875273522975933,
+          "limitation": "Reused accepted pale row material; lighter gradient than original blue card; no newly painted background."
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.png",
+          "rectDp": [
+            54.967472943402925,
+            484.6525291492469,
+            320.43085839584745,
+            104.62002483884322
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.182902141326649
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/yellow_square_normal_clean.png",
+          "rectDp": [
+            105.85339168490154,
+            581.0175054704595,
+            98.7964989059081,
+            92.34740740887692
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/blue_square_normal_clean.png",
+          "rectDp": [
+            227.70240700218818,
+            581.0175054704595,
+            98.7964989059081,
+            90.35148406637116
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_left_glow_rebuilt.png",
+          "rectDp": [
+            23.522975929978116,
+            204.64989059080963,
+            164.66083150984682,
+            162.30853391684903
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "left"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_left_lit.png",
+          "rectDp": [
+            49.39824945295405,
+            230.52516411378556,
+            112.91028446389497,
+            110.55798687089715
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_left_unlit.png",
+          "litTexture": "runtime/victory_stars/star_left_lit.png",
+          "starID": "left"
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_center_glow_rebuilt.png",
+          "rectDp": [
+            125.61269146608315,
+            178.7746170678337,
+            179.24507658643327,
+            179.7155361050328
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "center"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_center_lit.png",
+          "rectDp": [
+            151.4879649890591,
+            204.64989059080963,
+            127.4945295404814,
+            127.96498905908096
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_center_unlit.png",
+          "litTexture": "runtime/victory_stars/star_center_lit.png",
+          "starID": "center"
+        },
+        {
+          "type": "optionalGlow",
+          "source": "runtime/victory_stars/star_right_glow_rebuilt.png",
+          "rectDp": [
+            242.2866520787746,
+            204.64989059080963,
+            163.24945295404814,
+            162.30853391684903
+          ],
+          "uniformScale": true,
+          "initialOpacity": 0,
+          "previewOpacity": 1,
+          "starID": "right"
+        },
+        {
+          "type": "animatedStar",
+          "source": "runtime/victory_stars/star_right_lit.png",
+          "rectDp": [
+            268.16192560175057,
+            230.52516411378556,
+            111.49890590809628,
+            110.55798687089715
+          ],
+          "uniformScale": true,
+          "initialTexture": "runtime/victory_stars/star_right_unlit.png",
+          "litTexture": "runtime/victory_stars/star_right_lit.png",
+          "starID": "right"
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/title_success_zh-CN.png",
+          "rectDp": [
+            122.31947483588621,
+            80.91903719912473,
+            186.77242888402625,
+            57.39606126914661
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_next_zh-CN.png",
+          "rectDp": [
+            143.4901531728665,
+            500.5689277899344,
+            143.96061269146608,
+            56.455142231947484
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_steps_zh-CN.png",
+          "rectDp": [
+            100.67833698030634,
+            390.0109409190372,
+            61.159737417943106,
+            34.81400437636761
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_time_zh-CN.png",
+          "rectDp": [
+            270.9846827133479,
+            390.0109409190372,
+            59.27789934354486,
+            34.81400437636761
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_home_zh-CN.png",
+          "rectDp": [
+            130.78774617067833,
+            632.7680525164113,
+            49.39824945295405,
+            28.698030634573303
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/victory_window/label_levels_zh-CN.png",
+          "rectDp": [
+            251.69584245076587,
+            632.7680525164113,
+            47.98687089715536,
+            28.698030634573303
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_home.png",
+          "rectDp": [
+            133.61050328227572,
+            591.3676148796499,
+            42.34135667396061,
+            42.00796016471683
+          ],
+          "uniformScale": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/icon_levels_list_clean.png",
+          "rectDp": [
+            254.9890590809628,
+            592.7789934354486,
+            42.34135667396061,
+            36.6398587502227
+          ],
+          "uniformScale": true
+        }
+      ],
+      "numeric_containers": [
+        {
+          "key": "steps",
+          "rectDp": [
+            100.20787746170679,
+            427.6477024070022,
+            62.10065645514223,
+            39.989059080962804
+          ],
+          "valueSource": "actual_completed_level_move_count",
+          "align": "center",
+          "fake_sample_value": false
+        },
+        {
+          "key": "elapsed",
+          "rectDp": [
+            240.87527352297593,
+            427.6477024070022,
+            118.55579868708972,
+            39.989059080962804
+          ],
+          "valueSource": "actual_completed_level_elapsed_time",
+          "format": "mm:ss (long-duration policy from existing game)",
+          "align": "center",
+          "fake_sample_value": false
+        }
+      ],
+      "numeric_rendering": "Existing live numeric renderer; licensed LXGW975YuanSC-700W/material candidate permitted by integrator, final visual inspection required; no font or fake data bundled.",
+      "actions": [
+        {
+          "id": "next_level",
+          "rectDp": [
+            62.10065645514223,
+            487.3960612691466,
+            305.79868708971554,
+            87.97592997811816
+          ],
+          "clickableFromSeconds": 0,
+          "cancelStarsOnClick": true
+        },
+        {
+          "id": "home",
+          "rectDp": [
+            105.85339168490154,
+            581.0175054704595,
+            98.7964989059081,
+            89.38730853391685
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            227.70240700218818,
+            581.0175054704595,
+            98.7964989059081,
+            89.38730853391685
+          ]
+        }
+      ],
+      "rules": {
+        "success_lights_all_three": true,
+        "score_rating": false,
+        "time_or_steps_penalty": false,
+        "new_currency": false,
+        "gameplay_gate": false,
+        "next_level_clickable_immediately": true,
+        "next_level_cancels_animation": true
+      },
+      "engine_test": "NOT_RUN",
+      "minimum_hitbox_dp": 44,
+      "all_texture_dependencies": [
+        "runtime/controls/icon_home.png",
+        "runtime/controls/row_blank_source_derived.png",
+        "runtime/sprites/blue_square_normal_clean.png",
+        "runtime/sprites/cyan_normal_9slice_candidate.png",
+        "runtime/sprites/icon_levels_list_clean.png",
+        "runtime/sprites/panel_normal_9slice_candidate.png",
+        "runtime/sprites/title_normal_9slice_candidate.png",
+        "runtime/sprites/yellow_square_normal_clean.png",
+        "runtime/victory_stars/star_center_glow_rebuilt.png",
+        "runtime/victory_stars/star_center_lit.png",
+        "runtime/victory_stars/star_center_unlit.png",
+        "runtime/victory_stars/star_left_glow_rebuilt.png",
+        "runtime/victory_stars/star_left_lit.png",
+        "runtime/victory_stars/star_left_unlit.png",
+        "runtime/victory_stars/star_right_glow_rebuilt.png",
+        "runtime/victory_stars/star_right_lit.png",
+        "runtime/victory_stars/star_right_unlit.png",
+        "runtime/victory_window/label_home_zh-CN.png",
+        "runtime/victory_window/label_levels_zh-CN.png",
+        "runtime/victory_window/label_next_zh-CN.png",
+        "runtime/victory_window/label_steps_zh-CN.png",
+        "runtime/victory_window/label_time_zh-CN.png",
+        "runtime/victory_window/title_success_zh-CN.png"
+      ]
+    }
+  ],
+  "background_policy": "existing game backdrop; plain blue QA field not bundled as runtime image",
+  "stars_contract": "Use separate lit/unlit/glow textures and parameter manifest; never treat preview as animation."
+}

@@ -1,34 +1,40 @@
 extends RefCounted
 
+const FontPolicy=preload("res://scripts/ui_restore/font_policy.gd")
 const DIRECTORY := "res://assets/ui_restore/gameplay_state_binding_v1/"
 static var loaded_files: Dictionary = {}
 static var variations: Dictionary = {}
 static var errors: Array = []
+
+static func _blocked_font(message: String) -> FontVariation:
+	errors.append(message);push_error(message)
+	var blank:=FontFile.new();blank.allow_system_fallback=false;blank.fallbacks=[]
+	var result:=FontVariation.new();result.base_font=blank;return result
 
 static func font(binding: String) -> FontVariation:
 	if variations.has(binding):
 		return variations[binding]
 	var id := "latin" if binding == "latin" else "cjk"
 	if binding not in ["latin", "cjk_face0", "cjk_face2"]:
-		errors.append("Unknown explicit font binding: " + binding)
-		return null
+		return _blocked_font("Unknown explicit font binding: " + binding)
 	if not loaded_files.has(id):
 		var manifest: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(DIRECTORY + "manifest.json"))
 		for item in manifest.assets:
 			if item.id != id:
 				continue
 			var path: String = DIRECTORY + item.file
-			if FileAccess.get_sha256(path) != item.sha256:
-				errors.append("Exact font binary validation failed: " + id)
-				return null
-			var source := FontFile.new()
-			source.data = FileAccess.get_file_as_bytes(path)
+			var source := FontPolicy.load_verified(path,item.sha256)
+			if source==null:
+				return _blocked_font("Exact imported font validation failed: " + id)
+			source.allow_system_fallback = false
+			source.fallbacks = [FontPolicy.get_font("sc")] if id=="latin" else []
 			# Render runtime glyphs above the largest authored canvas scale; do not enlarge a low-resolution glyph atlas.
-			source.oversampling = 2.0
+			source.multichannel_signed_distance_field = true
+			source.msdf_pixel_range = 16
+			source.msdf_size = 128
 			loaded_files[id] = source
 	if not loaded_files.has(id):
-		errors.append("Exact font binary missing: " + id)
-		return null
+		return _blocked_font("Exact font binary missing: " + id)
 	var result := FontVariation.new()
 	result.base_font = loaded_files[id]
 	result.variation_face_index = 2 if binding == "cjk_face2" else 0

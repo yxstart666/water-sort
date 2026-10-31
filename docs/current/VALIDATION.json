@@ -1,0 +1,66 @@
+{
+  "engine": "Godot 4.7.2 stable ed1daf0bf",
+  "runtime_base": "8e989ad569d403c63bd835afe07b73a592f454c63aa6912dae7035f763e76c69",
+  "checks": [
+    {
+      "name": "import",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 13.89,
+      "errors": []
+    },
+    {
+      "name": "ui_routes",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 6.31,
+      "errors": []
+    },
+    {
+      "name": "full50",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 45.11,
+      "errors": []
+    },
+    {
+      "name": "parallel_fifo",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 7.41,
+      "errors": []
+    },
+    {
+      "name": "energy",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 4.83,
+      "errors": []
+    },
+    {
+      "name": "native_failures",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 9.08,
+      "errors": []
+    },
+    {
+      "name": "native_negative",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 6.5,
+      "errors": []
+    }
+  ],
+  "headless_only": true,
+  "native_visual": "NOT_RUN",
+  "real_sdk": "NOT_RUN",
+  "real_clock_prior_isolated_run": {
+    "elapsed_seconds": 124.419,
+    "energy_before": 25,
+    "energy_after": 26,
+    "checks": 14,
+    "failures": 0
+  },
+  "retained_failures": "Initial reduced-tree import omissions and one importer access violation retained locally. Fresh complete import and runtime pass below; importer crash cause is not proven."
+}

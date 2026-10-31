@@ -1,0 +1,21 @@
+{
+  "title_zh": "三步学会",
+  "subtitle_zh": "轻点一下，色彩归位",
+  "step_labels_zh": [
+    "1选右瓶",
+    "2倒绿色",
+    "3满瓶"
+  ],
+  "rules_zh": "按卡片要求完成订单，减少卡上的数字；归零后揭布解锁。",
+  "cta_zh": "知道了",
+  "cta_action": "home_menu._reference_notice close_help",
+  "gameplay_invariants": [
+    "Preserve existing 2-step right-source -> left-target help state machine. Three rendered stage labels are presentation only, not three new interactive steps.",
+    "Use actual BottleVisual: initial/right selected/pouring/completed content and all selection/pour transitions come from existing logic. No painted substitute bottles.",
+    "Bind caption to real help state. Source caption exists in qa only, never bake it into empty frame.",
+    "Live energy current/cap comes from existing shared energy service; no 30/30 baked.",
+    "Return and CTA keep existing close_help/back handlers; do not add new reward or rule."
+  ],
+  "english": "No approved English art source exists in this round. Use blank artwork with one explicitly chosen project runtime font, fit measured glyph ink/advance bounds rather than copying Chinese font-size values. English is a localization candidate requiring runtime QA, not an approved pixel reconstruction.",
+  "rendering": "Straight RGBA; transparent RGB is zero. Use established alpha-border extrusion / texture filter import settings to prevent black fringes. Static Chinese composites are preferred for exact approved normal-state art. For states use blank base+original label at exact source coordinates."
+}

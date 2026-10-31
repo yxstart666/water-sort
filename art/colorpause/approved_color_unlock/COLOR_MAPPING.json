@@ -1,0 +1,378 @@
+{
+  "red": {
+    "name_zh": "红色",
+    "name_en": "Red",
+    "liquid_body_hex": "E31C16",
+    "liquid_top_hex": "EB504A",
+    "source_file": "source/bottle_red_imagegen.png",
+    "source_sha256": "ed6c9f1936a6ad981dea96147f34b797e27ae25735a6233f8a4050c87bed78ff",
+    "source_canvas": [
+      1061,
+      1482
+    ],
+    "source_alpha_bbox_gt0": [
+      81,
+      47,
+      973,
+      1482
+    ],
+    "source_visible_bbox_alpha128": [
+      237,
+      85,
+      820,
+      1366
+    ],
+    "source_to_card_uniform_scale": 0.1717408274785324,
+    "source_to_card_position": [
+      72.23497267759564,
+      25.402029664324747
+    ],
+    "runtime_file": "runtime/target_red_card_layer.png",
+    "runtime_canvas": [
+      326,
+      456
+    ],
+    "runtime_alpha_bbox_gt0": [
+      103,
+      37,
+      230,
+      263
+    ],
+    "runtime_visible_bbox_alpha128": [
+      113,
+      40,
+      213,
+      260
+    ],
+    "count_baked": false
+  },
+  "orange": {
+    "name_zh": "橙色",
+    "name_en": "Orange",
+    "liquid_body_hex": "F47718",
+    "liquid_top_hex": "F89748",
+    "source_file": "source/bottle_orange_imagegen.png",
+    "source_sha256": "7723ee17ddec4b0620c6e35d6b1261bde0f4b2b7da5fa96f5ccfed72eafb65b8",
+    "source_canvas": [
+      1061,
+      1482
+    ],
+    "source_alpha_bbox_gt0": [
+      119,
+      61,
+      985,
+      1458
+    ],
+    "source_visible_bbox_alpha128": [
+      237,
+      87,
+      821,
+      1366
+    ],
+    "source_to_card_uniform_scale": 0.17200938232994528,
+    "source_to_card_position": [
+      72.00703674745894,
+      25.03518373729476
+    ],
+    "runtime_file": "runtime/target_orange_card_layer.png",
+    "runtime_canvas": [
+      326,
+      456
+    ],
+    "runtime_alpha_bbox_gt0": [
+      100,
+      37,
+      226,
+      263
+    ],
+    "runtime_visible_bbox_alpha128": [
+      113,
+      40,
+      214,
+      260
+    ],
+    "count_baked": false
+  },
+  "yellow": {
+    "name_zh": "黄色",
+    "name_en": "Yellow",
+    "liquid_body_hex": "FFC313",
+    "liquid_top_hex": "FFD54D",
+    "source_file": "source/bottle_yellow_imagegen.png",
+    "source_sha256": "e3350fc96fb4610acc486df837121acd11129136e1dbfa99de81ca5f77d2ab9e",
+    "source_canvas": [
+      1061,
+      1482
+    ],
+    "source_alpha_bbox_gt0": [
+      85,
+      83,
+      973,
+      1460
+    ],
+    "source_visible_bbox_alpha128": [
+      235,
+      87,
+      820,
+      1366
+    ],
+    "source_to_card_uniform_scale": 0.17200938232994528,
+    "source_to_card_position": [
+      72.26505082095386,
+      25.03518373729476
+    ],
+    "runtime_file": "runtime/target_yellow_card_layer.png",
+    "runtime_canvas": [
+      326,
+      456
+    ],
+    "runtime_alpha_bbox_gt0": [
+      90,
+      37,
+      237,
+      263
+    ],
+    "runtime_visible_bbox_alpha128": [
+      113,
+      40,
+      213,
+      260
+    ],
+    "count_baked": false
+  },
+  "green": {
+    "name_zh": "绿色",
+    "name_en": "Green",
+    "liquid_body_hex": "83B718",
+    "liquid_top_hex": "9DCB3F",
+    "source_file": "source/bottle_green_imagegen.png",
+    "source_sha256": "47cffcc764a78e81cb4f511314ff3c1026dc3fb00d49d2ce2a513698e7e72150",
+    "source_canvas": [
+      1061,
+      1482
+    ],
+    "source_alpha_bbox_gt0": [
+      81,
+      9,
+      1041,
+      1482
+    ],
+    "source_visible_bbox_alpha128": [
+      236,
+      87,
+      818,
+      1366
+    ],
+    "source_to_card_uniform_scale": 0.17200938232994528,
+    "source_to_card_position": [
+      72.35105551211883,
+      25.03518373729476
+    ],
+    "runtime_file": "runtime/target_green_card_layer.png",
+    "runtime_canvas": [
+      326,
+      456
+    ],
+    "runtime_alpha_bbox_gt0": [
+      94,
+      36,
+      220,
+      277
+    ],
+    "runtime_visible_bbox_alpha128": [
+      113,
+      40,
+      213,
+      260
+    ],
+    "count_baked": false
+  },
+  "blue": {
+    "name_zh": "蓝色",
+    "name_en": "Blue",
+    "liquid_body_hex": "2422D0",
+    "liquid_top_hex": "4142DB",
+    "source_file": "source/bottle_blue_imagegen.png",
+    "source_sha256": "638d4a67f4bdaf822b229c3515744dd84280bb336307ceeaf1ae9d5ce0c11259",
+    "source_canvas": [
+      1061,
+      1483
+    ],
+    "source_alpha_bbox_gt0": [
+      43,
+      49,
+      1047,
+      1451
+    ],
+    "source_visible_bbox_alpha128": [
+      239,
+      88,
+      819,
+      1366
+    ],
+    "source_to_card_uniform_scale": 0.17214397496087636,
+    "source_to_card_position": [
+      71.9358372456964,
+      24.85133020344288
+    ],
+    "runtime_file": "runtime/target_blue_card_layer.png",
+    "runtime_canvas": [
+      326,
+      456
+    ],
+    "runtime_alpha_bbox_gt0": [
+      110,
+      37,
+      232,
+      263
+    ],
+    "runtime_visible_bbox_alpha128": [
+      113,
+      40,
+      213,
+      260
+    ],
+    "count_baked": false
+  },
+  "purple": {
+    "name_zh": "紫色",
+    "name_en": "Purple",
+    "liquid_body_hex": "702CC1",
+    "liquid_top_hex": "8E50D4",
+    "source_file": "source/bottle_purple_imagegen.png",
+    "source_sha256": "1aa4d3442034b8390f8a73f2d27bf513792a27df22c79a0f968268208c8a38ac",
+    "source_canvas": [
+      1061,
+      1483
+    ],
+    "source_alpha_bbox_gt0": [
+      77,
+      83,
+      1013,
+      1460
+    ],
+    "source_visible_bbox_alpha128": [
+      240,
+      87,
+      823,
+      1370
+    ],
+    "source_to_card_uniform_scale": 0.17147310989867498,
+    "source_to_card_position": [
+      71.86204208885425,
+      25.081839438815276
+    ],
+    "runtime_file": "runtime/target_purple_card_layer.png",
+    "runtime_canvas": [
+      326,
+      456
+    ],
+    "runtime_alpha_bbox_gt0": [
+      86,
+      37,
+      216,
+      262
+    ],
+    "runtime_visible_bbox_alpha128": [
+      113,
+      40,
+      213,
+      260
+    ],
+    "count_baked": false
+  },
+  "pink": {
+    "name_zh": "粉色",
+    "name_en": "Pink",
+    "liquid_body_hex": "D82A95",
+    "liquid_top_hex": "E358AE",
+    "source_file": "source/bottle_pink_imagegen.png",
+    "source_sha256": "f180dcaa30e62c605147eacbe9fc62061ee10b640dd97b1227ad98baee517d0b",
+    "source_canvas": [
+      1061,
+      1482
+    ],
+    "source_alpha_bbox_gt0": [
+      65,
+      17,
+      981,
+      1454
+    ],
+    "source_visible_bbox_alpha128": [
+      237,
+      87,
+      820,
+      1366
+    ],
+    "source_to_card_uniform_scale": 0.17200938232994528,
+    "source_to_card_position": [
+      72.09304143862391,
+      25.03518373729476
+    ],
+    "runtime_file": "runtime/target_pink_card_layer.png",
+    "runtime_canvas": [
+      326,
+      456
+    ],
+    "runtime_alpha_bbox_gt0": [
+      83,
+      37,
+      241,
+      263
+    ],
+    "runtime_visible_bbox_alpha128": [
+      113,
+      40,
+      213,
+      260
+    ],
+    "count_baked": false
+  },
+  "cyan": {
+    "name_zh": "青色",
+    "name_en": "Cyan",
+    "liquid_body_hex": "12BFD1",
+    "liquid_top_hex": "43CDD9",
+    "source_file": "source/bottle_cyan_imagegen.png",
+    "source_sha256": "5162adfdd0d253d52619784f7e70e8b1cf536e3f3abbb2aade3744eccad25265",
+    "source_canvas": [
+      1061,
+      1482
+    ],
+    "source_alpha_bbox_gt0": [
+      0,
+      82,
+      1017,
+      1482
+    ],
+    "source_visible_bbox_alpha128": [
+      239,
+      87,
+      821,
+      1368
+    ],
+    "source_to_card_uniform_scale": 0.1717408274785324,
+    "source_to_card_position": [
+      71.97736143637783,
+      25.058548009367684
+    ],
+    "runtime_file": "runtime/target_cyan_card_layer.png",
+    "runtime_canvas": [
+      326,
+      456
+    ],
+    "runtime_alpha_bbox_gt0": [
+      110,
+      37,
+      240,
+      263
+    ],
+    "runtime_visible_bbox_alpha128": [
+      113,
+      40,
+      213,
+      260
+    ],
+    "count_baked": false
+  }
+}

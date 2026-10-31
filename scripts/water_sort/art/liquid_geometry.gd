@@ -7,9 +7,11 @@ const INNER := [Vector2(-34, 0), Vector2(34, 0), Vector2(34, 43),
 	Vector2(44, 370), Vector2(26, 373), Vector2(0, 374), Vector2(-26, 373), Vector2(-44, 370), Vector2(-55, 366), Vector2(-61, 359),
 	Vector2(-63, 348), Vector2(-63, 96), Vector2(-61, 81), Vector2(-55, 68),
 	Vector2(-46, 59), Vector2(-37, 51), Vector2(-34, 43)]
-# A seated stopper ends at y=20; four units stop at y=24, leaving 4 local
-# pixels of physical headroom instead of the old empty shoulder/neck.
-const FILL_LINE := 24.0
+# One capacity mapping for board, flight and order-card bottles. Four units
+# end at the shoulder; the neck stays empty. These are visual coordinates.
+const FILL_TOP := 96.0/374.0
+const FILL_BOTTOM := 1.0
+const FILL_LINE := FILL_TOP*374.0
 
 static func cavity() -> PackedVector2Array:
 	return PackedVector2Array(INNER)

@@ -1,0 +1,877 @@
+{
+  "close_normal": {
+    "source_crop_xywh": [
+      814,
+      232,
+      154,
+      154
+    ],
+    "output_dimensions_wh": [
+      154,
+      154
+    ],
+    "source_semantic_mask_bbox_local": [
+      11,
+      11,
+      129,
+      130
+    ],
+    "alpha_half_bbox_local": [
+      11,
+      11,
+      129,
+      130
+    ],
+    "bbox_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_half_contour_mask_mismatch_pixels": 0,
+    "geometry_source": "No resampling; alpha inferred from source color separation; original RGB retained for confident foreground",
+    "opaque_source_pixel_count": 12791,
+    "opaque_rgb_pixel_difference_max": 0,
+    "matte_edge_pixels": 815,
+    "edge_recomposition_mean_channel_error": 1.4493151381998124,
+    "status": "source_extracted_candidate; native_and_2x_light_dark_QA_passed; parent_acceptance_pending",
+    "alpha_validation": {
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 786,
+      "hidden_transparent_rgb_values_cleared": 39
+    },
+    "sha256": "5c8dca0a0155af67c2c42edeed3aa46a09414eff0848619c62e5bfebefcf20dc",
+    "alpha_nonzero_bbox_local": [
+      9,
+      9,
+      133,
+      134
+    ]
+  },
+  "energy_bar_full": {
+    "source_crop_xywh": [
+      150,
+      925,
+      724,
+      89
+    ],
+    "output_dimensions_wh": [
+      724,
+      89
+    ],
+    "source_semantic_mask_bbox_local": [
+      13,
+      11,
+      698,
+      67
+    ],
+    "alpha_half_bbox_local": [
+      13,
+      11,
+      698,
+      67
+    ],
+    "bbox_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_half_contour_mask_mismatch_pixels": 0,
+    "geometry_source": "No resampling; alpha inferred from source color separation; original RGB retained for confident foreground",
+    "opaque_source_pixel_count": 44396,
+    "opaque_rgb_pixel_difference_max": 0,
+    "matte_edge_pixels": 2834,
+    "edge_recomposition_mean_channel_error": 0.24448614615553793,
+    "status": "source_extracted_candidate; native_and_2x_light_dark_QA_passed; parent_acceptance_pending",
+    "alpha_validation": {
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 2779,
+      "hidden_transparent_rgb_values_cleared": 101
+    },
+    "sha256": "c7c33b0952940fd9b561a3638f43dd5366657e172d4c1526d46b04495bb4460e",
+    "alpha_nonzero_bbox_local": [
+      11,
+      9,
+      702,
+      71
+    ]
+  },
+  "hero_bolt_only": {
+    "source_crop_xywh": [
+      364,
+      407,
+      302,
+      401
+    ],
+    "output_dimensions_wh": [
+      302,
+      401
+    ],
+    "source_semantic_mask_bbox_local": [
+      12,
+      14,
+      273,
+      374
+    ],
+    "alpha_half_bbox_local": [
+      12,
+      14,
+      273,
+      374
+    ],
+    "bbox_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_half_contour_mask_mismatch_pixels": 0,
+    "geometry_source": "No resampling; alpha inferred from source color separation; original RGB retained for confident foreground",
+    "opaque_source_pixel_count": 57371,
+    "opaque_rgb_pixel_difference_max": 0,
+    "matte_edge_pixels": 1832,
+    "edge_recomposition_mean_channel_error": 1.4979146939033083,
+    "status": "source_extracted_candidate; native_and_2x_light_dark_QA_passed; parent_acceptance_pending",
+    "alpha_validation": {
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 1750,
+      "hidden_transparent_rgb_values_cleared": 166
+    },
+    "sha256": "b107e3c54c51e1081ffe1477855beed564bea4a92a8a6ffd7e578754b6a30199",
+    "alpha_nonzero_bbox_local": [
+      11,
+      12,
+      276,
+      378
+    ]
+  },
+  "capacity_blank": {
+    "source_file": "lower_text_cleanup_source_locked_v2.png",
+    "source_local_crop_xywh": [
+      230,
+      268,
+      566,
+      154
+    ],
+    "source_crop_xywh": [
+      230,
+      780,
+      566,
+      154
+    ],
+    "output_dimensions_wh": [
+      566,
+      154
+    ],
+    "source_semantic_mask_bbox_local": [
+      10,
+      12,
+      544,
+      132
+    ],
+    "alpha_half_bbox_local": [
+      10,
+      12,
+      544,
+      132
+    ],
+    "bbox_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "opaque_source_pixel_count": 67037,
+    "matte_edge_pixels": 2112,
+    "edge_recomposition_mean_channel_error": 0.7023204076305517,
+    "geometry_source": "source-locked outer pixels; only internal AI text cleanup; no resampling or program-drawn replacement art",
+    "status": "source_extracted_candidate; native_and_2x_light_dark_QA_passed; parent_acceptance_pending",
+    "rim_repair": {
+      "raw_source_file": "capsule_extracted_raw.png",
+      "raw_size": [
+        2022,
+        778
+      ],
+      "raw_alpha50_component_bbox_xywh": [
+        126,
+        152,
+        1771,
+        430
+      ],
+      "target_source_alpha50_bbox_global_xywh": [
+        240,
+        792,
+        544,
+        132
+      ],
+      "alignment_scale_raw_to_source": [
+        0.3071710897797854,
+        0.30697674418604654
+      ],
+      "repair_patch_global_xywh": [
+        424,
+        786,
+        84,
+        24
+      ],
+      "changed_pixels_outside_repair_patch_including_transparent_RGB_cleanup": 31,
+      "visible_changed_pixels_outside_repair_patch": 0,
+      "method": "Only aligned AI-produced missing-rim pixels, premultiplied alpha blending within narrow source occlusion patch; local RGB harmonization against original unoccluded same-row chrome; all other visible source RGBA retained",
+      "discarded_blue_specks": "outside 3px raw-distance of dominant alpha50 component"
+    },
+    "alpha_nonzero_bbox_local": [
+      8,
+      10,
+      547,
+      136
+    ],
+    "sha256": "6282674e470c1679f845127b6510d9e34e13bb6cc636bb7a0b994e00bcb8591f",
+    "alpha_validation": {
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 3225,
+      "hidden_transparent_rgb_values_cleared": 0
+    },
+    "source_contour_mask_difference_after_rim_repair_pixels": 43,
+    "source_contour_mask_difference_is_expected_missing_rim_only": true,
+    "original_pre_repair_opaque_source_rgb_difference_max": 0,
+    "pre_rim_repair_alpha_half_contour_mask_mismatch_pixels": 0
+  },
+  "button_blank_normal": {
+    "source_file": "lower_text_cleanup_source_locked_v2.png",
+    "source_local_crop_xywh": [
+      165,
+      604,
+      693,
+      204
+    ],
+    "source_crop_xywh": [
+      165,
+      1116,
+      693,
+      204
+    ],
+    "output_dimensions_wh": [
+      693,
+      204
+    ],
+    "source_semantic_mask_bbox_local": [
+      12,
+      11,
+      669,
+      179
+    ],
+    "alpha_half_bbox_local": [
+      12,
+      11,
+      669,
+      179
+    ],
+    "bbox_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_half_contour_mask_mismatch_pixels": 0,
+    "opaque_source_pixel_count": 111515,
+    "opaque_rgb_pixel_difference_max": 0,
+    "matte_edge_pixels": 2539,
+    "edge_recomposition_mean_channel_error": 0.08213278424276446,
+    "geometry_source": "source-locked outer pixels; only internal AI text cleanup; no resampling or program-drawn replacement art",
+    "status": "source_extracted_candidate; native_and_2x_light_dark_QA_passed; parent_acceptance_pending",
+    "alpha_nonzero_bbox_local": [
+      10,
+      9,
+      673,
+      183
+    ],
+    "sha256": "41f76133b1d05fb982a15bf5a6608ea48cdc1e3382c7032dcb1c19bbb297a7ef",
+    "alpha_validation": {
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 2488,
+      "hidden_transparent_rgb_values_cleared": 66
+    }
+  },
+  "title_blank": {
+    "source_crop_xywh": [
+      190,
+      165,
+      640,
+      200
+    ],
+    "output_dimensions_wh": [
+      640,
+      200
+    ],
+    "source_semantic_mask_bbox_local": [
+      19,
+      12,
+      606,
+      173
+    ],
+    "alpha_half_bbox_local": [
+      19,
+      12,
+      606,
+      173
+    ],
+    "bbox_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_half_contour_mask_mismatch_pixels": 0,
+    "source_contact_edge_selection": "Measured source RGB G minima in 7-8 px contour windows where foreground capsule touches same-blue panel rim",
+    "source_contact_edges_gy_left_right": [
+      [
+        242,
+        210,
+        813
+      ],
+      [
+        243,
+        210,
+        814
+      ],
+      [
+        244,
+        210,
+        814
+      ],
+      [
+        245,
+        210,
+        813
+      ],
+      [
+        246,
+        210,
+        813
+      ],
+      [
+        247,
+        210,
+        813
+      ],
+      [
+        248,
+        210,
+        813
+      ],
+      [
+        249,
+        210,
+        813
+      ],
+      [
+        250,
+        210,
+        813
+      ],
+      [
+        251,
+        210,
+        813
+      ],
+      [
+        252,
+        210,
+        813
+      ],
+      [
+        253,
+        210,
+        813
+      ],
+      [
+        254,
+        210,
+        813
+      ],
+      [
+        255,
+        210,
+        814
+      ],
+      [
+        256,
+        210,
+        814
+      ],
+      [
+        257,
+        209,
+        814
+      ],
+      [
+        258,
+        209,
+        814
+      ],
+      [
+        259,
+        209,
+        814
+      ],
+      [
+        260,
+        209,
+        814
+      ],
+      [
+        261,
+        209,
+        814
+      ],
+      [
+        262,
+        209,
+        814
+      ],
+      [
+        263,
+        209,
+        814
+      ],
+      [
+        264,
+        209,
+        814
+      ],
+      [
+        265,
+        209,
+        814
+      ],
+      [
+        266,
+        209,
+        814
+      ],
+      [
+        267,
+        209,
+        814
+      ],
+      [
+        268,
+        209,
+        814
+      ],
+      [
+        269,
+        209,
+        814
+      ],
+      [
+        270,
+        209,
+        814
+      ],
+      [
+        271,
+        209,
+        814
+      ],
+      [
+        272,
+        210,
+        813
+      ],
+      [
+        273,
+        210,
+        813
+      ],
+      [
+        274,
+        210,
+        813
+      ],
+      [
+        275,
+        210,
+        813
+      ],
+      [
+        276,
+        210,
+        813
+      ],
+      [
+        277,
+        210,
+        813
+      ],
+      [
+        278,
+        210,
+        813
+      ],
+      [
+        279,
+        210,
+        813
+      ],
+      [
+        280,
+        210,
+        813
+      ],
+      [
+        281,
+        210,
+        813
+      ],
+      [
+        282,
+        211,
+        813
+      ],
+      [
+        283,
+        212,
+        813
+      ]
+    ],
+    "opaque_source_pixel_count": 97342,
+    "opaque_rgb_pixel_difference_max": 0,
+    "status": "source_extracted_candidate; native_and_2x_light_dark_QA_passed; parent_acceptance_pending",
+    "alpha_nonzero_bbox_local": [
+      17,
+      10,
+      610,
+      177
+    ],
+    "alpha_validation": {
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 3308,
+      "hidden_transparent_rgb_values_cleared": 18
+    },
+    "sha256": "e81b66365deccefc44cfaf63faf5eea6643136b6524ddd10d848238e2de4e3a1"
+  },
+  "title_full_original": {
+    "source_crop_xywh": [
+      190,
+      165,
+      640,
+      200
+    ],
+    "output_dimensions_wh": [
+      640,
+      200
+    ],
+    "source_semantic_mask_bbox_local": [
+      19,
+      12,
+      606,
+      173
+    ],
+    "alpha_half_bbox_local": [
+      19,
+      12,
+      606,
+      173
+    ],
+    "bbox_delta_px": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_half_contour_mask_mismatch_pixels": 0,
+    "source_contact_edge_selection": "Measured source RGB G minima in 7-8 px contour windows where foreground capsule touches same-blue panel rim",
+    "source_contact_edges_gy_left_right": [
+      [
+        242,
+        210,
+        813
+      ],
+      [
+        243,
+        210,
+        814
+      ],
+      [
+        244,
+        210,
+        814
+      ],
+      [
+        245,
+        210,
+        813
+      ],
+      [
+        246,
+        210,
+        813
+      ],
+      [
+        247,
+        210,
+        813
+      ],
+      [
+        248,
+        210,
+        813
+      ],
+      [
+        249,
+        210,
+        813
+      ],
+      [
+        250,
+        210,
+        813
+      ],
+      [
+        251,
+        210,
+        813
+      ],
+      [
+        252,
+        210,
+        813
+      ],
+      [
+        253,
+        210,
+        813
+      ],
+      [
+        254,
+        210,
+        813
+      ],
+      [
+        255,
+        210,
+        814
+      ],
+      [
+        256,
+        210,
+        814
+      ],
+      [
+        257,
+        209,
+        814
+      ],
+      [
+        258,
+        209,
+        814
+      ],
+      [
+        259,
+        209,
+        814
+      ],
+      [
+        260,
+        209,
+        814
+      ],
+      [
+        261,
+        209,
+        814
+      ],
+      [
+        262,
+        209,
+        814
+      ],
+      [
+        263,
+        209,
+        814
+      ],
+      [
+        264,
+        209,
+        814
+      ],
+      [
+        265,
+        209,
+        814
+      ],
+      [
+        266,
+        209,
+        814
+      ],
+      [
+        267,
+        209,
+        814
+      ],
+      [
+        268,
+        209,
+        814
+      ],
+      [
+        269,
+        209,
+        814
+      ],
+      [
+        270,
+        209,
+        814
+      ],
+      [
+        271,
+        209,
+        814
+      ],
+      [
+        272,
+        210,
+        813
+      ],
+      [
+        273,
+        210,
+        813
+      ],
+      [
+        274,
+        210,
+        813
+      ],
+      [
+        275,
+        210,
+        813
+      ],
+      [
+        276,
+        210,
+        813
+      ],
+      [
+        277,
+        210,
+        813
+      ],
+      [
+        278,
+        210,
+        813
+      ],
+      [
+        279,
+        210,
+        813
+      ],
+      [
+        280,
+        210,
+        813
+      ],
+      [
+        281,
+        210,
+        813
+      ],
+      [
+        282,
+        211,
+        813
+      ],
+      [
+        283,
+        212,
+        813
+      ]
+    ],
+    "opaque_source_pixel_count": 97342,
+    "opaque_rgb_pixel_difference_max": 0,
+    "status": "source_extracted_candidate; native_and_2x_light_dark_QA_passed; parent_acceptance_pending",
+    "alpha_nonzero_bbox_local": [
+      17,
+      10,
+      610,
+      177
+    ],
+    "alpha_validation": {
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 3308,
+      "hidden_transparent_rgb_values_cleared": 18
+    },
+    "sha256": "f5f4ce971d4ef0a14be4fcf42f5ad009c3d92025485e25cf5b2cb83e73a5b6c2"
+  }
+}

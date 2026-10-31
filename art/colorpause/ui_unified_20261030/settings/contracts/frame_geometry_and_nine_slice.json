@@ -1,0 +1,866 @@
+{
+  "settings_frame_blank": {
+    "asset_size_wh": [
+      836,
+      1247
+    ],
+    "alpha50_bbox_xywh": [
+      9,
+      7,
+      817,
+      1230
+    ],
+    "margins_ltrb": [
+      125,
+      140,
+      125,
+      135
+    ],
+    "stretch_rect_xywh": [
+      125,
+      140,
+      586,
+      972
+    ],
+    "parts": [
+      {
+        "file": "nine_slice/settings_frame_blank/0_0.png",
+        "rect_asset_xywh": [
+          0,
+          0,
+          125,
+          140
+        ]
+      },
+      {
+        "file": "nine_slice/settings_frame_blank/0_1.png",
+        "rect_asset_xywh": [
+          125,
+          0,
+          586,
+          140
+        ]
+      },
+      {
+        "file": "nine_slice/settings_frame_blank/0_2.png",
+        "rect_asset_xywh": [
+          711,
+          0,
+          125,
+          140
+        ]
+      },
+      {
+        "file": "nine_slice/settings_frame_blank/1_0.png",
+        "rect_asset_xywh": [
+          0,
+          140,
+          125,
+          972
+        ]
+      },
+      {
+        "file": "nine_slice/settings_frame_blank/1_1.png",
+        "rect_asset_xywh": [
+          125,
+          140,
+          586,
+          972
+        ]
+      },
+      {
+        "file": "nine_slice/settings_frame_blank/1_2.png",
+        "rect_asset_xywh": [
+          711,
+          140,
+          125,
+          972
+        ]
+      },
+      {
+        "file": "nine_slice/settings_frame_blank/2_0.png",
+        "rect_asset_xywh": [
+          0,
+          1112,
+          125,
+          135
+        ]
+      },
+      {
+        "file": "nine_slice/settings_frame_blank/2_1.png",
+        "rect_asset_xywh": [
+          125,
+          1112,
+          586,
+          135
+        ]
+      },
+      {
+        "file": "nine_slice/settings_frame_blank/2_2.png",
+        "rect_asset_xywh": [
+          711,
+          1112,
+          125,
+          135
+        ]
+      }
+    ],
+    "preferred": "uniform scale. Horizontal stretch of row bases permitted. Never 9-slice glyphs, icons, close or toggles."
+  },
+  "title_blank": {
+    "asset_size_wh": [
+      579,
+      191
+    ],
+    "alpha50_bbox_xywh": [
+      8,
+      8,
+      563,
+      170
+    ],
+    "margins_ltrb": [
+      100,
+      72,
+      100,
+      72
+    ],
+    "stretch_rect_xywh": [
+      100,
+      72,
+      379,
+      47
+    ],
+    "parts": [
+      {
+        "file": "nine_slice/title_blank/0_0.png",
+        "rect_asset_xywh": [
+          0,
+          0,
+          100,
+          72
+        ]
+      },
+      {
+        "file": "nine_slice/title_blank/0_1.png",
+        "rect_asset_xywh": [
+          100,
+          0,
+          379,
+          72
+        ]
+      },
+      {
+        "file": "nine_slice/title_blank/0_2.png",
+        "rect_asset_xywh": [
+          479,
+          0,
+          100,
+          72
+        ]
+      },
+      {
+        "file": "nine_slice/title_blank/1_0.png",
+        "rect_asset_xywh": [
+          0,
+          72,
+          100,
+          47
+        ]
+      },
+      {
+        "file": "nine_slice/title_blank/1_1.png",
+        "rect_asset_xywh": [
+          100,
+          72,
+          379,
+          47
+        ]
+      },
+      {
+        "file": "nine_slice/title_blank/1_2.png",
+        "rect_asset_xywh": [
+          479,
+          72,
+          100,
+          47
+        ]
+      },
+      {
+        "file": "nine_slice/title_blank/2_0.png",
+        "rect_asset_xywh": [
+          0,
+          119,
+          100,
+          72
+        ]
+      },
+      {
+        "file": "nine_slice/title_blank/2_1.png",
+        "rect_asset_xywh": [
+          100,
+          119,
+          379,
+          72
+        ]
+      },
+      {
+        "file": "nine_slice/title_blank/2_2.png",
+        "rect_asset_xywh": [
+          479,
+          119,
+          100,
+          72
+        ]
+      }
+    ],
+    "preferred": "uniform scale. Horizontal stretch of row bases permitted. Never 9-slice glyphs, icons, close or toggles."
+  },
+  "language_button_blank_normal": {
+    "asset_size_wh": [
+      327,
+      150
+    ],
+    "alpha50_bbox_xywh": [
+      10,
+      9,
+      305,
+      130
+    ],
+    "margins_ltrb": [
+      70,
+      58,
+      70,
+      58
+    ],
+    "stretch_rect_xywh": [
+      70,
+      58,
+      187,
+      34
+    ],
+    "parts": [
+      {
+        "file": "nine_slice/language_button_blank_normal/0_0.png",
+        "rect_asset_xywh": [
+          0,
+          0,
+          70,
+          58
+        ]
+      },
+      {
+        "file": "nine_slice/language_button_blank_normal/0_1.png",
+        "rect_asset_xywh": [
+          70,
+          0,
+          187,
+          58
+        ]
+      },
+      {
+        "file": "nine_slice/language_button_blank_normal/0_2.png",
+        "rect_asset_xywh": [
+          257,
+          0,
+          70,
+          58
+        ]
+      },
+      {
+        "file": "nine_slice/language_button_blank_normal/1_0.png",
+        "rect_asset_xywh": [
+          0,
+          58,
+          70,
+          34
+        ]
+      },
+      {
+        "file": "nine_slice/language_button_blank_normal/1_1.png",
+        "rect_asset_xywh": [
+          70,
+          58,
+          187,
+          34
+        ]
+      },
+      {
+        "file": "nine_slice/language_button_blank_normal/1_2.png",
+        "rect_asset_xywh": [
+          257,
+          58,
+          70,
+          34
+        ]
+      },
+      {
+        "file": "nine_slice/language_button_blank_normal/2_0.png",
+        "rect_asset_xywh": [
+          0,
+          92,
+          70,
+          58
+        ]
+      },
+      {
+        "file": "nine_slice/language_button_blank_normal/2_1.png",
+        "rect_asset_xywh": [
+          70,
+          92,
+          187,
+          58
+        ]
+      },
+      {
+        "file": "nine_slice/language_button_blank_normal/2_2.png",
+        "rect_asset_xywh": [
+          257,
+          92,
+          70,
+          58
+        ]
+      }
+    ],
+    "preferred": "uniform scale. Horizontal stretch of row bases permitted. Never 9-slice glyphs, icons, close or toggles."
+  },
+  "sound_row_blank": {
+    "asset_size_wh": [
+      720,
+      208
+    ],
+    "alpha50_bbox_xywh": [
+      8,
+      8,
+      704,
+      194
+    ],
+    "margins_ltrb": [
+      62,
+      64,
+      62,
+      64
+    ],
+    "stretch_rect_xywh": [
+      62,
+      64,
+      596,
+      80
+    ],
+    "parts": [
+      {
+        "file": "nine_slice/sound_row_blank/0_0.png",
+        "rect_asset_xywh": [
+          0,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/sound_row_blank/0_1.png",
+        "rect_asset_xywh": [
+          62,
+          0,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/sound_row_blank/0_2.png",
+        "rect_asset_xywh": [
+          658,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/sound_row_blank/1_0.png",
+        "rect_asset_xywh": [
+          0,
+          64,
+          62,
+          80
+        ]
+      },
+      {
+        "file": "nine_slice/sound_row_blank/1_1.png",
+        "rect_asset_xywh": [
+          62,
+          64,
+          596,
+          80
+        ]
+      },
+      {
+        "file": "nine_slice/sound_row_blank/1_2.png",
+        "rect_asset_xywh": [
+          658,
+          64,
+          62,
+          80
+        ]
+      },
+      {
+        "file": "nine_slice/sound_row_blank/2_0.png",
+        "rect_asset_xywh": [
+          0,
+          144,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/sound_row_blank/2_1.png",
+        "rect_asset_xywh": [
+          62,
+          144,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/sound_row_blank/2_2.png",
+        "rect_asset_xywh": [
+          658,
+          144,
+          62,
+          64
+        ]
+      }
+    ],
+    "preferred": "uniform scale. Horizontal stretch of row bases permitted. Never 9-slice glyphs, icons, close or toggles."
+  },
+  "music_row_blank": {
+    "asset_size_wh": [
+      720,
+      211
+    ],
+    "alpha50_bbox_xywh": [
+      8,
+      6,
+      704,
+      199
+    ],
+    "margins_ltrb": [
+      62,
+      64,
+      62,
+      64
+    ],
+    "stretch_rect_xywh": [
+      62,
+      64,
+      596,
+      83
+    ],
+    "parts": [
+      {
+        "file": "nine_slice/music_row_blank/0_0.png",
+        "rect_asset_xywh": [
+          0,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/music_row_blank/0_1.png",
+        "rect_asset_xywh": [
+          62,
+          0,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/music_row_blank/0_2.png",
+        "rect_asset_xywh": [
+          658,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/music_row_blank/1_0.png",
+        "rect_asset_xywh": [
+          0,
+          64,
+          62,
+          83
+        ]
+      },
+      {
+        "file": "nine_slice/music_row_blank/1_1.png",
+        "rect_asset_xywh": [
+          62,
+          64,
+          596,
+          83
+        ]
+      },
+      {
+        "file": "nine_slice/music_row_blank/1_2.png",
+        "rect_asset_xywh": [
+          658,
+          64,
+          62,
+          83
+        ]
+      },
+      {
+        "file": "nine_slice/music_row_blank/2_0.png",
+        "rect_asset_xywh": [
+          0,
+          147,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/music_row_blank/2_1.png",
+        "rect_asset_xywh": [
+          62,
+          147,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/music_row_blank/2_2.png",
+        "rect_asset_xywh": [
+          658,
+          147,
+          62,
+          64
+        ]
+      }
+    ],
+    "preferred": "uniform scale. Horizontal stretch of row bases permitted. Never 9-slice glyphs, icons, close or toggles."
+  },
+  "vibration_row_blank": {
+    "asset_size_wh": [
+      720,
+      212
+    ],
+    "alpha50_bbox_xywh": [
+      8,
+      7,
+      704,
+      199
+    ],
+    "margins_ltrb": [
+      62,
+      64,
+      62,
+      64
+    ],
+    "stretch_rect_xywh": [
+      62,
+      64,
+      596,
+      84
+    ],
+    "parts": [
+      {
+        "file": "nine_slice/vibration_row_blank/0_0.png",
+        "rect_asset_xywh": [
+          0,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/vibration_row_blank/0_1.png",
+        "rect_asset_xywh": [
+          62,
+          0,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/vibration_row_blank/0_2.png",
+        "rect_asset_xywh": [
+          658,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/vibration_row_blank/1_0.png",
+        "rect_asset_xywh": [
+          0,
+          64,
+          62,
+          84
+        ]
+      },
+      {
+        "file": "nine_slice/vibration_row_blank/1_1.png",
+        "rect_asset_xywh": [
+          62,
+          64,
+          596,
+          84
+        ]
+      },
+      {
+        "file": "nine_slice/vibration_row_blank/1_2.png",
+        "rect_asset_xywh": [
+          658,
+          64,
+          62,
+          84
+        ]
+      },
+      {
+        "file": "nine_slice/vibration_row_blank/2_0.png",
+        "rect_asset_xywh": [
+          0,
+          148,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/vibration_row_blank/2_1.png",
+        "rect_asset_xywh": [
+          62,
+          148,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/vibration_row_blank/2_2.png",
+        "rect_asset_xywh": [
+          658,
+          148,
+          62,
+          64
+        ]
+      }
+    ],
+    "preferred": "uniform scale. Horizontal stretch of row bases permitted. Never 9-slice glyphs, icons, close or toggles."
+  },
+  "language_row_blank": {
+    "asset_size_wh": [
+      720,
+      209
+    ],
+    "alpha50_bbox_xywh": [
+      8,
+      8,
+      704,
+      195
+    ],
+    "margins_ltrb": [
+      62,
+      64,
+      62,
+      64
+    ],
+    "stretch_rect_xywh": [
+      62,
+      64,
+      596,
+      81
+    ],
+    "parts": [
+      {
+        "file": "nine_slice/language_row_blank/0_0.png",
+        "rect_asset_xywh": [
+          0,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/language_row_blank/0_1.png",
+        "rect_asset_xywh": [
+          62,
+          0,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/language_row_blank/0_2.png",
+        "rect_asset_xywh": [
+          658,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/language_row_blank/1_0.png",
+        "rect_asset_xywh": [
+          0,
+          64,
+          62,
+          81
+        ]
+      },
+      {
+        "file": "nine_slice/language_row_blank/1_1.png",
+        "rect_asset_xywh": [
+          62,
+          64,
+          596,
+          81
+        ]
+      },
+      {
+        "file": "nine_slice/language_row_blank/1_2.png",
+        "rect_asset_xywh": [
+          658,
+          64,
+          62,
+          81
+        ]
+      },
+      {
+        "file": "nine_slice/language_row_blank/2_0.png",
+        "rect_asset_xywh": [
+          0,
+          145,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/language_row_blank/2_1.png",
+        "rect_asset_xywh": [
+          62,
+          145,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/language_row_blank/2_2.png",
+        "rect_asset_xywh": [
+          658,
+          145,
+          62,
+          64
+        ]
+      }
+    ],
+    "preferred": "uniform scale. Horizontal stretch of row bases permitted. Never 9-slice glyphs, icons, close or toggles."
+  },
+  "guide_row_blank": {
+    "asset_size_wh": [
+      720,
+      205
+    ],
+    "alpha50_bbox_xywh": [
+      8,
+      7,
+      704,
+      192
+    ],
+    "margins_ltrb": [
+      62,
+      64,
+      62,
+      64
+    ],
+    "stretch_rect_xywh": [
+      62,
+      64,
+      596,
+      77
+    ],
+    "parts": [
+      {
+        "file": "nine_slice/guide_row_blank/0_0.png",
+        "rect_asset_xywh": [
+          0,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/guide_row_blank/0_1.png",
+        "rect_asset_xywh": [
+          62,
+          0,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/guide_row_blank/0_2.png",
+        "rect_asset_xywh": [
+          658,
+          0,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/guide_row_blank/1_0.png",
+        "rect_asset_xywh": [
+          0,
+          64,
+          62,
+          77
+        ]
+      },
+      {
+        "file": "nine_slice/guide_row_blank/1_1.png",
+        "rect_asset_xywh": [
+          62,
+          64,
+          596,
+          77
+        ]
+      },
+      {
+        "file": "nine_slice/guide_row_blank/1_2.png",
+        "rect_asset_xywh": [
+          658,
+          64,
+          62,
+          77
+        ]
+      },
+      {
+        "file": "nine_slice/guide_row_blank/2_0.png",
+        "rect_asset_xywh": [
+          0,
+          141,
+          62,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/guide_row_blank/2_1.png",
+        "rect_asset_xywh": [
+          62,
+          141,
+          596,
+          64
+        ]
+      },
+      {
+        "file": "nine_slice/guide_row_blank/2_2.png",
+        "rect_asset_xywh": [
+          658,
+          141,
+          62,
+          64
+        ]
+      }
+    ],
+    "preferred": "uniform scale. Horizontal stretch of row bases permitted. Never 9-slice glyphs, icons, close or toggles."
+  }
+}

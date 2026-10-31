@@ -9,7 +9,7 @@ const SHELL = preload("res://assets/water_sort/bottles/v1/glass_shell.png")
 const DEFAULT_PALETTE := {
 	"red": Color("eb3043"), "blue": Color("148be8"), "yellow": Color("f2d414"),
 	"green": Color("11b866"), "purple": Color("a651f3"), "orange": Color("f57810"),
-	"pink": Color("ed29b2")}
+	"pink": Color("ed29b2"), "cyan": Color("13cbd7")}
 # Pigment stays opaque. Highlights are narrow accents, not a white wash.
 const EDGE_DARKEN := 0.08
 const SURFACE_LIGHTEN := 0.10
@@ -23,6 +23,20 @@ var palette: Dictionary = DEFAULT_PALETTE.duplicate()
 var capacity := 4.0
 var layers: Array = []
 var bands: Array = []
+var unknown_layers: Array = []
+
+func visible_bands() -> Array:
+	if not unknown_layers.has(true): return bands
+	var result: Array=[]; var bottom:=0.0
+	for band in bands:
+		var left: float=band.amount
+		while left>0.00001:
+			var unit:=int(floor(bottom+0.00001))
+			var amount:=minf(left,float(unit+1)-bottom)
+			var hidden: bool=unit<unknown_layers.size() and unknown_layers[unit]
+			result.append({"amount":amount,"color":"unknown" if hidden else band.color})
+			bottom+=amount; left-=amount
+	return result
 var transaction_busy := false
 var incoming_color := Color.TRANSPARENT
 var incoming_strength := 0.0
@@ -35,6 +49,27 @@ var seal_animating := false
 var seal_progress := 0.0
 var seal_elapsed := 0.0
 var _seal_notified := false
+var seal_duration := SEAL_DURATION
+var seal_drop_distance := 47.0
+var settle_strength := 0.0
+var settle_clock := 0.0
+var delivered_layers: Node2D
+
+func presentation_bounds() -> Rect2:
+	if is_instance_valid(delivered_layers): return delivered_layers.presentation_bounds()
+	return Rect2(-80,-28,160,420) # Existing classic renderer's visual envelope.
+
+func use_delivered_layers() -> void:
+	if is_instance_valid(delivered_layers): return
+	palette=preload("res://scripts/water_sort/order_gameplay_assets.gd").LIQUID_PALETTE.duplicate()
+	# Opt-in visual skin only. Classic callers keep the original renderer.
+	var renderer=load("res://scripts/water_sort/art/delivered_bottle_layers.gd").new()
+	delivered_layers=renderer; renderer.visual=self
+	add_child(renderer)
+	shell.hide(); get_node("GlassRearFoot").hide()
+	# Keep the reviewed cork timeline as a pose driver, without drawing old art.
+	cork.texture=null
+	renderer.sync(); queue_redraw()
 
 func _ready() -> void:
 	# Smooth continuous art explicitly; never inherit a pixel-art nearest filter.
@@ -85,7 +120,7 @@ func set_layers(value: Array, bottle_capacity := 4.0) -> void:
 	queue_redraw()
 
 func is_complete() -> bool:
-	return complete_layers(layers,capacity)
+	return not unknown_layers.has(true) and complete_layers(layers,capacity)
 
 static func complete_layers(value: Array, bottle_capacity := 4.0) -> bool:
 	if value.size() != int(bottle_capacity) or value.is_empty(): return false
@@ -98,13 +133,14 @@ func sync_seal_immediate(value: bool) -> void:
 	sealed = value
 	seal_animating = false
 	seal_progress = 1.0 if value else 0.0
-	seal_elapsed = SEAL_DURATION if value else 0.0
+	seal_elapsed = seal_duration if value else 0.0
 	_seal_notified = value
 	if is_instance_valid(cork):
 		cork.visible = value
 		cork.position = Vector2(-36,-24)
 		cork.modulate.a = 1.0
 		cork.scale.y = 44.0/663.0
+	if is_instance_valid(delivered_layers): delivered_layers.sync_cork()
 
 ## Pure timeline sampling: the PourAnimator owns the only clock, including pause.
 func sample_seal(progress_value: float) -> void:
@@ -113,7 +149,7 @@ func sample_seal(progress_value: float) -> void:
 		return
 	var p := clampf(progress_value,0.0,1.0)
 	seal_progress = p
-	seal_elapsed = p*SEAL_DURATION
+	seal_elapsed = p*seal_duration
 	seal_animating = p < 1.0
 	sealed = p >= 1.0
 	if is_instance_valid(cork):
@@ -122,12 +158,13 @@ func sample_seal(progress_value: float) -> void:
 		var offset := 0.0
 		if p < 0.76:
 			var descend := p/0.76
-			offset = lerpf(-47.0,2.5,descend*descend*(3.0-2.0*descend))
+			offset = lerpf(-seal_drop_distance,2.5,descend*descend*(3.0-2.0*descend))
 		else:
 			var settle := (p-0.76)/0.24
 			offset = lerpf(2.5,0.0,settle*settle*(3.0-2.0*settle))
 		cork.position = Vector2(-36,-24+offset)
 		cork.scale.y = (44.0/663.0)*(1.0-0.025*sin(p*PI))
+	if is_instance_valid(delivered_layers): delivered_layers.sync_cork()
 	if sealed and not _seal_notified:
 		_seal_notified = true
 		seal_finished.emit()
@@ -142,6 +179,7 @@ func sample_unseal(progress_value: float) -> void:
 		cork.visible = p < 1.0
 		cork.position = Vector2(-36,-24-42.0*p*p*(3.0-2.0*p))
 		cork.modulate.a = 1.0-p
+	if is_instance_valid(delivered_layers): delivered_layers.sync_cork()
 
 static func to_bands(value: Array) -> Array:
 	var result: Array = []
@@ -163,7 +201,23 @@ func color_for(key: String) -> Color:
 	return palette.get(key, DEFAULT_PALETTE.blue)
 
 func mouth_world(side := 0.0) -> Vector2:
+	if is_instance_valid(delivered_layers):
+		var radius: float=(delivered_layers.OUTLET_RIGHT-delivered_layers.OUTLET_LEFT)*0.5
+		return to_global(Vector2(side*radius*delivered_layers.ART_SCALE,0))
 	return to_global(Vector2(side * 34.0, 0))
+
+func flow_angle(units: float) -> float:
+	if is_instance_valid(delivered_layers): return delivered_layers.spill_angle(units/capacity)
+	return Geometry.spill_angle(units,capacity)
+
+func flow_lip(direction: float) -> Vector2:
+	return delivered_layers.lip(direction) if is_instance_valid(delivered_layers) else Vector2(direction*34.0,0)
+
+func flow_cavity() -> PackedVector2Array:
+	if not is_instance_valid(delivered_layers): return Geometry.cavity()
+	var result:=PackedVector2Array()
+	for point in delivered_layers.cavity: result.append((point-delivered_layers.MOUTH)*delivered_layers.ART_SCALE)
+	return result
 
 func impact_world() -> Vector2:
 	return to_global(Vector2(0, Geometry.threshold(volume(), capacity, global_rotation)))
@@ -192,6 +246,9 @@ func _draw_outer_liquid_aa(shape: PackedVector2Array, liquid: Color) -> void:
 		draw_line(edges[i],edges[i+1],liquid.darkened(shade*EDGE_DARKEN),width,true)
 
 func _draw() -> void:
+	if is_instance_valid(delivered_layers):
+		delivered_layers.sync()
+		return
 	var angle := global_rotation
 	var poly := Geometry.cavity()
 	# Back-glass is a separate subtle tint. The centre stays truly transparent when empty.
@@ -222,6 +279,12 @@ func _draw() -> void:
 			if cumulative >= volume() - 0.001:
 				# Meniscus has a shallow dark underside and a bright glass-contact line.
 				draw_line(a + Geometry.gravity_normal(angle)*2, b + Geometry.gravity_normal(angle)*2, liquid.darkened(0.10), 1.2, true)
+				if settle_strength>0.001:
+					var ripple := PackedVector2Array()
+					for j in 17:
+						var fraction := j/16.0
+						ripple.append(a.lerp(b,fraction)+Vector2(0,sin(fraction*TAU+settle_clock*38)*1.8*settle_strength*sin(fraction*PI)))
+					draw_polyline(ripple,Color(liquid.lightened(0.3),0.55*settle_strength),1.5,true)
 	if incoming_strength > 0.0001:
 		var bottom := clampf(Geometry.threshold(volume(), capacity, angle), 5.0, 367.0)
 		var stream := PackedVector2Array([Vector2(-3, 0), Vector2(3, 0), Vector2(4, bottom), Vector2(-4, bottom)])

@@ -1,24 +1,5 @@
-# 通用项目开发规范
+# Development standard V1.2
 
-当前版本：V1.2。适用于游戏、应用、网站与其他软件项目。只规定开发与验收方式，产品规则另见项目文档。
+Retained normative text: [DEVELOPMENT_STANDARD.md](docs/DEVELOPMENT_STANDARD.md). Upstream: https://github.com/yxstart666/project-development-standard at 4025312802d8b4d4397d8b717699eeb8abbeee47.
 
-## 首次开工与续接
-1. 读取 [规范正文](docs/DEVELOPMENT_STANDARD.md)，记录本版本与实际仓库commit。
-2. 读取项目玩法／产品文档和当前交接；核实真实代码、资产与运行状态。
-3. 首次完整填写、续接只核验变化；环境重大改变重检受影响项。使用 [开工检查表](templates/STARTUP_CHECKLIST.md)，先完成最小可验证里程碑。
-4. 需要3D时读取 [可选3D流程](docs/OPTIONAL_3D_PIPELINE.md)；不需要时写N/A与理由。
-
-## 目录
-- [项目简述](templates/PROJECT_BRIEF.md)
-- [资产规格](templates/ASSET_SPEC.md)
-- [交接模板](templates/HANDOFF.md)
-- [更新记录](CHANGELOG.md)
-
-规范正文是唯一工作流基线；其他文件只提供导航、可选专项流程或填写模板。发布后的PDF／DOCX是V1.2快照，正文更新应同步重新生成，避免多份手工维护。
-
-## 工具入口与限制
-AGENTS.md是支持该约定的工具入口，不保证所有AI自动读取。其他AI工具的项目规则只需指向本README及正文，不复制规范。人工启动时也附本仓库入口与项目文档，要求提供开工核验证据。不得绕过系统指令、权限或安全规则。
-
-项目须固定规范版本与commit；更新需审查，不长期漂移latest。私有仓库访问失败应说明阻塞，由负责人提供授权访问或完整导出，不得假装读过。
-
-规范仓库：https://github.com/yxstart666/project-development-standard（私有）。新项目从 GitHub 提交记录取得本版实际 commit SHA，并在项目接入记录中固定；不得将分支名称当作不可变版本。新项目可复制指定版本的文档与入口文件，或将指定commit的只读规范作为引用；在项目README登记来源、版本和commit，并提供玩法文档和开工核验报告。私有访问未授权时请负责人提供完整导出。不要只给新AI一个仓库名便假定它已读取。上传前不应包含密钥、无权分发资产或项目私密数据。
+This project keeps the current standard and navigation entry. Generic templates, old exports and optional 3D appendices are not bundled. Color Pause uses existing 2D/2.5D sprites; no new 3D pipeline applies. See ../../AGENTS.md and ../current/DEVELOPMENT.md for current scope.

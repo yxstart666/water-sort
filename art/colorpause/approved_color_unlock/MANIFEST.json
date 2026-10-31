@@ -1,0 +1,217 @@
+{
+  "package": "approved_color_unlock",
+  "version": "2026-10-30-v1",
+  "scope": "specified-color card art only; 8 palette colors; no UI/rules edits",
+  "status": "ROOT_VISUAL_CANDIDATE_ACCEPTED_GAME_RUNTIME_ACCEPTANCE_PENDING",
+  "generator": "built-in imagegen edits from inspected approved source",
+  "source_raw_preserved": true,
+  "shell_byte_exact": true,
+  "dynamic_count_not_baked": true,
+  "runtime_whitelist_count": 9,
+  "files": {
+    "C3_STATE_CENSUS.json": {
+      "bytes": 666,
+      "sha256": "35aedde0260152971cff28793807b3c8c4b85357a7c2a71b332920c74db27c6f"
+    },
+    "COLOR_MAPPING.json": {
+      "bytes": 7577,
+      "sha256": "fa294f3c0510829edeb70f8eb4d94f2fb8097a4e3db223aa731ff055a14eb24e"
+    },
+    "LAYOUT_AND_STATE_CONTRACT.json": {
+      "bytes": 5432,
+      "sha256": "5198241eaece6b09df622fd7c7e26fbde73400848500c0423469808737337851"
+    },
+    "PACKAGE_WHITELIST.txt": {
+      "bytes": 1681,
+      "sha256": "ace5e334b9a81fe00e4bd72328bdf7924dd80037dbc715d15b21329b3195c26f"
+    },
+    "READ_ME_FIRST_ZH.md": {
+      "bytes": 2805,
+      "sha256": "be8298bc460b282e05cf09090e0364c6faddcf55e4532a191239845a5e092610"
+    },
+    "RUNTIME_WHITELIST.json": {
+      "bytes": 1597,
+      "sha256": "4f8a5ea6ff1ac4baa828c3294b969ea49c8a143dde8a2a354502f869582b0e52"
+    },
+    "docs/derive_runtime_layers.py": {
+      "bytes": 641,
+      "sha256": "8b270877f431d407949f6ef8baa65f30c315450e28bed1fcaf3c87d5a7591999"
+    },
+    "qa/ALPHA_GEOMETRY_CHECKS.json": {
+      "bytes": 3235,
+      "sha256": "f23e52d163aa15d82ca755133febe793b606a94c194a3703851787e1ef4a3eb6"
+    },
+    "qa/actual_card_104x145_light_dark.png": {
+      "bytes": 120475,
+      "sha256": "821ccecd98db849c73666e02c490abe7f74dd04ce85bb87cdc9109abb750a6be"
+    },
+    "qa/all_colors_full_cards.png": {
+      "bytes": 479722,
+      "sha256": "57fd69615520291c9b70cc6c778e5a1a0ef6973ee81d167732971ee02823076b"
+    },
+    "qa/any_vs_specified_color.png": {
+      "bytes": 237339,
+      "sha256": "9d33c48149cbb893c26c9962a8a222eb0dd8d6427f7a64411fd432604a4f99c4"
+    },
+    "qa/blue_count1_preview.png": {
+      "bytes": 139536,
+      "sha256": "f7c4a3bfbd7045e70c8656496f29310b713b4fbda04fa2c0a1d66d717a0e7c47"
+    },
+    "qa/blue_minimum_19p466x27p229.png": {
+      "bytes": 1210,
+      "sha256": "16d0b0b45b7811f0ea35da80406c5c19ca0d4d2485ad9b88d031952342cf4548"
+    },
+    "qa/cyan_count1_preview.png": {
+      "bytes": 140456,
+      "sha256": "11824987ac7abe9e6ed32c66c3023ab50bdda37d4e23018e16abdffab14ec1c1"
+    },
+    "qa/cyan_minimum_19p466x27p229.png": {
+      "bytes": 1225,
+      "sha256": "7d78a97dc34bc86e86370fdb61cd9528f714d9b068a66b439bbe1cb69b50fd01"
+    },
+    "qa/green_count1_preview.png": {
+      "bytes": 142221,
+      "sha256": "855c0fcd3047d641589dff63f9a8908deec2b8a43d0491e34036fa55a5ac4df8"
+    },
+    "qa/green_minimum_19p466x27p229.png": {
+      "bytes": 1221,
+      "sha256": "2210b0e8c2927433c940c1b6c4fb9b6eb8da9b399458af73c71e7d78e6370212"
+    },
+    "qa/minimum_40dp_52dp_light_dark.png": {
+      "bytes": 62797,
+      "sha256": "887017191618d8172877f30b3b9b5456e84f9dae79977d98a0d333d990be65cc"
+    },
+    "qa/orange_count1_preview.png": {
+      "bytes": 140635,
+      "sha256": "14dd2c5685c39ab5a73b51dac11586538cf9af2ccf2b8e83715f635f8dc1c170"
+    },
+    "qa/orange_minimum_19p466x27p229.png": {
+      "bytes": 1197,
+      "sha256": "7447958381e405f8f5d21697fe2dc48bb6de7e8cc77c1c519ddac3c4d2c99325"
+    },
+    "qa/original_cloth_eight_cards_165x410.png": {
+      "bytes": 113136,
+      "sha256": "27e03a2d1d1013f92fdfc8a586ae5e604bf8d2498c25f2456d98fbac8ca04d2e"
+    },
+    "qa/pink_count1_preview.png": {
+      "bytes": 141821,
+      "sha256": "eedfc9b4229d0f0a93ab83afc013370f5d2d4bb3717bf9bf42dfee1c845fb715"
+    },
+    "qa/pink_minimum_19p466x27p229.png": {
+      "bytes": 1226,
+      "sha256": "b4f2394ab5c6839e196a82b3e1f9a83d16ef522bf54db048ca3a3742de15c948"
+    },
+    "qa/purple_count1_preview.png": {
+      "bytes": 142300,
+      "sha256": "0c4f6e38c5f2935f2b1bf0fbbdaa5360c1dc1b3fb83ce657483c4812dbdf1681"
+    },
+    "qa/purple_minimum_19p466x27p229.png": {
+      "bytes": 1220,
+      "sha256": "6fb4161ea39595d804c8c1320e72a0563ddce03b1b955905df75b8e474cd6cf4"
+    },
+    "qa/red_count1_preview.png": {
+      "bytes": 141714,
+      "sha256": "424487f4d431ac5c83de7dc456b6f8cbb4c668029aa78b580cc33a325a6f1964"
+    },
+    "qa/red_minimum_19p466x27p229.png": {
+      "bytes": 1230,
+      "sha256": "05fcb0acaf3dc72ec93a5a9b40024ae6e3bf69ac8eb6ba4c540ca3791eca3145"
+    },
+    "qa/source_shell_new_blue_comparison.png": {
+      "bytes": 293080,
+      "sha256": "e68d68ace40e166c070ca1cc8dbf575ff338d06a73e424f1e055d0a31f6c9dde"
+    },
+    "qa/true_minimum_19p466x27p229_light_dark.png": {
+      "bytes": 29032,
+      "sha256": "cda70dc73b12ca8fee97faddbdc44b1f99454fc79f95e705177ed6aa4b4932ef"
+    },
+    "qa/yellow_count1_preview.png": {
+      "bytes": 140972,
+      "sha256": "fd6d4d3d1bc92eb7bd45c5038c1238bffc4a96d6b2d6bd434dbcdb4b3d4a1272"
+    },
+    "qa/yellow_minimum_19p466x27p229.png": {
+      "bytes": 1205,
+      "sha256": "47d81d96f305c9ae6984973465fff9ceb2c3a2d6def96d4d1f9b47324e144b71"
+    },
+    "runtime/card_shell_reusable.png": {
+      "bytes": 156920,
+      "sha256": "60fb7645dcb82efc03d78ff318dbf7750f29bf49e62624598713879ce04723c8"
+    },
+    "runtime/target_blue_card_layer.png": {
+      "bytes": 37835,
+      "sha256": "53793cc028e1f1f5dcd7e33c7082afdaf923363b84ad2e12af79d9c5a2b4c1ea"
+    },
+    "runtime/target_cyan_card_layer.png": {
+      "bytes": 38753,
+      "sha256": "bf85f6c89256b602c17ed28ac65beba5db88b7ae8d0f7aa473c7fd13b5bedca8"
+    },
+    "runtime/target_green_card_layer.png": {
+      "bytes": 39731,
+      "sha256": "9dff96711b5b2604b3437e8b23800b77840bf2821fadb60925a81afa5086eee7"
+    },
+    "runtime/target_orange_card_layer.png": {
+      "bytes": 38568,
+      "sha256": "786224177ddb0e6cbd6667acdd8cae2db6df71273f073764949379447ec5e416"
+    },
+    "runtime/target_pink_card_layer.png": {
+      "bytes": 39993,
+      "sha256": "6028d07c1b66876ef94a234b6f1051ddd34da7a239dc9ada8fcad606dabbbc6f"
+    },
+    "runtime/target_purple_card_layer.png": {
+      "bytes": 40257,
+      "sha256": "fc641f572f9a9fa7a0964bb9a43a2716be68343551f57a8cb7dfd04b793a40d2"
+    },
+    "runtime/target_red_card_layer.png": {
+      "bytes": 39043,
+      "sha256": "54beca611a6b771c168376891b2ffa3be0ba98d3018a2a84f6c2e4337253ab3d"
+    },
+    "runtime/target_yellow_card_layer.png": {
+      "bytes": 39426,
+      "sha256": "fa5fcafb7a05a84d873cd127cc9b046f7fdcaa135f4a2c5f017564d73b4ea25d"
+    },
+    "scene/specified_color_card_art.tscn": {
+      "bytes": 1188,
+      "sha256": "d2fb6d6c265bca893411c92c5ae77d554264e99ef01ffabe9a19262d6476f0cf"
+    },
+    "source/IMAGEGEN_PROMPTS_AND_ORIGINS.json": {
+      "bytes": 7357,
+      "sha256": "15a23e8ab45472fc224ec3caefed5fe71f112637e62fa8c4105e2a3e3824e73c"
+    },
+    "source/bottle_blue_imagegen.png": {
+      "bytes": 879890,
+      "sha256": "638d4a67f4bdaf822b229c3515744dd84280bb336307ceeaf1ae9d5ce0c11259"
+    },
+    "source/bottle_cyan_imagegen.png": {
+      "bytes": 889931,
+      "sha256": "5162adfdd0d253d52619784f7e70e8b1cf536e3f3abbb2aade3744eccad25265"
+    },
+    "source/bottle_green_imagegen.png": {
+      "bytes": 898482,
+      "sha256": "47cffcc764a78e81cb4f511314ff3c1026dc3fb00d49d2ce2a513698e7e72150"
+    },
+    "source/bottle_orange_imagegen.png": {
+      "bytes": 893364,
+      "sha256": "7723ee17ddec4b0620c6e35d6b1261bde0f4b2b7da5fa96f5ccfed72eafb65b8"
+    },
+    "source/bottle_pink_imagegen.png": {
+      "bytes": 892804,
+      "sha256": "f180dcaa30e62c605147eacbe9fc62061ee10b640dd97b1227ad98baee517d0b"
+    },
+    "source/bottle_purple_imagegen.png": {
+      "bytes": 901837,
+      "sha256": "1aa4d3442034b8390f8a73f2d27bf513792a27df22c79a0f968268208c8a38ac"
+    },
+    "source/bottle_red_imagegen.png": {
+      "bytes": 896214,
+      "sha256": "ed6c9f1936a6ad981dea96147f34b797e27ae25735a6233f8a4050c87bed78ff"
+    },
+    "source/bottle_yellow_imagegen.png": {
+      "bytes": 896868,
+      "sha256": "e3350fc96fb4610acc486df837121acd11129136e1dbfa99de81ca5f77d2ab9e"
+    },
+    "source/original_approved_blue_x1.png": {
+      "bytes": 182365,
+      "sha256": "68e49894000876932b153312f0c6ef2a7c7a08575ddd6482a6baae08d0fffc71"
+    }
+  }
+}

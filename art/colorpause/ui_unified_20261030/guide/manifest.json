@@ -1,0 +1,919 @@
+{
+  "schema": "colorpause.guide.engine_assets.v1",
+  "status": "root_visual_asset_acceptance_pass_runtime_pending",
+  "source": {
+    "file": "approved_master.png",
+    "dimensions_wh": [
+      915,
+      1719
+    ],
+    "sha256": "23bb3011ad57929b2f4359e068b4a0822294b0ebee9b95f09fa5a7f94b1714a8"
+  },
+  "coordinate_system": "source top-left XYWH, right/bottom exclusive; uniform scale only",
+  "assets": [
+    {
+      "id": "guide_frame_blank",
+      "file": "assets/guide_frame_blank.png",
+      "rect_xywh": [
+        26,
+        378,
+        863,
+        1115
+      ],
+      "size_wh": [
+        863,
+        1115
+      ],
+      "z": 10,
+      "role": "required; source-locked outline; imagegen repairs only removed foreground areas",
+      "alpha50_bbox_local_xywh": [
+        15,
+        12,
+        832,
+        1084
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        13,
+        10,
+        836,
+        1088
+      ],
+      "sha256": "2419752dfdf24328edd48a47f8446ef8e067f55c69c99851f36c96d5b27c6c4b",
+      "runtime_import": true
+    },
+    {
+      "id": "title_original_zh",
+      "file": "assets/title_original_zh.png",
+      "rect_xywh": [
+        163,
+        150,
+        590,
+        184
+      ],
+      "size_wh": [
+        590,
+        184
+      ],
+      "z": 40,
+      "role": "exact original Chinese composite; alternate to blank + label",
+      "alpha50_bbox_local_xywh": [
+        12,
+        14,
+        564,
+        158
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        11,
+        12,
+        566,
+        162
+      ],
+      "sha256": "0f6ded80a5e82a1378f1c6c1ad3116b398b4c6f97c4f4d8f40bc00a9580300ab",
+      "runtime_import": true
+    },
+    {
+      "id": "title_blank_normal",
+      "file": "assets/title_blank_normal.png",
+      "rect_xywh": [
+        163,
+        150,
+        590,
+        184
+      ],
+      "size_wh": [
+        590,
+        184
+      ],
+      "z": 40,
+      "role": "AI text repair inside source-locked outline",
+      "alpha50_bbox_local_xywh": [
+        12,
+        14,
+        564,
+        158
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        11,
+        12,
+        566,
+        162
+      ],
+      "sha256": "d33e6f89f30dea4dfcf02dd7142448c7a3ff7fcbc5e3324531931dfc75b64b61",
+      "runtime_import": true
+    },
+    {
+      "id": "cta_original_zh",
+      "file": "assets/cta_original_zh.png",
+      "rect_xywh": [
+        165,
+        1480,
+        585,
+        180
+      ],
+      "size_wh": [
+        585,
+        180
+      ],
+      "z": 40,
+      "role": "exact original Chinese composite; alternate to blank + label",
+      "alpha50_bbox_local_xywh": [
+        14,
+        17,
+        555,
+        150
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        13,
+        15,
+        558,
+        153
+      ],
+      "sha256": "bc51652b8442673dacf82b0069ae8ed784a0755150e4961b31f248b21cacef91",
+      "runtime_import": true
+    },
+    {
+      "id": "cta_blank_normal",
+      "file": "assets/cta_blank_normal.png",
+      "rect_xywh": [
+        165,
+        1480,
+        585,
+        180
+      ],
+      "size_wh": [
+        585,
+        180
+      ],
+      "z": 40,
+      "role": "AI text repair inside source-locked outline",
+      "alpha50_bbox_local_xywh": [
+        14,
+        17,
+        555,
+        150
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        13,
+        15,
+        558,
+        153
+      ],
+      "sha256": "64973ba1522f526ef0d37666107ada252f9d56b7a01bba9be3733f2250b94a7f",
+      "runtime_import": true
+    },
+    {
+      "id": "back_normal",
+      "file": "assets/back_normal.png",
+      "rect_xywh": [
+        759,
+        39,
+        128,
+        118
+      ],
+      "size_wh": [
+        128,
+        118
+      ],
+      "z": 50,
+      "role": "source-extracted back",
+      "alpha50_bbox_local_xywh": [
+        11,
+        10,
+        106,
+        94
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        10,
+        8,
+        107,
+        98
+      ],
+      "sha256": "f43c7d0faa16139c7e4fa62a6a4519f8b19ec55bee9a6bef77b8e7ba4d7aa617",
+      "runtime_import": true
+    },
+    {
+      "id": "energy_capsule_blank",
+      "file": "assets/energy_capsule_blank.png",
+      "rect_xywh": [
+        28,
+        43,
+        288,
+        107
+      ],
+      "size_wh": [
+        288,
+        107
+      ],
+      "z": 50,
+      "role": "no dynamic number baked; prefer shared home energy component",
+      "alpha50_bbox_local_xywh": [
+        11,
+        10,
+        266,
+        84
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        9,
+        8,
+        269,
+        88
+      ],
+      "sha256": "f2d9929f5aafef5bbafd6b02614664f18c230979de75ad38213d2b95c0030043",
+      "runtime_import": true
+    },
+    {
+      "id": "subtitle_original_zh",
+      "file": "assets/subtitle_original_zh.png",
+      "rect_xywh": [
+        268,
+        326,
+        380,
+        56
+      ],
+      "size_wh": [
+        380,
+        56
+      ],
+      "z": 45,
+      "role": "source-pixel Chinese glyph artwork; no substitute font",
+      "alpha50_bbox_local_xywh": [
+        12,
+        7,
+        356,
+        42
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        10,
+        5,
+        360,
+        46
+      ],
+      "sha256": "fe25d3960b08fae93e26926d95049864c7728f02dd8fa2bfdd0f4717b9c9c35e",
+      "runtime_import": true
+    },
+    {
+      "id": "rule_original_zh",
+      "file": "assets/rule_original_zh.png",
+      "rect_xywh": [
+        109,
+        1272,
+        695,
+        111
+      ],
+      "size_wh": [
+        695,
+        111
+      ],
+      "z": 30,
+      "role": "source-pixel Chinese glyph artwork; no substitute font",
+      "alpha50_bbox_local_xywh": [
+        12,
+        7,
+        672,
+        97
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        11,
+        6,
+        675,
+        99
+      ],
+      "sha256": "0ce7a4f15abe11d71e53538cfa655bfec75483ae85f811e6ab79fd9fbfaa3534",
+      "runtime_import": true
+    },
+    {
+      "id": "caption_reference_only",
+      "file": "qa/caption_reference_only.png",
+      "rect_xywh": [
+        200,
+        1094,
+        510,
+        151
+      ],
+      "size_wh": [
+        510,
+        151
+      ],
+      "z": 30,
+      "role": "QA only; do not ship baked dynamic caption",
+      "alpha50_bbox_local_xywh": [
+        17,
+        12,
+        480,
+        125
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        15,
+        10,
+        484,
+        129
+      ],
+      "sha256": "5424707b91988fa8d259c46b725bff665fde659c35262b5a4a7892ec4e231842",
+      "runtime_import": false
+    },
+    {
+      "id": "step1_label_zh",
+      "file": "assets/step1_label_zh.png",
+      "rect_xywh": [
+        114,
+        450,
+        191,
+        68
+      ],
+      "size_wh": [
+        191,
+        68
+      ],
+      "z": 35,
+      "role": "source-pixel Chinese glyph artwork; no substitute font",
+      "alpha50_bbox_local_xywh": [
+        10,
+        8,
+        172,
+        54
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        9,
+        7,
+        175,
+        57
+      ],
+      "sha256": "b6621960919a1d237da02e48af982c83d2837f5193f880ca2cb1086560f6fa08",
+      "runtime_import": true
+    },
+    {
+      "id": "step2_label_zh",
+      "file": "assets/step2_label_zh.png",
+      "rect_xywh": [
+        382,
+        453,
+        186,
+        61
+      ],
+      "size_wh": [
+        186,
+        61
+      ],
+      "z": 35,
+      "role": "source-pixel Chinese glyph artwork; no substitute font",
+      "alpha50_bbox_local_xywh": [
+        5,
+        6,
+        176,
+        52
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        4,
+        4,
+        178,
+        56
+      ],
+      "sha256": "bca5c4ef78bb7493f3c6c8f967680b7c5b80d5ebda4f69880b6424831defb1ef",
+      "runtime_import": true
+    },
+    {
+      "id": "step3_label_zh",
+      "file": "assets/step3_label_zh.png",
+      "rect_xywh": [
+        651,
+        453,
+        146,
+        61
+      ],
+      "size_wh": [
+        146,
+        61
+      ],
+      "z": 35,
+      "role": "source-pixel Chinese glyph artwork; no substitute font",
+      "alpha50_bbox_local_xywh": [
+        6,
+        5,
+        134,
+        53
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        4,
+        4,
+        136,
+        56
+      ],
+      "sha256": "e537a5015ef480974ffbb20f5fd13c773a70b1fc4d788a6e45ebc89790e137f7",
+      "runtime_import": true
+    },
+    {
+      "id": "cta_label_zh",
+      "file": "assets/cta_label_zh.png",
+      "rect_xywh": [
+        337,
+        1518,
+        247,
+        107
+      ],
+      "size_wh": [
+        247,
+        107
+      ],
+      "z": 45,
+      "role": "source-pixel Chinese glyph artwork; no substitute font",
+      "alpha50_bbox_local_xywh": [
+        12,
+        7,
+        219,
+        95
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        10,
+        5,
+        222,
+        99
+      ],
+      "sha256": "5dcfccc94e403d0718044be2728b3933df5f2faad921367ac072cf8ca49106c8",
+      "runtime_import": true
+    },
+    {
+      "id": "step1_original",
+      "file": "assets/step1_original.png",
+      "rect_xywh": [
+        73,
+        433,
+        269,
+        106
+      ],
+      "size_wh": [
+        269,
+        106
+      ],
+      "z": 30,
+      "role": "original active first / inactive others composite",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        255,
+        87
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        7,
+        257,
+        95
+      ],
+      "sha256": "51dcd675b084b8f144961a949e8a4e5918a7d9d7427c72df9bde14995727390e",
+      "runtime_import": true
+    },
+    {
+      "id": "step1_blank_native",
+      "file": "assets/step1_blank_native.png",
+      "rect_xywh": [
+        73,
+        433,
+        269,
+        106
+      ],
+      "size_wh": [
+        269,
+        106
+      ],
+      "z": 30,
+      "role": "AI text repair; original per-tab silhouette",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        255,
+        87
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        7,
+        257,
+        95
+      ],
+      "sha256": "f182f74ae33cc3ef41ab6319721bf2c6f2c7b6b585ba623aeffd385f4e44c937",
+      "runtime_import": true
+    },
+    {
+      "id": "step2_original",
+      "file": "assets/step2_original.png",
+      "rect_xywh": [
+        341,
+        433,
+        260,
+        106
+      ],
+      "size_wh": [
+        260,
+        106
+      ],
+      "z": 30,
+      "role": "original active first / inactive others composite",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        246,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        7,
+        252,
+        93
+      ],
+      "sha256": "5a1143a358971539aea9c36d51c9ba754befd7d8806fc8e739f86a08bdce6023",
+      "runtime_import": true
+    },
+    {
+      "id": "step2_blank_native",
+      "file": "assets/step2_blank_native.png",
+      "rect_xywh": [
+        341,
+        433,
+        260,
+        106
+      ],
+      "size_wh": [
+        260,
+        106
+      ],
+      "z": 30,
+      "role": "AI text repair; original per-tab silhouette",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        246,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        7,
+        252,
+        93
+      ],
+      "sha256": "74a73be5a1ec0b07983d1f6d12bb0780b174a17a9c25cc78f3a6809d8bbaa12e",
+      "runtime_import": true
+    },
+    {
+      "id": "step3_original",
+      "file": "assets/step3_original.png",
+      "rect_xywh": [
+        600,
+        433,
+        244,
+        106
+      ],
+      "size_wh": [
+        244,
+        106
+      ],
+      "z": 30,
+      "role": "original active first / inactive others composite",
+      "alpha50_bbox_local_xywh": [
+        7,
+        8,
+        230,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        4,
+        7,
+        234,
+        94
+      ],
+      "sha256": "4d4a6f318fcc9907253afebd3c69635f295ace9b6207dc1ab4a41aa5171df09e",
+      "runtime_import": true
+    },
+    {
+      "id": "step3_blank_native",
+      "file": "assets/step3_blank_native.png",
+      "rect_xywh": [
+        600,
+        433,
+        244,
+        106
+      ],
+      "size_wh": [
+        244,
+        106
+      ],
+      "z": 30,
+      "role": "AI text repair; original per-tab silhouette",
+      "alpha50_bbox_local_xywh": [
+        7,
+        8,
+        230,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        4,
+        7,
+        234,
+        94
+      ],
+      "sha256": "240afe80114d82250c87586cb5770e55738466b9d5a38049c247bb5ff22780f4",
+      "runtime_import": true
+    },
+    {
+      "id": "step1_active",
+      "file": "assets/step1_active.png",
+      "rect_xywh": [
+        73,
+        433,
+        269,
+        106
+      ],
+      "size_wh": [
+        269,
+        106
+      ],
+      "z": 30,
+      "role": "material variant from imagegen-cleaned source tab; exact native alpha; no label baked",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        255,
+        87
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        7,
+        257,
+        95
+      ],
+      "sha256": "f182f74ae33cc3ef41ab6319721bf2c6f2c7b6b585ba623aeffd385f4e44c937",
+      "runtime_import": true
+    },
+    {
+      "id": "step1_inactive",
+      "file": "assets/step1_inactive.png",
+      "rect_xywh": [
+        73,
+        433,
+        269,
+        106
+      ],
+      "size_wh": [
+        269,
+        106
+      ],
+      "z": 30,
+      "role": "material variant from imagegen-cleaned source tab; exact native alpha; no label baked",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        255,
+        87
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        7,
+        257,
+        95
+      ],
+      "sha256": "7d2bb5f6576c66476cccef4f72282c650b3ab73242be1732882f2ff59870c7d9",
+      "runtime_import": true
+    },
+    {
+      "id": "step2_active",
+      "file": "assets/step2_active.png",
+      "rect_xywh": [
+        341,
+        433,
+        260,
+        106
+      ],
+      "size_wh": [
+        260,
+        106
+      ],
+      "z": 30,
+      "role": "material variant from imagegen-cleaned source tab; exact native alpha; no label baked",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        246,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        7,
+        252,
+        93
+      ],
+      "sha256": "1c8d417100f071fb66460ea23fdfcba50cdbf8a4314382f880a2637e4217470d",
+      "runtime_import": true
+    },
+    {
+      "id": "step2_inactive",
+      "file": "assets/step2_inactive.png",
+      "rect_xywh": [
+        341,
+        433,
+        260,
+        106
+      ],
+      "size_wh": [
+        260,
+        106
+      ],
+      "z": 30,
+      "role": "material variant from imagegen-cleaned source tab; exact native alpha; no label baked",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        246,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        7,
+        252,
+        93
+      ],
+      "sha256": "abd02ad9bac21a6ad47e758d4b2d6e7b759b172b72a61c67d34eda0b680bda6d",
+      "runtime_import": true
+    },
+    {
+      "id": "step3_active",
+      "file": "assets/step3_active.png",
+      "rect_xywh": [
+        600,
+        433,
+        244,
+        106
+      ],
+      "size_wh": [
+        244,
+        106
+      ],
+      "z": 30,
+      "role": "material variant from imagegen-cleaned source tab; exact native alpha; no label baked",
+      "alpha50_bbox_local_xywh": [
+        7,
+        8,
+        230,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        4,
+        7,
+        234,
+        94
+      ],
+      "sha256": "4b4d0b22fd3c95dddb134d2414ff870d9524600ba44437790a478106d1bd225f",
+      "runtime_import": true
+    },
+    {
+      "id": "step3_inactive",
+      "file": "assets/step3_inactive.png",
+      "rect_xywh": [
+        600,
+        433,
+        244,
+        106
+      ],
+      "size_wh": [
+        244,
+        106
+      ],
+      "z": 30,
+      "role": "material variant from imagegen-cleaned source tab; exact native alpha; no label baked",
+      "alpha50_bbox_local_xywh": [
+        7,
+        8,
+        230,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        4,
+        7,
+        234,
+        94
+      ],
+      "sha256": "bb46392dfd42753d8afeeb8af0df4ec18c7c076b3a583dd26a47d6a4b5b3d2e2",
+      "runtime_import": true
+    },
+    {
+      "id": "cta_blank_pressed",
+      "file": "assets/cta_blank_pressed.png",
+      "rect_xywh": [
+        165,
+        1480,
+        585,
+        180
+      ],
+      "size_wh": [
+        585,
+        180
+      ],
+      "z": 40,
+      "role": "new imagegen material-state candidate; exact normal alpha",
+      "alpha50_bbox_local_xywh": [
+        14,
+        17,
+        555,
+        150
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        13,
+        15,
+        558,
+        153
+      ],
+      "sha256": "7495b41985fa44c26fb934d289032bd088978f1da2ddbf49b4c981c90af490b1",
+      "runtime_import": true
+    },
+    {
+      "id": "cta_blank_disabled",
+      "file": "assets/cta_blank_disabled.png",
+      "rect_xywh": [
+        165,
+        1480,
+        585,
+        180
+      ],
+      "size_wh": [
+        585,
+        180
+      ],
+      "z": 40,
+      "role": "new imagegen material-state candidate; exact normal alpha",
+      "alpha50_bbox_local_xywh": [
+        14,
+        17,
+        555,
+        150
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        13,
+        15,
+        558,
+        153
+      ],
+      "sha256": "46e289b1bc63a22dd41e6fe1b80f91384f624589100e26bc5037f6e9567d1842",
+      "runtime_import": true
+    }
+  ],
+  "dynamic": {
+    "bottle_visual_slot_xywh": [
+      104,
+      560,
+      707,
+      524
+    ],
+    "caption_slot_xywh": [
+      200,
+      1094,
+      510,
+      151
+    ],
+    "energy_value_slot_xywh": [
+      118,
+      71,
+      115,
+      46
+    ],
+    "caption_reference_asset": "QA only; never bake into frame or use as invariant gameplay state"
+  },
+  "nine_slice": {
+    "guide_frame_blank": {
+      "margins_ltrb": [
+        115,
+        172,
+        115,
+        115
+      ],
+      "notes": "Keep top step band and all corner radii; preferred native uniform scaling; only extend straight frame spans if layout needs. Inner white panel is part of frame.",
+      "physical_slices_contract": "contracts/frame_geometry_and_nine_slice.json"
+    },
+    "title_blank_normal": {
+      "margins_ltrb": [
+        100,
+        55,
+        100,
+        55
+      ]
+    },
+    "cta_blank_normal": {
+      "margins_ltrb": [
+        95,
+        55,
+        95,
+        55
+      ]
+    }
+  },
+  "layer_order": [
+    "host existing background",
+    "guide_frame_blank",
+    "true BottleVisual",
+    "step bases",
+    "step glyphs",
+    "dynamic caption",
+    "rule_original_zh",
+    "title / CTA",
+    "back / live energy"
+  ],
+  "runtime_asset_count": 27,
+  "revision": "v1.1_root_edge_QA_corrections",
+  "version": "v1.1",
+  "acceptance_scope": "Asset slicing only. Not approval of actual BottleVisual, dynamic caption, live energy, English localization, or game implementation."
+}

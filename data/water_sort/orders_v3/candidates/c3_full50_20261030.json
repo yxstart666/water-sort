@@ -1,0 +1,2906 @@
+{
+  "schema_version": 1,
+  "content_version": "orders-v3-c3-full50-20261030",
+  "capacity": 4,
+  "levels": [
+    {
+      "id": 1,
+      "title": "选瓶与留位",
+      "capacity": 4,
+      "bottles": [
+        [],
+        [
+          "red",
+          "red",
+          "blue",
+          "green"
+        ],
+        [
+          "red",
+          "blue",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "green",
+          "green"
+        ],
+        []
+      ],
+      "orders": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "first_move_guide": {
+        "source": 1,
+        "target": 0
+      }
+    },
+    {
+      "id": 2,
+      "title": "先腾出位置",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "red",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "red",
+          "green",
+          "blue"
+        ],
+        []
+      ],
+      "orders": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 3,
+      "title": "先交指定颜色",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "green"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 3,
+          "condition": {
+            "kind": "color",
+            "color": "green",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "倒走上层再看问号",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "red",
+          "green",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "purple",
+          "red",
+          "yellow"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "purple",
+        "yellow"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "unknown_layers": [
+        {
+          "bottle": 0,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "先交单再揭晓",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "yellow",
+          "blue"
+        ],
+        [
+          "blue",
+          "purple",
+          "green",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "purple",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 3,
+          "condition": {
+            "kind": "color",
+            "color": "red",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 0,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "看清新露出的颜色",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        [
+          "red",
+          "yellow",
+          "green",
+          "red"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "green"
+        ],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "blue",
+        "red",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "unknown_layers": [
+        {
+          "bottle": 2,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "先找指定订单",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        [
+          "green",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [
+          "green",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "blue",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "blue",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 2,
+          "condition": {
+            "kind": "color",
+            "color": "blue",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "腾出一条路",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "red",
+          "green"
+        ],
+        [
+          "red",
+          "yellow",
+          "green",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        []
+      ],
+      "orders": [
+        "green",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 9,
+      "title": "交单后再揭晓",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "red",
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 3,
+          "condition": {
+            "kind": "color",
+            "color": "red",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 1,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "一次小回顾",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [
+          "blue",
+          "blue",
+          "green",
+          "red"
+        ],
+        []
+      ],
+      "orders": [
+        "green",
+        "yellow",
+        "red",
+        "blue"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 11,
+      "title": "先交这一色",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "green",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "yellow",
+          "red",
+          "blue",
+          "blue"
+        ],
+        [
+          "red",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "green",
+        "blue",
+        "purple",
+        "yellow",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 2,
+          "condition": {
+            "kind": "color",
+            "color": "green",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "留位再揭层",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "blue",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "green",
+          "red"
+        ],
+        [
+          "purple",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "red",
+          "blue",
+          "yellow",
+          "blue"
+        ],
+        [
+          "red",
+          "green",
+          "yellow",
+          "purple"
+        ],
+        []
+      ],
+      "orders": [
+        "blue",
+        "green",
+        "red",
+        "purple",
+        "yellow"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "unknown_layers": [
+        {
+          "bottle": 1,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "五色短接力",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [
+          "purple",
+          "yellow",
+          "purple",
+          "yellow"
+        ],
+        [
+          "green",
+          "purple",
+          "blue",
+          "yellow"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "green",
+        "red",
+        "purple",
+        "blue"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 4,
+          "condition": {
+            "kind": "color",
+            "color": "yellow",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 1,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "先空哪一瓶",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "yellow",
+          "purple",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "green",
+          "yellow",
+          "blue"
+        ],
+        [
+          "red",
+          "green",
+          "purple",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "green",
+          "blue"
+        ],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "red",
+        "blue",
+        "green",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 15,
+      "title": "先完成一单",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "purple",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "blue",
+          "blue",
+          "blue"
+        ],
+        [
+          "yellow",
+          "purple",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "red",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "purple",
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 1,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "一层一层看",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "red",
+          "blue"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "green",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "yellow",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "red",
+          "blue"
+        ],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "green",
+        "red",
+        "blue",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "unknown_layers": [
+        {
+          "bottle": 4,
+          "layers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "给目标色让路",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "yellow",
+          "purple",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "blue",
+          "blue",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "green",
+        "purple",
+        "blue",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 1,
+          "condition": {
+            "kind": "color",
+            "color": "yellow",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "换一个接收方向",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "blue",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "purple"
+        ],
+        [
+          "green",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        [
+          "purple",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "green",
+          "yellow",
+          "red"
+        ],
+        []
+      ],
+      "orders": [
+        "blue",
+        "purple",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 19,
+      "title": "解布后的下一层",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "purple",
+          "purple",
+          "red"
+        ],
+        [
+          "yellow",
+          "purple",
+          "red",
+          "blue"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 0,
+          "condition": {
+            "kind": "color",
+            "color": "blue",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 1,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "中段留位",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "green",
+          "blue",
+          "purple"
+        ],
+        [
+          "purple",
+          "blue",
+          "green",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "blue",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "green",
+          "blue",
+          "purple",
+          "green"
+        ],
+        []
+      ],
+      "orders": [
+        "purple",
+        "red",
+        "green",
+        "yellow",
+        "blue"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 21,
+      "title": "指定订单的先后",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "yellow",
+          "purple"
+        ],
+        [
+          "purple",
+          "green",
+          "purple",
+          "blue"
+        ],
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "red",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "yellow",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "blue",
+        "green",
+        "red",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 1,
+          "condition": {
+            "kind": "color",
+            "color": "yellow",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "看见再决定",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "purple",
+          "purple"
+        ],
+        [
+          "green",
+          "green",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "red",
+          "blue",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "purple",
+          "green"
+        ],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "red",
+        "green",
+        "purple",
+        "blue"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "unknown_layers": [
+        {
+          "bottle": 1,
+          "layers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "先交指定的一单",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "red"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "purple",
+          "green"
+        ],
+        [
+          "purple",
+          "blue",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "purple",
+          "blue",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "purple",
+        "red",
+        "blue",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 3,
+          "condition": {
+            "kind": "color",
+            "color": "yellow",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 1,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "给下一色留口",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "purple",
+          "green",
+          "red"
+        ],
+        [
+          "red",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "purple",
+          "blue"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "green",
+          "yellow"
+        ],
+        []
+      ],
+      "orders": [
+        "blue",
+        "yellow",
+        "green",
+        "purple",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 25,
+      "title": "两单再打开",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "green",
+          "red",
+          "blue"
+        ],
+        [
+          "blue",
+          "red",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "blue",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "green",
+          "purple",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "purple",
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "三排从容接力",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "blue",
+          "orange",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "yellow",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "red",
+          "red",
+          "blue",
+          "orange"
+        ],
+        [
+          "green",
+          "purple"
+        ],
+        [
+          "orange",
+          "red"
+        ],
+        [
+          "green",
+          "green"
+        ],
+        [
+          "red",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "green",
+        "red",
+        "red",
+        "blue",
+        "orange",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 0,
+          "condition": {
+            "kind": "color",
+            "color": "yellow",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "当前色的出口",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "orange",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "purple",
+          "green",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "green",
+          "red",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green",
+          "blue",
+          "purple",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "green",
+        "blue",
+        "purple",
+        "orange",
+        "red",
+        "yellow"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 0,
+          "condition": {
+            "kind": "color",
+            "color": "green",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "短链先后",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "red",
+          "green"
+        ],
+        [
+          "green",
+          "blue",
+          "blue",
+          "orange"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [
+          "orange",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "orange",
+          "yellow",
+          "purple"
+        ],
+        []
+      ],
+      "orders": [
+        "purple",
+        "orange",
+        "yellow",
+        "red",
+        "blue",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 29,
+      "title": "先开布再看",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "blue",
+          "orange",
+          "red"
+        ],
+        [
+          "green",
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "red",
+          "green",
+          "yellow",
+          "red"
+        ],
+        [
+          "purple",
+          "purple",
+          "green",
+          "orange"
+        ],
+        [
+          "green",
+          "orange",
+          "purple",
+          "purple"
+        ],
+        [
+          "orange",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "red",
+        "green",
+        "blue",
+        "orange",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 3,
+          "condition": {
+            "kind": "color",
+            "color": "yellow",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 2,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "第三段回顾",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "red",
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "red",
+          "green",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "red",
+          "orange"
+        ],
+        [
+          "blue",
+          "orange",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "green",
+          "purple"
+        ],
+        [
+          "purple",
+          "yellow",
+          "purple",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "orange",
+        "green",
+        "red",
+        "blue",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 31,
+      "title": "六色分组",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "green",
+          "purple",
+          "red"
+        ],
+        [
+          "purple",
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "blue"
+        ],
+        [
+          "blue",
+          "red",
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "purple",
+          "green",
+          "orange"
+        ],
+        [
+          "yellow",
+          "red",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "green",
+        "purple",
+        "yellow",
+        "orange",
+        "red",
+        "blue"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 3,
+          "condition": {
+            "kind": "color",
+            "color": "green",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "逐层安排",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "orange",
+          "orange",
+          "yellow"
+        ],
+        [
+          "red",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "yellow",
+          "purple"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "green"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow",
+          "green"
+        ],
+        []
+      ],
+      "orders": [
+        "red",
+        "yellow",
+        "blue",
+        "purple",
+        "green",
+        "orange"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "unknown_layers": [
+        {
+          "bottle": 2,
+          "layers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "解布后的短链",
+      "capacity": 4,
+      "bottles": [
+        [
+          "orange",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "green",
+          "orange"
+        ],
+        [
+          "yellow",
+          "purple",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "yellow",
+          "red",
+          "orange"
+        ],
+        [
+          "green",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "red",
+          "red",
+          "purple",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "blue",
+        "orange",
+        "green",
+        "red",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 5,
+          "condition": {
+            "kind": "color",
+            "color": "blue",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 2,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "空瓶分配",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "yellow",
+          "green",
+          "orange"
+        ],
+        [
+          "red",
+          "green",
+          "red",
+          "red"
+        ],
+        [
+          "green",
+          "purple",
+          "orange",
+          "blue"
+        ],
+        [
+          "orange",
+          "red",
+          "purple",
+          "purple"
+        ],
+        [
+          "purple",
+          "orange",
+          "blue",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "yellow"
+        ],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "purple",
+        "red",
+        "orange",
+        "blue",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 35,
+      "title": "两单一条退路",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "purple"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "green",
+          "orange"
+        ],
+        [
+          "red",
+          "green",
+          "blue",
+          "orange"
+        ],
+        [
+          "blue",
+          "yellow",
+          "green",
+          "purple"
+        ],
+        [
+          "green",
+          "yellow",
+          "orange",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "purple",
+        "blue",
+        "orange",
+        "red",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "只揭眼前一层",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "orange",
+          "blue",
+          "purple"
+        ],
+        [
+          "red",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "purple",
+          "blue",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "yellow",
+          "orange",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "green",
+          "orange",
+          "green"
+        ],
+        []
+      ],
+      "orders": [
+        "red",
+        "green",
+        "blue",
+        "yellow",
+        "orange",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "unknown_layers": [
+        {
+          "bottle": 4,
+          "layers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "指定颜色的次序",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "green",
+          "orange",
+          "green"
+        ],
+        [
+          "purple",
+          "orange",
+          "red",
+          "green"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        [
+          "blue",
+          "purple",
+          "blue",
+          "orange"
+        ],
+        [
+          "yellow",
+          "blue",
+          "purple",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "orange",
+        "yellow",
+        "blue",
+        "red",
+        "green",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 3,
+          "condition": {
+            "kind": "color",
+            "color": "orange",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "接收位置的取舍",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "orange",
+          "blue",
+          "purple"
+        ],
+        [
+          "purple",
+          "yellow",
+          "orange",
+          "yellow"
+        ],
+        [
+          "orange",
+          "blue",
+          "green",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "orange",
+          "purple"
+        ],
+        [
+          "red",
+          "green",
+          "red",
+          "yellow"
+        ],
+        [
+          "green",
+          "yellow",
+          "purple",
+          "green"
+        ],
+        []
+      ],
+      "orders": [
+        "blue",
+        "purple",
+        "red",
+        "green",
+        "yellow",
+        "orange"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 39,
+      "title": "留好揭露后的去处",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "yellow",
+          "orange",
+          "red"
+        ],
+        [
+          "green",
+          "orange",
+          "blue",
+          "blue"
+        ],
+        [
+          "purple",
+          "orange",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "yellow",
+          "purple",
+          "purple"
+        ],
+        [
+          "red",
+          "yellow",
+          "orange",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "blue",
+        "orange",
+        "purple",
+        "yellow",
+        "green",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 2,
+          "condition": {
+            "kind": "color",
+            "color": "blue",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 4,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "第四段回顾",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "orange",
+          "red",
+          "yellow"
+        ],
+        [
+          "blue",
+          "blue",
+          "pink",
+          "yellow"
+        ],
+        [
+          "blue",
+          "green",
+          "purple",
+          "red"
+        ],
+        [
+          "orange",
+          "purple",
+          "yellow",
+          "green"
+        ],
+        [
+          "pink",
+          "purple",
+          "green",
+          "red"
+        ],
+        [
+          "orange",
+          "pink",
+          "purple",
+          "pink"
+        ],
+        [
+          "orange",
+          "blue",
+          "red",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "pink",
+        "orange",
+        "yellow",
+        "red",
+        "blue",
+        "green",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 3,
+          "layers": [
+            0
+          ]
+        },
+        {
+          "bottle": 1,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "短链次序",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "red",
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "yellow",
+          "purple"
+        ],
+        [
+          "green",
+          "orange",
+          "blue",
+          "red"
+        ],
+        [
+          "purple",
+          "orange",
+          "purple",
+          "yellow"
+        ],
+        [
+          "orange",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "orange",
+          "blue",
+          "red",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "yellow",
+        "green",
+        "red",
+        "orange",
+        "purple",
+        "blue"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 2,
+          "condition": {
+            "kind": "color",
+            "color": "yellow",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "三排小回报",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "green",
+          "red",
+          "red"
+        ],
+        [
+          "blue",
+          "purple",
+          "blue",
+          "yellow"
+        ],
+        [
+          "red",
+          "red",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "blue"
+        ],
+        [
+          "red",
+          "red"
+        ],
+        [
+          "yellow",
+          "blue"
+        ],
+        [
+          "red",
+          "red"
+        ],
+        [
+          "green",
+          "green"
+        ],
+        [
+          "purple",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "red",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 1,
+          "condition": {
+            "kind": "color",
+            "color": "red",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "交付后看下一层",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "red",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [
+          "orange",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "purple",
+          "red",
+          "orange"
+        ],
+        [
+          "purple",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "purple",
+        "blue",
+        "orange",
+        "green",
+        "yellow",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 0,
+          "condition": {
+            "kind": "color",
+            "color": "purple",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 1,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "为下一色腾空",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "red",
+          "purple"
+        ],
+        [
+          "orange",
+          "purple",
+          "red",
+          "red"
+        ],
+        [
+          "yellow",
+          "green",
+          "yellow",
+          "orange"
+        ],
+        [
+          "green",
+          "blue",
+          "green",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "orange"
+        ],
+        []
+      ],
+      "orders": [
+        "green",
+        "purple",
+        "orange",
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 45,
+      "title": "两单收束",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "green",
+          "purple",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "purple",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "yellow",
+          "blue"
+        ],
+        [
+          "red",
+          "red",
+          "yellow",
+          "orange"
+        ],
+        [
+          "orange",
+          "red",
+          "blue",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "green",
+        "orange",
+        "yellow",
+        "purple",
+        "blue",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "逐层接续",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "purple",
+          "red",
+          "purple"
+        ],
+        [
+          "green",
+          "yellow",
+          "yellow",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "orange",
+          "purple"
+        ],
+        [
+          "yellow",
+          "blue",
+          "green",
+          "purple"
+        ],
+        [
+          "green",
+          "orange",
+          "blue",
+          "yellow"
+        ],
+        [
+          "red",
+          "red",
+          "orange",
+          "blue"
+        ],
+        []
+      ],
+      "orders": [
+        "red",
+        "purple",
+        "green",
+        "blue",
+        "yellow",
+        "orange"
+      ],
+      "bonus_bottle": false,
+      "masks": [],
+      "unknown_layers": [
+        {
+          "bottle": 1,
+          "layers": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "指定颜色接力",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "blue",
+          "purple",
+          "purple"
+        ],
+        [
+          "green",
+          "yellow",
+          "yellow",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "green",
+          "orange"
+        ],
+        [
+          "purple",
+          "blue",
+          "orange",
+          "orange"
+        ],
+        [
+          "red",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "red",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "purple",
+        "blue",
+        "orange",
+        "yellow",
+        "red",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 5,
+          "condition": {
+            "kind": "color",
+            "color": "purple",
+            "orders": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "给最后一段留路",
+      "capacity": 4,
+      "bottles": [
+        [
+          "orange",
+          "blue",
+          "green",
+          "green"
+        ],
+        [
+          "red",
+          "orange",
+          "purple",
+          "green"
+        ],
+        [
+          "purple",
+          "yellow",
+          "green",
+          "purple"
+        ],
+        [
+          "blue",
+          "blue",
+          "yellow",
+          "orange"
+        ],
+        [
+          "purple",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "red",
+          "yellow"
+        ],
+        []
+      ],
+      "orders": [
+        "blue",
+        "yellow",
+        "orange",
+        "green",
+        "purple",
+        "red"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 49,
+      "title": "先交付再揭晓",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "orange",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "red",
+          "green",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "orange",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "purple",
+          "purple"
+        ],
+        [
+          "orange",
+          "red",
+          "purple",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "purple",
+        "red",
+        "yellow",
+        "green",
+        "orange",
+        "blue"
+      ],
+      "bonus_bottle": false,
+      "masks": [
+        {
+          "bottle": 0,
+          "condition": {
+            "kind": "color",
+            "color": "purple",
+            "orders": 1
+          }
+        }
+      ],
+      "unknown_layers": [
+        {
+          "bottle": 3,
+          "layers": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "把颜色收好",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "orange",
+          "blue",
+          "purple"
+        ],
+        [
+          "purple",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "blue",
+          "yellow",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "blue",
+          "purple"
+        ],
+        [
+          "red",
+          "green",
+          "red",
+          "green"
+        ],
+        []
+      ],
+      "orders": [
+        "red",
+        "purple",
+        "orange",
+        "blue",
+        "yellow",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    }
+  ]
+}

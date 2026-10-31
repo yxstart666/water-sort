@@ -1,0 +1,45 @@
+{
+  "source_path": "art/reference2-delivery-20261024/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+  "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+  "bytes": 17002224,
+  "OS2_weight_class": 700,
+  "embedded_names": {
+    "0": [
+      "© 2014-2021 Adobe (http://www.adobe.com/)."
+    ],
+    "1": [
+      "Noto Sans CJK SC"
+    ],
+    "2": [
+      "Bold"
+    ],
+    "3": [
+      "2.004;GOOG;NotoSansCJKsc-Bold;ADOBE"
+    ],
+    "4": [
+      "Noto Sans CJK SC Bold"
+    ],
+    "5": [
+      "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603"
+    ],
+    "6": [
+      "NotoSansCJKsc-Bold"
+    ],
+    "13": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+    ],
+    "14": [
+      "http://scripts.sil.org/OFL"
+    ]
+  },
+  "license_path": "art/reference2-delivery-20261024/reference2_sc_font_v1/licenses/NotoSansCJK-OFL-1.1-UPSTREAM.txt",
+  "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+  "method": "Read SFNT table directory, OS/2 usWeightClass and UTF16 name table directly from exact font binary; no font conversion",
+  "source_collection": {
+    "path": "assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSansCJK-Bold.ttc",
+    "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+    "face_index": 2,
+    "CFF_identical": true,
+    "name_identical": true
+  }
+}

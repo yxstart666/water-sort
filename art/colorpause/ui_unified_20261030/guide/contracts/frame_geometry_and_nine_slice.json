@@ -1,0 +1,118 @@
+{
+  "source_canvas_wh": [
+    915,
+    1719
+  ],
+  "frame_source_rect_xywh": [
+    26,
+    378,
+    863,
+    1115
+  ],
+  "frame_alpha50_bbox_local_xywh": [
+    15,
+    12,
+    832,
+    1084
+  ],
+  "margins_ltrb": [
+    115,
+    172,
+    115,
+    115
+  ],
+  "slices": [
+    {
+      "file": "assets/frame_slices/frame_00.png",
+      "rect_in_frame_xywh": [
+        0,
+        0,
+        115,
+        172
+      ],
+      "stretch_axes": ""
+    },
+    {
+      "file": "assets/frame_slices/frame_01.png",
+      "rect_in_frame_xywh": [
+        115,
+        0,
+        633,
+        172
+      ],
+      "stretch_axes": "x"
+    },
+    {
+      "file": "assets/frame_slices/frame_02.png",
+      "rect_in_frame_xywh": [
+        748,
+        0,
+        115,
+        172
+      ],
+      "stretch_axes": ""
+    },
+    {
+      "file": "assets/frame_slices/frame_10.png",
+      "rect_in_frame_xywh": [
+        0,
+        172,
+        115,
+        828
+      ],
+      "stretch_axes": "y"
+    },
+    {
+      "file": "assets/frame_slices/frame_11.png",
+      "rect_in_frame_xywh": [
+        115,
+        172,
+        633,
+        828
+      ],
+      "stretch_axes": "xy"
+    },
+    {
+      "file": "assets/frame_slices/frame_12.png",
+      "rect_in_frame_xywh": [
+        748,
+        172,
+        115,
+        828
+      ],
+      "stretch_axes": "y"
+    },
+    {
+      "file": "assets/frame_slices/frame_20.png",
+      "rect_in_frame_xywh": [
+        0,
+        1000,
+        115,
+        115
+      ],
+      "stretch_axes": ""
+    },
+    {
+      "file": "assets/frame_slices/frame_21.png",
+      "rect_in_frame_xywh": [
+        115,
+        1000,
+        633,
+        115
+      ],
+      "stretch_axes": "x"
+    },
+    {
+      "file": "assets/frame_slices/frame_22.png",
+      "rect_in_frame_xywh": [
+        748,
+        1000,
+        115,
+        115
+      ],
+      "stretch_axes": ""
+    }
+  ],
+  "primary_mapping": "s=min(viewport_width/915,viewport_height/1719); root_offset centers the 915x1719 source; every child rect uses same s and offset",
+  "critical": "Do not independently shrink pills or title height. Full frame uniform scale is preferred. 9-slice extends only straight frame spans; do not use it to re-layout source art or scale glyphs. Keep BottleVisual/caption as live overlay."
+}

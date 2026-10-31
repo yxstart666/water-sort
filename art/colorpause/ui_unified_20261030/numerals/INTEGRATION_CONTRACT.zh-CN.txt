@@ -1,0 +1,28 @@
+彩瓶时光动态美术数字 1.0 — 受控字表补全设计，不是找回原字体
+
+范围
+- Home：白面/棕rim，0–9；第、关及数码1来自批准高分第1关源，保原RGB，恢复alpha并清理边缘。其余数字为本轮批准补全。
+- Levels：同一0–9形状，blue/completed、gold/current、locked灰蓝三态。金/灰仅从同一蓝字形做rim材质映射，alpha逐像素一致，禁止各态换字体。
+- Energy：减细上/侧rim后的v2白面/navy短影0–9；斜线/原稿提取。
+- 不覆盖Victory/Records，它们仍用正确蓝字native，不偷用这套白数字。
+
+必须遵守
+1) 只读manifest坐标和metrics做SpriteGlyph；不可用FontVariation、额外embolden、MSDF、普通font_size或CSS描边替代。
+2) 5张atlas存原生像素；同一atlas中原件与补图原生字高不同是刻意保真。每字采用同一个二维标量s=目标数码白面高度/native_numeric_em，横纵同时等比缩放。不能按图片盒子等高，不能x/y分别拉伸。
+3) offset_y_em基于数码白面baseline；中文前后字与slash保原源相对偏移。Home em=77；第face92、末关face91，白面基线分别比数码低7、6原生像素。Energy / face77，baseline比数码低8原生像素。
+4) advance_em是本字完整原生盒子宽/em+gap；Home gap=0，其他0.05em。当前pair kerning为空，先按合同精确实现，不擅自负kern造成外沿相撞。绘完一串后去掉最后gap，算整串quad或实际墨迹包围盒，整串水平居中；不是逐字符占等宽格居中。
+5) Home使用新的空slot底；第/关只各绘一次，不叠旧静态第1关。原源目标：2070宽按钮中数码face77、第face92；按钮渲染294宽时数码10.94px、前后字约13.07px。原字段墨迹中心约(1035,587)，numeric baseline626，安全区[750,520,558,132]。缩放全体与母稿按钮同倍率；不是把数码也设92。
+6) Levels按914宽批准母稿到实际布局的同一倍率。原稿completed数字face91px、current94px、locked约86px；三态仍同形状，仅根据原稿状态目标等比缩放。QA390宽等效分别38.83、40.11、36.70px。单/双位不换字形，1/10/50整串居中，不能把双位横向压扁。适配必须保持原tile几何与周边lock/check内容。
+7) Energy按1024宽批准母稿弹窗整体映射倍率，数码face66px，slash77px；390宽等效25.14/29.33px仅为QA示例。如工程弹窗采用其他整体尺度，遵循同倍率，不独立改数字大小。0/30、25/30、30/30字段保持中心。
+8) PNG straight-alpha，透明背景，线性过滤，禁repeat。Atlas8px透明隔离，无外部描边/阴影叠加。不向低原生素材放大宣称真正高分：Home原1 face77、第关91/92、slash77；生产目标均明显小于源。
+
+文件
+manifest.json：原生atlas rect、单字路径、native em、white-face bbox、baseline bearing、advance、来源。
+glyphs/：53个独立RGBA（Home12、Levels30、Energy11）。
+atlases/：5张native像素atlas。每个rect与独立glyph像素相同。
+qa/production_scale_centered_strings.png：真实Start底贴板第1/13/30/50，Levels1/10/50三态、Energy0/30/25/30/30/30；彩色Levels矩形只是静态排字诊断不是正式tile底。
+qa/all_glyphs_alpha_light_dark.png：完整50个数码浅/深底。
+qa/original_symbols_alpha_2x.png：原第/关/1与/的2x nearest边界诊断，非宣称原生2倍解析度。
+
+验收边界
+root已准入Home/Levels补全源及Energy v2源；这是受控视觉补全，不是原稿字体逐像素一致。正式包alpha/几何已于2026-10-30 14:33 UTC获得root资产验收通过，不等于游戏native/MCP验收。Runtime还需实际GameView检查：动态数值、居中/缩放、三态、全部1..50、能量0..30与slash、切页/重开/多语言、最小屏幕清晰度。静态排字不能替代native验收。

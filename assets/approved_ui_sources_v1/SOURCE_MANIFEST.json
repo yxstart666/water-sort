@@ -1,0 +1,199 @@
+{
+  "package_version": "1",
+  "source_bytes_unchanged": true,
+  "png_count": 9,
+  "assets": [
+    {
+      "package_path": "assets/full_buttons/button_levels_zh_normal.png",
+      "source_path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/button_levels_zh_normal.png",
+      "source_sha256": "fd6fc1dc4795f8e231ba1c5f5296d8c0e99ce0beaf2660652609714ce25362a9",
+      "bytes": 71280,
+      "size_px": [
+        245,
+        242
+      ],
+      "mode": "RGBA",
+      "source_bytes_unchanged": true,
+      "alpha_nonzero_bbox_xyxy": [
+        6,
+        6,
+        239,
+        233
+      ],
+      "alpha_gt127_bbox_xyxy": [
+        6,
+        6,
+        239,
+        233
+      ]
+    },
+    {
+      "package_path": "assets/full_buttons/button_records_zh_normal.png",
+      "source_path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/button_records_zh_normal.png",
+      "source_sha256": "b755d2c0bb695fed013169289c3271c85f6d6dfe89063e5a3c1f961fd2b67858",
+      "bytes": 72365,
+      "size_px": [
+        243,
+        242
+      ],
+      "mode": "RGBA",
+      "source_bytes_unchanged": true,
+      "alpha_nonzero_bbox_xyxy": [
+        6,
+        6,
+        237,
+        233
+      ],
+      "alpha_gt127_bbox_xyxy": [
+        6,
+        6,
+        237,
+        233
+      ]
+    },
+    {
+      "package_path": "assets/full_buttons/button_settings_zh_normal.png",
+      "source_path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/button_settings_zh_normal.png",
+      "source_sha256": "c9b881c4409f261e49d2f3d3f626948361a463d8037f9052b4e2f45be799f460",
+      "bytes": 29665,
+      "size_px": [
+        138,
+        139
+      ],
+      "mode": "RGBA",
+      "source_bytes_unchanged": true,
+      "alpha_nonzero_bbox_xyxy": [
+        5,
+        6,
+        130,
+        129
+      ],
+      "alpha_gt127_bbox_xyxy": [
+        5,
+        6,
+        130,
+        129
+      ]
+    },
+    {
+      "package_path": "assets/full_buttons/button_home_reference.png",
+      "source_path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/controls/button_home_reference.png",
+      "source_sha256": "822a1e3fb19aa6e4514b3bd25e2b491877f4bd9bd00be76ed551c165cdfdada1",
+      "bytes": 82371,
+      "size_px": [
+        282,
+        247
+      ],
+      "mode": "RGBA",
+      "source_bytes_unchanged": true,
+      "alpha_nonzero_bbox_xyxy": [
+        2,
+        1,
+        281,
+        246
+      ],
+      "alpha_gt127_bbox_xyxy": [
+        3,
+        2,
+        280,
+        245
+      ]
+    },
+    {
+      "package_path": "assets/full_buttons/button_replay_reference.png",
+      "source_path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/controls/button_replay_reference.png",
+      "source_sha256": "e3abb07d3c184e8310c09d0ea7903891e66c588b4c5fd9c80512486e6672b756",
+      "bytes": 84140,
+      "size_px": [
+        283,
+        247
+      ],
+      "mode": "RGBA",
+      "source_bytes_unchanged": true,
+      "alpha_nonzero_bbox_xyxy": [
+        2,
+        1,
+        282,
+        246
+      ],
+      "alpha_gt127_bbox_xyxy": [
+        3,
+        2,
+        281,
+        245
+      ]
+    },
+    {
+      "package_path": "references/levels_reference_914x1720.png",
+      "source_path": "/workspace/scratch/abf455579c09/generated_images/exec-d476e3fe-2bec-47c8-ae7b-6dc84b4a33b2.png",
+      "source_sha256": "822e6e30012bf0bcad8f287ba8418afe369f5c80a522515c50fcaf65898c5d32",
+      "bytes": 1570842,
+      "size_px": [
+        914,
+        1720
+      ],
+      "mode": "RGB",
+      "source_bytes_unchanged": true
+    },
+    {
+      "package_path": "references/start_source_reference.png",
+      "source_path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/start_source_reference.png",
+      "source_sha256": "0f3e49dd904f0a528b7e7fca0251a5f53340adea327c5c6ae7aeedc005bb38bc",
+      "bytes": 199533,
+      "size_px": [
+        695,
+        255
+      ],
+      "mode": "RGB",
+      "source_bytes_unchanged": true
+    },
+    {
+      "package_path": "assets/home/label_start_zh-CN.png",
+      "source_path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/label_start_zh-CN.png",
+      "source_sha256": "889dca32d0a6bc6cd6403058a412999427041a9ad86c54600b908d82466d35a0",
+      "bytes": 96750,
+      "size_px": [
+        468,
+        129
+      ],
+      "mode": "RGBA",
+      "source_bytes_unchanged": true,
+      "alpha_nonzero_bbox_xyxy": [
+        2,
+        5,
+        461,
+        128
+      ],
+      "alpha_gt127_bbox_xyxy": [
+        3,
+        6,
+        460,
+        127
+      ]
+    },
+    {
+      "package_path": "assets/highres/settings_v1_raw.png",
+      "source_path": "/workspace/scratch/abf455579c09/colorpause_user_visual_feedback_20261030/repaired_assets/settings_v1_raw.png",
+      "source_sha256": "3bd6ea82fffb45aec3a5160cab8448a58d579c67e67aafbbe80bda1946f67c55",
+      "bytes": 1318937,
+      "size_px": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "source_bytes_unchanged": true,
+      "alpha_nonzero_bbox_xyxy": [
+        0,
+        0,
+        1218,
+        1230
+      ],
+      "alpha_gt127_bbox_xyxy": [
+        43,
+        52,
+        1207,
+        1207
+      ]
+    }
+  ]
+}

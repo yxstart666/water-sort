@@ -1,0 +1,154 @@
+{
+  "guide_frame_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 6301,
+    "source_coordinates_preserved": true
+  },
+  "title_original_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2347,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "title_blank_normal": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2347,
+    "source_coordinates_preserved": true
+  },
+  "cta_original_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2027,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "cta_blank_normal": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2027,
+    "source_coordinates_preserved": true
+  },
+  "back_normal": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 631,
+    "source_coordinates_preserved": true
+  },
+  "energy_capsule_blank": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1018,
+    "source_coordinates_preserved": true
+  },
+  "subtitle_original_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 4882,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "rule_original_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 6631,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "caption_reference_only": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 6287,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "step1_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2798,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "step2_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 3011,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "step3_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2317,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "cta_label_zh": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 4177,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "step1_original": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2529,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "step1_blank_native": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2529,
+    "source_coordinates_preserved": true
+  },
+  "step2_original": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2008,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "step2_blank_native": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2008,
+    "source_coordinates_preserved": true
+  },
+  "step3_original": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1906,
+    "source_coordinates_preserved": true,
+    "opaque_source_RGB_max_difference": 0
+  },
+  "step3_blank_native": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1906,
+    "source_coordinates_preserved": true
+  },
+  "step1_active": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2529,
+    "source_coordinates_preserved": true
+  },
+  "step1_inactive": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2529,
+    "source_coordinates_preserved": true
+  },
+  "step2_active": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2008,
+    "source_coordinates_preserved": true
+  },
+  "step2_inactive": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2008,
+    "source_coordinates_preserved": true
+  },
+  "step3_active": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1906,
+    "source_coordinates_preserved": true
+  },
+  "step3_inactive": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 1906,
+    "source_coordinates_preserved": true
+  },
+  "cta_blank_pressed": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2027,
+    "source_coordinates_preserved": true
+  },
+  "cta_blank_disabled": {
+    "transparent_RGB_nonzero": 0,
+    "semi_transparent_pixels": 2027,
+    "source_coordinates_preserved": true
+  }
+}

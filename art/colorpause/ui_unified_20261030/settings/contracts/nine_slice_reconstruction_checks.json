@@ -1,0 +1,10 @@
+{
+  "settings_frame_blank": true,
+  "title_blank": true,
+  "language_button_blank_normal": true,
+  "sound_row_blank": true,
+  "music_row_blank": true,
+  "vibration_row_blank": true,
+  "language_row_blank": true,
+  "guide_row_blank": true
+}

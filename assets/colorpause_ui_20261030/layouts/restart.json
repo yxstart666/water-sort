@@ -1,0 +1,449 @@
+{
+  "zh": {
+    "screen": "restart",
+    "locale": "zh",
+    "viewport": [
+      320,
+      600
+    ],
+    "status": "candidate",
+    "layers": [
+      {
+        "type": "nineSlice",
+        "source": "sprites/panel_normal_9slice_candidate.webp",
+        "rectDp": [
+          6.047043189368765,
+          91.88155038759689,
+          307.90591362126247,
+          433.264305307096
+        ],
+        "sourceInsetsLTRB": [
+          230,
+          230,
+          230,
+          230
+        ],
+        "uniformCornerScale": 0.2346843853820598
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/title_normal_9slice_candidate.webp",
+        "rectDp": [
+          61.39725190839695,
+          73.84615384615384,
+          197.2054961832061,
+          65.36447837150128
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.12356234096692112
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/restart_title_zh-CN.webp",
+        "rectDp": [
+          99.01520467836257,
+          85.76410256410254,
+          121.96959064327487,
+          36.882051282051286
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "sprites/close_normal_clean.webp",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          45.88235294117647
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          147.69230769230768,
+          243.2,
+          155.89743589743588
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.26256410256410256
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/restart_hero.webp",
+        "rectDp": [
+          90.25641025641026,
+          155.89743589743588,
+          139.48717948717947,
+          138.03418803418802
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "runtimeText",
+        "text": "将重新开始本关",
+        "centerDp": [
+          160.0,
+          317.53846153846155
+        ],
+        "fontDp": 20.51282051282051,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "lossDescription"
+      },
+      {
+        "type": "runtimeText",
+        "text": "本关当前进度不会保留",
+        "centerDp": [
+          160.0,
+          342.97435897435895
+        ],
+        "fontDp": 14.769230769230768,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "lossDescription"
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/cyan_normal_9slice_candidate.webp",
+        "rectDp": [
+          35.53009198423128,
+          396.8449071734223,
+          117.88699080157687,
+          42.09198423127464
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.0735873850197109
+      },
+      {
+        "type": "sprite",
+        "source": "controls/labels/continue_zh-CN.webp",
+        "rectDp": [
+          51.84,
+          402.2374458005732,
+          85.12,
+          23.986433915211972
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/cyan_normal_9slice_candidate.webp",
+        "rectDp": [
+          166.7300919842313,
+          396.8449071734223,
+          117.88699080157687,
+          42.09198423127464
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.0735873850197109
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/restart_confirm_zh-CN.webp",
+        "rectDp": [
+          186.13700000000003,
+          398.32766275817914,
+          83.63799999999999,
+          31.805999999999994
+        ],
+        "uniformScale": true,
+        "contactShadow": false,
+        "contentRectPx": [
+          4,
+          4,
+          260,
+          100
+        ],
+        "note": "original glyph placement/scale preserved; restored right rim outside original crop; transparent4px gutter"
+      }
+    ],
+    "hotareas": [
+      {
+        "action": "close",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          46.4
+        ],
+        "hostMustDecideDismiss": false
+      },
+      {
+        "action": "continue",
+        "rectDp": [
+          38.4,
+          397.94871794871796,
+          112.0,
+          44
+        ],
+        "minHitDp": 44
+      },
+      {
+        "action": "restart_confirm",
+        "rectDp": [
+          169.60000000000002,
+          397.94871794871796,
+          112.0,
+          44
+        ],
+        "minHitDp": 44
+      }
+    ],
+    "toast": "runtimeText only; nonmodal and pointer-through",
+    "business": "existing callbacks required; no ad/payment/refill counts inferred"
+  },
+  "en": {
+    "screen": "restart",
+    "locale": "en",
+    "viewport": [
+      320,
+      600
+    ],
+    "status": "candidate",
+    "layers": [
+      {
+        "type": "nineSlice",
+        "source": "sprites/panel_normal_9slice_candidate.webp",
+        "rectDp": [
+          6.047043189368765,
+          91.88155038759689,
+          307.90591362126247,
+          433.264305307096
+        ],
+        "sourceInsetsLTRB": [
+          230,
+          230,
+          230,
+          230
+        ],
+        "uniformCornerScale": 0.2346843853820598
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/title_normal_9slice_candidate.webp",
+        "rectDp": [
+          61.39725190839695,
+          73.84615384615384,
+          197.2054961832061,
+          65.36447837150128
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.12356234096692112
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/restart_question_en.webp",
+        "rectDp": [
+          96.0,
+          88.42247407764648,
+          128.0,
+          31.565308254963426
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "sprites/close_normal_clean.webp",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          45.88235294117647
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          147.69230769230768,
+          243.2,
+          155.89743589743588
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.26256410256410256
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/restart_hero.webp",
+        "rectDp": [
+          90.25641025641026,
+          155.89743589743588,
+          139.48717948717947,
+          138.03418803418802
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "runtimeText",
+        "text": "Restart this level?",
+        "centerDp": [
+          160.0,
+          317.53846153846155
+        ],
+        "fontDp": 20.51282051282051,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "lossDescription"
+      },
+      {
+        "type": "runtimeText",
+        "text": "Current progress will not be saved.",
+        "centerDp": [
+          160.0,
+          342.97435897435895
+        ],
+        "fontDp": 14.769230769230768,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "lossDescription"
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/cyan_normal_9slice_candidate.webp",
+        "rectDp": [
+          35.53009198423128,
+          396.8449071734223,
+          117.88699080157687,
+          42.09198423127464
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.0735873850197109
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/continue_en.webp",
+        "rectDp": [
+          51.84,
+          404.2893494373536,
+          85.12,
+          19.882626641651033
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/cyan_normal_9slice_candidate.webp",
+        "rectDp": [
+          166.7300919842313,
+          396.8449071734223,
+          117.88699080157687,
+          42.09198423127464
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.0735873850197109
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/restart_en.webp",
+        "rectDp": [
+          183.04000000000002,
+          403.1239960915125,
+          85.12,
+          22.213333333333335
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      }
+    ],
+    "hotareas": [
+      {
+        "action": "close",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          46.4
+        ],
+        "hostMustDecideDismiss": false
+      },
+      {
+        "action": "continue",
+        "rectDp": [
+          38.4,
+          397.94871794871796,
+          112.0,
+          44
+        ],
+        "minHitDp": 44
+      },
+      {
+        "action": "restart",
+        "rectDp": [
+          169.60000000000002,
+          397.94871794871796,
+          112.0,
+          44
+        ],
+        "minHitDp": 44
+      }
+    ],
+    "toast": "runtimeText only; nonmodal and pointer-through",
+    "business": "existing callbacks required; no ad/payment/refill counts inferred"
+  }
+}

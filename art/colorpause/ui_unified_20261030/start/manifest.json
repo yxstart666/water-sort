@@ -1,0 +1,61 @@
+{
+  "schema": "colorpause.start_geometry_repair.v1",
+  "status": "root_visual_asset_acceptance_pass_runtime_pending",
+  "source": {
+    "path": "deliverables/go_minibus_home_rework_20261030/native_preview_v1/assets/start_level1_static_candidate.png",
+    "sha256": "8d9ecec1e49cc872aef1883cf5863841fff243d1df7d329d1f31fe1a444eca74",
+    "canvas_wh": [
+      2070,
+      760
+    ]
+  },
+  "accepted_original_comparison": {
+    "original_master": "deliverables/approved_25d_ui_20261029/home_buttons/start_source_reference.png",
+    "canvas_wh": [
+      695,
+      255
+    ],
+    "reported_body_aspect_difference_percent": 0.17644851798253036
+  },
+  "imagegen_support_sources": [
+    {
+      "path": "generated_images/exec-2aa40a67-20ac-4e95-bb9a-5a97e3b37d17.png",
+      "sha256": "ff9d702e8a1b0088c35db3413b1c639855db11d98fdc9ebeb94f09cd86846080",
+      "role": "only old第1关 footprint repair"
+    },
+    {
+      "path": "generated_images/exec-748640eb-8028-448e-bb66-fe480e107c9b.png",
+      "sha256": "f79ac8570afc9185af78e05e79d032a627ede3ba1026c48ebcf95ad0e001f300",
+      "role": "only large开始游戏 footprint repair"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/start_zh_blank_level_slot.png",
+      "mode": "Chinese complete original-shaped main-title normal; add dynamic level sprites only; do NOT overlay label_start_zh again"
+    },
+    {
+      "file": "assets/start_localized_blank_plate.png",
+      "mode": "localization/original fixed-label route; overlay only correct original or approved locale main-title asset plus dynamic level sprites"
+    },
+    {
+      "file": "assets/level_slot_empty_source_crop.png",
+      "source_xyxy": [
+        705,
+        499,
+        1351,
+        676
+      ],
+      "mode": "precise empty inset crop only; optional component"
+    },
+    {
+      "file": "assets/label_start_zh-CN_original.png",
+      "source": "deliverables/approved_25d_ui_20261029/home_buttons/label_start_zh-CN.png",
+      "sha256": "889dca32d0a6bc6cd6403058a412999427041a9ad86c54600b908d82466d35a0",
+      "mode": "unchanged original fixed text; never double-apply onto Chinese complete-title variant"
+    }
+  ],
+  "qa_metrics": "qa/source_lock_metrics.json",
+  "dynamic_level_art": "Separate root-approved SpriteGlyph atlas required; do not hardcode第1关, stretch fixed image, or fall back to synthetic embolden/MSDF",
+  "acceptance_scope": "source geometry repair only; not integrated game or native dynamic text pass"
+}

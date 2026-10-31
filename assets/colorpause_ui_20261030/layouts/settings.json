@@ -1,0 +1,808 @@
+{
+  "zh": {
+    "screen": "settings",
+    "locale": "zh",
+    "viewport": [
+      320,
+      600
+    ],
+    "status": "candidate",
+    "layers": [
+      {
+        "type": "nineSlice",
+        "source": "sprites/panel_normal_9slice_candidate.webp",
+        "rectDp": [
+          6.047043189368765,
+          91.88155038759689,
+          307.90591362126247,
+          441.46943351222416
+        ],
+        "sourceInsetsLTRB": [
+          230,
+          230,
+          230,
+          230
+        ],
+        "uniformCornerScale": 0.2346843853820598
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/title_normal_9slice_candidate.webp",
+        "rectDp": [
+          61.39725190839695,
+          73.84615384615384,
+          197.2054961832061,
+          65.36447837150128
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.12356234096692112
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/settings_title_zh-CN.webp",
+        "rectDp": [
+          126.1410676754939,
+          85.76410256410254,
+          67.7178646490122,
+          36.882051282051286
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "sprites/close_normal_clean.webp",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          45.88235294117647
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          149.33333333333331,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "controls/icon_speaker.webp",
+        "rectDp": [
+          48.246153846153845,
+          163.62666666666664,
+          40.205128205128204,
+          33.77230769230769
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/labels/sound_zh-CN.webp",
+        "rectDp": [
+          99.93846153846152,
+          168.32491109863372,
+          45.128205128205124,
+          24.37581882837357
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/toggle_on_composite.webp",
+        "rectDp": [
+          192.98461538461535,
+          159.17948717948715,
+          82.87179487179488,
+          46.270085470085476
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          216.6153846153846,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "controls/icon_music.webp",
+        "rectDp": [
+          48.246153846153845,
+          227.98793363499246,
+          40.205128205128204,
+          39.613876319758674
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/labels/music_zh-CN.webp",
+        "rectDp": [
+          99.93846153846152,
+          235.3126022913257,
+          45.128205128205124,
+          24.964539007092196
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/toggle_on_composite.webp",
+        "rectDp": [
+          192.98461538461535,
+          226.46153846153845,
+          82.87179487179488,
+          46.270085470085476
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          283.8974358974359,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "controls/icon_vibration.webp",
+        "rectDp": [
+          48.246153846153845,
+          296.95979740424184,
+          40.205128205128204,
+          36.23425134536245
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/labels/haptics_zh-CN.webp",
+        "rectDp": [
+          99.93846153846152,
+          302.594653573377,
+          45.128205128205124,
+          24.964539007092196
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/toggle_on_composite.webp",
+        "rectDp": [
+          192.98461538461535,
+          293.7435897435898,
+          82.87179487179488,
+          46.270085470085476
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          351.1794871794872,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "language_entry/icon_language.webp",
+        "rectDp": [
+          48.246153846153845,
+          362.51918887213003,
+          40.205128205128204,
+          39.67957097368862
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "language_entry/label_language_zh-CN.webp",
+        "rectDp": [
+          99.93846153846152,
+          370.45014245014244,
+          45.128205128205124,
+          23.817663817663814
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/cyan_normal_9slice_candidate.webp",
+        "rectDp": [
+          189.70256410256405,
+          365.94871794871796,
+          90.68230061659759,
+          32.37844940867279
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.056605680784393
+      },
+      {
+        "type": "sprite",
+        "source": "language_entry/label_current_zh-CN.webp",
+        "rectDp": [
+          197.08717948717947,
+          369.2307692307692,
+          71.38461538461539,
+          26.504188880426508
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          418.46153846153845,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "home_buttons/icon_help.webp",
+        "rectDp": [
+          48.246153846153845,
+          421.7374665135859,
+          40.205128205128204,
+          55.80711825487945
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/how_to_play_blue_zh-CN.webp",
+        "rectDp": [
+          99.93846153846152,
+          439.67014267638206,
+          85.33333333333333,
+          19.941765929287197
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      }
+    ],
+    "hotareas": [
+      {
+        "action": "close",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          46.4
+        ],
+        "hostMustDecideDismiss": false
+      },
+      {
+        "action": "sound",
+        "rectDp": [
+          38.4,
+          149.33333333333331,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "existingCallback"
+      },
+      {
+        "action": "music",
+        "rectDp": [
+          38.4,
+          216.6153846153846,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "existingCallback"
+      },
+      {
+        "action": "haptics",
+        "rectDp": [
+          38.4,
+          283.8974358974359,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "existingCallback"
+      },
+      {
+        "action": "language",
+        "rectDp": [
+          38.4,
+          351.1794871794872,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "directLocaleToggle"
+      },
+      {
+        "action": "how_to_play",
+        "rectDp": [
+          38.4,
+          418.46153846153845,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "existingCallback"
+      }
+    ],
+    "toast": "runtimeText only; nonmodal and pointer-through",
+    "business": "existing settings callbacks only; language flips locale directly; how_to_play opens existing tutorial"
+  },
+  "en": {
+    "screen": "settings",
+    "locale": "en",
+    "viewport": [
+      320,
+      600
+    ],
+    "status": "candidate",
+    "layers": [
+      {
+        "type": "nineSlice",
+        "source": "sprites/panel_normal_9slice_candidate.webp",
+        "rectDp": [
+          6.047043189368765,
+          91.88155038759689,
+          307.90591362126247,
+          441.46943351222416
+        ],
+        "sourceInsetsLTRB": [
+          230,
+          230,
+          230,
+          230
+        ],
+        "uniformCornerScale": 0.2346843853820598
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/title_normal_9slice_candidate.webp",
+        "rectDp": [
+          61.39725190839695,
+          73.84615384615384,
+          197.2054961832061,
+          65.36447837150128
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.12356234096692112
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/settings_en.webp",
+        "rectDp": [
+          120.0,
+          91.90120663650075,
+          80.0,
+          24.607843137254903
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "sprites/close_normal_clean.webp",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          45.88235294117647
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          149.33333333333331,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "controls/icon_speaker.webp",
+        "rectDp": [
+          48.246153846153845,
+          163.62666666666664,
+          40.205128205128204,
+          33.77230769230769
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/sound_en_blue.webp",
+        "rectDp": [
+          99.93846153846152,
+          172.1208260338695,
+          62.35897435897436,
+          16.783988957902
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/toggle_on_composite.webp",
+        "rectDp": [
+          192.98461538461535,
+          159.17948717948715,
+          82.87179487179488,
+          46.270085470085476
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          216.6153846153846,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "controls/icon_music.webp",
+        "rectDp": [
+          48.246153846153845,
+          227.98793363499246,
+          40.205128205128204,
+          39.613876319758674
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/music_en_blue.webp",
+        "rectDp": [
+          99.93846153846152,
+          238.5118881118881,
+          62.35897435897436,
+          18.565967365967364
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/toggle_on_composite.webp",
+        "rectDp": [
+          192.98461538461535,
+          226.46153846153845,
+          82.87179487179488,
+          46.270085470085476
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          283.8974358974359,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "controls/icon_vibration.webp",
+        "rectDp": [
+          48.246153846153845,
+          296.95979740424184,
+          40.205128205128204,
+          36.23425134536245
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/vibration_en_blue.webp",
+        "rectDp": [
+          99.93846153846152,
+          309.2222595454037,
+          62.35897435897436,
+          11.709327063038854
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "controls/toggle_on_composite.webp",
+        "rectDp": [
+          192.98461538461535,
+          293.7435897435898,
+          82.87179487179488,
+          46.270085470085476
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          351.1794871794872,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "language_entry/icon_language.webp",
+        "rectDp": [
+          48.246153846153845,
+          362.51918887213003,
+          40.205128205128204,
+          39.67957097368862
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/language_en_blue.webp",
+        "rectDp": [
+          99.93846153846152,
+          375.7996009753935,
+          62.35897435897436,
+          13.118746767161753
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/cyan_normal_9slice_candidate.webp",
+        "rectDp": [
+          189.70256410256405,
+          365.94871794871796,
+          90.68230061659759,
+          32.37844940867279
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.056605680784393
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/english_en.webp",
+        "rectDp": [
+          197.08717948717947,
+          369.2307692307692,
+          71.38461538461539,
+          26.524170498322356
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "nineSlice",
+        "source": "controls/row_blank_source_derived.webp",
+        "rectDp": [
+          38.4,
+          418.46153846153845,
+          243.2,
+          62.35897435897436
+        ],
+        "sourceInsetsLTRB": [
+          56,
+          56,
+          56,
+          56
+        ],
+        "uniformCornerScale": 0.3117948717948718
+      },
+      {
+        "type": "sprite",
+        "source": "home_buttons/icon_help.webp",
+        "rectDp": [
+          48.246153846153845,
+          421.7374665135859,
+          40.205128205128204,
+          55.80711825487945
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/how_to_play_blue_en.webp",
+        "rectDp": [
+          99.93846153846152,
+          439.3255704540108,
+          115.6923076923077,
+          20.630910374029643
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      }
+    ],
+    "hotareas": [
+      {
+        "action": "close",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          46.4
+        ],
+        "hostMustDecideDismiss": false
+      },
+      {
+        "action": "sound",
+        "rectDp": [
+          38.4,
+          149.33333333333331,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "existingCallback"
+      },
+      {
+        "action": "music",
+        "rectDp": [
+          38.4,
+          216.6153846153846,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "existingCallback"
+      },
+      {
+        "action": "haptics",
+        "rectDp": [
+          38.4,
+          283.8974358974359,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "existingCallback"
+      },
+      {
+        "action": "language",
+        "rectDp": [
+          38.4,
+          351.1794871794872,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "directLocaleToggle"
+      },
+      {
+        "action": "how_to_play",
+        "rectDp": [
+          38.4,
+          418.46153846153845,
+          243.2,
+          62.35897435897436
+        ],
+        "semantics": "existingCallback"
+      }
+    ],
+    "toast": "runtimeText only; nonmodal and pointer-through",
+    "business": "existing settings callbacks only; language flips locale directly; how_to_play opens existing tutorial"
+  }
+}

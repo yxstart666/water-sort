@@ -1,0 +1,34 @@
+{
+  "asset": "hero_energy_composite.png",
+  "source_crop_xywh": [
+    144,
+    392,
+    736,
+    430
+  ],
+  "output_dimensions_wh": [
+    736,
+    430
+  ],
+  "source": "approved mother-art original pixels; original-white-inset matte estimated only from clean source strips",
+  "resampling": "none",
+  "includes": [
+    "gold bolt",
+    "blue circular halo",
+    "radial soft blue rays",
+    "four yellow-white sparkles"
+  ],
+  "capsule_exclusion": "Actual capacity_blank.png alpha at [230,780], not a rectangle; halo/rays outside rounded capsule retained; original bolt alpha preserved above capsule",
+  "bolt_opaque_pixel_RGB_difference_max": 0,
+  "opaque_bolt_pixel_count": 57481,
+  "transparent_RGB_zero": true,
+  "source_recomposition_mean_abs_channel_error_effect": 0.07473094960088357,
+  "source_recomposition_percentile95_channel_error_effect": 0.0,
+  "warnings": [
+    "Effect matte on originally white backdrop is inferred, not lossless native layered asset.",
+    "Wider crop than initial [228,374,565,427] preserves blue rays without hard rectangular cutoff.",
+    "Diffuse lower halo cutoff under number capsule is intentionally not invented or reconstructed."
+  ],
+  "sha256": "065849cb936b4b121ab83f0d144e31602b7d3a9e4b9947638c10b1acb8833702",
+  "status": "candidate; native+2x light/dark visual review pending"
+}

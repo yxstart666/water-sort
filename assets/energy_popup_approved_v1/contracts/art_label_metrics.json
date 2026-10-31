@@ -1,0 +1,105 @@
+{
+  "label_return_original": {
+    "source_file": "energy_full_v1_candidate.png",
+    "source_crop_xywh": [
+      390,
+      1144,
+      250,
+      140
+    ],
+    "output_dimensions_wh": [
+      250,
+      140
+    ],
+    "source_color_mask_bbox_local": [
+      29,
+      24,
+      188,
+      101
+    ],
+    "alpha50_bbox_local": [
+      29,
+      24,
+      188,
+      101
+    ],
+    "alpha_nonzero_bbox_local": [
+      29,
+      22,
+      190,
+      105
+    ],
+    "alpha50_mask_mismatch_pixels": 0,
+    "opaque_source_pixels": 13825,
+    "opaque_source_rgb_max_difference": 0,
+    "edge_recomposition_mean_channel_error": 4.609235482703283,
+    "alpha_validation": {
+      "mode": "RGBA",
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 3093
+    },
+    "method": "Source pixel extraction only. No font rendering, spacing changes, glyph reshaping or opaque number baking. Return outer matte uses aligned blank button to unmix cyan background; rule matte uses measured source white background.",
+    "status": "usable_candidate_for_original_cyan_button; not_exact_flattened_alpha; parent_visual_acceptance_pending",
+    "sha256": "786709e7f08154f7f51ad81007c3d969266fe47e66e83fa0266e06ba48347cb0",
+    "approved_button_recomposition": {
+      "mean_channel_absolute_error_full_crop": 0.867247619047619,
+      "max_channel_absolute_error": 179,
+      "note": "AI blank background is not pixel-identical to original hidden background, so exact matte is not provable. Source opaque ink pixels stay unchanged; geometry and glyph spacing unchanged."
+    }
+  },
+  "label_recovery_rule_original": {
+    "source_file": "energy_full_v1_candidate.png",
+    "source_crop_xywh": [
+      270,
+      1025,
+      486,
+      72
+    ],
+    "output_dimensions_wh": [
+      486,
+      72
+    ],
+    "source_color_mask_bbox_local": [
+      8,
+      13,
+      466,
+      47
+    ],
+    "alpha50_bbox_local": [
+      8,
+      13,
+      466,
+      47
+    ],
+    "alpha_nonzero_bbox_local": [
+      7,
+      11,
+      469,
+      51
+    ],
+    "alpha50_mask_mismatch_pixels": 0,
+    "opaque_source_pixels": 6743,
+    "opaque_source_rgb_max_difference": 0,
+    "edge_recomposition_mean_channel_error": 0.5838050524530897,
+    "alpha_validation": {
+      "mode": "RGBA",
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transparent_pixel_rgb_nonzero_count": 0,
+      "semi_transparent_pixels": 4290
+    },
+    "method": "Source pixel extraction only. No font rendering, spacing changes, glyph reshaping or opaque number baking. Return outer matte uses aligned blank button to unmix cyan background; rule matte uses measured source white background.",
+    "status": "source_pixel_matte_candidate; light_dark_native_QA_passed; parent_visual_acceptance_pending",
+    "sha256": "c7a4e1a4fc4c5c212e7ceb56932b12de50ce191b85e759e21fa02552fe55fae2"
+  }
+}

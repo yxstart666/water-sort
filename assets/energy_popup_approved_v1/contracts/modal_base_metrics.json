@@ -1,0 +1,33 @@
+{
+  "asset": "modal_base_blank.png",
+  "source_crop_xywh": [
+    64,
+    232,
+    904,
+    1164
+  ],
+  "output_dimensions_wh": [
+    904,
+    1164
+  ],
+  "alpha_half_contour_mask_mismatch_pixels": 0,
+  "visible_source_geometry_region": "global y>=386 OR x<202; below/left of occluding controls",
+  "source_visible_alpha_half_mask_mismatch_pixels": 0,
+  "source_visible_boundary_pixels": 2929,
+  "reconstructed_top_right_boundary_pixels": 823,
+  "edge_unpremultiplication_RGB_change_max": 92,
+  "source_confident_perimeter_RGB_difference_max": 0,
+  "raw_inpaint_geometry_mismatch_visible_pixels": 985,
+  "alpha_zero_rgb_is_zero": true,
+  "not_exact_source_RGB_everywhere": "Original visible boundary RGB retained except narrow transition around former controls; transparent edge unpremultiplied against sampled local backdrop. Interior from imagegen. Hidden upper edge is reconstruction.",
+  "resampling": "none",
+  "status": "self_QA_pass; parent_visual_acceptance_pending",
+  "alpha_half_bbox_local_xywh": [
+    13,
+    11,
+    870,
+    1138
+  ],
+  "sha256": "c6ff9178166d7703401178b5d35473d6de90983fbc42bf8eb0cd62c6fbfb7bab",
+  "visual_QA": "native and2x light/dark reviewed: pass, no rectangular background/visible hard seam/starfield remnant"
+}

@@ -1,0 +1,417 @@
+{
+  "schema": "colorpause.energy_popup.engine_assets.v1",
+  "status": "self_QA_pass_parent_visual_acceptance_pending",
+  "approved_master": {
+    "filename": "approved_master.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sha256": "8e0c03cbcf154202ae7c1544072c8ebc58d88bab6eeb3d59ca12f9682ef7d62b",
+    "approval_message": "Sentinel_71cf7f6a31348191aa468eae1d8b5053",
+    "approval_text": "可以"
+  },
+  "coordinate_system": "all source rectangles x,y,w,h, origin top-left, right/bottom exclusive; use one uniform scale",
+  "assets": [
+    {
+      "id": "modal_base_blank",
+      "file": "assets/modal_base_blank.png",
+      "rect_xywh": [
+        64,
+        232,
+        904,
+        1164
+      ],
+      "size_wh": [
+        904,
+        1164
+      ],
+      "z": 0,
+      "role": "required",
+      "alpha50_bbox_local_xywh": [
+        13,
+        11,
+        870,
+        1138
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "c6ff9178166d7703401178b5d35473d6de90983fbc42bf8eb0cd62c6fbfb7bab"
+    },
+    {
+      "id": "hero_energy_composite",
+      "file": "assets/hero_energy_composite.png",
+      "rect_xywh": [
+        144,
+        392,
+        736,
+        430
+      ],
+      "size_wh": [
+        736,
+        430
+      ],
+      "z": 30,
+      "role": "use instead of bolt_only",
+      "alpha50_bbox_local_xywh": [
+        120,
+        28,
+        507,
+        375
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "065849cb936b4b121ab83f0d144e31602b7d3a9e4b9947638c10b1acb8833702"
+    },
+    {
+      "id": "hero_bolt_only",
+      "file": "assets/hero_bolt_only.png",
+      "rect_xywh": [
+        364,
+        407,
+        302,
+        401
+      ],
+      "size_wh": [
+        302,
+        401
+      ],
+      "z": 30,
+      "role": "optional alternate, do not stack over composite",
+      "alpha50_bbox_local_xywh": [
+        12,
+        14,
+        273,
+        374
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "b107e3c54c51e1081ffe1477855beed564bea4a92a8a6ffd7e578754b6a30199"
+    },
+    {
+      "id": "capacity_blank",
+      "file": "assets/capacity_blank.png",
+      "rect_xywh": [
+        230,
+        780,
+        566,
+        154
+      ],
+      "size_wh": [
+        566,
+        154
+      ],
+      "z": 20,
+      "role": "required; no baked numbers",
+      "alpha50_bbox_local_xywh": [
+        10,
+        12,
+        544,
+        132
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "6282674e470c1679f845127b6510d9e34e13bb6cc636bb7a0b994e00bcb8591f"
+    },
+    {
+      "id": "energy_bar_full",
+      "file": "assets/energy_bar_full.png",
+      "rect_xywh": [
+        150,
+        925,
+        724,
+        89
+      ],
+      "size_wh": [
+        724,
+        89
+      ],
+      "z": 35,
+      "role": "full-state",
+      "alpha50_bbox_local_xywh": [
+        13,
+        11,
+        698,
+        67
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "c7c33b0952940fd9b561a3638f43dd5366657e172d4c1526d46b04495bb4460e"
+    },
+    {
+      "id": "energy_bar_empty",
+      "file": "assets/energy_bar_empty.png",
+      "rect_xywh": [
+        150,
+        925,
+        724,
+        89
+      ],
+      "size_wh": [
+        724,
+        89
+      ],
+      "z": 34,
+      "role": "reconstructed empty trough; identical alpha to full",
+      "alpha50_bbox_local_xywh": [
+        13,
+        11,
+        698,
+        67
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "ccd8dd231bb5f6ee4cb5e836aa409143f9d1f8d2abfd51d5b8627d5f4fbaa032"
+    },
+    {
+      "id": "energy_bar_fill",
+      "file": "assets/energy_bar_fill.png",
+      "rect_xywh": [
+        150,
+        925,
+        724,
+        89
+      ],
+      "size_wh": [
+        724,
+        89
+      ],
+      "z": 35,
+      "role": "optional clip overlay on empty",
+      "alpha50_bbox_local_xywh": [
+        19,
+        17,
+        686,
+        55
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "270fec748f6c2fca57340f8a10868637382a1fed55e9d62fe5e811cce4d84770"
+    },
+    {
+      "id": "button_blank_normal",
+      "file": "assets/button_blank_normal.png",
+      "rect_xywh": [
+        165,
+        1116,
+        693,
+        204
+      ],
+      "size_wh": [
+        693,
+        204
+      ],
+      "z": 45,
+      "role": "required",
+      "alpha50_bbox_local_xywh": [
+        12,
+        11,
+        669,
+        179
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "41f76133b1d05fb982a15bf5a6608ea48cdc1e3382c7032dcb1c19bbb297a7ef"
+    },
+    {
+      "id": "button_blank_pressed",
+      "file": "assets/button_blank_pressed.png",
+      "rect_xywh": [
+        165,
+        1116,
+        693,
+        204
+      ],
+      "size_wh": [
+        693,
+        204
+      ],
+      "z": 45,
+      "role": "material-state candidate",
+      "alpha50_bbox_local_xywh": [
+        12,
+        11,
+        669,
+        179
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "8bec3219ab4eb47391aa94391d9863d0f75c9099ea64e58ecf796877758137e1"
+    },
+    {
+      "id": "button_blank_disabled",
+      "file": "assets/button_blank_disabled.png",
+      "rect_xywh": [
+        165,
+        1116,
+        693,
+        204
+      ],
+      "size_wh": [
+        693,
+        204
+      ],
+      "z": 45,
+      "role": "material-state candidate",
+      "alpha50_bbox_local_xywh": [
+        12,
+        11,
+        669,
+        179
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "dc5dfdc2328cb04e968cdfbd686923571d40f116577400c317f328799b35a475"
+    },
+    {
+      "id": "title_blank",
+      "file": "assets/title_blank.png",
+      "rect_xywh": [
+        190,
+        165,
+        640,
+        200
+      ],
+      "size_wh": [
+        640,
+        200
+      ],
+      "z": 50,
+      "role": "for dynamic/localized title",
+      "alpha50_bbox_local_xywh": [
+        19,
+        12,
+        606,
+        173
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "e81b66365deccefc44cfaf63faf5eea6643136b6524ddd10d848238e2de4e3a1"
+    },
+    {
+      "id": "title_full_original",
+      "file": "assets/title_full_original.png",
+      "rect_xywh": [
+        190,
+        165,
+        640,
+        200
+      ],
+      "size_wh": [
+        640,
+        200
+      ],
+      "z": 50,
+      "role": "exact source full-title art; do not stack with blank",
+      "alpha50_bbox_local_xywh": [
+        19,
+        12,
+        606,
+        173
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "f5f4ce971d4ef0a14be4fcf42f5ad009c3d92025485e25cf5b2cb83e73a5b6c2"
+    },
+    {
+      "id": "title_insufficient_candidate",
+      "file": "assets/title_insufficient_candidate.png",
+      "rect_xywh": [
+        190,
+        165,
+        640,
+        200
+      ],
+      "size_wh": [
+        640,
+        200
+      ],
+      "z": 50,
+      "role": "new Chinese wording candidate; identical alpha",
+      "alpha50_bbox_local_xywh": [
+        19,
+        12,
+        606,
+        173
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "014e391dc86510247032e5fad3ca5256dce97faff3f5ddf4d3545e19e6e5bdb7"
+    },
+    {
+      "id": "close_normal",
+      "file": "assets/close_normal.png",
+      "rect_xywh": [
+        814,
+        232,
+        154,
+        154
+      ],
+      "size_wh": [
+        154,
+        154
+      ],
+      "z": 60,
+      "role": "required",
+      "alpha50_bbox_local_xywh": [
+        11,
+        11,
+        129,
+        130
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "5c8dca0a0155af67c2c42edeed3aa46a09414eff0848619c62e5bfebefcf20dc"
+    },
+    {
+      "id": "label_return_original",
+      "file": "assets/label_return_original.png",
+      "rect_xywh": [
+        390,
+        1144,
+        250,
+        140
+      ],
+      "size_wh": [
+        250,
+        140
+      ],
+      "z": 46,
+      "role": "source-pixel Chinese artwork; optional localized runtime label",
+      "alpha50_bbox_local_xywh": [
+        29,
+        24,
+        188,
+        101
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "786709e7f08154f7f51ad81007c3d969266fe47e66e83fa0266e06ba48347cb0"
+    },
+    {
+      "id": "label_recovery_rule_original",
+      "file": "assets/label_recovery_rule_original.png",
+      "rect_xywh": [
+        270,
+        1025,
+        486,
+        72
+      ],
+      "size_wh": [
+        486,
+        72
+      ],
+      "z": 40,
+      "role": "source-pixel existing Chinese rule artwork",
+      "alpha50_bbox_local_xywh": [
+        8,
+        13,
+        466,
+        47
+      ],
+      "transparent_RGB_nonzero": 0,
+      "sha256": "c7a4e1a4fc4c5c212e7ceb56932b12de50ce191b85e759e21fa02552fe55fae2"
+    }
+  ],
+  "dynamic_values": {
+    "must_not_be_baked": [
+      "current",
+      "cap",
+      "countdown"
+    ],
+    "capacity_slot_xywh": [
+      414,
+      812,
+      310,
+      105
+    ],
+    "capacity_template": "{current} / {cap}",
+    "numeric_font": "candidate only; see numeric_runtime_style_candidate.json"
+  },
+  "z_note": "Composite hero is above capsule so original gold tip correctly overlaps rim. Numeric label z=25; no collision with hero tip."
+}

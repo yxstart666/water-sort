@@ -1,0 +1,32 @@
+{
+  "title_insufficient_candidate": {
+    "source_crop_xywh": [
+      190,
+      165,
+      640,
+      200
+    ],
+    "size": [
+      640,
+      200
+    ],
+    "alpha_difference_pixels_to_title_blank": 0,
+    "label_status": "new wording imagegen candidate, exact existing font unknown; same source-locked capsule geometry"
+  },
+  "bar_empty": {
+    "source_crop_xywh": [
+      150,
+      925,
+      724,
+      89
+    ],
+    "size": [
+      724,
+      89
+    ],
+    "alpha_difference_pixels_to_full": 0,
+    "exterior_5px_band_RGB_difference_pixels": 0,
+    "interior_is_reconstruction": true,
+    "outer_contour_dimensions_delta_percent": 0
+  }
+}

@@ -3,7 +3,7 @@ extends Node
 ## Presentation-only audio. Keep one instance owned by main, not per view.
 ## Async callbacks must capture get_epoch() and pass it as play_event's third arg.
 
-const MUSIC = preload("res://assets/audio/music_loop.wav")
+const MUSIC = preload("res://art/reference2-delivery-20261024/music_sunlit_steps_v1/caiping_sunlit_steps_112bpm.ogg")
 const EFFECTS := {
 	"click": preload("res://assets/audio/click.wav"),
 	"pickup": preload("res://assets/audio/pickup.wav"),
@@ -13,7 +13,7 @@ const EFFECTS := {
 	"ui_error": preload("res://assets/audio/ui_error.wav"),
 }
 const VOICE_LIMIT := 6
-const MUSIC_DB := -13.0
+const MUSIC_DB := -3.0
 const SFX_DB := -8.0
 var music_enabled := true
 var sfx_enabled := true
@@ -33,10 +33,10 @@ func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	_music = AudioStreamPlayer.new()
 	_music.name = "QuietMusic"
-	var loop: AudioStreamWAV = MUSIC.duplicate()
-	loop.loop_mode = AudioStreamWAV.LOOP_FORWARD
-	loop.loop_begin = 0
-	loop.loop_end = int(round(loop.get_length() * loop.mix_rate))
+	var loop: AudioStreamOggVorbis = MUSIC.duplicate()
+	loop.loop=true
+	loop.loop_offset=0.0
+	loop.bpm=112
 	_music.stream = loop
 	_music.volume_db = MUSIC_DB
 	add_child(_music)
