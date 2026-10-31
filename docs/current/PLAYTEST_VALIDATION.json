@@ -1,0 +1,40 @@
+{
+  "engine": "Godot 4.7.2 stable ed1daf0bf",
+  "scope": "Startup and changed home/energy/settings only; no further level acceptance",
+  "checks": [
+    {
+      "name": "import",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 15.969,
+      "errors": []
+    },
+    {
+      "name": "home_binding",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 7.234,
+      "errors": []
+    },
+    {
+      "name": "real_energy_entry",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 4.36,
+      "errors": []
+    },
+    {
+      "name": "settings_energy",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 14.906,
+      "errors": []
+    }
+  ],
+  "home_checks": 112,
+  "energy_checks": 35,
+  "settings_checks": 247,
+  "native_visual": "NOT_RUN",
+  "sdk_device_signing": "NOT_RUN",
+  "initial_fixture_failure": "Six game-background checks tried locked L2 with production progress fixture; preserved failed log. Corrected fixture starts legal L1 and explicitly asserts game visibility before testing background. No runtime change to satisfy it."
+}

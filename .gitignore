@@ -13,6 +13,7 @@
 export_presets.cfg
 .c3-difficulty-profile-v1/
 .energy-test-profile-v1/
+.current-energy-profile-v1/
 qa-private/
 diagnostics/
 c3_evidence/

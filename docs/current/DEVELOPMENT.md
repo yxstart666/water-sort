@@ -2,7 +2,7 @@
 
 ## 入口及边界
 
-默认场景 `scenes/playtest/difficulty_test.tscn` 负责测试 profile、全关开放与免体力注入；`scripts/water_sort/app_shell.gd` 负责业务接线。`scenes/playtest/energy_test.tscn` 使用真实 EnergyService、独立磁盘 profile。两者均不会自动读取或迁移真实玩家档。生产规则仍独立存在；不能把测试 composition 当发布默认配置。
+原免体力场景 `scenes/playtest/difficulty_test.tscn` 负责测试 profile、全关开放与免体力注入；`scripts/water_sort/app_shell.gd` 负责业务接线。`scenes/playtest/energy_test.tscn` 使用真实 EnergyService、独立磁盘 profile。两者均不会自动读取或迁移真实玩家档。生产规则仍独立存在；不能把测试 composition 当发布默认配置。
 
 ## 模块
 
@@ -25,3 +25,5 @@
 ## 开发约束
 
 按模块更换实现，不跨业务层散落皮肤条件；一个文件一个 owner，串行集成。冻结源码、测试证据和部署目录分别管理。复核通过只覆盖对应版本/范围；作者只标 ready_for_review，视觉验收与发布批准另行确认。禁止提交凭据、真实存档、签名密钥或缓存。
+
+当前默认组合为 current_test.tscn：继承已测真实体力入口，profile 为 .current-energy-profile-v1。主页融合图只由 ScreenLayout 在 home 可见且 page=home 时绑定，其他页面/游戏继续用原背景；HomeBrandView 只保留独立透明标题，布局注册不改。

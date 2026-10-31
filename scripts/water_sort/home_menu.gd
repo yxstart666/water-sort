@@ -17,7 +17,6 @@ var start_breath_phase:=0.0
 var start_breath_enabled:=false
 const START_BREATH_AMOUNT:=0.015
 const START_BREATH_PERIOD:=2.8
-const HOME_HERO="res://assets/colorpause_ui_20261030/home/ColorPause_GooglePlay_Icon_512.png"
 const DISABLED_PAGE_ART := "res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/"
 
 func set_start_breath_enabled(enabled:bool)->void:

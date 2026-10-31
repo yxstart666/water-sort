@@ -1,3 +1,5 @@
+当前默认 runner 只跑干净导入、主页绑定112、真实体力35、设置体力247；`--full-regression` 才运行保留的全量历史范围。用户本轮已要求停止新增关卡验收，本次没有重跑关卡矩阵。
+
 # 可重复后台回归
 
 需要 Godot4.7.2 Standard 和 Python3。使用 `python tools/run_current_checks.py --godot /path/to/godot`。

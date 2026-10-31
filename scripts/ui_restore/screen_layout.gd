@@ -3,6 +3,7 @@ extends Node
 ## A CanvasLayer carries the game uniformly: route/world caches remain1080x1920.
 const DESIGN:=Vector2(1080,1920)
 const BACKGROUND=preload("res://art/reference2-delivery-20261024/reference2_background_cleanplate_v1/assets/background_native_940x1672.png")
+const HOME_BACKGROUND=preload("res://assets/colorpause_ui_20261030/home/home_logo_starfield_merged_v2.png")
 var host:Control
 var game_layer:CanvasLayer
 var background:TextureRect
@@ -35,6 +36,7 @@ func mount_game(value:Control)->void:
  _apply_game()
 
 func _process(_delta:float)->void:
+ _sync_background()
  refresh_metrics()
  if is_instance_valid(game):
   _dock_game()
@@ -43,6 +45,12 @@ func _process(_delta:float)->void:
   if id!=_overlay_id:
    _overlay_id=id
    if id!=0 and game.overlay.has_method("_fit"):game.overlay._fit()
+
+func _sync_background()->void:
+ var menu=host.get("home") if is_instance_valid(host) else null
+ var show_home:bool=is_instance_valid(menu) and menu.visible and menu.page=="home"
+ var texture:Texture2D=HOME_BACKGROUND if show_home else BACKGROUND
+ if background.texture!=texture:background.texture=texture
 
 func refresh_metrics()->void:
  window_rect=get_viewport().get_visible_rect()

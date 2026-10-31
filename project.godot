@@ -16,7 +16,7 @@ config/windows_native_icon="res://assets/branding/approved_white_red_blue/water-
 config/use_custom_user_dir=true
 config/custom_user_dir_name="ColorPause_C3_Review_20261030"
 config/version="0.4.0-water-sort-orders-playtest"
-run/main_scene="res://scenes/playtest/difficulty_test.tscn"
+run/main_scene="res://scenes/playtest/current_test.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]
