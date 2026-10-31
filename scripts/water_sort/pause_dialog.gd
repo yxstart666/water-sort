@@ -136,12 +136,13 @@ func _build_p2_pause() -> void:
 			if not preferences[key]: path="sprites/toggle_off_assembled_clean.webp"
 		if preferences.locale=="en":
 			# Four horizontal rows: shared icon/label/action columns, unchanged row hits.
-			# Keep the supplied artwork and readable ink height instead of stacking controls.
+			# Compact icon column frees room for the original English value artwork.
+			# Language title retains its original 118x24 box and visible ink scale.
 			if path.contains("toggle_"):
-				layer.rectDp=[210,166.2+75.248*(toggle_index-1)-18.5,66,37]
+				layer.rectDp=[196,166.2+75.248*(toggle_index-1)-21.5,76,43]
 			if path.contains("icon_speaker") or path.contains("icon_music") or path.contains("icon_vibration") or path.contains("icon_language"):
 				var center_y:float=float(layer.rectDp[1])+float(layer.rectDp[3])*.5
-				layer.rectDp=[43,center_y-20,39,40]
+				layer.rectDp=[41,center_y-15,29,30]
 			var label_key: String=str(layer.get("labelKey",""))
 			if home_settings and label_key in ["pause","continue"]:
 				if label_key=="pause": layer.rectDp=[96,layer.rectDp[1],128,layer.rectDp[3]]
@@ -149,18 +150,18 @@ func _build_p2_pause() -> void:
 				path="english_art_labels/labels/"+english[label_key]+".webp"
 				if label_key in ["sound","music","haptics"]:
 					var row:int=["sound","music","haptics"].find(label_key)
-					layer.rectDp=[86,166.2+75.248*row-11,118,22]
+					layer.rectDp=[72,166.2+75.248*row-11,118,22]
 				elif label_key=="pause": layer.rectDp=[96,layer.rectDp[1],128,layer.rectDp[3]]
 				elif label_key in ["home","replay"]: layer.rectDp=[layer.rectDp[0]-8,layer.rectDp[1],layer.rectDp[2]+16,layer.rectDp[3]]
 			elif path.ends_with("label_language_zh-CN.webp"):
 				# The label and selection share the same vertical center as the other rows.
-				path="english_art_labels/labels/language_en_blue.webp"; layer.rectDp=[86,379.944,118,24]
+				path="english_art_labels/labels/language_en_blue.webp"; layer.rectDp=[72,379.944,118,24]
 			elif path.ends_with("label_current_zh-CN.webp"):
-				path="english_art_labels/labels/english_en.webp"; layer.rectDp=[215,382.944,48,18]
+				path="english_art_labels/labels/english_en.webp"; layer.rectDp=[193,378.75337,71,26.38126]
 			elif layer.get("id","")=="language_navigation_capsule":
-				layer.rectDp=[210,373.444,66,37]
+				layer.rectDp=[190,370.444,88,43]
 			elif path.ends_with("language_entry/chevron_right.webp"):
-				layer.rectDp=[265,384.444,8,15]
+				layer.rectDp=[266,384.444,8,15]
 		var visual=P2Art.add_layer(canvas,layer,"res://assets/colorpause_ui_20261030/"+path)
 		if path.contains("icon_vibration"): art.vibration_icon=visual
 		if path.contains("labels/music_"): art.music_title=visual

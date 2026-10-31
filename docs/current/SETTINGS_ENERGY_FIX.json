@@ -1,0 +1,21 @@
+{
+  "source_payload_sha256": "d333e84bc54a433ad38821aae8cf04065283b88b2b1da9b7a6acfc55e4363db7",
+  "zip_sha256": "e78a1583764723382e7d5973bc55ad3b52e515a503e795cdc081f653007e964b",
+  "production_files": [
+    {
+      "path": "scripts/water_sort/home_menu.gd",
+      "base_sha256": "425d3879e91795985f95ddacd5ba6ff35e96128975c14e9b087f22c2a35e5566",
+      "candidate_sha256": "0496083b51390dd65ea1798e81ca52d2d99f0e0539655ff79f37354dd7b8a856",
+      "bytes": 35865
+    },
+    {
+      "path": "scripts/water_sort/pause_dialog.gd",
+      "base_sha256": "a403237bf9c2831e289c73b8e2494d063a5496d60f3090507f3b79fad9fa3649",
+      "candidate_sha256": "7bcda6bcfc8b2755bbc536e6dcfe852f4134a95717b1623c92579229a5ea1150",
+      "bytes": 21992
+    }
+  ],
+  "prior_independent_qa": "247/247, settings focus/pressed/fade preservation and short-screen hit geometry passed on exact payload; native visual NOT_RUN",
+  "integration_status": "ready_for_review; all eight current-tree headless groups pass",
+  "deployed_desktop_changed": false
+}

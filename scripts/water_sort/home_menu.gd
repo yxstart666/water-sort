@@ -226,9 +226,12 @@ func update_energy(snapshot: Dictionary) -> void:
 		buttons.merge(modal.buttons,true);label_nodes.merge(modal.labels,true)
 		if label_nodes.has("energy") and is_instance_valid(label_nodes.energy):label_nodes.energy.text="%s/%s" % [energy_state.current,energy_state.capacity]
 		return
-	if progress.campaign=="water_sort_orders_v3" and page=="home" and is_instance_valid(board) and not energy_only and not settings_open and not energy_open and not is_instance_valid(modal) and notice_message.is_empty():
-		# Live countdown updates do not change home layout or start rules. Keep the
-		# existing button, input capture and glyph nodes alive while updating HUD data.
+	var settings_visible:bool=settings_open and is_instance_valid(modal) and modal is SettingsDialog and modal.home_settings
+	var idle_home:bool=page=="home" and not settings_open and not is_instance_valid(modal)
+	if progress.campaign=="water_sort_orders_v3" and is_instance_valid(board) and not energy_only and not energy_open and notice_message.is_empty() and (idle_home or settings_visible):
+		# Energy ticks do not change home/settings structure. Keep the active Settings
+		# nodes, switches, focus and opening/closing Tween; update its underlying HUD.
+		# Preference changes and navigation still use their explicit _refresh routes.
 		energy_state={"current":normalized.get("energy") if normalized.get("energy")!=null else "--","capacity":normalized.get("cap",30),"cost":5,"next_recovery_seconds":normalized.get("next_recovery_seconds") if normalized.get("next_recovery_seconds")!=null else 0,"ok":normalized.get("ok",true),"ad_available":normalized.get("ad_available",false),"ad_retry_available":normalized.get("ad_retry_available",false),"notice":normalized.get("notice","")}
 		if label_nodes.has("energy") and is_instance_valid(label_nodes.energy):label_nodes.energy.text="%s/%s" % [energy_state.current,energy_state.capacity]
 		return
