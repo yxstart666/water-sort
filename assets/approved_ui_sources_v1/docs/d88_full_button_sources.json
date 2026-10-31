@@ -1,0 +1,94 @@
+[
+  {
+    "path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/button_levels_zh_normal.png",
+    "size": [
+      245,
+      242
+    ],
+    "mode": "RGBA",
+    "sha256": "fd6fc1dc4795f8e231ba1c5f5296d8c0e99ce0beaf2660652609714ce25362a9",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "pixel_identical_candidate_resources": [],
+    "proposed_role": "Home NewHome_levels_base/icon/label整体替换；保持外部可点击Button与路由，不再拆拼"
+  },
+  {
+    "path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/button_records_zh_normal.png",
+    "size": [
+      243,
+      242
+    ],
+    "mode": "RGBA",
+    "sha256": "b755d2c0bb695fed013169289c3271c85f6d6dfe89063e5a3c1f961fd2b67858",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "pixel_identical_candidate_resources": [],
+    "proposed_role": "Home NewHome_game_records_base/icon/label整体参照；原件文字是记录，若必须游戏记录需独立受控文案版，不能冒充原图"
+  },
+  {
+    "path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/button_settings_zh_normal.png",
+    "size": [
+      138,
+      139
+    ],
+    "mode": "RGBA",
+    "sha256": "c9b881c4409f261e49d2f3d3f626948361a463d8037f9052b4e2f45be799f460",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "pixel_identical_candidate_resources": [
+      "res://assets/colorpause_ui_20261030/home/button_settings_zh_normal.webp"
+    ],
+    "proposed_role": "Home NewHome_settings，当前已使用逐像素相同WebP，不应换错风格hires",
+    "candidate_resource_sha256": {
+      "res://assets/colorpause_ui_20261030/home/button_settings_zh_normal.webp": "acbfc6fbef3b0da3dfd1f9d1506748ad3e5724747c0e729553e098f79547b2dd"
+    }
+  },
+  {
+    "path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/controls/button_home_reference.png",
+    "size": [
+      282,
+      247
+    ],
+    "mode": "RGBA",
+    "sha256": "822a1e3fb19aa6e4514b3bd25e2b491877f4bd9bd00be76ed551c165cdfdada1",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "pixel_identical_candidate_resources": [],
+    "proposed_role": "Pause和Victory主页按钮icon+字+底整体参照/恢复，不改pressed路由"
+  },
+  {
+    "path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/controls/button_replay_reference.png",
+    "size": [
+      283,
+      247
+    ],
+    "mode": "RGBA",
+    "sha256": "e3abb07d3c184e8310c09d0ea7903891e66c588b4c5fd9c80512486e6672b756",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "pixel_identical_candidate_resources": [],
+    "proposed_role": "Pause和Victory重玩按钮icon+字+底整体参照/恢复，不改pressed路由"
+  },
+  {
+    "path": "/workspace/scratch/abf455579c09/deliverables/approved_25d_ui_20261029/home_buttons/start_source_reference.png",
+    "size": [
+      695,
+      255
+    ],
+    "mode": "RGB",
+    "sha256": "0f3e49dd904f0a528b7e7fca0251a5f53340adea327c5c6ae7aeedc005bb38bc",
+    "alpha_extrema": null,
+    "pixel_identical_candidate_resources": [],
+    "proposed_role": "HomeCurrentLevel动态第n关厚白棕边字的墨迹/基线参照；RGB扁平切片仅参考，不得把固定第4关整图覆盖运行时"
+  }
+]

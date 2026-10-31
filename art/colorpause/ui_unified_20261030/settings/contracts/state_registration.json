@@ -1,0 +1,182 @@
+{
+  "toggle_off": {
+    "atlas_cell_xywh": [
+      0,
+      0,
+      960,
+      546
+    ],
+    "material_bbox_cell_xywh": [
+      44,
+      79,
+      869,
+      447
+    ],
+    "target_alpha50_bbox_xywh": [
+      12,
+      10,
+      231,
+      121
+    ]
+  },
+  "toggle_disabled_on": {
+    "atlas_cell_xywh": [
+      0,
+      546,
+      960,
+      545
+    ],
+    "material_bbox_cell_xywh": [
+      44,
+      60,
+      868,
+      443
+    ],
+    "target_alpha50_bbox_xywh": [
+      12,
+      10,
+      231,
+      121
+    ]
+  },
+  "toggle_pressed_on": {
+    "atlas_cell_xywh": [
+      0,
+      1091,
+      960,
+      546
+    ],
+    "material_bbox_cell_xywh": [
+      45,
+      34,
+      867,
+      434
+    ],
+    "target_alpha50_bbox_xywh": [
+      12,
+      10,
+      231,
+      121
+    ]
+  },
+  "toggle_disabled_off": {
+    "atlas_cell_xywh": [
+      0,
+      0,
+      1214,
+      648
+    ],
+    "material_bbox_cell_xywh": [
+      54,
+      87,
+      1101,
+      539
+    ],
+    "target_alpha50_bbox_xywh": [
+      12,
+      10,
+      231,
+      121
+    ]
+  },
+  "toggle_pressed_off": {
+    "atlas_cell_xywh": [
+      0,
+      648,
+      1214,
+      647
+    ],
+    "material_bbox_cell_xywh": [
+      54,
+      35,
+      1101,
+      558
+    ],
+    "target_alpha50_bbox_xywh": [
+      12,
+      10,
+      231,
+      121
+    ]
+  },
+  "language_button_blank_pressed": {
+    "atlas_cell_xywh": [
+      0,
+      0,
+      768,
+      512
+    ],
+    "material_bbox_cell_xywh": [
+      55,
+      131,
+      679,
+      282
+    ],
+    "target_alpha50_bbox_xywh": [
+      10,
+      9,
+      305,
+      130
+    ]
+  },
+  "language_button_blank_disabled": {
+    "atlas_cell_xywh": [
+      768,
+      0,
+      768,
+      512
+    ],
+    "material_bbox_cell_xywh": [
+      30,
+      130,
+      678,
+      283
+    ],
+    "target_alpha50_bbox_xywh": [
+      10,
+      9,
+      305,
+      130
+    ]
+  },
+  "close_pressed": {
+    "atlas_cell_xywh": [
+      0,
+      512,
+      768,
+      512
+    ],
+    "material_bbox_cell_xywh": [
+      222,
+      20,
+      360,
+      354
+    ],
+    "target_alpha50_bbox_xywh": [
+      10,
+      9,
+      129,
+      130
+    ]
+  },
+  "close_disabled": {
+    "atlas_cell_xywh": [
+      768,
+      512,
+      768,
+      512
+    ],
+    "material_bbox_cell_xywh": [
+      177,
+      17,
+      363,
+      359
+    ],
+    "target_alpha50_bbox_xywh": [
+      10,
+      9,
+      129,
+      130
+    ]
+  }
+}

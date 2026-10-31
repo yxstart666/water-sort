@@ -1,0 +1,1013 @@
+{
+  "version": "1.0",
+  "status": "root_visual_asset_acceptance_pass_runtime_pending",
+  "scope": "Home white/brown, Levels blue/gold/locked 0-9, Energy white/navy 0-9. NOT original font rediscovery. Native game integration unverified.",
+  "normalization": "All metrics em=1 numeric white-face cap height. Native individual PNG pixels retained. Apply ONE uniform scalar on both axes.",
+  "render_formula": "scale=desired_numeric_white_face_height/native_numeric_em; quad_w=source_w*scale; quad_h=source_h*scale; y=baseline+(offset_y_em*desired_numeric_white_face_height); x accumulated advance_em*desired_numeric_white_face_height + pair kern; center ENTIRE composed run bbox, never each character independently.",
+  "families": {
+    "home": {
+      "glyphs": {
+        "0": {
+          "file": "glyphs/home/0.png",
+          "native_size": [
+            305,
+            369
+          ],
+          "native_numeric_em": 278,
+          "white_face_bbox": [
+            42,
+            41,
+            261,
+            319
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.1474820143884892,
+          "advance_em": 1.0971223021582734,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "1": {
+          "file": "glyphs/home/1.png",
+          "native_size": [
+            81,
+            110
+          ],
+          "native_numeric_em": 77,
+          "white_face_bbox": [
+            11,
+            12,
+            67,
+            89
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.155844155844156,
+          "advance_em": 1.051948051948052,
+          "source_provenance": "home_1 extracted source RGB, recovered alpha (not original layered alpha)"
+        },
+        "2": {
+          "file": "glyphs/home/2.png",
+          "native_size": [
+            308,
+            366
+          ],
+          "native_numeric_em": 276,
+          "white_face_bbox": [
+            42,
+            41,
+            264,
+            317
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.1485507246376812,
+          "advance_em": 1.1159420289855073,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "3": {
+          "file": "glyphs/home/3.png",
+          "native_size": [
+            303,
+            368
+          ],
+          "native_numeric_em": 278,
+          "white_face_bbox": [
+            42,
+            41,
+            259,
+            319
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.1474820143884892,
+          "advance_em": 1.089928057553957,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "4": {
+          "file": "glyphs/home/4.png",
+          "native_size": [
+            336,
+            370
+          ],
+          "native_numeric_em": 279,
+          "white_face_bbox": [
+            42,
+            41,
+            293,
+            320
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.146953405017921,
+          "advance_em": 1.2043010752688172,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "5": {
+          "file": "glyphs/home/5.png",
+          "native_size": [
+            299,
+            362
+          ],
+          "native_numeric_em": 270,
+          "white_face_bbox": [
+            42,
+            41,
+            255,
+            311
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.151851851851852,
+          "advance_em": 1.1074074074074074,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "6": {
+          "file": "glyphs/home/6.png",
+          "native_size": [
+            316,
+            369
+          ],
+          "native_numeric_em": 278,
+          "white_face_bbox": [
+            42,
+            40,
+            272,
+            318
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.143884892086331,
+          "advance_em": 1.1366906474820144,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "7": {
+          "file": "glyphs/home/7.png",
+          "native_size": [
+            305,
+            362
+          ],
+          "native_numeric_em": 270,
+          "white_face_bbox": [
+            42,
+            41,
+            262,
+            311
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.151851851851852,
+          "advance_em": 1.1296296296296295,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "8": {
+          "file": "glyphs/home/8.png",
+          "native_size": [
+            314,
+            367
+          ],
+          "native_numeric_em": 275,
+          "white_face_bbox": [
+            42,
+            41,
+            270,
+            316
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.1490909090909092,
+          "advance_em": 1.1418181818181818,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "9": {
+          "file": "glyphs/home/9.png",
+          "native_size": [
+            299,
+            368
+          ],
+          "native_numeric_em": 276,
+          "white_face_bbox": [
+            43,
+            41,
+            256,
+            317
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.1485507246376812,
+          "advance_em": 1.0833333333333333,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "第": {
+          "file": "glyphs/home/prefix_di.png",
+          "native_size": [
+            123,
+            127
+          ],
+          "native_numeric_em": 77,
+          "white_face_bbox": [
+            18,
+            15,
+            108,
+            107
+          ],
+          "white_face_height_em": 1.1948051948051948,
+          "offset_y_em": -1.2987012987012987,
+          "advance_em": 1.5974025974025974,
+          "source_provenance": "home_prefix_di extracted source RGB, recovered alpha (not original layered alpha)"
+        },
+        "关": {
+          "file": "glyphs/home/suffix_guan.png",
+          "native_size": [
+            117,
+            126
+          ],
+          "native_numeric_em": 77,
+          "white_face_bbox": [
+            12,
+            12,
+            100,
+            103
+          ],
+          "white_face_height_em": 1.1818181818181819,
+          "offset_y_em": -1.2597402597402598,
+          "advance_em": 1.5194805194805194,
+          "source_provenance": "home_suffix_guan extracted source RGB, recovered alpha (not original layered alpha)"
+        }
+      },
+      "default_gap_em": 0,
+      "pair_kerning_em": {},
+      "baseline": "numeric white face bottom, prefix/suffix/slash follow source offsets",
+      "approved_source_target_face_px": 77
+    },
+    "levels": {
+      "glyphs": {
+        "0": {
+          "file": "glyphs/levels/0.png",
+          "native_size": [
+            284,
+            344
+          ],
+          "native_numeric_em": 281,
+          "white_face_bbox": [
+            21,
+            18,
+            262,
+            299
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0640569395017794,
+          "advance_em": 1.06067615658363,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "1": {
+          "file": "glyphs/levels/1.png",
+          "native_size": [
+            195,
+            340
+          ],
+          "native_numeric_em": 275,
+          "white_face_bbox": [
+            20,
+            18,
+            173,
+            293
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0654545454545454,
+          "advance_em": 0.7590909090909091,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "2": {
+          "file": "glyphs/levels/2.png",
+          "native_size": [
+            276,
+            340
+          ],
+          "native_numeric_em": 277,
+          "white_face_bbox": [
+            21,
+            18,
+            255,
+            295
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0649819494584838,
+          "advance_em": 1.046389891696751,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "3": {
+          "file": "glyphs/levels/3.png",
+          "native_size": [
+            273,
+            345
+          ],
+          "native_numeric_em": 282,
+          "white_face_bbox": [
+            21,
+            18,
+            251,
+            300
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0638297872340425,
+          "advance_em": 1.0180851063829788,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "4": {
+          "file": "glyphs/levels/4.png",
+          "native_size": [
+            294,
+            348
+          ],
+          "native_numeric_em": 286,
+          "white_face_bbox": [
+            21,
+            18,
+            273,
+            304
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.062937062937063,
+          "advance_em": 1.077972027972028,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "5": {
+          "file": "glyphs/levels/5.png",
+          "native_size": [
+            266,
+            334
+          ],
+          "native_numeric_em": 271,
+          "white_face_bbox": [
+            20,
+            18,
+            244,
+            289
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.066420664206642,
+          "advance_em": 1.031549815498155,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "6": {
+          "file": "glyphs/levels/6.png",
+          "native_size": [
+            279,
+            343
+          ],
+          "native_numeric_em": 280,
+          "white_face_bbox": [
+            21,
+            18,
+            257,
+            298
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0642857142857143,
+          "advance_em": 1.0464285714285715,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "7": {
+          "file": "glyphs/levels/7.png",
+          "native_size": [
+            268,
+            336
+          ],
+          "native_numeric_em": 273,
+          "white_face_bbox": [
+            20,
+            18,
+            247,
+            291
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.065934065934066,
+          "advance_em": 1.0316849816849816,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "8": {
+          "file": "glyphs/levels/8.png",
+          "native_size": [
+            283,
+            341
+          ],
+          "native_numeric_em": 278,
+          "white_face_bbox": [
+            21,
+            18,
+            261,
+            296
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.064748201438849,
+          "advance_em": 1.0679856115107915,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "9": {
+          "file": "glyphs/levels/9.png",
+          "native_size": [
+            273,
+            337
+          ],
+          "native_numeric_em": 274,
+          "white_face_bbox": [
+            21,
+            18,
+            251,
+            292
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0656934306569343,
+          "advance_em": 1.0463503649635035,
+          "source_provenance": "root accepted generated controlled digit completion"
+        }
+      },
+      "default_gap_em": 0.05,
+      "pair_kerning_em": {},
+      "baseline": "numeric white face bottom, prefix/suffix/slash follow source offsets",
+      "approved_source_target_face_px": 91
+    },
+    "levels_gold": {
+      "glyphs": {
+        "0": {
+          "file": "glyphs/levels_gold/0.png",
+          "native_size": [
+            284,
+            344
+          ],
+          "native_numeric_em": 281,
+          "white_face_bbox": [
+            21,
+            18,
+            262,
+            299
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0640569395017794,
+          "advance_em": 1.06067615658363,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "1": {
+          "file": "glyphs/levels_gold/1.png",
+          "native_size": [
+            195,
+            340
+          ],
+          "native_numeric_em": 275,
+          "white_face_bbox": [
+            20,
+            18,
+            173,
+            293
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0654545454545454,
+          "advance_em": 0.7590909090909091,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "2": {
+          "file": "glyphs/levels_gold/2.png",
+          "native_size": [
+            276,
+            340
+          ],
+          "native_numeric_em": 277,
+          "white_face_bbox": [
+            21,
+            18,
+            255,
+            295
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0649819494584838,
+          "advance_em": 1.046389891696751,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "3": {
+          "file": "glyphs/levels_gold/3.png",
+          "native_size": [
+            273,
+            345
+          ],
+          "native_numeric_em": 282,
+          "white_face_bbox": [
+            21,
+            18,
+            251,
+            300
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0638297872340425,
+          "advance_em": 1.0180851063829788,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "4": {
+          "file": "glyphs/levels_gold/4.png",
+          "native_size": [
+            294,
+            348
+          ],
+          "native_numeric_em": 286,
+          "white_face_bbox": [
+            21,
+            18,
+            273,
+            304
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.062937062937063,
+          "advance_em": 1.077972027972028,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "5": {
+          "file": "glyphs/levels_gold/5.png",
+          "native_size": [
+            266,
+            334
+          ],
+          "native_numeric_em": 271,
+          "white_face_bbox": [
+            20,
+            18,
+            244,
+            289
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.066420664206642,
+          "advance_em": 1.031549815498155,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "6": {
+          "file": "glyphs/levels_gold/6.png",
+          "native_size": [
+            279,
+            343
+          ],
+          "native_numeric_em": 280,
+          "white_face_bbox": [
+            21,
+            18,
+            257,
+            298
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0642857142857143,
+          "advance_em": 1.0464285714285715,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "7": {
+          "file": "glyphs/levels_gold/7.png",
+          "native_size": [
+            268,
+            336
+          ],
+          "native_numeric_em": 273,
+          "white_face_bbox": [
+            20,
+            18,
+            247,
+            291
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.065934065934066,
+          "advance_em": 1.0316849816849816,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "8": {
+          "file": "glyphs/levels_gold/8.png",
+          "native_size": [
+            283,
+            341
+          ],
+          "native_numeric_em": 278,
+          "white_face_bbox": [
+            21,
+            18,
+            261,
+            296
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.064748201438849,
+          "advance_em": 1.0679856115107915,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "9": {
+          "file": "glyphs/levels_gold/9.png",
+          "native_size": [
+            273,
+            337
+          ],
+          "native_numeric_em": 274,
+          "white_face_bbox": [
+            21,
+            18,
+            251,
+            292
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0656934306569343,
+          "advance_em": 1.0463503649635035,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        }
+      },
+      "default_gap_em": 0.05,
+      "pair_kerning_em": {},
+      "baseline": "numeric white face bottom, prefix/suffix/slash follow source offsets",
+      "approved_source_target_face_px": 94
+    },
+    "levels_locked": {
+      "glyphs": {
+        "0": {
+          "file": "glyphs/levels_locked/0.png",
+          "native_size": [
+            284,
+            344
+          ],
+          "native_numeric_em": 281,
+          "white_face_bbox": [
+            21,
+            18,
+            262,
+            299
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0640569395017794,
+          "advance_em": 1.06067615658363,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "1": {
+          "file": "glyphs/levels_locked/1.png",
+          "native_size": [
+            195,
+            340
+          ],
+          "native_numeric_em": 275,
+          "white_face_bbox": [
+            20,
+            18,
+            173,
+            293
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0654545454545454,
+          "advance_em": 0.7590909090909091,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "2": {
+          "file": "glyphs/levels_locked/2.png",
+          "native_size": [
+            276,
+            340
+          ],
+          "native_numeric_em": 277,
+          "white_face_bbox": [
+            21,
+            18,
+            255,
+            295
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0649819494584838,
+          "advance_em": 1.046389891696751,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "3": {
+          "file": "glyphs/levels_locked/3.png",
+          "native_size": [
+            273,
+            345
+          ],
+          "native_numeric_em": 282,
+          "white_face_bbox": [
+            21,
+            18,
+            251,
+            300
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0638297872340425,
+          "advance_em": 1.0180851063829788,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "4": {
+          "file": "glyphs/levels_locked/4.png",
+          "native_size": [
+            294,
+            348
+          ],
+          "native_numeric_em": 286,
+          "white_face_bbox": [
+            21,
+            18,
+            273,
+            304
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.062937062937063,
+          "advance_em": 1.077972027972028,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "5": {
+          "file": "glyphs/levels_locked/5.png",
+          "native_size": [
+            266,
+            334
+          ],
+          "native_numeric_em": 271,
+          "white_face_bbox": [
+            20,
+            18,
+            244,
+            289
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.066420664206642,
+          "advance_em": 1.031549815498155,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "6": {
+          "file": "glyphs/levels_locked/6.png",
+          "native_size": [
+            279,
+            343
+          ],
+          "native_numeric_em": 280,
+          "white_face_bbox": [
+            21,
+            18,
+            257,
+            298
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0642857142857143,
+          "advance_em": 1.0464285714285715,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "7": {
+          "file": "glyphs/levels_locked/7.png",
+          "native_size": [
+            268,
+            336
+          ],
+          "native_numeric_em": 273,
+          "white_face_bbox": [
+            20,
+            18,
+            247,
+            291
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.065934065934066,
+          "advance_em": 1.0316849816849816,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "8": {
+          "file": "glyphs/levels_locked/8.png",
+          "native_size": [
+            283,
+            341
+          ],
+          "native_numeric_em": 278,
+          "white_face_bbox": [
+            21,
+            18,
+            261,
+            296
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.064748201438849,
+          "advance_em": 1.0679856115107915,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        },
+        "9": {
+          "file": "glyphs/levels_locked/9.png",
+          "native_size": [
+            273,
+            337
+          ],
+          "native_numeric_em": 274,
+          "white_face_bbox": [
+            21,
+            18,
+            251,
+            292
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0656934306569343,
+          "advance_em": 1.0463503649635035,
+          "source_provenance": "root accepted generated controlled digit completion with source-locked rim material map"
+        }
+      },
+      "default_gap_em": 0.05,
+      "pair_kerning_em": {},
+      "baseline": "numeric white face bottom, prefix/suffix/slash follow source offsets",
+      "approved_source_target_face_px": 86
+    },
+    "energy": {
+      "glyphs": {
+        "0": {
+          "file": "glyphs/energy/0.png",
+          "native_size": [
+            278,
+            342
+          ],
+          "native_numeric_em": 293,
+          "white_face_bbox": [
+            12,
+            9,
+            266,
+            302
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.030716723549488,
+          "advance_em": 0.9988054607508533,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "1": {
+          "file": "glyphs/energy/1.png",
+          "native_size": [
+            191,
+            347
+          ],
+          "native_numeric_em": 297,
+          "white_face_bbox": [
+            12,
+            8,
+            179,
+            305
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.026936026936027,
+          "advance_em": 0.6930976430976431,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "2": {
+          "file": "glyphs/energy/2.png",
+          "native_size": [
+            258,
+            341
+          ],
+          "native_numeric_em": 292,
+          "white_face_bbox": [
+            12,
+            9,
+            246,
+            301
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0308219178082192,
+          "advance_em": 0.9335616438356165,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "3": {
+          "file": "glyphs/energy/3.png",
+          "native_size": [
+            251,
+            348
+          ],
+          "native_numeric_em": 300,
+          "white_face_bbox": [
+            11,
+            9,
+            240,
+            309
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.03,
+          "advance_em": 0.8866666666666667,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "4": {
+          "file": "glyphs/energy/4.png",
+          "native_size": [
+            298,
+            342
+          ],
+          "native_numeric_em": 293,
+          "white_face_bbox": [
+            12,
+            8,
+            287,
+            301
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0273037542662116,
+          "advance_em": 1.0670648464163823,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "5": {
+          "file": "glyphs/energy/5.png",
+          "native_size": [
+            260,
+            341
+          ],
+          "native_numeric_em": 293,
+          "white_face_bbox": [
+            11,
+            8,
+            248,
+            301
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0273037542662116,
+          "advance_em": 0.9373720136518772,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "6": {
+          "file": "glyphs/energy/6.png",
+          "native_size": [
+            279,
+            343
+          ],
+          "native_numeric_em": 294,
+          "white_face_bbox": [
+            12,
+            9,
+            267,
+            303
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.030612244897959,
+          "advance_em": 0.9989795918367348,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "7": {
+          "file": "glyphs/energy/7.png",
+          "native_size": [
+            277,
+            342
+          ],
+          "native_numeric_em": 291,
+          "white_face_bbox": [
+            11,
+            8,
+            266,
+            299
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0274914089347078,
+          "advance_em": 1.0018900343642612,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "8": {
+          "file": "glyphs/energy/8.png",
+          "native_size": [
+            282,
+            348
+          ],
+          "native_numeric_em": 300,
+          "white_face_bbox": [
+            12,
+            8,
+            270,
+            308
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0266666666666666,
+          "advance_em": 0.99,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "9": {
+          "file": "glyphs/energy/9.png",
+          "native_size": [
+            284,
+            347
+          ],
+          "native_numeric_em": 299,
+          "white_face_bbox": [
+            11,
+            8,
+            272,
+            307
+          ],
+          "white_face_height_em": 1.0,
+          "offset_y_em": -1.0267558528428093,
+          "advance_em": 0.9998327759197325,
+          "source_provenance": "root accepted generated controlled digit completion"
+        },
+        "/": {
+          "file": "glyphs/energy/slash.png",
+          "native_size": [
+            44,
+            108
+          ],
+          "native_numeric_em": 66,
+          "white_face_bbox": [
+            6,
+            15,
+            38,
+            92
+          ],
+          "white_face_height_em": 1.1666666666666667,
+          "offset_y_em": -1.2727272727272727,
+          "advance_em": 0.7166666666666667,
+          "source_provenance": "energy_slash extracted source RGB, recovered alpha (not original layered alpha)"
+        }
+      },
+      "default_gap_em": 0.05,
+      "pair_kerning_em": {},
+      "baseline": "numeric white face bottom, prefix/suffix/slash follow source offsets",
+      "approved_source_target_face_px": 66
+    }
+  },
+  "root_asset_acceptance_utc": "2026-10-30T14:33:20Z",
+  "accepted_evidence": [
+    "qa/production_scale_centered_strings.png",
+    "qa/original_symbols_alpha_2x.png",
+    "qa/same_scale_source_and_string_proof_v2.png",
+    "qa/levels_three_state_same_shape.png"
+  ],
+  "distribution_mode": "individual_glyph_png_only; no atlas dependency",
+  "original_full_manifest_sha256": "811ca99ce2307d6ef041797688c789a797b3b4e4eaf5ecae8fcf8aa764e32113",
+  "accepted_evidence_location": "Optional Design References attachment or immutable complete cloud archive; no QA image is a runtime dependency."
+}

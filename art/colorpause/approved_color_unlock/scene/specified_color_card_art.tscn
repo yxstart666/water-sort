@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://art/colorpause/approved_color_unlock/runtime/card_shell_reusable.png" id="1_shell"]
+[ext_resource type="Texture2D" path="res://art/colorpause/approved_color_unlock/runtime/target_blue_card_layer.png" id="2_target"]
+
+[node name="SpecifiedColorCardArt" type="Node2D"]
+position = Vector2(31.202222222222, 88.646666666667)
+scale = Vector2(0.317777777778, 0.317777777778)
+metadata/scope = "Art-only reference scene. Root binds existing condition.color and condition.remaining. Blue is an editor sample, never an unknown-color fallback."
+metadata/origin = "Existing 165x410 bottle canvas; inherit bottle normalization exactly once"
+metadata/count_baked = false
+
+[node name="Shell" type="Sprite2D" parent="."]
+texture_filter = 2
+texture = ExtResource("1_shell")
+centered = false
+
+[node name="TargetColorIcon" type="Sprite2D" parent="."]
+texture_filter = 2
+texture = ExtResource("2_target")
+centered = false
+
+[node name="LiveCountMount" type="Node2D" parent="."]
+metadata/binding = "Attach existing approved_any_count renderer or agreed live count renderer; assign actual condition.remaining. No fixed count in scene."

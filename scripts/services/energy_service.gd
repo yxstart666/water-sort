@@ -2,7 +2,10 @@ extends RefCounted
 
 # Local durable energy, not a server anti-cheat system. Wall-clock rollback is
 # held behind the saved high-water mark. No commercial ad SDK is installed.
+const NativeReceipt=preload("res://scripts/services/native_reward_receipt.gd")
+const RewardOwner=preload("res://scripts/water_sort/reward_controller.gd")
 const Store = preload("res://scripts/services/local_store.gd")
+const DevelopmentRewards = preload("res://scripts/water_sort/debug_ad_controller.gd")
 const FILE_NAME := "energy.json"
 const CAP := 30
 const COST := 5
@@ -12,6 +15,7 @@ var reader: Callable
 var writer: Callable
 var state: Dictionary = {}
 var error := ""
+var _development_commit_busy := false
 
 func _init(test_clock: Callable = Callable(), test_reader: Callable = Callable(), test_writer: Callable = Callable()) -> void:
 	clock = test_clock
@@ -48,6 +52,23 @@ func _valid(data: Dictionary) -> bool:
 			return false
 	if data.energy > CAP or data.anchor > data.high_water or not data.get("attempts") is Dictionary:
 		return false
+	# Optional development-ad ledger. Old schema2/version1 has no such field.
+	# Its IDs never contribute to the entry/completion serial sequence below.
+	if data.has("development_ad_receipts"):
+		if not data.development_ad_receipts is Dictionary: return false
+		for key in data.development_ad_receipts:
+			var ad: Variant=data.development_ad_receipts[key]
+			if not key is String or not key.begins_with("dev_mock:") or not ad is Dictionary: return false
+			if ad.get("id")!=key or ad.get("kind")!="development_ad_refill" or ad.get("source")!="development_mock": return false
+			if not ad.get("context_id") is String or ad.context_id.is_empty() or not ad.get("attempt_id") is String or ad.attempt_id.is_empty(): return false
+			if not _whole(ad.get("before")) or ad.before>=CAP or ad.get("after")!=CAP or ad.get("delta")!=CAP-ad.before: return false
+	if data.has("native_ad_receipts"):
+		if not data.native_ad_receipts is Dictionary:return false
+		for id in data.native_ad_receipts:
+			var r:Variant=data.native_ad_receipts[id]
+			if not r is Dictionary or not NativeReceipt.valid(r.get("identity")) or r.identity.request_id!=id or r.identity.placement!="energy":return false
+			if not _whole(r.get("before")) or not _whole(r.get("after")) or not _whole(r.get("delta")) or r.before>CAP or r.after!=CAP or r.delta!=r.after-r.before:return false
+	if data.has("native_ad_reward") and (not NativeReceipt.valid(data.native_ad_reward) or data.native_ad_reward.placement!="energy"):return false
 	var seen: Dictionary = {}
 	for id in data.attempts:
 		if not id is String or id.is_empty() or not data.attempts[id] is Dictionary:
@@ -205,9 +226,50 @@ func complete_attempt(attempt_id: String) -> Dictionary:
 func is_ad_available() -> bool:
 	return false
 
+func commit_development_refill(request_id: String, authority) -> Dictionary:
+	# Legacy complete_ad(strings) still refuses. Only the committing owner router
+	# can submit a result it has already consumed from the fixed debug adapter.
+	if not DevelopmentRewards.enabled() or not authority is DevelopmentRewards or not authority.authorizes_energy(self,request_id): return _reject("reward_unavailable")
+	if _development_commit_busy: return _reject("commit_busy")
+	if state.is_empty(): return _reject(error)
+	var old: Dictionary=state.get("development_ad_receipts",{})
+	if old.has(request_id): return _accepted(old[request_id],true)
+	var candidate:=_recovered()
+	if candidate.energy>=CAP: return _reject("energy_full")
+	var result: Dictionary=authority.pending_operation()
+	var receipt: Dictionary={"id":request_id,"kind":"development_ad_refill","source":"development_mock","attempt_id":result.attempt_id,"context_id":result.context_id,"before":candidate.energy,"after":CAP,"delta":CAP-int(candidate.energy)}
+	candidate.energy=CAP; candidate.anchor=candidate.high_water
+	if not candidate.has("development_ad_receipts"): candidate.development_ad_receipts={}
+	candidate.development_ad_receipts[request_id]=receipt
+	_development_commit_busy=true
+	var saved:=_commit(candidate)
+	_development_commit_busy=false
+	if not saved: return _reject(error)
+	return _accepted(receipt,false)
+
 func begin_ad() -> Dictionary:
 	return _reject("reward_unavailable")
 
 func complete_ad(_request_id: String = "", _outcome: String = "") -> Dictionary:
 	# A claimed success string is not an authenticated SDK reward receipt.
 	return _reject("reward_unavailable")
+
+func _native_authorized(receipt:Dictionary,authority)->bool:
+	return NativeReceipt.valid(receipt) and receipt.placement=="energy" and authority is RewardOwner and NativeReceipt.same(NativeReceipt.identity(receipt),NativeReceipt.identity(authority.pending_operation())) and authority.authorizes_native_energy(self,receipt.request_id)
+func stage_native_refill(receipt:Dictionary,authority)->bool:
+	if not _native_authorized(receipt,authority) or state.is_empty():return false
+	if state.get("native_ad_receipts",{}).has(receipt.request_id):return NativeReceipt.same(state.native_ad_receipts[receipt.request_id].identity,NativeReceipt.identity(receipt))
+	if state.has("native_ad_reward"):return NativeReceipt.same(state.native_ad_reward,NativeReceipt.identity(receipt))
+	var candidate:=_recovered();candidate.native_ad_reward=NativeReceipt.identity(receipt);return _commit(candidate)
+func commit_native_refill(receipt:Dictionary,authority)->Dictionary:
+	if not _native_authorized(receipt,authority):return _reject("unverified_reward")
+	var old:Dictionary=state.get("native_ad_receipts",{})
+	if old.has(receipt.request_id):
+		if not NativeReceipt.same(old[receipt.request_id].identity,NativeReceipt.identity(receipt)):return _reject("identity_collision")
+		return _accepted(old[receipt.request_id],true)
+	if not NativeReceipt.same(state.get("native_ad_reward",{}),NativeReceipt.identity(receipt)):return _reject("reward_not_saved")
+	var candidate:=_recovered();var before:=int(candidate.energy)
+	var proof:Dictionary={"id":receipt.request_id,"identity":NativeReceipt.identity(receipt),"kind":"native_test_ad_refill","before":before,"after":CAP,"delta":CAP-before}
+	candidate.energy=CAP;candidate.anchor=candidate.high_water;candidate.native_ad_receipts=old.duplicate(true);candidate.native_ad_receipts[receipt.request_id]=proof;candidate.erase("native_ad_reward")
+	if not _commit(candidate):return _reject(error)
+	return _accepted(proof,false)

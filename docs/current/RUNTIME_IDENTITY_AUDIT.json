@@ -1,0 +1,33 @@
+{
+  "base_source_sha256": "8e989ad569d403c63bd835afe07b73a592f454c63aa6912dae7035f763e76c69",
+  "unchanged_base_files": 1060,
+  "changed_production_files": {
+    "scripts/water_sort/home_menu.gd": {
+      "before": "425d3879e91795985f95ddacd5ba6ff35e96128975c14e9b087f22c2a35e5566",
+      "after": "0496083b51390dd65ea1798e81ca52d2d99f0e0539655ff79f37354dd7b8a856"
+    },
+    "scripts/water_sort/pause_dialog.gd": {
+      "before": "a403237bf9c2831e289c73b8e2494d063a5496d60f3090507f3b79fad9fa3649",
+      "after": "7bcda6bcfc8b2755bbc536e6dcfe852f4134a95717b1623c92579229a5ea1150"
+    }
+  },
+  "excluded_retired_files": [
+    "art/colorpause/ui_unified_20261030/settings/contracts/visual_QA_record.json",
+    "assets/approved_ui_sources_v1/docs/d88_visual_audit.zh-CN.txt",
+    "assets/approved_ui_sources_v1/verify_package.py",
+    "scenes/water_sort/bottle_art_demo.tscn",
+    "scenes/water_sort/level_complete_demo.tscn",
+    "scripts/services/reward_receipt_journal.gd",
+    "scripts/ui_restore/settings_row.gd",
+    "scripts/ui_restore/settings_view.gd",
+    "scripts/water_sort/art/bottle_art_demo.gd",
+    "scripts/water_sort/art/level_complete_demo.gd",
+    "scripts/water_sort/art/queued_bottle_feedback.gd",
+    "scripts/water_sort/order_disabled.gdshader",
+    "tests/water_sort_orders/home_approved_review.gd",
+    "tests/water_sort_orders/records_review.gd",
+    "tests/water_sort_orders/reward_retry_short_review.gd"
+  ],
+  "unexpected_missing": [],
+  "protected_rules_provider_palette_campaign_font_unchanged": true
+}

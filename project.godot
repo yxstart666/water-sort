@@ -10,11 +10,13 @@ config_version=5
 
 [application]
 
-config/name="Color Sort · 倒瓶子"
+config/name="彩瓶时光 · Color Pause"
+config/icon="res://assets/branding/approved_white_red_blue/icon-256.png"
+config/windows_native_icon="res://assets/branding/approved_white_red_blue/water-sort.ico"
 config/use_custom_user_dir=true
-config/custom_user_dir_name="color_sort_cloud"
-config/version="0.3.0-water-sort-50-playtest"
-run/main_scene="res://scenes/water_sort/campaign_v2.tscn"
+config/custom_user_dir_name="ColorPause_C3_Review_20261030"
+config/version="0.4.0-water-sort-orders-playtest"
+run/main_scene="res://scenes/playtest/current_test.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [display]
@@ -24,6 +26,7 @@ window/size/viewport_height=1920
 window/size/window_width_override=540
 window/size/window_height_override=960
 window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 window/handheld/orientation=1
 
 [rendering]
@@ -31,3 +34,13 @@ window/handheld/orientation=1
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 environment/defaults/default_clear_color=Color(0.055, 0.075, 0.12, 1)
+
+[development]
+
+difficulty_playtest=true
+
+mock_ads_enabled=false
+
+[gameplay]
+
+order_pack_candidate="c3_full50_20261030"

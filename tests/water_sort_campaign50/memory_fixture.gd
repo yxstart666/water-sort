@@ -21,6 +21,19 @@ func check(condition: bool, label: String) -> void:
 		failures.append(label)
 		push_error(label)
 
+func rewarded_undo(app)->void:
+	app.debug_ads.set_enabled(true)
+	var prior:Dictionary=app.game.rules.snapshot()
+	await click_ui(app.game.buttons.Undo)
+	for i in 1600:
+		if not app.game._animation_busy():break
+		app.game._process(.01)
+	check(app.debug_ads.active_request().get("placement")=="undo","Undo requires its own ad request")
+	check(app.game.rules.snapshot()==prior,"Undo does not change logical board before reward")
+	if is_instance_valid(app.ad_dialog) and app.ad_dialog.buttons.has("AdCompleted"):
+		await click_ui(app.ad_dialog.buttons.AdCompleted)
+	else:check(false,"Undo ad completion control exists")
+
 func pack(campaign: String = V2) -> Dictionary:
 	var configuration: Dictionary = Catalog.configuration(campaign)
 	return JSON.parse_string(FileAccess.get_file_as_string(str(configuration.level_path)))
@@ -58,6 +71,15 @@ func rejected_save(candidate: Dictionary, label: String, levels: Array = []) -> 
 	var progress=progress_fixture("rejected",V2,levels)
 	check(not progress.persistent and progress.load_error=="invalid_water_sort_progress",label+" is rejected")
 	check(not progress.save_progress() and memory.progress.rejected==before and int(memory.progress_writes)==writes,label+" remains unmodified")
+
+func pause_restart(game) -> void:
+	# The gameplay duplicate is removed; exercise the retained real pause route.
+	await click_ui(game.buttons.Pause)
+	await create_timer(0.18).timeout
+	check(game.state=="paused" and is_instance_valid(game.overlay),"pause restart entry available")
+	await click_ui(game.overlay.buttons.restart)
+	await create_timer(0.18).timeout
+	check(game.state=="restart","pause restart opens confirmation")
 
 func report(prefix: String, file_name: String) -> void:
 	var result := {"checks":checks,"failures":failures,"passed":failures.is_empty(),"storage":"all progress and energy use injected memory readers/writers; no user saves accessed","engine_mode":"headless"}

@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Texture2D" path="res://art/colorpause/approved_any_unlock/runtime/card_shell_reusable.png" id="1_shell"]
+[ext_resource type="Texture2D" path="res://art/colorpause/approved_any_unlock/runtime/neutral_order_icon.png" id="2_icon"]
+[ext_resource type="Texture2D" path="res://art/colorpause/approved_any_unlock/runtime/text_any_zh_x2.png" id="3_text"]
+
+[node name="ApprovedAnyUnlockCard" type="Node2D"]
+position = Vector2(31.202222222222, 88.646666666667)
+scale = Vector2(0.317777777778, 0.317777777778)
+z_index = 11
+metadata/scope = "ANY_ORDER only, sample ZH remaining2; bind existing objective state"
+metadata/origin = "165x410 glass canvas top-left"
+
+[node name="Shell" type="Sprite2D" parent="."]
+texture_filter = 2
+texture = ExtResource("1_shell")
+centered = false
+
+[node name="NeutralOrderIcon" type="Sprite2D" parent="."]
+texture_filter = 2
+position = Vector2(3.687066974596, 0.366050808314)
+scale = Vector2(0.236720554273, 0.236720554273)
+texture = ExtResource("2_icon")
+centered = false
+
+[node name="ObjectiveText" type="Sprite2D" parent="."]
+texture_filter = 2
+texture = ExtResource("3_text")
+centered = false

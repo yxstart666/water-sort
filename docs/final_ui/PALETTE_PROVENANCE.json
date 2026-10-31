@@ -1,0 +1,25 @@
+{
+  "status": "resolved: exact decoded RGBA equality; PNG bytes differ",
+  "integration_policy": "Keep final delivered 90c0 PNG. Legacy SOURCE_OVERRIDES 34405 hash identifies original source, IMPORT_MAP identifies delivered encoding. No image replacement required.",
+  "evidence": {
+    "original": {
+      "path": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-30\\task-5\\gameplay-arrow-fix\\assets\\go_minibus\\play\\bottom_actions\\runtime\\change_color_normal.png",
+      "sha256": "34405d052c8daa8e6f71053e9655bc471631dd0e644e05cb70824e32a8f290a7",
+      "bytes": 21459
+    },
+    "delivered": {
+      "path": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-29\\task-3\\final_assets_20261031\\production\\resources\\art\\colorpause\\ui_unified_20261030\\palette\\palette_latest_original_120x112.png",
+      "sha256": "90c0a1236e6e745aa96d7492798c52614408599ffb7516a9e30660c126a6041c",
+      "bytes": 21448
+    },
+    "size": [
+      120,
+      112
+    ],
+    "same_dimensions": true,
+    "differing_rgba_pixels": 0,
+    "original_decoded_rgba_sha256": "2ce20760bcf4ce069025bb96d76dff85992caf5e6765987ab8fce6fa0ece3953",
+    "delivered_decoded_rgba_sha256": "2ce20760bcf4ce069025bb96d76dff85992caf5e6765987ab8fce6fa0ece3953",
+    "claim": "full decoded RGBA including transparent RGB"
+  }
+}

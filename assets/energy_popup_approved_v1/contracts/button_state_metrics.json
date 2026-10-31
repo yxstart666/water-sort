@@ -1,0 +1,30 @@
+{
+  "pressed": {
+    "size": [
+      693,
+      204
+    ],
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "alpha_changed_pixels": 0,
+    "exterior_4px_band_RGB_changed_pixels": 0,
+    "outer_contour_width_height_change_percent": 0,
+    "type": "material state candidate; original fixed contour and shadow geometry; imagegen interior color"
+  },
+  "disabled": {
+    "size": [
+      693,
+      204
+    ],
+    "raw_size": [
+      1254,
+      1254
+    ],
+    "alpha_changed_pixels": 0,
+    "exterior_4px_band_RGB_changed_pixels": 0,
+    "outer_contour_width_height_change_percent": 0,
+    "type": "material state candidate; original fixed contour and shadow geometry; imagegen interior color"
+  }
+}

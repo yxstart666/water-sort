@@ -1,0 +1,82 @@
+{
+  "title": "彩瓶时光 · 晴光小步",
+  "version": "2026-10-23-v1",
+  "bpm": 112,
+  "meter": "4/4",
+  "bars": 32,
+  "duration_seconds": 68.57142857142857,
+  "sample_rate_hz": 44100,
+  "channels": 2,
+  "wav_encoding": "PCM signed 16-bit little-endian",
+  "ogg_encoding": "Vorbis quality 5",
+  "loop": {
+    "enabled": true,
+    "start_sample": 0,
+    "end_sample_exclusive": 3024000,
+    "start_seconds": 0,
+    "end_seconds": 68.57142857142857,
+    "method": "Periodic synthesis with wrapped release and room-delay tails; no repeated short audio block; engine must loop decoder seamlessly."
+  },
+  "mix": {
+    "integrated_lufs": -22.7,
+    "true_peak_dbfs": -9.4,
+    "loudness_range_lu": 1.4,
+    "recommended_initial_game_gain_db": -3,
+    "gain_note": "Start at -3 dB relative to asset; compare on device against pouring SFX. Do not stack old -13 dB music attenuation without audition."
+  },
+  "arrangement": {
+    "bars_1_8": "A: original mallet melody over bass, light offbeat plucks and brushed shaker",
+    "bars_9_16": "A variation with altered cadence and higher response",
+    "bars_17_24": "B: soft-keyboard lead, reduced pluck level, changed harmony and rhythmic placement",
+    "bars_25_32": "Returning melodic variation, dominant turnaround back to C"
+  },
+  "source": {
+    "original_composition": true,
+    "synthesis": "numpy procedural oscillators and seeded filtered noise, 392 authored note events",
+    "seed": 23112026,
+    "third_party_audio_samples": false,
+    "reference_melody_used": false,
+    "old_track_time_stretch": false,
+    "external_paid_generation": false,
+    "source_file": "generate_bgm.py",
+    "composition_file": "composition.json"
+  },
+  "verification": {
+    "numerical_checks_passed": true,
+    "listening_verified": false,
+    "limitation": "No actual audible playback was available to this worker. Seam/no-clipping checks are numeric only; perceived pleasantness, mechanical quality and device balance remain for listening review."
+  },
+  "integration_status": "Standalone proposal only. No project or Thunder music files changed; pending owner GitHub handoff.",
+  "files": [
+    {
+      "name": "caiping_sunlit_steps_112bpm.wav",
+      "bytes": 12096044,
+      "sha256": "e9309644e28c9ed632f42fd3e03ee5ac0a4914d59d16a2d2576e5c4198102421"
+    },
+    {
+      "name": "caiping_sunlit_steps_112bpm.ogg",
+      "bytes": 751445,
+      "sha256": "e069645ac28c944c1bd46be68eb8fe72bbf3ce21b26cf21788d06a89fc459bf0"
+    },
+    {
+      "name": "preview_first12bars.ogg",
+      "bytes": 295441,
+      "sha256": "8ea63cf051cb3ba5b39fadb1ea006d14baa3a4df00c1567e99d195a5eac52e37"
+    },
+    {
+      "name": "loop_seam_audition.wav",
+      "bytes": 1411244,
+      "sha256": "293059d16b6dc649cb3f6a787f27e89df9fbac9caeea44769b98e8c2ddfec362"
+    },
+    {
+      "name": "generate_bgm.py",
+      "bytes": 5289,
+      "sha256": "e6f28e8b46bbe344764572f459c33cceccd5de1fb6d2bf3c6aa15e8243822cb5"
+    },
+    {
+      "name": "composition.json",
+      "bytes": 25987,
+      "sha256": "2a1a6748eecb178cc891e1b3b41adb720705fa5da53978baa62e547e6ed71609"
+    }
+  ]
+}

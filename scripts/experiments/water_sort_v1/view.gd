@@ -162,7 +162,7 @@ func _build_shell() -> void:
 	animator.z_index=20; board.add_child(animator); animator.set_process(false)
 	animator.completed.connect(_on_pour_completed)
 	_label(self,"Status","",Rect2(90,1420,900,100),34)
-	_button(self,"Undo",t("撤销","Undo"),Rect2(94,1570,420,100),undo_move)
+	_button(self,"Undo",t("撤回","Undo"),Rect2(94,1570,420,100),undo_move)
 	_button(self,"Restart",t("重开本关","Restart"),Rect2(566,1570,420,100),request_restart)
 	_label(self,"RuleHint",t("先点源瓶，再点空瓶或顶部同色的瓶子","Tap a source, then an empty or matching bottle."),Rect2(64,1712,952,60),30,Color("c5d6e3"))
 	_label(self,"Footnote",(t("首批 5 关 · 本机保存","First 5 levels · Saved on this device") if embedded_mode else t("首批 5 关 · 玻璃瓶玩法测试 · 进度仅本次保存","5 levels · Glass-bottle playtest · This session only")),Rect2(64,1810,952,52),26,Color("8faabc"))
@@ -254,7 +254,8 @@ func select_bottle(index: int) -> void:
 			_feedback(t("这是空瓶，先选有颜色的瓶子","Choose a bottle with liquid first"),index); return
 		selected=index; message_remaining=0; _refresh(); return
 	if not rules.can_pour(selected,index):
-		_feedback(t("只能倒入空瓶或顶部同色、未满的瓶子","Use an empty or matching bottle with free space"),index); return
+		selected=index if not rules.bottles[index].is_empty() else -1
+		message_remaining=0; _refresh(); return
 	var before: Dictionary=rules.snapshot()
 	var source: int=selected
 	var amount: int=rules.pour(source,index)
@@ -341,7 +342,7 @@ func show_instructions() -> void:
 	if rules==null: return
 	if state!="intro": return_state=state
 	state="intro"; _refresh()
-	_make_overlay(t("倒瓶子 · 玩法说明","How to play"),t("先点有颜色的源瓶，再点目标瓶。\n只能倒入空瓶或顶部同色的瓶子。\n顶端连续同色会一次倒入，直到目标满。\n把每种颜色装满各自的瓶子即可过关。\n\n可随时撤销、重开；说明与暂停不计时。","Tap a source bottle, then a destination.\nPour into empty bottles or matching top colors.\nThe top color pours together until the bottle fills.\nFill each bottle with just one color to win.\n\nUndo and restart are always available.\nInstructions and pause screens stop the clock."))
+	_make_overlay(t("倒瓶子 · 玩法说明","How to play"),t("先点有颜色的源瓶，再点目标瓶。\n只能倒入空瓶或顶部同色的瓶子。\n顶端连续同色会一次倒入，直到目标满。\n把每种颜色装满各自的瓶子即可过关。\n\n可随时撤回、重开；说明与暂停不计时。","Tap a source bottle, then a destination.\nPour into empty bottles or matching top colors.\nThe top color pours together until the bottle fills.\nFill each bottle with just one color to win.\n\nUndo and restart are always available.\nInstructions and pause screens stop the clock."))
 	labels.OverlayBody.position=Vector2(160,670); labels.OverlayBody.size=Vector2(760,500)
 	labels.OverlayTitle.position=Vector2(160,570)
 	_button(overlay,"Start",t("开始游戏","Start game") if moves==0 and elapsed<0.1 and level_index==0 else t("返回当前局","Back to game"),Rect2(170,1240,740,100),resume_from_instructions)
@@ -360,14 +361,14 @@ func _result_overlay(won: bool) -> void:
 	_refresh()
 	var final: bool=level_index+1==levels.size()
 	var title: String=(t("5 关挑战完成","All 5 levels complete") if final else t("本关完成","Level complete")) if won else t("暂时无路可走","No moves left")
-	var body: String=(t("%d 步 · 用时 %02d:%02d\n%s","%d moves · %02d:%02d\n%s") % [moves,int(elapsed)/60,int(elapsed)%60,t("已完成当前全部关卡。","You finished all current levels.") if final else t("所有颜色已各自归位。","Every color is in its own bottle.")] ) if won else t("当前没有合法倒法。\n撤销上一步，或重新试试。","There are no legal pours.\nUndo a move or try again.")
+	var body: String=(t("%d 步 · 用时 %02d:%02d\n%s","%d moves · %02d:%02d\n%s") % [moves,int(elapsed)/60,int(elapsed)%60,t("已完成当前全部关卡。","You finished all current levels.") if final else t("所有颜色已各自归位。","Every color is in its own bottle.")] ) if won else t("当前没有合法倒法。\n撤回上一步，或重新试试。","There are no legal pours.\nUndo a move or try again.")
 	_make_overlay(title,body)
 	if won and not final:
 		_button(overlay,"Next",t("下一关","Next level"),Rect2(170,1025,740,100),next_level)
 	elif won:
 		_button(overlay,"ReplayAll",t("从第 1 关再玩","Play again from level 1"),Rect2(170,1025,740,100),func(): _request_level(0))
 	else:
-		_button(overlay,"BlockedUndo",t("撤销上一步","Undo last move"),Rect2(170,1025,740,100),undo_move).disabled=history.is_empty()
+		_button(overlay,"BlockedUndo",t("撤回上一步","Undo last move"),Rect2(170,1025,740,100),undo_move).disabled=history.is_empty()
 	_button(overlay,"ResultRestart",t("重玩本关","Replay level"),Rect2(170,1160,350,92),func(): _request_level(level_index),true)
 	_button(overlay,"ResultInstructions",(t("返回主页","Home") if embedded_mode else t("返回说明","Instructions")),Rect2(560,1160,350,92),_return_entry,true)
 

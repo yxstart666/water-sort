@@ -1,72 +1,31 @@
-彩虹搬运站 / Rainbow Cargo — 私有测试包组件与来源说明
-Prepared 2026-10-22. Keep this notice and its licenses/ directory with each test-package copy.
+Color Pause - current private development source
 
-1. Godot Engine
-This build uses Godot 4.7.2 Standard, official commit ed1daf0bf. The Linux
-editor and Windows/Linux export templates were obtained from the official
-Godot download archive and verified against published SHA-256 checksums.
-Godot is distributed under the MIT/Expat license. The license and copyright
-statement are reproduced in licenses/godot/Godot-LICENSE.txt.
+This tree contains source and runtime resources, not a bundled Godot executable.
+The tested engine is Godot 4.7.2 Standard, official ed1daf0bf. Godot's MIT notice
+is in licenses/godot/Godot-LICENSE.txt. An exported distribution must include
+the component notices from the exact engine/export template it actually uses.
+Such a final APK/AAB/export notice audit is not completed by this source sync.
 
-licenses/godot/Godot-components.json was extracted from the verified cloud
-Linux engine using Engine.get_copyright_info() and Engine.get_license_info().
-It contains 102 component records and 19 license texts. The separately named
-Godot-components-Windows-handoff.json preserves the supplied project's earlier
-Windows-engine extraction, rather than claiming it was executed on this cloud
-Linux host. Component licenses are reproduced as supplied by their engines;
-including a notice does not imply every optional component is used by gameplay.
+Fonts: exact Noto Sans Bold, Noto Sans CJK Bold TTC and extracted Noto Sans CJK
+SC Bold OTF bytes are retained. Full OFL, copyright and identity/provenance
+records are under licenses/fonts/. LXGW 975 Yuan SC 700W is covered by the full
+OFL in assets/colorpause_ui_20261030/fonts/LXGW975Yuan-OFL.txt and
+assets/font_policy/lxgw-official-ofl.txt. System font fallback is disabled;
+explicit current bindings live in scripts/ui_restore/font_policy.gd and
+typography.gd. Font licenses do not license unrelated bitmap lettering/art.
 
-Official engine license: https://godotengine.org/license/
-Official release: https://godotengine.org/download/archive/4.7.2-stable/
+Audio: audio/AUDIO_PROVENANCE.json identifies the retained procedural effects
+and current Sunlit Steps OGG. The current BGM generator, composition and delivery
+contract are retained next to the OGG. The unused old music_loop.wav and preview
+OGG are not included. Procedural provenance is not an independent legal opinion
+or a new public license grant; device listening balance remains unverified.
 
-2. Bundled Noto fonts
-The exact NotoSans-Bold.ttf and NotoSansCJK-Bold.ttc binaries are retained
-without changing their bytes, names, or glyph sets. Binary SHA-256 and all
-embedded face metadata are recorded under licenses/fonts/.
+Artwork, level data and implementation: retained under the user's private
+project authorization. A handoff or this private GitHub upload does not itself
+establish public redistribution rights or commercial asset clearance. No new
+license grant is made here. Bitmap art-lettering clearance remains distinct
+from the audited OFL fonts. See docs/current/STATUS.md for release boundaries.
 
-Noto Sans Bold, version 2.004:
-Copyright 2015 Google LLC. All Rights Reserved.
-Noto Sans CJK Bold collection, version 2.004 (10 faces):
-© 2014-2021 Adobe (http://www.adobe.com/).
-
-Both identify the SIL Open Font License, Version 1.1 in their own embedded
-metadata. Complete OFL text from the respective upstream repositories and
-original supplied distribution copyright files are included. The OFL applies
-to the fonts, not automatically to this game's code or artwork. Do not sell
-the font files by themselves or remove the included notices.
-
-Upstream source references:
-https://github.com/notofonts/noto-fonts/blob/main/LICENSE
-https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE
-Official OFL reference: https://openfontlicense.org/open-font-license-official-text/
-
-The supplied file named OFL-1.1_FULL_TEXT.txt was not used as the license:
-it contained only an unrelated 194-byte packaging-copyright fragment. Original
-project source files were left unchanged. Complete upstream texts are included
-under clearly named NotoSans[-CJK]-OFL-1.1-UPSTREAM.txt files instead.
-
-3. Project audio
-The seven WAV assets are the project's procedural score and effects produced
-by assets/audio/generate_audio.py. Inspection found Python-standard-library
-sine-wave/harmonic synthesis, envelopes, and explicit note sequences, with no
-external recording or sample input. An isolated rerun reproduced all seven
-files byte-for-byte; hashes and synthesis format are in audio/AUDIO_PROVENANCE.json.
-This describes observed provenance, not an independent legal originality
-opinion or a new open-source license grant. No third-party sound library is
-represented as having been licensed.
-
-4. Project artwork, levels and implementation
-The test build includes project/handoff artwork, level data, and implementation.
-Their provenance or inclusion in a handoff is not proof of a separate commercial
-license or public redistribution grant. No new rights are claimed for those
-materials here. This package is for the user's private development evaluation;
-public publication and commercial asset clearance are not established by this
-notice. Godot/font licenses do not grant rights to unrelated game assets.
-
-5. Package integrity and scope
-Preserve THIRD_PARTY_NOTICES.txt, licenses/, and audio/AUDIO_PROVENANCE.json
-alongside the executable and resource package. Distribution files and hashes
-are listed in NOTICES_MANIFEST.json. These notices are separate from the
-runtime resource whitelist so evidence/document exclusions cannot accidentally
-remove required license text. The package does not include personal saves,
-credentials, signing keys, or development screenshots/logs.
+All included files and exact hashes are listed in docs/current/SYNC_MANIFEST.json.
+No real player saves, credentials, signing keys, engine caches or build artifacts
+are included. Preserve these notices and licenses with derivative test packages.

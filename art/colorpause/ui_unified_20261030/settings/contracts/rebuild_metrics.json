@@ -1,0 +1,6 @@
+{
+  "full_canvas_mean_abs_channel_difference": 0.8766307348174427,
+  "reference": "source cutout excluding original galaxy background",
+  "comparison": "all independently editable components with source-silhouette-derived smooth shadow layers; dynamic Chinese value QA reference only",
+  "not_pixel_identical_reason": "removed foreground backing uses imagegen repair; alpha recovered from flattened source; separated soft shadows explicitly use smooth silhouette offset/blur model"
+}

@@ -1,0 +1,644 @@
+{
+  "schema": 1,
+  "status": "root_visual_asset_acceptance_pass_runtime_pending",
+  "source_master": "stuck_full_candidate.png",
+  "source_sha256": "5819087230aceca3c9bbeab6cd303d770e704e3d8ec6ad27249c3a156eacf882",
+  "canvas_px": [
+    915,
+    1719
+  ],
+  "built_in_image_gen_sources": {
+    "master": "exec-7046551e-6a8d-429e-bb94-66e6bb3c7c32.png",
+    "cleanplate": "exec-22cc7cc2-cdbc-4665-b6fe-fd8a338f25ba.png",
+    "empty_panel": "exec-b067c7b5-9446-464f-a4b3-fe8af18e8283.png"
+  },
+  "layers": [
+    {
+      "key": "title_normal",
+      "file": "assets/title_normal.png",
+      "rect_px": [
+        140,
+        130,
+        775,
+        322
+      ],
+      "size": [
+        635,
+        192
+      ],
+      "alpha_bbox": [
+        2,
+        3,
+        632,
+        192
+      ],
+      "role": "whole original component, normal state",
+      "source": "approved_master",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "title_blank",
+      "file": "assets/title_blank.png",
+      "rect_px": [
+        140,
+        130,
+        775,
+        322
+      ],
+      "size": [
+        635,
+        192
+      ],
+      "alpha_bbox": [
+        2,
+        3,
+        632,
+        192
+      ],
+      "role": "empty material support for localization/state UI",
+      "source": "imagegen_cleanplate_support_not_original",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "nine_slice_margins": [
+        92,
+        92,
+        92,
+        92
+      ],
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "hero_card_normal",
+      "file": "assets/hero_card_normal.png",
+      "rect_px": [
+        105,
+        328,
+        810,
+        794
+      ],
+      "size": [
+        705,
+        466
+      ],
+      "alpha_bbox": [
+        1,
+        2,
+        703,
+        461
+      ],
+      "role": "whole original component, normal state",
+      "source": "approved_master",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "hero_card_blank",
+      "file": "assets/hero_card_blank.png",
+      "rect_px": [
+        105,
+        328,
+        810,
+        794
+      ],
+      "size": [
+        705,
+        466
+      ],
+      "alpha_bbox": [
+        1,
+        2,
+        703,
+        461
+      ],
+      "role": "empty material support for localization/state UI",
+      "source": "imagegen_cleanplate_support_not_original",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "nine_slice_margins": [
+        62,
+        62,
+        62,
+        62
+      ],
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "undo_button_normal",
+      "file": "assets/undo_button_normal.png",
+      "rect_px": [
+        106,
+        965,
+        809,
+        1164
+      ],
+      "size": [
+        703,
+        199
+      ],
+      "alpha_bbox": [
+        3,
+        3,
+        700,
+        197
+      ],
+      "role": "whole original component, normal state",
+      "source": "approved_master",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "undo_button_blank",
+      "file": "assets/undo_button_blank.png",
+      "rect_px": [
+        106,
+        965,
+        809,
+        1164
+      ],
+      "size": [
+        703,
+        199
+      ],
+      "alpha_bbox": [
+        4,
+        3,
+        698,
+        197
+      ],
+      "role": "empty material support for localization/state UI",
+      "source": "imagegen_cleanplate_support_not_original",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "nine_slice_margins": [
+        90,
+        90,
+        90,
+        90
+      ],
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "replay_button_normal",
+      "file": "assets/replay_button_normal.png",
+      "rect_px": [
+        112,
+        1159,
+        457,
+        1429
+      ],
+      "size": [
+        345,
+        270
+      ],
+      "alpha_bbox": [
+        0,
+        0,
+        342,
+        270
+      ],
+      "role": "whole original component, normal state",
+      "source": "approved_master",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "replay_button_blank",
+      "file": "assets/replay_button_blank.png",
+      "rect_px": [
+        112,
+        1159,
+        457,
+        1429
+      ],
+      "size": [
+        345,
+        270
+      ],
+      "alpha_bbox": [
+        1,
+        0,
+        342,
+        270
+      ],
+      "role": "empty material support for localization/state UI",
+      "source": "imagegen_cleanplate_support_not_original",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "nine_slice_margins": [
+        89,
+        89,
+        89,
+        89
+      ],
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "home_button_normal",
+      "file": "assets/home_button_normal.png",
+      "rect_px": [
+        460,
+        1159,
+        805,
+        1429
+      ],
+      "size": [
+        345,
+        270
+      ],
+      "alpha_bbox": [
+        1,
+        0,
+        342,
+        270
+      ],
+      "role": "whole original component, normal state",
+      "source": "approved_master",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "home_button_blank",
+      "file": "assets/home_button_blank.png",
+      "rect_px": [
+        460,
+        1159,
+        805,
+        1429
+      ],
+      "size": [
+        345,
+        270
+      ],
+      "alpha_bbox": [
+        1,
+        0,
+        341,
+        270
+      ],
+      "role": "empty material support for localization/state UI",
+      "source": "imagegen_cleanplate_support_not_original",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "nine_slice_margins": [
+        89,
+        89,
+        89,
+        89
+      ],
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "bonus_button_normal",
+      "file": "assets/bonus_button_normal.png",
+      "rect_px": [
+        112,
+        1432,
+        805,
+        1610
+      ],
+      "size": [
+        693,
+        178
+      ],
+      "alpha_bbox": [
+        4,
+        0,
+        686,
+        177
+      ],
+      "role": "whole original component, normal state",
+      "source": "approved_master",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "bonus_button_blank",
+      "file": "assets/bonus_button_blank.png",
+      "rect_px": [
+        112,
+        1432,
+        805,
+        1610
+      ],
+      "size": [
+        693,
+        178
+      ],
+      "alpha_bbox": [
+        5,
+        0,
+        685,
+        177
+      ],
+      "role": "empty material support for localization/state UI",
+      "source": "imagegen_cleanplate_support_not_original",
+      "rgb_source_exact": false,
+      "opaque_rgb_source_exact": true,
+      "nine_slice_margins": [
+        84,
+        84,
+        84,
+        84
+      ],
+      "alpha_recovery": "alpha-only geometric core plus inverse compositing against empty panel for <=17px soft contact-shadow fringe; opaque interior RGB unchanged"
+    },
+    {
+      "key": "panel_blank",
+      "file": "assets/panel_blank.png",
+      "rect_px": [
+        50,
+        215,
+        865,
+        1652
+      ],
+      "size": [
+        815,
+        1437
+      ],
+      "alpha_bbox": [
+        3,
+        3,
+        810,
+        1430
+      ],
+      "role": "empty 9-slice panel, no controls or text",
+      "source": "imagegen_empty_panel_support",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "nine_slice_margins": [
+        114,
+        114,
+        114,
+        114
+      ]
+    },
+    {
+      "key": "title_zh",
+      "file": "assets/title_zh.png",
+      "rect_px": [
+        194,
+        164,
+        729,
+        289
+      ],
+      "size": [
+        535,
+        125
+      ],
+      "alpha_bbox": [
+        5,
+        4,
+        527,
+        111
+      ],
+      "role": "fixed title",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "body_zh",
+      "file": "assets/body_zh.png",
+      "rect_px": [
+        143,
+        805,
+        782,
+        941
+      ],
+      "size": [
+        639,
+        136
+      ],
+      "alpha_bbox": [
+        9,
+        8,
+        630,
+        136
+      ],
+      "role": "fixed explanatory body",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "undo_icon",
+      "file": "assets/undo_icon.png",
+      "rect_px": [
+        181,
+        992,
+        328,
+        1114
+      ],
+      "size": [
+        147,
+        122
+      ],
+      "alpha_bbox": [
+        6,
+        2,
+        145,
+        121
+      ],
+      "role": "source button icon",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "undo_label_zh",
+      "file": "assets/undo_label_zh.png",
+      "rect_px": [
+        352,
+        1002,
+        741,
+        1107
+      ],
+      "size": [
+        389,
+        105
+      ],
+      "alpha_bbox": [
+        9,
+        9,
+        382,
+        98
+      ],
+      "role": "source button label",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "replay_icon",
+      "file": "assets/replay_icon.png",
+      "rect_px": [
+        204,
+        1192,
+        370,
+        1325
+      ],
+      "size": [
+        166,
+        133
+      ],
+      "alpha_bbox": [
+        11,
+        0,
+        158,
+        126
+      ],
+      "role": "source button icon",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "replay_label_zh",
+      "file": "assets/replay_label_zh.png",
+      "rect_px": [
+        170,
+        1317,
+        405,
+        1390
+      ],
+      "size": [
+        235,
+        73
+      ],
+      "alpha_bbox": [
+        11,
+        0,
+        219,
+        66
+      ],
+      "role": "source button label",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "home_icon",
+      "file": "assets/home_icon.png",
+      "rect_px": [
+        542,
+        1188,
+        717,
+        1324
+      ],
+      "size": [
+        175,
+        136
+      ],
+      "alpha_bbox": [
+        13,
+        3,
+        161,
+        132
+      ],
+      "role": "source button icon",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "home_label_zh",
+      "file": "assets/home_label_zh.png",
+      "rect_px": [
+        557,
+        1321,
+        707,
+        1390
+      ],
+      "size": [
+        150,
+        69
+      ],
+      "alpha_bbox": [
+        20,
+        0,
+        126,
+        63
+      ],
+      "role": "source button label",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "bonus_icon",
+      "file": "assets/bonus_icon.png",
+      "rect_px": [
+        239,
+        1454,
+        337,
+        1567
+      ],
+      "size": [
+        98,
+        113
+      ],
+      "alpha_bbox": [
+        5,
+        5,
+        97,
+        104
+      ],
+      "role": "source button icon",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    },
+    {
+      "key": "bonus_label_zh",
+      "file": "assets/bonus_label_zh.png",
+      "rect_px": [
+        358,
+        1465,
+        680,
+        1560
+      ],
+      "size": [
+        322,
+        95
+      ],
+      "alpha_bbox": [
+        10,
+        3,
+        317,
+        89
+      ],
+      "role": "source button label",
+      "source": "approved_master",
+      "rgb_source_exact": true,
+      "opaque_rgb_source_exact": true,
+      "alpha_method": "white face seed + <=8px source-v-cleanplate difference rim; original RGB unchanged; alpha feather .38"
+    }
+  ],
+  "source_locked_normal_controls": true,
+  "support_sources_are_not_claimed_user_approved_art": true,
+  "runtime_acceptance": "pending real GameView integration and MCP; browser launch blocked and no browser/native screenshots claimed",
+  "state_contract": "contracts/state_layout.json",
+  "qa_gate": {
+    "normal_reassembly": "root preliminary accepted",
+    "alpha_light_dark": "author reviewed after targeted halo/white-line correction",
+    "static_geometry": "12/12 width/state combinations pass",
+    "press_disabled_interaction": "contract only; no-history PNG is layout-only, not disabled visual acceptance",
+    "final_alpha_and_no_bonus_layout": "root actual-view accepted 2026-10-30 13:58 UTC"
+  }
+}

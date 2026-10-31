@@ -1,0 +1,64 @@
+{
+  "schema": "colorpause.palette.source_override.v1",
+  "root_acceptance": "root actual-view approved existing high-resolution reconstruction for large display; original120 remains mandatory small toolbar source",
+  "small_toolbar": {
+    "file": "palette_latest_original_120x112.png",
+    "dimensions_wh": [
+      120,
+      112
+    ],
+    "visible_alpha_bbox_xyxy": [
+      2,
+      3,
+      112,
+      111
+    ],
+    "sha256": "90c0a1236e6e745aa96d7492798c52614408599ffb7516a9e30660c126a6041c",
+    "quality_rule": "Use at or below native size when possible; do not claim high-resolution source or silently stretch glyph."
+  },
+  "large_display": {
+    "file": "palette_large_display_450x443.png",
+    "dimensions_wh": [
+      450,
+      443
+    ],
+    "visible_alpha_bbox_xyxy": [
+      7,
+      7,
+      443,
+      436
+    ],
+    "alpha128_bbox_xyxy": [
+      8,
+      8,
+      442,
+      435
+    ],
+    "opaque_core_wh": [
+      434,
+      427
+    ],
+    "sha256": "e57a765e56ab6bcb76841b567ed761e35e038c0582b21aeccdcf0e7321949de2",
+    "source_atlas": "deliverables/go-minibus-bottom-icons-MB-A-012/source/no_badge_reconstruction_atlas.png",
+    "source_atlas_sha256": "5f063dea6e1ed2f6748cdd9aaca715b4dbae3002f4d613dcd922f63a5457ecc1",
+    "source_crop_xyxy": [
+      1122,
+      146,
+      1572,
+      589
+    ],
+    "processing": "alpha-only largest-component cleanup + native contour feather; original RGB retained, no resampling or recoloring",
+    "clarification": "Earlier434x425 diagnostic crop clipped the extremity. Final450x443 carries8px gutter and preserves full434x427 alpha128 contour, never forced into434x425.",
+    "not_pixel_identical_to_small_source": true,
+    "approved_difference": "Root accepted same palette composition, five-dot order, white rim/blue circular base as high-resolution repair, not original-pixel losslessness",
+    "display_rule": "Use natural aspect for large popup illustration; no automatic upscaling beyond native visible contour without actual clarity check."
+  },
+  "replacement_scope": "Refresh-colors user-selected palette icon replaces old yellow/pink paired arrows. Keep approved surrounding frame/layout. Only this explicit Minibus-art reuse is authorized.",
+  "excluded": [
+    "with_badge variant",
+    "other Minibus controls",
+    "Minibus failure/revive/character",
+    "new arrow redesign"
+  ],
+  "sampling": "LINEAR_WITH_MIPMAPS; keep source alpha and hit target independent"
+}

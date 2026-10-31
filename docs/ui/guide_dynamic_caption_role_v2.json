@@ -1,0 +1,74 @@
+{
+  "schema": "colorpause.guide.dynamic_caption_role.v2",
+  "status": "design_revision_approved_by_root; implementation retained; native error/pour-state matrix pending root",
+  "decision_source": {
+    "parent_thread": "01a18bb2-671b-7663-9a50-21c06351d02d",
+    "scope": "User-authorized unification of inconsistent design; current real700 dynamic role explicitly approved. Static title/steps/rule art unchanged.",
+    "supersedes": "Unknown generated-master font pixel1:1 criterion for dynamic captions ONLY;17AI glyph-image production request withdrawn."
+  },
+  "font": {
+    "family": "LXGW975YuanSC",
+    "weight": 700,
+    "file": "res://assets/colorpause_ui_20261030/fonts/LXGW975YuanSC-700W.ttf",
+    "sha256": "f392de4cba941f3c44c7770cfed7ac3c658b46b7e3a4b2546fe155010109d403",
+    "real_weight_required": true,
+    "variation_embolden": 0,
+    "fallback_font_allowed": false
+  },
+  "role": {
+    "rgb_hex": "042590",
+    "source_canvas": [
+      915,
+      1719
+    ],
+    "caption_slot_xywh": [
+      200,
+      1094,
+      510,
+      151
+    ],
+    "line_font_sizes": [
+      55,
+      53
+    ],
+    "line_relative_positions_xy": [
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        80
+      ]
+    ],
+    "line_control_size": [
+      510,
+      68
+    ],
+    "first_line_zh_tracking_px": 2,
+    "other_tracking_px": 0,
+    "outline_size": 0,
+    "horizontal_alignment": "center",
+    "vertical_alignment": "center",
+    "semantic_text": "retained on parentLabel for accessibility; real stage/feedback drives childLabels"
+  },
+  "implementation": {
+    "scripts/ui_restore/guide_caption.gd": "94e885d4038aabf6991f388e16d3a1ae0127f6576e82a2525ac64ea14c0471e2",
+    "scripts/ui_restore/guide_formal_view.gd": "22a77889957fe867adbc1043c55714edba611f66b3eb622e5dd5f57e06834809"
+  },
+  "unchanged": [
+    "static title artwork",
+    "subtitle/rule artwork",
+    "step-chip artwork",
+    "actualBottleVisual renderer",
+    "state machine and two-click pour behavior",
+    "fontPolicy and export font loading"
+  ],
+  "prohibited": [
+    "synthetic embolden",
+    "unapproved font substitution",
+    "17AI caption images",
+    "shipping caption_reference_only as baked runtime text"
+  ],
+  "claim_limit": "This is an approved local dynamic-role specification revision. It is not a claim of pixel1:1 correspondence to the original unknown generated typeface."
+}

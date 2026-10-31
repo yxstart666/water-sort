@@ -1,0 +1,1651 @@
+{
+  "pages": [
+    {
+      "screen": "pause",
+      "locale": "zh",
+      "viewport": [
+        320,
+        676
+      ],
+      "rowHeight": 70,
+      "rowGap": 5.248,
+      "header": [
+        194.24,
+        64.38155388471178
+      ],
+      "closeHitboxDp": 46.4,
+      "toggleHitboxDp": [
+        83.84,
+        46.81066666666667
+      ],
+      "rowEntryHitboxDp": [
+        243.84,
+        70
+      ],
+      "labelsSeparateFromBase": true,
+      "sourceLocalizedLabelTextures": true,
+      "layers": [
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.webp",
+          "rectDp": [
+            6.04704318936877,
+            67.13488372093023,
+            307.90591362126247,
+            405.0370232558139
+          ],
+          "sourceInsetsLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "uniformCornerScale": 0.2346843853820598
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/title_normal_9slice_candidate.webp",
+          "rectDp": [
+            61.520814249363866,
+            50.64875318066158,
+            197.2054961832061,
+            65.36447837150128
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.12356234096692112
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/pause_zh-CN.webp",
+          "rectDp": [
+            119.08196721311475,
+            59.476210737079214,
+            81.8360655737705,
+            45.114754098360656
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "pause",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/close_normal_clean.webp",
+          "rectDp": [
+            263.68,
+            70.92,
+            46.4,
+            45.88235294117647
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            38.08,
+            131.2,
+            243.84,
+            70
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.35
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_speaker.webp",
+          "rectDp": [
+            49.599999999999994,
+            144.15839999999997,
+            52.480000000000004,
+            44.083200000000005
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/sound_zh-CN.webp",
+          "rectDp": [
+            108.20371584699453,
+            151.86010928961747,
+            47.91256830601093,
+            25.879781420765028
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "sound",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            192.32000000000002,
+            142.79466666666664,
+            83.84,
+            46.81066666666667
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            38.08,
+            206.44799999999998,
+            243.84,
+            70
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.35
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_music.webp",
+          "rectDp": [
+            49.599999999999994,
+            217.9585882352941,
+            47.68,
+            46.97882352941176
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/music_zh-CN.webp",
+          "rectDp": [
+            107.50426229508196,
+            226.4086557377049,
+            49.31147540983606,
+            27.278688524590162
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "music",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            192.32000000000002,
+            218.04266666666663,
+            83.84,
+            46.81066666666667
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            38.08,
+            281.696,
+            243.84,
+            70
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.35
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_vibration.webp",
+          "rectDp": [
+            49.599999999999994,
+            291.17303703703703,
+            56.64,
+            51.04592592592593
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/haptics_zh-CN.webp",
+          "rectDp": [
+            107.50426229508196,
+            301.65665573770497,
+            49.31147540983606,
+            27.278688524590162
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "haptics",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            192.32000000000002,
+            293.2906666666667,
+            83.84,
+            46.81066666666667
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.webp",
+          "rectDp": [
+            46.296977660972395,
+            466.7320683311432,
+            227.69030223390277,
+            81.29766097240474
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.1421287779237845
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/continue_zh-CN.webp",
+          "rectDp": [
+            89.87978142076503,
+            481.9191294055133,
+            140.24043715846994,
+            39.51912568306011
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "continue",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/yellow_square_normal_clean.webp",
+          "rectDp": [
+            48.76437246963563,
+            547.4679421813404,
+            107.17408906882591,
+            100.17813765182186
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_home.webp",
+          "rectDp": [
+            80.48,
+            556.4279421813403,
+            43.84,
+            43.4948031496063
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/home_zh-CN.webp",
+          "rectDp": [
+            79.84262295081967,
+            602.7772317988266,
+            45.114754098360656,
+            23.781420765027324
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "home",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            161.2551881413911,
+            547.4679421813404,
+            106.2896237172178,
+            97.20410490307867
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_replay.webp",
+          "rectDp": [
+            192.48000000000002,
+            556.4279421813403,
+            43.84,
+            44.182500000000005
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/replay_zh-CN.webp",
+          "rectDp": [
+            190.61857923497269,
+            601.7280514709579,
+            47.56284153005465,
+            25.879781420765028
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "replay",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true,
+          "contentRectPx": [
+            4,
+            4,
+            128,
+            66
+          ],
+          "inkRectPx": [
+            11,
+            4,
+            124,
+            65
+          ]
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            38.08,
+            356.944,
+            243.84,
+            70
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.35
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/icon_language.webp",
+          "rectDp": [
+            49.599999999999994,
+            366.04700653594773,
+            52.480000000000004,
+            51.79398692810458
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/label_language_zh-CN.webp",
+          "rectDp": [
+            106.97967213114754,
+            377.25438251366126,
+            50.36065573770492,
+            26.579234972677593
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.webp",
+          "rectDp": [
+            165.41405405405408,
+            372.9063284823285,
+            113.80091476091476,
+            42.620540540540546
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.07451143451143452,
+          "id": "language_navigation_capsule"
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/label_current_zh-CN.webp",
+          "rectDp": [
+            178.34928961748636,
+            378.82924590163935,
+            70.64480874316939,
+            26.22950819672131
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/chevron_right.webp",
+          "rectDp": [
+            251.79191256830603,
+            379.8784262295082,
+            14.33879781420765,
+            24.131147540983605
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        }
+      ],
+      "background": "plain QA field, not production scene",
+      "bottomBlankButtons": "yellow_square_normal_clean.png / blue_square_normal_clean.png; natural source aspect ratio",
+      "id": "pause_with_language",
+      "addedRowStrideDp": 75.248,
+      "status": "fourth-row layout candidate; offline preview inspected; engine not tested",
+      "background_color_srgb": "#1D416A",
+      "language_navigation": {
+        "action": "toggle_existing_language_zh_en",
+        "rectDp": [
+          38.08,
+          356.944,
+          243.84,
+          70
+        ],
+        "capsuleRectDp": [
+          168.32000000000002,
+          374.024,
+          107.84,
+          35.84
+        ],
+        "minimumHitboxDp": [
+          44,
+          44
+        ],
+        "control": "navigation, not toggle",
+        "localeValue": "zh-CN (texture in this package); replace locale layer after selection",
+        "no_new_settings_features": true
+      },
+      "runtime_dependencies": [
+        "runtime/controls/icon_home.webp",
+        "runtime/controls/icon_music.webp",
+        "runtime/controls/icon_replay.webp",
+        "runtime/controls/icon_speaker.webp",
+        "runtime/controls/icon_vibration.webp",
+        "runtime/controls/labels/continue_zh-CN.webp",
+        "runtime/controls/labels/haptics_zh-CN.webp",
+        "runtime/controls/labels/home_zh-CN.webp",
+        "runtime/controls/labels/music_zh-CN.webp",
+        "runtime/controls/labels/pause_zh-CN.webp",
+        "runtime/controls/labels/replay_zh-CN.webp",
+        "runtime/controls/labels/sound_zh-CN.webp",
+        "runtime/controls/row_blank_source_derived.webp",
+        "runtime/controls/toggle_on_composite.webp",
+        "runtime/language_entry/chevron_right.webp",
+        "runtime/language_entry/icon_language.webp",
+        "runtime/language_entry/label_current_zh-CN.webp",
+        "runtime/language_entry/label_language_zh-CN.webp",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/sprites/close_normal_clean.webp",
+        "runtime/sprites/cyan_normal_9slice_candidate.webp",
+        "runtime/sprites/panel_normal_9slice_candidate.webp",
+        "runtime/sprites/title_normal_9slice_candidate.webp",
+        "runtime/sprites/toggle_off_assembled_clean.webp",
+        "runtime/sprites/yellow_square_normal_clean.webp"
+      ],
+      "limits": [
+        "Full English UI not complete.",
+        "Language selection page not packaged.",
+        "Real locale persistence and return behavior must be wired by host."
+      ],
+      "touch_targets": [
+        {
+          "action": "close",
+          "minimum_dp": 44
+        },
+        {
+          "action": "continue",
+          "minimum_dp": 44
+        },
+        {
+          "action": "home",
+          "minimum_dp": 44
+        },
+        {
+          "action": "replay",
+          "minimum_dp": 44
+        },
+        {
+          "action": "language",
+          "rectDp": [
+            38.08,
+            356.944,
+            243.84,
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "screen": "pause",
+      "locale": "zh",
+      "viewport": [
+        390,
+        824
+      ],
+      "rowHeight": 85.02,
+      "rowGap": 6.396000000000001,
+      "header": [
+        236.73,
+        78.46501879699248
+      ],
+      "closeHitboxDp": 56.55,
+      "toggleHitboxDp": [
+        102.18,
+        57.05050000000001
+      ],
+      "rowEntryHitboxDp": [
+        297.18,
+        85.02
+      ],
+      "labelsSeparateFromBase": true,
+      "sourceLocalizedLabelTextures": true,
+      "layers": [
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.webp",
+          "rectDp": [
+            7.369833887043187,
+            81.82063953488372,
+            375.2603322259136,
+            492.4688720930232
+          ],
+          "sourceInsetsLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "uniformCornerScale": 0.28602159468438537
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/title_normal_9slice_candidate.webp",
+          "rectDp": [
+            74.97849236641221,
+            61.72816793893131,
+            240.34419847328243,
+            79.66295801526718
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.1505916030534351
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/pause_zh-CN.webp",
+          "rectDp": [
+            145.13114754098362,
+            72.4866318358153,
+            99.73770491803278,
+            54.983606557377044
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "pause",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/close_normal_clean.webp",
+          "rectDp": [
+            321.35999999999996,
+            88.84,
+            56.55,
+            55.919117647058826
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            46.41,
+            159.89999999999998,
+            297.18,
+            85.02
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.4251
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_speaker.webp",
+          "rectDp": [
+            60.449999999999996,
+            175.54679999999996,
+            63.96,
+            53.7264
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/sound_zh-CN.webp",
+          "rectDp": [
+            131.87327868852458,
+            184.9391081967213,
+            58.393442622950815,
+            31.540983606557372
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "sound",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            234.39000000000001,
+            173.88474999999997,
+            102.18,
+            57.05050000000001
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            46.41,
+            251.31599999999997,
+            297.18,
+            85.02
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.4251
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_music.webp",
+          "rectDp": [
+            60.449999999999996,
+            265.1982794117647,
+            58.11,
+            57.25544117647058
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/music_zh-CN.webp",
+          "rectDp": [
+            131.02081967213115,
+            275.5026491803278,
+            60.0983606557377,
+            33.24590163934426
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "music",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            234.39000000000001,
+            265.30075,
+            102.18,
+            57.05050000000001
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            46.41,
+            342.73199999999997,
+            297.18,
+            85.02
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.4251
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_vibration.webp",
+          "rectDp": [
+            60.449999999999996,
+            354.13588888888887,
+            69.03,
+            62.21222222222223
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/haptics_zh-CN.webp",
+          "rectDp": [
+            131.02081967213115,
+            366.9186491803278,
+            60.0983606557377,
+            33.24590163934426
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "haptics",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            234.39000000000001,
+            356.71675,
+            102.18,
+            57.05050000000001
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.webp",
+          "rectDp": [
+            56.4244415243101,
+            567.6597082785809,
+            277.497555847569,
+            99.08152431011828
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.17321944809461237
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/continue_zh-CN.webp",
+          "rectDp": [
+            109.54098360655738,
+            586.1689389629694,
+            170.91803278688525,
+            48.16393442622951
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "continue",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/yellow_square_normal_clean.webp",
+          "rectDp": [
+            59.43157894736843,
+            666.0565545335085,
+            130.6184210526316,
+            122.0921052631579
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_home.webp",
+          "rectDp": [
+            98.08500000000001,
+            676.9765545335085,
+            53.43000000000001,
+            53.009291338582685
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/home_zh-CN.webp",
+          "rectDp": [
+            97.30819672131149,
+            733.4647512548199,
+            54.983606557377044,
+            28.983606557377044
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "home",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            196.52976054732042,
+            666.0565545335085,
+            129.54047890535918,
+            118.46750285062713
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_replay.webp",
+          "rectDp": [
+            234.585,
+            676.9765545335085,
+            53.43000000000001,
+            53.84742187500001
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/replay_zh-CN.webp",
+          "rectDp": [
+            232.31639344262297,
+            732.1860627302299,
+            57.967213114754095,
+            31.540983606557376
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "replay",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true,
+          "contentRectPx": [
+            4,
+            4,
+            128,
+            66
+          ],
+          "inkRectPx": [
+            11,
+            4,
+            124,
+            65
+          ]
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            46.41,
+            434.14799999999997,
+            297.18,
+            85.02
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.4251
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/icon_language.webp",
+          "rectDp": [
+            60.449999999999996,
+            445.09603921568623,
+            63.96,
+            63.12392156862746
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/label_language_zh-CN.webp",
+          "rectDp": [
+            130.38147540983607,
+            458.76087868852454,
+            61.377049180327866,
+            32.393442622950815
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.webp",
+          "rectDp": [
+            201.59837837837838,
+            453.4558378378378,
+            138.69486486486488,
+            51.943783783783786
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.09081081081081081,
+          "id": "language_navigation_capsule"
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/label_current_zh-CN.webp",
+          "rectDp": [
+            217.3631967213115,
+            460.67439344262294,
+            86.0983606557377,
+            31.967213114754095
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/chevron_right.webp",
+          "rectDp": [
+            306.87139344262295,
+            461.9530819672131,
+            17.475409836065573,
+            29.40983606557377
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        }
+      ],
+      "background": "plain QA field, not production scene",
+      "bottomBlankButtons": "yellow_square_normal_clean.png / blue_square_normal_clean.png; natural source aspect ratio",
+      "id": "pause_with_language",
+      "addedRowStrideDp": 91.416,
+      "status": "fourth-row layout candidate; offline preview inspected; engine not tested",
+      "background_color_srgb": "#1D416A",
+      "language_navigation": {
+        "action": "toggle_existing_language_zh_en",
+        "rectDp": [
+          46.41,
+          434.14799999999997,
+          297.18,
+          85.02
+        ],
+        "capsuleRectDp": [
+          205.14000000000001,
+          454.818,
+          131.43,
+          43.68
+        ],
+        "minimumHitboxDp": [
+          44,
+          44
+        ],
+        "control": "navigation, not toggle",
+        "localeValue": "zh-CN (texture in this package); replace locale layer after selection",
+        "no_new_settings_features": true
+      },
+      "runtime_dependencies": [
+        "runtime/controls/icon_home.webp",
+        "runtime/controls/icon_music.webp",
+        "runtime/controls/icon_replay.webp",
+        "runtime/controls/icon_speaker.webp",
+        "runtime/controls/icon_vibration.webp",
+        "runtime/controls/labels/continue_zh-CN.webp",
+        "runtime/controls/labels/haptics_zh-CN.webp",
+        "runtime/controls/labels/home_zh-CN.webp",
+        "runtime/controls/labels/music_zh-CN.webp",
+        "runtime/controls/labels/pause_zh-CN.webp",
+        "runtime/controls/labels/replay_zh-CN.webp",
+        "runtime/controls/labels/sound_zh-CN.webp",
+        "runtime/controls/row_blank_source_derived.webp",
+        "runtime/controls/toggle_on_composite.webp",
+        "runtime/language_entry/chevron_right.webp",
+        "runtime/language_entry/icon_language.webp",
+        "runtime/language_entry/label_current_zh-CN.webp",
+        "runtime/language_entry/label_language_zh-CN.webp",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/sprites/close_normal_clean.webp",
+        "runtime/sprites/cyan_normal_9slice_candidate.webp",
+        "runtime/sprites/panel_normal_9slice_candidate.webp",
+        "runtime/sprites/title_normal_9slice_candidate.webp",
+        "runtime/sprites/toggle_off_assembled_clean.webp",
+        "runtime/sprites/yellow_square_normal_clean.webp"
+      ],
+      "limits": [
+        "Full English UI not complete.",
+        "Language selection page not packaged.",
+        "Real locale persistence and return behavior must be wired by host."
+      ],
+      "touch_targets": [
+        {
+          "action": "close",
+          "minimum_dp": 44
+        },
+        {
+          "action": "continue",
+          "minimum_dp": 44
+        },
+        {
+          "action": "home",
+          "minimum_dp": 44
+        },
+        {
+          "action": "replay",
+          "minimum_dp": 44
+        },
+        {
+          "action": "language",
+          "rectDp": [
+            46.41,
+            434.14799999999997,
+            297.18,
+            85.02
+          ]
+        }
+      ]
+    },
+    {
+      "screen": "pause",
+      "locale": "zh",
+      "viewport": [
+        430,
+        901
+      ],
+      "rowHeight": 86,
+      "rowGap": 7.0520000000000005,
+      "header": [
+        261.01,
+        86.51271303258146
+      ],
+      "closeHitboxDp": 62.349999999999994,
+      "toggleHitboxDp": [
+        112.66000000000001,
+        62.90183333333334
+      ],
+      "rowEntryHitboxDp": [
+        327.66,
+        86
+      ],
+      "labelsSeparateFromBase": true,
+      "sourceLocalizedLabelTextures": true,
+      "layers": [
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/panel_normal_9slice_candidate.webp",
+          "rectDp": [
+            8.125714285714288,
+            90.2125,
+            413.7485714285714,
+            512.0184999999999
+          ],
+          "sourceInsetsLTRB": [
+            230,
+            230,
+            230,
+            230
+          ],
+          "uniformCornerScale": 0.31535714285714284
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/title_normal_9slice_candidate.webp",
+          "rectDp": [
+            82.6685941475827,
+            68.05926208651401,
+            264.9948854961832,
+            87.83351781170482
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.16603689567430024
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/pause_zh-CN.webp",
+          "rectDp": [
+            160.01639344262296,
+            79.9211581779502,
+            109.9672131147541,
+            60.622950819672134
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "pause",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/close_normal_clean.webp",
+          "rectDp": [
+            354.32,
+            99.08,
+            62.349999999999994,
+            61.65441176470588
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            51.16999999999999,
+            176.29999999999998,
+            327.66,
+            86
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.43
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_speaker.webp",
+          "rectDp": [
+            66.64999999999999,
+            189.6816,
+            70.52,
+            59.23679999999999
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/sound_zh-CN.webp",
+          "rectDp": [
+            145.39874316939893,
+            200.1920218579235,
+            64.38251366120218,
+            34.775956284153004
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "sound",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            258.43,
+            187.8490833333333,
+            112.66000000000001,
+            62.90183333333334
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            51.16999999999999,
+            269.352,
+            327.66,
+            86
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.43
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_music.webp",
+          "rectDp": [
+            66.64999999999999,
+            280.7881029411765,
+            64.07,
+            63.127794117647056
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/music_zh-CN.webp",
+          "rectDp": [
+            144.45885245901638,
+            292.30413114754094,
+            66.26229508196721,
+            36.65573770491803
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "music",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            258.43,
+            280.9010833333333,
+            112.66000000000001,
+            62.90183333333334
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            51.16999999999999,
+            362.404,
+            327.66,
+            86
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.43
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_vibration.webp",
+          "rectDp": [
+            66.64999999999999,
+            371.10751851851853,
+            76.11,
+            68.59296296296296
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/haptics_zh-CN.webp",
+          "rectDp": [
+            144.45885245901638,
+            385.35613114754096,
+            66.26229508196721,
+            36.65573770491803
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "haptics",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/toggle_on_composite.webp",
+          "rectDp": [
+            258.43,
+            373.9530833333333,
+            112.66000000000001,
+            62.90183333333334
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.webp",
+          "rectDp": [
+            62.21156373193166,
+            594.9212168199737,
+            305.9588436268068,
+            109.24373193166886
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.1909855453350854
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/continue_zh-CN.webp",
+          "rectDp": [
+            120.775956284153,
+            615.3288301386585,
+            188.448087431694,
+            53.10382513661203
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "continue",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/yellow_square_normal_clean.webp",
+          "rectDp": [
+            65.52712550607288,
+            703.410047306176,
+            144.01518218623482,
+            134.61437246963564
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_home.webp",
+          "rectDp": [
+            108.14500000000001,
+            715.450047306176,
+            58.910000000000004,
+            58.44614173228347
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/home_zh-CN.webp",
+          "rectDp": [
+            107.28852459016396,
+            777.7319052296732,
+            60.622950819672134,
+            31.956284153005466
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "home",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            216.6866590649943,
+            703.410047306176,
+            142.8266818700114,
+            130.618015963512
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/icon_replay.webp",
+          "rectDp": [
+            258.645,
+            715.450047306176,
+            58.910000000000004,
+            59.370234375
+          ],
+          "uniformScale": true,
+          "contactShadow": true
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/controls/labels/replay_zh-CN.webp",
+          "rectDp": [
+            256.14371584699455,
+            776.3220691640995,
+            63.91256830601093,
+            34.775956284153004
+          ],
+          "uniformScale": true,
+          "contactShadow": false,
+          "labelKey": "replay",
+          "locale": "zh-CN",
+          "replaceableLocaleLayer": true,
+          "contentRectPx": [
+            4,
+            4,
+            128,
+            66
+          ],
+          "inkRectPx": [
+            11,
+            4,
+            124,
+            65
+          ]
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/controls/row_blank_source_derived.webp",
+          "rectDp": [
+            51.16999999999999,
+            455.456,
+            327.66,
+            86
+          ],
+          "sourceInsetsLTRB": [
+            56,
+            56,
+            56,
+            56
+          ],
+          "uniformCornerScale": 0.43
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/icon_language.webp",
+          "rectDp": [
+            66.64999999999999,
+            463.65691503267976,
+            70.52,
+            69.59816993464051
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/label_language_zh-CN.webp",
+          "rectDp": [
+            143.7539344262295,
+            478.87807650273226,
+            67.67213114754098,
+            35.71584699453552
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "nineSlice",
+          "source": "runtime/sprites/cyan_normal_9slice_candidate.webp",
+          "rectDp": [
+            222.27513513513517,
+            472.87412889812896,
+            152.9199792099792,
+            57.271351351351356
+          ],
+          "sourceInsetsLTRB": [
+            350,
+            120,
+            350,
+            120
+          ],
+          "uniformCornerScale": 0.10012474012474014,
+          "id": "language_navigation_capsule"
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/label_current_zh-CN.webp",
+          "rectDp": [
+            239.65685792349728,
+            480.8330491803279,
+            94.92896174863388,
+            35.24590163934426
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        },
+        {
+          "type": "sprite",
+          "source": "runtime/language_entry/chevron_right.webp",
+          "rectDp": [
+            338.3453825136612,
+            482.2428852459017,
+            19.26775956284153,
+            32.42622950819672
+          ],
+          "uniformScale": true,
+          "contactShadow": false
+        }
+      ],
+      "background": "plain QA field, not production scene",
+      "bottomBlankButtons": "yellow_square_normal_clean.png / blue_square_normal_clean.png; natural source aspect ratio",
+      "id": "pause_with_language",
+      "addedRowStrideDp": 93.052,
+      "status": "fourth-row layout candidate; offline preview inspected; engine not tested",
+      "background_color_srgb": "#1D416A",
+      "language_navigation": {
+        "action": "toggle_existing_language_zh_en",
+        "rectDp": [
+          51.16999999999999,
+          455.456,
+          327.66,
+          86
+        ],
+        "capsuleRectDp": [
+          226.18000000000004,
+          474.37600000000003,
+          144.91,
+          48.160000000000004
+        ],
+        "minimumHitboxDp": [
+          44,
+          44
+        ],
+        "control": "navigation, not toggle",
+        "localeValue": "zh-CN (texture in this package); replace locale layer after selection",
+        "no_new_settings_features": true
+      },
+      "runtime_dependencies": [
+        "runtime/controls/icon_home.webp",
+        "runtime/controls/icon_music.webp",
+        "runtime/controls/icon_replay.webp",
+        "runtime/controls/icon_speaker.webp",
+        "runtime/controls/icon_vibration.webp",
+        "runtime/controls/labels/continue_zh-CN.webp",
+        "runtime/controls/labels/haptics_zh-CN.webp",
+        "runtime/controls/labels/home_zh-CN.webp",
+        "runtime/controls/labels/music_zh-CN.webp",
+        "runtime/controls/labels/pause_zh-CN.webp",
+        "runtime/controls/labels/replay_zh-CN.webp",
+        "runtime/controls/labels/sound_zh-CN.webp",
+        "runtime/controls/row_blank_source_derived.webp",
+        "runtime/controls/toggle_on_composite.webp",
+        "runtime/language_entry/chevron_right.webp",
+        "runtime/language_entry/icon_language.webp",
+        "runtime/language_entry/label_current_zh-CN.webp",
+        "runtime/language_entry/label_language_zh-CN.webp",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/sprites/close_normal_clean.webp",
+        "runtime/sprites/cyan_normal_9slice_candidate.webp",
+        "runtime/sprites/panel_normal_9slice_candidate.webp",
+        "runtime/sprites/title_normal_9slice_candidate.webp",
+        "runtime/sprites/toggle_off_assembled_clean.webp",
+        "runtime/sprites/yellow_square_normal_clean.webp"
+      ],
+      "limits": [
+        "Full English UI not complete.",
+        "Language selection page not packaged.",
+        "Real locale persistence and return behavior must be wired by host."
+      ],
+      "touch_targets": [
+        {
+          "action": "close",
+          "minimum_dp": 44
+        },
+        {
+          "action": "continue",
+          "minimum_dp": 44
+        },
+        {
+          "action": "home",
+          "minimum_dp": 44
+        },
+        {
+          "action": "replay",
+          "minimum_dp": 44
+        },
+        {
+          "action": "language",
+          "rectDp": [
+            51.16999999999999,
+            455.456,
+            327.66,
+            86
+          ]
+        }
+      ]
+    }
+  ],
+  "preserve_existing_spacing": "Existing row height and gap unchanged; panel/viewport extend exactly one row stride; continuation and bottom controls shift by same stride.",
+  "no_core_control_removed": true,
+  "engine_tests": "NOT_RUN"
+}

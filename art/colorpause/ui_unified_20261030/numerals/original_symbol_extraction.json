@@ -1,0 +1,82 @@
+{
+  "home_prefix_di": {
+    "source_crop": [
+      873,
+      526,
+      996,
+      653
+    ],
+    "image_size": [
+      123,
+      127
+    ],
+    "white_face_bbox": [
+      18,
+      15,
+      108,
+      107
+    ],
+    "source_pixel_rgb_preserved": true,
+    "alpha_method": "bounded cleanplate dark-contrast mask + white face; 2px opening/closing edge cleanup; outer 0.9px feather; opaque source cannot provide exact original alpha"
+  },
+  "home_1": {
+    "source_crop": [
+      995,
+      537,
+      1076,
+      647
+    ],
+    "image_size": [
+      81,
+      110
+    ],
+    "white_face_bbox": [
+      11,
+      12,
+      67,
+      89
+    ],
+    "source_pixel_rgb_preserved": true,
+    "alpha_method": "bounded cleanplate dark-contrast mask + white face; 2px opening/closing edge cleanup; outer 0.9px feather; opaque source cannot provide exact original alpha"
+  },
+  "home_suffix_guan": {
+    "source_crop": [
+      1076,
+      529,
+      1193,
+      655
+    ],
+    "image_size": [
+      117,
+      126
+    ],
+    "white_face_bbox": [
+      12,
+      12,
+      100,
+      103
+    ],
+    "source_pixel_rgb_preserved": true,
+    "alpha_method": "bounded cleanplate dark-contrast mask + white face; 2px opening/closing edge cleanup; outer 0.9px feather; opaque source cannot provide exact original alpha"
+  },
+  "energy_slash": {
+    "source_crop": [
+      538,
+      807,
+      582,
+      915
+    ],
+    "image_size": [
+      44,
+      108
+    ],
+    "white_face_bbox": [
+      6,
+      15,
+      38,
+      92
+    ],
+    "source_pixel_rgb_preserved": true,
+    "alpha_method": "original white face silhouette plus6px original downward-shadow region;1px edge;0.4px feather"
+  }
+}

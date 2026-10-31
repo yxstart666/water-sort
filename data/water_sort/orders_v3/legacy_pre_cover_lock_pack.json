@@ -1,0 +1,3385 @@
+{
+  "schema_version": 1,
+  "content_version": "orders-v3-20261023-onboarding2",
+  "capacity": 4,
+  "levels": [
+    {
+      "id": 1,
+      "title": "第一份颜色订单",
+      "hint": "装满同色瓶，自动送进订单袋。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "blue"
+        ],
+        [
+          "green",
+          "blue",
+          "blue"
+        ],
+        [
+          "green",
+          "green"
+        ],
+        [
+          "red"
+        ],
+        [
+          "red",
+          "red",
+          "red"
+        ]
+      ],
+      "title_en": "Your first color order",
+      "hint_en": "Fill a single-color bottle to deliver its order.",
+      "orders": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "bonus_bottle": false,
+      "masks": []
+    },
+    {
+      "id": 2,
+      "title": "订单接力",
+      "hint": "满瓶等待同色订单，交付后会补入新订单。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "green"
+        ],
+        [
+          "green",
+          "blue"
+        ],
+        [
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "yellow"
+        ],
+        [
+          "red",
+          "purple"
+        ],
+        [
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "purple"
+        ],
+        [
+          "red",
+          "blue"
+        ],
+        [
+          "purple",
+          "blue"
+        ]
+      ],
+      "title_en": "The order relay",
+      "hint_en": "Full bottles wait for a matching order.",
+      "orders": [
+        "blue",
+        "green",
+        "red",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": []
+    },
+    {
+      "id": 3,
+      "title": "揭开神秘颜色",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "orange",
+          "green",
+          "green",
+          "cyan"
+        ],
+        [
+          "cyan",
+          "blue",
+          "cyan",
+          "yellow"
+        ],
+        [
+          "cyan",
+          "yellow",
+          "cyan",
+          "orange"
+        ],
+        [
+          "cyan",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [
+          "orange",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "cyan"
+        ],
+        [
+          "red",
+          "green"
+        ],
+        [
+          "orange",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "purple"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "cyan"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Reveal the hidden colors",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "yellow",
+        "purple",
+        "green",
+        "orange",
+        "cyan",
+        "orange",
+        "cyan"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "腾空再接力",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "red",
+          "yellow"
+        ],
+        [
+          "purple",
+          "blue",
+          "blue",
+          "red"
+        ],
+        [
+          "yellow",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "green",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "red",
+          "green"
+        ],
+        []
+      ],
+      "title_en": "Clear a path first",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "bottle_locks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ],
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "分路再接力",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "yellow",
+          "purple"
+        ],
+        [
+          "purple",
+          "green",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green",
+          "yellow",
+          "red",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Split the relay",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "两处缓冲",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "green",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "yellow",
+          "blue",
+          "blue",
+          "green"
+        ],
+        [
+          "red",
+          "purple",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "purple",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Two spaces to work",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "先露后接",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "green",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [
+          "yellow",
+          "blue",
+          "purple",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Reveal, then combine",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "六色换手",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "green",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "red",
+          "red",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "purple",
+          "green"
+        ],
+        [
+          "orange",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "purple",
+          "red",
+          "orange",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Six-color handoff",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "留出接续",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "red",
+          "orange"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "blue"
+        ],
+        [
+          "red",
+          "green",
+          "purple",
+          "orange"
+        ],
+        [
+          "yellow",
+          "green",
+          "yellow",
+          "orange"
+        ],
+        [
+          "orange",
+          "red",
+          "blue",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Leave a way through",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "七色接力",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "purple",
+          "green",
+          "pink"
+        ],
+        [
+          "purple",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "pink",
+          "pink",
+          "green",
+          "red"
+        ],
+        [
+          "blue",
+          "red",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Seven-color relay",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "五色小歇",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "green",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "blue",
+          "purple",
+          "purple"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "blue",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "title_en": "A five-color breather",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "分批整理",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "green",
+          "purple",
+          "orange",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "green",
+          "yellow"
+        ],
+        [
+          "orange",
+          "purple",
+          "red",
+          "orange"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Sort in small steps",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "换位再合",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "pink",
+          "green",
+          "red"
+        ],
+        [
+          "green",
+          "yellow",
+          "purple",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "purple",
+          "pink",
+          "yellow",
+          "red"
+        ],
+        [
+          "orange",
+          "purple",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "pink",
+          "red",
+          "blue"
+        ],
+        [
+          "orange",
+          "red",
+          "blue",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Make room to combine",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "回到六色",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "yellow",
+          "red",
+          "orange"
+        ],
+        [
+          "orange",
+          "purple",
+          "purple",
+          "orange"
+        ],
+        [
+          "green",
+          "blue",
+          "purple",
+          "blue"
+        ],
+        [
+          "yellow",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "green",
+          "green"
+        ],
+        [
+          "yellow",
+          "purple",
+          "red",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Back to six colors",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "短程换手",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "yellow",
+          "purple"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "green",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "yellow",
+          "purple",
+          "red",
+          "purple"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "A short handoff",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "七色分路",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "purple",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "yellow",
+          "pink",
+          "orange",
+          "green"
+        ],
+        [
+          "red",
+          "red",
+          "pink",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "green",
+          "pink"
+        ],
+        [
+          "purple",
+          "orange",
+          "pink",
+          "orange"
+        ],
+        [
+          "purple",
+          "yellow",
+          "blue",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Seven-color branches",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "六色转身",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "blue",
+          "purple"
+        ],
+        [
+          "green",
+          "orange",
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "orange",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "green",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "green",
+          "red",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Turn the relay",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "保留落点",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "orange",
+          "purple"
+        ],
+        [
+          "green",
+          "pink",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "pink"
+        ],
+        [
+          "orange",
+          "blue",
+          "pink",
+          "orange"
+        ],
+        [
+          "yellow",
+          "orange",
+          "pink",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "purple",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Keep a landing space",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "接力回环",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "orange",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "red",
+          "green",
+          "blue",
+          "yellow"
+        ],
+        [
+          "purple",
+          "green",
+          "purple",
+          "red"
+        ],
+        [
+          "red",
+          "green",
+          "blue",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "purple",
+          "blue",
+          "orange"
+        ],
+        [
+          "orange",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Circle back",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "七色收束",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "yellow",
+          "purple",
+          "red"
+        ],
+        [
+          "yellow",
+          "pink",
+          "purple",
+          "pink"
+        ],
+        [
+          "purple",
+          "blue",
+          "pink",
+          "green"
+        ],
+        [
+          "orange",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "pink",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "title_en": "Bring seven colors home",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "六色接续",
+      "title_en": "Six-color relay",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [
+          "blue",
+          "orange",
+          "yellow",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "blue",
+          "red"
+        ],
+        [
+          "purple",
+          "yellow",
+          "orange",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "留一条退路",
+      "title_en": "Keep a spare route",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "green",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "orange",
+          "purple",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "purple",
+          "blue"
+        ],
+        [
+          "red",
+          "green",
+          "orange",
+          "blue"
+        ],
+        [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "两端接力",
+      "title_en": "A two-end relay",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "orange",
+          "purple",
+          "blue"
+        ],
+        [
+          "red",
+          "blue",
+          "pink",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "pink",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "orange",
+          "purple",
+          "pink",
+          "green"
+        ],
+        [
+          "pink",
+          "red",
+          "blue",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "缓冲抉择",
+      "title_en": "Choose your buffer",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "purple",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "green",
+          "orange",
+          "green",
+          "orange"
+        ],
+        [
+          "pink",
+          "yellow",
+          "pink",
+          "purple"
+        ],
+        [
+          "pink",
+          "blue",
+          "orange",
+          "blue"
+        ],
+        [
+          "red",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "blue",
+          "purple",
+          "red",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 1
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "五色缓一缓",
+      "title_en": "A five-color break",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "green",
+          "purple",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "green"
+        ],
+        [
+          "red",
+          "yellow",
+          "blue",
+          "purple"
+        ],
+        [
+          "purple",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "露色换手",
+      "title_en": "Reveal and switch",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "red",
+          "purple"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "yellow"
+        ],
+        [
+          "green",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        [
+          "orange",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "purple",
+          "orange"
+        ],
+        [
+          "green",
+          "red",
+          "orange",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "分路汇合",
+      "title_en": "Split and regroup",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "orange",
+          "red",
+          "pink",
+          "green"
+        ],
+        [
+          "pink",
+          "orange",
+          "green",
+          "yellow"
+        ],
+        [
+          "red",
+          "yellow",
+          "blue",
+          "purple"
+        ],
+        [
+          "yellow",
+          "pink",
+          "blue",
+          "purple"
+        ],
+        [
+          "pink",
+          "orange",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "green",
+          "red",
+          "purple"
+        ],
+        [
+          "red",
+          "orange",
+          "blue",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "先空哪瓶",
+      "title_en": "Which bottle first?",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "blue",
+          "yellow",
+          "green"
+        ],
+        [
+          "orange",
+          "red",
+          "green",
+          "orange"
+        ],
+        [
+          "purple",
+          "pink",
+          "green",
+          "blue"
+        ],
+        [
+          "pink",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "pink",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "orange",
+          "yellow",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "六色回环",
+      "title_en": "A six-color loop",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "green",
+          "purple",
+          "orange"
+        ],
+        [
+          "red",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "orange",
+          "yellow",
+          "blue",
+          "yellow"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "purple"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "blue",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "接力关口",
+      "title_en": "Relay checkpoint",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "orange",
+          "blue",
+          "yellow"
+        ],
+        [
+          "pink",
+          "yellow",
+          "orange",
+          "purple"
+        ],
+        [
+          "blue",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "yellow",
+          "pink",
+          "red"
+        ],
+        [
+          "pink",
+          "purple",
+          "blue",
+          "red"
+        ],
+        [
+          "pink",
+          "orange",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "短程整理",
+      "title_en": "A short tidy-up",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "blue",
+          "green"
+        ],
+        [
+          "green",
+          "yellow",
+          "green",
+          "red"
+        ],
+        [
+          "red",
+          "purple",
+          "blue",
+          "red"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "blue"
+        ],
+        [
+          "purple",
+          "yellow",
+          "green",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "颜色落点",
+      "title_en": "A place for each color",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "purple",
+          "blue"
+        ],
+        [
+          "orange",
+          "green",
+          "purple",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "purple",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "red",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "red",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "orange",
+          "yellow",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "交替露层",
+      "title_en": "Alternate layers",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "orange",
+          "green"
+        ],
+        [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        [
+          "blue",
+          "green",
+          "purple",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "purple",
+          "orange"
+        ],
+        [
+          "red",
+          "yellow",
+          "red",
+          "pink"
+        ],
+        [
+          "yellow",
+          "green",
+          "pink",
+          "orange"
+        ],
+        [
+          "pink",
+          "blue",
+          "pink",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "接收次序",
+      "title_en": "Receiver order",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "yellow",
+          "red",
+          "yellow"
+        ],
+        [
+          "red",
+          "blue",
+          "red",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "pink",
+          "orange"
+        ],
+        [
+          "pink",
+          "green",
+          "pink",
+          "purple"
+        ],
+        [
+          "pink",
+          "yellow",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "orange",
+          "blue"
+        ],
+        [
+          "purple",
+          "orange",
+          "green",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "六色喘息",
+      "title_en": "Six-color breathing room",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "orange"
+        ],
+        [
+          "yellow",
+          "orange",
+          "red",
+          "orange"
+        ],
+        [
+          "orange",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "red"
+        ],
+        [
+          "purple",
+          "yellow",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "green",
+          "blue",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "七色穿针",
+      "title_en": "Thread seven colors",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "yellow",
+          "orange",
+          "pink"
+        ],
+        [
+          "purple",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "pink",
+          "orange",
+          "red",
+          "pink"
+        ],
+        [
+          "purple",
+          "orange",
+          "pink",
+          "green"
+        ],
+        [
+          "red",
+          "purple",
+          "blue",
+          "green"
+        ],
+        [
+          "purple",
+          "orange",
+          "blue",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "空位周转",
+      "title_en": "Recycle the buffers",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "blue",
+          "pink"
+        ],
+        [
+          "purple",
+          "pink",
+          "green",
+          "orange"
+        ],
+        [
+          "purple",
+          "green",
+          "orange",
+          "green"
+        ],
+        [
+          "orange",
+          "pink",
+          "yellow",
+          "blue"
+        ],
+        [
+          "yellow",
+          "blue",
+          "red",
+          "purple"
+        ],
+        [
+          "orange",
+          "yellow",
+          "pink",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "换手收束",
+      "title_en": "Switch and finish",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "blue",
+          "green",
+          "yellow"
+        ],
+        [
+          "purple",
+          "blue",
+          "red",
+          "purple"
+        ],
+        [
+          "orange",
+          "blue",
+          "orange",
+          "yellow"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "orange"
+        ],
+        [
+          "yellow",
+          "green",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "双线整理",
+      "title_en": "Two sorting routes",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "pink",
+          "green",
+          "yellow"
+        ],
+        [
+          "orange",
+          "red",
+          "pink",
+          "orange"
+        ],
+        [
+          "blue",
+          "purple",
+          "yellow",
+          "purple"
+        ],
+        [
+          "red",
+          "yellow",
+          "green",
+          "pink"
+        ],
+        [
+          "blue",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "orange",
+          "green",
+          "yellow"
+        ],
+        [
+          "blue",
+          "orange",
+          "pink",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "七色关口",
+      "title_en": "Seven-color checkpoint",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "yellow",
+          "blue",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "purple",
+          "green"
+        ],
+        [
+          "blue",
+          "pink",
+          "orange",
+          "green"
+        ],
+        [
+          "green",
+          "red",
+          "yellow",
+          "red"
+        ],
+        [
+          "purple",
+          "orange",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "purple",
+          "pink",
+          "yellow"
+        ],
+        [
+          "green",
+          "pink",
+          "orange",
+          "pink"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "轻装再来",
+      "title_en": "A lighter round",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "yellow",
+          "purple",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "purple",
+          "red",
+          "green"
+        ],
+        [
+          "blue",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [
+          "yellow",
+          "green",
+          "yellow",
+          "purple"
+        ],
+        [
+          "purple",
+          "blue",
+          "red",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "保留出口",
+      "title_en": "Keep an exit",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "orange",
+          "blue",
+          "red"
+        ],
+        [
+          "green",
+          "red",
+          "yellow",
+          "orange"
+        ],
+        [
+          "green",
+          "blue",
+          "purple",
+          "yellow"
+        ],
+        [
+          "blue",
+          "red",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "orange",
+          "green",
+          "red"
+        ],
+        [
+          "orange",
+          "yellow",
+          "purple",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "先后有序",
+      "title_en": "Order matters",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "pink",
+          "green",
+          "yellow"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "pink",
+          "purple",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "blue",
+          "orange",
+          "green",
+          "pink"
+        ],
+        [
+          "blue",
+          "red",
+          "purple",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "red",
+          "pink"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "两空不乱",
+      "title_en": "Two clear buffers",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "red",
+          "orange",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "yellow",
+          "green"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "purple"
+        ],
+        [
+          "pink",
+          "green",
+          "yellow",
+          "orange"
+        ],
+        [
+          "pink",
+          "green",
+          "blue",
+          "green"
+        ],
+        [
+          "pink",
+          "blue",
+          "orange",
+          "yellow"
+        ],
+        [
+          "purple",
+          "red",
+          "blue",
+          "red"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "六色回落",
+      "title_en": "Return to six colors",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        [
+          "blue",
+          "orange",
+          "yellow",
+          "orange"
+        ],
+        [
+          "green",
+          "orange",
+          "yellow",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "purple",
+          "green"
+        ],
+        [
+          "red",
+          "purple",
+          "yellow",
+          "green"
+        ],
+        [
+          "blue",
+          "orange",
+          "purple",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "分段接续",
+      "title_en": "Relay in stages",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "red",
+          "orange",
+          "green",
+          "yellow"
+        ],
+        [
+          "orange",
+          "pink",
+          "green",
+          "purple"
+        ],
+        [
+          "yellow",
+          "green",
+          "blue",
+          "red"
+        ],
+        [
+          "red",
+          "blue",
+          "pink",
+          "blue"
+        ],
+        [
+          "pink",
+          "red",
+          "pink",
+          "purple"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "green"
+        ],
+        [
+          "yellow",
+          "orange",
+          "blue",
+          "purple"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "回身再合",
+      "title_en": "Turn back and merge",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "purple",
+          "green",
+          "blue"
+        ],
+        [
+          "yellow",
+          "purple",
+          "green",
+          "red"
+        ],
+        [
+          "green",
+          "blue",
+          "orange",
+          "red"
+        ],
+        [
+          "purple",
+          "yellow",
+          "orange",
+          "blue"
+        ],
+        [
+          "red",
+          "yellow",
+          "orange",
+          "purple"
+        ],
+        [
+          "yellow",
+          "red",
+          "orange",
+          "green"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "缓冲接力",
+      "title_en": "Buffer relay",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "purple",
+          "pink",
+          "red",
+          "orange"
+        ],
+        [
+          "purple",
+          "yellow",
+          "orange",
+          "pink"
+        ],
+        [
+          "green",
+          "red",
+          "purple",
+          "blue"
+        ],
+        [
+          "purple",
+          "pink",
+          "blue",
+          "green"
+        ],
+        [
+          "yellow",
+          "blue",
+          "yellow",
+          "red"
+        ],
+        [
+          "yellow",
+          "red",
+          "pink",
+          "blue"
+        ],
+        [
+          "green",
+          "orange",
+          "green",
+          "orange"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "六色收整",
+      "title_en": "Six-color tidy-up",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "blue",
+          "red",
+          "orange",
+          "purple"
+        ],
+        [
+          "red",
+          "blue",
+          "orange",
+          "green"
+        ],
+        [
+          "yellow",
+          "purple",
+          "orange",
+          "red"
+        ],
+        [
+          "green",
+          "blue",
+          "yellow",
+          "purple"
+        ],
+        [
+          "blue",
+          "red",
+          "green",
+          "yellow"
+        ],
+        [
+          "purple",
+          "orange",
+          "green",
+          "yellow"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "五十关挑战",
+      "title_en": "The fiftieth challenge",
+      "hint": "同色满瓶会匹配订单；完成订单揭开遮罩。",
+      "hint_en": "Deliver orders to reveal covered colors.",
+      "capacity": 4,
+      "bottles": [
+        [
+          "pink",
+          "orange",
+          "yellow",
+          "purple"
+        ],
+        [
+          "purple",
+          "blue",
+          "red",
+          "green"
+        ],
+        [
+          "pink",
+          "purple",
+          "yellow",
+          "orange"
+        ],
+        [
+          "yellow",
+          "red",
+          "purple",
+          "red"
+        ],
+        [
+          "pink",
+          "green",
+          "red",
+          "orange"
+        ],
+        [
+          "blue",
+          "yellow",
+          "blue",
+          "green"
+        ],
+        [
+          "pink",
+          "orange",
+          "green",
+          "blue"
+        ],
+        [],
+        []
+      ],
+      "orders": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "bonus_bottle": true,
+      "masks": [
+        {
+          "bottle": 0,
+          "orders": 1
+        },
+        {
+          "bottle": 2,
+          "orders": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "zip_sha256": "8f38dfea0028bf76b67ac7e3cf8b1d9409117612faa1f85fd1dee7f025763371",
+  "zip_crc": "PASS",
+  "all_internal_hashes": "PASS",
+  "included": [
+    "assets/home/home_logo_starfield_merged_v2.png",
+    "assets/popups/restart_title_zh-CN.original-alpha-v2.webp"
+  ],
+  "excluded": "new drinks, cleanplate, 10 colors, reduced-angle experiment",
+  "removed_obsolete_hero_draw_assets": [
+    "assets/colorpause_ui_20261030/home/ColorPause_GooglePlay_Icon_512.png",
+    "assets/colorpause_ui_20261030/home/ColorPause_GooglePlay_Icon_512.png.import",
+    "assets/colorpause_ui_20261030/home_transparent_candidate/home_hero_frame.png",
+    "assets/colorpause_ui_20261030/home_transparent_candidate/home_hero_frame.png.import",
+    "scripts/ui_restore/home_hero_round_clip.gdshader",
+    "scripts/ui_restore/home_hero_round_clip.gdshader.uid"
+  ],
+  "victory_alpha_v3": "Integrated exact three PNG; source RGB and dimensions unchanged, alpha only. See VICTORY_ALPHA_V3.json.",
+  "profile": "res://.current-energy-profile-v1",
+  "default_entry": "scenes/playtest/current_test.tscn",
+  "energy": "Real EnergyService; 30 cap / new attempt 5 / recovery 1 per120s; unfinished restart free",
+  "deployed_directories_unchanged": true,
+  "related_validation": "PLAYTEST_VALIDATION.json",
+  "accepted": false,
+  "status": "ready_for_review",
+  "restored_runtime_dependencies": "RESTORED_RUNTIME_DEPENDENCIES.json",
+  "supersedes_withdrawn_candidate": "55dcb25c731a962330e34c6c3388b85d9c2b8e09464e051bc56eceab689377d2"
+}

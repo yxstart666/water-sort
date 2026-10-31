@@ -1,0 +1,118 @@
+{
+  "reference_text": "30 / 30",
+  "white_face_threshold": "R,G,B > 210; excluding blue outline and shadow",
+  "reference_ink_bbox_xywh": [
+    426,
+    822,
+    272,
+    77
+  ],
+  "reference_white_face_pixels": 8203,
+  "components_left_to_right": [
+    {
+      "bbox_xywh": [
+        426,
+        825,
+        45,
+        66
+      ],
+      "white_face_pixels": 1704
+    },
+    {
+      "bbox_xywh": [
+        477,
+        825,
+        48,
+        66
+      ],
+      "white_face_pixels": 1983
+    },
+    {
+      "bbox_xywh": [
+        544,
+        822,
+        32,
+        77
+      ],
+      "white_face_pixels": 818
+    },
+    {
+      "bbox_xywh": [
+        598,
+        826,
+        45,
+        65
+      ],
+      "white_face_pixels": 1715
+    },
+    {
+      "bbox_xywh": [
+        649,
+        825,
+        49,
+        66
+      ],
+      "white_face_pixels": 1983
+    }
+  ],
+  "exact_font": "unknown; generated artwork, not proven equal to any installed font",
+  "runtime_font_status": "candidate_not_exact",
+  "requirements": [
+    "Use actual raster ink bounds and stroke coverage, not CSS/font point size.",
+    "Match rounded open 3, round 0, diagonal slash, heavy upright white face, blue outline and downward shadow.",
+    "Do not imply Noto or any same-point-size font is approved.",
+    "Keep text centered in original slot; baseline must not move when current becomes one digit or --."
+  ],
+  "measured_candidate_fonts": [
+    {
+      "font_path": "deliverables/approved_25d_ui_20261029/fonts/ChillRoundM.ttf",
+      "font_px": 89,
+      "render_bbox_dimensions": [
+        274,
+        69
+      ],
+      "score": 18,
+      "status": "candidate_not_approved; size fit does not establish weight/shape match",
+      "actual_white_face_bbox_dimensions": [
+        265,
+        69
+      ],
+      "actual_white_face_pixels_threshold_gt210": 4030,
+      "white_face_coverage_delta_percent": -50.871632329635496
+    },
+    {
+      "font_path": "deliverables/approved_25d_ui_20261029/fonts/ChillRoundF-v3.0.ttf",
+      "font_px": 78,
+      "render_bbox_dimensions": [
+        271,
+        66
+      ],
+      "score": 23,
+      "status": "candidate_not_approved; size fit does not establish weight/shape match",
+      "actual_white_face_bbox_dimensions": [
+        263,
+        66
+      ],
+      "actual_white_face_pixels_threshold_gt210": 3569,
+      "white_face_coverage_delta_percent": -56.491527489942705
+    },
+    {
+      "font_path": "deliverables/approved_25d_ui_20261029/fonts/LXGW975YuanSC-700W.ttf",
+      "font_px": 84,
+      "render_bbox_dimensions": [
+        273,
+        77
+      ],
+      "score": 1,
+      "status": "candidate_not_approved; size fit does not establish weight/shape match",
+      "actual_white_face_bbox_dimensions": [
+        263,
+        77
+      ],
+      "actual_white_face_pixels_threshold_gt210": 5703,
+      "white_face_coverage_delta_percent": -30.47665488236011
+    }
+  ],
+  "installed_candidate_paths_are_reference_only": true,
+  "shipped_candidate_font": "../fonts/LXGW975YuanSC-700W.ttf"
+}

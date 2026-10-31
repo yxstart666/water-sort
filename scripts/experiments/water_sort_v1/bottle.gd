@@ -11,6 +11,7 @@ var layers: Array = []:
 var capacity := 4
 var selected := false
 var locked := false
+var selection_outline := true
 var invalid_flash := 0.0
 var visual_scale_limit := 1.0
 var visual: Node2D
@@ -33,10 +34,10 @@ func _gui_input(event: InputEvent) -> void:
 
 func _draw() -> void:
 	# Only feedback is drawn here; never draw a second body or a second set of liquids.
-	if selected or invalid_flash>0:
+	if (selected and selection_outline) or invalid_flash>0:
 		var edge:=Color("ff8989") if invalid_flash>0 else Color("f4d997")
 		var box:=StyleBoxFlat.new(); box.bg_color=Color(edge,0.06); box.border_color=Color(edge,0.65)
 		box.set_border_width_all(3); box.set_corner_radius_all(30)
 		draw_style_box(box,Rect2(Vector2(-8,-10),size+Vector2(16,20)))
-	if selected:
+	if selected and selection_outline:
 		draw_colored_polygon(PackedVector2Array([Vector2(size.x/2,-24),Vector2(size.x/2-12,-42),Vector2(size.x/2+12,-42)]),Color("f4d997"))

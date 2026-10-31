@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "audit_date_utc": "2026-10-30",
+  "purpose": "Font licensing allowlist and proposed runtime policy for later integration. Does not approve visual redesign, bake-image rights or final release.",
+  "project_modifications_made": false,
+  "fonts": [
+    {
+      "id": "noto_sans_bold_2_004",
+      "file_name": "NotoSans-Bold.ttf",
+      "sha256": "e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5",
+      "bytes": 515752,
+      "git_blob_sha1": "4d923cbfff4d25827689282c7bd8189b4fce825a",
+      "license_id": "OFL-1.1",
+      "licensed_uses": {
+        "commercial_use_without_font_fee": true,
+        "game_embedding": true,
+        "redistribution_bundled_with_game": true
+      },
+      "conditions": [
+        "Keep font copyright notices and full OFL accessible with each distributed copy.",
+        "Do not sell font software by itself.",
+        "Font software remains OFL; game code/artwork do not automatically become OFL.",
+        "Do not treat font license as clearance for unrelated baked images.",
+        "Handle any declared Reserved Font Names before further modified-font redistribution."
+      ],
+      "official_license_url": "https://github.com/notofonts/noto-fonts/blob/c58682b28b18fd5d3755f4371635f862870c1531/LICENSE",
+      "prepared_license_file": "noto-official-ofl.txt",
+      "prepared_license_sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+      "copyright_notices": [
+        "Copyright 2015 Google LLC. All Rights Reserved."
+      ],
+      "source_evidence": "official_blob_identical",
+      "official_font_url": "https://github.com/notofonts/noto-fonts/blob/c58682b28b18fd5d3755f4371635f862870c1531/hinted/ttf/NotoSans/NotoSans-Bold.ttf",
+      "project_instances": [
+        {
+          "project": "color_production",
+          "resource_path": "res://art/reference2-delivery-20261024/reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+          "status": "referenced_runtime"
+        },
+        {
+          "project": "color_production",
+          "resource_path": "res://assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+          "status": "unused_review_copy_but_all_resources_export_candidate"
+        },
+        {
+          "project": "color_production",
+          "resource_path": "res://assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSans-Bold.ttf",
+          "status": "referenced_runtime"
+        },
+        {
+          "project": "color_isolated",
+          "resource_path": "res://art/reference2-delivery-20261024/reference2_dependency_errata_v1/fonts/NotoSans-Bold.ttf",
+          "status": "referenced_runtime"
+        },
+        {
+          "project": "color_isolated",
+          "resource_path": "res://assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSans-Bold.ttf",
+          "status": "unused_review_copy_but_all_resources_export_candidate"
+        },
+        {
+          "project": "color_isolated",
+          "resource_path": "res://assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSans-Bold.ttf",
+          "status": "referenced_runtime"
+        }
+      ],
+      "license_permission_verified": true,
+      "final_package_verified": false,
+      "reserved_font_names_declared": [],
+      "reserved_font_name_note": "No specific RFN declared in inspected complete upstream license or exact original font nameID 0 copyright. Generic OFL RFN definition/restriction is present, but is not itself an RFN declaration."
+    },
+    {
+      "id": "noto_sans_cjk_sc_bold_extracted_2_004",
+      "file_name": "NotoSansCJKsc-Bold.otf",
+      "sha256": "0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec",
+      "bytes": 17002224,
+      "git_blob_sha1": "a6f86eed716d75e139a39e611d2f0a1f611baf0f",
+      "license_id": "OFL-1.1",
+      "licensed_uses": {
+        "commercial_use_without_font_fee": true,
+        "game_embedding": true,
+        "redistribution_bundled_with_game": true
+      },
+      "conditions": [
+        "Keep font copyright notices and full OFL accessible with each distributed copy.",
+        "Do not sell font software by itself.",
+        "Font software remains OFL; game code/artwork do not automatically become OFL.",
+        "Do not treat font license as clearance for unrelated baked images.",
+        "Handle any declared Reserved Font Names before further modified-font redistribution."
+      ],
+      "official_license_url": "https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE",
+      "prepared_license_file": "noto-cjk-official-ofl.txt",
+      "prepared_license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "copyright_notices": [
+        "© 2014-2021 Adobe (http://www.adobe.com/)."
+      ],
+      "source_evidence": "extracted_face2_from_official_TTC",
+      "official_font_url": "https://github.com/notofonts/noto-cjk/blob/main/Sans/OTC/NotoSansCJK-Bold.ttc",
+      "project_instances": [
+        {
+          "project": "color_production",
+          "resource_path": "res://art/reference2-delivery-20261024/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+          "status": "referenced_runtime"
+        },
+        {
+          "project": "color_isolated",
+          "resource_path": "res://art/reference2-delivery-20261024/reference2_sc_font_v1/fonts/NotoSansCJKsc-Bold.otf",
+          "status": "referenced_runtime"
+        }
+      ],
+      "license_permission_verified": true,
+      "final_package_verified": false,
+      "reserved_font_names_declared": [],
+      "reserved_font_name_note": "No specific RFN declared in inspected complete upstream license or exact original font nameID 0 copyright. Generic OFL RFN definition/restriction is present, but is not itself an RFN declaration.",
+      "derived_from": {
+        "font_id": "noto_sans_cjk_bold_2_004",
+        "source_sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+        "source_face": 2,
+        "method": "fontTools collection face extraction; no glyph subsetting or family renaming",
+        "independent_table_comparison": "sc-extraction-table-comparison.json",
+        "all_tables_except_head_identical": true
+      },
+      "rfn_conclusion": "Container extraction is conservatively treated as a Modified Version. No specific RFN declared for this Noto source, so OFL clause 3 does not require renaming this extracted OTF. Keep copyright, OFL and extraction record."
+    },
+    {
+      "id": "noto_sans_cjk_bold_2_004",
+      "file_name": "NotoSansCJK-Bold.ttc",
+      "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+      "bytes": 20050760,
+      "git_blob_sha1": "ce48b99a84eb3300774353f1f15ce686e53b6734",
+      "license_id": "OFL-1.1",
+      "licensed_uses": {
+        "commercial_use_without_font_fee": true,
+        "game_embedding": true,
+        "redistribution_bundled_with_game": true
+      },
+      "conditions": [
+        "Keep font copyright notices and full OFL accessible with each distributed copy.",
+        "Do not sell font software by itself.",
+        "Font software remains OFL; game code/artwork do not automatically become OFL.",
+        "Do not treat font license as clearance for unrelated baked images.",
+        "Handle any declared Reserved Font Names before further modified-font redistribution."
+      ],
+      "official_license_url": "https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE",
+      "prepared_license_file": "noto-cjk-official-ofl.txt",
+      "prepared_license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "copyright_notices": [
+        "© 2014-2021 Adobe (http://www.adobe.com/)."
+      ],
+      "source_evidence": "official_blob_identical",
+      "official_font_url": "https://github.com/notofonts/noto-cjk/blob/main/Sans/OTC/NotoSansCJK-Bold.ttc",
+      "project_instances": [
+        {
+          "project": "color_production",
+          "resource_path": "res://assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+          "status": "unused_review_copy_but_all_resources_export_candidate"
+        },
+        {
+          "project": "color_production",
+          "resource_path": "res://assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSansCJK-Bold.ttc",
+          "status": "referenced_runtime"
+        },
+        {
+          "project": "color_isolated",
+          "resource_path": "res://assets/art_review/fonts_typography_v1/unpacked/UI_FONTS_AND_TYPOGRAPHY_v1/fonts/NotoSansCJK-Bold.ttc",
+          "status": "unused_review_copy_but_all_resources_export_candidate"
+        },
+        {
+          "project": "color_isolated",
+          "resource_path": "res://assets/ui_restore/gameplay_state_binding_v1/fonts/NotoSansCJK-Bold.ttc",
+          "status": "referenced_runtime"
+        }
+      ],
+      "license_permission_verified": true,
+      "final_package_verified": false,
+      "reserved_font_names_declared": [],
+      "reserved_font_name_note": "No specific RFN declared in inspected complete upstream license or exact original font nameID 0 copyright. Generic OFL RFN definition/restriction is present, but is not itself an RFN declaration.",
+      "faces": [
+        {
+          "index": 0,
+          "family": [
+            "Noto Sans CJK JP"
+          ]
+        },
+        {
+          "index": 1,
+          "family": [
+            "Noto Sans CJK KR"
+          ]
+        },
+        {
+          "index": 2,
+          "family": [
+            "Noto Sans CJK SC"
+          ]
+        },
+        {
+          "index": 3,
+          "family": [
+            "Noto Sans CJK TC"
+          ]
+        },
+        {
+          "index": 4,
+          "family": [
+            "Noto Sans CJK HK"
+          ]
+        },
+        {
+          "index": 5,
+          "family": [
+            "Noto Sans Mono CJK JP"
+          ]
+        },
+        {
+          "index": 6,
+          "family": [
+            "Noto Sans Mono CJK KR"
+          ]
+        },
+        {
+          "index": 7,
+          "family": [
+            "Noto Sans Mono CJK SC"
+          ]
+        },
+        {
+          "index": 8,
+          "family": [
+            "Noto Sans Mono CJK TC"
+          ]
+        },
+        {
+          "index": 9,
+          "family": [
+            "Noto Sans Mono CJK HK"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lxgw_975_yuan_sc_700w_26_207",
+      "file_name": "LXGW975YuanSC-700W.ttf",
+      "sha256": "f392de4cba941f3c44c7770cfed7ac3c658b46b7e3a4b2546fe155010109d403",
+      "bytes": 14884594,
+      "git_blob_sha1": "f778eb4ce93a7969f3d7b5d2d1484d18275856fb",
+      "license_id": "OFL-1.1",
+      "licensed_uses": {
+        "commercial_use_without_font_fee": true,
+        "game_embedding": true,
+        "redistribution_bundled_with_game": true
+      },
+      "conditions": [
+        "Keep font copyright notices and full OFL accessible with each distributed copy.",
+        "Do not sell font software by itself.",
+        "Font software remains OFL; game code/artwork do not automatically become OFL.",
+        "Do not treat font license as clearance for unrelated baked images.",
+        "Handle any declared Reserved Font Names before further modified-font redistribution."
+      ],
+      "official_license_url": "https://github.com/lxgw/975Yuan/blob/37b753f408b25d3ab3d25cbddb5dd9dacca0289a/OFL.txt",
+      "prepared_license_file": "lxgw-official-ofl.txt",
+      "prepared_license_sha256": "e9c4c62582807c250061e07ede99f4c0c7e1a7d536e621ec68d049f1f7ee0d81",
+      "copyright_notices": [
+        "Copyright 2020-2026 LXGW (https://github.com/lxgw/975Yuan), with Reserved Font Name '霞鹜', '霞鶩', '落霞孤鹜', '落霞孤鶩' and 'LXGW'.\nCopyright 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. Source is a trademark of Adobe in the United States and/or other countries.\nCopyright 2024-2026 Tamcy (https://github.com/chiron-fonts/chiron-go-round-tc).\nCopyright 2024-2026 Takushun Wu (https://github.com/takushun-wu/), with Reserved Font Name 'WenYuan Rounded', '文渊圆体'.\nCopyright 2020 Chun yu Yao (https://github.com/max32002/swei-gothic)\nCopyright 2019 Ek Type (www.ektype.in)"
+      ],
+      "source_evidence": "official_blob_identical",
+      "official_font_url": "https://github.com/lxgw/975Yuan/blob/master/TTF/LXGW975YuanSC-700W.ttf",
+      "project_instances": [
+        {
+          "project": "bus",
+          "resource_path": "res://assets/shared_ui/runtime/fonts/LXGW975YuanSC-700W.ttf",
+          "status": "referenced_runtime"
+        }
+      ],
+      "license_permission_verified": true,
+      "final_package_verified": false,
+      "reserved_font_names_declared": [
+        "霞鹜",
+        "霞鶩",
+        "落霞孤鹜",
+        "落霞孤鶩",
+        "LXGW",
+        "Source",
+        "WenYuan Rounded",
+        "文渊圆体"
+      ],
+      "reserved_font_name_note": "Original unmodified file may retain names. Official license includes additional permissions for recompilation without source modification and specified web-font subsetting/conversion. Do not assume a game-font subset qualifies for web-font exception."
+    }
+  ],
+  "projects": [
+    {
+      "id": "color_production",
+      "root_at_audit": "C:\\Users\\Administrator\\Documents\\ChatGPT\\倒水瓶",
+      "source_scope": "Authored strings in scripts/src, scenes, script JSON, plus bus localization JSON; printable ASCII baseline. Conservative superset, not exact branch-aware display trace.",
+      "source_file_count": 59,
+      "tested_unique_codepoints": 504,
+      "coverage_evidence": "GLYPH_COVERAGE.json",
+      "current_cjk_or_primary_font_missing_codepoints": 0,
+      "proposed_chain_missing_codepoints": 0,
+      "implementation_applied": false,
+      "observed_allow_system_fallback": true,
+      "external_user_names_all_unicode_covered": false,
+      "proposed_ordered_chains_by_existing_role": {
+        "latin_text": [
+          "noto_sans_bold_2_004:face0",
+          "noto_sans_cjk_sc_bold_extracted_2_004:face0"
+        ],
+        "existing_cjk_face0_text": [
+          "noto_sans_cjk_bold_2_004:face0"
+        ],
+        "existing_cjk_face2_text": [
+          "noto_sans_cjk_bold_2_004:face2"
+        ],
+        "gameplay_sc_text": [
+          "noto_sans_cjk_sc_bold_extracted_2_004:face0"
+        ]
+      }
+    },
+    {
+      "id": "color_isolated",
+      "root_at_audit": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-29\\task-3\\colorpause-isolated",
+      "source_scope": "Authored strings in scripts/src, scenes, script JSON, plus bus localization JSON; printable ASCII baseline. Conservative superset, not exact branch-aware display trace.",
+      "source_file_count": 63,
+      "tested_unique_codepoints": 506,
+      "coverage_evidence": "GLYPH_COVERAGE.json",
+      "current_cjk_or_primary_font_missing_codepoints": 0,
+      "proposed_chain_missing_codepoints": 0,
+      "implementation_applied": false,
+      "observed_allow_system_fallback": true,
+      "external_user_names_all_unicode_covered": false,
+      "proposed_ordered_chains_by_existing_role": {
+        "latin_text": [
+          "noto_sans_bold_2_004:face0",
+          "noto_sans_cjk_sc_bold_extracted_2_004:face0"
+        ],
+        "existing_cjk_face0_text": [
+          "noto_sans_cjk_bold_2_004:face0"
+        ],
+        "existing_cjk_face2_text": [
+          "noto_sans_cjk_bold_2_004:face2"
+        ],
+        "gameplay_sc_text": [
+          "noto_sans_cjk_sc_bold_extracted_2_004:face0"
+        ]
+      }
+    },
+    {
+      "id": "bus",
+      "root_at_audit": "C:\\Users\\Administrator\\Documents\\ChatGPT\\小巴出发",
+      "source_scope": "Authored strings in scripts/src, scenes, script JSON, plus bus localization JSON; printable ASCII baseline. Conservative superset, not exact branch-aware display trace.",
+      "source_file_count": 23,
+      "tested_unique_codepoints": 239,
+      "coverage_evidence": "GLYPH_COVERAGE.json",
+      "current_cjk_or_primary_font_missing_codepoints": 0,
+      "proposed_chain_missing_codepoints": 0,
+      "implementation_applied": false,
+      "observed_allow_system_fallback": true,
+      "external_user_names_all_unicode_covered": false,
+      "proposed_ordered_chains_by_existing_role": {
+        "current_theme_and_labels": [
+          "lxgw_975_yuan_sc_700w_26_207:face0"
+        ]
+      }
+    }
+  ],
+  "runtime_policy": {
+    "allow_system_fallback": false,
+    "automatic_unknown_font_fallback": false,
+    "font_sha_mismatch": "Fail visibly in development; reject release packaging. Do not silently load system font.",
+    "missing_glyph": "Record codepoint and string source; reject authored UI release check. For external names apply separately approved supported-script policy or explicit missing-glyph display; do not enable unknown system fallback.",
+    "fallback_font_must_be_an_allowlisted_identity": true,
+    "baked_image_text_not_covered_by_font_allowlist": true
+  },
+  "future_global_leaderboard_names": {
+    "implemented": false,
+    "coverage_claim": "No all-Unicode claim. CJK/Latin coverage for current authored text does not cover arbitrary user names, emoji, complex scripts or variation sequences.",
+    "required_decisions": [
+      "Supported scripts and maximum nickname length.",
+      "Allowlisted open-license fallback fonts per supported script, emoji and variation sequence policy.",
+      "Normalization, combining marks, bidi/shaping and abusive/broken-name handling.",
+      "Explicit unsupported-character presentation and actual device rendering tests."
+    ]
+  },
+  "release_package_gate": {
+    "status": "PENDING_BUILD_TASK",
+    "required": [
+      "Inventory actual fonts and byte identities in final APK/AAB/PCK.",
+      "Verify correct copyright and complete license texts are included and user-accessible.",
+      "Recheck import/runtime fallback policy and rendering on target devices.",
+      "Do not infer package contents from source presets or this allowlist."
+    ]
+  }
+}

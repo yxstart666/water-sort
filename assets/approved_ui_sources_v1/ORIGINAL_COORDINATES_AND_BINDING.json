@@ -1,0 +1,294 @@
+{
+  "units": "source pixels; XYXY; right and bottom exclusive; no normalization to 915 for 914-wide levels",
+  "home_source": {
+    "file": "generated_images/exec-0ffb0725-45cc-4072-9a79-40161fc77975.png",
+    "size_px": [
+      915,
+      1719
+    ],
+    "sha256": "3abe5ba4ce8f6d0c78edbf54b3185fe3c84332abed35926351e60512d0fcb69f"
+  },
+  "pause_controls_source": {
+    "file": "generated_images/exec-757b23d8-1f24-410f-a15e-e9e79f0b0aa9.png",
+    "size_px": [
+      915,
+      1719
+    ],
+    "sha256": "84790a845fde618e51f69a9403e979921dadede58a4e416a38f3c7c3661fd187"
+  },
+  "components": [
+    {
+      "id": "button_settings_zh_normal",
+      "source": "home_source",
+      "source_box_xyxy": [
+        37,
+        44,
+        175,
+        183
+      ],
+      "size_px": [
+        138,
+        139
+      ],
+      "ink_rect_xyxy": [
+        5,
+        6,
+        130,
+        129
+      ],
+      "source_RGB_exact": true,
+      "method": "source chroma silhouette, largest component enclosed-hole fill, inward alpha0.42; RGB unchanged",
+      "source_sha256": "c9b881c4409f261e49d2f3d3f626948361a463d8037f9052b4e2f45be799f460",
+      "all_RGB_pixels_match_original_source_crop": true
+    },
+    {
+      "id": "button_levels_zh_normal",
+      "source": "home_source",
+      "source_box_xyxy": [
+        77,
+        1356,
+        322,
+        1598
+      ],
+      "size_px": [
+        245,
+        242
+      ],
+      "ink_rect_xyxy": [
+        6,
+        6,
+        239,
+        233
+      ],
+      "source_RGB_exact": true,
+      "method": "source chroma silhouette, largest component enclosed-hole fill, inward alpha0.42; RGB unchanged",
+      "source_sha256": "fd6fc1dc4795f8e231ba1c5f5296d8c0e99ce0beaf2660652609714ce25362a9",
+      "all_RGB_pixels_match_original_source_crop": true
+    },
+    {
+      "id": "button_records_zh_normal",
+      "source": "home_source",
+      "source_box_xyxy": [
+        336,
+        1356,
+        579,
+        1598
+      ],
+      "size_px": [
+        243,
+        242
+      ],
+      "ink_rect_xyxy": [
+        6,
+        6,
+        237,
+        233
+      ],
+      "source_RGB_exact": true,
+      "method": "source chroma silhouette, largest component enclosed-hole fill, inward alpha0.42; RGB unchanged",
+      "source_sha256": "b755d2c0bb695fed013169289c3271c85f6d6dfe89063e5a3c1f961fd2b67858",
+      "all_RGB_pixels_match_original_source_crop": true
+    },
+    {
+      "id": "label_start_zh-CN",
+      "source": "home_source",
+      "source_box_xyxy": [
+        229,
+        1125,
+        697,
+        1254
+      ],
+      "size_px": [
+        468,
+        129
+      ],
+      "ink_rect_xyxy": [
+        2,
+        5,
+        461,
+        128
+      ],
+      "source_RGB_exact": true,
+      "method": "White glyph seed dilate9/down4, dark gold-outline source chroma intersection, alpha-only0.38 feather; RGB unchanged, no repaint",
+      "source_sha256": "889dca32d0a6bc6cd6403058a412999427041a9ad86c54600b908d82466d35a0",
+      "all_RGB_pixels_match_original_source_crop": true
+    },
+    {
+      "id": "button_home_reference",
+      "source": "pause_controls_source",
+      "source_box_xyxy": [
+        156,
+        1351,
+        438,
+        1598
+      ],
+      "size_px": [
+        282,
+        247
+      ],
+      "alpha_bounds_xyxy": [
+        2,
+        1,
+        281,
+        246
+      ],
+      "method": "Fitted rounded silhouette retaining approved RGB; no blank background fabricated",
+      "original_scope": "REFERENCE ONLY: baked Chinese label and icon; not dynamic-text-ready",
+      "all_RGB_pixels_match_original_source_crop": true
+    },
+    {
+      "id": "button_replay_reference",
+      "source": "pause_controls_source",
+      "source_box_xyxy": [
+        476,
+        1351,
+        759,
+        1598
+      ],
+      "size_px": [
+        283,
+        247
+      ],
+      "alpha_bounds_xyxy": [
+        2,
+        1,
+        282,
+        246
+      ],
+      "method": "Fitted rounded silhouette retaining approved RGB; no blank background fabricated",
+      "original_scope": "REFERENCE ONLY: baked Chinese label and icon; not dynamic-text-ready",
+      "all_RGB_pixels_match_original_source_crop": true
+    },
+    {
+      "id": "start_source_reference",
+      "source": "home_source",
+      "source_box_xyxy": [
+        111,
+        1085,
+        806,
+        1340
+      ],
+      "size_px": [
+        695,
+        255
+      ],
+      "verification": "All RGB pixels equal this exact crop of the original 915x1719 source; measured during this package build",
+      "runtime_scope": "Opaque RGB reference only; do not use as a full runtime bitmap containing hardcoded level4/background.",
+      "all_RGB_pixels_match_original_source_crop": true
+    }
+  ],
+  "levels_reference": {
+    "package_path": "references/levels_reference_914x1720.png",
+    "original_file": "generated_images/exec-d476e3fe-2bec-47c8-ae7b-6dc84b4a33b2.png",
+    "source_sha256": "822e6e30012bf0bcad8f287ba8418afe369f5c80a522515c50fcaf65898c5d32",
+    "size_px": [
+      914,
+      1720
+    ],
+    "source_canvas_box_xyxy": [
+      0,
+      0,
+      914,
+      1720
+    ],
+    "reference_only": true,
+    "grid": "3 columns x 4 rows; 12 cards/page; final page2 for50",
+    "sample_text_not_game_data": [
+      "current level4",
+      "completed1,2,3",
+      "locked5..12",
+      "pager1/5",
+      "layout example caption"
+    ],
+    "known_exact_provenance_crops": [
+      {
+        "id": "title_levels_glyphs",
+        "box_xyxy": [
+          264,
+          175,
+          657,
+          291
+        ]
+      },
+      {
+        "id": "completed_badge",
+        "box_xyxy": [
+          266,
+          450,
+          337,
+          522
+        ]
+      },
+      {
+        "id": "locked_badge",
+        "box_xyxy": [
+          490,
+          793,
+          554,
+          868
+        ]
+      },
+      {
+        "id": "right_pager_chevron",
+        "box_xyxy": [
+          632,
+          1433,
+          689,
+          1507
+        ]
+      }
+    ],
+    "registration_policy": "Fit one 914x1720 coordinate canvas uniformly to the available safe rect. Use k=min(safe_w/914,safe_h/1720), origin=safe_origin+(safe_size-k*Vector2(914,1720))/2. Keep board/card/current-pill relationship from this page; do not transplant unrelated summary_value_well natural-ratio card into its current-level pill."
+  },
+  "highres_settings_mapping": {
+    "status": "Root permits this specific settings_v1 repair source in the present supplement; not pixel-identical to original small art or an engine visual pass",
+    "source_size_px": [
+      1254,
+      1254
+    ],
+    "source_sha256": "3bd6ea82fffb45aec3a5160cab8448a58d579c67e67aafbbe80bda1946f67c55",
+    "visible_body_alpha_gt127_box_xyxy": [
+      43,
+      52,
+      1207,
+      1207
+    ],
+    "visible_body_center_px": [
+      625,
+      629.5
+    ],
+    "original_small_canvas": [
+      138,
+      139
+    ],
+    "original_visible_ink_xyxy": [
+      5,
+      6,
+      130,
+      129
+    ],
+    "uniform_mapping_formula": "Given desired visible ink rectangle T from the old small button, k=min(T.width/1164,T.height/1155). New full-canvas draw size=(1254*k,1254*k); draw origin=T.center - k*Vector2(625,629.5). Preserve image aspect, do not fit the1254 canvas blindly to the old button canvas. Keep all original alpha; low-alpha specks are not the main-body registration bounds.",
+    "example_old_small_canvas_top_left_zero": {
+      "T_xyxy": [
+        5,
+        6,
+        130,
+        129
+      ],
+      "k": 0.10649350649350649,
+      "draw_size": 133.54285714285714,
+      "draw_origin": [
+        0.9415584415584419,
+        0.46233766233766005
+      ]
+    },
+    "excluded": [
+      "settings_v2",
+      "help_v1",
+      "help_v2",
+      "help_v4",
+      "how_to_play_flat_v1",
+      "all other unapproved repair variants"
+    ]
+  }
+}

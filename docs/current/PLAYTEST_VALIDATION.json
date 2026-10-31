@@ -1,0 +1,67 @@
+{
+  "engine": "Godot 4.7.2.stable.official.ed1daf0bf",
+  "scope": "Fresh isolated import, current result/reward dependencies, changed home, real-energy entry and settings only. No additional level acceptance.",
+  "checks": [
+    {
+      "name": "import",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 13.5,
+      "errors": [],
+      "summary": [
+        "\u001b[0m"
+      ]
+    },
+    {
+      "name": "victory_reward",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 6.75,
+      "errors": [],
+      "summary": [
+        "VICTORY_REWARD {\"checks\":2564,\"failures\":[],\"native_visual\":\"NOT_RUN\"}"
+      ]
+    },
+    {
+      "name": "home_binding",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 7.672,
+      "errors": [],
+      "summary": [
+        "CURRENT_HOME {\"checks\":112,\"failures\":[],\"headless\":true,\"native_visual\":\"NOT_RUN\"}"
+      ]
+    },
+    {
+      "name": "real_energy_entry",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 4.812,
+      "errors": [],
+      "summary": [
+        "ENERGY_QA_DONE 35 CHECKS 0 FAIL"
+      ]
+    },
+    {
+      "name": "settings_energy",
+      "exit": 0,
+      "timeout": false,
+      "seconds": 15.438,
+      "errors": [],
+      "summary": [
+        "SETTINGS_LIVE_ENERGY {\"checks\":247,\"evidence\":[{\"app_process_enabled\":true,\"initial_ids\":{\"board\":107994941495,\"canvas\":135845120486,\"close\":139200563800,\"energy\":134117067006,\"how_to_play\":139049568848,\"language\":138630138428,\"modal\":135610239458,\"music_toggle\":136717535756,\"sound_toggle\":136264550904,\"start\":135576685024,\"vibration_toggle\":138126821926},\"initial_locale\":\"zh\",\"recovered_hud\":\"26/30\",\"stored_locale\":\"en\",\"stored_music\":true,\"viewport\":\"(320, 480)\"},{\"app_process_enabled\":true,\"initial_ids\":{\"board\":228136585995,\"canvas\":249443649898,\"close\":252899755972,\"energy\":247665265643,\"how_to_play\":252748760852,\"language\":252195112981,\"modal\":249208768851,\"music_toggle\":250316065179,\"sound_toggle\":249879857542,\"start\":249175214417,\"vibration_toggle\":251708574141},\"initial_locale\":\"en\",\"recovered_hud\":\"26/30\",\"stored_locale\":\"zh\",\"stored_music\":true,\"viewport\":\"(320, 480)\"},{\"app_process_enabled\":true,\"initial_ids\":{\"board\":335527544551,\"canvas\":357321148299,\"close\":360676591730,\"energy\":355676981169,\"how_to_play\":360525596839,\"language\":360106167138,\"modal\":357086267814,\"music_toggle\":358193564653,\"sound_toggle\":357740579856,\"start\":357052713783,\"vibration_toggle\":359602850078},\"initial_locale\":\"zh\",\"recovered_hud\":\"26/30\",\"stored_locale\":\"en\",\"stored_music\":true,\"viewport\":\"(390, 693)\"},{\"app_process_enabled\":true,\"initial_ids\":{\"board\":438891973335,\"canvas\":460031264426,\"close\":463487372167,\"energy\":458252880369,\"how_to_play\":463336377193,\"language\":462782729308,\"modal\":459796384775,\"music_toggle\":460903681068,\"sound_toggle\":460467472026,\"start\":459762829207,\"vibration_toggle\":462296190038},\"initial_locale\":\"en\",\"recovered_hud\":\"26/30\",\"stored_locale\":\"zh\",\"stored_music\":true,\"viewport\":\"(390, 693)\"},{\"app_process_enabled\":true,\"initial_ids\":{\"board\":546048050944,\"canvas\":567841655006,\"close\":571197098780,\"energy\":566197487937,\"how_to_play\":571046103819,\"language\":570626673356,\"modal\":567606774271,\"music_toggle\":568714071102,\"sound_toggle\":568261084619,\"start\":567573219956,\"vibration_toggle\":570123355914},\"initial_locale\":\"zh\",\"recovered_hud\":\"26/30\",\"stored_locale\":\"en\",\"stored_music\":true,\"viewport\":\"(1132, 2012)\"},{\"app_process_enabled\":true,\"initial_ids\":{\"board\":649412479716,\"canvas\":670551771487,\"close\":674007878115,\"energy\":668773386123,\"how_to_play\":673856883254,\"language\":673303235518,\"modal\":670316891095,\"music_toggle\":671424187367,\"sound_toggle\":670987979148,\"start\":670283335617,\"vibration_toggle\":672816696243},\"initial_locale\":\"en\",\"recovered_hud\":\"26/30\",\"stored_locale\":\"zh\",\"stored_music\":true,\"viewport\":\"(1132, 2012)\"}],\"failures\":[],\"headless\":true,\"native_visual_or_smoothness_pass\":false,\"user_data_directory\":\"C:/Users/Administrator/Documents/Codex/2026-10-29/task-3/current-playtest-20261031/alpha-validation-2/isolated-appdata/ColorPause_C3_Review_20261030\"}"
+      ]
+    }
+  ],
+  "assertion_counts": {
+    "victory_reward": 2564,
+    "home_binding": 112,
+    "real_energy_entry": 35,
+    "settings_energy": 247
+  },
+  "total_assertions": 2958,
+  "native_visual": "NOT_RUN",
+  "device_sdk_signing": "NOT_RUN",
+  "first_fixture_failure": "alpha-validation-1: 2563 assertions passed but absent host screen_layout metadata produced ERROR logs. Overall FAIL retained locally. Final fixture mounts the real orders_v3 host and asserts its layout exists; no runtime behavior was changed to satisfy the test.",
+  "packaging_correction": "55dcb omitted relative P2 textures and P0/P1 reward JSON. Withdrawn from deployment. 44 exact original dependency files restored from complete 8e snapshot; three restored PNGs then replaced with approved alpha-v3. See RESTORED_RUNTIME_DEPENDENCIES.json and VICTORY_ALPHA_V3.json."
+}

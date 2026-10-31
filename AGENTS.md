@@ -1,3 +1,5 @@
-# Project instructions
+# Color Pause development instructions
 
-Read docs/development-standard/AGENTS.md and docs/development-standard/docs/DEVELOPMENT_STANDARD.md, then README.md and HANDOFF.md. Standard V1.2 is pinned at 4025312802d8b4d4397d8b717699eeb8abbeee47. This is a 2D Godot4.7.2 water-sort project; OPTIONAL_3D_PIPELINE is N/A. Gameplay/competitor research is separate. Verify actual source and environment; do not infer test completion from prior claims.
+Read README.md and docs/current/DEVELOPMENT.md, STATUS.md, TESTING.md before changes. The project is Godot4.7.2 Standard, 2D. Keep business rules, View, platform adapters and test composition separate. Use current evidence rather than old report totals. Do not modify live user saves, signing keys, deployed test directories or external account settings. Do not reintroduce removed experiments or new themes. Only current runtime dependencies and necessary tests belong in this tree. Keep test output/cache/profile files untracked. Do not claim headless geometry or simulated ads prove native visuals or device SDK behavior. Shared-file changes require one owner and serial integration. No push, merge or publish without session authorization; an authorized source sync is not store release.
+
+The retained general standard is V1.2, pinned upstream commit4025312802d8b4d4397d8b717699eeb8abbeee47; read docs/development-standard/AGENTS.md and its docs/DEVELOPMENT_STANDARD.md. Current user/session constraints override older examples.

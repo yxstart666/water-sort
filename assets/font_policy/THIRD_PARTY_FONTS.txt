@@ -1,0 +1,93 @@
+THIRD-PARTY FONTS / 第三方字体说明
+
+Prepared 2026-10-30. This notice covers the listed permitted identities; a game may ship only a subset. Final package inventory remains required.
+
+The fonts below are licensed under the SIL Open Font License 1.1. Commercial use, embedding in a game and bundled redistribution are permitted subject to that license. Keep the indicated copyright notices and complete license files with each distributed copy. Font license permission does not clear baked image artwork.
+
+This notice does not license the game code or other artwork under the OFL. No font is to be sold by itself. Do not remove notices.
+
+
+NotoSans-Bold.ttf
+
+SHA256: e83493c945848ecd4a9ad0f6d19164541a0d3e23a9c952304a00a46e00272ac5
+
+Identity: official_blob_identical
+
+Copyright notices from exact source font:
+Copyright 2015 Google LLC. All Rights Reserved.
+
+Full license supplied in: noto-official-ofl.txt
+
+Official license: https://github.com/notofonts/noto-fonts/blob/c58682b28b18fd5d3755f4371635f862870c1531/LICENSE
+
+Reserved Font Names: No specific RFN declared in the inspected original license/nameID0. The generic RFN clause is not a declaration.
+
+
+NotoSansCJKsc-Bold.otf
+
+SHA256: 0b73a1dc8ff56140320179d71e5ab4563a216555e18dcde2e98b475d1293cdec
+
+Identity: extracted_face2_from_official_TTC
+
+Copyright notices from exact source font:
+© 2014-2021 Adobe (http://www.adobe.com/).
+
+Full license supplied in: noto-cjk-official-ofl.txt
+
+Official license: https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE
+
+Reserved Font Names: No specific RFN declared in the inspected original license/nameID0. The generic RFN clause is not a declaration.
+
+This single-face OTF was extracted from face 2 of the original NotoSansCJK-Bold.ttc. No glyph subsetting, glyph edits or family renaming. All source face tables except head are byte-identical. It is not represented as the standalone upstream OTF binary. Keep source/extraction provenance.
+
+RFN conclusion: Container extraction is conservatively treated as a Modified Version. No specific RFN declared for this Noto source, so OFL clause 3 does not require renaming this extracted OTF. Keep copyright, OFL and extraction record.
+
+
+NotoSansCJK-Bold.ttc
+
+SHA256: faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb
+
+Identity: official_blob_identical
+
+Copyright notices from exact source font:
+© 2014-2021 Adobe (http://www.adobe.com/).
+
+Full license supplied in: noto-cjk-official-ofl.txt
+
+Official license: https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE
+
+Reserved Font Names: No specific RFN declared in the inspected original license/nameID0. The generic RFN clause is not a declaration.
+
+
+LXGW975YuanSC-700W.ttf
+
+SHA256: f392de4cba941f3c44c7770cfed7ac3c658b46b7e3a4b2546fe155010109d403
+
+Identity: official_blob_identical
+
+Copyright notices from exact source font:
+Copyright 2020-2026 LXGW (https://github.com/lxgw/975Yuan), with Reserved Font Name '霞鹜', '霞鶩', '落霞孤鹜', '落霞孤鶩' and 'LXGW'.
+Copyright 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. Source is a trademark of Adobe in the United States and/or other countries.
+Copyright 2024-2026 Tamcy (https://github.com/chiron-fonts/chiron-go-round-tc).
+Copyright 2024-2026 Takushun Wu (https://github.com/takushun-wu/), with Reserved Font Name 'WenYuan Rounded', '文渊圆体'.
+Copyright 2020 Chun yu Yao (https://github.com/max32002/swei-gothic)
+Copyright 2019 Ek Type (www.ektype.in)
+
+Full license supplied in: lxgw-official-ofl.txt
+
+Official license: https://github.com/lxgw/975Yuan/blob/37b753f408b25d3ab3d25cbddb5dd9dacca0289a/OFL.txt
+
+Reserved Font Names: 霞鹜, 霞鶩, 落霞孤鹜, 落霞孤鶩, LXGW, Source, WenYuan Rounded, 文渊圆体
+
+Original unmodified file may retain names. Official license includes additional permissions for recompilation without source modification and specified web-font subsetting/conversion. Do not assume a game-font subset qualifies for web-font exception.
+
+
+Additional scope notes
+
+The default/fallback fonts compiled into the Godot engine are covered by its component licenses; retain the relevant Godot third-party notices separately. Automatic operating-system font fallback is not treated as an allowlisted font source.
+
+Raster title/button graphics and imagegen-derived lettering require their own source records; the OFL files here do not authenticate or clear those images.
+
+The current authored-text glyph checks do not establish coverage for arbitrary user nicknames, emoji, all Unicode, or future localization.
+
+This prepared notice and FONT_WHITELIST.json have not been integrated into or verified inside a final APK/AAB/PCK.

@@ -1,0 +1,37 @@
+{
+  "specified_color": {
+    "total": 22,
+    "required": 1,
+    "remaining_transition": [
+      1,
+      0
+    ],
+    "by_color": {
+      "blue": 4,
+      "green": 4,
+      "orange": 1,
+      "purple": 3,
+      "red": 3,
+      "yellow": 7
+    }
+  },
+  "any": {
+    "total": 5,
+    "required1_levels": [
+      15,
+      40
+    ],
+    "required2_levels": [
+      25,
+      35,
+      45
+    ]
+  },
+  "pink_cyan": "supported by current palette; no C3 specified-color targets",
+  "max_required": 2,
+  "min_live_card_rect_px": [
+    19.466,
+    27.229
+  ],
+  "min_live_context": "L26, 11 bottles, 320×480; logical rendered rectangle, not Android dp and not alpha bbox"
+}

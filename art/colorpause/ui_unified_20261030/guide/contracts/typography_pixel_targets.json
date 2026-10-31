@@ -1,0 +1,55 @@
+{
+  "caption_line1": {
+    "ink_bbox_source_xywh": [
+      316,
+      1109,
+      282,
+      53
+    ],
+    "median_ink_rgb": [
+      4,
+      37,
+      144
+    ]
+  },
+  "caption_line2": {
+    "ink_bbox_source_xywh": [
+      219,
+      1177,
+      476,
+      52
+    ],
+    "median_ink_rgb": [
+      4,
+      37,
+      143
+    ]
+  },
+  "rule_line1": {
+    "ink_bbox_source_xywh": [
+      124,
+      1282,
+      666,
+      40
+    ],
+    "median_ink_rgb": [
+      6,
+      33,
+      150
+    ]
+  },
+  "rule_line2": {
+    "ink_bbox_source_xywh": [
+      317,
+      1336,
+      278,
+      37
+    ],
+    "median_ink_rgb": [
+      6,
+      34,
+      152
+    ]
+  },
+  "font_status": "Source is generated artwork; exact font identity is unknown. Chinese static glyphs are source pixels. Dynamic caption uses project runtime font as explicit candidate, fitted to measured ink height and line widths, not same numeric font-size. Preserve runtime wording and states."
+}

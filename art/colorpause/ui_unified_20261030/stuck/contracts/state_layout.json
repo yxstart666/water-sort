@@ -1,0 +1,25 @@
+{
+  "route":"OrderView.state == stuck / _result_overlay(false)",
+  "design_canvas_px":[915,1719],
+  "title":"暂时无路可走",
+  "close_button":false,
+  "normal_state":"approved source shows undo history available, bonus bottle eligible; it is an example state, not guaranteed capability",
+  "layers_source":"../manifest.json",
+  "actions":{
+    "BlockedUndo":{"normal_asset":"undo_button_normal","callback":"existing undo_move/reward route, never free-undo bypass","enabled":"history is nonempty and host capability/state allows it","disabled":"same complete source texture; shader grayscale saturation 0.20, brightness 0.72; hit disabled, no reward or board mutation"},
+    "ResultRestart":{"normal_asset":"replay_button_normal","callback":"existing _request_level(level_index) path; preserve checkpoint/energy gates"},
+    "ResultInstructions":{"normal_asset":"home_button_normal","callback":"existing _return_entry path; embedded Home, no new route"},
+    "RescueBottle":{"normal_asset":"bonus_button_normal","callback":"existing open_reward('bottle')","visible":"rules.has_bonus() && !rules.bonus_unlocked && actual host ad/capability permits; do not expose unsupported ad","hidden_layout":"remove whole bottom row; shorten panel by178 source px; shift remaining group+89px for vertical centering"}
+  },
+  "state_visuals":{
+    "normal":"unaltered original whole control texture, natural aspect",
+    "pressed":{"source":"same normal, never alternate generated silhouette","offset_y_source_px":4,"brightness":0.94,"preserve_hit_rect":true},
+    "disabled":{"source":"same whole normal","saturation":0.20,"brightness":0.72,"opacity":1.0,"input_enabled":false},
+    "focus":"external focus ring only; do not resize icon/label inside button"
+  },
+  "no_history_extra_body":{"text_zh":"目前没有可撤回的步骤。","role":"runtime semantic body text using project-approved font; not title art","rect_px":[143,941,639,48],"font_px":34,"text_color":"#0942a5","shift_actions_down_px":48,"extend_panel_down_px":48},
+  "nine_slice":{"panel_asset":"panel_blank","margins_px":[114,114,114,114],"rule":"retain corner scale uniformly; grow/shrink center only; no KEEP_ASPECT ghost whitespace; use true NinePatchRect"},
+  "sizing":{"modal_width_ratio":0.89,"max_width_dp":440,"fit_safe_area":true,"button_min_hit_dp":44,"source_scale_is_not_hit_scale":true,"short_viewport":"fit the modal and preserve full button textures; if content requires scroll, keep primary actions reachable. Never squash source aspect or shrink text alone."},
+  "sampling":{"mipmaps":true,"filter":"LINEAR_WITH_MIPMAPS","font_dynamic":"actual registered project font; locale validated separately"},
+  "not_authorized":["new revive mechanic","new X/close action","fake reward callback","false ad capability","full-screen raster pretending interactive UI","fixed demo history/bonus state"]
+}

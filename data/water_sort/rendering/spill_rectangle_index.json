@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "source_sha256": "b29b3439621c05ad6416b44b6acda9efe34d04ba2480fb705f8197fcd321c79d",
+  "binary_sha256": "702f24c30afa722b200fd618ad4aa6f5d460a958fc4792c3daf8842854ea61fd",
+  "bins": 1668,
+  "maximum_angle": 3.12413936106985,
+  "mouth": [
+    112.0,
+    19.0
+  ],
+  "classification_margin_native_pixels": 0.01,
+  "offset_count": 1669,
+  "rectangle_count": 535,
+  "codes": 394773,
+  "description": "Conservative empty/full classification only; ambiguous rectangles evaluated exactly; original addition order. Float32 mouth projection error guarded by .01 native pixels."
+}

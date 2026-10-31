@@ -1,0 +1,114 @@
+{
+  "reference": [
+    390,
+    694
+  ],
+  "source": "contracts/data_page_components/recovery/layout_qa.json;390x844",
+  "adaptation": "Keep host energy header; title/tabs/cards fixed; shorten scroll body for16:9; preserve component aspect and source nine-slice corners.",
+  "panel": [
+    7,
+    102,
+    376,
+    582
+  ],
+  "title_chrome": [
+    62,
+    70,
+    265,
+    84
+  ],
+  "title_zh": [
+    116,
+    95,
+    158,
+    46
+  ],
+  "title_en": [
+    90,
+    92,
+    211,
+    35
+  ],
+  "close": [
+    331,
+    98,
+    48,
+    47
+  ],
+  "tabs": [
+    [
+      40,
+      169,
+      151,
+      52
+    ],
+    [
+      199,
+      169,
+      151,
+      52
+    ]
+  ],
+  "cards": [
+    [
+      40,
+      239,
+      99,
+      67
+    ],
+    [
+      145,
+      239,
+      99,
+      67
+    ],
+    [
+      251,
+      239,
+      99,
+      67
+    ]
+  ],
+  "section": [
+    40,
+    326,
+    310,
+    41
+  ],
+  "columns": [
+    40,
+    370,
+    310,
+    28
+  ],
+  "list": [
+    40,
+    401,
+    310,
+    164
+  ],
+  "local_note": [
+    40,
+    574,
+    310,
+    24
+  ],
+  "back": [
+    100,
+    610,
+    190,
+    59
+  ],
+  "back_zh": [
+    157,
+    611,
+    77,
+    50
+  ],
+  "back_en": [
+    156,
+    619,
+    77,
+    34
+  ]
+}

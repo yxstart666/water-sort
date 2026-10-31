@@ -1,0 +1,321 @@
+{
+  "zh": {
+    "screen": "reward_retry",
+    "locale": "zh",
+    "viewport": [
+      320,
+      600
+    ],
+    "status": "candidate",
+    "layers": [
+      {
+        "type": "nineSlice",
+        "source": "sprites/panel_normal_9slice_candidate.webp",
+        "rectDp": [
+          6.047043189368765,
+          91.88155038759689,
+          307.90591362126247,
+          285.5719976147883
+        ],
+        "sourceInsetsLTRB": [
+          230,
+          230,
+          230,
+          230
+        ],
+        "uniformCornerScale": 0.2346843853820598
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/title_normal_9slice_candidate.webp",
+        "rectDp": [
+          61.39725190839695,
+          73.84615384615384,
+          197.2054961832061,
+          65.36447837150128
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.12356234096692112
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/reward_retry_zh-CN.webp",
+        "rectDp": [
+          96.0,
+          85.96678623621628,
+          128.0,
+          36.476683937823836
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "sprites/close_normal_clean.webp",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          45.88235294117647
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "runtimeText",
+        "text": "奖励尚未保存。",
+        "centerDp": [
+          160.0,
+          178.87179487179486
+        ],
+        "fontDp": 14.769230769230768,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "body"
+      },
+      {
+        "type": "runtimeText",
+        "text": "请重试保存，无需再次观看广告。",
+        "centerDp": [
+          160.0,
+          207.5897435897436
+        ],
+        "fontDp": 14.769230769230768,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "body"
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/cyan_normal_9slice_candidate.webp",
+        "rectDp": [
+          65.80814717477004,
+          285.4133899390141,
+          188.619185282523,
+          67.34717477003943
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.11773981603153746
+      },
+      {
+        "type": "sprite",
+        "source": "secondary_popups/sprites/AdRetry_zh-CN.webp",
+        "rectDp": [
+          108.2598623853211,
+          298.50559887462515,
+          103.48027522935779,
+          29.449999999999996
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      }
+    ],
+    "hotareas": [
+      {
+        "action": "close",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          46.4
+        ],
+        "hostMustDecideDismiss": true
+      },
+      {
+        "action": "AdRetry",
+        "rectDp": [
+          70.4,
+          287.1794871794872,
+          179.20000000000002,
+          56.63285151116952
+        ],
+        "minHitDp": 44
+      }
+    ],
+    "toast": "runtimeText only; nonmodal and pointer-through",
+    "business": "existing callbacks required; no ad/payment/refill counts inferred"
+  },
+  "en": {
+    "screen": "reward_retry",
+    "locale": "en",
+    "viewport": [
+      320,
+      600
+    ],
+    "status": "candidate",
+    "layers": [
+      {
+        "type": "nineSlice",
+        "source": "sprites/panel_normal_9slice_candidate.webp",
+        "rectDp": [
+          6.047043189368765,
+          91.88155038759689,
+          307.90591362126247,
+          285.5719976147883
+        ],
+        "sourceInsetsLTRB": [
+          230,
+          230,
+          230,
+          230
+        ],
+        "uniformCornerScale": 0.2346843853820598
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/title_normal_9slice_candidate.webp",
+        "rectDp": [
+          61.39725190839695,
+          73.84615384615384,
+          197.2054961832061,
+          65.36447837150128
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.12356234096692112
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/saving_reward_en.webp",
+        "rectDp": [
+          96.0,
+          93.24216524216523,
+          128.0,
+          21.925925925925927
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "sprite",
+        "source": "sprites/close_normal_clean.webp",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          45.88235294117647
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      },
+      {
+        "type": "runtimeText",
+        "text": "Your reward hasn’t been saved yet.",
+        "centerDp": [
+          160.0,
+          178.87179487179486
+        ],
+        "fontDp": 14.769230769230768,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "body"
+      },
+      {
+        "type": "runtimeText",
+        "text": "Try again without watching",
+        "centerDp": [
+          160.0,
+          207.5897435897436
+        ],
+        "fontDp": 14.769230769230768,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "body"
+      },
+      {
+        "type": "runtimeText",
+        "text": "another ad.",
+        "centerDp": [
+          160.0,
+          236.3076923076923
+        ],
+        "fontDp": 14.769230769230768,
+        "maxWidthDp": 243.2,
+        "font": "fonts/LXGW975YuanSC-700W.ttf",
+        "color": "#0963bd",
+        "sampleOnly": true,
+        "hostRequired": true,
+        "slot": "body"
+      },
+      {
+        "type": "nineSlice",
+        "source": "sprites/cyan_normal_9slice_candidate.webp",
+        "rectDp": [
+          65.80814717477004,
+          285.4133899390141,
+          188.619185282523,
+          67.34717477003943
+        ],
+        "sourceInsetsLTRB": [
+          350,
+          120,
+          350,
+          120
+        ],
+        "uniformCornerScale": 0.11773981603153746
+      },
+      {
+        "type": "sprite",
+        "source": "english_art_labels/labels/retry_save_en.webp",
+        "rectDp": [
+          93.59199604743084,
+          298.50559887462515,
+          132.81600790513832,
+          29.449999999999996
+        ],
+        "uniformScale": true,
+        "contactShadow": false
+      }
+    ],
+    "hotareas": [
+      {
+        "action": "close",
+        "rectDp": [
+          263.68,
+          96.82051282051282,
+          46.4,
+          46.4
+        ],
+        "hostMustDecideDismiss": true
+      },
+      {
+        "action": "AdRetry",
+        "rectDp": [
+          70.4,
+          287.1794871794872,
+          179.20000000000002,
+          56.63285151116952
+        ],
+        "minHitDp": 44
+      }
+    ],
+    "toast": "runtimeText only; nonmodal and pointer-through",
+    "business": "existing callbacks required; no ad/payment/refill counts inferred"
+  }
+}

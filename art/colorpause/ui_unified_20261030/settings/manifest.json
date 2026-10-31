@@ -1,0 +1,1309 @@
+{
+  "schema": "colorpause.settings.engine_assets.v1",
+  "status": "root_asset_visual_approved_v1.1; runtime_pending",
+  "source": {
+    "file": "approved_master.png",
+    "dimensions_wh": [
+      915,
+      1719
+    ],
+    "sha256": "d3558b73abaf4aeb2bb3f0a82a243d881adedc089a1e545cf64739efa8e03a5d"
+  },
+  "coordinate_system": "source-native top-left XYWH; right/bottom exclusive; uniform scale only",
+  "assets": [
+    {
+      "id": "settings_frame_blank",
+      "file": "assets/settings_frame_blank.png",
+      "rect_xywh": [
+        40,
+        270,
+        836,
+        1247
+      ],
+      "size_wh": [
+        836,
+        1247
+      ],
+      "z": 10,
+      "role": "source-locked visible frame; only documented patches use imagegen backing",
+      "alpha50_bbox_local_xywh": [
+        9,
+        7,
+        817,
+        1230
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        8,
+        5,
+        819,
+        1233
+      ],
+      "sha256": "ac404306671c64cd8206ac9d88bceb05120f761b35e501249d2b291073280849"
+    },
+    {
+      "id": "title_original_zh",
+      "file": "assets/title_original_zh.png",
+      "rect_xywh": [
+        168,
+        187,
+        579,
+        191
+      ],
+      "size_wh": [
+        579,
+        191
+      ],
+      "z": 50,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        563,
+        170
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        8,
+        7,
+        563,
+        171
+      ],
+      "sha256": "d2e43105d1985e1fefa045d0bad48906d8cd8fcd58ed39776569f91ffd5b82e9"
+    },
+    {
+      "id": "close_normal",
+      "file": "assets/close_normal.png",
+      "rect_xywh": [
+        737,
+        253,
+        150,
+        151
+      ],
+      "size_wh": [
+        150,
+        151
+      ],
+      "z": 60,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        10,
+        9,
+        129,
+        130
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        8,
+        9,
+        132,
+        130
+      ],
+      "sha256": "f5cb4833e3c01c2e6e5a435afcbda2b19640ab51d210338202df049f639fa103"
+    },
+    {
+      "id": "title_blank",
+      "file": "assets/title_blank.png",
+      "rect_xywh": [
+        168,
+        187,
+        579,
+        191
+      ],
+      "size_wh": [
+        579,
+        191
+      ],
+      "z": 50,
+      "role": "source alpha and outer band; AI text repair interior only",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        563,
+        170
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        8,
+        7,
+        563,
+        171
+      ],
+      "sha256": "96467b1c126e6a70a1b607d46f230be8de54ab1cf972381a9b4f2980c4b6f6c0"
+    },
+    {
+      "id": "title_label_zh",
+      "file": "assets/title_label_zh.png",
+      "rect_xywh": [
+        340,
+        216,
+        236,
+        125
+      ],
+      "size_wh": [
+        236,
+        125
+      ],
+      "z": 45,
+      "role": "static approved original Chinese glyph pixels; never font-recreated",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        218,
+        115
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        7,
+        220,
+        118
+      ],
+      "sha256": "3d4d04496abbcefc6c39cb92c56f5fe269d6e80c4665341d332aa28b73223aae"
+    },
+    {
+      "id": "sound_label_zh",
+      "file": "assets/sound_label_zh.png",
+      "rect_xywh": [
+        305,
+        462,
+        150,
+        83
+      ],
+      "size_wh": [
+        150,
+        83
+      ],
+      "z": 45,
+      "role": "static approved original Chinese glyph pixels; never font-recreated",
+      "alpha50_bbox_local_xywh": [
+        12,
+        8,
+        129,
+        65
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        11,
+        8,
+        131,
+        66
+      ],
+      "sha256": "4be3fba6c0bf8ba462c87b498b2c74937b6869f328f455d1d4da120b185e825b"
+    },
+    {
+      "id": "music_label_zh",
+      "file": "assets/music_label_zh.png",
+      "rect_xywh": [
+        305,
+        670,
+        150,
+        84
+      ],
+      "size_wh": [
+        150,
+        84
+      ],
+      "z": 45,
+      "role": "static approved original Chinese glyph pixels; never font-recreated",
+      "alpha50_bbox_local_xywh": [
+        12,
+        7,
+        130,
+        65
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        11,
+        7,
+        132,
+        67
+      ],
+      "sha256": "d1ca373f5fe99cf221d70b176b47afe85718db0f1bfb5cfd204a8434464a1509"
+    },
+    {
+      "id": "vibration_label_zh",
+      "file": "assets/vibration_label_zh.png",
+      "rect_xywh": [
+        305,
+        879,
+        154,
+        84
+      ],
+      "size_wh": [
+        154,
+        84
+      ],
+      "z": 45,
+      "role": "static approved original Chinese glyph pixels; never font-recreated",
+      "alpha50_bbox_local_xywh": [
+        12,
+        7,
+        132,
+        64
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        7,
+        133,
+        66
+      ],
+      "sha256": "7a09981956e5d1345a7afc8ceaff1b42a2cfa89d50e81276ba8ca73c9697e175"
+    },
+    {
+      "id": "language_label_zh",
+      "file": "assets/language_label_zh.png",
+      "rect_xywh": [
+        305,
+        1087,
+        150,
+        84
+      ],
+      "size_wh": [
+        150,
+        84
+      ],
+      "z": 45,
+      "role": "static approved original Chinese glyph pixels; never font-recreated",
+      "alpha50_bbox_local_xywh": [
+        11,
+        9,
+        129,
+        63
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        10,
+        9,
+        131,
+        65
+      ],
+      "sha256": "097ba642e3d3529c528b5c5be12816dd3111f0855d34f95bc953c434ba9c515a"
+    },
+    {
+      "id": "guide_label_zh",
+      "file": "assets/guide_label_zh.png",
+      "rect_xywh": [
+        305,
+        1295,
+        278,
+        84
+      ],
+      "size_wh": [
+        278,
+        84
+      ],
+      "z": 45,
+      "role": "static approved original Chinese glyph pixels; never font-recreated",
+      "alpha50_bbox_local_xywh": [
+        11,
+        9,
+        257,
+        64
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        10,
+        8,
+        258,
+        67
+      ],
+      "sha256": "2791bebde7a0e28d6469b5b50fc6a6036dd175cd311f5bcf704f4f9a109b0486"
+    },
+    {
+      "id": "sound_row_original",
+      "file": "assets/sound_row_original.png",
+      "rect_xywh": [
+        98,
+        400,
+        720,
+        208
+      ],
+      "size_wh": [
+        720,
+        208
+      ],
+      "z": 20,
+      "role": "source-composite reference/normal shortcut; do not overlay duplicate controls",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        704,
+        194
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        7,
+        705,
+        196
+      ],
+      "sha256": "d1709b1c52d32e6d8e3a2d7397d23705dca5b9bff31a1c6dec2ab54e2916bc95"
+    },
+    {
+      "id": "sound_row_blank",
+      "file": "assets/sound_row_blank.png",
+      "rect_xywh": [
+        98,
+        400,
+        720,
+        208
+      ],
+      "size_wh": [
+        720,
+        208
+      ],
+      "z": 20,
+      "role": "original row silhouette/edge; imagegen clean interior; language button separate",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        704,
+        194
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        7,
+        705,
+        196
+      ],
+      "sha256": "21cd54e7ec8cba26811c9400c2376019c2fc95226d03b0cc7c66cb15b17c0163"
+    },
+    {
+      "id": "music_row_original",
+      "file": "assets/music_row_original.png",
+      "rect_xywh": [
+        98,
+        606,
+        720,
+        211
+      ],
+      "size_wh": [
+        720,
+        211
+      ],
+      "z": 20,
+      "role": "source-composite reference/normal shortcut; do not overlay duplicate controls",
+      "alpha50_bbox_local_xywh": [
+        8,
+        6,
+        704,
+        199
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        5,
+        705,
+        201
+      ],
+      "sha256": "d479f726c57fb5539d812ed228fa2d00eccd7892ff4513e717fdf0ceee99f248"
+    },
+    {
+      "id": "music_row_blank",
+      "file": "assets/music_row_blank.png",
+      "rect_xywh": [
+        98,
+        606,
+        720,
+        211
+      ],
+      "size_wh": [
+        720,
+        211
+      ],
+      "z": 20,
+      "role": "original row silhouette/edge; imagegen clean interior; language button separate",
+      "alpha50_bbox_local_xywh": [
+        8,
+        6,
+        704,
+        199
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        5,
+        705,
+        201
+      ],
+      "sha256": "2cdb2c1400e2a8a67bdab6eea2372b831ed6c445636258ba0081a2f614d4dad0"
+    },
+    {
+      "id": "vibration_row_original",
+      "file": "assets/vibration_row_original.png",
+      "rect_xywh": [
+        98,
+        814,
+        720,
+        212
+      ],
+      "size_wh": [
+        720,
+        212
+      ],
+      "z": 20,
+      "role": "source-composite reference/normal shortcut; do not overlay duplicate controls",
+      "alpha50_bbox_local_xywh": [
+        8,
+        7,
+        704,
+        199
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        6,
+        705,
+        200
+      ],
+      "sha256": "25b375edaeed94fd19f7bafc2303e40bd13a81b29d8bce7b1c67d135a81b9b9b"
+    },
+    {
+      "id": "vibration_row_blank",
+      "file": "assets/vibration_row_blank.png",
+      "rect_xywh": [
+        98,
+        814,
+        720,
+        212
+      ],
+      "size_wh": [
+        720,
+        212
+      ],
+      "z": 20,
+      "role": "original row silhouette/edge; imagegen clean interior; language button separate",
+      "alpha50_bbox_local_xywh": [
+        8,
+        7,
+        704,
+        199
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        6,
+        705,
+        200
+      ],
+      "sha256": "da10ed3c92bdbc32dd900ea476c47743b76c04b5fb32fc9636506000e8db76f0"
+    },
+    {
+      "id": "language_row_blank",
+      "file": "assets/language_row_blank.png",
+      "rect_xywh": [
+        98,
+        1023,
+        720,
+        209
+      ],
+      "size_wh": [
+        720,
+        209
+      ],
+      "z": 20,
+      "role": "original row silhouette/edge; imagegen clean interior; language button separate",
+      "alpha50_bbox_local_xywh": [
+        8,
+        8,
+        704,
+        195
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        7,
+        705,
+        197
+      ],
+      "sha256": "9b1ed2ff57be2a210a64b9955aa1b1c966d0949ba91103d3f1deb3f92d05df80"
+    },
+    {
+      "id": "guide_row_original",
+      "file": "assets/guide_row_original.png",
+      "rect_xywh": [
+        98,
+        1229,
+        720,
+        205
+      ],
+      "size_wh": [
+        720,
+        205
+      ],
+      "z": 20,
+      "role": "source-composite reference/normal shortcut; do not overlay duplicate controls",
+      "alpha50_bbox_local_xywh": [
+        8,
+        7,
+        704,
+        192
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        6,
+        705,
+        193
+      ],
+      "sha256": "7036b12e46267767bbc1ba838035f5899a3bbc4449e8263d1438651d51cc349b"
+    },
+    {
+      "id": "guide_row_blank",
+      "file": "assets/guide_row_blank.png",
+      "rect_xywh": [
+        98,
+        1229,
+        720,
+        205
+      ],
+      "size_wh": [
+        720,
+        205
+      ],
+      "z": 20,
+      "role": "original row silhouette/edge; imagegen clean interior; language button separate",
+      "alpha50_bbox_local_xywh": [
+        8,
+        7,
+        704,
+        192
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        7,
+        6,
+        705,
+        193
+      ],
+      "sha256": "751922ec490486415c73a0fb122e971146454dd8eeebc58fd4494b8a972f9c27"
+    },
+    {
+      "id": "sound_icon",
+      "file": "assets/sound_icon.png",
+      "rect_xywh": [
+        123,
+        432,
+        170,
+        145
+      ],
+      "size_wh": [
+        170,
+        145
+      ],
+      "z": 35,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        10,
+        9,
+        148,
+        124
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        3,
+        7,
+        167,
+        138
+      ],
+      "sha256": "4576e633e7b823bf4b66c2de1312c4d2642a38f0bbbd09f07dab39afef521a95"
+    },
+    {
+      "id": "music_icon",
+      "file": "assets/music_icon.png",
+      "rect_xywh": [
+        129,
+        638,
+        151,
+        151
+      ],
+      "size_wh": [
+        151,
+        151
+      ],
+      "z": 35,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        9,
+        6,
+        131,
+        131
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        4,
+        2,
+        147,
+        149
+      ],
+      "sha256": "bd24688e26e6b520952bd65a9dd44e1de02da437ace4054358e80526e4e73bc5"
+    },
+    {
+      "id": "vibration_icon",
+      "file": "assets/vibration_icon.png",
+      "rect_xywh": [
+        121,
+        844,
+        180,
+        157
+      ],
+      "size_wh": [
+        180,
+        157
+      ],
+      "z": 35,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        12,
+        6,
+        158,
+        142
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        6,
+        2,
+        172,
+        155
+      ],
+      "sha256": "b64290d74b94bc10ba7da612f82545b75ffeda0df758d705aafc07f76a4459b3"
+    },
+    {
+      "id": "language_icon",
+      "file": "assets/language_icon.png",
+      "rect_xywh": [
+        124,
+        1049,
+        159,
+        162
+      ],
+      "size_wh": [
+        159,
+        162
+      ],
+      "z": 35,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        9,
+        7,
+        140,
+        147
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        3,
+        4,
+        156,
+        158
+      ],
+      "sha256": "75d533279a2c9bb13dd86bc765c213b58339902fd5aa40558140e4d7a81717a4"
+    },
+    {
+      "id": "guide_question_icon",
+      "file": "assets/guide_question_icon.png",
+      "rect_xywh": [
+        141,
+        1256,
+        127,
+        163
+      ],
+      "size_wh": [
+        127,
+        163
+      ],
+      "z": 35,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        9,
+        8,
+        107,
+        147
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        3,
+        5,
+        122,
+        158
+      ],
+      "sha256": "8d2872ce7b092a3eb22f356e7f423f13c6186eb7ade18d41cf919ab8e1282232"
+    },
+    {
+      "id": "guide_arrow",
+      "file": "assets/guide_arrow.png",
+      "rect_xywh": [
+        706,
+        1286,
+        75,
+        101
+      ],
+      "size_wh": [
+        75,
+        101
+      ],
+      "z": 35,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        9,
+        9,
+        56,
+        86
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        4,
+        6,
+        66,
+        95
+      ],
+      "sha256": "c1d4683916806590732a8699de8bfa48285cddb0346b6989bae9a07bcd7d3709"
+    },
+    {
+      "id": "sound_toggle_on",
+      "file": "assets/sound_toggle_on.png",
+      "rect_xywh": [
+        545,
+        435,
+        255,
+        145
+      ],
+      "size_wh": [
+        255,
+        145
+      ],
+      "z": 40,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        12,
+        10,
+        231,
+        121
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        9,
+        232,
+        123
+      ],
+      "sha256": "221bc1d0b6f03a665cf0f86c71216f1e15437ca7f14c6abed3bda3a1e7364038"
+    },
+    {
+      "id": "music_toggle_on",
+      "file": "assets/music_toggle_on.png",
+      "rect_xywh": [
+        545,
+        644,
+        255,
+        145
+      ],
+      "size_wh": [
+        255,
+        145
+      ],
+      "z": 40,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        12,
+        8,
+        231,
+        123
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        11,
+        7,
+        233,
+        124
+      ],
+      "sha256": "527120cfd69cabae047d8770aaf1a04694afbb0fdabf74ab72267c3e4052ba6d"
+    },
+    {
+      "id": "vibration_toggle_on",
+      "file": "assets/vibration_toggle_on.png",
+      "rect_xywh": [
+        545,
+        853,
+        255,
+        145
+      ],
+      "size_wh": [
+        255,
+        145
+      ],
+      "z": 40,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        12,
+        8,
+        231,
+        123
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        7,
+        232,
+        125
+      ],
+      "sha256": "86d3c46b0c904843f498ca2a7f511bbf4496cf803e834d35cca0ecfe3a01f322"
+    },
+    {
+      "id": "language_button_blank_normal",
+      "file": "assets/language_button_blank_normal.png",
+      "rect_xywh": [
+        475,
+        1055,
+        327,
+        150
+      ],
+      "size_wh": [
+        327,
+        150
+      ],
+      "z": 40,
+      "role": "no language value baked; source-locked outline with imagegen-cleared interior",
+      "alpha50_bbox_local_xywh": [
+        10,
+        9,
+        305,
+        130
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        9,
+        9,
+        307,
+        131
+      ],
+      "sha256": "ee694086a9f19005f96cd8896c54c76f3b21c9a53cdfbbaa6b369101fc25af0a"
+    },
+    {
+      "id": "language_arrow",
+      "file": "assets/language_arrow.png",
+      "rect_xywh": [
+        724,
+        1093,
+        51,
+        70
+      ],
+      "size_wh": [
+        51,
+        70
+      ],
+      "z": 45,
+      "role": "source-pixel normal artwork",
+      "alpha50_bbox_local_xywh": [
+        0,
+        0,
+        51,
+        70
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        0,
+        0,
+        51,
+        70
+      ],
+      "sha256": "807357394dc3b5f50fa7b9331f2115c5b038e7abfd8dc6472eb54859ed61f013"
+    },
+    {
+      "id": "title_shadow",
+      "file": "assets/title_shadow.png",
+      "rect_xywh": [
+        150,
+        177,
+        615,
+        230
+      ],
+      "size_wh": [
+        615,
+        230
+      ],
+      "z": 49,
+      "role": "v1.1 smooth shadow from approved source silhouette: offset/blur/strength in source pixels, not native original shadow alpha",
+      "alpha50_bbox_local_xywh": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        13,
+        591,
+        198
+      ],
+      "sha256": "110fb781918cb78fdbf70b40f29531a3b982b8897fda00adf845f0b3bb505928",
+      "max_alpha": 87,
+      "shadow_model": "v1.1 smooth source-silhouette projection; RGB(40,74,118); title offset9 blur7 opacity0.34; close offset8 blur6 opacity0.36; language offset8 blur6 opacity0.34. No native-alpha or exact original-shadow claim."
+    },
+    {
+      "id": "close_shadow",
+      "file": "assets/close_shadow.png",
+      "rect_xywh": [
+        719,
+        237,
+        186,
+        191
+      ],
+      "size_wh": [
+        186,
+        191
+      ],
+      "z": 59,
+      "role": "v1.1 smooth shadow from approved source silhouette: offset/blur/strength in source pixels, not native original shadow alpha",
+      "alpha50_bbox_local_xywh": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        16,
+        21,
+        153,
+        154
+      ],
+      "sha256": "82a7a2dcb52536f38d2510e0a1f155e87629fa098081327b713a1e530baa82a7",
+      "max_alpha": 92,
+      "shadow_model": "v1.1 smooth source-silhouette projection; RGB(40,74,118); title offset9 blur7 opacity0.34; close offset8 blur6 opacity0.36; language offset8 blur6 opacity0.34. No native-alpha or exact original-shadow claim."
+    },
+    {
+      "id": "language_shadow",
+      "file": "assets/language_shadow.png",
+      "rect_xywh": [
+        457,
+        1039,
+        363,
+        190
+      ],
+      "size_wh": [
+        363,
+        190
+      ],
+      "z": 39,
+      "role": "v1.1 smooth shadow from approved source silhouette: offset/blur/strength in source pixels, not native original shadow alpha",
+      "alpha50_bbox_local_xywh": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        16,
+        22,
+        329,
+        153
+      ],
+      "sha256": "17cd116e4b2eef657b11d1dd4510215d006bfe85b323ead626d7b86c2dc46adf",
+      "max_alpha": 87,
+      "shadow_model": "v1.1 smooth source-silhouette projection; RGB(40,74,118); title offset9 blur7 opacity0.34; close offset8 blur6 opacity0.36; language offset8 blur6 opacity0.34. No native-alpha or exact original-shadow claim."
+    },
+    {
+      "id": "toggle_off",
+      "file": "assets/toggle_off.png",
+      "rect_xywh": [
+        545,
+        435,
+        255,
+        145
+      ],
+      "size_wh": [
+        255,
+        145
+      ],
+      "z": 40,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        12,
+        10,
+        231,
+        121
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        9,
+        232,
+        123
+      ],
+      "sha256": "7af84bd43b3e31ef9b59e850606a1cd4b6b248d0ab4df478af9c26320e89a3e0"
+    },
+    {
+      "id": "toggle_disabled_on",
+      "file": "assets/toggle_disabled_on.png",
+      "rect_xywh": [
+        545,
+        435,
+        255,
+        145
+      ],
+      "size_wh": [
+        255,
+        145
+      ],
+      "z": 40,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        12,
+        10,
+        231,
+        121
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        9,
+        232,
+        123
+      ],
+      "sha256": "bf8a565ef1e8bd932f23b34855cce63a1f27f83daa79edb727366ff5d5e371d9"
+    },
+    {
+      "id": "toggle_pressed_on",
+      "file": "assets/toggle_pressed_on.png",
+      "rect_xywh": [
+        545,
+        435,
+        255,
+        145
+      ],
+      "size_wh": [
+        255,
+        145
+      ],
+      "z": 40,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        12,
+        10,
+        231,
+        121
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        9,
+        232,
+        123
+      ],
+      "sha256": "89a360f4add108e91cfcb46da69c29339940f925036b4f40e3de1f604260ebfe"
+    },
+    {
+      "id": "toggle_disabled_off",
+      "file": "assets/toggle_disabled_off.png",
+      "rect_xywh": [
+        545,
+        435,
+        255,
+        145
+      ],
+      "size_wh": [
+        255,
+        145
+      ],
+      "z": 40,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        12,
+        10,
+        231,
+        121
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        9,
+        232,
+        123
+      ],
+      "sha256": "b2635877c94d65d4a14c98e18da982cde726352afaa9c387347fc504126a7af6"
+    },
+    {
+      "id": "toggle_pressed_off",
+      "file": "assets/toggle_pressed_off.png",
+      "rect_xywh": [
+        545,
+        435,
+        255,
+        145
+      ],
+      "size_wh": [
+        255,
+        145
+      ],
+      "z": 40,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        12,
+        10,
+        231,
+        121
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        12,
+        9,
+        232,
+        123
+      ],
+      "sha256": "ad465fae24f3181c6e2bba9eebea5ab5a3a5e066bf3997218053b09e9ff4b09c"
+    },
+    {
+      "id": "language_button_blank_pressed",
+      "file": "assets/language_button_blank_pressed.png",
+      "rect_xywh": [
+        475,
+        1055,
+        327,
+        150
+      ],
+      "size_wh": [
+        327,
+        150
+      ],
+      "z": 40,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        10,
+        9,
+        305,
+        130
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        9,
+        9,
+        307,
+        131
+      ],
+      "sha256": "a0579dcda2815c3a58afe2be519fa6714d4fc16cc296f487f1a822633dec884f"
+    },
+    {
+      "id": "language_button_blank_disabled",
+      "file": "assets/language_button_blank_disabled.png",
+      "rect_xywh": [
+        475,
+        1055,
+        327,
+        150
+      ],
+      "size_wh": [
+        327,
+        150
+      ],
+      "z": 40,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        10,
+        9,
+        305,
+        130
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        9,
+        9,
+        307,
+        131
+      ],
+      "sha256": "83634c7c2babae9a3eb8e7b5280654022c444991b559b6cfa826bd08fc3b47da"
+    },
+    {
+      "id": "close_pressed",
+      "file": "assets/close_pressed.png",
+      "rect_xywh": [
+        737,
+        253,
+        150,
+        151
+      ],
+      "size_wh": [
+        150,
+        151
+      ],
+      "z": 60,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        10,
+        9,
+        129,
+        130
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        8,
+        9,
+        132,
+        130
+      ],
+      "sha256": "3eca725c31ef97a68f4d51f4b1e3f73c1e820e6171e84090d539472c678cac26"
+    },
+    {
+      "id": "close_disabled",
+      "file": "assets/close_disabled.png",
+      "rect_xywh": [
+        737,
+        253,
+        150,
+        151
+      ],
+      "size_wh": [
+        150,
+        151
+      ],
+      "z": 60,
+      "role": "imagegen state material registered to EXACT normal alpha; no geometry shift",
+      "alpha50_bbox_local_xywh": [
+        10,
+        9,
+        129,
+        130
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        8,
+        9,
+        132,
+        130
+      ],
+      "sha256": "c4224639637dcee8120ce2105d16d15eff8379550ddbf2ca2b4be7311ffa87e9"
+    },
+    {
+      "id": "close_cross",
+      "file": "assets/close_cross.png",
+      "rect_xywh": [
+        737,
+        253,
+        150,
+        151
+      ],
+      "size_wh": [
+        150,
+        151
+      ],
+      "z": 60,
+      "role": "optional source white X; prefer complete normal control, never double-render",
+      "alpha50_bbox_local_xywh": [
+        44,
+        40,
+        64,
+        65
+      ],
+      "alpha_nonzero_bbox_local_xywh": [
+        43,
+        39,
+        66,
+        67
+      ],
+      "sha256": "187e32da8e67a8a426a0e17f736efc4d912f2f9bb4925474c0fc08aab235a2a6"
+    }
+  ],
+  "frame_imagegen_repair_regions_xywh": [
+    [
+      96,
+      398,
+      724,
+      1044
+    ],
+    [
+      169,
+      270,
+      579,
+      119
+    ],
+    [
+      737,
+      270,
+      139,
+      137
+    ]
+  ],
+  "dynamic_language_value_slot_xywh": [
+    520,
+    1095,
+    199,
+    65
+  ],
+  "nine_slice_contract": "contracts/frame_geometry_and_nine_slice.json",
+  "layer_order": [
+    "host galaxy background",
+    "settings_frame_blank",
+    "five row_blank",
+    "row icons/static Chinese glyphs OR native English labels",
+    "three live toggle states",
+    "language blank control + live language value + arrow",
+    "guide arrow",
+    "title normal OR blank + native English title",
+    "close full control"
+  ],
+  "runtime_original_row_composites": "Optional static ON shortcuts only; canonical dynamic settings use separated row_blank + icon + label + state. Do not use whole original row to represent OFF.",
+  "approved_companions": "approved_companions/ contains only root-approved palette override manifest + small original + repaired highres display; no Settings composition changes.",
+  "version": "1.1"
+}

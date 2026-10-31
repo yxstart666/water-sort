@@ -6,6 +6,8 @@ signal energy_closed
 signal ui_clicked
 signal tutorial_requested
 signal ranking_return_to_game
+signal energy_ad_requested
+signal page_changed
 const Progress = preload("res://scripts/shell/campaign_progress.gd")
 const Typography = preload("res://scripts/ui_restore/typography.gd")
 const MENUS = "res://assets/ui_restore/menu_candidates_v1/"
@@ -70,6 +72,7 @@ func show_page(value: String) -> void:
 	energy_open = false
 	language_expanded = false
 	_refresh()
+	page_changed.emit()
 
 func _refresh() -> void:
 	if is_instance_valid(energy_header):
@@ -248,6 +251,7 @@ func _hit(parent: Node, id: String, r: Array, action: Callable, enabled: bool = 
 	button.z_index = 100
 	button.pressed.connect(func(): action.call(); ui_clicked.emit())
 	parent.add_child(button)
+	preload("res://scripts/ui_restore/touch_hit.gd").attach(button)
 	buttons[id] = button
 
 func _new_modal() -> Control:
@@ -312,6 +316,8 @@ func _unhandled_key_input(event: InputEvent) -> void:
 
 func update_energy(snapshot: Dictionary) -> void:
 	energy_state = {"current": snapshot.get("energy") if snapshot.get("energy") != null else "--", "capacity":snapshot.get("cap",30), "cost":5,"next_recovery_seconds":snapshot.get("next_recovery_seconds") if snapshot.get("next_recovery_seconds") != null else 0, "ok":snapshot.get("ok",true)}
+	energy_state.ad_available=bool(snapshot.get("ad_available",false))
+	energy_state.ad_retry_available=bool(snapshot.get("ad_retry_available",false))
 	if is_instance_valid(board):
 		for button in buttons.values():
 			if is_instance_valid(button) and button.button_pressed: return
@@ -325,8 +331,19 @@ func _draw_energy() -> void:
 	_new_modal()
 	var value: Variant = energy_state.get("current")
 	var full: bool = (value is int or value is float) and value == energy_state.get("capacity",30)
-	var spec: Dictionary = compositions[("energy_full_" if full else "energy_ad_unavailable_")+locale()].duplicate(true)
+	var setting: Variant=ProjectSettings.get_setting("development/mock_ads_enabled",false)
+	var available: bool=not full and (bool(energy_state.get("ad_available",false)) or bool(energy_state.get("ad_retry_available",false)))
+	var spec: Dictionary = compositions[("energy_full_" if full else ("energy_recovering_" if available else "energy_ad_unavailable_"))+locale()].duplicate(true)
+	if available:
+		for layer in spec.layers:
+			if str(layer.get("id","")).begins_with("energy_watch_ad_"):
+				# The old recovering composition names an undelivered blank PNG.
+				# Reuse the already-reviewed primary button at its natural aspect.
+				layer.file="res://assets/art_review/night_state_supplement_v1/unpacked/STATIC_NIGHT_STATE_SUPPLEMENT_v1/assets/button_primary_610x128.png"
+				layer.top_left_px=[165,1020]
 	for field in spec.labels:
+		if field.id=="ad_cta" and available and bool(energy_state.get("ad_retry_available",false)):
+			field.text="重试保存" if locale()=="zh" else "Retry saving"
 		if field.id == "title" and not full:
 			var current: Variant = energy_state.get("current")
 			if not (current is int or current is float): field.text = "体力不可用" if locale()=="zh" else "Energy Unavailable"
@@ -336,6 +353,11 @@ func _draw_energy() -> void:
 			var seconds := int(energy_state.get("next_recovery_seconds",0))
 			field.text = "%02d:%02d" % [seconds/60,seconds%60]
 	_compose(modal,spec)
+	if available:
+		for layer in spec.layers:
+			if str(layer.get("id","")).begins_with("energy_watch_ad_"):
+				var art_size: Vector2=_texture(layer.file).get_size()
+				_hit(modal,"energy_watch_ad",[layer.top_left_px[0],layer.top_left_px[1],art_size.x,art_size.y],func(): energy_ad_requested.emit())
 	var close := func():
 		energy_open = false
 		if energy_only: energy_closed.emit()

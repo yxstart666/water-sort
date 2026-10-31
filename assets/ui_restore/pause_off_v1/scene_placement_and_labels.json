@@ -1,0 +1,600 @@
+{
+  "reference_canvas_px": [
+    941,
+    1672
+  ],
+  "locales": {
+    "zh": {
+      "layers": [
+        {
+          "id": "modal_empty_base_728x985_fixed_art",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_empty_base_728x985_fixed_art.png",
+          "top_left_px": [
+            107,
+            381
+          ],
+          "native_size_px": [
+            728,
+            985
+          ],
+          "z": 20,
+          "blend": "normal_source_over"
+        },
+        {
+          "id": "modal_title_zh",
+          "asset_id": "modal_title_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_title_zh.png",
+          "top_left_px": [
+            248,
+            312
+          ],
+          "native_size_px": [
+            447,
+            142
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_resume_zh",
+          "asset_id": "modal_resume_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_resume_zh.png",
+          "top_left_px": [
+            164,
+            883
+          ],
+          "native_size_px": [
+            613,
+            152
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_restart_zh",
+          "asset_id": "modal_restart_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_restart_zh.png",
+          "top_left_px": [
+            162,
+            1048
+          ],
+          "native_size_px": [
+            618,
+            116
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_home_zh",
+          "asset_id": "modal_home_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_home_zh.png",
+          "top_left_px": [
+            162,
+            1170
+          ],
+          "native_size_px": [
+            618,
+            115
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_close",
+          "asset_id": "modal_close",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_close.png",
+          "top_left_px": [
+            731,
+            395
+          ],
+          "native_size_px": [
+            93,
+            94
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_icon_music",
+          "asset_id": "modal_icon_music",
+          "file": "assets/pause_icon_music_off.png",
+          "top_left_px": [
+            198,
+            502
+          ],
+          "native_size_px": [
+            78,
+            83
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_icon_speaker",
+          "asset_id": "modal_icon_speaker",
+          "file": "assets/pause_icon_sound_off.png",
+          "top_left_px": [
+            193,
+            623
+          ],
+          "native_size_px": [
+            89,
+            77
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_icon_globe",
+          "asset_id": "modal_icon_globe",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_icon_globe.png",
+          "top_left_px": [
+            193,
+            736
+          ],
+          "native_size_px": [
+            84,
+            85
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_switch_off_zh",
+          "asset_id": "modal_switch_on_zh",
+          "file": "assets/pause_switch_off_empty_205x84.png",
+          "top_left_px": [
+            545,
+            503
+          ],
+          "native_size_px": [
+            205,
+            84
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_switch_off_zh_reused_for_sound",
+          "asset_id": "modal_switch_on_zh",
+          "file": "assets/pause_switch_off_empty_205x84.png",
+          "top_left_px": [
+            545,
+            621
+          ],
+          "native_size_px": [
+            205,
+            84
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+        },
+        {
+          "id": "modal_language_dropdown_zh",
+          "asset_id": "modal_language_dropdown_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_language_dropdown_zh.png",
+          "top_left_px": [
+            471,
+            741
+          ],
+          "native_size_px": [
+            289,
+            84
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_text_music_zh",
+          "asset_id": "modal_text_music_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_music_zh.png",
+          "top_left_px": [
+            315,
+            520
+          ],
+          "native_size_px": [
+            93,
+            50
+          ],
+          "z": 40,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "background_restriction": "Only fixed cream base at this original position."
+        },
+        {
+          "id": "modal_text_sound_zh",
+          "asset_id": "modal_text_sound_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_sound_zh.png",
+          "top_left_px": [
+            315,
+            639
+          ],
+          "native_size_px": [
+            93,
+            49
+          ],
+          "z": 40,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "background_restriction": "Only fixed cream base at this original position."
+        },
+        {
+          "id": "modal_text_language_zh",
+          "asset_id": "modal_text_language_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_language_zh.png",
+          "top_left_px": [
+            315,
+            756
+          ],
+          "native_size_px": [
+            93,
+            50
+          ],
+          "z": 40,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "background_restriction": "Only fixed cream base at this original position."
+        },
+        {
+          "id": "modal_text_footer_zh",
+          "asset_id": "modal_text_footer_zh",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_footer_zh.png",
+          "top_left_px": [
+            376,
+            1305
+          ],
+          "native_size_px": [
+            188,
+            31
+          ],
+          "z": 40,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "background_restriction": "Only fixed cream base at this original position."
+        }
+      ],
+      "labels": [
+        {
+          "id": "music_state",
+          "text": "关",
+          "rect_px": [
+            636,
+            516,
+            91,
+            58
+          ],
+          "font_family": "Noto Sans CJK SC Bold",
+          "font_px": 49,
+          "color": "#FFFFFF",
+          "align": "center",
+          "source_font_claim": "Explicit derived OFF art specification, not original font identification."
+        },
+        {
+          "id": "sound_state",
+          "text": "关",
+          "rect_px": [
+            636,
+            634,
+            91,
+            58
+          ],
+          "font_family": "Noto Sans CJK SC Bold",
+          "font_px": 49,
+          "color": "#FFFFFF",
+          "align": "center",
+          "source_font_claim": "Explicit derived OFF art specification, not original font identification."
+        }
+      ]
+    },
+    "en": {
+      "layers": [
+        {
+          "id": "modal_empty_base_728x985_fixed_art",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_empty_base_728x985_fixed_art.png",
+          "top_left_px": [
+            107,
+            381
+          ],
+          "native_size_px": [
+            728,
+            985
+          ],
+          "z": 20,
+          "blend": "normal_source_over"
+        },
+        {
+          "id": "modal_title_en",
+          "asset_id": "modal_title_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_title_en.png",
+          "top_left_px": [
+            248,
+            312
+          ],
+          "native_size_px": [
+            447,
+            142
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_resume_en",
+          "asset_id": "modal_resume_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_resume_en.png",
+          "top_left_px": [
+            164,
+            883
+          ],
+          "native_size_px": [
+            613,
+            152
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_restart_en",
+          "asset_id": "modal_restart_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_restart_en.png",
+          "top_left_px": [
+            162,
+            1048
+          ],
+          "native_size_px": [
+            618,
+            116
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_home_en",
+          "asset_id": "modal_home_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_home_en.png",
+          "top_left_px": [
+            162,
+            1170
+          ],
+          "native_size_px": [
+            618,
+            115
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_close",
+          "asset_id": "modal_close",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_close.png",
+          "top_left_px": [
+            731,
+            395
+          ],
+          "native_size_px": [
+            93,
+            94
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_icon_music",
+          "asset_id": "modal_icon_music",
+          "file": "assets/pause_icon_music_off.png",
+          "top_left_px": [
+            198,
+            502
+          ],
+          "native_size_px": [
+            78,
+            83
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_icon_speaker",
+          "asset_id": "modal_icon_speaker",
+          "file": "assets/pause_icon_sound_off.png",
+          "top_left_px": [
+            193,
+            623
+          ],
+          "native_size_px": [
+            89,
+            77
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_icon_globe",
+          "asset_id": "modal_icon_globe",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_icon_globe.png",
+          "top_left_px": [
+            193,
+            736
+          ],
+          "native_size_px": [
+            84,
+            85
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_switch_off_en",
+          "asset_id": "modal_switch_on_en",
+          "file": "assets/pause_switch_off_empty_205x84.png",
+          "top_left_px": [
+            545,
+            503
+          ],
+          "native_size_px": [
+            205,
+            84
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_switch_off_en_reused_for_sound",
+          "asset_id": "modal_switch_on_en",
+          "file": "assets/pause_switch_off_empty_205x84.png",
+          "top_left_px": [
+            545,
+            621
+          ],
+          "native_size_px": [
+            205,
+            84
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "limitation": "Approved Music ON sprite translated +118 y; not separate source Sound-row pixels."
+        },
+        {
+          "id": "modal_language_dropdown_en",
+          "asset_id": "modal_language_dropdown_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_language_dropdown_en.png",
+          "top_left_px": [
+            505,
+            741
+          ],
+          "native_size_px": [
+            255,
+            84
+          ],
+          "z": 30,
+          "blend": "normal_source_over",
+          "state": "normal"
+        },
+        {
+          "id": "modal_text_music_en",
+          "asset_id": "modal_text_music_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_music_en.png",
+          "top_left_px": [
+            308,
+            524
+          ],
+          "native_size_px": [
+            125,
+            41
+          ],
+          "z": 40,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "background_restriction": "Only fixed cream base at this original position."
+        },
+        {
+          "id": "modal_text_sound_en",
+          "asset_id": "modal_text_sound_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_sound_en.png",
+          "top_left_px": [
+            308,
+            643
+          ],
+          "native_size_px": [
+            133,
+            40
+          ],
+          "z": 40,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "background_restriction": "Only fixed cream base at this original position."
+        },
+        {
+          "id": "modal_text_language_en",
+          "asset_id": "modal_text_language_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_language_en.png",
+          "top_left_px": [
+            307,
+            762
+          ],
+          "native_size_px": [
+            178,
+            45
+          ],
+          "z": 40,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "background_restriction": "Only fixed cream base at this original position."
+        },
+        {
+          "id": "modal_text_footer_en",
+          "asset_id": "modal_text_footer_en",
+          "file": "reuse://rainbow_cargo_approved_modal_pixels_preview_v3/assets/modal_text_footer_en.png",
+          "top_left_px": [
+            378,
+            1304
+          ],
+          "native_size_px": [
+            185,
+            35
+          ],
+          "z": 40,
+          "blend": "normal_source_over",
+          "state": "normal",
+          "background_restriction": "Only fixed cream base at this original position."
+        }
+      ],
+      "labels": [
+        {
+          "id": "music_state",
+          "text": "OFF",
+          "rect_px": [
+            636,
+            516,
+            91,
+            58
+          ],
+          "font_family": "Noto Sans Bold",
+          "font_px": 40,
+          "color": "#FFFFFF",
+          "align": "center",
+          "source_font_claim": "Explicit derived OFF art specification, not original font identification."
+        },
+        {
+          "id": "sound_state",
+          "text": "OFF",
+          "rect_px": [
+            636,
+            634,
+            91,
+            58
+          ],
+          "font_family": "Noto Sans Bold",
+          "font_px": 40,
+          "color": "#FFFFFF",
+          "align": "center",
+          "source_font_claim": "Explicit derived OFF art specification, not original font identification."
+        }
+      ]
+    }
+  },
+  "mixed_state_rule": "Each row independently selects existing ON or new OFF icon/track/label; no coupled toggling.",
+  "fonts": "Same root-selected Noto families as other new labels; exact original ON source font remains unknown."
+}

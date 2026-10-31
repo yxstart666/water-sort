@@ -1,0 +1,1801 @@
+{
+  "pages": [
+    {
+      "locale": "zh-CN",
+      "viewport": [
+        320,
+        570
+      ],
+      "layers": [
+        {
+          "id": "settings",
+          "source": "runtime/home/button_settings_zh_normal.webp",
+          "rectDp": [
+            260.1025641025641,
+            9.025641025641026,
+            50.87179487179487,
+            51.24043106651802
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "settings"
+        },
+        {
+          "id": "main_base",
+          "source": "runtime/home/button_start_blank_generated_normal.webp",
+          "rectDp": [
+            41.092896174863384,
+            375.79487179487177,
+            237.81420765027323,
+            77.6120582531339
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "start_or_continue"
+        },
+        {
+          "id": "main_label",
+          "source": "runtime/home/label_start_zh-CN.webp",
+          "rectDp": [
+            78.1639344262295,
+            384.88776796973514,
+            163.672131147541,
+            45.114754098360656
+          ],
+          "maxboxDp": [
+            78.1639344262295,
+            384.88776796973514,
+            163.672131147541,
+            45.114754098360656
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            67.19999999999999,
+            470.97435897435895,
+            89.60000000000001,
+            81.94109165808446
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "levels"
+        },
+        {
+          "id": "levels_icon",
+          "source": "runtime/home/icon_levels.webp",
+          "rectDp": [
+            95.58974358974359,
+            479.34078457155374,
+            32.82051282051282,
+            30.856892395353928
+          ],
+          "maxboxDp": [
+            95.58974358974359,
+            478.3589743589743,
+            32.82051282051282,
+            32.82051282051282
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_label",
+          "source": "runtime/home/label_levels_zh-CN.webp",
+          "rectDp": [
+            93.22555410691004,
+            521.025641025641,
+            37.54889178617992,
+            22.153846153846153
+          ],
+          "maxboxDp": [
+            79.17948717948718,
+            521.025641025641,
+            65.64102564102564,
+            22.153846153846153
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            163.2,
+            470.97435897435895,
+            89.60000000000001,
+            81.94109165808446
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "game_records"
+        },
+        {
+          "id": "game_records_icon",
+          "source": "runtime/home/icon_records.webp",
+          "rectDp": [
+            196.40645773979108,
+            475.07692307692304,
+            23.18708452041785,
+            28.717948717948715
+          ],
+          "maxboxDp": [
+            193.64102564102564,
+            475.07692307692304,
+            28.717948717948715,
+            28.717948717948715
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_label",
+          "source": "runtime/home/label_game_records_zh-CN.webp",
+          "rectDp": [
+            175.17948717948718,
+            522.0785651130478,
+            65.64102564102564,
+            20.04799797903246
+          ],
+          "maxboxDp": [
+            175.17948717948718,
+            521.025641025641,
+            65.64102564102564,
+            22.153846153846153
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        }
+      ],
+      "defaultEntryRoles": [
+        "start_or_continue",
+        "levels",
+        "game_records",
+        "settings",
+        "stamina"
+      ],
+      "mainState": {
+        "noActiveRunText": "开始游戏",
+        "activeRunText": "继续游戏",
+        "activeRunTexture": "runtime/controls/labels/continue_zh-CN.webp",
+        "maxboxDp": [
+          78.1639344262295,
+          384.88776796973514,
+          163.672131147541,
+          45.114754098360656
+        ],
+        "binding": "real active-run state, no separate new route"
+      },
+      "hostControls": [
+        {
+          "id": "stamina",
+          "kind": "preserve_host_control",
+          "regionDp": [
+            16,
+            20,
+            112,
+            44
+          ],
+          "valueRectDp": [
+            16,
+            20,
+            68,
+            44
+          ],
+          "plusHitRectDp": [
+            84,
+            20,
+            44,
+            44
+          ],
+          "binding": "real stamina state/add action",
+          "art": "existing host, no substitute supplied",
+          "minimumPlusHitbox": 44
+        }
+      ],
+      "dynamicContainers": [
+        {
+          "key": "current_level",
+          "rectDp": [
+            125.51693989071038,
+            430.74420903809056,
+            68.96612021857923,
+            13.9701704855641
+          ],
+          "binding": "actual current level",
+          "format": "第{n}关",
+          "font": "runtime/fonts/LXGW975YuanSC-700W.ttf",
+          "fontSizeDp": 10.666666666666666,
+          "minimumFontDp": 11,
+          "candidateMaterial": {
+            "face": "#FFFFFF",
+            "outline": "#A65400",
+            "outlineWidthDp": 0.9846153846153846
+          },
+          "noBakedSampleValue": true
+        }
+      ],
+      "hitTargets": [
+        {
+          "id": "settings",
+          "rectDp": [
+            260.1025641025641,
+            9.025641025641026,
+            50.87179487179487,
+            51.24043106651802
+          ]
+        },
+        {
+          "id": "start_or_continue",
+          "rectDp": [
+            41.092896174863384,
+            375.79487179487177,
+            237.81420765027323,
+            77.6120582531339
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            67.19999999999999,
+            470.97435897435895,
+            89.60000000000001,
+            81.94109165808446
+          ]
+        },
+        {
+          "id": "game_records",
+          "rectDp": [
+            163.2,
+            470.97435897435895,
+            89.60000000000001,
+            81.94109165808446
+          ]
+        },
+        {
+          "id": "stamina",
+          "rectDp": [
+            84,
+            20,
+            44,
+            44
+          ]
+        }
+      ],
+      "preserveHostArt": [
+        "existing approved game title",
+        "approved app icon/frame",
+        "existing scene backdrop",
+        "existing stamina artwork"
+      ],
+      "excludedHomeRoutes": [
+        "global leaderboard (inside records tab)",
+        "how-to (inside settings)"
+      ],
+      "runtimeDependencies": [
+        "runtime/fonts/LXGW975YuanSC-700W.ttf",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/home/button_settings_zh_normal.webp",
+        "runtime/home/button_start_blank_generated_normal.webp",
+        "runtime/home/icon_levels.webp",
+        "runtime/home/icon_records.webp",
+        "runtime/controls/labels/continue_zh-CN.webp",
+        "runtime/home/label_game_records_zh-CN.webp",
+        "runtime/home/label_levels_zh-CN.webp",
+        "runtime/home/label_start_zh-CN.webp"
+      ],
+      "engineTests": "NOT_RUN",
+      "approvalScope": "base visual family approved; home derived layout and English labels remain candidates"
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        320,
+        570
+      ],
+      "layers": [
+        {
+          "id": "settings",
+          "source": "runtime/home/button_settings_zh_normal.webp",
+          "rectDp": [
+            260.1025641025641,
+            9.025641025641026,
+            50.87179487179487,
+            51.24043106651802
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "settings"
+        },
+        {
+          "id": "main_base",
+          "source": "runtime/home/button_start_blank_generated_normal.webp",
+          "rectDp": [
+            41.092896174863384,
+            375.79487179487177,
+            237.81420765027323,
+            77.6120582531339
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "start_or_continue"
+        },
+        {
+          "id": "main_label",
+          "source": "runtime/english_art_labels/labels/start_playing_en.webp",
+          "rectDp": [
+            78.1639344262295,
+            390.88171002619885,
+            163.672131147541,
+            33.126869985433196
+          ],
+          "maxboxDp": [
+            78.1639344262295,
+            384.88776796973514,
+            163.672131147541,
+            45.114754098360656
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            67.19999999999999,
+            470.97435897435895,
+            89.60000000000001,
+            81.94109165808446
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "levels"
+        },
+        {
+          "id": "levels_icon",
+          "source": "runtime/home/icon_levels.webp",
+          "rectDp": [
+            95.58974358974359,
+            479.34078457155374,
+            32.82051282051282,
+            30.856892395353928
+          ],
+          "maxboxDp": [
+            95.58974358974359,
+            478.3589743589743,
+            32.82051282051282,
+            32.82051282051282
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_label",
+          "source": "runtime/english_art_labels/labels/levels_en.webp",
+          "rectDp": [
+            79.17948717948718,
+            521.8758825715347,
+            65.64102564102564,
+            20.453363062058713
+          ],
+          "maxboxDp": [
+            79.17948717948718,
+            521.025641025641,
+            65.64102564102564,
+            22.153846153846153
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            163.2,
+            470.97435897435895,
+            89.60000000000001,
+            81.94109165808446
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "game_records"
+        },
+        {
+          "id": "game_records_icon",
+          "source": "runtime/home/icon_records.webp",
+          "rectDp": [
+            196.40645773979108,
+            475.07692307692304,
+            23.18708452041785,
+            28.717948717948715
+          ],
+          "maxboxDp": [
+            193.64102564102564,
+            475.07692307692304,
+            28.717948717948715,
+            28.717948717948715
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_label",
+          "source": "runtime/english_art_labels/labels/game_records_en_2line.webp",
+          "rectDp": [
+            177.1012145748988,
+            505.4358974358974,
+            61.797570850202426,
+            36.0
+          ],
+          "maxboxDp": [
+            175.17948717948718,
+            505.4358974358974,
+            65.64102564102564,
+            36
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        }
+      ],
+      "defaultEntryRoles": [
+        "start_or_continue",
+        "levels",
+        "game_records",
+        "settings",
+        "stamina"
+      ],
+      "mainState": {
+        "noActiveRunText": "Start playing",
+        "activeRunText": "Continue",
+        "activeRunTexture": "runtime/english_art_labels/labels/continue_en.webp",
+        "maxboxDp": [
+          78.1639344262295,
+          384.88776796973514,
+          163.672131147541,
+          45.114754098360656
+        ],
+        "binding": "real active-run state, no separate new route"
+      },
+      "hostControls": [
+        {
+          "id": "stamina",
+          "kind": "preserve_host_control",
+          "regionDp": [
+            16,
+            20,
+            112,
+            44
+          ],
+          "valueRectDp": [
+            16,
+            20,
+            68,
+            44
+          ],
+          "plusHitRectDp": [
+            84,
+            20,
+            44,
+            44
+          ],
+          "binding": "real stamina state/add action",
+          "art": "existing host, no substitute supplied",
+          "minimumPlusHitbox": 44
+        }
+      ],
+      "dynamicContainers": [
+        {
+          "key": "current_level",
+          "rectDp": [
+            125.51693989071038,
+            430.74420903809056,
+            68.96612021857923,
+            13.9701704855641
+          ],
+          "binding": "actual current level",
+          "format": "Level {n}",
+          "font": "runtime/fonts/LXGW975YuanSC-700W.ttf",
+          "fontSizeDp": 10.666666666666666,
+          "minimumFontDp": 11,
+          "candidateMaterial": {
+            "face": "#FFFFFF",
+            "outline": "#A65400",
+            "outlineWidthDp": 0.9846153846153846
+          },
+          "noBakedSampleValue": true
+        }
+      ],
+      "hitTargets": [
+        {
+          "id": "settings",
+          "rectDp": [
+            260.1025641025641,
+            9.025641025641026,
+            50.87179487179487,
+            51.24043106651802
+          ]
+        },
+        {
+          "id": "start_or_continue",
+          "rectDp": [
+            41.092896174863384,
+            375.79487179487177,
+            237.81420765027323,
+            77.6120582531339
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            67.19999999999999,
+            470.97435897435895,
+            89.60000000000001,
+            81.94109165808446
+          ]
+        },
+        {
+          "id": "game_records",
+          "rectDp": [
+            163.2,
+            470.97435897435895,
+            89.60000000000001,
+            81.94109165808446
+          ]
+        },
+        {
+          "id": "stamina",
+          "rectDp": [
+            84,
+            20,
+            44,
+            44
+          ]
+        }
+      ],
+      "preserveHostArt": [
+        "existing approved game title",
+        "approved app icon/frame",
+        "existing scene backdrop",
+        "existing stamina artwork"
+      ],
+      "excludedHomeRoutes": [
+        "global leaderboard (inside records tab)",
+        "how-to (inside settings)"
+      ],
+      "runtimeDependencies": [
+        "runtime/english_art_labels/labels/continue_en.webp",
+        "runtime/english_art_labels/labels/game_records_en_2line.webp",
+        "runtime/english_art_labels/labels/levels_en.webp",
+        "runtime/english_art_labels/labels/start_playing_en.webp",
+        "runtime/fonts/LXGW975YuanSC-700W.ttf",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/home/button_settings_zh_normal.webp",
+        "runtime/home/button_start_blank_generated_normal.webp",
+        "runtime/home/icon_levels.webp",
+        "runtime/home/icon_records.webp"
+      ],
+      "engineTests": "NOT_RUN",
+      "approvalScope": "base visual family approved; home derived layout and English labels remain candidates"
+    },
+    {
+      "locale": "zh-CN",
+      "viewport": [
+        390,
+        695
+      ],
+      "layers": [
+        {
+          "id": "settings",
+          "source": "runtime/home/button_settings_zh_normal.webp",
+          "rectDp": [
+            317.0,
+            11.0,
+            62.0,
+            62.44927536231884
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "settings"
+        },
+        {
+          "id": "main_base",
+          "source": "runtime/home/button_start_blank_generated_normal.webp",
+          "rectDp": [
+            50.08196721311475,
+            458.0,
+            289.8360655737705,
+            94.58969599600692
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "start_or_continue"
+        },
+        {
+          "id": "main_label",
+          "source": "runtime/home/label_start_zh-CN.webp",
+          "rectDp": [
+            95.26229508196722,
+            469.08196721311475,
+            199.47540983606555,
+            54.983606557377044
+          ],
+          "maxboxDp": [
+            95.26229508196722,
+            469.08196721311475,
+            199.47540983606555,
+            54.983606557377044
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            81.89999999999999,
+            574.0,
+            109.20000000000002,
+            99.86570545829044
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "levels"
+        },
+        {
+          "id": "levels_icon",
+          "source": "runtime/home/icon_levels.webp",
+          "rectDp": [
+            116.5,
+            584.1965811965812,
+            40.0,
+            37.60683760683761
+          ],
+          "maxboxDp": [
+            116.5,
+            583.0,
+            40.0,
+            40.0
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_label",
+          "source": "runtime/home/label_levels_zh-CN.webp",
+          "rectDp": [
+            113.61864406779661,
+            635.0,
+            45.76271186440678,
+            27.0
+          ],
+          "maxboxDp": [
+            96.5,
+            635.0,
+            80.0,
+            27.0
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            198.89999999999998,
+            574.0,
+            109.20000000000002,
+            99.86570545829044
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "game_records"
+        },
+        {
+          "id": "game_records_icon",
+          "source": "runtime/home/icon_records.webp",
+          "rectDp": [
+            239.37037037037038,
+            579.0,
+            28.259259259259256,
+            35.0
+          ],
+          "maxboxDp": [
+            236.0,
+            579.0,
+            35.0,
+            35.0
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_label",
+          "source": "runtime/home/label_game_records_zh-CN.webp",
+          "rectDp": [
+            213.5,
+            636.2832512315271,
+            80.0,
+            24.433497536945815
+          ],
+          "maxboxDp": [
+            213.5,
+            635.0,
+            80.0,
+            27.0
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        }
+      ],
+      "defaultEntryRoles": [
+        "start_or_continue",
+        "levels",
+        "game_records",
+        "settings",
+        "stamina"
+      ],
+      "mainState": {
+        "noActiveRunText": "开始游戏",
+        "activeRunText": "继续游戏",
+        "activeRunTexture": "runtime/controls/labels/continue_zh-CN.webp",
+        "maxboxDp": [
+          95.26229508196722,
+          469.08196721311475,
+          199.47540983606555,
+          54.983606557377044
+        ],
+        "binding": "real active-run state, no separate new route"
+      },
+      "hostControls": [
+        {
+          "id": "stamina",
+          "kind": "preserve_host_control",
+          "regionDp": [
+            16,
+            20,
+            112,
+            44
+          ],
+          "valueRectDp": [
+            16,
+            20,
+            68,
+            44
+          ],
+          "plusHitRectDp": [
+            84,
+            20,
+            44,
+            44
+          ],
+          "binding": "real stamina state/add action",
+          "art": "existing host, no substitute supplied",
+          "minimumPlusHitbox": 44
+        }
+      ],
+      "dynamicContainers": [
+        {
+          "key": "current_level",
+          "rectDp": [
+            152.9737704918033,
+            524.9695047651729,
+            84.05245901639344,
+            17.026145279281245
+          ],
+          "binding": "actual current level",
+          "format": "第{n}关",
+          "font": "runtime/fonts/LXGW975YuanSC-700W.ttf",
+          "fontSizeDp": 13.0,
+          "minimumFontDp": 11,
+          "candidateMaterial": {
+            "face": "#FFFFFF",
+            "outline": "#A65400",
+            "outlineWidthDp": 1.2
+          },
+          "noBakedSampleValue": true
+        }
+      ],
+      "hitTargets": [
+        {
+          "id": "settings",
+          "rectDp": [
+            317.0,
+            11.0,
+            62.0,
+            62.44927536231884
+          ]
+        },
+        {
+          "id": "start_or_continue",
+          "rectDp": [
+            50.08196721311475,
+            458.0,
+            289.8360655737705,
+            94.58969599600692
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            81.89999999999999,
+            574.0,
+            109.20000000000002,
+            99.86570545829044
+          ]
+        },
+        {
+          "id": "game_records",
+          "rectDp": [
+            198.89999999999998,
+            574.0,
+            109.20000000000002,
+            99.86570545829044
+          ]
+        },
+        {
+          "id": "stamina",
+          "rectDp": [
+            84,
+            20,
+            44,
+            44
+          ]
+        }
+      ],
+      "preserveHostArt": [
+        "existing approved game title",
+        "approved app icon/frame",
+        "existing scene backdrop",
+        "existing stamina artwork"
+      ],
+      "excludedHomeRoutes": [
+        "global leaderboard (inside records tab)",
+        "how-to (inside settings)"
+      ],
+      "runtimeDependencies": [
+        "runtime/fonts/LXGW975YuanSC-700W.ttf",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/home/button_settings_zh_normal.webp",
+        "runtime/home/button_start_blank_generated_normal.webp",
+        "runtime/home/icon_levels.webp",
+        "runtime/home/icon_records.webp",
+        "runtime/controls/labels/continue_zh-CN.webp",
+        "runtime/home/label_game_records_zh-CN.webp",
+        "runtime/home/label_levels_zh-CN.webp",
+        "runtime/home/label_start_zh-CN.webp"
+      ],
+      "engineTests": "NOT_RUN",
+      "approvalScope": "base visual family approved; home derived layout and English labels remain candidates"
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        390,
+        695
+      ],
+      "layers": [
+        {
+          "id": "settings",
+          "source": "runtime/home/button_settings_zh_normal.webp",
+          "rectDp": [
+            317.0,
+            11.0,
+            62.0,
+            62.44927536231884
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "settings"
+        },
+        {
+          "id": "main_base",
+          "source": "runtime/home/button_start_blank_generated_normal.webp",
+          "rectDp": [
+            50.08196721311475,
+            458.0,
+            289.8360655737705,
+            94.58969599600692
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "start_or_continue"
+        },
+        {
+          "id": "main_label",
+          "source": "runtime/english_art_labels/labels/start_playing_en.webp",
+          "rectDp": [
+            95.26229508196722,
+            476.38708409442995,
+            199.47540983606555,
+            40.37337279474669
+          ],
+          "maxboxDp": [
+            95.26229508196722,
+            469.08196721311475,
+            199.47540983606555,
+            54.983606557377044
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            81.89999999999999,
+            574.0,
+            109.20000000000002,
+            99.86570545829044
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "levels"
+        },
+        {
+          "id": "levels_icon",
+          "source": "runtime/home/icon_levels.webp",
+          "rectDp": [
+            116.5,
+            584.1965811965812,
+            40.0,
+            37.60683760683761
+          ],
+          "maxboxDp": [
+            116.5,
+            583.0,
+            40.0,
+            40.0
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_label",
+          "source": "runtime/english_art_labels/labels/levels_en.webp",
+          "rectDp": [
+            96.5,
+            636.036231884058,
+            80.0,
+            24.92753623188406
+          ],
+          "maxboxDp": [
+            96.5,
+            635.0,
+            80.0,
+            27.0
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            198.89999999999998,
+            574.0,
+            109.20000000000002,
+            99.86570545829044
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "game_records"
+        },
+        {
+          "id": "game_records_icon",
+          "source": "runtime/home/icon_records.webp",
+          "rectDp": [
+            239.37037037037038,
+            579.0,
+            28.259259259259256,
+            35.0
+          ],
+          "maxboxDp": [
+            236.0,
+            579.0,
+            35.0,
+            35.0
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_label",
+          "source": "runtime/english_art_labels/labels/game_records_en_2line.webp",
+          "rectDp": [
+            217.45141700404858,
+            616.0,
+            72.09716599190283,
+            42.0
+          ],
+          "maxboxDp": [
+            213.5,
+            616.0,
+            80.0,
+            42
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        }
+      ],
+      "defaultEntryRoles": [
+        "start_or_continue",
+        "levels",
+        "game_records",
+        "settings",
+        "stamina"
+      ],
+      "mainState": {
+        "noActiveRunText": "Start playing",
+        "activeRunText": "Continue",
+        "activeRunTexture": "runtime/english_art_labels/labels/continue_en.webp",
+        "maxboxDp": [
+          95.26229508196722,
+          469.08196721311475,
+          199.47540983606555,
+          54.983606557377044
+        ],
+        "binding": "real active-run state, no separate new route"
+      },
+      "hostControls": [
+        {
+          "id": "stamina",
+          "kind": "preserve_host_control",
+          "regionDp": [
+            16,
+            20,
+            112,
+            44
+          ],
+          "valueRectDp": [
+            16,
+            20,
+            68,
+            44
+          ],
+          "plusHitRectDp": [
+            84,
+            20,
+            44,
+            44
+          ],
+          "binding": "real stamina state/add action",
+          "art": "existing host, no substitute supplied",
+          "minimumPlusHitbox": 44
+        }
+      ],
+      "dynamicContainers": [
+        {
+          "key": "current_level",
+          "rectDp": [
+            152.9737704918033,
+            524.9695047651729,
+            84.05245901639344,
+            17.026145279281245
+          ],
+          "binding": "actual current level",
+          "format": "Level {n}",
+          "font": "runtime/fonts/LXGW975YuanSC-700W.ttf",
+          "fontSizeDp": 13.0,
+          "minimumFontDp": 11,
+          "candidateMaterial": {
+            "face": "#FFFFFF",
+            "outline": "#A65400",
+            "outlineWidthDp": 1.2
+          },
+          "noBakedSampleValue": true
+        }
+      ],
+      "hitTargets": [
+        {
+          "id": "settings",
+          "rectDp": [
+            317.0,
+            11.0,
+            62.0,
+            62.44927536231884
+          ]
+        },
+        {
+          "id": "start_or_continue",
+          "rectDp": [
+            50.08196721311475,
+            458.0,
+            289.8360655737705,
+            94.58969599600692
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            81.89999999999999,
+            574.0,
+            109.20000000000002,
+            99.86570545829044
+          ]
+        },
+        {
+          "id": "game_records",
+          "rectDp": [
+            198.89999999999998,
+            574.0,
+            109.20000000000002,
+            99.86570545829044
+          ]
+        },
+        {
+          "id": "stamina",
+          "rectDp": [
+            84,
+            20,
+            44,
+            44
+          ]
+        }
+      ],
+      "preserveHostArt": [
+        "existing approved game title",
+        "approved app icon/frame",
+        "existing scene backdrop",
+        "existing stamina artwork"
+      ],
+      "excludedHomeRoutes": [
+        "global leaderboard (inside records tab)",
+        "how-to (inside settings)"
+      ],
+      "runtimeDependencies": [
+        "runtime/english_art_labels/labels/continue_en.webp",
+        "runtime/english_art_labels/labels/game_records_en_2line.webp",
+        "runtime/english_art_labels/labels/levels_en.webp",
+        "runtime/english_art_labels/labels/start_playing_en.webp",
+        "runtime/fonts/LXGW975YuanSC-700W.ttf",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/home/button_settings_zh_normal.webp",
+        "runtime/home/button_start_blank_generated_normal.webp",
+        "runtime/home/icon_levels.webp",
+        "runtime/home/icon_records.webp"
+      ],
+      "engineTests": "NOT_RUN",
+      "approvalScope": "base visual family approved; home derived layout and English labels remain candidates"
+    },
+    {
+      "locale": "zh-CN",
+      "viewport": [
+        430,
+        766
+      ],
+      "layers": [
+        {
+          "id": "settings",
+          "source": "runtime/home/button_settings_zh_normal.webp",
+          "rectDp": [
+            349.5128205128205,
+            12.128205128205131,
+            68.35897435897436,
+            68.85432924563361
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "settings"
+        },
+        {
+          "id": "main_base",
+          "source": "runtime/home/button_start_blank_generated_normal.webp",
+          "rectDp": [
+            55.21857923497268,
+            504.974358974359,
+            319.56284153005464,
+            104.29120327764866
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "start_or_continue"
+        },
+        {
+          "id": "main_label",
+          "source": "runtime/home/label_start_zh-CN.webp",
+          "rectDp": [
+            105.0327868852459,
+            517.1929382093317,
+            219.9344262295082,
+            60.622950819672134
+          ],
+          "maxboxDp": [
+            105.0327868852459,
+            517.1929382093317,
+            219.9344262295082,
+            60.622950819672134
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            90.3,
+            632.8717948717949,
+            120.4,
+            110.10834191555098
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "levels"
+        },
+        {
+          "id": "levels_icon",
+          "source": "runtime/home/icon_levels.webp",
+          "rectDp": [
+            128.44871794871796,
+            644.1141792680255,
+            44.1025641025641,
+            41.463949156256845
+          ],
+          "maxboxDp": [
+            128.44871794871796,
+            642.7948717948718,
+            44.1025641025641,
+            44.1025641025641
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_label",
+          "source": "runtime/home/label_levels_zh-CN.webp",
+          "rectDp": [
+            125.27183833116035,
+            700.1282051282052,
+            50.45632333767928,
+            29.769230769230774
+          ],
+          "maxboxDp": [
+            106.3974358974359,
+            700.1282051282052,
+            88.2051282051282,
+            29.76923076923077
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            219.3,
+            632.8717948717949,
+            120.4,
+            110.10834191555098
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "game_records"
+        },
+        {
+          "id": "game_records_icon",
+          "source": "runtime/home/icon_records.webp",
+          "rectDp": [
+            263.9211775878442,
+            638.3846153846155,
+            31.157644824311493,
+            38.58974358974359
+          ],
+          "maxboxDp": [
+            260.2051282051282,
+            638.3846153846155,
+            38.58974358974359,
+            38.58974358974359
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_label",
+          "source": "runtime/home/label_game_records_zh-CN.webp",
+          "rectDp": [
+            235.3974358974359,
+            701.5430718706582,
+            88.2051282051282,
+            26.939497284324872
+          ],
+          "maxboxDp": [
+            235.3974358974359,
+            700.1282051282052,
+            88.2051282051282,
+            29.76923076923077
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        }
+      ],
+      "defaultEntryRoles": [
+        "start_or_continue",
+        "levels",
+        "game_records",
+        "settings",
+        "stamina"
+      ],
+      "mainState": {
+        "noActiveRunText": "开始游戏",
+        "activeRunText": "继续游戏",
+        "activeRunTexture": "runtime/controls/labels/continue_zh-CN.webp",
+        "maxboxDp": [
+          105.0327868852459,
+          517.1929382093317,
+          219.9344262295082,
+          60.622950819672134
+        ],
+        "binding": "real active-run state, no separate new route"
+      },
+      "hostControls": [
+        {
+          "id": "stamina",
+          "kind": "preserve_host_control",
+          "regionDp": [
+            16,
+            20,
+            112,
+            44
+          ],
+          "valueRectDp": [
+            16,
+            20,
+            68,
+            44
+          ],
+          "plusHitRectDp": [
+            84,
+            20,
+            44,
+            44
+          ],
+          "binding": "real stamina state/add action",
+          "art": "existing host, no substitute supplied",
+          "minimumPlusHitbox": 44
+        }
+      ],
+      "dynamicContainers": [
+        {
+          "key": "current_level",
+          "rectDp": [
+            168.66338797814205,
+            578.8125308949343,
+            92.67322404371583,
+            18.772416589976757
+          ],
+          "binding": "actual current level",
+          "format": "第{n}关",
+          "font": "runtime/fonts/LXGW975YuanSC-700W.ttf",
+          "fontSizeDp": 14.333333333333334,
+          "minimumFontDp": 11,
+          "candidateMaterial": {
+            "face": "#FFFFFF",
+            "outline": "#A65400",
+            "outlineWidthDp": 1.323076923076923
+          },
+          "noBakedSampleValue": true
+        }
+      ],
+      "hitTargets": [
+        {
+          "id": "settings",
+          "rectDp": [
+            349.5128205128205,
+            12.128205128205131,
+            68.35897435897436,
+            68.85432924563361
+          ]
+        },
+        {
+          "id": "start_or_continue",
+          "rectDp": [
+            55.21857923497268,
+            504.974358974359,
+            319.56284153005464,
+            104.29120327764866
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            90.3,
+            632.8717948717949,
+            120.4,
+            110.10834191555098
+          ]
+        },
+        {
+          "id": "game_records",
+          "rectDp": [
+            219.3,
+            632.8717948717949,
+            120.4,
+            110.10834191555098
+          ]
+        },
+        {
+          "id": "stamina",
+          "rectDp": [
+            84,
+            20,
+            44,
+            44
+          ]
+        }
+      ],
+      "preserveHostArt": [
+        "existing approved game title",
+        "approved app icon/frame",
+        "existing scene backdrop",
+        "existing stamina artwork"
+      ],
+      "excludedHomeRoutes": [
+        "global leaderboard (inside records tab)",
+        "how-to (inside settings)"
+      ],
+      "runtimeDependencies": [
+        "runtime/fonts/LXGW975YuanSC-700W.ttf",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/home/button_settings_zh_normal.webp",
+        "runtime/home/button_start_blank_generated_normal.webp",
+        "runtime/home/icon_levels.webp",
+        "runtime/home/icon_records.webp",
+        "runtime/controls/labels/continue_zh-CN.webp",
+        "runtime/home/label_game_records_zh-CN.webp",
+        "runtime/home/label_levels_zh-CN.webp",
+        "runtime/home/label_start_zh-CN.webp"
+      ],
+      "engineTests": "NOT_RUN",
+      "approvalScope": "base visual family approved; home derived layout and English labels remain candidates"
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        430,
+        766
+      ],
+      "layers": [
+        {
+          "id": "settings",
+          "source": "runtime/home/button_settings_zh_normal.webp",
+          "rectDp": [
+            349.5128205128205,
+            12.128205128205131,
+            68.35897435897436,
+            68.85432924563361
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "settings"
+        },
+        {
+          "id": "main_base",
+          "source": "runtime/home/button_start_blank_generated_normal.webp",
+          "rectDp": [
+            55.21857923497268,
+            504.974358974359,
+            319.56284153005464,
+            104.29120327764866
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "start_or_continue"
+        },
+        {
+          "id": "main_label",
+          "source": "runtime/english_art_labels/labels/start_playing_en.webp",
+          "rectDp": [
+            105.0327868852459,
+            525.2472978477049,
+            219.9344262295082,
+            44.51423154292585
+          ],
+          "maxboxDp": [
+            105.0327868852459,
+            517.1929382093317,
+            219.9344262295082,
+            60.622950819672134
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            90.3,
+            632.8717948717949,
+            120.4,
+            110.10834191555098
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "levels"
+        },
+        {
+          "id": "levels_icon",
+          "source": "runtime/home/icon_levels.webp",
+          "rectDp": [
+            128.44871794871796,
+            644.1141792680255,
+            44.1025641025641,
+            41.463949156256845
+          ],
+          "maxboxDp": [
+            128.44871794871796,
+            642.7948717948718,
+            44.1025641025641,
+            44.1025641025641
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "levels_label",
+          "source": "runtime/english_art_labels/labels/levels_en.webp",
+          "rectDp": [
+            106.3974358974359,
+            701.2707172054999,
+            88.2051282051282,
+            27.484206614641394
+          ],
+          "maxboxDp": [
+            106.3974358974359,
+            700.1282051282052,
+            88.2051282051282,
+            29.76923076923077
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_base",
+          "source": "runtime/sprites/blue_square_normal_clean.webp",
+          "rectDp": [
+            219.3,
+            632.8717948717949,
+            120.4,
+            110.10834191555098
+          ],
+          "maxboxDp": null,
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": "game_records"
+        },
+        {
+          "id": "game_records_icon",
+          "source": "runtime/home/icon_records.webp",
+          "rectDp": [
+            263.9211775878442,
+            638.3846153846155,
+            31.157644824311493,
+            38.58974358974359
+          ],
+          "maxboxDp": [
+            260.2051282051282,
+            638.3846153846155,
+            38.58974358974359,
+            38.58974358974359
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        },
+        {
+          "id": "game_records_label",
+          "source": "runtime/english_art_labels/labels/game_records_en_2line.webp",
+          "rectDp": [
+            240.0182186234818,
+            679.1794871794872,
+            78.96356275303644,
+            46.0
+          ],
+          "maxboxDp": [
+            235.3974358974359,
+            679.1794871794872,
+            88.2051282051282,
+            46
+          ],
+          "uniformScale": true,
+          "kind": "sprite",
+          "route": null
+        }
+      ],
+      "defaultEntryRoles": [
+        "start_or_continue",
+        "levels",
+        "game_records",
+        "settings",
+        "stamina"
+      ],
+      "mainState": {
+        "noActiveRunText": "Start playing",
+        "activeRunText": "Continue",
+        "activeRunTexture": "runtime/english_art_labels/labels/continue_en.webp",
+        "maxboxDp": [
+          105.0327868852459,
+          517.1929382093317,
+          219.9344262295082,
+          60.622950819672134
+        ],
+        "binding": "real active-run state, no separate new route"
+      },
+      "hostControls": [
+        {
+          "id": "stamina",
+          "kind": "preserve_host_control",
+          "regionDp": [
+            16,
+            20,
+            112,
+            44
+          ],
+          "valueRectDp": [
+            16,
+            20,
+            68,
+            44
+          ],
+          "plusHitRectDp": [
+            84,
+            20,
+            44,
+            44
+          ],
+          "binding": "real stamina state/add action",
+          "art": "existing host, no substitute supplied",
+          "minimumPlusHitbox": 44
+        }
+      ],
+      "dynamicContainers": [
+        {
+          "key": "current_level",
+          "rectDp": [
+            168.66338797814205,
+            578.8125308949343,
+            92.67322404371583,
+            18.772416589976757
+          ],
+          "binding": "actual current level",
+          "format": "Level {n}",
+          "font": "runtime/fonts/LXGW975YuanSC-700W.ttf",
+          "fontSizeDp": 14.333333333333334,
+          "minimumFontDp": 11,
+          "candidateMaterial": {
+            "face": "#FFFFFF",
+            "outline": "#A65400",
+            "outlineWidthDp": 1.323076923076923
+          },
+          "noBakedSampleValue": true
+        }
+      ],
+      "hitTargets": [
+        {
+          "id": "settings",
+          "rectDp": [
+            349.5128205128205,
+            12.128205128205131,
+            68.35897435897436,
+            68.85432924563361
+          ]
+        },
+        {
+          "id": "start_or_continue",
+          "rectDp": [
+            55.21857923497268,
+            504.974358974359,
+            319.56284153005464,
+            104.29120327764866
+          ]
+        },
+        {
+          "id": "levels",
+          "rectDp": [
+            90.3,
+            632.8717948717949,
+            120.4,
+            110.10834191555098
+          ]
+        },
+        {
+          "id": "game_records",
+          "rectDp": [
+            219.3,
+            632.8717948717949,
+            120.4,
+            110.10834191555098
+          ]
+        },
+        {
+          "id": "stamina",
+          "rectDp": [
+            84,
+            20,
+            44,
+            44
+          ]
+        }
+      ],
+      "preserveHostArt": [
+        "existing approved game title",
+        "approved app icon/frame",
+        "existing scene backdrop",
+        "existing stamina artwork"
+      ],
+      "excludedHomeRoutes": [
+        "global leaderboard (inside records tab)",
+        "how-to (inside settings)"
+      ],
+      "runtimeDependencies": [
+        "runtime/english_art_labels/labels/continue_en.webp",
+        "runtime/english_art_labels/labels/game_records_en_2line.webp",
+        "runtime/english_art_labels/labels/levels_en.webp",
+        "runtime/english_art_labels/labels/start_playing_en.webp",
+        "runtime/fonts/LXGW975YuanSC-700W.ttf",
+        "runtime/sprites/blue_square_normal_clean.webp",
+        "runtime/home/button_settings_zh_normal.webp",
+        "runtime/home/button_start_blank_generated_normal.webp",
+        "runtime/home/icon_levels.webp",
+        "runtime/home/icon_records.webp"
+      ],
+      "engineTests": "NOT_RUN",
+      "approvalScope": "base visual family approved; home derived layout and English labels remain candidates"
+    }
+  ],
+  "QA_background_note": "QA uses actual host screenshots for unchanged upper scene including existing title/bottles and captured stamina. Lower solid QA control field is not a replacement runtime background. Keep full original host scene backdrop untouched.",
+  "no_question_or_rankings_home_entry": true,
+  "source_vs_host_positions": "Anchors proposed for supplied actual route inventory; host runtime integration/geometry pending."
+}

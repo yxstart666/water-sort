@@ -1,0 +1,47 @@
+{
+  "zip_sha256": "0d0594f0412cbeb9722d69af91059e212e543f55e72aada99cdbbc9f34f001ba",
+  "zip_bytes": 635098,
+  "crc": "PASS",
+  "overlay_hashes_match_source_validation": true,
+  "source_before_match": true,
+  "base_source_fingerprint": "55dcb25c731a962330e34c6c3388b85d9c2b8e09464e051bc56eceab689377d2",
+  "production_changes": [
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_steps_zh-CN.png",
+      "before_sha256": "31860e6c18039479a7eda071f05f2c30eb403b3a21a2b5c59ae3f0d8b7f5c648",
+      "after_sha256": "9d34ad2c74bafb8aa61823b052f09ad95e28ac7fdf792ea6393d54c2abcc3e80",
+      "size": [
+        130,
+        74
+      ],
+      "rgb_exact": true,
+      "alpha_changed": true
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_time_zh-CN.png",
+      "before_sha256": "49a6ababfbe7324d0bfa1d830f9088d05f151461fb5f252beb544d70b469b25b",
+      "after_sha256": "2fda4df2db08ff95e30f60bfe1d5278eebe2f84634cd521dc7701f1b4ac26b1c",
+      "size": [
+        126,
+        74
+      ],
+      "rgb_exact": true,
+      "alpha_changed": true
+    },
+    {
+      "path": "assets/p2_ui/runtime/victory_window/label_next_zh-CN.png",
+      "before_sha256": "81359b7b83679e472de11443d87904d5ca545669efd2a20778d3d41a7a8d36dd",
+      "after_sha256": "9f74421dfa76c5373e516492db4f437aeebc803c60e527f6d6b544e40e945c2c",
+      "size": [
+        306,
+        120
+      ],
+      "rgb_exact": true,
+      "alpha_changed": true
+    }
+  ],
+  "native_visual": "NOT_RUN",
+  "accepted": false,
+  "runtime_code_changes": false,
+  "restored_dependencies_report": "RESTORED_RUNTIME_DEPENDENCIES.json"
+}

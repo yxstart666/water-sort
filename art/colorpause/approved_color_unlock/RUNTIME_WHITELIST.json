@@ -1,0 +1,46 @@
+{
+  "only_gameplay_textures": [
+    {
+      "file": "runtime/card_shell_reusable.png",
+      "sha256": "60fb7645dcb82efc03d78ff318dbf7750f29bf49e62624598713879ce04723c8"
+    },
+    {
+      "file": "runtime/target_blue_card_layer.png",
+      "sha256": "53793cc028e1f1f5dcd7e33c7082afdaf923363b84ad2e12af79d9c5a2b4c1ea"
+    },
+    {
+      "file": "runtime/target_cyan_card_layer.png",
+      "sha256": "bf85f6c89256b602c17ed28ac65beba5db88b7ae8d0f7aa473c7fd13b5bedca8"
+    },
+    {
+      "file": "runtime/target_green_card_layer.png",
+      "sha256": "9dff96711b5b2604b3437e8b23800b77840bf2821fadb60925a81afa5086eee7"
+    },
+    {
+      "file": "runtime/target_orange_card_layer.png",
+      "sha256": "786224177ddb0e6cbd6667acdd8cae2db6df71273f073764949379447ec5e416"
+    },
+    {
+      "file": "runtime/target_pink_card_layer.png",
+      "sha256": "6028d07c1b66876ef94a234b6f1051ddd34da7a239dc9ada8fcad606dabbbc6f"
+    },
+    {
+      "file": "runtime/target_purple_card_layer.png",
+      "sha256": "fc641f572f9a9fa7a0964bb9a43a2716be68343551f57a8cb7dfd04b793a40d2"
+    },
+    {
+      "file": "runtime/target_red_card_layer.png",
+      "sha256": "54beca611a6b771c168376891b2ffa3be0ba98d3018a2a84f6c2e4337253ab3d"
+    },
+    {
+      "file": "runtime/target_yellow_card_layer.png",
+      "sha256": "fa5fcafb7a05a84d873cd127cc9b046f7fdcaa135f4a2c5f017564d73b4ea25d"
+    }
+  ],
+  "never_use_as_gameplay": [
+    "qa/*",
+    "source/*"
+  ],
+  "scene": "scene/specified_color_card_art.tscn is art-only reference, not condition logic",
+  "count": "Live renderer only; no QA card may replace live remaining"
+}

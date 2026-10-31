@@ -1,0 +1,180 @@
+{
+  "source_size": [
+    1024,
+    1024
+  ],
+  "raw_output_size": [
+    1254,
+    1254
+  ],
+  "normalization_scale": 0.8165869218500797,
+  "warning": "Raw edit is not accepted as an engineering asset: model returned a larger canvas; metrics below use normalized QA copy only. Final composed patch preserves all source geometry outside strictly interior text masks.",
+  "components": {
+    "capacity": {
+      "metric": "same fixed ROI, same RGB threshold color support bbox; not alpha contour",
+      "source_bbox": [
+        240,
+        280,
+        544,
+        132
+      ],
+      "normalized_raw_bbox": [
+        239,
+        280,
+        545,
+        132
+      ],
+      "width_delta_percent": 0.18382352941177516,
+      "height_delta_percent": 0.0
+    },
+    "bar": {
+      "metric": "same fixed ROI, same RGB threshold color support bbox; not alpha contour",
+      "source_bbox": [
+        171,
+        432,
+        682,
+        51
+      ],
+      "normalized_raw_bbox": [
+        171,
+        432,
+        682,
+        51
+      ],
+      "width_delta_percent": 0.0,
+      "height_delta_percent": 0.0
+    },
+    "button": {
+      "metric": "same fixed ROI, same RGB threshold color support bbox; not alpha contour",
+      "source_bbox": [
+        178,
+        615,
+        668,
+        179
+      ],
+      "normalized_raw_bbox": [
+        177,
+        615,
+        669,
+        178
+      ],
+      "width_delta_percent": 0.14970059880239361,
+      "height_delta_percent": -0.5586592178770999
+    }
+  },
+  "source_locked_composite": {
+    "size": [
+      1024,
+      1024
+    ],
+    "patches_local_xywh": {
+      "capacity_text": [
+        410,
+        307,
+        320,
+        89
+      ],
+      "rule_text": [
+        267,
+        521,
+        488,
+        57
+      ],
+      "button_text": [
+        405,
+        641,
+        218,
+        116
+      ]
+    },
+    "all_pixels_outside_patch_rectangles_identical_to_source": true,
+    "component_outer_contour_width_height_change_percent": 0.0,
+    "method": "Imagegen fill patches only. No program-rendered surfaces, gradients, corners or outlines. Original source pixels retained everywhere outside these interior rectangles. Not yet a transparent sprite."
+  },
+  "source_locked_composite_v2": {
+    "size": [
+      1024,
+      1024
+    ],
+    "patches_local_xywh_and_feather_px": {
+      "capacity_text": [
+        [
+          400,
+          298,
+          338,
+          104
+        ],
+        6
+      ],
+      "rule_text": [
+        [
+          256,
+          506,
+          512,
+          86
+        ],
+        10
+      ],
+      "button_text": [
+        [
+          395,
+          636,
+          235,
+          128
+        ],
+        10
+      ]
+    },
+    "contour_size_delta_percent": 0,
+    "outside_interior_patch_rectangles_source_pixel_identical": true,
+    "status": "interior_fill_candidate; no alpha extraction yet; visible seam QA required",
+    "method": "AI-generated fill pixels composited through smooth alpha inside source-fixed local regions. No program-drawn art."
+  },
+  "verified_source_locked_exterior_boundary_comparison": {
+    "capacity": {
+      "fixed_crop_xywh_local": [
+        230,
+        280,
+        566,
+        154
+      ],
+      "output_dimensions": [
+        566,
+        154
+      ],
+      "outer_color_support_boundary_pixels": 4670,
+      "changed_boundary_pixels": 0,
+      "max_boundary_channel_difference": 0
+    },
+    "button": {
+      "fixed_crop_xywh_local": [
+        165,
+        604,
+        693,
+        204
+      ],
+      "output_dimensions": [
+        693,
+        204
+      ],
+      "outer_color_support_boundary_pixels": 4329,
+      "changed_boundary_pixels": 0,
+      "max_boundary_channel_difference": 0
+    },
+    "bar": {
+      "fixed_crop_xywh_local": [
+        150,
+        413,
+        724,
+        89
+      ],
+      "output_dimensions": [
+        724,
+        89
+      ],
+      "outer_color_support_boundary_pixels": 2808,
+      "changed_boundary_pixels": 0,
+      "max_boundary_channel_difference": 0
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "status": "ROOT_VISUAL_REVIEW_PASSED_FOR_HOST_INTEGRATION_CANDIDATE_ONLY",
+  "reference_canvas": [
+    915,
+    1719
+  ],
+  "coords": "xyxy right/bottom exclusive; top-left origin",
+  "uniform_scale": "k = available reference width / 915; apply same k to all rectangles and gaps. preserve aspect; no 9-slice; no independent XY stretch. Center container horizontally.",
+  "title": {
+    "file": "home_title.png",
+    "source_rect": [
+      145,
+      150,
+      775,
+      420
+    ],
+    "size": [
+      630,
+      270
+    ],
+    "center": [
+      460,
+      285
+    ],
+    "normalized_center": [
+      0.5027322404371585,
+      0.16579406631762653
+    ],
+    "fit": "contain",
+    "safe_padding_approx_LTRB": [
+      8,
+      10,
+      13,
+      9
+    ]
+  },
+  "frame": {
+    "file": "home_hero_frame.png",
+    "source_rect": [
+      125,
+      420,
+      790,
+      1085
+    ],
+    "size": [
+      665,
+      665
+    ],
+    "center": [
+      457.5,
+      752.5
+    ],
+    "normalized_center": [
+      0.5,
+      0.4377545084351367
+    ],
+    "fit": "contain",
+    "safe_padding_approx_LTRB": [
+      11,
+      10,
+      11,
+      24
+    ]
+  },
+  "gap": {
+    "title_canvas_bottom_to_frame_canvas_top": 0,
+    "visible_title_bottom_to_frame_top_approx": 19,
+    "note": "Transparent canvas margins provide visible gap. Do not add arbitrary extra gap; preserve same coordinate system."
+  },
+  "hero": {
+    "existing_approved_file": "review_screens/ColorPause_GooglePlay_Icon_512.png",
+    "sha256": "dc8f31f523c8b4448187a8e513f8c0a90b9d37d3f68f9486c8892c0156c46a68",
+    "included": false,
+    "original_reference_insert_rect": [
+      184,
+      475,
+      730,
+      1004
+    ],
+    "qa_underlay_rect": [
+      181,
+      472,
+      733,
+      1007
+    ],
+    "qa_corner_radius": 43,
+    "operation": "Use existing approved image. Uniform cover center crop only background margins. Rounded clip. Draw behind frame. QA extends under inner bevel by 3 native px to avoid bright slit. No redraw/recolor/content substitution."
+  },
+  "layers_back_to_front": [
+    "existing_background",
+    "existing_approved_hero",
+    "home_hero_frame",
+    "home_title"
+  ],
+  "host_requirements": [
+    "Do not replace screen/background/buttons with QA image. Preserve current approved buttons and interactions.",
+    "Use PNG alpha blending. Do not flatten against dark background or color-key.",
+    "Preserve dark cobalt right/top inner edge of original frame; do not erase as background or brighten/expand to hide it. Inspect right-upper corner on actual host.",
+    "Preserve alpha canvas. Do not auto-trim and lose anchor offsets. If trim is necessary keep exact crop-offset registration.",
+    "Reference geometry is an anchor contract, not permission to move approved current buttons. Resolve layout conflicts without silently changing buttons.",
+    "User approval of changed UI and host screenshot verification remain outstanding."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "scope": "Assets only. No engine import, input, persistence, audio/haptics or runtime screenshot pass claimed.",
+  "five_rows": [
+    "sound",
+    "music",
+    "vibration",
+    "language",
+    "guide"
+  ],
+  "toggle_mapping": {
+    "enabled_true": "sound_toggle_on / music_toggle_on / vibration_toggle_on at respective source XYWH",
+    "enabled_false": "toggle_off at each row toggle position, source canvas 255x145",
+    "pressed_true": "toggle_pressed_on",
+    "pressed_false": "toggle_pressed_off",
+    "disabled_true": "toggle_disabled_on",
+    "disabled_false": "toggle_disabled_off"
+  },
+  "state_rules": [
+    "Use a single full toggle sprite, not separate reconstructed knob/check for normal.",
+    "All six canonical states share exactly the sound normal alpha. Other rows share 255x145 nominal dimensions and row-local source centers.",
+    "Pointer down chooses pressed texture; pointer cancel/out restores current value; pointer up changes exactly one bound setting.",
+    "Disabled retains stored value and rejects pointer/keyboard changes; never just substitute ON for unavailable OFF.",
+    "Sound/music/haptics reflect current persistent settings on every opening. Haptics unavailable uses disabled value-preserving state."
+  ],
+  "close": {
+    "normal": "close_normal",
+    "pressed": "close_pressed",
+    "disabled": "close_disabled",
+    "action": "Dismiss this panel, retain settings and previous gameplay state."
+  },
+  "language": {
+    "button": "language_button_blank_[normal|pressed|disabled]",
+    "arrow": "language_arrow",
+    "value_rect_source_xywh": [
+      520,
+      1095,
+      199,
+      65
+    ],
+    "values": [
+      "简体中文",
+      "English"
+    ],
+    "must": "Live one-layer value only. QA dynamic_language_value_reference_only.png and language_original_reference_only.png must never ship as invariant UI or be overlaid by another value."
+  },
+  "guide": {
+    "row_action": "Open actual approved Guide flow, preserve settings and navigation state.",
+    "right_arrow": "guide_arrow",
+    "icon": "guide_question_icon"
+  },
+  "shadows": {
+    "title": "title_shadow at z49",
+    "close": "close_shadow at z59",
+    "language": "language_shadow at z39",
+    "normal_opacity": 1.0,
+    "pressed_opacity": 0.7,
+    "disabled_opacity": 0.45,
+    "rule": "Render before corresponding control; never duplicate with additional CSS shadow. Original composite rows already include source shadow; do not add duplicate component shadows."
+  },
+  "responsive": [
+    "Use one uniform panel scale; no independently distorted glyph/icon/toggle aspect ratios.",
+    "915x1719 source canvas. Frame outer core roughly x48..866,y278..1507. Preserve title/close overlap.",
+    "At 320 CSSpx viewport, close nominal150px and toggle255px remain >=44px with normal width-fit panel; verify short viewport/scroll/safe-area explicitly.",
+    "Keep at least44 CSSpx interactive hit targets even if displayed artwork smaller; invisible target expansion must not collide."
+  ],
+  "pending_runtime_acceptance": [
+    "Exact 1:1 source comparison at target runtime capture sizes",
+    "Chinese and English 320x480/other required screens readable and unclipped",
+    "Five row bindings and state persistence",
+    "Pressed/disabled state appearance and input block",
+    "Live language value not duplicated",
+    "Guide navigation/return",
+    "Texture filtering/premultiplied alpha compatibility"
+  ]
+}

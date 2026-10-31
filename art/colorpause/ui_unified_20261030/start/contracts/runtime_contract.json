@@ -1,0 +1,83 @@
+{
+  "canvas_wh": [
+    2070,
+    760
+  ],
+  "geometry_authority": "accepted same-source native_preview_v1 start_level1_static_candidate.png; source canvas695x255/reference body aspect difference0.17645%; do NOT use superseded2102x686 blank",
+  "chinese_normal": {
+    "asset": "assets/start_zh_blank_level_slot.png",
+    "fixed_main_title": "already included, source RGB preserved",
+    "overlay_label_start_again": false,
+    "dynamic_child": "real current level SpriteGlyph group only"
+  },
+  "localized_or_separate_label_route": {
+    "asset": "assets/start_localized_blank_plate.png",
+    "main_label": "original label_start_zh-CN_original.png only when Chinese layered mode, or separately approved English label; exactly one main-label layer",
+    "dynamic_child": "same level SpriteGlyph group"
+  },
+  "both_variants_same": {
+    "canvas": true,
+    "alpha": true,
+    "alpha128_bbox_xyxy": [
+      25,
+      24,
+      2040,
+      717
+    ],
+    "alpha_nonzero_bbox_xyxy": [
+      22,
+      21,
+      2042,
+      720
+    ]
+  },
+  "source_locked_regions": "Only authorized former-text interior patch pixels use imagegen repair. Source top highlight band, side glints, capsule chrome, outer silhouette and lower lip retained. Support generation2069-wide outputs were never globally resized or adopted as whole button geometry.",
+  "level_slot": {
+    "source_rect_xywh": [
+      705,
+      499,
+      646,
+      177
+    ],
+    "dynamic_safe_rect_xywh": [
+      750,
+      520,
+      558,
+      132
+    ],
+    "reference_white_face_bbox_xyxy": [
+      891,
+      541,
+      1176,
+      633
+    ],
+    "reference_white_face_height_source_px": 92,
+    "reference_white_face_center_y_source_px": 587,
+    "center_x_source_px": 1035,
+    "compose": "original第 + approved Home brown-rim digit sprites for current level + original关; one-digit and two-digit values centered by visible ink bbox, not transparent texture padding",
+    "range": "actual current level1..50, not hardcoded1 or4",
+    "preserve_baseline": "same face-height/brown-rim material as source; do not pin to lower lip",
+    "forbidden": [
+      "FontVariation synthetic embolden/MSDF substitution",
+      "fixed level screenshot",
+      "nonuniformly stretched digits",
+      "reflowing main caption to hide bottom-field error"
+    ],
+    "numeric_white_face_height_source_px": 77,
+    "em_note": "92px is full 第1关 group including original Chinese symbols; numeric em alone is77px. Use Home atlas original prefix/suffix em ratios at numeric em77, not92. Center full visible run at(1035,587) and preserve per-glyph baseline."
+  },
+  "scale_and_touch": {
+    "uniform_source_scale_only": true,
+    "example294dp_width_height": 107.94,
+    "minimum_hit_dp": 44,
+    "natural_aspect": 2.723684210526316,
+    "mipmaps": true,
+    "filter": "LINEAR_WITH_MIPMAPS"
+  },
+  "states": {
+    "normal": "complete source texture",
+    "pressed": "use existing authorized runtime shared treatment, keep same hit rect and glyph alignment",
+    "disabled": "host-defined disabled state, never fake energy availability"
+  },
+  "acceptance_scope": "Root actual-view approved source geometry and asset QA; actual native/MCP 1:1 check still required"
+}

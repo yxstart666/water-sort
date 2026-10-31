@@ -1,12 +1,7 @@
 {
   "generator_sha256": "e6ec4b77b0dbd84368013f0c226d992987148eb56d558c88f27c41ac6a5f228b",
-  "generator_source": "project/assets/audio/generate_audio.py",
+  "generator_source": "assets/audio/generate_audio.py",
   "assets": [
-    {
-      "file": "music_loop.wav",
-      "sha256": "202f6e210013223fd97029a0aa0eb69d2af869d0caaf2f39124d72561e9500bf",
-      "reproduction_identical": true
-    },
     {
       "file": "click.wav",
       "sha256": "c6d239eedb47c8b8469a8f255ac75172d04d9f09fcd004687a82c1f31a3904c9",
@@ -41,5 +36,20 @@
   "external_recordings_observed": false,
   "sample_rate": 22050,
   "channels": 1,
-  "pcm_bits": 16
+  "pcm_bits": 16,
+  "current_background_music": {
+    "file": "art/reference2-delivery-20261024/music_sunlit_steps_v1/caiping_sunlit_steps_112bpm.ogg",
+    "sha256": "e069645ac28c944c1bd46be68eb8fe72bbf3ce21b26cf21788d06a89fc459bf0",
+    "delivery_commit": "78d17ed05c84dbbe2ed5b658be41beffe05eb75e",
+    "source_contract": "art/reference2-delivery-20261024/music_sunlit_steps_v1/music_delivery.json",
+    "generator": "art/reference2-delivery-20261024/music_sunlit_steps_v1/generate_bgm.py",
+    "original_composition": true,
+    "external_samples": false,
+    "bpm": 112,
+    "duration_seconds": 68.57142857142857,
+    "pitch_scale": 1,
+    "gain_db": -3,
+    "loop": "whole OGG, native AudioStreamOggVorbis.loop",
+    "human_listening_verified": false
+  }
 }

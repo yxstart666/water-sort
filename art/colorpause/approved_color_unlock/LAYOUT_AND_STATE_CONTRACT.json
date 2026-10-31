@@ -1,0 +1,156 @@
+{
+  "status": "ROOT_VISUAL_CANDIDATE_ACCEPTED_GAME_RUNTIME_ACCEPTANCE_PENDING",
+  "palette_source": "scripts/water_sort/order_gameplay_assets.gd LIQUID_PALETTE / TOP_PALETTE (8 colors, includes pink)",
+  "canvas": [
+    326,
+    456
+  ],
+  "shell": {
+    "file": "runtime/card_shell_reusable.png",
+    "source_path": "art/colorpause/approved_any_unlock/runtime/card_shell_reusable.png",
+    "sha256": "60fb7645dcb82efc03d78ff318dbf7750f29bf49e62624598713879ce04723c8",
+    "copied_byte_for_byte": true,
+    "alpha_bbox": [
+      1,
+      1,
+      325,
+      455
+    ]
+  },
+  "cloth": {
+    "unchanged": true,
+    "source_path": "art/colorpause/approved_cloth_order/runtime/cloth_overlay_cut.png",
+    "sha256": "f0f34d79b36393e7e930c3b6fbd1a4b2ee8b34ef156f9c48f0509219627e5e36",
+    "canvas": [
+      677,
+      1917
+    ],
+    "position": [
+      13.680866965620337,
+      6.456544502617801
+    ],
+    "scale": [
+      0.20478325859491778,
+      0.181151832460733
+    ]
+  },
+  "card_geometry": {
+    "bottle_canvas": [
+      165,
+      410
+    ],
+    "position": [
+      31.20222222222222,
+      88.64666666666665
+    ],
+    "scale": 0.3177777777777778,
+    "centered": false,
+    "z_index": "keep existing bottle-local cover stack; no global z change",
+    "one_normalization_only": true
+  },
+  "layer_order": [
+    "unchanged cloth",
+    "shell",
+    "target_<color>_card_layer.png",
+    "live remaining count"
+  ],
+  "icon_layer": {
+    "position": [
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1
+    ],
+    "canvas": [
+      326,
+      456
+    ],
+    "visible_bottle_top": 40,
+    "visible_bottle_height": 220,
+    "center_x": 163,
+    "filter": "linear",
+    "repeat": false,
+    "mipmap": false,
+    "lossless": true,
+    "preserve_alpha": true
+  },
+  "locale": {
+    "zh": "same text-free icon layer",
+    "en": "same text-free icon layer",
+    "no_objective_label": true
+  },
+  "count": {
+    "source": "existing condition.remaining; never delivered total or required constant",
+    "baked": false,
+    "renderer_reference": "scripts/water_sort/art/approved_any_count.gd",
+    "existing_supported_values": [
+      1,
+      2
+    ],
+    "integration_required": "For C3 all required/remaining values are 1 or 2. Reuse existing approved_any_count.gd unchanged; no >2 extension required for this delivery.",
+    "font_claim": "Existing explicit NotoSansCJKsc-Bold live face, NOT the exact typeface of original generated blue source",
+    "number_baseline": [
+      157,
+      420
+    ],
+    "number_px": 200,
+    "times_baseline": [
+      51,
+      375
+    ],
+    "times_px": 100,
+    "fill": "FAFBFF",
+    "outline": "030617",
+    "times_outline": 3,
+    "number_outline": 5,
+    "zero": "hide card when remaining<=0; existing lock flow owns cloth",
+    "multi_digit": "must fit measured live glyph width within card safe bounds; do not bake",
+    "edge_acceptance": "Existing live count baselines preserved as reference. Root must confirm number and outline remain inside inner frame in actual Godot; QA is not a texture and not proof of glyph bounds."
+  },
+  "unsupported_color": "Development must push_error/assert and automated tests must fail on unknown color. Never silently substitute ANY/BLUE or cloth-only. Existing gameplay condition remains unchanged. All current 8 palette tokens provided.",
+  "rules": "No condition, gate, ad, delivery, level, unlock or UI business code edited. Visual completion is not mechanism acceptance.",
+  "qa_count_rendering": "QA images use Pillow/FreeType at existing font/baselines and are illustrative; root must verify Godot live renderer at actual gameplay scale. Runtime PNGs contain no digits.",
+  "alpha_note": "Full raw imagegen RGBA sources preserved byte-for-byte, including subvisible alpha=1 noise. Runtime layers are geometry-only uniform downsample+transparent composition, not program recoloring or repainting.",
+  "c3_verified_state_census_from_root": {
+    "specified_color": {
+      "total": 22,
+      "required": 1,
+      "remaining_transition": [
+        1,
+        0
+      ],
+      "by_color": {
+        "blue": 4,
+        "green": 4,
+        "orange": 1,
+        "purple": 3,
+        "red": 3,
+        "yellow": 7
+      }
+    },
+    "any": {
+      "total": 5,
+      "required1_levels": [
+        15,
+        40
+      ],
+      "required2_levels": [
+        25,
+        35,
+        45
+      ]
+    },
+    "pink_cyan": "supported by current palette; no C3 specified-color targets",
+    "max_required": 2,
+    "min_live_card_rect_px": [
+      19.466,
+      27.229
+    ],
+    "min_live_context": "L26, 11 bottles, 320×480; logical rendered rectangle, not Android dp and not alpha bbox"
+  },
+  "minimum_readability": "19.466×27.229 preview confirms broad target hue survives; bottle detail is only ~6×13px and count glyphs are ~7×10px. Do not claim comfortably readable UI at this size. Root live screenshot must decide whether card/layout enlargement is required; art package itself does not change layout.",
+  "runtime_texture_whitelist": "RUNTIME_WHITELIST.json; only these 9 PNGs may paint gameplay. Never use qa/*.png as live textures.",
+  "root_review_20261030": "8-color candidate icons, full cards and 19.466×27.229 reference QA visually reviewed. Color information exists without overlap; not a claim of ease of reading at 19px width. Any viewport-responsive enlargement is root-owned layout work and must not block adjacent bottles or pouring."
+}

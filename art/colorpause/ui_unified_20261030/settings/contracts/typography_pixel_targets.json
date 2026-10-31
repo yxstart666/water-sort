@@ -1,0 +1,64 @@
+{
+  "Chinese_static": "Use source title_original_zh OR title_blank + title_label_zh. Row labels are extracted source glyph artwork; never overlay duplicate native Chinese text.",
+  "Chinese_text": [
+    "设置",
+    "声音",
+    "音乐",
+    "震动",
+    "语言",
+    "玩法说明"
+  ],
+  "English": "No approved English art source exists in this package. Use established clear native bold UI font with restrained source-blue outline/shadow; crisp full glyphs, no imagegen English claims.",
+  "English_labels": [
+    "Settings",
+    "Sound",
+    "Music",
+    "Haptics",
+    "Language",
+    "How to Play"
+  ],
+  "English_slots_source_xywh": {
+    "title": [
+      270,
+      219,
+      377,
+      124
+    ],
+    "sound": [
+      305,
+      462,
+      230,
+      83
+    ],
+    "music": [
+      305,
+      670,
+      230,
+      84
+    ],
+    "vibration": [
+      305,
+      879,
+      230,
+      84
+    ],
+    "language": [
+      305,
+      1087,
+      174,
+      84
+    ],
+    "guide": [
+      305,
+      1295,
+      385,
+      84
+    ]
+  },
+  "native_requirements": [
+    "Single line, center vertically within slots; do not truncate.",
+    "Use font size and weight appropriate to target screen; do not simulate source art with low-resolution atlas masks.",
+    "Language value must fit [520,1095,199,65] while leaving separate arrow clear.",
+    "Native font glyph holes/tearing or soft downsampled strokes are runtime blockers."
+  ]
+}

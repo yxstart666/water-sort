@@ -1,7 +1,3 @@
-# 项目开工入口
+# Development entry
 
-先读 README.md 与 docs/DEVELOPMENT_STANDARD.md，再读本项目玩法／产品文档、当前交接和实际仓库状态。需要3D模型时读 docs/OPTIONAL_3D_PIPELINE.md。
-
-首次完整执行、续接仅核验变化，环境重大改变重查受影响项。按 templates/STARTUP_CHECKLIST.md 输出开工核验：规范版本与commit、项目分支与commit、已核实状态、实际环境／工具、适用与N/A流程、缺口、首个里程碑。不得从旧聊天猜测进度，不能把计划、模拟服务或未执行测试说成完成。
-
-项目应固定规范版本；更新经审核。仓库或文档不可访问时报告准确阻塞，不能声称已读取。遵守系统指令、安全和权限要求；本文件不授予额外权限或收费授权。
+Read README.md and docs/DEVELOPMENT_STANDARD.md here, then ../../README.md and ../current/DEVELOPMENT.md. This retained V1.2 standard is pinned to 4025312802d8b4d4397d8b717699eeb8abbeee47. Project scope and current user authorization take precedence over generic examples. Optional 3D workflow is N/A. Record verified state, remaining checks, actual environment and changed handoff facts; never infer success from planned tests.
